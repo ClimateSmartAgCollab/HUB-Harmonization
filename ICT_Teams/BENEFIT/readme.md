@@ -1,23 +1,5 @@
-# ICT Team Benefit working space
+# Bio-Inoculants For The Promotion Of Nutrient Use Efficiency And Crop Resiliency In Canadian Agriculture (BENEFIT)
 
-## Data documentation
-
-### Soil data schema
-* collect_date: DateTime
-* collect_time: DateTime
-* date_in: DateTime
-* date_out: DateTime
-* duration: DateTime
-* farm: Text
-* final_mass: Numeric
-* initial_mass: Numeric
-* latitude: Text
-* longitude: Text
-* moisture: Numeric
-* paddock_id: Numeric
-* sample_id: Text
-* sample_type: Text
-* samplers: Array[Text]
-* temperature: Numeric
-* time_in: DateTime
-* time_out: DateTime
+* Ivan Oresnik (University of Manitoba), Lead
+* George diCenzo (Queen’s University), Lead
+* Derek Brewin (GEL3LS lead)
