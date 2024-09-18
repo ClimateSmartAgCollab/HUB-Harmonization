@@ -1,6 +1,6 @@
-# ICT Team Benefit working space
+# Example ICT team working space
 
-## Data documentation
+## Data schemas
 
 ### Soil data schema
 * collect_date: DateTime
