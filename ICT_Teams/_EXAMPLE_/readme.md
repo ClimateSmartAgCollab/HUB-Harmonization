@@ -1,5 +1,7 @@
 # Example ICT team working space
 
+This example folder is used to provide examples of how an ICT team can share and develop their data documentation. In this folder there can be folders for data schemas and for 
+
 ## Data schemas
 
 ### Soil data schema
