@@ -8,8 +8,6 @@ GitHub offers our project several advantages. It has built in discussion, wiki a
 # Get Help
 
 ## Harmonization HUB structure
-### Folder ICT_Teams
-Each ICT team has a team folder for storing their work on harmonizing data. This can include data documentation, data schemas, and ontology or controlled vocabulary development. ICT_Teams folders are only accessible to those members with access to the repository. This is a working folder for active data. 
 
 ###  Folder data_standards
 Work on harmonizing data by the creation of new standards is done in this folder.
