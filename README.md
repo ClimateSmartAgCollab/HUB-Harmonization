@@ -15,7 +15,7 @@ Each ICT team has a team folder for storing their work on harmonizing data. This
 Work on harmonizing data by the creation of new standards is done in this folder.
 
 ## Get help with GitHub and using the Harmonization HUB
-* 
+* [Markdown Cheatsheet for writing in GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 # First steps
 * Bookmark the learning site which will be continually updated with new information.
