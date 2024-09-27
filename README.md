@@ -9,8 +9,8 @@ GitHub offers our project several advantages. It has built in discussion, wiki a
 
 ## Harmonization HUB structure
 
-###  Folder data_standards
-Work on harmonizing data by the creation of new standards is done in this folder.
+* **Folder data_standards**: Work on harmonizing data by the creation of new standards is done in this folder.
+* **Discussions**: Use the built in Discussions to connect with the community.
 
 ## Get help with GitHub and using the Harmonization HUB
 * [Markdown Cheatsheet for writing in GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
