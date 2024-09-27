@@ -26,7 +26,7 @@ Work on harmonizing data by the creation of new standards is done in this folder
 # Harmonization HUB discussions
 ![GitHub discussions link](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/assets/GitHub_discussions.png)
 
-Here you can ask the community for recommendations and suggestions for all things related to data standards such as which standards to recommend, which ontologies to use, how to document data and more. Start a new discussion in the relevant category to begin connecting with your colleagues.
+In [discussions](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/discussions) you can ask the community for recommendations and suggestions for all things related to data standards such as which standards to recommend, which ontologies to use, how to document data and more. Start a new discussion in the relevant category to begin connecting with your colleagues.
 
 The discussions board will also be where we will discuss the creation of new standards to be used by the community based on their data harmonization needs.
 
