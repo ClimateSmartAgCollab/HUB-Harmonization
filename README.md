@@ -16,12 +16,15 @@ Work on harmonizing data by the creation of new standards is done in this folder
 * [Markdown Cheatsheet for writing in GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 # First steps
-* Bookmark the learning site which will be continually updated with new information.
+* Bookmark the [learning site](https://climatesmartagcollab.github.io/Documentation/) which will be continually updated with new information.
 * Participate in a discussion, ask your colleagues questions, request help with data schemas.
 * Document data you are generating using the Semantic Engine. Put these schemas (finished or in progress) in your ICT_Team folder.
 * Discover what data other teams are collecting - browse the ICT_Team folders to read data documentation.
 * See an opportunity for similar data collection? Add it to the discussions. The Data Hub will help with data standards development.
 * New standards will be supported by the Data Harmonizer.
+
+# Harmonization HUB discussions
+
 
 # Harmonization Hub outputs
 
