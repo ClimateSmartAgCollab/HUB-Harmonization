@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
         run:
-      working-directory: library
+          working-directory: library
     steps:
       - name: Checkout
         uses: actions/checkout@v4
