@@ -10,27 +10,28 @@ GitHub offers our project several advantages. It has built in discussion, wiki a
 ## Harmonization HUB structure
 
 * **Folder data_standards**: Work on harmonizing data by the creation of new standards is done in this folder.
-* **Discussions**: Use the built in Discussions to connect with the community.
+* **library**: markdown versions of schemas created using the [Semantic Engine](https://www.semanticengine.org) can be saved here to appear in the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/).
+* **[Schema library]**(https://climatesmartagcollab.github.io/HUB-Harmonization/): search and view schemas in the public schema library.
 
 ## Get help with GitHub and using the Harmonization HUB
 * [Markdown Cheatsheet for writing in GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 # First steps
 * Bookmark the [learning site](https://climatesmartagcollab.github.io/Documentation/) which will be continually updated with new information.
-* Participate in a GitHub discussion, ask your colleagues questions, request help with data schemas.
-* Document data you are generating using the [Semantic Engine](https://www.semanticengine.org). Put these schemas (finished or in progress) in your ICT_Team folder for other Harmonization HUB members to view.
-* Discover what data other teams are collecting - browse the ICT_Team folders to read data documentation.
-* See an opportunity for similar data collection? Add it to the discussions. The Data Hub will help with data standards development.
-* New standards will be supported by the Data Harmonizer in the future as they are developed.
+* Participate in a [discussion](https://github.com/orgs/ClimateSmartAgCollab/discussions), ask your colleagues questions, request help with data schemas.
+* Document data you are generating using the [Semantic Engine](https://www.semanticengine.org). Publish these schemas in the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/).
+* Discover what data other teams are collecting - browse the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/).
+* See an opportunity for similar data collection? Add it to the [discussions](https://github.com/orgs/ClimateSmartAgCollab/discussions). The Data Hub will help with data standards development.
+* New standards will be supported by the [Data Harmonizer](https://github.com/cidgoh/DataHarmonizer) in the future as they are developed.
 
 # Harmonization HUB discussions
-![GitHub discussions link](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/assets/GitHub_discussions.png)
 
-In [discussions](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/discussions) you can ask the community for recommendations and suggestions for all things related to data standards such as which standards to recommend, which ontologies to use, how to document data and more. Start a new discussion in the relevant category to begin connecting with your colleagues.
+In [discussion](https://github.com/orgs/ClimateSmartAgCollab/discussions) you can ask the community for recommendations and suggestions for all things related to data standards such as which standards to recommend, which ontologies to use, how to document data and more. Start a new discussion in the relevant category to begin connecting with your colleagues.
 
 The discussions board will also be where we will discuss the creation of new standards to be used by the community based on their data harmonization needs.
 
 # Harmonization Hub outputs
 
 * Shared knowledge and skill building.
+* Searchable library of data being collected by ICTs.
 * Development of new standards for data harmonization.
