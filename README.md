@@ -10,8 +10,7 @@ GitHub offers our project several advantages. It has built in history recording,
 ## Harmonization HUB structure
 
 * **Folder data_standards**: Work on harmonizing data by the creation of new standards is done in this folder.
-* **library**: markdown versions of schemas created using the [Semantic Engine](https://www.semanticengine.org) can be saved here to appear in the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/).
-* **[Schema library]**(https://climatesmartagcollab.github.io/HUB-Harmonization/): search and view schemas in the public schema library.
+* **Library**: markdown versions of schemas created using the [Semantic Engine](https://www.semanticengine.org) can be saved here to appear in the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/).
 
 ## Get help with GitHub
 * [Beginners guide to GitHub](https://climatesmartagcollab.github.io/Documentation-en/github/) is specifically written for an introduction to GitHub for people who aren't necessarily coding.
