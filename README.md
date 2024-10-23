@@ -3,7 +3,7 @@
 The Harmonization HUB is a place for researchers to share and develop their data documentation to ultimately improve data interoperability.
 
 Why GitHub?
-GitHub offers our project several advantages. It has built in discussion, wiki and issue tracking which helps manage the project and collaborate on shared schemas. GitHub is free to use and widely used, any resources that are developed here can be freely copied and moved by ICT teams so that their work can remain available rather than locked to specific infrastructure. GitHub also supports version tracking where every change is recorded. If necessary we can undo any changes in case of mistakes and we can track contributions of the team members. 
+GitHub offers our project several advantages. It has built in history recording, discussion forums and issue tracking which helps manage the project and collaborate on shared schemas. GitHub is free to use and widely used, any resources that are developed here can be freely copied and moved by ICT teams so that their work can remain available rather than locked to specific infrastructure. GitHub supports version tracking where every change is recorded. If necessary we can undo any changes in case of mistakes and we can track contributions of the team members. 
 
 # Get Help
 
@@ -13,8 +13,8 @@ GitHub offers our project several advantages. It has built in discussion, wiki a
 * **library**: markdown versions of schemas created using the [Semantic Engine](https://www.semanticengine.org) can be saved here to appear in the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/).
 * **[Schema library]**(https://climatesmartagcollab.github.io/HUB-Harmonization/): search and view schemas in the public schema library.
 
-## Get help with GitHub and using the Harmonization HUB
-* [Markdown Cheatsheet for writing in GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+## Get help with GitHub
+* [Beginners guide to GitHub](https://climatesmartagcollab.github.io/Documentation-en/github/) is specifically written for an introduction to GitHub for people who aren't necessarily coding.
 
 # First steps
 * Bookmark the [learning site](https://climatesmartagcollab.github.io/Documentation/) which will be continually updated with new information.
