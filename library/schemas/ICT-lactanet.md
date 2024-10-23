@@ -1,7 +1,7 @@
 ---
 title: Lactanet
 layout: default
-nav_order: 9
+nav_order: 11
 ---
 
 # Leveraging Genomics To Achieve Dairy Net-Zero (Lactanet)

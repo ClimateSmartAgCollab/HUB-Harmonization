@@ -1,7 +1,7 @@
 ---
 title: SOCIAL
 layout: default
-nav_order: 2
+nav_order: 3
 ---
 
 # The Social Implications Of Genomic Agri-Food Technologies: Ensuring Equity, Diversity And Inclusion In The Transition To Climate-Resilient Canadian Agricultural And Food Systems

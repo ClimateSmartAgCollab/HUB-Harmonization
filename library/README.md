@@ -1,9 +1,3 @@
----
-title: Home
-layout: home
-nav_order: 1
----
-
 # Schema Library
 
 Welcome to the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/) for the Data Hub project. View and search schemas in the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/) amd contribute your schemas here on the GitHub backend. 

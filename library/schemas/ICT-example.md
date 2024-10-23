@@ -1,7 +1,7 @@
 ---
 title: Example
 layout: default
-nav_order: 1
+nav_order: 2
 ---
 
 # Examples

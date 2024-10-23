@@ -1,7 +1,7 @@
 ---
 title: PEAce
 layout: default
-nav_order: 3
+nav_order: 4
 ---
 
 # PEAce (PEA CLIMATE-EFFICIENT): Developing Climate-Resilient, Low Carbon Footprint Field Pea As A Preferred Rotation Crop Through Interdisciplinary Integration Of Genomic Technologies
