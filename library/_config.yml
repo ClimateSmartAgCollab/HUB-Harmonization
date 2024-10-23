@@ -1,0 +1,13 @@
+title: Data Hub Library
+description: A library of schemas from different ICT projects
+theme: just-the-docs
+
+url: https://just-the-docs.github.io
+
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+url: https://ClimateSmartAgCollab.github.io/HUB-Harmonization
+
+aux_links: # remove if you don't want this link to appear on your pages
+  Template Repository: https://github.com/ClimateSmartAgCollab/HUB-Harmonization
