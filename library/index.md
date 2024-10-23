@@ -6,7 +6,7 @@ nav_order: 1
 
 # Schema Library
 
-Welcome to the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/) for the Data Hub project. View and search schemas in the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/) amd contribute your schemas here on the GitHub backend. 
+Welcome to the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/) for the Data Hub project.
 
 These is a library of active schema projects and so as documentation is refined the contents will change.
 
@@ -14,10 +14,11 @@ Because this work is all done within GitHub, the complete history of changes is 
 
 ## Add to the Library
 
-Write your schema using the [Semantic Engine](https://www.semanticengine.org).
+With data that you have or intend to collect, describe your data using the [Semantic Engine](https://www.semanticengine.org). You will download a .zip version of your schema which is a machine-readable version. Then on the main page of the Semantic Engine drag-and-drop your schema and generate a markdown version. Be sure to select the Data Hub and enter in the correct ICT Team as this information will sort your schema into the right menu item in the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/).
 
-Generate a markdown version of your schema.
+In [Data Harmonization GitHub repository](https://github.com/ClimateSmartAgCollab/HUB-Harmonization), upload your markdown file (which you can rename) to the schema folder.
 
-Copy your schema markdown file into the folder Schemas.
+
+After you have made your file changes, commit your changes and wait for the documentation site to rebuild before viewing your results on the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/).
 
 Learn the GitHub skills to perform this work on our [Documentation site](https://climatesmartagcollab.github.io/Documentation/github/).
