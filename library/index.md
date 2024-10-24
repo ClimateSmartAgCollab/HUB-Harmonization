@@ -21,4 +21,4 @@ In [Data Harmonization GitHub repository](https://github.com/ClimateSmartAgColla
 
 After you have made your file changes, commit your changes and wait for the documentation site to rebuild before viewing your results on the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/).
 
-Learn the GitHub skills to perform this work on our [Documentation site](https://climatesmartagcollab.github.io/Documentation/github/).
+Learn the GitHub skills to perform this work on our [Documentation site](https://climatesmartagcollab.github.io/Documentation-en/github/).
