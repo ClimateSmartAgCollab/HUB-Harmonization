@@ -14,4 +14,4 @@ Generate a markdown version of your schema.
 
 Copy your schema markdown file into the folder Schemas.
 
-Learn the GitHub skills to perform this work on our [Documentation site](https://climatesmartagcollab.github.io/Documentation/github/).
+Learn the GitHub skills to perform this work on our [Documentation site](https://climatesmartagcollab.github.io/Documentation-en/github/).
