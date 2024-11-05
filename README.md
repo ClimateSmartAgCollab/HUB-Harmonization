@@ -17,7 +17,7 @@ GitHub offers our project several advantages. It has built in history recording,
 
 # First steps
 * Bookmark the [learning site](https://climatesmartagcollab.github.io/Documentation/) which will be continually updated with new information.
-* Participate in a [discussion](https://github.com/orgs/ClimateSmartAgCollab/discussions), ask your colleagues questions, request help with data schemas.
+* Participate in a [discussion](https://github.com/orgs/ClimateSmartAgCollab/discussions), ask your colleagues questions, request help with data schemas. You must be a member of this GitHub organization to see the discussions.
 * Document data you are generating using the [Semantic Engine](https://www.semanticengine.org). Publish these schemas in the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/).
 * Discover what data other teams are collecting - browse the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/).
 * See an opportunity for similar data collection? Add it to the [discussions](https://github.com/orgs/ClimateSmartAgCollab/discussions). The Data Hub will help with data standards development.
@@ -25,7 +25,7 @@ GitHub offers our project several advantages. It has built in history recording,
 
 # Harmonization HUB discussions
 
-In [discussion](https://github.com/orgs/ClimateSmartAgCollab/discussions) you can ask the community for recommendations and suggestions for all things related to data standards such as which standards to recommend, which ontologies to use, how to document data and more. Start a new discussion in the relevant category to begin connecting with your colleagues.
+In [discussion](https://github.com/orgs/ClimateSmartAgCollab/discussions) you can ask the community for recommendations and suggestions for all things related to data standards such as which standards to recommend, which ontologies to use, how to document data and more. Start a new discussion in the relevant category to begin connecting with your colleagues. You must be a member of this GitHub organization to see the discussions.
 
 The discussions board will also be where we will discuss the creation of new standards to be used by the community based on their data harmonization needs.
 
