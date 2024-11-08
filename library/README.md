@@ -15,3 +15,7 @@ Generate a markdown version of your schema.
 Copy your schema markdown file into the folder Schemas.
 
 Learn the GitHub skills to perform this work on our [Documentation site](https://climatesmartagcollab.github.io/Documentation-en/github/).
+
+## Already documented schemas?
+
+If you are using already documented schemas it is not necessary to use the Semantic Engine to redocument your work. Connect with the [Data Hub team](mailto:info@climatesmartagrifood.ca) to discuss how to add your schema (or schema description) to the library.
