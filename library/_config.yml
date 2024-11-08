@@ -6,3 +6,7 @@ url: https://ClimateSmartAgCollab.github.io/HUB-Harmonization
 
 aux_links: # remove if you don't want this link to appear on your pages
   Template Repository: https://github.com/ClimateSmartAgCollab/HUB-Harmonization
+
+search_enabled: true
+search.heading_level: 1
+search.button: true
