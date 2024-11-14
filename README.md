@@ -5,7 +5,7 @@ EN/FR
 The Harmonization HUB is a place for researchers to share and develop their data documentation to ultimately improve data interoperability.
 
 Why GitHub?
-GitHub offers our project several advantages. It has built in history recording, discussion forums and issue tracking which helps manage the project and collaborate on shared schemas. GitHub is free to use and widely used, any resources that are developed here can be freely copied and moved by ICT teams so that their work can remain available rather than locked to specific infrastructure. GitHub supports version tracking where every change is recorded. If necessary we can undo any changes in case of mistakes and we can track contributions of the team members. 
+GitHub offers our project several advantages. It has built in history recording, discussion forums and issue tracking which helps manage the project and collaborate on shared schemas. GitHub is free to use and widely used, any resources that are developed here can be freely copied and moved by ICT (Interdisciplinary Challenge Team) teams so that their work can remain available rather than locked to specific infrastructure. GitHub supports version tracking where every change is recorded. If necessary we can undo any changes in case of mistakes and we can track contributions of the team members. 
 
 # Get Help
 
@@ -44,22 +44,22 @@ The discussions board will also be where we will discuss the creation of new sta
 Le HUB d'Harmonisation est un espace pour les chercheurs visant à partager et à développer leur documentation de données dans le but d'améliorer l'interopérabilité des données.
 
 Pourquoi GitHub ?
-GitHub offre plusieurs avantages pour notre projet. Il comprend un enregistrement intégré de l'historique, des forums de discussion et un suivi des problèmes, ce qui aide à gérer le projet et à collaborer sur des schémas partagés. GitHub est gratuit et largement utilisé, et toutes les ressources développées ici peuvent être librement copiées et transférées par les équipes TIC afin que leur travail reste disponible, sans être verrouillé sur une infrastructure spécifique. GitHub prend en charge le suivi des versions où chaque modification est enregistrée. Si nécessaire, nous pouvons annuler les changements en cas d'erreur et suivre les contributions des membres de l'équipe.
+GitHub offre plusieurs avantages pour notre projet. Il comprend un enregistrement intégré de l'historique, des forums de discussion et un suivi des problèmes, ce qui aide à gérer le projet et à collaborer sur des schémas partagés. GitHub est gratuit et largement utilisé, et toutes les ressources développées ici peuvent être librement copiées et transférées par les équipes EID (Équipe Interdisciplinaire de Défi)  afin que leur travail reste disponible, sans être verrouillé sur une infrastructure spécifique. GitHub prend en charge le suivi des versions où chaque modification est enregistrée. Si nécessaire, nous pouvons annuler les changements en cas d'erreur et suivre les contributions des membres de l'équipe.
 
 # Obtenir de l'aide
 
 ## Structure du HUB d'Harmonisation
 
 * **Dossier data_standards** : le travail sur l'harmonisation des données par la création de nouvelles normes se fait dans ce dossier.
-* **Bibliothèque** : des versions markdown des schémas créés à l'aide du [Moteur Sémantique](https://www.semanticengine.org) peuvent être enregistrées ici pour apparaître dans la [bibliothèque de schémas](https://climatesmartagcollab.github.io/HUB-Harmonization/).
+* **Bibliothèque** : des versions markdown des schémas créés à l'aide du [Moteur Sémantique](https://www.semanengine.org) peuvent être enregistrées ici pour apparaître dans la [bibliothèque de schémas](https://climatesmartagcollab.github.io/HUB-Harmonization/).
 
 ## Obtenir de l'aide avec GitHub
 * Le [guide pour débutants sur GitHub](https://climatesmartagcollab.github.io/Documentation-en/github/) est spécialement rédigé pour introduire GitHub aux personnes qui ne codent pas nécessairement.
 
 # Premiers pas
 * Ajoutez aux favoris le [site d'apprentissage](https://climatesmartagcollab.github.io/Documentation/), qui sera régulièrement mis à jour avec de nouvelles informations.
-* Participez à une [discussion](https://github.com/orgs/ClimateSmartAgCollab/discussions), posez des questions à vos collègues, demandez de l'aide pour les schémas de données. Vous devez être membre de cette organisation GitHub pour voir les discussions.
-* Documentez les données que vous générez en utilisant le [Moteur Sémantique](https://www.semanticengine.org). Publiez ces schémas dans la [bibliothèque de schémas](https://climatesmartagcollab.github.io/HUB-Harmonization/).
+* Paripez à une [discussion](https://github.com/orgs/ClimateSmartAgCollab/discussions), posez des questions à vos collègues, demandez de l'aide pour les schémas de données. Vous devez être membre de cette organisation GitHub pour voir les discussions.
+* Documentez les données que vous générez en utilisant le [Moteur Sémantique](https://www.semanengine.org). Publiez ces schémas dans la [bibliothèque de schémas](https://climatesmartagcollab.github.io/HUB-Harmonization/).
 * Découvrez quelles données les autres équipes collectent - parcourez la [bibliothèque de schémas](https://climatesmartagcollab.github.io/HUB-Harmonization/).
 * Voyez une opportunité pour une collecte de données similaire ? Ajoutez-la aux [discussions](https://github.com/orgs/ClimateSmartAgCollab/discussions). Le Data Hub aidera au développement de normes de données.
 * De nouvelles normes seront soutenues par le [Data Harmonizer](https://github.com/cidgoh/DataHarmonizer) à mesure de leur développement dans le futur.
@@ -73,6 +73,6 @@ Le forum de discussions sera également l'endroit où nous discuterons de la cr�
 # Résultats du HUB d'Harmonisation
 
 * Partage de connaissances et développement des compétences.
-* Bibliothèque consultable de schémas de données générés par les TIC.
+* Bibliothèque consultable de schémas de données générés par les EID.
 * Développement de nouvelles normes pour l'harmonisation des données.
 
