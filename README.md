@@ -18,7 +18,7 @@ GitHub offers our project several advantages. It has built in history recording,
 * [Beginners guide to GitHub](https://climatesmartagcollab.github.io/Documentation-en/github/) is specifically written for an introduction to GitHub for people who aren't necessarily coding.
 
 # First steps
-* Bookmark the [learning site](https://climatesmartagcollab.github.io/Documentation/) which will be continually updated with new information.
+* Bookmark the [learning site](https://climatesmartagcollab.github.io/Documentation-en/) which will be continually updated with new information.
 * Participate in a [discussion](https://github.com/orgs/ClimateSmartAgCollab/discussions), ask your colleagues questions, request help with data schemas. You must be a member of this GitHub organization to see the discussions.
 * Document data you are generating using the [Semantic Engine](https://www.semanticengine.org). Publish these schemas in the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/).
 * Discover what data other teams are collecting - browse the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/).
@@ -51,15 +51,15 @@ GitHub offre plusieurs avantages pour notre projet. Il comprend un enregistremen
 ## Structure du HUB d'Harmonisation
 
 * **Dossier data_standards** : le travail sur l'harmonisation des données par la création de nouvelles normes se fait dans ce dossier.
-* **Bibliothèque** : des versions markdown des schémas créés à l'aide du [Moteur Sémantique](https://www.semanengine.org) peuvent être enregistrées ici pour apparaître dans la [bibliothèque de schémas](https://climatesmartagcollab.github.io/HUB-Harmonization/).
+* **Bibliothèque** : des versions markdown des schémas créés à l'aide du [Semantic Engine](https://www.semanticengine.org) peuvent être enregistrées ici pour apparaître dans la [bibliothèque de schémas](https://climatesmartagcollab.github.io/HUB-Harmonization/).
 
 ## Obtenir de l'aide avec GitHub
-* Le [guide pour débutants sur GitHub](https://climatesmartagcollab.github.io/Documentation-en/github/) est spécialement rédigé pour introduire GitHub aux personnes qui ne codent pas nécessairement.
+* Le [guide pour débutants sur GitHub](https://climatesmartagcollab.github.io/Documentation-fr/github/) est spécialement rédigé pour introduire GitHub aux personnes qui ne codent pas nécessairement.
 
 # Premiers pas
-* Ajoutez aux favoris le [site d'apprentissage](https://climatesmartagcollab.github.io/Documentation/), qui sera régulièrement mis à jour avec de nouvelles informations.
-* Paripez à une [discussion](https://github.com/orgs/ClimateSmartAgCollab/discussions), posez des questions à vos collègues, demandez de l'aide pour les schémas de données. Vous devez être membre de cette organisation GitHub pour voir les discussions.
-* Documentez les données que vous générez en utilisant le [Moteur Sémantique](https://www.semanengine.org). Publiez ces schémas dans la [bibliothèque de schémas](https://climatesmartagcollab.github.io/HUB-Harmonization/).
+* Ajoutez aux favoris le [site d'apprentissage](https://climatesmartagcollab.github.io/Documentation-fr/), qui sera régulièrement mis à jour avec de nouvelles informations.
+* Participez à une [discussion](https://github.com/orgs/ClimateSmartAgCollab/discussions), posez des questions à vos collègues, demandez de l'aide pour les schémas de données. Vous devez être membre de cette organisation GitHub pour voir les discussions.
+* Documentez les données que vous générez en utilisant le [moteur sémantique](https://www.semanticengine.org). Publiez ces schémas dans la [bibliothèque de schémas](https://climatesmartagcollab.github.io/HUB-Harmonization/).
 * Découvrez quelles données les autres équipes collectent - parcourez la [bibliothèque de schémas](https://climatesmartagcollab.github.io/HUB-Harmonization/).
 * Voyez une opportunité pour une collecte de données similaire ? Ajoutez-la aux [discussions](https://github.com/orgs/ClimateSmartAgCollab/discussions). Le Data Hub aidera au développement de normes de données.
 * De nouvelles normes seront soutenues par le [Data Harmonizer](https://github.com/cidgoh/DataHarmonizer) à mesure de leur développement dans le futur.
