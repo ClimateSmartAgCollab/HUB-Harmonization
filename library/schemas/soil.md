@@ -1,7 +1,7 @@
 ---
 layout: default  
 title: soil  
-parent: Loop  
+parent: Example  
 ---
 
 # Schema information
