@@ -1,10 +1,10 @@
 ---
-title: Lactanet
+title: NDGP
 layout: default
 nav_order: 11
 ---
 
-# Leveraging Genomics To Achieve Dairy Net-Zero (Lactanet)
+# Leveraging Genomics To Achieve Dairy Net-Zero (NDGP)
 
 * Christine Baes (University of Guelph), Lead
 * Filippo Miglior (University of Guelph), 
