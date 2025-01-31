@@ -1,7 +1,7 @@
 ---
 title: GG4GHG
 layout: default
-nav_order: 6
+nav_order: 8
 ---
 
 # Grassland Genomics For Green House Gas Mitigation (GG4GHG)
