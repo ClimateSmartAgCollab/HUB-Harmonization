@@ -1,7 +1,7 @@
 ---
 title: Loop
 layout: default
-nav_order: 5
+nav_order: 9
 ---
 
 # Omics To Close The Loop: Optimized Amendment From Local Agri-Food Waste For Carbon Footprint Reduction
