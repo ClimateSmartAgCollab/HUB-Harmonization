@@ -22,6 +22,8 @@ parent: BENEFIT
 
 ## Schema quick view
 
+[Download Schema](TEAM_OCA_bundle.zip)
+
 | Attribute | Label | Description |
 | --- | --- | --- |
 | Act_1.1 | Act_1.1 |  |
