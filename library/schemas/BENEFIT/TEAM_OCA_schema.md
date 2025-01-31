@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Act 1 Individual Soil Samples (TEAM BENEFIT)  
+title: TEAM BENEFIT: Act 1 Individual Soil Samples  
 parent: BENEFIT  
 ---
 
@@ -16,7 +16,7 @@ parent: BENEFIT
 **Name**: TEAM BENEFIT: Act 1 Individual Soil Samples  
 **Description**: This is a dataset of soils that have been collected for use in the ICT project. Ideally we would add more information here regarding the file/project  
 **Classification**: RDF105  
-**Author**: CS-DCC   
+**Author**: Michelle Edwards  
 **Author Email**: edwardsm@uoguelph.ca  
 **ICT Group**: BENEFIT  
 
@@ -83,6 +83,45 @@ parent: BENEFIT
 | No | No |
 | Yes | Yes |
 
+#### City entry codes
+
+| Entry code | Label |
+| --- | --- |
+| Addison | Addison |
+| Arnaud | Arnaud |
+| Bagot | Bagot |
+| Balmoral | Balmoral |
+| Bath | Bath |
+| Bornholm | Bornholm |
+| Brampton | Brampton |
+| Brandon | Brandon |
+| Caledon | Caledon |
+| Carman | Carman |
+| Cartwright | Cartwright |
+| Central Elgin | Central Elgin |
+| Dublin | Dublin |
+| Exeter | Exeter |
+| Francis | Francis |
+| Glenlea | Glenlea |
+| Granton | Granton |
+| Kingston | Kingston |
+| Lacombe | Lacombe |
+| Lanigan | Lanigan |
+| MacGregor | MacGregor |
+| Melita | Melita |
+| Minto | Minto |
+| NA | NA |
+| Oak Lake | Oak Lake |
+| Paris (Brant County) | Paris (Brant County) |
+| Parkbeg | Parkbeg |
+| Phillips Farm | Phillips Farm |
+| Portage la Prairie | Portage la Prairie |
+| St. George (Brant County) | St. George (Brant County) |
+| St. Pierre Jolys | St. Pierre Jolys |
+| Wawanesa | Wawanesa |
+| Wawota | Wawota |
+| Winchester | Winchester |
+
 #### Province entry codes
 
 | Entry code | Label |
@@ -103,26 +142,26 @@ parent: BENEFIT
 
 ## Language-independent schema details
 
-| Attribute | Sensitive | Unit | Type | Character encoding | Required entry |
-| --- | --- | --- | --- | --- | --- |
-| Act_1.1 | false |  | Binary | utf-8 | false |
-| Act_1.3 | false |  | Binary | utf-8 | false |
-| Act_1.4 | false |  | Binary | utf-8 | false |
-| Act_2.1 | false |  | Binary | utf-8 | false |
-| City | false |  | Text | utf-8 | false |
-| Collected | false |  | DateTime | utf-8 | false |
-| Host_Plant | false |  | Text | utf-8 | false |
-| Isolations_Made? | false |  | Text | utf-8 | false |
-| Label | false |  | Text | utf-8 | true |
-| Label_original | false |  | Text | utf-8 | false |
-| Lat | true |  | Numeric | utf-8 | false |
-| Long | true |  | Numeric | utf-8 | false |
-| Notes | false |  | Text | utf-8 | false |
-| Province | false |  | Text | utf-8 | false |
-| Received | false |  | DateTime | utf-8 | false |
-| Storage | false |  | Text | utf-8 | false |
-| Subsample_to_Corradi_Lab | false |  | Text | utf-8 | false |
-| Subsample_to_Scott_lab | false |  | Text | utf-8 | false |
+| Attribute | Sensitive | Unit | Type | Character encoding | Required entry | Format rule |
+| --- | --- | --- | --- | --- | --- | --- |
+| Act_1.1 | false |  | Boolean | utf-8 | false |  |
+| Act_1.3 | false |  | Boolean | utf-8 | false |  |
+| Act_1.4 | false |  | Boolean | utf-8 | false |  |
+| Act_2.1 | false |  | Boolean | utf-8 | false |  |
+| City | false |  | Text | utf-8 | false | ^\.\{0,50\}$ |
+| Collected | false |  | DateTime | utf-8 | false |  |
+| Host_Plant | false |  | Text | utf-8 | false |  |
+| Isolations_Made? | false |  | Text | utf-8 | false |  |
+| Label | false |  | Text | utf-8 | true |  |
+| Label_original | false |  | Text | utf-8 | false |  |
+| Lat | true |  | Numeric | utf-8 | false |  |
+| Long | true |  | Numeric | utf-8 | false |  |
+| Notes | false |  | Text | utf-8 | false |  |
+| Province | false |  | Text | utf-8 | false |  |
+| Received | false |  | DateTime | utf-8 | false |  |
+| Storage | false |  | Text | utf-8 | false |  |
+| Subsample_to_Corradi_Lab | false |  | Text | utf-8 | false |  |
+| Subsample_to_Scott_lab | false |  | Text | utf-8 | false |  |
 
 ## Language-specific schema details
 
@@ -134,7 +173,7 @@ parent: BENEFIT
 | Act_1.3 | Act_1.3 |  | No, Yes |
 | Act_1.4 | Act_1.4 |  | No, Yes |
 | Act_2.1 | Act_2.1 |  | No, Yes |
-| City | City | Name of the city where the soil sample was taken | Not a list |
+| City | City | Name of the city where the soil sample was taken | Addison, Arnaud, Bagot, Balmoral, Bath, Bornholm, Brampton, Brandon, Caledon, Carman, Cartwright, Central Elgin, Dublin, Exeter, Francis, Glenlea, Granton, Kingston, Lacombe, Lanigan, MacGregor, Melita, Minto, NA, Oak Lake, Paris (Brant County), Parkbeg, Phillips Farm, Portage la Prairie, St. George (Brant County), St. Pierre Jolys, Wawanesa, Wawota, Winchester |
 | Collected | Collected | Date soil sample was collected | Not a list |
 | Host_Plant | Host_Plant | Host plant name | Not a list |
 | Isolations_Made? | Isolations_Made? | Were Isolations made? | Not a list |
@@ -151,17 +190,17 @@ parent: BENEFIT
 
 ## Schema SAIDs
 
-**Capture base**: ElJSLvchpioBvld5vgWbQZDNizvdAE6JIUOn0ov6vl8o
+**Capture base**: Ert6ARBNBNZKjjSrpustkRJSTUXc-zizq6i4qzGhkPLI
 
 | Layer | SAID |
 | --- | --- |
-| character_encoding | E4a90B0WzpF734JGWHUSF9dQFcwc7FRFxOcvTEpoRMzk |
-| conformance | ECFKjoZxsau8SsulcsExEDaXHtR-WPiDOwkXTBJZ74CI |
-| entry (en) | EglobD3IZ91FZsOA4MLKuEeRUNrL8ar2Z8JIMmhnopT8 |
-| entry_code | ESLyiNXflmmInhkii8ZT5o6gdStPR0ph41JywGT593gw |
-| information (en) | E45yRck7THcHk5X2_85oAbhtCDd6WkbSeV3gmOBjBMnI |
-| label (en) | EDdGi3FQI1TOTFjPxqGk9GGDsHuvq95y-OJ2HFmgFPvk |
-| meta (en) | E2fENDRc_7TX30eAhAvmjM8TI5K39Ghz9q-z9eibdTgM |
+| character_encoding | EySSNlivnOpgiFFbFjmm2PT9RlF0rgTPFzRVr_jGHnsQ |
+| conformance | EH6M94ys4hG2FZafJkE0ilzK06eeN4krJ38MjVEFeu5c |
+| entry (en) | Eb_UXqj8giITpeGJxOGib-vRKAem0cWTcnYlbzDF6Nzs |
+| entry_code | EOdSBxXgYO4OpL2f2B9_wM7FGdWoyrBCp2d9HyKUuKLw |
+| format | Esul5Q-_GT_Lm0IdKyPQxsG9m2EW8dcji37uOmj61WMk |
+| information (en) | EDpIfLr9MizKM6jsk076ySV9AW9T_aw15piapFJtjfdU |
+| label (en) | ETs_15A1Mqs_pBJHVj6eCbrzvMJ67yYo_ZY9haEetva0 |
+| meta (en) | EiXcYHSOkklA4Wb1v9N3l7aSdPEq6ELLBfooJqcUlR4Y |
 
-**Date created**: 2025-01-30 19:05:13
-
+**Date created**: 2025-01-31 08:59:25
