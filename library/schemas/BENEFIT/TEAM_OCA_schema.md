@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: BENEFIT  
+title: BENEFIT Act 1 Individual Soil Samples  
 parent: BENEFIT  
 ---
 
