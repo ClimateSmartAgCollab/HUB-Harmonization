@@ -1,7 +1,7 @@
 ---
 title: Cell Cultured Meat
 layout: default
-nav_order: 7
+nav_order: 6
 ---
 
 # ICT-CELL-CULTURED_MEAT
