@@ -1,7 +1,7 @@
 ---
 title: CAT-G
 layout: default
-nav_order: 9
+nav_order: 6
 ---
 
 # Climate Action Through Grazing (CAT-G)
