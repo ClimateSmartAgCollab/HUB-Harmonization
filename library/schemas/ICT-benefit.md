@@ -1,7 +1,7 @@
 ---
 title: BENEFIT
 layout: default
-nav_order: 5
+nav_order: 4
 ---
 
 # Bio-Inoculants For The Promotion Of Nutrient Use Efficiency And Crop Resiliency In Canadian Agriculture (BENEFIT)
