@@ -8,11 +8,11 @@ nav_order: 1
 
 Welcome to the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/) for the Data Hub project.
 
-These is a library of active schema projects and so as documentation is refined the contents will change.
+This is a library of active schema projects. As the projects are updated, documentation may be refined to reflect the contents.
 
-Because this work is all done within GitHub, the complete history of changes is available using GitHub Commit history tools.
+Since we are working within GitHub, please note that the complete history of changes is available using GitHub Commit history tools.
 
-## Add to the Library
+## To add your schemas to the Library
 
 With data that you have or intend to collect, describe your data using the [Semantic Engine](https://www.semanticengine.org). You will download a .zip version of your schema which is a machine-readable version. Then on the main page of the Semantic Engine drag-and-drop your schema and generate a markdown version. Be sure to select the Data Hub and enter in the correct ICT Team as this information will sort your schema into the right menu item in the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/).
 
