@@ -1,7 +1,7 @@
 ---
 title: NDGP
 layout: default
-nav_order: 11
+nav_order: 9
 ---
 
 # Leveraging Genomics To Achieve Dairy Net-Zero (NDGP)
