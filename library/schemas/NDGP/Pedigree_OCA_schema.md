@@ -21,6 +21,8 @@ parent: NDGP
 **ICT Group**: NDGP  
 **Schema package SAID**: EOv3TSb3EDIZYdOtPIPTgtg2bNfgKwG_HNrqdGILz_WM  
 
+[Download Schema](Pedigree_OCA_package.json)
+
 ## Schema quick view
 
 | Attribute | Label | Description |
