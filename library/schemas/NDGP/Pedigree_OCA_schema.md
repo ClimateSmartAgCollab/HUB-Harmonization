@@ -19,8 +19,7 @@ parent: NDGP
 **Author**: Michelle Edwards  
 **Author Email**: edwardsm@uoguelph.ca  
 **ICT Group**: NDGP  
-
-[Download Schema](Pedigree_OCA_bundle.zip)
+**Schema package SAID**: EJL65-8S5eeOriKbxutEfgnJUFR7V-OMkO9c8Cagfdcq  
 
 ## Schema quick view
 
@@ -33,7 +32,7 @@ parent: NDGP
 | PROJECT | PROJECT |  |
 | REGISTERED_NAME | REGISTERED_NAME |  |
 | SIRE_ID | SIRE_ID | 12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING '0'S). |
-| SOURCE_OF_DATA | SOURCE_OF_DATA | See contacts list under "Source of Data" column |
+| SOURCE_OF_DATA | SOURCE_OF_DATA | See contacts list under 'Source of Data' column |
 | TRANSACTION_TYPE | TRANSACTION_TYPE |  |
 
 ## International schema information
@@ -62,33 +61,33 @@ parent: NDGP
 | Entry code | Label |
 | --- | --- |
 | 100 | EDGP |
-| 101 | EDGP & NAEX |
 | 110 | EDGP & RDGP |
 | 111 | EDGP & RDGP & NAEX |
-| 001 | NAEX |
 | 010 | RDGP |
 | 011 | RDGP & NAEX |
+| 001 | NAEX |
+| 101 | EDGP & NAEX |
 
 #### TRANSACTION_TYPE entry codes
 
 | Entry code | Label |
 | --- | --- |
-| D | Delete |
 | U | Update |
+| D | Delete |
 
 ## Language-independent schema details
 
 | Attribute | Sensitive | Unit | Type | Character encoding | Required entry |
 | --- | --- | --- | --- | --- | --- |
-| ANIMAL_ID | false |  | Text |  | false |
-| BIRTH_DATE | false |  | DateTime |  | false |
-| DAM_ID | false |  | Text |  | true |
-| FILE_TYPE | false |  | Text |  | false |
-| PROJECT | false |  | Text |  | false |
-| REGISTERED_NAME | false |  | Text |  | true |
-| SIRE_ID | false |  | Text |  | true |
-| SOURCE_OF_DATA | false |  | Text |  | false |
-| TRANSACTION_TYPE | false |  | Text |  | false |
+| ANIMAL_ID | false |  | Text | utf-8 | false |
+| BIRTH_DATE | false |  | DateTime | utf-8 | false |
+| DAM_ID | false |  | Text | utf-8 | true |
+| FILE_TYPE | false |  | Text | utf-8 | false |
+| PROJECT | false |  | Text | utf-8 | false |
+| REGISTERED_NAME | false |  | Text | utf-8 | true |
+| SIRE_ID | false |  | Text | utf-8 | true |
+| SOURCE_OF_DATA | false |  | Text | utf-8 | false |
+| TRANSACTION_TYPE | false |  | Text | utf-8 | false |
 
 ## Language-specific schema details
 
@@ -100,25 +99,30 @@ parent: NDGP
 | BIRTH_DATE | BIRTH_DATE |  | Not a list |
 | DAM_ID | DAM_ID | 12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING '0'S). | Not a list |
 | FILE_TYPE | FILE_TYPE |  | Pedigree, Calving, Production, Events, Genotype, Milk Data |
-| PROJECT | PROJECT |  | EDGP, EDGP & NAEX, EDGP & RDGP, EDGP & RDGP & NAEX, NAEX, RDGP, RDGP & NAEX |
+| PROJECT | PROJECT |  | EDGP, EDGP & RDGP, EDGP & RDGP & NAEX, RDGP, RDGP & NAEX, NAEX, EDGP & NAEX |
 | REGISTERED_NAME | REGISTERED_NAME |  | Not a list |
 | SIRE_ID | SIRE_ID | 12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING '0'S). | Not a list |
-| SOURCE_OF_DATA | SOURCE_OF_DATA | See contacts list under "Source of Data" column | Not a list |
-| TRANSACTION_TYPE | TRANSACTION_TYPE |  | Delete, Update |
+| SOURCE_OF_DATA | SOURCE_OF_DATA | See contacts list under 'Source of Data' column | Not a list |
+| TRANSACTION_TYPE | TRANSACTION_TYPE |  | Update, Delete |
 
 ## Schema SAIDs
 
-**Capture base**: E_Pb-4ttzG9Wgo4r904yVpok9eN3012Ta8qzZa7eYEmo
+**Capture base**: EKBa-ldXtgfZMXdjIwTeoccKLyJ9KlsDSIiPr737hh2R
 
-| Layer | SAID |
-| --- | --- |
-| character_encoding | ET_Ohs8ySIksijaIcRobBlT5RUHIMS-pjgEywnqjtPQY |
-| conformance | EMMe2y8Uzan3b9dH0mEq1lrzkOh1LnQMbD_NduG1OBrw |
-| entry (en) | E6hHdvC2NWhNGfekf3aBfUbEBTwTApuq6S4FxDm2gzjw |
-| entry_code | ELiS9kL2rviDEPqzdmm7-mz13PiOXj7D0DYvSQfxyDD8 |
-| information (en) | EADjMfs60CknrBIi2AULudeEkb02CzWtBPVSU9wd96Rg |
-| label (en) | Ezj97fYN5Gr11xEGmQqfJtAv4Msr9dzNgB-W5oyJAH9k |
-| meta (en) | E9hGlMfRmK9qX0jJrXcBuom23cEI_aMSZNW4XCEH4vAc |
+**Bundle**: ENfJ8-MzLBqEi5kbN6la61SwN6502ZWRENnUFBPNE8jn
 
-**Date created**: 2025-04-14 15:38:47
+**Package**: EJL65-8S5eeOriKbxutEfgnJUFR7V-OMkO9c8Cagfdcq
+
+| Layer | SAID | Type |
+| --- | --- | --- |
+| character_encoding | EIj4bv1fC5EW4jwyw_ovMhJsDItL85ZixNelORZSyLDW | spec/overlays/character_encoding/1.1 |
+| conformance | ENKUvpp6xxWoeRjWxHWyoEsiapP_qQjqtF9wEEgz3dCe | spec/overlays/conformance/1.1 |
+| entry (eng) | EMRlSrueg7Onp1-KUq2m7KLWYPl86h-RVeP7wFZqvNOQ | spec/overlays/entry/1.1 |
+| entry_code | EEov_xnPMh2v2qUgTYZZ6tdJTOOdO4FBaW0hURSMGxcC | spec/overlays/entry_code/1.1 |
+| information (eng) | EL9Id-flLeDFBILdbRpUU75lYeTY8bOHYNMPvtBbe4w1 | spec/overlays/information/1.1 |
+| label (eng) | EBdKjDEVlcjirq6DfYxWpsxuWK56dtPvhQOKJTGV_XIn | spec/overlays/label/1.1 |
+| meta (eng) | ENXWXXPkDubfnMP1WwuBhdtFWcRPgJGeQ3ghgMYy2ZxD | spec/overlays/meta/1.1 |
+| ordering | EGRJbOTWmrQ1jRdVp-lGfTbp62Wm9j7AaQb7in3RGeFt | community/overlays/adc/ordering/1.1 |
+
+**Date created**: 2025-04-14 15:55:48
 
