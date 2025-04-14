@@ -20,6 +20,8 @@ parent: NDGP
 **Author Email**: edwardsm@uoguelph.ca  
 **ICT Group**: NDGP  
 
+[Download Schema](Pedigree_OCA_bundle.zip)
+
 ## Schema quick view
 
 | Attribute | Label | Description |
