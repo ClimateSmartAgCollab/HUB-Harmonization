@@ -20,9 +20,9 @@ parent: BENEFIT
 **Author Email**: edwardsm@uoguelph.ca  
 **ICT Group**: BENEFIT  
 
-## Schema quick view
-
 [Download Schema](TEAM_OCA_bundle.zip)
+
+## Schema quick view
 
 | Attribute | Label | Description |
 | --- | --- | --- |
