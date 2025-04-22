@@ -21,7 +21,7 @@ parent: ACTIVATE
 **ICT Group**: Activate  
 **Schema package SAID**: ELPQjoJHYFOxwUiz4sx75q-0CRSsPa0kKToxbjxXKGQ_  
 
-[Download Schema](TEAM_OCA_bundle.zip)
+[Download Schema](Team_OCA_bundle.json)
 
 
 ## Schema quick view
