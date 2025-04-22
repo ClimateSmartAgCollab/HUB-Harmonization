@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Team ACTIVATE Large Field Trial  
+title: Team Activate - Large Field Trial  
 parent: Activate
 ---
 
