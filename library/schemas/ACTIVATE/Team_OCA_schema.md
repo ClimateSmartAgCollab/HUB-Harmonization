@@ -1,7 +1,7 @@
 ---
 layout: default  
 title: Team ACTIVATE Large Field Trial  
-parent: ACTIVATE
+parent: Activate
 ---
 
 # Schema information
