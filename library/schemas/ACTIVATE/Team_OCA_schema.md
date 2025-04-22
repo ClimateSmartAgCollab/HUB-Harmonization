@@ -13,7 +13,7 @@ parent: Activate
 1. TOC
 {:toc}
 
-**Name**: Team ACTIVATE: Large Field Trial  
+**Name**: Team Activate - Large Field Trial  
 **Description**: This data schema refers to the Act2.3 dataset which is a subset from our large field trial  
 **Classification**: RDF401  
 **Author**: Michelle Edwards  
@@ -21,7 +21,7 @@ parent: Activate
 **ICT Group**: Activate  
 **Schema package SAID**: ELPQjoJHYFOxwUiz4sx75q-0CRSsPa0kKToxbjxXKGQ_  
 
-[Download Schema](Team_OCA_bundle.json)
+[Download Schema](Team_OCA_package.json)
 
 
 ## Schema quick view
