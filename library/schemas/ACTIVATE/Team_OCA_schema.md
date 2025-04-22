@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Team ACTIVATE: Large Field Trial  
+title: Team ACTIVATE Large Field Trial  
 parent: Activate  
 ---
 
@@ -20,6 +20,9 @@ parent: Activate
 **Author Email**: edwardsm@uoguelph.ca  
 **ICT Group**: Activate  
 **Schema package SAID**: ELPQjoJHYFOxwUiz4sx75q-0CRSsPa0kKToxbjxXKGQ_  
+
+[Download Schema](TEAM_OCA_bundle.zip)
+
 
 ## Schema quick view
 
