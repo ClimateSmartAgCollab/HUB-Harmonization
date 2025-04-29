@@ -20,6 +20,8 @@ parent: NDGP
 **Author Email**: rjahnel@uoguelph.ca  
 **ICT Group**: NDGP  
 
+[Download Schema](Genotype_OCA_bundle.zip)
+
 ## Schema quick view
 
 | Attribute | Label | Description |
