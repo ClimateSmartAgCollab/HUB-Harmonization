@@ -14,7 +14,7 @@ Since we are working within GitHub, please note that the complete history of cha
 
 ## To add your schemas to the Library
 
-With data that you have or intend to collect, describe your data using the [Semantic Engine](https://www.semanticengine.org). You will download a .zip version of your schema which is a machine-readable version. Then on the main page of the Semantic Engine drag-and-drop your schema and generate a markdown version. Be sure to select the Data Hub and enter in the correct ICT Team as this information will sort your schema into the right menu item in the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/).
+With data that you have or intend to collect, describe your data using the [Semantic Engine](https://www.semanticengine.org). You will download a .zip or .json version of your schema which is a machine-readable version. Then on the main page of the Semantic Engine drag-and-drop your schema and generate a markdown version. Be sure to select the Data Hub and enter in the correct ICT Team as this information will sort your schema into the right menu item in the [Schema library](https://climatesmartagcollab.github.io/HUB-Harmonization/).
 
 In [Data Harmonization GitHub repository](https://github.com/ClimateSmartAgCollab/HUB-Harmonization), upload your markdown file (which you can rename) to the schema folder.
 
