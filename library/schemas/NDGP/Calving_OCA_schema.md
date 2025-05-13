@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Pedigree File Layout  
+title: Calving File Layout  
 parent: NDGP  
 ---
 
@@ -13,15 +13,15 @@ parent: NDGP
 1. TOC
 {:toc}
 
-**Name**: Pedigree File Layout  
+**Name**: Calving File Layout  
 **Description**: Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project  
 **Classification**: RDF402  
 **Author**: Ricarda E. Jahnel  
 **Author Email**: rjahnel@uoguelph.ca  
 **ICT Group**: NDGP  
-**Schema package SAID**: ECcF0qJAlzwq0Texwd5299MNoQwgMSf9LIORCJ-h7jSG  
+**Schema package SAID**: EOqkdSmublCIflVBIgTIyjusO48PQfmZ3cX_kDLWk54V  
 
-[Download schema](Pedigree_OCA_package.json)
+[Download schema](Calving_OCA_package.json)
 
 ## Schema quick view
 
@@ -29,11 +29,12 @@ parent: NDGP
 | --- | --- | --- |
 | FILE_TYPE | FILE_TYPE |  |
 | ANIMAL_ID | ANIMAL_ID | INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12) |
+| CALVING_DATE | CALVING_DATE |  |
 | TRANSACTION_TYPE | TRANSACTION_TYPE |  |
-| SIRE_ID | SIRE_ID | 12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING '0'S). |
-| DAM_ID | DAM_ID | 12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING '0'S). |
-| BIRTH_DATE | BIRTH_DATE |  |
-| REGISTERED_NAME | REGISTERED_NAME |  |
+| COUNTRY_OF_ORIGIN | COUNTRY-OF-ORIGIN |  |
+| HERD_CODE | HERD_CODE |  |
+| LACTATION_NUMBER | LACTATION_NUMBER |  |
+| CONCEPTION_DATE | CONCEPTION_DATE |  |
 | SOURCE_OF_DATA | SOURCE_OF_DATA | See contacts list under 'Source of Data' column |
 | PROJECT | PROJECT |  |
 
@@ -41,7 +42,7 @@ parent: NDGP
 
 | Language | Name | Description |
 | --- | --- | --- |
-| English | Pedigree File Layout | Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project |
+| English | Calving File Layout | Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project |
 
 ## Selection lists
 
@@ -84,11 +85,12 @@ parent: NDGP
 | --- | --- | --- | --- | --- | --- |
 | FILE_TYPE | false |  | Text | utf-8 | false |
 | ANIMAL_ID | false |  | Text | utf-8 | false |
+| CALVING_DATE | false |  | DateTime | utf-8 | false |
 | TRANSACTION_TYPE | false |  | Text | utf-8 | false |
-| SIRE_ID | false |  | Text | utf-8 | true |
-| DAM_ID | false |  | Text | utf-8 | true |
-| BIRTH_DATE | false |  | DateTime | utf-8 | false |
-| REGISTERED_NAME | false |  | Text | utf-8 | true |
+| COUNTRY_OF_ORIGIN | false |  | Text | utf-8 | false |
+| HERD_CODE | false |  | Text | utf-8 | false |
+| LACTATION_NUMBER | false |  | Numeric | utf-8 | false |
+| CONCEPTION_DATE | false |  | DateTime | utf-8 | false |
 | SOURCE_OF_DATA | false |  | Text | utf-8 | false |
 | PROJECT | false |  | Text | utf-8 | false |
 
@@ -100,32 +102,33 @@ parent: NDGP
 | --- | --- | --- | --- |
 | FILE_TYPE | FILE_TYPE |  | Pedigree, Calving, Production, Events, Genotype, Milk data |
 | ANIMAL_ID | ANIMAL_ID | INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12) | Not a list |
+| CALVING_DATE | CALVING_DATE |  | Not a list |
 | TRANSACTION_TYPE | TRANSACTION_TYPE |  | Update, Delete |
-| SIRE_ID | SIRE_ID | 12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING '0'S). | Not a list |
-| DAM_ID | DAM_ID | 12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING '0'S). | Not a list |
-| BIRTH_DATE | BIRTH_DATE |  | Not a list |
-| REGISTERED_NAME | REGISTERED_NAME |  | Not a list |
+| COUNTRY_OF_ORIGIN | COUNTRY-OF-ORIGIN |  | Not a list |
+| HERD_CODE | HERD_CODE |  | Not a list |
+| LACTATION_NUMBER | LACTATION_NUMBER |  | Not a list |
+| CONCEPTION_DATE | CONCEPTION_DATE |  | Not a list |
 | SOURCE_OF_DATA | SOURCE_OF_DATA | See contacts list under 'Source of Data' column | Not a list |
 | PROJECT | PROJECT |  | EDGP, EDGP & RDGP, EDGP & RDGP & NAEX, RDGP, RDGP & NAEX, NAEX, EDGP & NAEX, NDGP |
 
 ## Schema SAIDs
 
-**Capture base**: EKBa-ldXtgfZMXdjIwTeoccKLyJ9KlsDSIiPr737hh2R
+**Capture base**: EDditR13zUmSMI51UvtexeThxTbcmMWs65fciY-evEW2
 
-**Bundle**: EH8eJ-8G3WWJdpbABd-dCMjAlFXPTnCfHQoLD_qJHrf_
+**Bundle**: EFv4NFKDg3FlHV_Kdpb1CTPe3Poj5EfUWP6aM_dJkIVL
 
-**Package**: ECcF0qJAlzwq0Texwd5299MNoQwgMSf9LIORCJ-h7jSG
+**Package**: EOqkdSmublCIflVBIgTIyjusO48PQfmZ3cX_kDLWk54V
 
 | Layer | SAID | Type |
 | --- | --- | --- |
-| character_encoding | EIj4bv1fC5EW4jwyw_ovMhJsDItL85ZixNelORZSyLDW | spec/overlays/character_encoding/1.1 |
-| conformance | ENKUvpp6xxWoeRjWxHWyoEsiapP_qQjqtF9wEEgz3dCe | spec/overlays/conformance/1.1 |
-| entry (eng) | EGRc7YeMZK7g6s8tsDIUorktxuOOqdfILPcVbZTdBIVz | spec/overlays/entry/1.1 |
-| entry_code | EPB4QhRqehNLn5ZqzmBTY8NuTFBgsG8xXnNKKNI48XmD | spec/overlays/entry_code/1.1 |
-| information (eng) | EL9Id-flLeDFBILdbRpUU75lYeTY8bOHYNMPvtBbe4w1 | spec/overlays/information/1.1 |
-| label (eng) | EBdKjDEVlcjirq6DfYxWpsxuWK56dtPvhQOKJTGV_XIn | spec/overlays/label/1.1 |
-| meta (eng) | EAQVebNHzo9vo5TETymJyOkiQTDKdsijFmCrLQNDbxr4 | spec/overlays/meta/1.1 |
-| ordering | EDRDsipon_1XgBe_IQ_0XCb_dsccKV089bY35ocgzGKd | community/overlays/adc/ordering/1.1 |
+| character_encoding | EJdgao2MpYeKsBdj6MlYtSGD1n6SKJ-SToD3TTHD9WF8 | spec/overlays/character_encoding/1.1 |
+| conformance | ENGMBmKaNUYapVe1NeICSsTnM2hjkmYr5BjnM8DLW-hq | spec/overlays/conformance/1.1 |
+| entry (eng) | ECO-7rmR6MX7g1HZVvDqoZHREWH_uUzYt9Ax9T178nU9 | spec/overlays/entry/1.1 |
+| entry_code | EMa9f8MWH6WecrR62X4Hufea-bWgDMRUsMrVZF65Tlu8 | spec/overlays/entry_code/1.1 |
+| information (eng) | ENREuMBn73Bd1Z0e2M1yAFMwXXGbAo9Pc9xuC_d-EMN2 | spec/overlays/information/1.1 |
+| label (eng) | EJwtWdAFqVSshZjuUiuHowtgYTSBANPO3Sw6lTkZ_rSE | spec/overlays/label/1.1 |
+| meta (eng) | EJMlW4RujajP8SqprrpQzR8h9wQrgIHeuAAHcp1bqXBn | spec/overlays/meta/1.1 |
+| ordering | EOERTASFhbEReHigvoAqOf8M9iogYGJn9n7ERfbqODag | community/overlays/adc/ordering/1.1 |
 
-**Date created**: 2025-05-13 13:13:57
+**Date created**: 2025-05-13 13:11:18
 
