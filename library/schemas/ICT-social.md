@@ -1,5 +1,5 @@
 ---
-title: SOCIAL
+title: Just Transitions
 layout: default
 nav_order: 11
 ---
