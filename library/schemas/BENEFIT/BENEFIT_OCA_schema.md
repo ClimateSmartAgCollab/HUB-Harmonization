@@ -19,9 +19,9 @@ parent: BENEFIT
 **Author**: George Colin diCenzo  
 **Author Email**: george.dicenzo@queensu.ca  
 **ICT Group**: BENEFIT  
-**Schema package SAID**: EPkun_YmkjCM9IqoYbFeN8bYg1piSJ-yAP2hf7cjatlv  
+**Schema package SAID**: ELw_5caFHMEkuFSb7eMWB0Om9nWLHUIpIfaUMPM01PT6  
 
-[download schema](BENEFIT_OCA_package.json)
+[Download schema](BENEFIT_OCA_package.json)
 
 ## Schema quick view
 
@@ -88,9 +88,9 @@ parent: BENEFIT
 | Host_Plant | false |  | Text |  | true | ^\.\{0,250\}$ |
 | Soil_type | false |  | Text |  | false | ^\.\{0,50\}$ |
 | Province | false |  | Text |  | true | ^\.\{0,50\}$ |
-| City | false |  | Text |  | true | ^\.\{0,250\}$ |
-| Latitude | false |  | Numeric |  | true | ^\[\-\+\]?\\d\*\\\.?\\d\+$ |
-| Longitude | false |  | Numeric |  | true | ^\[\-\+\]?\\d\*\\\.?\\d\+$ |
+| City | true |  | Text |  | true | ^\.\{0,250\}$ |
+| Latitude | true |  | Numeric |  | true | ^\[\-\+\]?\\d\*\\\.?\\d\+$ |
+| Longitude | true |  | Numeric |  | true | ^\[\-\+\]?\\d\*\\\.?\\d\+$ |
 | Collected | false |  | DateTime |  | false | ^\(\\d\{4\}\)\-\(0\[1\-9\]\|1\[0\-2\]\)\-\(0\[1\-9\]\|\[12\]\\d\|3\[01\]\)$ |
 | Received | false |  | DateTime |  | false | ^\(\\d\{4\}\)\-\(0\[1\-9\]\|1\[0\-2\]\)\-\(0\[1\-9\]\|\[12\]\\d\|3\[01\]\)$ |
 | Storage | false |  | Text |  | false | ^\.\{0,800\}$ |
@@ -98,7 +98,7 @@ parent: BENEFIT
 | Activity_1.3 | false |  | Boolean |  | false |  |
 | Activity_1.4 | false |  | Boolean |  | false |  |
 | Activity_2.1 | false |  | Boolean |  | false |  |
-| Notes | false |  | Text |  | false | ^\.\{0,4000\}$ |
+| Notes | true |  | Text |  | false | ^\.\{0,4000\}$ |
 
 ## Language-specific schema details
 
@@ -129,7 +129,7 @@ parent: BENEFIT
 
 **Bundle**: EIMkfr-jO52ISmQ1_fnLaYSt7leZA-ZeNKf56a-SOZKt
 
-**Package**: EPkun_YmkjCM9IqoYbFeN8bYg1piSJ-yAP2hf7cjatlv
+**Package**: ELw_5caFHMEkuFSb7eMWB0Om9nWLHUIpIfaUMPM01PT6
 
 | Layer | SAID | Type |
 | --- | --- | --- |
@@ -141,6 +141,8 @@ parent: BENEFIT
 | label (eng) | ELB9pm5lwxC1aqi6Qkyw-HHDdT77WwiQ6tP-raP2T-jK | spec/overlays/label/1.1 |
 | meta (eng) | EC8-fNbhJ5u4HZrZR_Q6XMRtbWVniR8hVUZxtnpdXu8z | spec/overlays/meta/1.1 |
 | ordering | EPyHj6kZMK4Oi2ZXecatVu2qTLDsq-kkDbX6J4kG0GUs | community/overlays/adc/ordering/1.1 |
+| unit_framing | EN4kmBlvAvhJZ97I_8znC-siH9BMxei7luOtYnhQ-JRU | community/overlays/adc/unit_framing/1.1 |
+| sensitive | EJFnix32NBqFxSLYVhcBH2nCcn4fHoNO69Fqh9qPv2WY | community/overlays/adc/sensitive/1.1 |
 
-**Date created**: 2025-05-12 11:38:02
+**Date created**: 2025-05-20 11:42:42
 

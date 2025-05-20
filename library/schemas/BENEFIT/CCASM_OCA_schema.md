@@ -19,9 +19,9 @@ parent: BENEFIT
 **Author**: George Colin diCenzo  
 **Author Email**: george.dicenzo@queensu.ca  
 **ICT Group**: BENEFIT  
-**Schema package SAID**: EALTUd_s_VdrI_3AZdCn8W2OTuWg-304lE3R0g6m3H9G
+**Schema package SAID**: EFgo32vmhNVHNwEPnmN-cm54cMWBz8Yx30iuBqEQC--J  
 
-[download schema](CCASM_OCA_package.json)  
+[Download schema](CCASM_OCA_package.json)
 
 ## Schema quick view
 
@@ -157,11 +157,11 @@ parent: BENEFIT
 | isolation_soil_organic_matter | false |  | Numeric |  | false | ^\[\-\+\]?\\d\*\\\.?\\d\+$ |
 | isolation_soil_texture | false |  | Text |  | false | ^\.\{0,250\}$ |
 | isolation_soil_province | false |  | Text |  | false | ^\.\{0,50\}$ |
-| longitude | false |  | Numeric |  | true | ^\[\-\+\]?\\d\*\\\.?\\d\+$ |
-| latitude | false |  | Numeric |  | true | ^\[\-\+\]?\\d\*\\\.?\\d\+$ |
+| longitude | true |  | Numeric |  | true | ^\[\-\+\]?\\d\*\\\.?\\d\+$ |
+| latitude | true |  | Numeric |  | true | ^\[\-\+\]?\\d\*\\\.?\\d\+$ |
 | genome_ncbi_association | false |  | Text |  | false | ^\.\{0,800\}$ |
 | genome_size | false |  | Numeric |  | false | ^\-?\[0\-9\]\+$ |
-| notes | false |  | Text |  | false | ^\.\{0,4000\}$ |
+| notes | true |  | Text |  | false | ^\.\{0,4000\}$ |
 | citation | false |  | Text |  | false | ^\.\{0,4000\}$ |
 
 ## Language-specific schema details
@@ -209,7 +209,7 @@ parent: BENEFIT
 
 **Bundle**: EOkhgGcMv_Y-mmnRZpHodr61YSa1Nd2IGsCNaWAglfor
 
-**Package**: EALTUd_s_VdrI_3AZdCn8W2OTuWg-304lE3R0g6m3H9G
+**Package**: EFgo32vmhNVHNwEPnmN-cm54cMWBz8Yx30iuBqEQC--J
 
 | Layer | SAID | Type |
 | --- | --- | --- |
@@ -221,6 +221,8 @@ parent: BENEFIT
 | label (eng) | EJk9P5qrxQmz4vLFq0hheVPZbU_LQclG0xXtzIsfN6Zr | spec/overlays/label/1.1 |
 | meta (eng) | EDzQs8AVmGfofTIb6x3Qhnhw8JJAvJFgzeiacdKy8JPH | spec/overlays/meta/1.1 |
 | ordering | EDpJaB5M0XV8WLtXFmH205vEsV9pnVMuCWisZVasYZZ9 | community/overlays/adc/ordering/1.1 |
+| unit_framing | EN4kmBlvAvhJZ97I_8znC-siH9BMxei7luOtYnhQ-JRU | community/overlays/adc/unit_framing/1.1 |
+| sensitive | EPFYFAa0uEpniYkEdWMDcNEnTgat6dg-SGF-4qvCXXNL | community/overlays/adc/sensitive/1.1 |
 
-**Date created**: 2025-05-12 11:38:13
+**Date created**: 2025-05-20 11:43:22
 
