@@ -8,3 +8,4 @@ nav_order: 8
 
 * Joan Laur (Université de Montréal), Lead
 * Louise Hénault-Ethier (INRS), Lead
+* Kirstin Bett, (University of Saskatchewan), Lead
