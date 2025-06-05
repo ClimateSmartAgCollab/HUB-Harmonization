@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Team ACTIVATE: Multi-genus Rotational Field Trial  
+title: Team ACTIVATE Multi-genus Rotational Field Trial  
 parent: Activate  
 ---
 
