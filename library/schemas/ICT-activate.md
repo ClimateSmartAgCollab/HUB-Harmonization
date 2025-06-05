@@ -9,6 +9,6 @@ nav_order: 3
 
 * Kirstin Bett (University of Saskatchewan), Lead
 * Curtis Pozniak (University of Saskatchewan), Lead
-* Laura Jardine (University of Saskatchewan), Project Manager
 * Lacey Sanderson (University of Saskatchewan), Data Manager
 * Nicholas Tyack (University of Saskatchewan), GE3LS Lead
+* Laura Jardine (University of Saskatchewan), Project Manager
