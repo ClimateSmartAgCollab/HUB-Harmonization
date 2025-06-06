@@ -1,6 +1,7 @@
 ---
 layout: default  
 title: PeaCE  
+parent: peaCE
 ---
 
 # Schema information
