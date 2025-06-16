@@ -8,8 +8,10 @@ nav_order: 6
 Omics Guided Technologies For Scalable Production Of Cell-Cultured Meat
 
 * Julie Audet (University of Toronto), Lead
-* Michael von Massow (University of Guelph), Lead (contact for GE3Ls)
+* P. Ravi Selvaganapathy (McMaster University), Lead
+* Michael von Massow (University of Guelph), Lead
 * Michelle Bamji-Mirza (Collège La Cité), Lead
-* Rakesh Sahu , Project manager (Contact person)
-* Scott MacKay, Data coordinator (Contact person)
-* Nidhi Jain (knowledge mobilization)
+* Rakesh Sahu, Project manager
+* Scott MacKay, Data coordinator
+* Nidhi Jain, knowledge mobilization
+* Sruthi Sasidharan 

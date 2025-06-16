@@ -8,4 +8,5 @@ nav_order: 8
 
 * Joan Laur (Université de Montréal), Lead
 * Philippe Constant, (INRS), Lead
-* Kirstin Bett, (University of Saskatchewan), Lead
+* Jury Gualandris, Co-Investigator (IBS - Western University)
+* Paul Célicourt, collaborator

@@ -8,5 +8,8 @@ nav_order: 10
 
 * Marcus A. Samuel (University of Calgary), Lead
 * Sateesh Kagale (National Research Council Canada), Lead
+* Yang Yang, Co-lead of GE3Ls
 * Scott MacKay, Data coordinator
-* Abhinandan (Abhi) Kumar (contact person)
+* Abhinandan (Abhi) Kumar
+* Eponine Oler
+* Scott MacKay, Data coordinator

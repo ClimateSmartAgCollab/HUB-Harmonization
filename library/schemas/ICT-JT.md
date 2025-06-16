@@ -8,8 +8,10 @@ nav_order: 11
 
 * Stefania Pizzirani (University of the Fraser Valley), Lead
 * Robert Newell (Royal Roads University), Lead
-* Lenore Newman (Co-investigator)
+* Lenore Newman, Co-investigator
 * Charmaine White
 * Anita Mueller
 * Sara Mountir
 * Alesandros Glaros
+* Anita Mueller (Genome BC)
+* Chris Smendziuk (Genome BC)

@@ -8,4 +8,6 @@ nav_order: 4
 
 * Ivan Oresnik (University of Manitoba), Lead
 * George diCenzo (Queen’s University), Lead
-* Derek Brewin (GEL3LS lead)
+* Tasbiha Mahveev
+* Pranab Das
+* Derek Brewin, GEL3LS lead

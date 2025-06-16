@@ -8,5 +8,8 @@ nav_order: 7
 
 * Jonathan Bennett (University of Saskatchewan), Lead
 * Sean Asselin (Agriculture and Agri-Food Canada/Swift Current Research and Development Centre), Lead
-* Jack Royle (DCC Liason)
-* Bahati Chisala-Nyekanyeka (Project manager)
+* Seokbum Ko, AI expert, deep learning, programm optimization
+* Patrick Lloyd-Smith, Researcher
+* Itaii Appelbaum
+* Jack Royle, DCC Liason
+* Bahati Chisala-Nyekanyeka, Project manager
