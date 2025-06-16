@@ -11,5 +11,4 @@ nav_order: 10
 * Yang Yang, Co-lead of GE3Ls
 * Scott MacKay, Data coordinator
 * Abhinandan (Abhi) Kumar
-* Eponine Oler
 * Scott MacKay, Data coordinator

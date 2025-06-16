@@ -12,3 +12,4 @@ nav_order: 5
 * Michelle Bamji-Mirza (Collège La Cité), Lead
 * Scott MacKay, Data coordinator
 * Majid Iravani, Research Project Manager
+* Eponine Oler
