@@ -1,7 +1,7 @@
 ---
 layout: default  
 title: PeaCE  
-parent: peaCE
+parent: PEAce  
 ---
 
 # Schema information
@@ -16,7 +16,11 @@ parent: peaCE
 **Name**: PeaCE  
 **Description**: CLIMATE SMART AGRICULTURE AND FOOD SYSTEMS – INTERDISCIPLINARY CHALLENGE TEAMS (CSAFS-ICT) APPLICATION FORM  
 **Classification**: RDF401  
-**Schema package SAID**: PLACEHOLDER_PACKAGE_DIGEST_ProjectPeaCE  
+**Author**: Abhinandan Kumar  
+**Author Email**: abhinandan.kumar2@ucalgary.ca  
+**ICT Group**: PEAce  
+**Schema package SAID**: EGRRH-4qD2zNCWynyCefq0sEmZBBsamMRwBeeJsbDjAm 
+[Download Semantic Engine schema](PeaCE_OCA_package_Final.json) 
 
 ## Schema quick view
 
@@ -87,7 +91,7 @@ parent: peaCE
 | morphological_trait | false |  | Text |  |
 | agronomic_trait | false |  | Text |  |
 | sequencing_platform | false |  | Text |  |
-| variant_calls | false |  | File |  |
+| variant_calls | false |  | Text |  |
 | geographic_location | false |  | Text |  |
 | climate_conditions | false |  | Text |  |
 | pathogen_strain | false |  | Text |  |
@@ -106,27 +110,27 @@ parent: peaCE
 | yield | false | kg/ha | Numeric |  |
 | protein_content | false | % | Numeric |  |
 | maturity | false | days | Numeric |  |
-| marker_data | false |  | File |  |
-| qtl_mapping | false |  | File |  |
+| marker_data | false |  | Text |  |
+| qtl_mapping | false |  | Text |  |
 | field_trial_location | false |  | Text |  |
 | weather_conditions | false |  | Text |  |
 | gene_id | false |  | Text |  |
 | functional_description | false |  | Text |  |
-| rna_seq_data | false |  | File |  |
-| qpcr_data | false |  | File |  |
-| proteomics_data | false |  | File |  |
-| protein_interaction_data | false |  | File |  |
-| metabolite_profile | false |  | File |  |
-| pathway_analysis | false |  | File |  |
+| rna_seq_data | false |  | Text |  |
+| qpcr_data | false |  | Text |  |
+| proteomics_data | false |  | Text |  |
+| protein_interaction_data | false |  | Text |  |
+| metabolite_profile | false |  | Text |  |
+| pathway_analysis | false |  | Text |  |
 | participant_id | true |  | Text |  |
 | demographic_data | true |  | Text |  |
 | survey_response | true |  | Text |  |
 | interview_transcript | true |  | Text |  |
 | interview_coding | true |  | Text |  |
-| cost_benefit_analysis | false |  | File |  |
-| market_analysis | false |  | File |  |
-| regulations | false |  | File |  |
-| stakeholder_analysis | false |  | File |  |
+| cost_benefit_analysis | false |  | Text |  |
+| market_analysis | false |  | Text |  |
+| regulations | false |  | Text |  |
+| stakeholder_analysis | false |  | Text |  |
 
 ## Language-specific schema details
 
@@ -184,18 +188,20 @@ parent: peaCE
 
 ## Schema SAIDs
 
-**Capture base**: CB_DIGEST_ProjectPeaCE_Main
+**Capture base**: ELyfXt8wfuLYql3IABdjsuwtgnRaobepNGsbWbPTmqMl
 
-**Bundle**: PLACEHOLDER_BUNDLE_DIGEST_ProjectPeaCE
+**Bundle**: EPehSCxbQ4qcVhEsLlGPYwzpKBsM3FLA9FT9WzRpyO4U
 
-**Package**: PLACEHOLDER_PACKAGE_DIGEST_ProjectPeaCE
+**Package**: EGRRH-4qD2zNCWynyCefq0sEmZBBsamMRwBeeJsbDjAm
 
 | Layer | SAID | Type |
 | --- | --- | --- |
-| information (eng) | INFO_OVERLAY_DIGEST_ProjectPeaCE_ENG_1 | spec/overlays/information/1.1 |
-| label (eng) | LABEL_OVERLAY_DIGEST_ProjectPeaCE_ENG_1 | spec/overlays/label/1.1 |
-| meta (eng) | META_OVERLAY_DIGEST_ProjectPeaCE_PeaDiversity | spec/overlays/meta/1.1 |
-| unit | UNIT_OVERLAY_DIGEST_ProjectPeaCE_1 | spec/overlays/unit/1.1 |
+| information (eng) | ELZyAXM349E1ETt9JYCuyOE3dqcxbXjiyANyNTNmyxcp | spec/overlays/information/1.1 |
+| label (eng) | EJCbsTATovspHJvzf15HeCaIDbtsfj_F_BK4EFnF-Vnh | spec/overlays/label/1.1 |
+| meta (eng) | EA7YWtUuOKVoGBgPprk9dKWG0zCMhnwZEplV5QKePqM7 | spec/overlays/meta/1.1 |
+| unit | ELyhPOjMVLihqIO7K4t7xtzvrIlmUV5d8Fyhm1siHaex | spec/overlays/unit/1.1 |
+| ordering | EPjBJG8SYWTbp8LVYYOnt2QgsnnP6KRhuUcbX0-IK_an | community/overlays/adc/ordering/1.1 |
+| sensitive | EBz1mYKnUH4sgyoyvsj60VGDsHo2VegPBoFh9Cbomlw4 | community/overlays/adc/sensitive/1.1 |
 
-**Date created**: 2025-05-30 14:56:43
+**Date created**: 2025-06-16 09:17:00
 
