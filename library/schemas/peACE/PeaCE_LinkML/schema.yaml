@@ -1,0 +1,646 @@
+id: https://example.com/Peace
+name: Peace
+title: PeaCE
+description: "CLIMATE SMART AGRICULTURE AND FOOD SYSTEMS \u2013 INTERDISCIPLINARY\
+  \ CHALLENGE TEAMS (CSAFS-ICT) APPLICATION FORM"
+version: 0.0.0
+in_language: en
+imports:
+- linkml:types
+prefixes:
+  linkml: https://w3id.org/linkml/
+classes:
+  Peace:
+    name: Peace
+    title: PeaCE
+    description: "CLIMATE SMART AGRICULTURE AND FOOD SYSTEMS \u2013 INTERDISCIPLINARY\
+      \ CHALLENGE TEAMS (CSAFS-ICT) APPLICATION FORM"
+    keywords: RDF401
+    slots:
+    - accession_id
+    - agronomic_trait
+    - ch4_flux
+    - climate_conditions
+    - co2_flux
+    - cost_benefit_analysis
+    - crop_yield
+    - demographic_data
+    - disease_severity_score
+    - fertilizer_application_rate
+    - field_trial_location
+    - functional_description
+    - gene_id
+    - generation
+    - geographic_location
+    - inoculum_concentration
+    - interview_coding
+    - interview_transcript
+    - marker_data
+    - market_analysis
+    - maturity
+    - metabolite_profile
+    - morphological_trait
+    - n2o_flux
+    - origin
+    - parental_line
+    - participant_id
+    - pathogen_strain
+    - pathway_analysis
+    - protein_content
+    - protein_interaction_data
+    - proteomics_data
+    - qpcr_data
+    - qtl_mapping
+    - regulations
+    - rna_seq_data
+    - sequencing_platform
+    - soil_moisture
+    - soil_nutrient_content
+    - soil_temperature
+    - species
+    - stakeholder_analysis
+    - subspecies
+    - survey_response
+    - variant_calls
+    - weather_conditions
+    - yield
+    slot_usage:
+      accession_id:
+        rank: 1
+        slot_group: General
+      agronomic_trait:
+        rank: 2
+        slot_group: General
+      ch4_flux:
+        rank: 3
+        slot_group: General
+      climate_conditions:
+        rank: 4
+        slot_group: General
+      co2_flux:
+        rank: 5
+        slot_group: General
+      cost_benefit_analysis:
+        rank: 6
+        slot_group: General
+      crop_yield:
+        rank: 7
+        slot_group: General
+      demographic_data:
+        rank: 8
+        slot_group: General
+      disease_severity_score:
+        rank: 9
+        slot_group: General
+      fertilizer_application_rate:
+        rank: 10
+        slot_group: General
+      field_trial_location:
+        rank: 11
+        slot_group: General
+      functional_description:
+        rank: 12
+        slot_group: General
+      gene_id:
+        rank: 13
+        slot_group: General
+      generation:
+        rank: 14
+        slot_group: General
+      geographic_location:
+        rank: 15
+        slot_group: General
+      inoculum_concentration:
+        rank: 16
+        slot_group: General
+      interview_coding:
+        rank: 17
+        slot_group: General
+      interview_transcript:
+        rank: 18
+        slot_group: General
+      marker_data:
+        rank: 19
+        slot_group: General
+      market_analysis:
+        rank: 20
+        slot_group: General
+      maturity:
+        rank: 21
+        slot_group: General
+      metabolite_profile:
+        rank: 22
+        slot_group: General
+      morphological_trait:
+        rank: 23
+        slot_group: General
+      n2o_flux:
+        rank: 24
+        slot_group: General
+      origin:
+        rank: 25
+        slot_group: General
+      parental_line:
+        rank: 26
+        slot_group: General
+      participant_id:
+        rank: 27
+        slot_group: General
+      pathogen_strain:
+        rank: 28
+        slot_group: General
+      pathway_analysis:
+        rank: 29
+        slot_group: General
+      protein_content:
+        rank: 30
+        slot_group: General
+      protein_interaction_data:
+        rank: 31
+        slot_group: General
+      proteomics_data:
+        rank: 32
+        slot_group: General
+      qpcr_data:
+        rank: 33
+        slot_group: General
+      qtl_mapping:
+        rank: 34
+        slot_group: General
+      regulations:
+        rank: 35
+        slot_group: General
+      rna_seq_data:
+        rank: 36
+        slot_group: General
+      sequencing_platform:
+        rank: 37
+        slot_group: General
+      soil_moisture:
+        rank: 38
+        slot_group: General
+      soil_nutrient_content:
+        rank: 39
+        slot_group: General
+      soil_temperature:
+        rank: 40
+        slot_group: General
+      species:
+        rank: 41
+        slot_group: General
+      stakeholder_analysis:
+        rank: 42
+        slot_group: General
+      subspecies:
+        rank: 43
+        slot_group: General
+      survey_response:
+        rank: 44
+        slot_group: General
+      variant_calls:
+        rank: 45
+        slot_group: General
+      weather_conditions:
+        rank: 46
+        slot_group: General
+      yield:
+        rank: 47
+        slot_group: General
+  Container:
+    name: Container
+    tree_root: true
+    attributes:
+      name: PeaceData
+      multivalued: true
+      range: Peace
+      inlined_as_list: true
+slots:
+  accession_id:
+    name: accession_id
+    title: Accession ID
+    description: Unique identifier for each germplasm accession
+    range: WhitespaceMinimizedString
+  agronomic_trait:
+    name: agronomic_trait
+    title: Agronomic Trait
+    description: Agronomic trait measured for the germplasm accession
+    range: WhitespaceMinimizedString
+  ch4_flux:
+    name: ch4_flux
+    title: CH4 Flux
+    description: Methane flux measurement
+    range: decimal
+    unit:
+      ucum_code: g C/ha/day
+  climate_conditions:
+    name: climate_conditions
+    title: Climate Conditions
+    description: Climate conditions at the origin of the germplasm accession
+    range: WhitespaceMinimizedString
+  co2_flux:
+    name: co2_flux
+    title: CO2 Flux
+    description: Carbon dioxide flux measurement
+    range: decimal
+    unit:
+      ucum_code: g C/ha/day
+  cost_benefit_analysis:
+    name: cost_benefit_analysis
+    title: Cost-Benefit Analysis
+    description: Cost-benefit analysis data
+    range: WhitespaceMinimizedString
+  crop_yield:
+    name: crop_yield
+    title: Crop Yield
+    description: Crop yield measurement
+    range: decimal
+    unit:
+      ucum_code: kg/ha
+  demographic_data:
+    name: demographic_data
+    title: Demographic Data
+    description: Demographic data of the participant
+    range: WhitespaceMinimizedString
+  disease_severity_score:
+    name: disease_severity_score
+    title: Disease Severity Score
+    description: Disease severity score on a scale of 1-5
+    range: decimal
+    unit:
+      ucum_code: '-'
+  fertilizer_application_rate:
+    name: fertilizer_application_rate
+    title: Fertilizer Application Rate
+    description: Fertilizer application rate
+    range: decimal
+    unit:
+      ucum_code: kg/ha
+  field_trial_location:
+    name: field_trial_location
+    title: Field Trial Location
+    description: Location of the field trial for the breeding population
+    range: WhitespaceMinimizedString
+  functional_description:
+    name: functional_description
+    title: Functional Description
+    description: Functional description of the gene
+    range: WhitespaceMinimizedString
+  gene_id:
+    name: gene_id
+    title: Gene ID
+    description: Unique identifier for each gene
+    range: WhitespaceMinimizedString
+  generation:
+    name: generation
+    title: Generation
+    description: Generation of the breeding population
+    range: WhitespaceMinimizedString
+  geographic_location:
+    name: geographic_location
+    title: Geographic Location
+    description: Geographic location of the germplasm accession
+    range: WhitespaceMinimizedString
+  inoculum_concentration:
+    name: inoculum_concentration
+    title: Inoculum Concentration
+    description: Concentration of the pathogen inoculum
+    range: decimal
+    unit:
+      ucum_code: cfu/ml
+  interview_coding:
+    name: interview_coding
+    title: Interview Coding
+    description: Interview coding data
+    range: WhitespaceMinimizedString
+  interview_transcript:
+    name: interview_transcript
+    title: Interview Transcript
+    description: Interview transcript data
+    range: WhitespaceMinimizedString
+  marker_data:
+    name: marker_data
+    title: Marker Data
+    description: Marker data generated for the breeding population
+    range: WhitespaceMinimizedString
+  market_analysis:
+    name: market_analysis
+    title: Market Analysis
+    description: Market analysis data
+    range: WhitespaceMinimizedString
+  maturity:
+    name: maturity
+    title: Maturity
+    description: Maturity measurement for the breeding population
+    range: decimal
+    unit:
+      ucum_code: days
+  metabolite_profile:
+    name: metabolite_profile
+    title: Metabolite Profile
+    description: Metabolite profile data
+    range: WhitespaceMinimizedString
+  morphological_trait:
+    name: morphological_trait
+    title: Morphological Trait
+    description: Morphological trait measured for the germplasm accession
+    range: WhitespaceMinimizedString
+  n2o_flux:
+    name: n2o_flux
+    title: N2O Flux
+    description: Nitrous oxide flux measurement
+    range: decimal
+    unit:
+      ucum_code: g N/ha/day
+  origin:
+    name: origin
+    title: Origin
+    description: Geographical origin of the germplasm accession
+    range: WhitespaceMinimizedString
+  parental_line:
+    name: parental_line
+    title: Parental Line
+    description: Parental line used in the breeding program
+    range: WhitespaceMinimizedString
+  participant_id:
+    name: participant_id
+    title: Participant ID
+    description: Unique identifier for each participant
+    range: WhitespaceMinimizedString
+  pathogen_strain:
+    name: pathogen_strain
+    title: Pathogen Strain
+    description: Pathogen strain used for disease resistance screening
+    range: WhitespaceMinimizedString
+  pathway_analysis:
+    name: pathway_analysis
+    title: Pathway Analysis
+    description: Pathway analysis data
+    range: WhitespaceMinimizedString
+  protein_content:
+    name: protein_content
+    title: Protein Content
+    description: Protein content measurement for the breeding population
+    range: decimal
+    unit:
+      ucum_code: '%'
+  protein_interaction_data:
+    name: protein_interaction_data
+    title: Protein Interaction Data
+    description: Protein-protein interaction data
+    range: WhitespaceMinimizedString
+  proteomics_data:
+    name: proteomics_data
+    title: Proteomics Data
+    description: Proteomics data for protein analysis
+    range: WhitespaceMinimizedString
+  qpcr_data:
+    name: qpcr_data
+    title: qPCR Data
+    description: qPCR data for gene expression analysis
+    range: WhitespaceMinimizedString
+  qtl_mapping:
+    name: qtl_mapping
+    title: QTL Mapping
+    description: QTL mapping data for the breeding population
+    range: WhitespaceMinimizedString
+  regulations:
+    name: regulations
+    title: Regulations
+    description: Regulations data
+    range: WhitespaceMinimizedString
+  rna_seq_data:
+    name: rna_seq_data
+    title: RNA-Seq Data
+    description: RNA-seq data for gene expression analysis
+    range: WhitespaceMinimizedString
+  sequencing_platform:
+    name: sequencing_platform
+    title: Sequencing Platform
+    description: Sequencing platform used for genotyping
+    range: WhitespaceMinimizedString
+  soil_moisture:
+    name: soil_moisture
+    title: Soil Moisture
+    description: Soil moisture measurement
+    range: decimal
+    unit:
+      ucum_code: '%'
+  soil_nutrient_content:
+    name: soil_nutrient_content
+    title: Soil Nutrient Content
+    description: Soil nutrient content measurement
+    range: decimal
+    unit:
+      ucum_code: varies
+  soil_temperature:
+    name: soil_temperature
+    title: Soil Temperature
+    description: Soil temperature measurement
+    range: decimal
+    unit:
+      ucum_code: "\xB0C"
+  species:
+    name: species
+    title: Species
+    description: Species of the germplasm accession
+    range: WhitespaceMinimizedString
+  stakeholder_analysis:
+    name: stakeholder_analysis
+    title: Stakeholder Analysis
+    description: Stakeholder analysis data
+    range: WhitespaceMinimizedString
+  subspecies:
+    name: subspecies
+    title: Subspecies
+    description: Subspecies of the germplasm accession
+    range: WhitespaceMinimizedString
+  survey_response:
+    name: survey_response
+    title: Survey Response
+    description: Survey response data
+    range: WhitespaceMinimizedString
+  variant_calls:
+    name: variant_calls
+    title: Variant Calls
+    description: Variant calls generated from sequencing data
+    range: WhitespaceMinimizedString
+  weather_conditions:
+    name: weather_conditions
+    title: Weather Conditions
+    description: Weather conditions during the field trial
+    range: WhitespaceMinimizedString
+  yield:
+    name: yield
+    title: Yield
+    description: Yield measurement for the breeding population
+    range: decimal
+    unit:
+      ucum_code: kg/ha
+enums:
+  SettingsMenu:
+    name: SettingsMenu
+    title: Regular Expressions
+    permissible_values:
+      AllCaps:
+        title: AllCaps
+        description: Entries of any length with only capital letters
+      AlphaText1-50:
+        title: AlphaText1-50
+        description: Capital or lower case letters only, at least 1 character, and
+          50 characters max
+      AlphaText0-50:
+        title: AlphaText0-50
+        description: Capital or lower case letters only, 50 characters max
+      FreeText0-50:
+        title: FreeText0-50
+        description: Short text, 50 characters max
+      FreeText0-250:
+        title: FreeText0-250
+        description: Short text, 250 characters max
+      FreeText0-800:
+        title: FreeText0-800
+        description: Long text, 800 characters max
+      FreeText0-4000:
+        title: FreeText0-4000
+        description: Long text, 4000 characters max
+      CanadianPostalCode:
+        title: CanadianPostalCode
+        description: Canadian postal codes (A1A 1A1)
+      ZipCode:
+        title: ZipCode
+        description: USA Zip code
+      EmailAddress:
+        title: EmailAddress
+        description: Email address
+      URL:
+        title: URL
+        description: Secure (https) URL
+      PhoneNumber:
+        title: PhoneNumber
+        description: Phone number with international and area code component.
+      Latitude:
+        title: Latitude
+        description: "Latitude in formats S30\xB015'45.678\" or N12\xB030.999\""
+      Longitude:
+        title: Longitude
+        description: "Longitude in formats E30\xB015'45.678\" or W90\xB000.000\""
+      ISO_YYYY-MM-DD:
+        title: ISO_YYYY-MM-DD
+        description: year month day
+      ISO_YYYYMMDD:
+        title: ISO_YYYYMMDD
+      ISO_YYYY-MM:
+        title: ISO_YYYY-MM
+        description: year month
+      ISO_YYYY-Www:
+        title: ISO_YYYY-Www
+        description: year week (e.g. W01)
+      ISO_YYYYWww:
+        title: ISO_YYYYWww
+        description: year week (e.g. W01)
+      ISO_YYYY-DDD:
+        title: ISO_YYYY-DDD
+        description: Ordinal date (day number from the year)
+      ISO_YYYYDDD:
+        title: ISO_YYYYDDD
+        description: Ordinal date (day number from the year)
+      ISO_YYYY:
+        title: ISO_YYYY
+        description: year
+      ISO_MM:
+        title: ISO_MM
+        description: month
+      ISO_DD:
+        title: ISO_DD
+        description: day
+      ISO_YYYY-MM-DDTHH.MM.SSZ:
+        title: ISO_YYYY-MM-DDTHH:MM:SSZ
+        description: Date and Time Combined (UTC)
+      ISO_YYYY-MM-DDTHH.MM.SS-hh.mm:
+        title: "ISO_YYYY-MM-DDTHH:MM:SS\xB1hh:mm"
+        description: Date and Time Combined (with Timezone Offset)
+      ISO_PnYnMnDTnHnMnS:
+        title: ISO_PnYnMnDTnHnMnS
+        description: durations e.g. P3Y6M4DT12H30M5S
+      ISO_HH.MM:
+        title: ISO_HH:MM
+        description: hour, minutes in 24 hour notation
+      ISO_HH.MM.SS:
+        title: ISO_HH:MM:SS
+        description: hour, minutes, seconds in 24 hour notation
+      SLASH_DD_MM_YYYY:
+        title: DD/MM/YYYY
+        description: day, month, year
+      SLASH_DD_MM_YY:
+        title: DD/MM/YY
+        description: day, month, year
+      SLASH_MM_DD_YYYY:
+        title: MM/DD/YYYY
+        description: month, day, year
+      DDMMYYYY:
+        title: DDMMYYYY
+        description: day, month, year
+      MMDDYYYY:
+        title: MMDDYYYY
+        description: month, day, year
+      YYYYMMDD:
+        title: YYYYMMDD
+        description: year, month, day
+      HH.MM.SS:
+        title: HH:MM:SS
+        description: hour, minutes, seconds 12 hour notation AM/PM
+      H.MM_or_HH.MM:
+        title: H:MM or HH:MM
+        description: hour, minutes AM/PM
+types:
+  WhitespaceMinimizedString:
+    name: WhitespaceMinimizedString
+    typeof: string
+    description: 'A string that has all whitespace trimmed off of beginning and end,
+      and all internal whitespace segments reduced to single spaces. Whitespace includes
+      x9 (tab), #xA (linefeed), and #xD (carriage return).'
+    base: str
+    uri: xsd:token
+settings:
+  Title_Case: ((?<=\b)[^a-z\W]\w*?|[\W])+
+  UPPER_CASE: '[A-Z\W\d_]*'
+  lower_case: '[a-z\W\d_]*'
+  AllCaps: ^[A-Z]*$
+  AlphaText1-50: ^[A-Za-z]{1,50}$
+  AlphaText0-50: ^[A-Za-z]{0,50}$
+  FreeText0-50: ^.{0,50}$
+  FreeText0-250: ^.{0,250}$
+  FreeText0-800: ^.{0,800}$
+  FreeText0-4000: ^.{0,4000}$
+  CanadianPostalCode: ^[A-Z][0-9][A-Z]\s[0-9][A-Z][0-9]$
+  ZipCode: ^\d{5,6}(?:[-\s]\d{4})?$
+  EmailAddress: ^[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+
+  URL: ^https?\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,}$
+  PhoneNumber: ^\+?\(?\d{2,4}\)?[\d\s-]{3,}$
+  Latitude: "^[NS]-?(?:[0-8]?\\d|90)\xB0(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\"\
+    )?$"
+  Longitude: "^[WE]-?(?:[0-8]?\\d|90)\xB0(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\"\
+    )?$"
+  ISO_YYYY-MM-DD: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$
+  ISO_YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
+  ISO_YYYY-MM: ^(\d{4})-(0[1-9]|1[0-2])$
+  ISO_YYYY-Www: ^(?:\d{4})-W(0[1-9]|[1-4][0-9]|5[0-3])$
+  ISO_YYYYWww: ^(?:\d{4})W(0[1-9]|[1-4][0-9]|5[0-3])$
+  ISO_YYYY-DDD: ^(?:\d{4})-(00[1-9]|0[1-9][0-9]|[1-2][0-9]{2}|3[0-5][0-9]|36[0-6])$
+  ISO_YYYYDDD: ^(?:\d{4})(00[1-9]|0[1-9][0-9]|[1-2][0-9]{2}|3[0-5][0-9]|36[0-6])$
+  ISO_YYYY: ^(\d{4})$
+  ISO_MM: ^(0[1-9]|1[0-2])$
+  ISO_DD: ^(0[1-9]|[1-2][0-9]|3[01])$
+  ISO_YYYY-MM-DDTHH.MM.SSZ: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])T([01]\d|2[0-3]):([0-5]\d):([0-5]\d)Z$
+  ISO_YYYY-MM-DDTHH.MM.SS-hh.mm: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])T([01]\d|2[0-3]):([0-5]\d):([0-5]\\d)([+-][01]\\d:[0-5]\d)$
+  ISO_PnYnMnDTnHnMnS: ^P(?!$)((\d+Y)|(\d+.\d+Y)$)?((\d+M)|(\d+.\d+M)$)?((\d+W)|(\d+.\d+W)$)?((\d+D)|(\d+.\d+D)$)?(T(?=\d)((\d+H)|(\d+.\d+H)$)?((\d+M)|(\d+.\d+M)$)?(\d+(.\d+S)?)?)?$
+  ISO_HH.MM: ^([01]\d|2[0-3]):([0-5]\d)$
+  ISO_HH.MM.SS: ^([01]\d|2[0-3]):([0-5]\d):([0-5]\d)$
+  SLASH_DD_MM_YYYY: ^(0[1-9]|[12]\d|3[01])/(0[1-9]|1[0-2])/\d{4}$
+  SLASH_DD_MM_YY: ^(0[1-9]|[12]\d|3[01])/(0[1-9]|1[0-2])/\d{2}$
+  SLASH_MM_DD_YYYY: ^(0[1-9]|1[0-2])/(0[1-9]|[12]\d|3[01])/\d{4}$
+  DDMMYYYY: ^(0[1-9]|[12]\d|3[01])(0[1-9]|1[0-2])\d{4}$
+  MMDDYYYY: ^(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])\d{4}$
+  YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
+  HH.MM.SS: ^(0?[1-9]|1[0-2]):[0-5][0-9]:[0-5][0-9] ?[APMapm]{2}$
+  H.MM_or_HH.MM: ^(0?[1-9]|1[0-2]):[0-5][0-9] ?[APMapm]{2}$

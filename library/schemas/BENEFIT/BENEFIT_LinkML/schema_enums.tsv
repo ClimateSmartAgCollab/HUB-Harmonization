@@ -1,0 +1,18 @@
+title	name	text	meaning	menu_1	menu_2	menu_3	menu_4	menu_5	description
+Province	Province								
+		AB		Alberta					
+		BC		British Columbia					
+		MB		Manitoba					
+		NB		New Brunswick					
+		NL		Newfoundland and Labrador					
+		NS		Nova Scotia					
+		NT		Northwest Territories					
+		NU		Nunavut					
+		ON		Ontario					
+		PE		Prince Edward Island					
+		QC		Quebec City					
+		SK		Saskatchewan					
+		YT		Yukon					
+Soil_type	Soil_type								
+		Bulk		Bulk soil					
+		Rhizosphere		Rhizosphere soil					
