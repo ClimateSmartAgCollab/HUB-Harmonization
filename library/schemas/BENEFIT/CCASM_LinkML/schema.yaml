@@ -1,0 +1,690 @@
+id: https://example.com/CcasmStrainCollection
+name: CcasmStrainCollection
+title: CCASM Strain Collection
+description: Metadata associated with the bacterial strains deposited in the Canadian
+  Collection of Agricultural Soil Microbes (CCASM)
+version: 0.0.0
+in_language: en
+imports:
+- linkml:types
+prefixes:
+  linkml: https://w3id.org/linkml/
+classes:
+  CcasmStrainCollection:
+    name: CcasmStrainCollection
+    title: CCASM Strain Collection
+    description: Metadata associated with the bacterial strains deposited in the Canadian
+      Collection of Agricultural Soil Microbes (CCASM)
+    keywords: RDF106
+    slots:
+    - CCASM_ID
+    - Manitoba_barcode
+    - Manitoba_box_ID
+    - Manitoba_box_name
+    - Manitoba_well
+    - Queens_barcode
+    - Queens_box_ID
+    - Queens_box_name
+    - Queens_well
+    - binomial_classification
+    - citation
+    - colony_morphology
+    - genome_ncbi_association
+    - genome_size
+    - host_plant_species
+    - is_plant_pathogen
+    - isolation_growth_medium
+    - isolation_growth_medium_composition
+    - isolation_growth_temperature
+    - isolation_protocol
+    - isolation_soil_organic_matter
+    - isolation_soil_ph
+    - isolation_soil_province
+    - isolation_soil_texture
+    - isolation_source
+    - isolation_year
+    - latitude
+    - longitude
+    - notes
+    - risk_group
+    - strain_name
+    - taxonomic_lineage
+    slot_usage:
+      CCASM_ID:
+        rank: 1
+        slot_group: General
+      Manitoba_barcode:
+        rank: 2
+        slot_group: General
+      Manitoba_box_ID:
+        rank: 3
+        slot_group: General
+      Manitoba_box_name:
+        rank: 4
+        slot_group: General
+      Manitoba_well:
+        rank: 5
+        slot_group: General
+      Queens_barcode:
+        rank: 6
+        slot_group: General
+      Queens_box_ID:
+        rank: 7
+        slot_group: General
+      Queens_box_name:
+        rank: 8
+        slot_group: General
+      Queens_well:
+        rank: 9
+        slot_group: General
+      binomial_classification:
+        rank: 10
+        slot_group: General
+      citation:
+        rank: 11
+        slot_group: General
+      colony_morphology:
+        rank: 12
+        slot_group: General
+      genome_ncbi_association:
+        rank: 13
+        slot_group: General
+      genome_size:
+        rank: 14
+        slot_group: General
+      host_plant_species:
+        rank: 15
+        slot_group: General
+      is_plant_pathogen:
+        rank: 16
+        slot_group: General
+      isolation_growth_medium:
+        rank: 17
+        slot_group: General
+      isolation_growth_medium_composition:
+        rank: 18
+        slot_group: General
+      isolation_growth_temperature:
+        rank: 19
+        slot_group: General
+      isolation_protocol:
+        rank: 20
+        slot_group: General
+      isolation_soil_organic_matter:
+        rank: 21
+        slot_group: General
+      isolation_soil_ph:
+        rank: 22
+        slot_group: General
+      isolation_soil_province:
+        rank: 23
+        slot_group: General
+      isolation_soil_texture:
+        rank: 24
+        slot_group: General
+      isolation_source:
+        rank: 25
+        slot_group: General
+      isolation_year:
+        rank: 26
+        slot_group: General
+      latitude:
+        rank: 27
+        slot_group: General
+      longitude:
+        rank: 28
+        slot_group: General
+      notes:
+        rank: 29
+        slot_group: General
+      risk_group:
+        rank: 30
+        slot_group: General
+      strain_name:
+        rank: 31
+        slot_group: General
+      taxonomic_lineage:
+        rank: 32
+        slot_group: General
+  Container:
+    name: Container
+    tree_root: true
+    attributes:
+      name: CcasmStrainCollectionData
+      multivalued: true
+      range: CcasmStrainCollection
+      inlined_as_list: true
+slots:
+  CCASM_ID:
+    name: CCASM_ID
+    title: CCASM identifier
+    description: The unique CCASM identifier of the strain
+    required: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,50}$
+  Manitoba_barcode:
+    name: Manitoba_barcode
+    title: Manitoba freezer vial barcode
+    description: The barcode on the freezer vial of the replicate stored at the University
+      of Manitoba
+    required: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,50}$
+  Manitoba_box_ID:
+    name: Manitoba_box_ID
+    title: Manitoba freezer box ID
+    description: The barcode on the freezer box of the replicate stored at the University
+      of Manitoba
+    required: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,50}$
+  Manitoba_box_name:
+    name: Manitoba_box_name
+    title: Manitoba freezer box name
+    description: The common name of the freezer box of the replicate stored at the
+      University of Manitoba
+    required: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,50}$
+  Manitoba_well:
+    name: Manitoba_well
+    title: Manitoba freezer box well position
+    description: The position within the freezer box of the replicate stored at the
+      University of Manitoba
+    required: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,50}$
+  Queens_barcode:
+    name: Queens_barcode
+    title: Queen's freezer vial barcode
+    description: The barcode on the freezer vial of the replicate stored at Queen\'s
+      University
+    required: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,50}$
+  Queens_box_ID:
+    name: Queens_box_ID
+    title: Queen's freezer box ID
+    description: The barcode on the freezer box of the replicate stored at Queen\'s
+      University
+    required: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,50}$
+  Queens_box_name:
+    name: Queens_box_name
+    title: Queen's freezer box name
+    description: The common name of the freezer box of the replicate stored at Queen\'s
+      University
+    required: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,50}$
+  Queens_well:
+    name: Queens_well
+    title: Queen's freezer box well position
+    description: The position within the freezer box of the replicate stored at Queen\'s
+      University
+    required: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,50}$
+  binomial_classification:
+    name: binomial_classification
+    title: Binomial classification
+    description: The binomial classification (genus and species, if classified) of
+      the isolate
+    required: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,250}$
+  citation:
+    name: citation
+    title: Citation
+    description: Citation of the study reporting the microbe, if available
+    recommended: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,4000}$
+  colony_morphology:
+    name: colony_morphology
+    title: Colony morphology
+    description: Description of the colony morphology of the isolate
+    recommended: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,4000}$
+  genome_ncbi_association:
+    name: genome_ncbi_association
+    title: Genome NCBI accession
+    description: NCBI accession code(s) for the genome assembly of the microbe, if
+      available
+    recommended: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,800}$
+  genome_size:
+    name: genome_size
+    title: Genome size
+    description: The genome size of the microbe, if known
+    recommended: true
+    range: decimal
+    pattern: ^-?[0-9]+$
+  host_plant_species:
+    name: host_plant_species
+    title: Associated plant species
+    description: The plant species from which the microbe was isolated, or that was
+      planted in the soil from which the microbe was isolated
+    required: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,250}$
+  is_plant_pathogen:
+    name: is_plant_pathogen
+    title: Is the strain a plant pathogen
+    description: An indication of whether the strain is a known plant pathogen
+    required: true
+    any_of:
+    - range: WhitespaceMinimizedString
+    - range: is_plant_pathogen
+    pattern: ^.{0,50}$
+  isolation_growth_medium:
+    name: isolation_growth_medium
+    title: Isolation growth medium
+    description: The name of the growth medium that was used to isolate the microbe
+    required: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,50}$
+  isolation_growth_medium_composition:
+    name: isolation_growth_medium_composition
+    title: Isolation growth medium composition
+    description: The full composition of the growth medium used to isolate the microbe
+    required: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,4000}$
+  isolation_growth_temperature:
+    name: isolation_growth_temperature
+    title: Isolation growth temperature
+    description: The incubation temperature used when isolating the microbe
+    required: true
+    range: decimal
+    pattern: ^[-+]?\d*\.?\d+$
+  isolation_protocol:
+    name: isolation_protocol
+    title: Isolation protocol
+    description: The method used for isolating the microbe
+    required: true
+    any_of:
+    - range: WhitespaceMinimizedString
+    - range: isolation_protocol
+    pattern: ^.{0,250}$
+  isolation_soil_organic_matter:
+    name: isolation_soil_organic_matter
+    title: Isolation soil organic matter (%)
+    description: The organic matter content of the soil from which the microbe was
+      isolated, if known and if relevant
+    recommended: true
+    range: decimal
+    pattern: ^[-+]?\d*\.?\d+$
+  isolation_soil_ph:
+    name: isolation_soil_ph
+    title: Isolation soil pH
+    description: The pH of the soil from which the microbe was isolated, if known
+      and if relevant
+    recommended: true
+    range: decimal
+    pattern: ^[-+]?\d*\.?\d+$
+  isolation_soil_province:
+    name: isolation_soil_province
+    title: Isolation soil province
+    description: The province from which the soil (or plant material) was isolated
+    recommended: true
+    any_of:
+    - range: WhitespaceMinimizedString
+    - range: isolation_soil_province
+    pattern: ^.{0,50}$
+  isolation_soil_texture:
+    name: isolation_soil_texture
+    title: Isolation soil texture
+    description: The texture of the soil from which the microbe was isolated, if known
+      and if relevant
+    recommended: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,250}$
+  isolation_source:
+    name: isolation_source
+    title: Isolation source
+    description: The source (soil or plant tissue type) that the microbe was isolated
+      from
+    required: true
+    any_of:
+    - range: WhitespaceMinimizedString
+    - range: isolation_source
+    pattern: ^.{0,250}$
+  isolation_year:
+    name: isolation_year
+    title: Isolation year
+    description: The year that the microbe was isolated
+    required: true
+    range: DateTime
+    pattern: ^(\d{4})$
+  latitude:
+    name: latitude
+    title: Latitude
+    description: The latitude at which the soil or plant material was sampled
+    required: true
+    range: decimal
+    pattern: ^[-+]?\d*\.?\d+$
+  longitude:
+    name: longitude
+    title: Longitute
+    description: The longitude at which the soil or plant material was sampled
+    required: true
+    range: decimal
+    pattern: ^[-+]?\d*\.?\d+$
+  notes:
+    name: notes
+    title: Notes
+    description: Additional notes about the microbe
+    recommended: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,4000}$
+  risk_group:
+    name: risk_group
+    title: Risk group
+    description: The risk group (1, 2, 3, 4) of the isolate, if known
+    required: true
+    any_of:
+    - range: decimal
+    - range: risk_group
+    pattern: ^-?[0-9]+$
+  strain_name:
+    name: strain_name
+    title: Strain name(s)
+    description: Other strain name(s) of the isolate
+    required: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,4000}$
+  taxonomic_lineage:
+    name: taxonomic_lineage
+    title: Full taxonomic lineage
+    description: The full taxonomic lineage of the isolate
+    required: true
+    range: WhitespaceMinimizedString
+    pattern: ^.{0,4000}$
+enums:
+  SettingsMenu:
+    name: SettingsMenu
+    title: Regular Expressions
+    permissible_values:
+      AllCaps:
+        title: AllCaps
+        description: Entries of any length with only capital letters
+      AlphaText1-50:
+        title: AlphaText1-50
+        description: Capital or lower case letters only, at least 1 character, and
+          50 characters max
+      AlphaText0-50:
+        title: AlphaText0-50
+        description: Capital or lower case letters only, 50 characters max
+      FreeText0-50:
+        title: FreeText0-50
+        description: Short text, 50 characters max
+      FreeText0-250:
+        title: FreeText0-250
+        description: Short text, 250 characters max
+      FreeText0-800:
+        title: FreeText0-800
+        description: Long text, 800 characters max
+      FreeText0-4000:
+        title: FreeText0-4000
+        description: Long text, 4000 characters max
+      CanadianPostalCode:
+        title: CanadianPostalCode
+        description: Canadian postal codes (A1A 1A1)
+      ZipCode:
+        title: ZipCode
+        description: USA Zip code
+      EmailAddress:
+        title: EmailAddress
+        description: Email address
+      URL:
+        title: URL
+        description: Secure (https) URL
+      PhoneNumber:
+        title: PhoneNumber
+        description: Phone number with international and area code component.
+      Latitude:
+        title: Latitude
+        description: "Latitude in formats S30\xB015'45.678\" or N12\xB030.999\""
+      Longitude:
+        title: Longitude
+        description: "Longitude in formats E30\xB015'45.678\" or W90\xB000.000\""
+      ISO_YYYY-MM-DD:
+        title: ISO_YYYY-MM-DD
+        description: year month day
+      ISO_YYYYMMDD:
+        title: ISO_YYYYMMDD
+      ISO_YYYY-MM:
+        title: ISO_YYYY-MM
+        description: year month
+      ISO_YYYY-Www:
+        title: ISO_YYYY-Www
+        description: year week (e.g. W01)
+      ISO_YYYYWww:
+        title: ISO_YYYYWww
+        description: year week (e.g. W01)
+      ISO_YYYY-DDD:
+        title: ISO_YYYY-DDD
+        description: Ordinal date (day number from the year)
+      ISO_YYYYDDD:
+        title: ISO_YYYYDDD
+        description: Ordinal date (day number from the year)
+      ISO_YYYY:
+        title: ISO_YYYY
+        description: year
+      ISO_MM:
+        title: ISO_MM
+        description: month
+      ISO_DD:
+        title: ISO_DD
+        description: day
+      ISO_YYYY-MM-DDTHH.MM.SSZ:
+        title: ISO_YYYY-MM-DDTHH:MM:SSZ
+        description: Date and Time Combined (UTC)
+      ISO_YYYY-MM-DDTHH.MM.SS-hh.mm:
+        title: "ISO_YYYY-MM-DDTHH:MM:SS\xB1hh:mm"
+        description: Date and Time Combined (with Timezone Offset)
+      ISO_PnYnMnDTnHnMnS:
+        title: ISO_PnYnMnDTnHnMnS
+        description: durations e.g. P3Y6M4DT12H30M5S
+      ISO_HH.MM:
+        title: ISO_HH:MM
+        description: hour, minutes in 24 hour notation
+      ISO_HH.MM.SS:
+        title: ISO_HH:MM:SS
+        description: hour, minutes, seconds in 24 hour notation
+      SLASH_DD_MM_YYYY:
+        title: DD/MM/YYYY
+        description: day, month, year
+      SLASH_DD_MM_YY:
+        title: DD/MM/YY
+        description: day, month, year
+      SLASH_MM_DD_YYYY:
+        title: MM/DD/YYYY
+        description: month, day, year
+      DDMMYYYY:
+        title: DDMMYYYY
+        description: day, month, year
+      MMDDYYYY:
+        title: MMDDYYYY
+        description: month, day, year
+      YYYYMMDD:
+        title: YYYYMMDD
+        description: year, month, day
+      HH.MM.SS:
+        title: HH:MM:SS
+        description: hour, minutes, seconds 12 hour notation AM/PM
+      H.MM_or_HH.MM:
+        title: H:MM or HH:MM
+        description: hour, minutes AM/PM
+  is_plant_pathogen:
+    name: is_plant_pathogen
+    title: is_plant_pathogen
+    permissible_values:
+      'No':
+        text: 'No'
+        title: 'No'
+      Unknown:
+        text: Unknown
+        title: Unknown
+      'Yes':
+        text: 'Yes'
+        title: 'Yes'
+  isolation_protocol:
+    name: isolation_protocol
+    title: isolation_protocol
+    permissible_values:
+      Nodule trapping:
+        text: Nodule trapping
+        title: Nodule trapping experiment
+      Other:
+        text: Other
+        title: Other method as indicated in notes
+      Soil dilution:
+        text: Soil dilution
+        title: Soil dilution plating
+      Tissue dilution:
+        text: Tissue dilution
+        title: Tissue crushing and dilution plating
+  isolation_soil_province:
+    name: isolation_soil_province
+    title: isolation_soil_province
+    permissible_values:
+      AB:
+        text: AB
+        title: Alberta
+      BC:
+        text: BC
+        title: British Columbia
+      MB:
+        text: MB
+        title: Manitoba
+      NB:
+        text: NB
+        title: New Brunswick
+      NL:
+        text: NL
+        title: Newfoundland and Labrador
+      NS:
+        text: NS
+        title: Nova Scotia
+      NT:
+        text: NT
+        title: Northwest Territories
+      NU:
+        text: NU
+        title: Nunavut
+      'ON':
+        text: 'ON'
+        title: Ontario
+      PE:
+        text: PE
+        title: Prince Edward Island
+      QC:
+        text: QC
+        title: Quebec
+      SK:
+        text: SK
+        title: Saskatchewan
+      YT:
+        text: YT
+        title: Yukon
+  isolation_source:
+    name: isolation_source
+    title: isolation_source
+    permissible_values:
+      Leaf:
+        text: Leaf
+        title: Leaf tissue
+      Nodule:
+        text: Nodule
+        title: Nodule tissue
+      Other:
+        text: Other
+        title: Other source as indicated in notes
+      Root:
+        text: Root
+        title: Root tissue
+      Seed:
+        text: Seed
+        title: Seed tissue
+      Soil:
+        text: Soil
+        title: Soil sample
+      Stem:
+        text: Stem
+        title: Stem tissue
+  risk_group:
+    name: risk_group
+    title: risk_group
+    permissible_values:
+      '1':
+        text: '1'
+        title: Risk Group 1
+      '2':
+        text: '2'
+        title: Risk Group 2
+      '3':
+        text: '3'
+        title: Risk Group 3
+      '4':
+        text: '4'
+        title: Risk Group 4
+      Unknown:
+        text: Unknown
+        title: Unknown
+types:
+  WhitespaceMinimizedString:
+    name: WhitespaceMinimizedString
+    typeof: string
+    description: 'A string that has all whitespace trimmed off of beginning and end,
+      and all internal whitespace segments reduced to single spaces. Whitespace includes
+      x9 (tab), #xA (linefeed), and #xD (carriage return).'
+    base: str
+    uri: xsd:token
+settings:
+  Title_Case: ((?<=\b)[^a-z\W]\w*?|[\W])+
+  UPPER_CASE: '[A-Z\W\d_]*'
+  lower_case: '[a-z\W\d_]*'
+  AllCaps: ^[A-Z]*$
+  AlphaText1-50: ^[A-Za-z]{1,50}$
+  AlphaText0-50: ^[A-Za-z]{0,50}$
+  FreeText0-50: ^.{0,50}$
+  FreeText0-250: ^.{0,250}$
+  FreeText0-800: ^.{0,800}$
+  FreeText0-4000: ^.{0,4000}$
+  CanadianPostalCode: ^[A-Z][0-9][A-Z]\s[0-9][A-Z][0-9]$
+  ZipCode: ^\d{5,6}(?:[-\s]\d{4})?$
+  EmailAddress: ^[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+
+  URL: ^https?\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,}$
+  PhoneNumber: ^\+?\(?\d{2,4}\)?[\d\s-]{3,}$
+  Latitude: "^[NS]-?(?:[0-8]?\\d|90)\xB0(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\"\
+    )?$"
+  Longitude: "^[WE]-?(?:[0-8]?\\d|90)\xB0(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\"\
+    )?$"
+  ISO_YYYY-MM-DD: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$
+  ISO_YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
+  ISO_YYYY-MM: ^(\d{4})-(0[1-9]|1[0-2])$
+  ISO_YYYY-Www: ^(?:\d{4})-W(0[1-9]|[1-4][0-9]|5[0-3])$
+  ISO_YYYYWww: ^(?:\d{4})W(0[1-9]|[1-4][0-9]|5[0-3])$
+  ISO_YYYY-DDD: ^(?:\d{4})-(00[1-9]|0[1-9][0-9]|[1-2][0-9]{2}|3[0-5][0-9]|36[0-6])$
+  ISO_YYYYDDD: ^(?:\d{4})(00[1-9]|0[1-9][0-9]|[1-2][0-9]{2}|3[0-5][0-9]|36[0-6])$
+  ISO_YYYY: ^(\d{4})$
+  ISO_MM: ^(0[1-9]|1[0-2])$
+  ISO_DD: ^(0[1-9]|[1-2][0-9]|3[01])$
+  ISO_YYYY-MM-DDTHH.MM.SSZ: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])T([01]\d|2[0-3]):([0-5]\d):([0-5]\d)Z$
+  ISO_YYYY-MM-DDTHH.MM.SS-hh.mm: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])T([01]\d|2[0-3]):([0-5]\d):([0-5]\\d)([+-][01]\\d:[0-5]\d)$
+  ISO_PnYnMnDTnHnMnS: ^P(?!$)((\d+Y)|(\d+.\d+Y)$)?((\d+M)|(\d+.\d+M)$)?((\d+W)|(\d+.\d+W)$)?((\d+D)|(\d+.\d+D)$)?(T(?=\d)((\d+H)|(\d+.\d+H)$)?((\d+M)|(\d+.\d+M)$)?(\d+(.\d+S)?)?)?$
+  ISO_HH.MM: ^([01]\d|2[0-3]):([0-5]\d)$
+  ISO_HH.MM.SS: ^([01]\d|2[0-3]):([0-5]\d):([0-5]\d)$
+  SLASH_DD_MM_YYYY: ^(0[1-9]|[12]\d|3[01])/(0[1-9]|1[0-2])/\d{4}$
+  SLASH_DD_MM_YY: ^(0[1-9]|[12]\d|3[01])/(0[1-9]|1[0-2])/\d{2}$
+  SLASH_MM_DD_YYYY: ^(0[1-9]|1[0-2])/(0[1-9]|[12]\d|3[01])/\d{4}$
+  DDMMYYYY: ^(0[1-9]|[12]\d|3[01])(0[1-9]|1[0-2])\d{4}$
+  MMDDYYYY: ^(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])\d{4}$
+  YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
+  HH.MM.SS: ^(0?[1-9]|1[0-2]):[0-5][0-9]:[0-5][0-9] ?[APMapm]{2}$
+  H.MM_or_HH.MM: ^(0?[1-9]|1[0-2]):[0-5][0-9] ?[APMapm]{2}$

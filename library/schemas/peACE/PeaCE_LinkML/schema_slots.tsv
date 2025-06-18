@@ -1,0 +1,48 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+Peace	General		accession_id	Accession ID	WhitespaceMinimizedString													Unique identifier for each germplasm accession			
+Peace	General		agronomic_trait	Agronomic Trait	WhitespaceMinimizedString													Agronomic trait measured for the germplasm accession			
+Peace	General		ch4_flux	CH4 Flux	decimal		g C/ha/day											Methane flux measurement			
+Peace	General		climate_conditions	Climate Conditions	WhitespaceMinimizedString													Climate conditions at the origin of the germplasm accession			
+Peace	General		co2_flux	CO2 Flux	decimal		g C/ha/day											Carbon dioxide flux measurement			
+Peace	General		cost_benefit_analysis	Cost-Benefit Analysis	WhitespaceMinimizedString													Cost-benefit analysis data			
+Peace	General		crop_yield	Crop Yield	decimal		kg/ha											Crop yield measurement			
+Peace	General		demographic_data	Demographic Data	WhitespaceMinimizedString													Demographic data of the participant			
+Peace	General		disease_severity_score	Disease Severity Score	decimal		-											Disease severity score on a scale of 1-5			
+Peace	General		fertilizer_application_rate	Fertilizer Application Rate	decimal		kg/ha											Fertilizer application rate			
+Peace	General		field_trial_location	Field Trial Location	WhitespaceMinimizedString													Location of the field trial for the breeding population			
+Peace	General		functional_description	Functional Description	WhitespaceMinimizedString													Functional description of the gene			
+Peace	General		gene_id	Gene ID	WhitespaceMinimizedString													Unique identifier for each gene			
+Peace	General		generation	Generation	WhitespaceMinimizedString													Generation of the breeding population			
+Peace	General		geographic_location	Geographic Location	WhitespaceMinimizedString													Geographic location of the germplasm accession			
+Peace	General		inoculum_concentration	Inoculum Concentration	decimal		cfu/ml											Concentration of the pathogen inoculum			
+Peace	General		interview_coding	Interview Coding	WhitespaceMinimizedString													Interview coding data			
+Peace	General		interview_transcript	Interview Transcript	WhitespaceMinimizedString													Interview transcript data			
+Peace	General		marker_data	Marker Data	WhitespaceMinimizedString													Marker data generated for the breeding population			
+Peace	General		market_analysis	Market Analysis	WhitespaceMinimizedString													Market analysis data			
+Peace	General		maturity	Maturity	decimal		days											Maturity measurement for the breeding population			
+Peace	General		metabolite_profile	Metabolite Profile	WhitespaceMinimizedString													Metabolite profile data			
+Peace	General		morphological_trait	Morphological Trait	WhitespaceMinimizedString													Morphological trait measured for the germplasm accession			
+Peace	General		n2o_flux	N2O Flux	decimal		g N/ha/day											Nitrous oxide flux measurement			
+Peace	General		origin	Origin	WhitespaceMinimizedString													Geographical origin of the germplasm accession			
+Peace	General		parental_line	Parental Line	WhitespaceMinimizedString													Parental line used in the breeding program			
+Peace	General		participant_id	Participant ID	WhitespaceMinimizedString													Unique identifier for each participant			
+Peace	General		pathogen_strain	Pathogen Strain	WhitespaceMinimizedString													Pathogen strain used for disease resistance screening			
+Peace	General		pathway_analysis	Pathway Analysis	WhitespaceMinimizedString													Pathway analysis data			
+Peace	General		protein_content	Protein Content	decimal		%											Protein content measurement for the breeding population			
+Peace	General		protein_interaction_data	Protein Interaction Data	WhitespaceMinimizedString													Protein-protein interaction data			
+Peace	General		proteomics_data	Proteomics Data	WhitespaceMinimizedString													Proteomics data for protein analysis			
+Peace	General		qpcr_data	qPCR Data	WhitespaceMinimizedString													qPCR data for gene expression analysis			
+Peace	General		qtl_mapping	QTL Mapping	WhitespaceMinimizedString													QTL mapping data for the breeding population			
+Peace	General		regulations	Regulations	WhitespaceMinimizedString													Regulations data			
+Peace	General		rna_seq_data	RNA-Seq Data	WhitespaceMinimizedString													RNA-seq data for gene expression analysis			
+Peace	General		sequencing_platform	Sequencing Platform	WhitespaceMinimizedString													Sequencing platform used for genotyping			
+Peace	General		soil_moisture	Soil Moisture	decimal		%											Soil moisture measurement			
+Peace	General		soil_nutrient_content	Soil Nutrient Content	decimal		varies											Soil nutrient content measurement			
+Peace	General		soil_temperature	Soil Temperature	decimal		°C											Soil temperature measurement			
+Peace	General		species	Species	WhitespaceMinimizedString													Species of the germplasm accession			
+Peace	General		stakeholder_analysis	Stakeholder Analysis	WhitespaceMinimizedString													Stakeholder analysis data			
+Peace	General		subspecies	Subspecies	WhitespaceMinimizedString													Subspecies of the germplasm accession			
+Peace	General		survey_response	Survey Response	WhitespaceMinimizedString													Survey response data			
+Peace	General		variant_calls	Variant Calls	WhitespaceMinimizedString													Variant calls generated from sequencing data			
+Peace	General		weather_conditions	Weather Conditions	WhitespaceMinimizedString													Weather conditions during the field trial			
+Peace	General		yield	Yield	decimal		kg/ha											Yield measurement for the breeding population			
