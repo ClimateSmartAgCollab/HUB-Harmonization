@@ -1,0 +1,33 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+CcasmStrainCollection	General		CCASM_ID	CCASM identifier	WhitespaceMinimizedString							True				^.{0,50}$		The unique CCASM identifier of the strain			
+CcasmStrainCollection	General		Manitoba_barcode	Manitoba freezer vial barcode	WhitespaceMinimizedString							True				^.{0,50}$		The barcode on the freezer vial of the replicate stored at the University of Manitoba			
+CcasmStrainCollection	General		Manitoba_box_ID	Manitoba freezer box ID	WhitespaceMinimizedString							True				^.{0,50}$		The barcode on the freezer box of the replicate stored at the University of Manitoba			
+CcasmStrainCollection	General		Manitoba_box_name	Manitoba freezer box name	WhitespaceMinimizedString							True				^.{0,50}$		The common name of the freezer box of the replicate stored at the University of Manitoba			
+CcasmStrainCollection	General		Manitoba_well	Manitoba freezer box well position	WhitespaceMinimizedString							True				^.{0,50}$		The position within the freezer box of the replicate stored at the University of Manitoba			
+CcasmStrainCollection	General		Queens_barcode	Queen's freezer vial barcode	WhitespaceMinimizedString							True				^.{0,50}$		The barcode on the freezer vial of the replicate stored at Queen\'s University			
+CcasmStrainCollection	General		Queens_box_ID	Queen's freezer box ID	WhitespaceMinimizedString							True				^.{0,50}$		The barcode on the freezer box of the replicate stored at Queen\'s University			
+CcasmStrainCollection	General		Queens_box_name	Queen's freezer box name	WhitespaceMinimizedString							True				^.{0,50}$		The common name of the freezer box of the replicate stored at Queen\'s University			
+CcasmStrainCollection	General		Queens_well	Queen's freezer box well position	WhitespaceMinimizedString							True				^.{0,50}$		The position within the freezer box of the replicate stored at Queen\'s University			
+CcasmStrainCollection	General		binomial_classification	Binomial classification	WhitespaceMinimizedString							True				^.{0,250}$		The binomial classification (genus and species, if classified) of the isolate			
+CcasmStrainCollection	General		citation	Citation	WhitespaceMinimizedString								True			^.{0,4000}$		Citation of the study reporting the microbe, if available			
+CcasmStrainCollection	General		colony_morphology	Colony morphology	WhitespaceMinimizedString								True			^.{0,4000}$		Description of the colony morphology of the isolate			
+CcasmStrainCollection	General		genome_ncbi_association	Genome NCBI accession	WhitespaceMinimizedString								True			^.{0,800}$		NCBI accession code(s) for the genome assembly of the microbe, if available			
+CcasmStrainCollection	General		genome_size	Genome size	decimal								True			^-?[0-9]+$		The genome size of the microbe, if known			
+CcasmStrainCollection	General		host_plant_species	Associated plant species	WhitespaceMinimizedString							True				^.{0,250}$		The plant species from which the microbe was isolated, or that was planted in the soil from which the microbe was isolated			
+CcasmStrainCollection	General		is_plant_pathogen	Is the strain a plant pathogen	WhitespaceMinimizedString	is_plant_pathogen						True				^.{0,50}$		An indication of whether the strain is a known plant pathogen			
+CcasmStrainCollection	General		isolation_growth_medium	Isolation growth medium	WhitespaceMinimizedString							True				^.{0,50}$		The name of the growth medium that was used to isolate the microbe			
+CcasmStrainCollection	General		isolation_growth_medium_composition	Isolation growth medium composition	WhitespaceMinimizedString							True				^.{0,4000}$		The full composition of the growth medium used to isolate the microbe			
+CcasmStrainCollection	General		isolation_growth_temperature	Isolation growth temperature	decimal							True				^[-+]?\d*\.?\d+$		The incubation temperature used when isolating the microbe			
+CcasmStrainCollection	General		isolation_protocol	Isolation protocol	WhitespaceMinimizedString	isolation_protocol						True				^.{0,250}$		The method used for isolating the microbe			
+CcasmStrainCollection	General		isolation_soil_organic_matter	Isolation soil organic matter (%)	decimal								True			^[-+]?\d*\.?\d+$		The organic matter content of the soil from which the microbe was isolated, if known and if relevant			
+CcasmStrainCollection	General		isolation_soil_ph	Isolation soil pH	decimal								True			^[-+]?\d*\.?\d+$		The pH of the soil from which the microbe was isolated, if known and if relevant			
+CcasmStrainCollection	General		isolation_soil_province	Isolation soil province	WhitespaceMinimizedString	isolation_soil_province							True			^.{0,50}$		The province from which the soil (or plant material) was isolated			
+CcasmStrainCollection	General		isolation_soil_texture	Isolation soil texture	WhitespaceMinimizedString								True			^.{0,250}$		The texture of the soil from which the microbe was isolated, if known and if relevant			
+CcasmStrainCollection	General		isolation_source	Isolation source	WhitespaceMinimizedString	isolation_source						True				^.{0,250}$		The source (soil or plant tissue type) that the microbe was isolated from			
+CcasmStrainCollection	General		isolation_year	Isolation year	DateTime							True				^(\d{4})$		The year that the microbe was isolated			
+CcasmStrainCollection	General		latitude	Latitude	decimal							True				^[-+]?\d*\.?\d+$		The latitude at which the soil or plant material was sampled			
+CcasmStrainCollection	General		longitude	Longitute	decimal							True				^[-+]?\d*\.?\d+$		The longitude at which the soil or plant material was sampled			
+CcasmStrainCollection	General		notes	Notes	WhitespaceMinimizedString								True			^.{0,4000}$		Additional notes about the microbe			
+CcasmStrainCollection	General		risk_group	Risk group	decimal	risk_group						True				^-?[0-9]+$		The risk group (1, 2, 3, 4) of the isolate, if known			
+CcasmStrainCollection	General		strain_name	Strain name(s)	WhitespaceMinimizedString							True				^.{0,4000}$		Other strain name(s) of the isolate			
+CcasmStrainCollection	General		taxonomic_lineage	Full taxonomic lineage	WhitespaceMinimizedString							True				^.{0,4000}$		The full taxonomic lineage of the isolate			

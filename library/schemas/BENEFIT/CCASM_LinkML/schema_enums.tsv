@@ -1,0 +1,38 @@
+title	name	text	meaning	menu_1	menu_2	menu_3	menu_4	menu_5	description
+is_plant_pathogen	is_plant_pathogen								
+		No		No					
+		Unknown		Unknown					
+		Yes		Yes					
+isolation_protocol	isolation_protocol								
+		Nodule trapping		Nodule trapping experiment					
+		Other		Other method as indicated in notes					
+		Soil dilution		Soil dilution plating					
+		Tissue dilution		Tissue crushing and dilution plating					
+isolation_soil_province	isolation_soil_province								
+		AB		Alberta					
+		BC		British Columbia					
+		MB		Manitoba					
+		NB		New Brunswick					
+		NL		Newfoundland and Labrador					
+		NS		Nova Scotia					
+		NT		Northwest Territories					
+		NU		Nunavut					
+		ON		Ontario					
+		PE		Prince Edward Island					
+		QC		Quebec					
+		SK		Saskatchewan					
+		YT		Yukon					
+isolation_source	isolation_source								
+		Leaf		Leaf tissue					
+		Nodule		Nodule tissue					
+		Other		Other source as indicated in notes					
+		Root		Root tissue					
+		Seed		Seed tissue					
+		Soil		Soil sample					
+		Stem		Stem tissue					
+risk_group	risk_group								
+		1		Risk Group 1					
+		2		Risk Group 2					
+		3		Risk Group 3					
+		4		Risk Group 4					
+		Unknown		Unknown					

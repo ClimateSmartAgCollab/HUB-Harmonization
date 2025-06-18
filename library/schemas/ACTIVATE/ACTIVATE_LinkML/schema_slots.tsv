@@ -1,0 +1,29 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+TeamActivateMultiGenusRotationalFieldTrial	General		Block	Block	decimal							True						Block number			
+TeamActivateMultiGenusRotationalFieldTrial	General		BlockCol	BlockCol	decimal							True						Column number within block			
+TeamActivateMultiGenusRotationalFieldTrial	General		BlockRow	BlockRow	decimal							True						Row number within block			
+TeamActivateMultiGenusRotationalFieldTrial	General		Col	Col	decimal							True						Column number			
+TeamActivateMultiGenusRotationalFieldTrial	General		Combo	Combo	WhitespaceMinimizedString							True						Identifies the Lentil-Wheat combination evaluated in this plot.			
+TeamActivateMultiGenusRotationalFieldTrial	General		Comment	Comment	WhitespaceMinimizedString								True					General comments from the field crew that may be pertinent to know during analysis.			
+TeamActivateMultiGenusRotationalFieldTrial	General		Days_to_Emergence	Days to Emergence (date)	decimal		days						True					"The number of days from the date of planting to the \""Emergence Date\""."			
+TeamActivateMultiGenusRotationalFieldTrial	General		Emergence_Date	Emergence Date (date)	DateTime		year-month-day						True					The date on which at least 50% of the seeds within the plot are visible above the soil.			
+TeamActivateMultiGenusRotationalFieldTrial	General		Expt	Expt	WhitespaceMinimizedString	Expt						True						Captures the particular siteyear and Lentil/Wheat portion of the experiment evaluated in this row. This also indicates where and then these data were collected.			
+TeamActivateMultiGenusRotationalFieldTrial	General		Flowering_Date_R1	Flowering Date (R1; date)	DateTime		year-month-day						True					The date at which there is one open flower at any node on 50% of the plants in the plot. This is R1 in the Lentil Reproductive & Maturity Staging Guide.			
+TeamActivateMultiGenusRotationalFieldTrial	General		Half_Pods_Mature_R7	Days till 10% of Plants have 1/2 Pods Mature (R7; days)	decimal		days						True					"The number of days from the date of planting to the \""Maturity Date\"" where the Maturity date is the date the plants reach R7 according to the Lentil Reproductive & Maturity Staging Guide."			
+TeamActivateMultiGenusRotationalFieldTrial	General		Lentil	Lentil	WhitespaceMinimizedString							True						Uniquely identifies the Lentil germplasm planted in this plot within the trial.			
+TeamActivateMultiGenusRotationalFieldTrial	General		Lodging	Lodging (scale; 1=upright; 5=prostrate)	decimal	Lodging	scale						True					Indicates the rate of lodging in the plot between R6-R7 where lodging is defined as an irreversible falling over of the primary plant stem greater than 45 degrees.			
+TeamActivateMultiGenusRotationalFieldTrial	General		Maturity_Date_R7	Maturity Date (R7; date)	DateTime		year-month-day						True					This is R7 in the Lentil Reproductive & Maturity Staging Guide.			
+TeamActivateMultiGenusRotationalFieldTrial	General		NIR	NIR	decimal		percent protein						True					Protein percentage estimated by Near Infrared Spectroscopy (updated calibration)			
+TeamActivateMultiGenusRotationalFieldTrial	General		NIR_LenPro_preTweak	NIR_LenPro_preTweak	decimal		percent protein						True					Protein percentage estimated by Near Infrared Spectroscopy (old calibration)			
+TeamActivateMultiGenusRotationalFieldTrial	General		Name	Name	WhitespaceMinimizedString							True						The full name of the Lentil or Wheat germplasm evaluated in this particular row.			
+TeamActivateMultiGenusRotationalFieldTrial	General		One_Open_Flower_R1	Days till 10% of Plants have One Open Flower (R1; days)	decimal		days						True					"The number of days from the date of planting to the \""Flowering Date\"" where the Flowering date is the date the plants reach R1 according to the Lentil Reproductive & Maturity Staging Guide."			
+TeamActivateMultiGenusRotationalFieldTrial	General		Planting_Date	Planting Date (date)	DateTime		year-month-day						True					The date the seeds were sown.			
+TeamActivateMultiGenusRotationalFieldTrial	General		Rep	Rep	WhitespaceMinimizedString							True						Replication number			
+TeamActivateMultiGenusRotationalFieldTrial	General		Row	Row	decimal							True						Row number			
+TeamActivateMultiGenusRotationalFieldTrial	General		Type	Type	WhitespaceMinimizedString	Type						True						Treatment or check			
+TeamActivateMultiGenusRotationalFieldTrial	General		UniqueID	Unique ID	WhitespaceMinimizedString							True						Uniquely identifies the particular plot within the larger trial. It consists of the year the plot was grown, the Plot ID and either the Lentil OR Wheat ID depending on which is grown when these data are taken.			
+TeamActivateMultiGenusRotationalFieldTrial	General		Wheat	Wheat	WhitespaceMinimizedString							True						Uniquely identifies the Wheat germplasm planted in this plot within the trial.			
+TeamActivateMultiGenusRotationalFieldTrial	General		plot	Plot	WhitespaceMinimizedString							True						Identifies the plot uniquely within a given location/year (i.e. siteyear).			
+TeamActivateMultiGenusRotationalFieldTrial	General		yield_plot	yield plot (g)	decimal		grams						True					The weight of the seed harvested from the plot by the combine.			
+TeamActivateMultiGenusRotationalFieldTrial	General		yield_subsample	yield subsample (g)	decimal		grams						True					Some plots have yield subsampled at R7 by hand. This value is recorded here.			
+TeamActivateMultiGenusRotationalFieldTrial	General		yield_total	yield total (g)	decimal		grams						True					For subsampled plots this is the yield from both the combine and the subsample. For others this will be equal to the plot yield measurement.			

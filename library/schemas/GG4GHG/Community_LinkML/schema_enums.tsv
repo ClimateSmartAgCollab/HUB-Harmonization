@@ -1,0 +1,39 @@
+title	name	text	meaning	menu_1	menu_2	menu_3	menu_4	menu_5	description
+Aspect	Aspect								
+		East		East					
+		None		None					
+		North		North					
+		Northeast		Northeast					
+		Northwest		Northwest					
+		South		South					
+		Southeast		Southeast					
+		Southwest		Southwest					
+		West		West					
+Plot	Plot								
+		Community		Community					
+		Focal		Focal					
+Site	Site								
+		ASQ		NCC Asquith					
+		BID		Biddulph					
+		CDE		Condie					
+		CFL		Cranberry Flats					
+		CPH		Camp Hughes					
+		ESL		East Shoal Lake					
+		FEL		Fort Ellice-St. Lazare					
+		GLE		Grasslands East (west block)					
+		GLW		Grasslands West (west block)					
+		GWR		Goodwater					
+		HDM		Horod Moraine-Onanole					
+		HZN		Hazen					
+		LAM		Lake Alma					
+		MAT		Matador					
+		MCK		McKinney					
+		SLO		CFB Shilo					
+		STD		St. Denis					
+		YQP		Yellow Quill Prairie					
+Species	Species								
+		CL		Calamovilfa longifolia					
+		DP		Dalea purpurea					
+		HM		Helianthus maximilliani					
+		LL		Linum lewisii					
+		NV		Nasella viridula					
