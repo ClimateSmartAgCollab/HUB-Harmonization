@@ -21,7 +21,8 @@ parent: BENEFIT
 **ICT Group**: BENEFIT  
 **Schema package SAID**: EFgo32vmhNVHNwEPnmN-cm54cMWBz8Yx30iuBqEQC--J  
 
-[Download schema](CCASM_OCA_package.json)
+[Download Semantic Engine Schema](CCASM_OCA_package.json)
+[Download LinkML Schema](CCASM_LinkML/schema.yaml) ([yaml](CCASM_LinkML/schema.yaml), table view: [fields](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/BENEFIT/CCASM_LinkML/schema_slots.tsv), [picklists](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/BENEFIT/CCASM_LinkML/schema_enums.tsv))
 
 ## Schema quick view
 

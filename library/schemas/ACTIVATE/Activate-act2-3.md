@@ -21,7 +21,8 @@ parent: Activate
 **ICT Group**: Activate  
 **Schema package SAID**: EIem5ascBmJ8ud_RcMLBGj1JprhWZkIg0ajaz92Q5q5x  
 
-[Download Schema](ACTIVATE-act2.3.json)
+[Download Semantic Engine Schema](ACTIVATE-act2.3.json)
+[Download LinkML Schema](ACTIVATE_LinkML/schema.yaml) ([yaml](ACTIVATE_LinkML/schema.yaml); table view: [fields](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/ACTIVATE/ACTIVATE_LinkML/schema_slots.tsv), [picklists](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/ACTIVATE/ACTIVATE_LinkML/schema_enums.tsv))
 
 ## Schema quick view
 
