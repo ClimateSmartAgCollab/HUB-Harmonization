@@ -1,6 +1,7 @@
 ---
 layout: default  
 title: PeaCE  
+parent: peaCE
 ---
 
 # Schema information
@@ -15,7 +16,13 @@ title: PeaCE
 **Name**: PeaCE  
 **Description**: CLIMATE SMART AGRICULTURE AND FOOD SYSTEMS – INTERDISCIPLINARY CHALLENGE TEAMS (CSAFS-ICT) APPLICATION FORM  
 **Classification**: RDF401  
+**Author**: Abhinandan Kumar  
+**Author Email**: abhinandan.kumar2@ucalgary.ca  
+**ICT Group**: PEAce  
 **Schema package SAID**: EGRRH-4qD2zNCWynyCefq0sEmZBBsamMRwBeeJsbDjAm  
+
+[Download Semantic Engine Schema](PeaCE_OCA_package_Final.json) 
+[Download LinkML Schema](PeaCE_LinkML/schema.yaml) ([yaml](PeaCE_LinkML/schema.yaml); table view: [fields](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/peaCE/PeaCE_LinkML/schema_slots.tsv), [picklists](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/peaCE/PeaCE_LinkML/schema_enums.tsv))
 
 ## Schema quick view
 
