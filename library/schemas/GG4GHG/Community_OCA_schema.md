@@ -21,7 +21,8 @@ parent: GG4GHG
 **ICT Group**: GG4GHG  
 **Schema package SAID**: EHzVQzJ8fYpvu1RBX4X0YNWOGmgHZ_3sVT1KQ3bkIn4a  
 
-[Download schema](Community_OCA_package.json)
+[Download Semantic Engine Schema](Community_OCA_package.json)
+[Download LinkML Schema](Community_LinkML/schema.yaml) ([yaml](Community_LinkML/schema.yaml); table view: [fields](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/GG4GHG/Community_LinkML/schema_slots.tsv), [picklists](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/GG4GHG/Community_LinkML/schema_enums.tsv))
 
 ## Schema quick view
 
