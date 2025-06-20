@@ -22,7 +22,8 @@ parent: BENEFIT
 **Schema package SAID**: ELw_5caFHMEkuFSb7eMWB0Om9nWLHUIpIfaUMPM01PT6  
 
 [Download Semantic Engine Schema](BENEFIT_OCA_package.json)
-[Download LinkML Schema](BENEFIT_LinkML/schema.yaml) ([yaml](BENEFIT_LinkML/schema.yaml); table view: [fields](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/BENEFIT/BENEFIT_LinkML/schema_slots.tsv), [picklists](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/BENEFIT/BENEFIT_LinkML/schema_enums.tsv))
+
+[Download LinkML Schema](BENEFIT_LinkML/schema.json) ([yaml](BENEFIT_LinkML/schema.yaml); table view: [fields](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/BENEFIT/BENEFIT_LinkML/schema_slots.tsv), [picklists](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/BENEFIT/BENEFIT_LinkML/schema_enums.tsv))
 
 ## Schema quick view
 
