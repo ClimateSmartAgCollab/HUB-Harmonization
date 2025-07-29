@@ -23,7 +23,7 @@ parent: peaCE
 
 [Download Semantic Engine Schema](PeaCE_OCA_package_Final.json) 
 
-[Download LinkML Schema](PeaCE_LinkML/schema.json) ([yaml](PeaCE_LinkML/schema.yaml); table view: [fields](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/peaCE/PeACE_LinkML/schema_slots.tsv), [picklists](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/peACE/PeaCE_LinkML/schema_enums.tsv))
+[Download LinkML Schema](PeACE_LinkML/schema.json) ([yaml](PeACE_LinkML/schema.yaml); table view: [fields](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/peACE/PeaCE_LinkML/schema_slots.tsv), [picklists](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/peACE/PeaCE_LinkML/schema_enums.tsv))
 
 
 ## Schema quick view
