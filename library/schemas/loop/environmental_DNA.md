@@ -21,6 +21,8 @@ parent: Loop
 **ICT Group**: Loop  
 **Schema package SAID**: EDaePjQtbEwquMTpqkS20fWSEb1T-f5UBM3ytQz2_xCm  
 
+[Download Semantic Engine schema](environmental_DNA.json)
+
 ## Schema quick view
 
 | Attribute | Label | Description |
