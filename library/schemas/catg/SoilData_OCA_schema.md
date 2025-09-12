@@ -15,8 +15,8 @@ parent: CAT-G
 
 **Name**: SoilData  
 **Description**: Soil data from CAT-G  
-**Author**: Zerong Dai  
-**Author Email**: zerong@ualberta.ca  
+**Author**: Heather Anderson  
+**Author Email**: htanders@ualberta.ca  
 **ICT Group**: CAT-G  
 **Schema package SAID**: EHT1QqCTapEvtLqdVfDDRl3SJ6_77i0XinNxNVBaSmZ6  
 
