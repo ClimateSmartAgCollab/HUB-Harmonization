@@ -1,0 +1,3 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+ChronoamperometryForLactateConversion	General		Current		decimal		microamperes											Corresponding current read by the instrument			
+ChronoamperometryForLactateConversion	General		Time		DateTime		seconds											Time needed for Lactate conversion which can be varied by the user			

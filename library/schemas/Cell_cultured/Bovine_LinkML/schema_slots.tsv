@@ -1,0 +1,8 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+BovineCells	General		animal_ID	Animal Number	decimal							True						Animal species and number.			
+BovineCells	General		collection_date	Collection Date	DateTime							True				^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$		Date tissue was collected on.			
+BovineCells	General		collection_site	Collection Location	WhitespaceMinimizedString	collection_site						True						Location tissue was collected from.			
+BovineCells	General		number_of_cells	Number of Cells	decimal								True					Number of cells in the sorted population.			
+BovineCells	General		percentage	Percentage of Cells	decimal								True					What percentage the sorted population made up of the total cell number.			
+BovineCells	General		sort_date	Sort Date	DateTime								True			^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$		Date FACS was performed			
+BovineCells	General		sorted_population	Sorted Population	WhitespaceMinimizedString								True					Include positive and negative sorting markers.			

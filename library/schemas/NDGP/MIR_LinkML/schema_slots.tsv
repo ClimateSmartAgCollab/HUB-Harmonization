@@ -1,0 +1,12 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+MirFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString							True						INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
+MirFileLayout	General		COUNTRY_OF_DATA_ORIGIN	COUNTRY_OF_DATA_ORIGIN	WhitespaceMinimizedString							True									
+MirFileLayout	General		DATE_OF_TESTING	DATE_OF_TESTING	DateTime		YYYYMMDD					True									
+MirFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE						True									
+MirFileLayout	General		HERD_CODE	HERD_CODE	WhitespaceMinimizedString							True									
+MirFileLayout	General		MILK_SPECTRAL_DATA	MILK_SPECTRAL_DATA	decimal							True						ULTIPLIED BY 100,000,000			
+MirFileLayout	General		NUMBER_OF_DATA_POINTS	NUMBER_OF_DATA_POINTS	decimal								True								
+MirFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT						True									
+MirFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString							True						See contacts list under 'Source of Data' column			
+MirFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE						True									
+MirFileLayout	General		TYPE_OF_SPECTROMETER	TYPE_OF_SPECTROMETER	WhitespaceMinimizedString								True								

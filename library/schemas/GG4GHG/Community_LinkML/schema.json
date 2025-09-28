@@ -1,10 +1,11 @@
 {
+  "id": "https://example.com/CommunityCompositionData",
   "name": "CommunityCompositionData",
   "description": "Genome Canada community composition data",
-  "title": "Community composition data",
-  "in_language": "en",
-  "id": "https://example.com/CommunityCompositionData",
   "version": "0.0.0",
+  "in_language": "en",
+  "default_prefix": "https://example.com/CommunityCompositionData/",
+  "imports": [],
   "prefixes": {
     "linkml": {
       "prefix_prefix": "linkml",
@@ -21,2701 +22,6 @@
     "schema": {
       "prefix_prefix": "schema",
       "prefix_reference": "http://schema.org/"
-    }
-  },
-  "default_prefix": "https://example.com/CommunityCompositionData/",
-  "types": {
-    "WhitespaceMinimizedString": {
-      "name": "WhitespaceMinimizedString",
-      "description": "A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "typeof": "string",
-      "base": "str",
-      "uri": "xsd:token"
-    },
-    "string": {
-      "name": "string",
-      "description": "A character string",
-      "notes": [
-        "In RDF serializations, a slot with range of string is treated as a literal or type xsd:string.   If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"string\"."
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "exact_mappings": [
-        "schema:Text"
-      ],
-      "base": "str",
-      "uri": "xsd:string"
-    },
-    "integer": {
-      "name": "integer",
-      "description": "An integer",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"integer\"."
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "exact_mappings": [
-        "schema:Integer"
-      ],
-      "base": "int",
-      "uri": "xsd:integer"
-    },
-    "boolean": {
-      "name": "boolean",
-      "description": "A binary (true or false) value",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"boolean\"."
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "exact_mappings": [
-        "schema:Boolean"
-      ],
-      "base": "Bool",
-      "uri": "xsd:boolean",
-      "repr": "bool"
-    },
-    "float": {
-      "name": "float",
-      "description": "A real number that conforms to the xsd:float specification",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"float\"."
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "exact_mappings": [
-        "schema:Float"
-      ],
-      "base": "float",
-      "uri": "xsd:float"
-    },
-    "double": {
-      "name": "double",
-      "description": "A real number that conforms to the xsd:double specification",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"double\"."
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "close_mappings": [
-        "schema:Float"
-      ],
-      "base": "float",
-      "uri": "xsd:double"
-    },
-    "decimal": {
-      "name": "decimal",
-      "description": "A real number with arbitrary precision that conforms to the xsd:decimal specification",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"decimal\"."
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "broad_mappings": [
-        "schema:Number"
-      ],
-      "base": "Decimal",
-      "uri": "xsd:decimal"
-    },
-    "time": {
-      "name": "time",
-      "description": "A time object represents a (local) time of day, independent of any particular day",
-      "notes": [
-        "URI is dateTime because OWL reasoners do not work with straight date or time",
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"time\"."
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "exact_mappings": [
-        "schema:Time"
-      ],
-      "base": "XSDTime",
-      "uri": "xsd:time",
-      "repr": "str"
-    },
-    "date": {
-      "name": "date",
-      "description": "a date (year, month and day) in an idealized calendar",
-      "notes": [
-        "URI is dateTime because OWL reasoners don't work with straight date or time",
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date\"."
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "exact_mappings": [
-        "schema:Date"
-      ],
-      "base": "XSDDate",
-      "uri": "xsd:date",
-      "repr": "str"
-    },
-    "datetime": {
-      "name": "datetime",
-      "description": "The combination of a date and time",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"datetime\"."
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "exact_mappings": [
-        "schema:DateTime"
-      ],
-      "base": "XSDDateTime",
-      "uri": "xsd:dateTime",
-      "repr": "str"
-    },
-    "date_or_datetime": {
-      "name": "date_or_datetime",
-      "description": "Either a date or a datetime",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date_or_datetime\"."
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "base": "str",
-      "uri": "linkml:DateOrDatetime",
-      "repr": "str"
-    },
-    "uriorcurie": {
-      "name": "uriorcurie",
-      "description": "a URI or a CURIE",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uriorcurie\"."
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "base": "URIorCURIE",
-      "uri": "xsd:anyURI",
-      "repr": "str"
-    },
-    "curie": {
-      "name": "curie",
-      "conforms_to": "https://www.w3.org/TR/curie/",
-      "description": "a compact URI",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"curie\"."
-      ],
-      "comments": [
-        "in RDF serializations this MUST be expanded to a URI",
-        "in non-RDF serializations MAY be serialized as the compact representation"
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "base": "Curie",
-      "uri": "xsd:string",
-      "repr": "str"
-    },
-    "uri": {
-      "name": "uri",
-      "conforms_to": "https://www.ietf.org/rfc/rfc3987.txt",
-      "description": "a complete URI",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uri\"."
-      ],
-      "comments": [
-        "in RDF serializations a slot with range of uri is treated as a literal or type xsd:anyURI unless it is an identifier or a reference to an identifier, in which case it is translated directly to a node"
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "close_mappings": [
-        "schema:URL"
-      ],
-      "base": "URI",
-      "uri": "xsd:anyURI",
-      "repr": "str"
-    },
-    "ncname": {
-      "name": "ncname",
-      "description": "Prefix part of CURIE",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"ncname\"."
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "base": "NCName",
-      "uri": "xsd:string",
-      "repr": "str"
-    },
-    "objectidentifier": {
-      "name": "objectidentifier",
-      "description": "A URI or CURIE that represents an object in the model.",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"objectidentifier\"."
-      ],
-      "comments": [
-        "Used for inheritance and type checking"
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "base": "ElementIdentifier",
-      "uri": "shex:iri",
-      "repr": "str"
-    },
-    "nodeidentifier": {
-      "name": "nodeidentifier",
-      "description": "A URI, CURIE or BNODE that represents a node in a model.",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"nodeidentifier\"."
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "base": "NodeIdentifier",
-      "uri": "shex:nonLiteral",
-      "repr": "str"
-    },
-    "jsonpointer": {
-      "name": "jsonpointer",
-      "conforms_to": "https://datatracker.ietf.org/doc/html/rfc6901",
-      "description": "A string encoding a JSON Pointer. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to a valid object within the current instance document when encoded in tree form.",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpointer\"."
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "base": "str",
-      "uri": "xsd:string",
-      "repr": "str"
-    },
-    "jsonpath": {
-      "name": "jsonpath",
-      "conforms_to": "https://www.ietf.org/archive/id/draft-goessner-dispatch-jsonpath-00.html",
-      "description": "A string encoding a JSON Path. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to zero or more valid objects within the current instance document when encoded in tree form.",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpath\"."
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "base": "str",
-      "uri": "xsd:string",
-      "repr": "str"
-    },
-    "sparqlpath": {
-      "name": "sparqlpath",
-      "conforms_to": "https://www.w3.org/TR/sparql11-query/#propertypaths",
-      "description": "A string encoding a SPARQL Property Path. The value of the string MUST conform to SPARQL syntax and SHOULD dereference to zero or more valid objects within the current instance document when encoded as RDF.",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"sparqlpath\"."
-      ],
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "base": "str",
-      "uri": "xsd:string",
-      "repr": "str"
-    }
-  },
-  "enums": {
-    "SettingsMenu": {
-      "name": "SettingsMenu",
-      "title": "Regular Expressions",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "permissible_values": {
-        "AllCaps": {
-          "text": "AllCaps",
-          "description": "Entries of any length with only capital letters",
-          "title": "AllCaps"
-        },
-        "AlphaText1-50": {
-          "text": "AlphaText1-50",
-          "description": "Capital or lower case letters only, at least 1 character, and 50 characters max",
-          "title": "AlphaText1-50"
-        },
-        "AlphaText0-50": {
-          "text": "AlphaText0-50",
-          "description": "Capital or lower case letters only, 50 characters max",
-          "title": "AlphaText0-50"
-        },
-        "FreeText0-50": {
-          "text": "FreeText0-50",
-          "description": "Short text, 50 characters max",
-          "title": "FreeText0-50"
-        },
-        "FreeText0-250": {
-          "text": "FreeText0-250",
-          "description": "Short text, 250 characters max",
-          "title": "FreeText0-250"
-        },
-        "FreeText0-800": {
-          "text": "FreeText0-800",
-          "description": "Long text, 800 characters max",
-          "title": "FreeText0-800"
-        },
-        "FreeText0-4000": {
-          "text": "FreeText0-4000",
-          "description": "Long text, 4000 characters max",
-          "title": "FreeText0-4000"
-        },
-        "CanadianPostalCode": {
-          "text": "CanadianPostalCode",
-          "description": "Canadian postal codes (A1A 1A1)",
-          "title": "CanadianPostalCode"
-        },
-        "ZipCode": {
-          "text": "ZipCode",
-          "description": "USA Zip code",
-          "title": "ZipCode"
-        },
-        "EmailAddress": {
-          "text": "EmailAddress",
-          "description": "Email address",
-          "title": "EmailAddress"
-        },
-        "URL": {
-          "text": "URL",
-          "description": "Secure (https) URL",
-          "title": "URL"
-        },
-        "PhoneNumber": {
-          "text": "PhoneNumber",
-          "description": "Phone number with international and area code component.",
-          "title": "PhoneNumber"
-        },
-        "Latitude": {
-          "text": "Latitude",
-          "description": "Latitude in formats S30°15'45.678\" or N12°30.999\"",
-          "title": "Latitude"
-        },
-        "Longitude": {
-          "text": "Longitude",
-          "description": "Longitude in formats E30°15'45.678\" or W90°00.000\"",
-          "title": "Longitude"
-        },
-        "ISO_YYYY-MM-DD": {
-          "text": "ISO_YYYY-MM-DD",
-          "description": "year month day",
-          "title": "ISO_YYYY-MM-DD"
-        },
-        "ISO_YYYYMMDD": {
-          "text": "ISO_YYYYMMDD",
-          "title": "ISO_YYYYMMDD"
-        },
-        "ISO_YYYY-MM": {
-          "text": "ISO_YYYY-MM",
-          "description": "year month",
-          "title": "ISO_YYYY-MM"
-        },
-        "ISO_YYYY-Www": {
-          "text": "ISO_YYYY-Www",
-          "description": "year week (e.g. W01)",
-          "title": "ISO_YYYY-Www"
-        },
-        "ISO_YYYYWww": {
-          "text": "ISO_YYYYWww",
-          "description": "year week (e.g. W01)",
-          "title": "ISO_YYYYWww"
-        },
-        "ISO_YYYY-DDD": {
-          "text": "ISO_YYYY-DDD",
-          "description": "Ordinal date (day number from the year)",
-          "title": "ISO_YYYY-DDD"
-        },
-        "ISO_YYYYDDD": {
-          "text": "ISO_YYYYDDD",
-          "description": "Ordinal date (day number from the year)",
-          "title": "ISO_YYYYDDD"
-        },
-        "ISO_YYYY": {
-          "text": "ISO_YYYY",
-          "description": "year",
-          "title": "ISO_YYYY"
-        },
-        "ISO_MM": {
-          "text": "ISO_MM",
-          "description": "month",
-          "title": "ISO_MM"
-        },
-        "ISO_DD": {
-          "text": "ISO_DD",
-          "description": "day",
-          "title": "ISO_DD"
-        },
-        "ISO_YYYY-MM-DDTHH.MM.SSZ": {
-          "text": "ISO_YYYY-MM-DDTHH.MM.SSZ",
-          "description": "Date and Time Combined (UTC)",
-          "title": "ISO_YYYY-MM-DDTHH:MM:SSZ"
-        },
-        "ISO_YYYY-MM-DDTHH.MM.SS-hh.mm": {
-          "text": "ISO_YYYY-MM-DDTHH.MM.SS-hh.mm",
-          "description": "Date and Time Combined (with Timezone Offset)",
-          "title": "ISO_YYYY-MM-DDTHH:MM:SS±hh:mm"
-        },
-        "ISO_PnYnMnDTnHnMnS": {
-          "text": "ISO_PnYnMnDTnHnMnS",
-          "description": "durations e.g. P3Y6M4DT12H30M5S",
-          "title": "ISO_PnYnMnDTnHnMnS"
-        },
-        "ISO_HH.MM": {
-          "text": "ISO_HH.MM",
-          "description": "hour, minutes in 24 hour notation",
-          "title": "ISO_HH:MM"
-        },
-        "ISO_HH.MM.SS": {
-          "text": "ISO_HH.MM.SS",
-          "description": "hour, minutes, seconds in 24 hour notation",
-          "title": "ISO_HH:MM:SS"
-        },
-        "SLASH_DD_MM_YYYY": {
-          "text": "SLASH_DD_MM_YYYY",
-          "description": "day, month, year",
-          "title": "DD/MM/YYYY"
-        },
-        "SLASH_DD_MM_YY": {
-          "text": "SLASH_DD_MM_YY",
-          "description": "day, month, year",
-          "title": "DD/MM/YY"
-        },
-        "SLASH_MM_DD_YYYY": {
-          "text": "SLASH_MM_DD_YYYY",
-          "description": "month, day, year",
-          "title": "MM/DD/YYYY"
-        },
-        "DDMMYYYY": {
-          "text": "DDMMYYYY",
-          "description": "day, month, year",
-          "title": "DDMMYYYY"
-        },
-        "MMDDYYYY": {
-          "text": "MMDDYYYY",
-          "description": "month, day, year",
-          "title": "MMDDYYYY"
-        },
-        "YYYYMMDD": {
-          "text": "YYYYMMDD",
-          "description": "year, month, day",
-          "title": "YYYYMMDD"
-        },
-        "HH.MM.SS": {
-          "text": "HH.MM.SS",
-          "description": "hour, minutes, seconds 12 hour notation AM/PM",
-          "title": "HH:MM:SS"
-        },
-        "H.MM_or_HH.MM": {
-          "text": "H.MM_or_HH.MM",
-          "description": "hour, minutes AM/PM",
-          "title": "H:MM or HH:MM"
-        }
-      }
-    },
-    "Aspect": {
-      "name": "Aspect",
-      "title": "Aspect",
-      "permissible_values": {
-        "East": {
-          "text": "East",
-          "title": "East"
-        },
-        "None": {
-          "text": "None",
-          "title": "None"
-        },
-        "North": {
-          "text": "North",
-          "title": "North"
-        },
-        "Northeast": {
-          "text": "Northeast",
-          "title": "Northeast"
-        },
-        "Northwest": {
-          "text": "Northwest",
-          "title": "Northwest"
-        },
-        "South": {
-          "text": "South",
-          "title": "South"
-        },
-        "Southeast": {
-          "text": "Southeast",
-          "title": "Southeast"
-        },
-        "Southwest": {
-          "text": "Southwest",
-          "title": "Southwest"
-        },
-        "West": {
-          "text": "West",
-          "title": "West"
-        }
-      }
-    },
-    "Plot": {
-      "name": "Plot",
-      "title": "Plot",
-      "permissible_values": {
-        "Community": {
-          "text": "Community",
-          "title": "Community"
-        },
-        "Focal": {
-          "text": "Focal",
-          "title": "Focal"
-        }
-      }
-    },
-    "Site": {
-      "name": "Site",
-      "title": "Site",
-      "permissible_values": {
-        "ASQ": {
-          "text": "ASQ",
-          "title": "NCC Asquith"
-        },
-        "BID": {
-          "text": "BID",
-          "title": "Biddulph"
-        },
-        "CDE": {
-          "text": "CDE",
-          "title": "Condie"
-        },
-        "CFL": {
-          "text": "CFL",
-          "title": "Cranberry Flats"
-        },
-        "CPH": {
-          "text": "CPH",
-          "title": "Camp Hughes"
-        },
-        "ESL": {
-          "text": "ESL",
-          "title": "East Shoal Lake"
-        },
-        "FEL": {
-          "text": "FEL",
-          "title": "Fort Ellice-St. Lazare"
-        },
-        "GLE": {
-          "text": "GLE",
-          "title": "Grasslands East (west block)"
-        },
-        "GLW": {
-          "text": "GLW",
-          "title": "Grasslands West (west block)"
-        },
-        "GWR": {
-          "text": "GWR",
-          "title": "Goodwater"
-        },
-        "HDM": {
-          "text": "HDM",
-          "title": "Horod Moraine-Onanole"
-        },
-        "HZN": {
-          "text": "HZN",
-          "title": "Hazen"
-        },
-        "LAM": {
-          "text": "LAM",
-          "title": "Lake Alma"
-        },
-        "MAT": {
-          "text": "MAT",
-          "title": "Matador"
-        },
-        "MCK": {
-          "text": "MCK",
-          "title": "McKinney"
-        },
-        "SLO": {
-          "text": "SLO",
-          "title": "CFB Shilo"
-        },
-        "STD": {
-          "text": "STD",
-          "title": "St. Denis"
-        },
-        "YQP": {
-          "text": "YQP",
-          "title": "Yellow Quill Prairie"
-        }
-      }
-    },
-    "Species": {
-      "name": "Species",
-      "title": "Species",
-      "permissible_values": {
-        "CL": {
-          "text": "CL",
-          "title": "Calamovilfa longifolia"
-        },
-        "DP": {
-          "text": "DP",
-          "title": "Dalea purpurea"
-        },
-        "HM": {
-          "text": "HM",
-          "title": "Helianthus maximilliani"
-        },
-        "LL": {
-          "text": "LL",
-          "title": "Linum lewisii"
-        },
-        "NV": {
-          "text": "NV",
-          "title": "Nasella viridula"
-        }
-      }
-    }
-  },
-  "slots": {
-    "Achillea.millefolium": {
-      "name": "Achillea.millefolium",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Agropyron.caninum": {
-      "name": "Agropyron.caninum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Agropyron.cristatum": {
-      "name": "Agropyron.cristatum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Agroseris.glauca": {
-      "name": "Agroseris.glauca",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Allium.stellatum": {
-      "name": "Allium.stellatum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Allium.textile": {
-      "name": "Allium.textile",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Ambrosia.psilostachya": {
-      "name": "Ambrosia.psilostachya",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Amelanchier.alnifolia": {
-      "name": "Amelanchier.alnifolia",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Andropogon.gerardii": {
-      "name": "Andropogon.gerardii",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Androsace.septentrionalis": {
-      "name": "Androsace.septentrionalis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Anemonastrum_canadense": {
-      "name": "Anemonastrum_canadense",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Anenome.cylindrica": {
-      "name": "Anenome.cylindrica",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Anenome.multifida": {
-      "name": "Anenome.multifida",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Antecedant.Precip": {
-      "name": "Antecedant.Precip",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Antecedant.Temp": {
-      "name": "Antecedant.Temp",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^[-+]?\\d*\\.?\\d+$"
-    },
-    "Antennaria.neglecta": {
-      "name": "Antennaria.neglecta",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Antennaria.parvifolia": {
-      "name": "Antennaria.parvifolia",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Anticlea.elegans": {
-      "name": "Anticlea.elegans",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Arabis": {
-      "name": "Arabis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Arctostaphylos.uva-ursi": {
-      "name": "Arctostaphylos.uva-ursi",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Argentina.anserina": {
-      "name": "Argentina.anserina",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Arnica.fulgens": {
-      "name": "Arnica.fulgens",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Artemisia": {
-      "name": "Artemisia",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Artemisia.campestris": {
-      "name": "Artemisia.campestris",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Artemisia.cana": {
-      "name": "Artemisia.cana",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Artemisia.frigida": {
-      "name": "Artemisia.frigida",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Artemisia.ludoviciana": {
-      "name": "Artemisia.ludoviciana",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Asclepias.speciosa": {
-      "name": "Asclepias.speciosa",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Aspect": {
-      "name": "Aspect",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "required": true,
-      "pattern": "^.{0,50}$",
-      "any_of": [
-        {
-          "range": "WhitespaceMinimizedString"
-        },
-        {
-          "range": "Aspect"
-        }
-      ]
-    },
-    "Aster.laevis": {
-      "name": "Aster.laevis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Aster.unknown": {
-      "name": "Aster.unknown",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Astragalus": {
-      "name": "Astragalus",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Astragalus.agrestis": {
-      "name": "Astragalus.agrestis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Astragalus.bisulcatus": {
-      "name": "Astragalus.bisulcatus",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Astragalus.canadensis": {
-      "name": "Astragalus.canadensis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Astragalus.cicer": {
-      "name": "Astragalus.cicer",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Astragalus.missouriensis": {
-      "name": "Astragalus.missouriensis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Astragalus.pectinatus": {
-      "name": "Astragalus.pectinatus",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Bare.Ground": {
-      "name": "Bare.Ground",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^[-+]?\\d*\\.?\\d+$"
-    },
-    "Bouteloua.gracilis": {
-      "name": "Bouteloua.gracilis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Bromus.inermis": {
-      "name": "Bromus.inermis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Calamagrostis.stricta": {
-      "name": "Calamagrostis.stricta",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Calamovilfa.longifolia": {
-      "name": "Calamovilfa.longifolia",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Campanula.alaskana": {
-      "name": "Campanula.alaskana",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Carex": {
-      "name": "Carex",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Cerastium.arvense": {
-      "name": "Cerastium.arvense",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Chenopodiaceae": {
-      "name": "Chenopodiaceae",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Chenopodium.album": {
-      "name": "Chenopodium.album",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Cirsium.arvense": {
-      "name": "Cirsium.arvense",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Cirsium.arvense.2": {
-      "name": "Cirsium.arvense.2",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Cirsium.flodmanii": {
-      "name": "Cirsium.flodmanii",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Collomia.linearis": {
-      "name": "Collomia.linearis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Comandra.umbellata": {
-      "name": "Comandra.umbellata",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Crisium": {
-      "name": "Crisium",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Current.Precip": {
-      "name": "Current.Precip",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "required": true,
-      "pattern": "^[-+]?\\d*\\.?\\d+$"
-    },
-    "Current.Temp": {
-      "name": "Current.Temp",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "required": true,
-      "pattern": "^[-+]?\\d*\\.?\\d+$"
-    },
-    "Dalea.candida": {
-      "name": "Dalea.candida",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Dalea.purpurea": {
-      "name": "Dalea.purpurea",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Date": {
-      "name": "Date",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "DateTime",
-      "required": true,
-      "pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
-    },
-    "Descurainia.sophia": {
-      "name": "Descurainia.sophia",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Elaeagnus.commutata": {
-      "name": "Elaeagnus.commutata",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Elymus.repens": {
-      "name": "Elymus.repens",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Elymus.trachycaulus.subsecundus": {
-      "name": "Elymus.trachycaulus.subsecundus",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Elymus.trachycaulus.trachycaulus": {
-      "name": "Elymus.trachycaulus.trachycaulus",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Equisetum": {
-      "name": "Equisetum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Erigeron.caespitosus": {
-      "name": "Erigeron.caespitosus",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Erigeron.canadensis": {
-      "name": "Erigeron.canadensis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Erigeron.glabellus": {
-      "name": "Erigeron.glabellus",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Eriogonum.flavum": {
-      "name": "Eriogonum.flavum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Eriogonum.pauciflorum": {
-      "name": "Eriogonum.pauciflorum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Euphorbia.virgata": {
-      "name": "Euphorbia.virgata",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Festuca.hallii": {
-      "name": "Festuca.hallii",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Festuca.ovina": {
-      "name": "Festuca.ovina",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Fragaria.virginiana": {
-      "name": "Fragaria.virginiana",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Gaillardia.aristata": {
-      "name": "Gaillardia.aristata",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Galium.boreale": {
-      "name": "Galium.boreale",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Geum.triflorum": {
-      "name": "Geum.triflorum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Glycyrrhiza.lepidota": {
-      "name": "Glycyrrhiza.lepidota",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Grindelia.squarrosa": {
-      "name": "Grindelia.squarrosa",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Gutierrezia.sarothrae": {
-      "name": "Gutierrezia.sarothrae",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Hairy.grass.unknown": {
-      "name": "Hairy.grass.unknown",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Hedysarum.alpinum": {
-      "name": "Hedysarum.alpinum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Helianthus.maximiliani": {
-      "name": "Helianthus.maximiliani",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Helianthus.nuttallii": {
-      "name": "Helianthus.nuttallii",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Helianthus.pauciflorus": {
-      "name": "Helianthus.pauciflorus",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Helictochloa.hookeri": {
-      "name": "Helictochloa.hookeri",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Hesperostipa.comata": {
-      "name": "Hesperostipa.comata",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Hesperostipa.curtiseta": {
-      "name": "Hesperostipa.curtiseta",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Hesperostipa.spartea": {
-      "name": "Hesperostipa.spartea",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Heterotheca.villosa": {
-      "name": "Heterotheca.villosa",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Heuchera.richardsonii": {
-      "name": "Heuchera.richardsonii",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Houstonia.longifolia": {
-      "name": "Houstonia.longifolia",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Hymenoxys.richardsonii": {
-      "name": "Hymenoxys.richardsonii",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Iva.axillaris": {
-      "name": "Iva.axillaris",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Juniperus.horizontalis": {
-      "name": "Juniperus.horizontalis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Koeleria.macrantha": {
-      "name": "Koeleria.macrantha",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Lactuca.pulchella": {
-      "name": "Lactuca.pulchella",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Ladeania.lanceolata": {
-      "name": "Ladeania.lanceolata",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Lathyrus": {
-      "name": "Lathyrus",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Lathyrus.ochroleucus": {
-      "name": "Lathyrus.ochroleucus",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Lathyrus.venosus": {
-      "name": "Lathyrus.venosus",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Lepidum.densiflorum": {
-      "name": "Lepidum.densiflorum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Liatris.ligulistylis": {
-      "name": "Liatris.ligulistylis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Liatris.punctata": {
-      "name": "Liatris.punctata",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Lilium.philadelphicum": {
-      "name": "Lilium.philadelphicum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Linum.lewisii": {
-      "name": "Linum.lewisii",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Linum.rigidum": {
-      "name": "Linum.rigidum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Lithospermum.canescens": {
-      "name": "Lithospermum.canescens",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Litter": {
-      "name": "Litter",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^[-+]?\\d*\\.?\\d+$"
-    },
-    "Lygodesmia.juncea": {
-      "name": "Lygodesmia.juncea",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Maianthemum.stellatum": {
-      "name": "Maianthemum.stellatum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Medicago": {
-      "name": "Medicago",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Medicago.lupulina": {
-      "name": "Medicago.lupulina",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Medicago.sativa": {
-      "name": "Medicago.sativa",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Melilotus.albus": {
-      "name": "Melilotus.albus",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Melilotus.officinalis": {
-      "name": "Melilotus.officinalis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Monarda.fistulosa": {
-      "name": "Monarda.fistulosa",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Muhlenbergia": {
-      "name": "Muhlenbergia",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Muhlenbergia.cuspidata": {
-      "name": "Muhlenbergia.cuspidata",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Muhlenbergia.richardsonis": {
-      "name": "Muhlenbergia.richardsonis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Nassella.viridula": {
-      "name": "Nassella.viridula",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Number": {
-      "name": "Number",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "required": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Observer": {
-      "name": "Observer",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "WhitespaceMinimizedString",
-      "required": true,
-      "pattern": "^.{0,250}$"
-    },
-    "Oenothera.serrulata": {
-      "name": "Oenothera.serrulata",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Oenothera.suffrutescens": {
-      "name": "Oenothera.suffrutescens",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Opuntia.fragilis": {
-      "name": "Opuntia.fragilis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Opuntia.polycantha": {
-      "name": "Opuntia.polycantha",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Orthocarpus.luteus": {
-      "name": "Orthocarpus.luteus",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Oxytropis.lambertii": {
-      "name": "Oxytropis.lambertii",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Panicum.virgatum": {
-      "name": "Panicum.virgatum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Pascopyrum.smithii": {
-      "name": "Pascopyrum.smithii",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Pediomelum.agrophyllum": {
-      "name": "Pediomelum.agrophyllum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Pediomelum.esculentum": {
-      "name": "Pediomelum.esculentum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Penstemon": {
-      "name": "Penstemon",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Penstemon.gracilis": {
-      "name": "Penstemon.gracilis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Persicaria.amphibia": {
-      "name": "Persicaria.amphibia",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Phlox.hodii": {
-      "name": "Phlox.hodii",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Physalis.virginiana": {
-      "name": "Physalis.virginiana",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Plantago": {
-      "name": "Plantago",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Plantago.major": {
-      "name": "Plantago.major",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Plantago.patagonica": {
-      "name": "Plantago.patagonica",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Plot": {
-      "name": "Plot",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "required": true,
-      "pattern": "^.{0,50}$",
-      "any_of": [
-        {
-          "range": "WhitespaceMinimizedString"
-        },
-        {
-          "range": "Plot"
-        }
-      ]
-    },
-    "Poa.interior": {
-      "name": "Poa.interior",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Poa.pratensis": {
-      "name": "Poa.pratensis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Poa.secunda": {
-      "name": "Poa.secunda",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Poa.unknown": {
-      "name": "Poa.unknown",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Poaceae.unidentified": {
-      "name": "Poaceae.unidentified",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Polygala.alba": {
-      "name": "Polygala.alba",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Polygala.senega": {
-      "name": "Polygala.senega",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Populus.tremuloides": {
-      "name": "Populus.tremuloides",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Potentilla": {
-      "name": "Potentilla",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Potentilla.argenta": {
-      "name": "Potentilla.argenta",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Potentilla.hippiana": {
-      "name": "Potentilla.hippiana",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Potentilla.pensylvanica": {
-      "name": "Potentilla.pensylvanica",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Prunus.pumila": {
-      "name": "Prunus.pumila",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Prunus.virginiana": {
-      "name": "Prunus.virginiana",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Pulsatilla.nuttalliana": {
-      "name": "Pulsatilla.nuttalliana",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Ratibida.columnifera": {
-      "name": "Ratibida.columnifera",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Replicate": {
-      "name": "Replicate",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "required": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Rosa.acicularis": {
-      "name": "Rosa.acicularis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Rosa.arkansana": {
-      "name": "Rosa.arkansana",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Rosa.woodsii": {
-      "name": "Rosa.woodsii",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Rudbeckia.hirta": {
-      "name": "Rudbeckia.hirta",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Salix": {
-      "name": "Salix",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Schizachyrium.scoparium": {
-      "name": "Schizachyrium.scoparium",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Shepherdia.argentea": {
-      "name": "Shepherdia.argentea",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Silene.drummondii": {
-      "name": "Silene.drummondii",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Silver.trifoliate.unkown": {
-      "name": "Silver.trifoliate.unkown",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Site": {
-      "name": "Site",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "required": true,
-      "pattern": "^.{0,50}$",
-      "any_of": [
-        {
-          "range": "WhitespaceMinimizedString"
-        },
-        {
-          "range": "Site"
-        }
-      ]
-    },
-    "Slope": {
-      "name": "Slope",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "required": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Solidago": {
-      "name": "Solidago",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Solidago.canadensis": {
-      "name": "Solidago.canadensis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Solidago.missouriensis": {
-      "name": "Solidago.missouriensis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Solidago.rigida": {
-      "name": "Solidago.rigida",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Sonchus.arvensis": {
-      "name": "Sonchus.arvensis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Species": {
-      "name": "Species",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "required": true,
-      "pattern": "^.{0,250}$",
-      "any_of": [
-        {
-          "range": "WhitespaceMinimizedString"
-        },
-        {
-          "range": "Species"
-        }
-      ]
-    },
-    "Sphaeralcea.coccinea": {
-      "name": "Sphaeralcea.coccinea",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Sporobolus.cryptandrus": {
-      "name": "Sporobolus.cryptandrus",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Sporobolus.heterolepis": {
-      "name": "Sporobolus.heterolepis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Sporobolus.michauxianus": {
-      "name": "Sporobolus.michauxianus",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Stachys": {
-      "name": "Stachys",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Stipa.spartea": {
-      "name": "Stipa.spartea",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Symphoricarpos.occidentalis": {
-      "name": "Symphoricarpos.occidentalis",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Symphyotrichum": {
-      "name": "Symphyotrichum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Symphyotrichum.boreale": {
-      "name": "Symphyotrichum.boreale",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Symphyotrichum.ericoides": {
-      "name": "Symphyotrichum.ericoides",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Symphyotrichum.falcatum": {
-      "name": "Symphyotrichum.falcatum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Symphyotrichum.laeve": {
-      "name": "Symphyotrichum.laeve",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Symphyotrichum.lanceolatum": {
-      "name": "Symphyotrichum.lanceolatum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Taraxacum.officinale": {
-      "name": "Taraxacum.officinale",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Thalictrum.venulosum": {
-      "name": "Thalictrum.venulosum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Thermopsis.rhombifolia": {
-      "name": "Thermopsis.rhombifolia",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Toadflaxlikeplant": {
-      "name": "Toadflaxlikeplant",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Toxicoscordion.venenosum": {
-      "name": "Toxicoscordion.venenosum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Tragopogon.dubius": {
-      "name": "Tragopogon.dubius",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Trifolium": {
-      "name": "Trifolium",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Trifolium.pratense": {
-      "name": "Trifolium.pratense",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Trifolium.repens": {
-      "name": "Trifolium.repens",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Ulmus": {
-      "name": "Ulmus",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Vicia": {
-      "name": "Vicia",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Vicia.americana": {
-      "name": "Vicia.americana",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Viola.adunca": {
-      "name": "Viola.adunca",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Viola.vallicola": {
-      "name": "Viola.vallicola",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Xanthisma.spinulosum": {
-      "name": "Xanthisma.spinulosum",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
-    },
-    "Zizia.aptera": {
-      "name": "Zizia.aptera",
-      "from_schema": "https://example.com/CommunityCompositionData",
-      "domain_of": [
-        "CommunityCompositionData"
-      ],
-      "range": "decimal",
-      "recommended": true,
-      "pattern": "^-?[0-9]+$"
     }
   },
   "classes": {
@@ -6675,6 +3981,2700 @@
       "tree_root": true
     }
   },
+  "slots": {
+    "Achillea.millefolium": {
+      "name": "Achillea.millefolium",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Agropyron.caninum": {
+      "name": "Agropyron.caninum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Agropyron.cristatum": {
+      "name": "Agropyron.cristatum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Agroseris.glauca": {
+      "name": "Agroseris.glauca",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Allium.stellatum": {
+      "name": "Allium.stellatum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Allium.textile": {
+      "name": "Allium.textile",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Ambrosia.psilostachya": {
+      "name": "Ambrosia.psilostachya",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Amelanchier.alnifolia": {
+      "name": "Amelanchier.alnifolia",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Andropogon.gerardii": {
+      "name": "Andropogon.gerardii",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Androsace.septentrionalis": {
+      "name": "Androsace.septentrionalis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Anemonastrum_canadense": {
+      "name": "Anemonastrum_canadense",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Anenome.cylindrica": {
+      "name": "Anenome.cylindrica",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Anenome.multifida": {
+      "name": "Anenome.multifida",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Antecedant.Precip": {
+      "name": "Antecedant.Precip",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Antecedant.Temp": {
+      "name": "Antecedant.Temp",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^[-+]?\\d*\\.?\\d+$"
+    },
+    "Antennaria.neglecta": {
+      "name": "Antennaria.neglecta",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Antennaria.parvifolia": {
+      "name": "Antennaria.parvifolia",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Anticlea.elegans": {
+      "name": "Anticlea.elegans",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Arabis": {
+      "name": "Arabis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Arctostaphylos.uva-ursi": {
+      "name": "Arctostaphylos.uva-ursi",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Argentina.anserina": {
+      "name": "Argentina.anserina",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Arnica.fulgens": {
+      "name": "Arnica.fulgens",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Artemisia": {
+      "name": "Artemisia",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Artemisia.campestris": {
+      "name": "Artemisia.campestris",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Artemisia.cana": {
+      "name": "Artemisia.cana",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Artemisia.frigida": {
+      "name": "Artemisia.frigida",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Artemisia.ludoviciana": {
+      "name": "Artemisia.ludoviciana",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Asclepias.speciosa": {
+      "name": "Asclepias.speciosa",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Aspect": {
+      "name": "Aspect",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "required": true,
+      "pattern": "^.{0,50}$",
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "Aspect"
+        }
+      ]
+    },
+    "Aster.laevis": {
+      "name": "Aster.laevis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Aster.unknown": {
+      "name": "Aster.unknown",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Astragalus": {
+      "name": "Astragalus",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Astragalus.agrestis": {
+      "name": "Astragalus.agrestis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Astragalus.bisulcatus": {
+      "name": "Astragalus.bisulcatus",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Astragalus.canadensis": {
+      "name": "Astragalus.canadensis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Astragalus.cicer": {
+      "name": "Astragalus.cicer",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Astragalus.missouriensis": {
+      "name": "Astragalus.missouriensis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Astragalus.pectinatus": {
+      "name": "Astragalus.pectinatus",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Bare.Ground": {
+      "name": "Bare.Ground",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^[-+]?\\d*\\.?\\d+$"
+    },
+    "Bouteloua.gracilis": {
+      "name": "Bouteloua.gracilis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Bromus.inermis": {
+      "name": "Bromus.inermis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Calamagrostis.stricta": {
+      "name": "Calamagrostis.stricta",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Calamovilfa.longifolia": {
+      "name": "Calamovilfa.longifolia",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Campanula.alaskana": {
+      "name": "Campanula.alaskana",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Carex": {
+      "name": "Carex",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Cerastium.arvense": {
+      "name": "Cerastium.arvense",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Chenopodiaceae": {
+      "name": "Chenopodiaceae",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Chenopodium.album": {
+      "name": "Chenopodium.album",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Cirsium.arvense": {
+      "name": "Cirsium.arvense",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Cirsium.arvense.2": {
+      "name": "Cirsium.arvense.2",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Cirsium.flodmanii": {
+      "name": "Cirsium.flodmanii",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Collomia.linearis": {
+      "name": "Collomia.linearis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Comandra.umbellata": {
+      "name": "Comandra.umbellata",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Crisium": {
+      "name": "Crisium",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Current.Precip": {
+      "name": "Current.Precip",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "required": true,
+      "pattern": "^[-+]?\\d*\\.?\\d+$"
+    },
+    "Current.Temp": {
+      "name": "Current.Temp",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "required": true,
+      "pattern": "^[-+]?\\d*\\.?\\d+$"
+    },
+    "Dalea.candida": {
+      "name": "Dalea.candida",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Dalea.purpurea": {
+      "name": "Dalea.purpurea",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Date": {
+      "name": "Date",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "DateTime",
+      "required": true,
+      "pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
+    },
+    "Descurainia.sophia": {
+      "name": "Descurainia.sophia",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Elaeagnus.commutata": {
+      "name": "Elaeagnus.commutata",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Elymus.repens": {
+      "name": "Elymus.repens",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Elymus.trachycaulus.subsecundus": {
+      "name": "Elymus.trachycaulus.subsecundus",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Elymus.trachycaulus.trachycaulus": {
+      "name": "Elymus.trachycaulus.trachycaulus",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Equisetum": {
+      "name": "Equisetum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Erigeron.caespitosus": {
+      "name": "Erigeron.caespitosus",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Erigeron.canadensis": {
+      "name": "Erigeron.canadensis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Erigeron.glabellus": {
+      "name": "Erigeron.glabellus",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Eriogonum.flavum": {
+      "name": "Eriogonum.flavum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Eriogonum.pauciflorum": {
+      "name": "Eriogonum.pauciflorum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Euphorbia.virgata": {
+      "name": "Euphorbia.virgata",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Festuca.hallii": {
+      "name": "Festuca.hallii",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Festuca.ovina": {
+      "name": "Festuca.ovina",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Fragaria.virginiana": {
+      "name": "Fragaria.virginiana",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Gaillardia.aristata": {
+      "name": "Gaillardia.aristata",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Galium.boreale": {
+      "name": "Galium.boreale",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Geum.triflorum": {
+      "name": "Geum.triflorum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Glycyrrhiza.lepidota": {
+      "name": "Glycyrrhiza.lepidota",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Grindelia.squarrosa": {
+      "name": "Grindelia.squarrosa",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Gutierrezia.sarothrae": {
+      "name": "Gutierrezia.sarothrae",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Hairy.grass.unknown": {
+      "name": "Hairy.grass.unknown",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Hedysarum.alpinum": {
+      "name": "Hedysarum.alpinum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Helianthus.maximiliani": {
+      "name": "Helianthus.maximiliani",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Helianthus.nuttallii": {
+      "name": "Helianthus.nuttallii",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Helianthus.pauciflorus": {
+      "name": "Helianthus.pauciflorus",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Helictochloa.hookeri": {
+      "name": "Helictochloa.hookeri",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Hesperostipa.comata": {
+      "name": "Hesperostipa.comata",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Hesperostipa.curtiseta": {
+      "name": "Hesperostipa.curtiseta",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Hesperostipa.spartea": {
+      "name": "Hesperostipa.spartea",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Heterotheca.villosa": {
+      "name": "Heterotheca.villosa",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Heuchera.richardsonii": {
+      "name": "Heuchera.richardsonii",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Houstonia.longifolia": {
+      "name": "Houstonia.longifolia",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Hymenoxys.richardsonii": {
+      "name": "Hymenoxys.richardsonii",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Iva.axillaris": {
+      "name": "Iva.axillaris",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Juniperus.horizontalis": {
+      "name": "Juniperus.horizontalis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Koeleria.macrantha": {
+      "name": "Koeleria.macrantha",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Lactuca.pulchella": {
+      "name": "Lactuca.pulchella",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Ladeania.lanceolata": {
+      "name": "Ladeania.lanceolata",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Lathyrus": {
+      "name": "Lathyrus",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Lathyrus.ochroleucus": {
+      "name": "Lathyrus.ochroleucus",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Lathyrus.venosus": {
+      "name": "Lathyrus.venosus",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Lepidum.densiflorum": {
+      "name": "Lepidum.densiflorum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Liatris.ligulistylis": {
+      "name": "Liatris.ligulistylis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Liatris.punctata": {
+      "name": "Liatris.punctata",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Lilium.philadelphicum": {
+      "name": "Lilium.philadelphicum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Linum.lewisii": {
+      "name": "Linum.lewisii",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Linum.rigidum": {
+      "name": "Linum.rigidum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Lithospermum.canescens": {
+      "name": "Lithospermum.canescens",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Litter": {
+      "name": "Litter",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^[-+]?\\d*\\.?\\d+$"
+    },
+    "Lygodesmia.juncea": {
+      "name": "Lygodesmia.juncea",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Maianthemum.stellatum": {
+      "name": "Maianthemum.stellatum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Medicago": {
+      "name": "Medicago",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Medicago.lupulina": {
+      "name": "Medicago.lupulina",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Medicago.sativa": {
+      "name": "Medicago.sativa",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Melilotus.albus": {
+      "name": "Melilotus.albus",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Melilotus.officinalis": {
+      "name": "Melilotus.officinalis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Monarda.fistulosa": {
+      "name": "Monarda.fistulosa",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Muhlenbergia": {
+      "name": "Muhlenbergia",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Muhlenbergia.cuspidata": {
+      "name": "Muhlenbergia.cuspidata",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Muhlenbergia.richardsonis": {
+      "name": "Muhlenbergia.richardsonis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Nassella.viridula": {
+      "name": "Nassella.viridula",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Number": {
+      "name": "Number",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "required": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Observer": {
+      "name": "Observer",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "WhitespaceMinimizedString",
+      "required": true,
+      "pattern": "^.{0,250}$"
+    },
+    "Oenothera.serrulata": {
+      "name": "Oenothera.serrulata",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Oenothera.suffrutescens": {
+      "name": "Oenothera.suffrutescens",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Opuntia.fragilis": {
+      "name": "Opuntia.fragilis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Opuntia.polycantha": {
+      "name": "Opuntia.polycantha",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Orthocarpus.luteus": {
+      "name": "Orthocarpus.luteus",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Oxytropis.lambertii": {
+      "name": "Oxytropis.lambertii",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Panicum.virgatum": {
+      "name": "Panicum.virgatum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Pascopyrum.smithii": {
+      "name": "Pascopyrum.smithii",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Pediomelum.agrophyllum": {
+      "name": "Pediomelum.agrophyllum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Pediomelum.esculentum": {
+      "name": "Pediomelum.esculentum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Penstemon": {
+      "name": "Penstemon",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Penstemon.gracilis": {
+      "name": "Penstemon.gracilis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Persicaria.amphibia": {
+      "name": "Persicaria.amphibia",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Phlox.hodii": {
+      "name": "Phlox.hodii",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Physalis.virginiana": {
+      "name": "Physalis.virginiana",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Plantago": {
+      "name": "Plantago",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Plantago.major": {
+      "name": "Plantago.major",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Plantago.patagonica": {
+      "name": "Plantago.patagonica",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Plot": {
+      "name": "Plot",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "required": true,
+      "pattern": "^.{0,50}$",
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "Plot"
+        }
+      ]
+    },
+    "Poa.interior": {
+      "name": "Poa.interior",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Poa.pratensis": {
+      "name": "Poa.pratensis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Poa.secunda": {
+      "name": "Poa.secunda",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Poa.unknown": {
+      "name": "Poa.unknown",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Poaceae.unidentified": {
+      "name": "Poaceae.unidentified",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Polygala.alba": {
+      "name": "Polygala.alba",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Polygala.senega": {
+      "name": "Polygala.senega",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Populus.tremuloides": {
+      "name": "Populus.tremuloides",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Potentilla": {
+      "name": "Potentilla",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Potentilla.argenta": {
+      "name": "Potentilla.argenta",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Potentilla.hippiana": {
+      "name": "Potentilla.hippiana",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Potentilla.pensylvanica": {
+      "name": "Potentilla.pensylvanica",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Prunus.pumila": {
+      "name": "Prunus.pumila",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Prunus.virginiana": {
+      "name": "Prunus.virginiana",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Pulsatilla.nuttalliana": {
+      "name": "Pulsatilla.nuttalliana",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Ratibida.columnifera": {
+      "name": "Ratibida.columnifera",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Replicate": {
+      "name": "Replicate",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "required": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Rosa.acicularis": {
+      "name": "Rosa.acicularis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Rosa.arkansana": {
+      "name": "Rosa.arkansana",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Rosa.woodsii": {
+      "name": "Rosa.woodsii",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Rudbeckia.hirta": {
+      "name": "Rudbeckia.hirta",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Salix": {
+      "name": "Salix",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Schizachyrium.scoparium": {
+      "name": "Schizachyrium.scoparium",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Shepherdia.argentea": {
+      "name": "Shepherdia.argentea",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Silene.drummondii": {
+      "name": "Silene.drummondii",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Silver.trifoliate.unkown": {
+      "name": "Silver.trifoliate.unkown",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Site": {
+      "name": "Site",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "required": true,
+      "pattern": "^.{0,50}$",
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "Site"
+        }
+      ]
+    },
+    "Slope": {
+      "name": "Slope",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "required": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Solidago": {
+      "name": "Solidago",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Solidago.canadensis": {
+      "name": "Solidago.canadensis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Solidago.missouriensis": {
+      "name": "Solidago.missouriensis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Solidago.rigida": {
+      "name": "Solidago.rigida",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Sonchus.arvensis": {
+      "name": "Sonchus.arvensis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Species": {
+      "name": "Species",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "required": true,
+      "pattern": "^.{0,250}$",
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "Species"
+        }
+      ]
+    },
+    "Sphaeralcea.coccinea": {
+      "name": "Sphaeralcea.coccinea",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Sporobolus.cryptandrus": {
+      "name": "Sporobolus.cryptandrus",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Sporobolus.heterolepis": {
+      "name": "Sporobolus.heterolepis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Sporobolus.michauxianus": {
+      "name": "Sporobolus.michauxianus",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Stachys": {
+      "name": "Stachys",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Stipa.spartea": {
+      "name": "Stipa.spartea",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Symphoricarpos.occidentalis": {
+      "name": "Symphoricarpos.occidentalis",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Symphyotrichum": {
+      "name": "Symphyotrichum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Symphyotrichum.boreale": {
+      "name": "Symphyotrichum.boreale",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Symphyotrichum.ericoides": {
+      "name": "Symphyotrichum.ericoides",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Symphyotrichum.falcatum": {
+      "name": "Symphyotrichum.falcatum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Symphyotrichum.laeve": {
+      "name": "Symphyotrichum.laeve",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Symphyotrichum.lanceolatum": {
+      "name": "Symphyotrichum.lanceolatum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Taraxacum.officinale": {
+      "name": "Taraxacum.officinale",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Thalictrum.venulosum": {
+      "name": "Thalictrum.venulosum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Thermopsis.rhombifolia": {
+      "name": "Thermopsis.rhombifolia",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Toadflaxlikeplant": {
+      "name": "Toadflaxlikeplant",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Toxicoscordion.venenosum": {
+      "name": "Toxicoscordion.venenosum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Tragopogon.dubius": {
+      "name": "Tragopogon.dubius",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Trifolium": {
+      "name": "Trifolium",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Trifolium.pratense": {
+      "name": "Trifolium.pratense",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Trifolium.repens": {
+      "name": "Trifolium.repens",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Ulmus": {
+      "name": "Ulmus",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Vicia": {
+      "name": "Vicia",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Vicia.americana": {
+      "name": "Vicia.americana",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Viola.adunca": {
+      "name": "Viola.adunca",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Viola.vallicola": {
+      "name": "Viola.vallicola",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Xanthisma.spinulosum": {
+      "name": "Xanthisma.spinulosum",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    },
+    "Zizia.aptera": {
+      "name": "Zizia.aptera",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "domain_of": [
+        "CommunityCompositionData"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "pattern": "^-?[0-9]+$"
+    }
+  },
+  "enums": {
+    "SettingsMenu": {
+      "name": "SettingsMenu",
+      "title": "Regular Expressions",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "permissible_values": {
+        "AllCaps": {
+          "text": "AllCaps",
+          "description": "Entries of any length with only capital letters",
+          "title": "AllCaps"
+        },
+        "AlphaText1-50": {
+          "text": "AlphaText1-50",
+          "description": "Capital or lower case letters only, at least 1 character, and 50 characters max",
+          "title": "AlphaText1-50"
+        },
+        "AlphaText0-50": {
+          "text": "AlphaText0-50",
+          "description": "Capital or lower case letters only, 50 characters max",
+          "title": "AlphaText0-50"
+        },
+        "FreeText0-50": {
+          "text": "FreeText0-50",
+          "description": "Short text, 50 characters max",
+          "title": "FreeText0-50"
+        },
+        "FreeText0-250": {
+          "text": "FreeText0-250",
+          "description": "Short text, 250 characters max",
+          "title": "FreeText0-250"
+        },
+        "FreeText0-800": {
+          "text": "FreeText0-800",
+          "description": "Long text, 800 characters max",
+          "title": "FreeText0-800"
+        },
+        "FreeText0-4000": {
+          "text": "FreeText0-4000",
+          "description": "Long text, 4000 characters max",
+          "title": "FreeText0-4000"
+        },
+        "CanadianPostalCode": {
+          "text": "CanadianPostalCode",
+          "description": "Canadian postal codes (A1A 1A1)",
+          "title": "CanadianPostalCode"
+        },
+        "ZipCode": {
+          "text": "ZipCode",
+          "description": "USA Zip code",
+          "title": "ZipCode"
+        },
+        "EmailAddress": {
+          "text": "EmailAddress",
+          "description": "Email address",
+          "title": "EmailAddress"
+        },
+        "URL": {
+          "text": "URL",
+          "description": "Secure (https) URL",
+          "title": "URL"
+        },
+        "PhoneNumber": {
+          "text": "PhoneNumber",
+          "description": "Phone number with international and area code component.",
+          "title": "PhoneNumber"
+        },
+        "Latitude": {
+          "text": "Latitude",
+          "description": "Latitude in formats S30°15'45.678\" or N12°30.999\"",
+          "title": "Latitude"
+        },
+        "Longitude": {
+          "text": "Longitude",
+          "description": "Longitude in formats E30°15'45.678\" or W90°00.000\"",
+          "title": "Longitude"
+        },
+        "ISO_YYYY-MM-DD": {
+          "text": "ISO_YYYY-MM-DD",
+          "description": "year month day",
+          "title": "ISO_YYYY-MM-DD"
+        },
+        "ISO_YYYYMMDD": {
+          "text": "ISO_YYYYMMDD",
+          "title": "ISO_YYYYMMDD"
+        },
+        "ISO_YYYY-MM": {
+          "text": "ISO_YYYY-MM",
+          "description": "year month",
+          "title": "ISO_YYYY-MM"
+        },
+        "ISO_YYYY-Www": {
+          "text": "ISO_YYYY-Www",
+          "description": "year week (e.g. W01)",
+          "title": "ISO_YYYY-Www"
+        },
+        "ISO_YYYYWww": {
+          "text": "ISO_YYYYWww",
+          "description": "year week (e.g. W01)",
+          "title": "ISO_YYYYWww"
+        },
+        "ISO_YYYY-DDD": {
+          "text": "ISO_YYYY-DDD",
+          "description": "Ordinal date (day number from the year)",
+          "title": "ISO_YYYY-DDD"
+        },
+        "ISO_YYYYDDD": {
+          "text": "ISO_YYYYDDD",
+          "description": "Ordinal date (day number from the year)",
+          "title": "ISO_YYYYDDD"
+        },
+        "ISO_YYYY": {
+          "text": "ISO_YYYY",
+          "description": "year",
+          "title": "ISO_YYYY"
+        },
+        "ISO_MM": {
+          "text": "ISO_MM",
+          "description": "month",
+          "title": "ISO_MM"
+        },
+        "ISO_DD": {
+          "text": "ISO_DD",
+          "description": "day",
+          "title": "ISO_DD"
+        },
+        "ISO_YYYY-MM-DDTHH.MM.SSZ": {
+          "text": "ISO_YYYY-MM-DDTHH.MM.SSZ",
+          "description": "Date and Time Combined (UTC)",
+          "title": "ISO_YYYY-MM-DDTHH:MM:SSZ"
+        },
+        "ISO_YYYY-MM-DDTHH.MM.SS-hh.mm": {
+          "text": "ISO_YYYY-MM-DDTHH.MM.SS-hh.mm",
+          "description": "Date and Time Combined (with Timezone Offset)",
+          "title": "ISO_YYYY-MM-DDTHH:MM:SS±hh:mm"
+        },
+        "ISO_PnYnMnDTnHnMnS": {
+          "text": "ISO_PnYnMnDTnHnMnS",
+          "description": "durations e.g. P3Y6M4DT12H30M5S",
+          "title": "ISO_PnYnMnDTnHnMnS"
+        },
+        "ISO_HH.MM": {
+          "text": "ISO_HH.MM",
+          "description": "hour, minutes in 24 hour notation",
+          "title": "ISO_HH:MM"
+        },
+        "ISO_HH.MM.SS": {
+          "text": "ISO_HH.MM.SS",
+          "description": "hour, minutes, seconds in 24 hour notation",
+          "title": "ISO_HH:MM:SS"
+        },
+        "SLASH_DD_MM_YYYY": {
+          "text": "SLASH_DD_MM_YYYY",
+          "description": "day, month, year",
+          "title": "DD/MM/YYYY"
+        },
+        "SLASH_DD_MM_YY": {
+          "text": "SLASH_DD_MM_YY",
+          "description": "day, month, year",
+          "title": "DD/MM/YY"
+        },
+        "SLASH_MM_DD_YYYY": {
+          "text": "SLASH_MM_DD_YYYY",
+          "description": "month, day, year",
+          "title": "MM/DD/YYYY"
+        },
+        "DDMMYYYY": {
+          "text": "DDMMYYYY",
+          "description": "day, month, year",
+          "title": "DDMMYYYY"
+        },
+        "MMDDYYYY": {
+          "text": "MMDDYYYY",
+          "description": "month, day, year",
+          "title": "MMDDYYYY"
+        },
+        "YYYYMMDD": {
+          "text": "YYYYMMDD",
+          "description": "year, month, day",
+          "title": "YYYYMMDD"
+        },
+        "HH.MM.SS": {
+          "text": "HH.MM.SS",
+          "description": "hour, minutes, seconds 12 hour notation AM/PM",
+          "title": "HH:MM:SS"
+        },
+        "H.MM_or_HH.MM": {
+          "text": "H.MM_or_HH.MM",
+          "description": "hour, minutes AM/PM",
+          "title": "H:MM or HH:MM"
+        }
+      }
+    },
+    "Aspect": {
+      "name": "Aspect",
+      "title": "Aspect",
+      "permissible_values": {
+        "East": {
+          "text": "East",
+          "title": "East"
+        },
+        "None": {
+          "text": "None",
+          "title": "None"
+        },
+        "North": {
+          "text": "North",
+          "title": "North"
+        },
+        "Northeast": {
+          "text": "Northeast",
+          "title": "Northeast"
+        },
+        "Northwest": {
+          "text": "Northwest",
+          "title": "Northwest"
+        },
+        "South": {
+          "text": "South",
+          "title": "South"
+        },
+        "Southeast": {
+          "text": "Southeast",
+          "title": "Southeast"
+        },
+        "Southwest": {
+          "text": "Southwest",
+          "title": "Southwest"
+        },
+        "West": {
+          "text": "West",
+          "title": "West"
+        }
+      }
+    },
+    "Plot": {
+      "name": "Plot",
+      "title": "Plot",
+      "permissible_values": {
+        "Community": {
+          "text": "Community",
+          "title": "Community"
+        },
+        "Focal": {
+          "text": "Focal",
+          "title": "Focal"
+        }
+      }
+    },
+    "Site": {
+      "name": "Site",
+      "title": "Site",
+      "permissible_values": {
+        "ASQ": {
+          "text": "ASQ",
+          "title": "NCC Asquith"
+        },
+        "BID": {
+          "text": "BID",
+          "title": "Biddulph"
+        },
+        "CDE": {
+          "text": "CDE",
+          "title": "Condie"
+        },
+        "CFL": {
+          "text": "CFL",
+          "title": "Cranberry Flats"
+        },
+        "CPH": {
+          "text": "CPH",
+          "title": "Camp Hughes"
+        },
+        "ESL": {
+          "text": "ESL",
+          "title": "East Shoal Lake"
+        },
+        "FEL": {
+          "text": "FEL",
+          "title": "Fort Ellice-St. Lazare"
+        },
+        "GLE": {
+          "text": "GLE",
+          "title": "Grasslands East (west block)"
+        },
+        "GLW": {
+          "text": "GLW",
+          "title": "Grasslands West (west block)"
+        },
+        "GWR": {
+          "text": "GWR",
+          "title": "Goodwater"
+        },
+        "HDM": {
+          "text": "HDM",
+          "title": "Horod Moraine-Onanole"
+        },
+        "HZN": {
+          "text": "HZN",
+          "title": "Hazen"
+        },
+        "LAM": {
+          "text": "LAM",
+          "title": "Lake Alma"
+        },
+        "MAT": {
+          "text": "MAT",
+          "title": "Matador"
+        },
+        "MCK": {
+          "text": "MCK",
+          "title": "McKinney"
+        },
+        "SLO": {
+          "text": "SLO",
+          "title": "CFB Shilo"
+        },
+        "STD": {
+          "text": "STD",
+          "title": "St. Denis"
+        },
+        "YQP": {
+          "text": "YQP",
+          "title": "Yellow Quill Prairie"
+        }
+      }
+    },
+    "Species": {
+      "name": "Species",
+      "title": "Species",
+      "permissible_values": {
+        "CL": {
+          "text": "CL",
+          "title": "Calamovilfa longifolia"
+        },
+        "DP": {
+          "text": "DP",
+          "title": "Dalea purpurea"
+        },
+        "HM": {
+          "text": "HM",
+          "title": "Helianthus maximilliani"
+        },
+        "LL": {
+          "text": "LL",
+          "title": "Linum lewisii"
+        },
+        "NV": {
+          "text": "NV",
+          "title": "Nasella viridula"
+        }
+      }
+    }
+  },
+  "types": {
+    "WhitespaceMinimizedString": {
+      "name": "WhitespaceMinimizedString",
+      "description": "A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).",
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "typeof": "string",
+      "base": "str",
+      "uri": "xsd:token"
+    },
+    "string": {
+      "name": "string",
+      "description": "A character string",
+      "notes": [
+        "In RDF serializations, a slot with range of string is treated as a literal or type xsd:string.   If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"string\"."
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "exact_mappings": [
+        "schema:Text"
+      ],
+      "base": "str",
+      "uri": "xsd:string"
+    },
+    "integer": {
+      "name": "integer",
+      "description": "An integer",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"integer\"."
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "exact_mappings": [
+        "schema:Integer"
+      ],
+      "base": "int",
+      "uri": "xsd:integer"
+    },
+    "boolean": {
+      "name": "boolean",
+      "description": "A binary (true or false) value",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"boolean\"."
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "exact_mappings": [
+        "schema:Boolean"
+      ],
+      "base": "Bool",
+      "uri": "xsd:boolean",
+      "repr": "bool"
+    },
+    "float": {
+      "name": "float",
+      "description": "A real number that conforms to the xsd:float specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"float\"."
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "exact_mappings": [
+        "schema:Float"
+      ],
+      "base": "float",
+      "uri": "xsd:float"
+    },
+    "double": {
+      "name": "double",
+      "description": "A real number that conforms to the xsd:double specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"double\"."
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "close_mappings": [
+        "schema:Float"
+      ],
+      "base": "float",
+      "uri": "xsd:double"
+    },
+    "decimal": {
+      "name": "decimal",
+      "description": "A real number with arbitrary precision that conforms to the xsd:decimal specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"decimal\"."
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "broad_mappings": [
+        "schema:Number"
+      ],
+      "base": "Decimal",
+      "uri": "xsd:decimal"
+    },
+    "time": {
+      "name": "time",
+      "description": "A time object represents a (local) time of day, independent of any particular day",
+      "notes": [
+        "URI is dateTime because OWL reasoners do not work with straight date or time",
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"time\"."
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "exact_mappings": [
+        "schema:Time"
+      ],
+      "base": "XSDTime",
+      "uri": "xsd:time",
+      "repr": "str"
+    },
+    "date": {
+      "name": "date",
+      "description": "a date (year, month and day) in an idealized calendar",
+      "notes": [
+        "URI is dateTime because OWL reasoners don't work with straight date or time",
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date\"."
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "exact_mappings": [
+        "schema:Date"
+      ],
+      "base": "XSDDate",
+      "uri": "xsd:date",
+      "repr": "str"
+    },
+    "datetime": {
+      "name": "datetime",
+      "description": "The combination of a date and time",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"datetime\"."
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "exact_mappings": [
+        "schema:DateTime"
+      ],
+      "base": "XSDDateTime",
+      "uri": "xsd:dateTime",
+      "repr": "str"
+    },
+    "date_or_datetime": {
+      "name": "date_or_datetime",
+      "description": "Either a date or a datetime",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date_or_datetime\"."
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "base": "str",
+      "uri": "linkml:DateOrDatetime",
+      "repr": "str"
+    },
+    "uriorcurie": {
+      "name": "uriorcurie",
+      "description": "a URI or a CURIE",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uriorcurie\"."
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "base": "URIorCURIE",
+      "uri": "xsd:anyURI",
+      "repr": "str"
+    },
+    "curie": {
+      "name": "curie",
+      "conforms_to": "https://www.w3.org/TR/curie/",
+      "description": "a compact URI",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"curie\"."
+      ],
+      "comments": [
+        "in RDF serializations this MUST be expanded to a URI",
+        "in non-RDF serializations MAY be serialized as the compact representation"
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "base": "Curie",
+      "uri": "xsd:string",
+      "repr": "str"
+    },
+    "uri": {
+      "name": "uri",
+      "conforms_to": "https://www.ietf.org/rfc/rfc3987.txt",
+      "description": "a complete URI",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uri\"."
+      ],
+      "comments": [
+        "in RDF serializations a slot with range of uri is treated as a literal or type xsd:anyURI unless it is an identifier or a reference to an identifier, in which case it is translated directly to a node"
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "close_mappings": [
+        "schema:URL"
+      ],
+      "base": "URI",
+      "uri": "xsd:anyURI",
+      "repr": "str"
+    },
+    "ncname": {
+      "name": "ncname",
+      "description": "Prefix part of CURIE",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"ncname\"."
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "base": "NCName",
+      "uri": "xsd:string",
+      "repr": "str"
+    },
+    "objectidentifier": {
+      "name": "objectidentifier",
+      "description": "A URI or CURIE that represents an object in the model.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"objectidentifier\"."
+      ],
+      "comments": [
+        "Used for inheritance and type checking"
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "base": "ElementIdentifier",
+      "uri": "shex:iri",
+      "repr": "str"
+    },
+    "nodeidentifier": {
+      "name": "nodeidentifier",
+      "description": "A URI, CURIE or BNODE that represents a node in a model.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"nodeidentifier\"."
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "base": "NodeIdentifier",
+      "uri": "shex:nonLiteral",
+      "repr": "str"
+    },
+    "jsonpointer": {
+      "name": "jsonpointer",
+      "conforms_to": "https://datatracker.ietf.org/doc/html/rfc6901",
+      "description": "A string encoding a JSON Pointer. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to a valid object within the current instance document when encoded in tree form.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpointer\"."
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "base": "str",
+      "uri": "xsd:string",
+      "repr": "str"
+    },
+    "jsonpath": {
+      "name": "jsonpath",
+      "conforms_to": "https://www.ietf.org/archive/id/draft-goessner-dispatch-jsonpath-00.html",
+      "description": "A string encoding a JSON Path. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to zero or more valid objects within the current instance document when encoded in tree form.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpath\"."
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "base": "str",
+      "uri": "xsd:string",
+      "repr": "str"
+    },
+    "sparqlpath": {
+      "name": "sparqlpath",
+      "conforms_to": "https://www.w3.org/TR/sparql11-query/#propertypaths",
+      "description": "A string encoding a SPARQL Property Path. The value of the string MUST conform to SPARQL syntax and SHOULD dereference to zero or more valid objects within the current instance document when encoded as RDF.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"sparqlpath\"."
+      ],
+      "from_schema": "https://example.com/CommunityCompositionData",
+      "base": "str",
+      "uri": "xsd:string",
+      "repr": "str"
+    }
+  },
   "settings": {
     "Title_Case": {
       "setting_key": "Title_Case",
@@ -6837,5 +6837,6 @@
       "setting_value": "^(0?[1-9]|1[0-2]):[0-5][0-9] ?[APMapm]{2}$"
     }
   },
-  "@type": "SchemaDefinition"
+  "extensions": {},
+  "@type": "OrderedDict"
 }

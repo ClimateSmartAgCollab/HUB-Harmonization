@@ -1,10 +1,10 @@
 {
-  "id": "https://example.com/BenefitSoilSampleMetadata",
-  "name": "BenefitSoilSampleMetadata",
-  "description": "Metadata associated with the soil samples collected as part of the BENEFIT project.",
+  "id": "https://example.com/MirFileLayout",
+  "name": "MirFileLayout",
+  "description": "Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project",
   "version": "0.0.0",
   "in_language": "en",
-  "default_prefix": "https://example.com/BenefitSoilSampleMetadata/",
+  "default_prefix": "https://example.com/MirFileLayout/",
   "imports": [],
   "prefixes": {
     "linkml": {
@@ -25,378 +25,268 @@
     }
   },
   "classes": {
-    "BenefitSoilSampleMetadata": {
-      "name": "BenefitSoilSampleMetadata",
-      "description": "Metadata associated with the soil samples collected as part of the BENEFIT project.",
-      "title": "BENEFIT Soil Sample Metadata",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "MirFileLayout": {
+      "name": "MirFileLayout",
+      "description": "Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project",
+      "title": "MIR File Layout",
+      "from_schema": "https://example.com/MirFileLayout",
       "keywords": [
-        "RDF106"
+        "RDF402"
       ],
       "slot_usage": {
-        "Activity_1.1": {
-          "name": "Activity_1.1",
+        "ANIMAL_ID": {
+          "name": "ANIMAL_ID",
           "rank": 1,
           "slot_group": "General"
         },
-        "Activity_1.3": {
-          "name": "Activity_1.3",
+        "COUNTRY_OF_DATA_ORIGIN": {
+          "name": "COUNTRY_OF_DATA_ORIGIN",
           "rank": 2,
           "slot_group": "General"
         },
-        "Activity_1.4": {
-          "name": "Activity_1.4",
+        "DATE_OF_TESTING": {
+          "name": "DATE_OF_TESTING",
           "rank": 3,
           "slot_group": "General"
         },
-        "Activity_2.1": {
-          "name": "Activity_2.1",
+        "FILE_TYPE": {
+          "name": "FILE_TYPE",
           "rank": 4,
           "slot_group": "General"
         },
-        "City": {
-          "name": "City",
+        "HERD_CODE": {
+          "name": "HERD_CODE",
           "rank": 5,
           "slot_group": "General"
         },
-        "Collected": {
-          "name": "Collected",
+        "MILK_SPECTRAL_DATA": {
+          "name": "MILK_SPECTRAL_DATA",
           "rank": 6,
           "slot_group": "General"
         },
-        "GCS_ID": {
-          "name": "GCS_ID",
+        "NUMBER_OF_DATA_POINTS": {
+          "name": "NUMBER_OF_DATA_POINTS",
           "rank": 7,
           "slot_group": "General"
         },
-        "Host_Plant": {
-          "name": "Host_Plant",
+        "PROJECT": {
+          "name": "PROJECT",
           "rank": 8,
           "slot_group": "General"
         },
-        "Latitude": {
-          "name": "Latitude",
+        "SOURCE_OF_DATA": {
+          "name": "SOURCE_OF_DATA",
           "rank": 9,
           "slot_group": "General"
         },
-        "Longitude": {
-          "name": "Longitude",
+        "TRANSACTION_TYPE": {
+          "name": "TRANSACTION_TYPE",
           "rank": 10,
           "slot_group": "General"
         },
-        "Notes": {
-          "name": "Notes",
+        "TYPE_OF_SPECTROMETER": {
+          "name": "TYPE_OF_SPECTROMETER",
           "rank": 11,
-          "slot_group": "General"
-        },
-        "Original_soil_label": {
-          "name": "Original_soil_label",
-          "rank": 12,
-          "slot_group": "General"
-        },
-        "Province": {
-          "name": "Province",
-          "rank": 13,
-          "slot_group": "General"
-        },
-        "Received": {
-          "name": "Received",
-          "rank": 14,
-          "slot_group": "General"
-        },
-        "Soil_type": {
-          "name": "Soil_type",
-          "rank": 15,
-          "slot_group": "General"
-        },
-        "Storage": {
-          "name": "Storage",
-          "rank": 16,
           "slot_group": "General"
         }
       },
       "attributes": {
-        "Activity_1.1": {
-          "name": "Activity_1.1",
-          "description": "An indication of whether the soil was used as part of Activity 1.1 research",
-          "title": "Activity 1.1 soils",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "ANIMAL_ID": {
+          "name": "ANIMAL_ID",
+          "description": "INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)",
+          "title": "ANIMAL_ID",
+          "from_schema": "https://example.com/MirFileLayout",
           "rank": 1,
-          "alias": "Activity_1.1",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "ANIMAL_ID",
+          "owner": "MirFileLayout",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "MirFileLayout"
           ],
           "slot_group": "General",
-          "range": "Boolean",
-          "recommended": true
+          "range": "WhitespaceMinimizedString",
+          "required": true
         },
-        "Activity_1.3": {
-          "name": "Activity_1.3",
-          "description": "An indication of whether the soil was used as part of Activity 1.3 research",
-          "title": "Activity 1.3 soils",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "COUNTRY_OF_DATA_ORIGIN": {
+          "name": "COUNTRY_OF_DATA_ORIGIN",
+          "title": "COUNTRY_OF_DATA_ORIGIN",
+          "from_schema": "https://example.com/MirFileLayout",
           "rank": 2,
-          "alias": "Activity_1.3",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "COUNTRY_OF_DATA_ORIGIN",
+          "owner": "MirFileLayout",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "MirFileLayout"
           ],
           "slot_group": "General",
-          "range": "Boolean",
-          "recommended": true
+          "range": "WhitespaceMinimizedString",
+          "required": true
         },
-        "Activity_1.4": {
-          "name": "Activity_1.4",
-          "description": "An indication of whether the soil was used as part of Activity 1.4 research",
-          "title": "Activity 1.4 soils",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "DATE_OF_TESTING": {
+          "name": "DATE_OF_TESTING",
+          "title": "DATE_OF_TESTING",
+          "from_schema": "https://example.com/MirFileLayout",
           "rank": 3,
-          "alias": "Activity_1.4",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "DATE_OF_TESTING",
+          "owner": "MirFileLayout",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "MirFileLayout"
           ],
           "slot_group": "General",
-          "range": "Boolean",
-          "recommended": true
+          "range": "DateTime",
+          "required": true,
+          "unit": {
+            "ucum_code": "YYYYMMDD"
+          }
         },
-        "Activity_2.1": {
-          "name": "Activity_2.1",
-          "description": "An indication of whether the soil was used as part of Activity 2.1 research",
-          "title": "Activity 2.1 soils",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "FILE_TYPE": {
+          "name": "FILE_TYPE",
+          "title": "FILE_TYPE",
+          "from_schema": "https://example.com/MirFileLayout",
           "rank": 4,
-          "alias": "Activity_2.1",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "FILE_TYPE",
+          "owner": "MirFileLayout",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "MirFileLayout"
           ],
           "slot_group": "General",
-          "range": "Boolean",
+          "required": true,
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "FILE_TYPE"
+            }
+          ]
+        },
+        "HERD_CODE": {
+          "name": "HERD_CODE",
+          "title": "HERD_CODE",
+          "from_schema": "https://example.com/MirFileLayout",
+          "rank": 5,
+          "alias": "HERD_CODE",
+          "owner": "MirFileLayout",
+          "domain_of": [
+            "MirFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString",
+          "required": true
+        },
+        "MILK_SPECTRAL_DATA": {
+          "name": "MILK_SPECTRAL_DATA",
+          "description": "ULTIPLIED BY 100,000,000",
+          "title": "MILK_SPECTRAL_DATA",
+          "from_schema": "https://example.com/MirFileLayout",
+          "rank": 6,
+          "alias": "MILK_SPECTRAL_DATA",
+          "owner": "MirFileLayout",
+          "domain_of": [
+            "MirFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "required": true
+        },
+        "NUMBER_OF_DATA_POINTS": {
+          "name": "NUMBER_OF_DATA_POINTS",
+          "title": "NUMBER_OF_DATA_POINTS",
+          "from_schema": "https://example.com/MirFileLayout",
+          "rank": 7,
+          "alias": "NUMBER_OF_DATA_POINTS",
+          "owner": "MirFileLayout",
+          "domain_of": [
+            "MirFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
           "recommended": true
         },
-        "City": {
-          "name": "City",
-          "description": "The city that the soil was collected from",
-          "title": "City",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 5,
-          "alias": "City",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "required": true,
-          "pattern": "^.{0,250}$"
-        },
-        "Collected": {
-          "name": "Collected",
-          "description": "The date that the soil sample was collected",
-          "title": "Date of collection",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 6,
-          "alias": "Collected",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "range": "DateTime",
-          "recommended": true,
-          "pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
-        },
-        "GCS_ID": {
-          "name": "GCS_ID",
-          "description": "Unique numerical identifier of each soil sample",
-          "title": "Genome Canada Soil ID",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 7,
-          "alias": "GCS_ID",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "required": true,
-          "pattern": "^.{0,50}$"
-        },
-        "Host_Plant": {
-          "name": "Host_Plant",
-          "description": "The plant species that was planted in the soil at the time of soil collection",
-          "title": "Associated plant species",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "PROJECT": {
+          "name": "PROJECT",
+          "title": "PROJECT",
+          "from_schema": "https://example.com/MirFileLayout",
           "rank": 8,
-          "alias": "Host_Plant",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "PROJECT",
+          "owner": "MirFileLayout",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "MirFileLayout"
           ],
           "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
           "required": true,
-          "pattern": "^.{0,250}$"
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "PROJECT"
+            }
+          ]
         },
-        "Latitude": {
-          "name": "Latitude",
-          "description": "The latitude of the soil collection site",
-          "title": "Latitude",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "SOURCE_OF_DATA": {
+          "name": "SOURCE_OF_DATA",
+          "description": "See contacts list under 'Source of Data' column",
+          "title": "SOURCE_OF_DATA",
+          "from_schema": "https://example.com/MirFileLayout",
           "rank": 9,
-          "alias": "Latitude",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "SOURCE_OF_DATA",
+          "owner": "MirFileLayout",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "MirFileLayout"
           ],
           "slot_group": "General",
-          "range": "decimal",
-          "required": true,
-          "pattern": "^[-+]?\\d*\\.?\\d+$"
+          "range": "WhitespaceMinimizedString",
+          "required": true
         },
-        "Longitude": {
-          "name": "Longitude",
-          "description": "The longitude of the soil collection site",
-          "title": "Longitude",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "TRANSACTION_TYPE": {
+          "name": "TRANSACTION_TYPE",
+          "title": "TRANSACTION_TYPE",
+          "from_schema": "https://example.com/MirFileLayout",
           "rank": 10,
-          "alias": "Longitude",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "TRANSACTION_TYPE",
+          "owner": "MirFileLayout",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "MirFileLayout"
           ],
           "slot_group": "General",
-          "range": "decimal",
           "required": true,
-          "pattern": "^[-+]?\\d*\\.?\\d+$"
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "TRANSACTION_TYPE"
+            }
+          ]
         },
-        "Notes": {
-          "name": "Notes",
-          "description": "Additional notes relevant to the soil sample",
-          "title": "Notes",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "TYPE_OF_SPECTROMETER": {
+          "name": "TYPE_OF_SPECTROMETER",
+          "title": "TYPE_OF_SPECTROMETER",
+          "from_schema": "https://example.com/MirFileLayout",
           "rank": 11,
-          "alias": "Notes",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "TYPE_OF_SPECTROMETER",
+          "owner": "MirFileLayout",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "MirFileLayout"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString",
-          "recommended": true,
-          "pattern": "^.{0,4000}$"
-        },
-        "Original_soil_label": {
-          "name": "Original_soil_label",
-          "description": "Original name/label given to each soil during collection",
-          "title": "Original soil label",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 12,
-          "alias": "Original_soil_label",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "recommended": true,
-          "pattern": "^.{0,250}$"
-        },
-        "Province": {
-          "name": "Province",
-          "description": "The province that the soil was collected from",
-          "title": "Province",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 13,
-          "alias": "Province",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "required": true,
-          "pattern": "^.{0,50}$",
-          "any_of": [
-            {
-              "range": "WhitespaceMinimizedString"
-            },
-            {
-              "range": "Province"
-            }
-          ]
-        },
-        "Received": {
-          "name": "Received",
-          "description": "The date that the soil sample was received at the lab",
-          "title": "Date of receipt",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 14,
-          "alias": "Received",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "range": "DateTime",
-          "recommended": true,
-          "pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
-        },
-        "Soil_type": {
-          "name": "Soil_type",
-          "description": "If specified, whether the soil sample represents bulk soil or rhizosphere soil",
-          "title": "Soil type (bulk soil or rhizosphere)",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 15,
-          "alias": "Soil_type",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "recommended": true,
-          "pattern": "^.{0,50}$",
-          "any_of": [
-            {
-              "range": "WhitespaceMinimizedString"
-            },
-            {
-              "range": "Soil_type"
-            }
-          ]
-        },
-        "Storage": {
-          "name": "Storage",
-          "description": "How the soil sample was stored",
-          "title": "Storage",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 16,
-          "alias": "Storage",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "recommended": true,
-          "pattern": "^.{0,800}$"
+          "recommended": true
         }
       }
     },
     "Container": {
       "name": "Container",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "attributes": {
-        "BenefitSoilSampleMetadataData": {
-          "name": "BenefitSoilSampleMetadataData",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "alias": "BenefitSoilSampleMetadataData",
+        "MirFileLayoutData": {
+          "name": "MirFileLayoutData",
+          "from_schema": "https://example.com/MirFileLayout",
+          "alias": "MirFileLayoutData",
           "owner": "Container",
           "domain_of": [
             "Container"
           ],
-          "range": "BenefitSoilSampleMetadata",
+          "range": "MirFileLayout",
           "multivalued": true,
           "inlined_as_list": true
         }
@@ -405,214 +295,149 @@
     }
   },
   "slots": {
-    "Activity_1.1": {
-      "name": "Activity_1.1",
-      "description": "An indication of whether the soil was used as part of Activity 1.1 research",
-      "title": "Activity 1.1 soils",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "ANIMAL_ID": {
+      "name": "ANIMAL_ID",
+      "description": "INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)",
+      "title": "ANIMAL_ID",
+      "from_schema": "https://example.com/MirFileLayout",
       "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "Boolean",
-      "recommended": true
-    },
-    "Activity_1.3": {
-      "name": "Activity_1.3",
-      "description": "An indication of whether the soil was used as part of Activity 1.3 research",
-      "title": "Activity 1.3 soils",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "Boolean",
-      "recommended": true
-    },
-    "Activity_1.4": {
-      "name": "Activity_1.4",
-      "description": "An indication of whether the soil was used as part of Activity 1.4 research",
-      "title": "Activity 1.4 soils",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "Boolean",
-      "recommended": true
-    },
-    "Activity_2.1": {
-      "name": "Activity_2.1",
-      "description": "An indication of whether the soil was used as part of Activity 2.1 research",
-      "title": "Activity 2.1 soils",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "Boolean",
-      "recommended": true
-    },
-    "City": {
-      "name": "City",
-      "description": "The city that the soil was collected from",
-      "title": "City",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
+        "MirFileLayout"
       ],
       "range": "WhitespaceMinimizedString",
-      "required": true,
-      "pattern": "^.{0,250}$"
+      "required": true
     },
-    "Collected": {
-      "name": "Collected",
-      "description": "The date that the soil sample was collected",
-      "title": "Date of collection",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "COUNTRY_OF_DATA_ORIGIN": {
+      "name": "COUNTRY_OF_DATA_ORIGIN",
+      "title": "COUNTRY_OF_DATA_ORIGIN",
+      "from_schema": "https://example.com/MirFileLayout",
       "domain_of": [
-        "BenefitSoilSampleMetadata"
+        "MirFileLayout"
+      ],
+      "range": "WhitespaceMinimizedString",
+      "required": true
+    },
+    "DATE_OF_TESTING": {
+      "name": "DATE_OF_TESTING",
+      "title": "DATE_OF_TESTING",
+      "from_schema": "https://example.com/MirFileLayout",
+      "domain_of": [
+        "MirFileLayout"
       ],
       "range": "DateTime",
-      "recommended": true,
-      "pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
-    },
-    "GCS_ID": {
-      "name": "GCS_ID",
-      "description": "Unique numerical identifier of each soil sample",
-      "title": "Genome Canada Soil ID",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "WhitespaceMinimizedString",
       "required": true,
-      "pattern": "^.{0,50}$"
+      "unit": {
+        "ucum_code": "YYYYMMDD"
+      }
     },
-    "Host_Plant": {
-      "name": "Host_Plant",
-      "description": "The plant species that was planted in the soil at the time of soil collection",
-      "title": "Associated plant species",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "FILE_TYPE": {
+      "name": "FILE_TYPE",
+      "title": "FILE_TYPE",
+      "from_schema": "https://example.com/MirFileLayout",
       "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "WhitespaceMinimizedString",
-      "required": true,
-      "pattern": "^.{0,250}$"
-    },
-    "Latitude": {
-      "name": "Latitude",
-      "description": "The latitude of the soil collection site",
-      "title": "Latitude",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "decimal",
-      "required": true,
-      "pattern": "^[-+]?\\d*\\.?\\d+$"
-    },
-    "Longitude": {
-      "name": "Longitude",
-      "description": "The longitude of the soil collection site",
-      "title": "Longitude",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "decimal",
-      "required": true,
-      "pattern": "^[-+]?\\d*\\.?\\d+$"
-    },
-    "Notes": {
-      "name": "Notes",
-      "description": "Additional notes relevant to the soil sample",
-      "title": "Notes",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "WhitespaceMinimizedString",
-      "recommended": true,
-      "pattern": "^.{0,4000}$"
-    },
-    "Original_soil_label": {
-      "name": "Original_soil_label",
-      "description": "Original name/label given to each soil during collection",
-      "title": "Original soil label",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "WhitespaceMinimizedString",
-      "recommended": true,
-      "pattern": "^.{0,250}$"
-    },
-    "Province": {
-      "name": "Province",
-      "description": "The province that the soil was collected from",
-      "title": "Province",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
+        "MirFileLayout"
       ],
       "required": true,
-      "pattern": "^.{0,50}$",
       "any_of": [
         {
           "range": "WhitespaceMinimizedString"
         },
         {
-          "range": "Province"
+          "range": "FILE_TYPE"
         }
       ]
     },
-    "Received": {
-      "name": "Received",
-      "description": "The date that the soil sample was received at the lab",
-      "title": "Date of receipt",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "HERD_CODE": {
+      "name": "HERD_CODE",
+      "title": "HERD_CODE",
+      "from_schema": "https://example.com/MirFileLayout",
       "domain_of": [
-        "BenefitSoilSampleMetadata"
+        "MirFileLayout"
       ],
-      "range": "DateTime",
-      "recommended": true,
-      "pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
+      "range": "WhitespaceMinimizedString",
+      "required": true
     },
-    "Soil_type": {
-      "name": "Soil_type",
-      "description": "If specified, whether the soil sample represents bulk soil or rhizosphere soil",
-      "title": "Soil type (bulk soil or rhizosphere)",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "MILK_SPECTRAL_DATA": {
+      "name": "MILK_SPECTRAL_DATA",
+      "description": "ULTIPLIED BY 100,000,000",
+      "title": "MILK_SPECTRAL_DATA",
+      "from_schema": "https://example.com/MirFileLayout",
       "domain_of": [
-        "BenefitSoilSampleMetadata"
+        "MirFileLayout"
       ],
-      "recommended": true,
-      "pattern": "^.{0,50}$",
+      "range": "decimal",
+      "required": true
+    },
+    "NUMBER_OF_DATA_POINTS": {
+      "name": "NUMBER_OF_DATA_POINTS",
+      "title": "NUMBER_OF_DATA_POINTS",
+      "from_schema": "https://example.com/MirFileLayout",
+      "domain_of": [
+        "MirFileLayout"
+      ],
+      "range": "decimal",
+      "recommended": true
+    },
+    "PROJECT": {
+      "name": "PROJECT",
+      "title": "PROJECT",
+      "from_schema": "https://example.com/MirFileLayout",
+      "domain_of": [
+        "MirFileLayout"
+      ],
+      "required": true,
       "any_of": [
         {
           "range": "WhitespaceMinimizedString"
         },
         {
-          "range": "Soil_type"
+          "range": "PROJECT"
         }
       ]
     },
-    "Storage": {
-      "name": "Storage",
-      "description": "How the soil sample was stored",
-      "title": "Storage",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "SOURCE_OF_DATA": {
+      "name": "SOURCE_OF_DATA",
+      "description": "See contacts list under 'Source of Data' column",
+      "title": "SOURCE_OF_DATA",
+      "from_schema": "https://example.com/MirFileLayout",
       "domain_of": [
-        "BenefitSoilSampleMetadata"
+        "MirFileLayout"
       ],
       "range": "WhitespaceMinimizedString",
-      "recommended": true,
-      "pattern": "^.{0,800}$"
+      "required": true
+    },
+    "TRANSACTION_TYPE": {
+      "name": "TRANSACTION_TYPE",
+      "title": "TRANSACTION_TYPE",
+      "from_schema": "https://example.com/MirFileLayout",
+      "domain_of": [
+        "MirFileLayout"
+      ],
+      "required": true,
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "TRANSACTION_TYPE"
+        }
+      ]
+    },
+    "TYPE_OF_SPECTROMETER": {
+      "name": "TYPE_OF_SPECTROMETER",
+      "title": "TYPE_OF_SPECTROMETER",
+      "from_schema": "https://example.com/MirFileLayout",
+      "domain_of": [
+        "MirFileLayout"
+      ],
+      "range": "WhitespaceMinimizedString",
+      "recommended": true
     }
   },
   "enums": {
     "SettingsMenu": {
       "name": "SettingsMenu",
       "title": "Regular Expressions",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "permissible_values": {
         "AllCaps": {
           "text": "AllCaps",
@@ -800,75 +625,85 @@
         }
       }
     },
-    "Province": {
-      "name": "Province",
-      "title": "Province",
+    "FILE_TYPE": {
+      "name": "FILE_TYPE",
+      "title": "FILE_TYPE",
       "permissible_values": {
-        "AB": {
-          "text": "AB",
-          "title": "Alberta"
+        "01": {
+          "text": "01",
+          "title": "Pedigree"
         },
-        "BC": {
-          "text": "BC",
-          "title": "British Columbia"
+        "02": {
+          "text": "02",
+          "title": "Calving"
         },
-        "MB": {
-          "text": "MB",
-          "title": "Manitoba"
+        "03": {
+          "text": "03",
+          "title": "Production"
         },
-        "NB": {
-          "text": "NB",
-          "title": "New Brunswick"
+        "04": {
+          "text": "04",
+          "title": "Events"
         },
-        "NL": {
-          "text": "NL",
-          "title": "Newfoundland and Labrador"
+        "05": {
+          "text": "05",
+          "title": "Genotype"
         },
-        "NS": {
-          "text": "NS",
-          "title": "Nova Scotia"
-        },
-        "NT": {
-          "text": "NT",
-          "title": "Northwest Territories"
-        },
-        "NU": {
-          "text": "NU",
-          "title": "Nunavut"
-        },
-        "ON": {
-          "text": "ON",
-          "title": "Ontario"
-        },
-        "PE": {
-          "text": "PE",
-          "title": "Prince Edward Island"
-        },
-        "QC": {
-          "text": "QC",
-          "title": "Quebec City"
-        },
-        "SK": {
-          "text": "SK",
-          "title": "Saskatchewan"
-        },
-        "YT": {
-          "text": "YT",
-          "title": "Yukon"
+        "06": {
+          "text": "06",
+          "title": "Milk data"
         }
       }
     },
-    "Soil_type": {
-      "name": "Soil_type",
-      "title": "Soil_type",
+    "PROJECT": {
+      "name": "PROJECT",
+      "title": "PROJECT",
       "permissible_values": {
-        "Bulk": {
-          "text": "Bulk",
-          "title": "Bulk soil"
+        "001": {
+          "text": "001",
+          "title": "NAEX"
         },
-        "Rhizosphere": {
-          "text": "Rhizosphere",
-          "title": "Rhizosphere soil"
+        "010": {
+          "text": "010",
+          "title": "RDGP"
+        },
+        "011": {
+          "text": "011",
+          "title": "RDGP & NAEX"
+        },
+        "100": {
+          "text": "100",
+          "title": "EDGP"
+        },
+        "101": {
+          "text": "101",
+          "title": "EDGP & NAEX"
+        },
+        "102": {
+          "text": "102",
+          "title": "NDGP"
+        },
+        "110": {
+          "text": "110",
+          "title": "EDGP & RDGP"
+        },
+        "111": {
+          "text": "111",
+          "title": "EDGP & RDGP & NAEX"
+        }
+      }
+    },
+    "TRANSACTION_TYPE": {
+      "name": "TRANSACTION_TYPE",
+      "title": "TRANSACTION_TYPE",
+      "permissible_values": {
+        "D": {
+          "text": "D",
+          "title": "Delete"
+        },
+        "U": {
+          "text": "U",
+          "title": "Update"
         }
       }
     }
@@ -877,7 +712,7 @@
     "WhitespaceMinimizedString": {
       "name": "WhitespaceMinimizedString",
       "description": "A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "typeof": "string",
       "base": "str",
       "uri": "xsd:token"
@@ -888,7 +723,7 @@
       "notes": [
         "In RDF serializations, a slot with range of string is treated as a literal or type xsd:string.   If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"string\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "exact_mappings": [
         "schema:Text"
       ],
@@ -901,7 +736,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"integer\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "exact_mappings": [
         "schema:Integer"
       ],
@@ -914,7 +749,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"boolean\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "exact_mappings": [
         "schema:Boolean"
       ],
@@ -928,7 +763,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"float\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "exact_mappings": [
         "schema:Float"
       ],
@@ -941,7 +776,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"double\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "close_mappings": [
         "schema:Float"
       ],
@@ -954,7 +789,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"decimal\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "broad_mappings": [
         "schema:Number"
       ],
@@ -968,7 +803,7 @@
         "URI is dateTime because OWL reasoners do not work with straight date or time",
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"time\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "exact_mappings": [
         "schema:Time"
       ],
@@ -983,7 +818,7 @@
         "URI is dateTime because OWL reasoners don't work with straight date or time",
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "exact_mappings": [
         "schema:Date"
       ],
@@ -997,7 +832,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"datetime\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "exact_mappings": [
         "schema:DateTime"
       ],
@@ -1011,7 +846,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date_or_datetime\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "base": "str",
       "uri": "linkml:DateOrDatetime",
       "repr": "str"
@@ -1022,7 +857,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uriorcurie\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "base": "URIorCURIE",
       "uri": "xsd:anyURI",
       "repr": "str"
@@ -1038,7 +873,7 @@
         "in RDF serializations this MUST be expanded to a URI",
         "in non-RDF serializations MAY be serialized as the compact representation"
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "base": "Curie",
       "uri": "xsd:string",
       "repr": "str"
@@ -1053,7 +888,7 @@
       "comments": [
         "in RDF serializations a slot with range of uri is treated as a literal or type xsd:anyURI unless it is an identifier or a reference to an identifier, in which case it is translated directly to a node"
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "close_mappings": [
         "schema:URL"
       ],
@@ -1067,7 +902,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"ncname\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "base": "NCName",
       "uri": "xsd:string",
       "repr": "str"
@@ -1081,7 +916,7 @@
       "comments": [
         "Used for inheritance and type checking"
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "base": "ElementIdentifier",
       "uri": "shex:iri",
       "repr": "str"
@@ -1092,7 +927,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"nodeidentifier\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "base": "NodeIdentifier",
       "uri": "shex:nonLiteral",
       "repr": "str"
@@ -1104,7 +939,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpointer\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"
@@ -1116,7 +951,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpath\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"
@@ -1128,7 +963,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"sparqlpath\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/MirFileLayout",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"

@@ -1,0 +1,11 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+CalvingFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString								True					INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
+CalvingFileLayout	General		CALVING_DATE	CALVING_DATE	DateTime								True								
+CalvingFileLayout	General		CONCEPTION_DATE	CONCEPTION_DATE	DateTime								True								
+CalvingFileLayout	General		COUNTRY_OF_ORIGIN	COUNTRY-OF-ORIGIN	WhitespaceMinimizedString								True								
+CalvingFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE							True								
+CalvingFileLayout	General		HERD_CODE	HERD_CODE	WhitespaceMinimizedString								True								
+CalvingFileLayout	General		LACTATION_NUMBER	LACTATION_NUMBER	decimal								True								
+CalvingFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT							True								
+CalvingFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under 'Source of Data' column			
+CalvingFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE							True								

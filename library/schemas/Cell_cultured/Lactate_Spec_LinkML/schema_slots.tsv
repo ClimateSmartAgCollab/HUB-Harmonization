@@ -1,0 +1,10 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+LactateQuantificationUsingSpectrophotometry	General		Absorbance_Blankwell		decimal		OD														
+LactateQuantificationUsingSpectrophotometry	General		Absorbance_Reference		decimal		OD														
+LactateQuantificationUsingSpectrophotometry	General		Absorbance_Sample		decimal		OD														
+LactateQuantificationUsingSpectrophotometry	General		Absorbance_SampleandBlankwell		decimal		OD														
+LactateQuantificationUsingSpectrophotometry	General		ActualAbsorbance_Sample		decimal		OD														
+LactateQuantificationUsingSpectrophotometry	General		Concentration_Average		decimal		mM														
+LactateQuantificationUsingSpectrophotometry	General		Concentration_Calculated		decimal		mM														
+LactateQuantificationUsingSpectrophotometry	General		Concentration_StandardDeviation		decimal		mM														
+LactateQuantificationUsingSpectrophotometry	General		SampleDescription		WhitespaceMinimizedString																

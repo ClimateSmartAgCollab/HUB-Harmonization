@@ -1,149 +1,179 @@
 id: https://example.com/CcasmStrainCollection
 name: CcasmStrainCollection
 title: CCASM Strain Collection
-description: Metadata associated with the bacterial strains deposited in the Canadian
-  Collection of Agricultural Soil Microbes (CCASM)
+description: Metadata associated with the bacterial strains deposited in the Canadian Collection of Agricultural Soil Microbes (CCASM)
 version: 0.0.0
 in_language: en
 imports:
-- linkml:types
+  - linkml:types
 prefixes:
   linkml: https://w3id.org/linkml/
 classes:
   CcasmStrainCollection:
     name: CcasmStrainCollection
     title: CCASM Strain Collection
-    description: Metadata associated with the bacterial strains deposited in the Canadian
-      Collection of Agricultural Soil Microbes (CCASM)
+    description: Metadata associated with the bacterial strains deposited in the Canadian Collection of Agricultural Soil Microbes (CCASM)
     keywords: RDF106
     slots:
-    - CCASM_ID
-    - Manitoba_barcode
-    - Manitoba_box_ID
-    - Manitoba_box_name
-    - Manitoba_well
-    - Queens_barcode
-    - Queens_box_ID
-    - Queens_box_name
-    - Queens_well
-    - binomial_classification
-    - citation
-    - colony_morphology
-    - genome_ncbi_association
-    - genome_size
-    - host_plant_species
-    - is_plant_pathogen
-    - isolation_growth_medium
-    - isolation_growth_medium_composition
-    - isolation_growth_temperature
-    - isolation_protocol
-    - isolation_soil_organic_matter
-    - isolation_soil_ph
-    - isolation_soil_province
-    - isolation_soil_texture
-    - isolation_source
-    - isolation_year
-    - latitude
-    - longitude
-    - notes
-    - risk_group
-    - strain_name
-    - taxonomic_lineage
+      - CCASM_ID
+      - Manitoba_barcode
+      - Manitoba_box_ID
+      - Manitoba_box_name
+      - Manitoba_well
+      - Queens_barcode
+      - Queens_box_ID
+      - Queens_box_name
+      - Queens_well
+      - binomial_classification
+      - citation
+      - colony_morphology
+      - genome_ncbi_association
+      - genome_size
+      - host_plant_species
+      - is_plant_pathogen
+      - isolation_growth_medium
+      - isolation_growth_medium_composition
+      - isolation_growth_temperature
+      - isolation_protocol
+      - isolation_soil_organic_matter
+      - isolation_soil_ph
+      - isolation_soil_province
+      - isolation_soil_texture
+      - isolation_source
+      - isolation_year
+      - latitude
+      - longitude
+      - notes
+      - risk_group
+      - strain_name
+      - taxonomic_lineage
     slot_usage:
       CCASM_ID:
+        name: CCASM_ID
         rank: 1
         slot_group: General
       Manitoba_barcode:
+        name: Manitoba_barcode
         rank: 2
         slot_group: General
       Manitoba_box_ID:
+        name: Manitoba_box_ID
         rank: 3
         slot_group: General
       Manitoba_box_name:
+        name: Manitoba_box_name
         rank: 4
         slot_group: General
       Manitoba_well:
+        name: Manitoba_well
         rank: 5
         slot_group: General
       Queens_barcode:
+        name: Queens_barcode
         rank: 6
         slot_group: General
       Queens_box_ID:
+        name: Queens_box_ID
         rank: 7
         slot_group: General
       Queens_box_name:
+        name: Queens_box_name
         rank: 8
         slot_group: General
       Queens_well:
+        name: Queens_well
         rank: 9
         slot_group: General
       binomial_classification:
+        name: binomial_classification
         rank: 10
         slot_group: General
       citation:
+        name: citation
         rank: 11
         slot_group: General
       colony_morphology:
+        name: colony_morphology
         rank: 12
         slot_group: General
       genome_ncbi_association:
+        name: genome_ncbi_association
         rank: 13
         slot_group: General
       genome_size:
+        name: genome_size
         rank: 14
         slot_group: General
       host_plant_species:
+        name: host_plant_species
         rank: 15
         slot_group: General
       is_plant_pathogen:
+        name: is_plant_pathogen
         rank: 16
         slot_group: General
       isolation_growth_medium:
+        name: isolation_growth_medium
         rank: 17
         slot_group: General
       isolation_growth_medium_composition:
+        name: isolation_growth_medium_composition
         rank: 18
         slot_group: General
       isolation_growth_temperature:
+        name: isolation_growth_temperature
         rank: 19
         slot_group: General
       isolation_protocol:
+        name: isolation_protocol
         rank: 20
         slot_group: General
       isolation_soil_organic_matter:
+        name: isolation_soil_organic_matter
         rank: 21
         slot_group: General
       isolation_soil_ph:
+        name: isolation_soil_ph
         rank: 22
         slot_group: General
       isolation_soil_province:
+        name: isolation_soil_province
         rank: 23
         slot_group: General
       isolation_soil_texture:
+        name: isolation_soil_texture
         rank: 24
         slot_group: General
       isolation_source:
+        name: isolation_source
         rank: 25
         slot_group: General
       isolation_year:
+        name: isolation_year
         rank: 26
         slot_group: General
       latitude:
+        name: latitude
         rank: 27
         slot_group: General
       longitude:
+        name: longitude
         rank: 28
         slot_group: General
       notes:
+        name: notes
         rank: 29
         slot_group: General
       risk_group:
+        name: risk_group
         rank: 30
         slot_group: General
       strain_name:
+        name: strain_name
         rank: 31
         slot_group: General
       taxonomic_lineage:
+        name: taxonomic_lineage
         rank: 32
         slot_group: General
   Container:
@@ -158,251 +188,236 @@ slots:
   CCASM_ID:
     name: CCASM_ID
     title: CCASM identifier
-    description: The unique CCASM identifier of the strain
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: The unique CCASM identifier of the strain
     pattern: ^.{0,50}$
   Manitoba_barcode:
     name: Manitoba_barcode
     title: Manitoba freezer vial barcode
-    description: The barcode on the freezer vial of the replicate stored at the University
-      of Manitoba
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: The barcode on the freezer vial of the replicate stored at the University of Manitoba
     pattern: ^.{0,50}$
   Manitoba_box_ID:
     name: Manitoba_box_ID
     title: Manitoba freezer box ID
-    description: The barcode on the freezer box of the replicate stored at the University
-      of Manitoba
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: The barcode on the freezer box of the replicate stored at the University of Manitoba
     pattern: ^.{0,50}$
   Manitoba_box_name:
     name: Manitoba_box_name
     title: Manitoba freezer box name
-    description: The common name of the freezer box of the replicate stored at the
-      University of Manitoba
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: The common name of the freezer box of the replicate stored at the University of Manitoba
     pattern: ^.{0,50}$
   Manitoba_well:
     name: Manitoba_well
     title: Manitoba freezer box well position
-    description: The position within the freezer box of the replicate stored at the
-      University of Manitoba
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: The position within the freezer box of the replicate stored at the University of Manitoba
     pattern: ^.{0,50}$
   Queens_barcode:
     name: Queens_barcode
     title: Queen's freezer vial barcode
-    description: The barcode on the freezer vial of the replicate stored at Queen\'s
-      University
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: The barcode on the freezer vial of the replicate stored at Queen\'s University
     pattern: ^.{0,50}$
   Queens_box_ID:
     name: Queens_box_ID
     title: Queen's freezer box ID
-    description: The barcode on the freezer box of the replicate stored at Queen\'s
-      University
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: The barcode on the freezer box of the replicate stored at Queen\'s University
     pattern: ^.{0,50}$
   Queens_box_name:
     name: Queens_box_name
     title: Queen's freezer box name
-    description: The common name of the freezer box of the replicate stored at Queen\'s
-      University
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: The common name of the freezer box of the replicate stored at Queen\'s University
     pattern: ^.{0,50}$
   Queens_well:
     name: Queens_well
     title: Queen's freezer box well position
-    description: The position within the freezer box of the replicate stored at Queen\'s
-      University
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: The position within the freezer box of the replicate stored at Queen\'s University
     pattern: ^.{0,50}$
   binomial_classification:
     name: binomial_classification
     title: Binomial classification
-    description: The binomial classification (genus and species, if classified) of
-      the isolate
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: The binomial classification (genus and species, if classified) of the isolate
     pattern: ^.{0,250}$
   citation:
     name: citation
     title: Citation
-    description: Citation of the study reporting the microbe, if available
-    recommended: true
     range: WhitespaceMinimizedString
+    recommended: true
+    description: Citation of the study reporting the microbe, if available
     pattern: ^.{0,4000}$
   colony_morphology:
     name: colony_morphology
     title: Colony morphology
-    description: Description of the colony morphology of the isolate
-    recommended: true
     range: WhitespaceMinimizedString
+    recommended: true
+    description: Description of the colony morphology of the isolate
     pattern: ^.{0,4000}$
   genome_ncbi_association:
     name: genome_ncbi_association
     title: Genome NCBI accession
-    description: NCBI accession code(s) for the genome assembly of the microbe, if
-      available
-    recommended: true
     range: WhitespaceMinimizedString
+    recommended: true
+    description: NCBI accession code(s) for the genome assembly of the microbe, if available
     pattern: ^.{0,800}$
   genome_size:
     name: genome_size
     title: Genome size
-    description: The genome size of the microbe, if known
-    recommended: true
     range: decimal
+    recommended: true
+    description: The genome size of the microbe, if known
     pattern: ^-?[0-9]+$
   host_plant_species:
     name: host_plant_species
     title: Associated plant species
-    description: The plant species from which the microbe was isolated, or that was
-      planted in the soil from which the microbe was isolated
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: The plant species from which the microbe was isolated, or that was planted in the soil from which the microbe was isolated
     pattern: ^.{0,250}$
   is_plant_pathogen:
     name: is_plant_pathogen
     title: Is the strain a plant pathogen
-    description: An indication of whether the strain is a known plant pathogen
-    required: true
     any_of:
-    - range: WhitespaceMinimizedString
-    - range: is_plant_pathogen
+      - range: WhitespaceMinimizedString
+      - range: is_plant_pathogen
+    required: true
+    description: An indication of whether the strain is a known plant pathogen
     pattern: ^.{0,50}$
   isolation_growth_medium:
     name: isolation_growth_medium
     title: Isolation growth medium
-    description: The name of the growth medium that was used to isolate the microbe
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: The name of the growth medium that was used to isolate the microbe
     pattern: ^.{0,50}$
   isolation_growth_medium_composition:
     name: isolation_growth_medium_composition
     title: Isolation growth medium composition
-    description: The full composition of the growth medium used to isolate the microbe
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: The full composition of the growth medium used to isolate the microbe
     pattern: ^.{0,4000}$
   isolation_growth_temperature:
     name: isolation_growth_temperature
     title: Isolation growth temperature
-    description: The incubation temperature used when isolating the microbe
-    required: true
     range: decimal
+    required: true
+    description: The incubation temperature used when isolating the microbe
     pattern: ^[-+]?\d*\.?\d+$
   isolation_protocol:
     name: isolation_protocol
     title: Isolation protocol
-    description: The method used for isolating the microbe
-    required: true
     any_of:
-    - range: WhitespaceMinimizedString
-    - range: isolation_protocol
+      - range: WhitespaceMinimizedString
+      - range: isolation_protocol
+    required: true
+    description: The method used for isolating the microbe
     pattern: ^.{0,250}$
   isolation_soil_organic_matter:
     name: isolation_soil_organic_matter
     title: Isolation soil organic matter (%)
-    description: The organic matter content of the soil from which the microbe was
-      isolated, if known and if relevant
-    recommended: true
     range: decimal
+    recommended: true
+    description: The organic matter content of the soil from which the microbe was isolated, if known and if relevant
     pattern: ^[-+]?\d*\.?\d+$
   isolation_soil_ph:
     name: isolation_soil_ph
     title: Isolation soil pH
-    description: The pH of the soil from which the microbe was isolated, if known
-      and if relevant
-    recommended: true
     range: decimal
+    recommended: true
+    description: The pH of the soil from which the microbe was isolated, if known and if relevant
     pattern: ^[-+]?\d*\.?\d+$
   isolation_soil_province:
     name: isolation_soil_province
     title: Isolation soil province
-    description: The province from which the soil (or plant material) was isolated
-    recommended: true
     any_of:
-    - range: WhitespaceMinimizedString
-    - range: isolation_soil_province
+      - range: WhitespaceMinimizedString
+      - range: isolation_soil_province
+    recommended: true
+    description: The province from which the soil (or plant material) was isolated
     pattern: ^.{0,50}$
   isolation_soil_texture:
     name: isolation_soil_texture
     title: Isolation soil texture
-    description: The texture of the soil from which the microbe was isolated, if known
-      and if relevant
-    recommended: true
     range: WhitespaceMinimizedString
+    recommended: true
+    description: The texture of the soil from which the microbe was isolated, if known and if relevant
     pattern: ^.{0,250}$
   isolation_source:
     name: isolation_source
     title: Isolation source
-    description: The source (soil or plant tissue type) that the microbe was isolated
-      from
-    required: true
     any_of:
-    - range: WhitespaceMinimizedString
-    - range: isolation_source
+      - range: WhitespaceMinimizedString
+      - range: isolation_source
+    required: true
+    description: The source (soil or plant tissue type) that the microbe was isolated from
     pattern: ^.{0,250}$
   isolation_year:
     name: isolation_year
     title: Isolation year
-    description: The year that the microbe was isolated
-    required: true
     range: DateTime
+    required: true
+    description: The year that the microbe was isolated
     pattern: ^(\d{4})$
   latitude:
     name: latitude
     title: Latitude
-    description: The latitude at which the soil or plant material was sampled
-    required: true
     range: decimal
+    required: true
+    description: The latitude at which the soil or plant material was sampled
     pattern: ^[-+]?\d*\.?\d+$
   longitude:
     name: longitude
     title: Longitute
-    description: The longitude at which the soil or plant material was sampled
-    required: true
     range: decimal
+    required: true
+    description: The longitude at which the soil or plant material was sampled
     pattern: ^[-+]?\d*\.?\d+$
   notes:
     name: notes
     title: Notes
-    description: Additional notes about the microbe
-    recommended: true
     range: WhitespaceMinimizedString
+    recommended: true
+    description: Additional notes about the microbe
     pattern: ^.{0,4000}$
   risk_group:
     name: risk_group
     title: Risk group
-    description: The risk group (1, 2, 3, 4) of the isolate, if known
-    required: true
     any_of:
-    - range: decimal
-    - range: risk_group
+      - range: decimal
+      - range: risk_group
+    required: true
+    description: The risk group (1, 2, 3, 4) of the isolate, if known
     pattern: ^-?[0-9]+$
   strain_name:
     name: strain_name
     title: Strain name(s)
-    description: Other strain name(s) of the isolate
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: Other strain name(s) of the isolate
     pattern: ^.{0,4000}$
   taxonomic_lineage:
     name: taxonomic_lineage
     title: Full taxonomic lineage
-    description: The full taxonomic lineage of the isolate
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: The full taxonomic lineage of the isolate
     pattern: ^.{0,4000}$
 enums:
   SettingsMenu:
@@ -414,8 +429,7 @@ enums:
         description: Entries of any length with only capital letters
       AlphaText1-50:
         title: AlphaText1-50
-        description: Capital or lower case letters only, at least 1 character, and
-          50 characters max
+        description: Capital or lower case letters only, at least 1 character, and 50 characters max
       AlphaText0-50:
         title: AlphaText0-50
         description: Capital or lower case letters only, 50 characters max
@@ -448,10 +462,10 @@ enums:
         description: Phone number with international and area code component.
       Latitude:
         title: Latitude
-        description: "Latitude in formats S30\xB015'45.678\" or N12\xB030.999\""
+        description: Latitude in formats S30°15'45.678" or N12°30.999"
       Longitude:
         title: Longitude
-        description: "Longitude in formats E30\xB015'45.678\" or W90\xB000.000\""
+        description: Longitude in formats E30°15'45.678" or W90°00.000"
       ISO_YYYY-MM-DD:
         title: ISO_YYYY-MM-DD
         description: year month day
@@ -485,7 +499,7 @@ enums:
         title: ISO_YYYY-MM-DDTHH:MM:SSZ
         description: Date and Time Combined (UTC)
       ISO_YYYY-MM-DDTHH.MM.SS-hh.mm:
-        title: "ISO_YYYY-MM-DDTHH:MM:SS\xB1hh:mm"
+        title: ISO_YYYY-MM-DDTHH:MM:SS±hh:mm
         description: Date and Time Combined (with Timezone Offset)
       ISO_PnYnMnDTnHnMnS:
         title: ISO_PnYnMnDTnHnMnS
@@ -524,15 +538,15 @@ enums:
     name: is_plant_pathogen
     title: is_plant_pathogen
     permissible_values:
-      'No':
-        text: 'No'
-        title: 'No'
+      No:
+        text: No
+        title: No
       Unknown:
         text: Unknown
         title: Unknown
-      'Yes':
-        text: 'Yes'
-        title: 'Yes'
+      Yes:
+        text: Yes
+        title: Yes
   isolation_protocol:
     name: isolation_protocol
     title: isolation_protocol
@@ -577,8 +591,8 @@ enums:
       NU:
         text: NU
         title: Nunavut
-      'ON':
-        text: 'ON'
+      ON:
+        text: ON
         title: Ontario
       PE:
         text: PE
@@ -640,9 +654,7 @@ types:
   WhitespaceMinimizedString:
     name: WhitespaceMinimizedString
     typeof: string
-    description: 'A string that has all whitespace trimmed off of beginning and end,
-      and all internal whitespace segments reduced to single spaces. Whitespace includes
-      x9 (tab), #xA (linefeed), and #xD (carriage return).'
+    description: 'A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).'
     base: str
     uri: xsd:token
 settings:
@@ -661,10 +673,8 @@ settings:
   EmailAddress: ^[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+
   URL: ^https?\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,}$
   PhoneNumber: ^\+?\(?\d{2,4}\)?[\d\s-]{3,}$
-  Latitude: "^[NS]-?(?:[0-8]?\\d|90)\xB0(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\"\
-    )?$"
-  Longitude: "^[WE]-?(?:[0-8]?\\d|90)\xB0(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\"\
-    )?$"
+  Latitude: ^[NS]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
+  Longitude: ^[WE]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
   ISO_YYYY-MM-DD: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$
   ISO_YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
   ISO_YYYY-MM: ^(\d{4})-(0[1-9]|1[0-2])$

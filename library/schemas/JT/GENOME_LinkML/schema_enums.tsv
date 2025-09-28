@@ -1,0 +1,888 @@
+title	name	text	meaning	menu_1	menu_2	menu_3	menu_4	menu_5	description
+access_training	access_training								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+act_on_climate	act_on_climate								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+attention_check	attention_check								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+break_up_big_tech	break_up_big_tech								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+buy_if_cheaper_icecream	buy_if_cheaper_icecream								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+buy_if_cheaper_nuggets	buy_if_cheaper_nuggets								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+buy_if_cheaper_salmon	buy_if_cheaper_salmon								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+buy_if_healthier_icecream	buy_if_healthier_icecream								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+buy_if_healthier_nuggets	buy_if_healthier_nuggets								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+buy_if_healthier_salmon	buy_if_healthier_salmon								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+buy_instead_icecream	buy_instead_icecream								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+buy_instead_nuggets	buy_instead_nuggets								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+buy_instead_salmon	buy_instead_salmon								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+buy_regular_cell_icecream	buy_regular_cell_icecream								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+buy_regular_cell_nuggets	buy_regular_cell_nuggets								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+buy_regular_cell_salmon	buy_regular_cell_salmon								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+city_only_access	city_only_access								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+city_only_jobs	city_only_jobs								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+climate_biodiversity_loss	climate_biodiversity_loss								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+climate_ecosystem	climate_ecosystem								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+climate_not_urgent	climate_not_urgent								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+community_owned_model	community_owned_model								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+conventional_farmers_opportunity	conventional_farmers_opportunity								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+corp_patents_limit_knowledge	corp_patents_limit_knowledge								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+education_level	education_level								
+		Apprenticeship or trades		AT					
+		College or other non-university level		CNU					
+		Prefer not to say		PNS					
+		Primary or elementary school		PES					
+		Professional school		PS					
+		Secondary (high school diploma or equivalent)		SEC					
+		University bachelor level degree		UBD					
+		University graduate school		UGS					
+env_impact_beef	env_impact_beef								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+env_impact_chicken	env_impact_chicken								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+env_impact_fish	env_impact_fish								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+env_impact_pork	env_impact_pork								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+ext_affordable_protein	ext_affordable_protein								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+ext_disrespectful_nature	ext_disrespectful_nature								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+ext_env_sustainability	ext_env_sustainability								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+ext_healthy_products	ext_healthy_products								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+ext_improve_welfare	ext_improve_welfare								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+ext_solve_hunger	ext_solve_hunger								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+ext_tasty_products	ext_tasty_products								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+ext_unnatural	ext_unnatural								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+ext_viable_alternative	ext_viable_alternative								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+farmers_lose_jobs	farmers_lose_jobs								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+farmers_transition	farmers_transition								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+food_banks_benefit	food_banks_benefit								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+freq_dairy	freq_dairy								
+		A few times per week		FTW					
+		A few times per year		FT					
+		Every day		ED					
+		Never		NV					
+		Once a month		OM					
+		Once a week		OW					
+freq_eggs	freq_eggs								
+		A few times per week		FTW					
+		A few times per year		FT					
+		Every day		ED					
+		Never		NV					
+		Once a month		OM					
+		Once a week		OW					
+freq_fish	freq_fish								
+		A few times per week		FTW					
+		A few times per year		FT					
+		Every day		ED					
+		Never		NV					
+		Once a month		OM					
+		Once a week		OW					
+freq_pork	freq_pork								
+		A few times per week		FTW					
+		A few times per year		FT					
+		Every day		ED					
+		Never		NV					
+		Once a month		OM					
+		Once a week		OW					
+freq_poultry	freq_poultry								
+		A few times per week		FTW					
+		A few times per year		FT					
+		Every day		ED					
+		Never		NV					
+		Once a month		OM					
+		Once a week		OW					
+freq_red_meat	freq_red_meat								
+		A few times per week		FTW					
+		A few times per year		FT					
+		Every day		ED					
+		Never		NV					
+		Once a month		OM					
+		Once a week		OW					
+gatekeep_methods	gatekeep_methods								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+gender	gender								
+		Female		F					
+		Male		M					
+		Non-binary (gender diverse)		NB					
+		Other		OTH					
+		Prefer not to say		PNS					
+glob_benefits	glob_benefits								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+gm_beef	gm_beef								
+		A little less comfortable		LLC					
+		A little more comfortable		LMC					
+		Don't know		DK					
+		Less comfortable		LC					
+		More comfortable		MC					
+		Much less comfortable with genetically modified rice than cellular agriculture		MLC					
+		Much more comfortable with genetically modified rice than cellular agriculture		MMC					
+		Same level of comfort		SLC					
+gm_rice	gm_rice								
+		A little less comfortable		LLC					
+		A little more comfortable		LMC					
+		Don't know		DK					
+		Less comfortable		LC					
+		More comfortable		MC					
+		Much less comfortable with genetically modified rice than cellular agriculture		MLC					
+		Much more comfortable with genetically modified rice than cellular agriculture		MMC					
+		Same level of comfort		SLC					
+grocery_availability	grocery_availability								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+heard_cellular_agriculture	heard_cellular_agriculture								
+		I don't know		DK					
+		No		N					
+		Yes		Y					
+home_production_possible	home_production_possible								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+hope_tech	hope_tech								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+household_composition	household_composition								
+		Couple living together		CLT					
+		Family with children		FC					
+		I live on my own		LO					
+		Multigenerational (two or more families living together)		MLG					
+		Other		Oth					
+		Prefer not to say		PNS					
+household_income	household_income								
+		$100,000 to $149,999		U150					
+		$150,000 to $199,999		U200					
+		$20,000 to $49,999		U50					
+		$200,000 to $249,999		U250					
+		$250,000 and over		A250					
+		$50,000 to $99,999		U100					
+		Prefer not to say		PNS					
+		Under $20,000		U20					
+human_caused_climate	human_caused_climate								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+human_impacts	human_impacts								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+imp_dairy	imp_dairy								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+imp_eggs	imp_eggs								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+imp_fish	imp_fish								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+imp_pork	imp_pork								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+imp_poultry	imp_poultry								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+imp_red_meat	imp_red_meat								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+inaccessible_education	inaccessible_education								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+industry_dominated	industry_dominated								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+larg_corp_influence	larg_corp_influence								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+local_food_security	local_food_security								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+main_grocery_shopper	main_grocery_shopper								
+		I do		ID					
+		I shop the same amount as other in my household		SAH					
+		Prefer not to say		PNS					
+		Someone else		SE					
+online_superstore_availability	online_superstore_availability								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+only_wealthy_access	only_wealthy_access								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+plant_burger_mushroom	plant_burger_mushroom								
+		A little less comfortable		LLC					
+		A little more comfortable		LMC					
+		Don't know		DK					
+		Less comfortable		LC					
+		More comfortable		MC					
+		Much less comfortable with genetically modified rice than cellular agriculture		MLC					
+		Much more comfortable with genetically modified rice than cellular agriculture		MMC					
+		Same level of comfort		SLC					
+plant_burger_soy	plant_burger_soy								
+		A little less comfortable		LLC					
+		A little more comfortable		LMC					
+		Don't know		DK					
+		Less comfortable		LC					
+		More comfortable		MC					
+		Much less comfortable with genetically modified rice than cellular agriculture		MLC					
+		Much more comfortable with genetically modified rice than cellular agriculture		MMC					
+		Same level of comfort		SLC					
+progress_tech	progress_tech								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+reject_cell_icecream	reject_cell_icecream								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+reject_cell_nuggets	reject_cell_nuggets								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+reject_cell_salmon	reject_cell_salmon								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+replaces_fresh_meat	replaces_fresh_meat								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+see_agri_industry_icecream	see_agri_industry_icecream								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+see_agri_industry_nuggets	see_agri_industry_nuggets								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+see_agri_industry_salmon	see_agri_industry_salmon								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+see_global_dev_icecream	see_global_dev_icecream								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+see_global_dev_nuggets	see_global_dev_nuggets								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+see_global_dev_salmon	see_global_dev_salmon								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+see_in_store_icecream	see_in_store_icecream								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+see_in_store_nuggets	see_in_store_nuggets								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+see_in_store_salmon	see_in_store_salmon								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+see_local_food_icecream	see_local_food_icecream								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+see_local_food_nuggets	see_local_food_nuggets								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+see_local_food_salmon	see_local_food_salmon								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+self_grown_food_freq	self_grown_food_freq								
+		A few times per month		FTM					
+		A few times per year (e.g., special occasions)		FTY					
+		At least once a week		OW					
+		I don’t grow or raise any of my own food		DGR					
+		Most days		MD					
+		Never		NV					
+		Once per month		ON					
+support_cell_ag_sale	support_cell_ag_sale								
+		Don't know		DK					
+		Mildly oppose		MO					
+		Mildly support		MS					
+		Neither oppose nor support		NOS					
+		Oppose		OP					
+		Strongly oppose		SO					
+		Strongly support		SS					
+		Support		SU					
+tech_marginalized	tech_marginalized								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+tech_negatives	tech_negatives								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+tech_resources	tech_resources								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+tech_society	tech_society								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+trust_ag_companies	trust_ag_companies								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+trust_celebrities	trust_celebrities								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+trust_env_activists	trust_env_activists								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+trust_family_friends	trust_family_friends								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+trust_regulators	trust_regulators								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+trust_scientists	trust_scientists								
+		Agree		AG					
+		Disagree		DA					
+		Don't know		DK					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+try_cell_icecream	try_cell_icecream								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+try_cell_nuggets	try_cell_nuggets								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+try_cell_salmon	try_cell_salmon								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+used_in_processed_foods	used_in_processed_foods								
+		Agree		AG					
+		Disagree		DA					
+		Mildly agree		MA					
+		Mildly disagree		MD					
+		Neither agree nor disagree		NAD					
+		Strongly agree		SA					
+		Strongly disagree		SD					
+vertical_agriculture	vertical_agriculture								
+		A little less comfortable		LLC					
+		A little more comfortable		LMC					
+		Don't know		DK					
+		Less comfortable		LC					
+		More comfortable		MC					
+		Much less comfortable with genetically modified rice than cellular agriculture		MLC					
+		Much more comfortable with genetically modified rice than cellular agriculture		MMC					
+		Same level of comfort		SLC					

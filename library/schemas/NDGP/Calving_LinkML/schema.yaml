@@ -1,7 +1,7 @@
-id: https://example.com/BenefitSoilSampleMetadata
-name: BenefitSoilSampleMetadata
-title: BENEFIT Soil Sample Metadata
-description: Metadata associated with the soil samples collected as part of the BENEFIT project.
+id: https://example.com/CalvingFileLayout
+name: CalvingFileLayout
+title: Calving File Layout
+description: Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project
 version: 0.0.0
 in_language: en
 imports:
@@ -9,214 +9,130 @@ imports:
 prefixes:
   linkml: https://w3id.org/linkml/
 classes:
-  BenefitSoilSampleMetadata:
-    name: BenefitSoilSampleMetadata
-    title: BENEFIT Soil Sample Metadata
-    description: Metadata associated with the soil samples collected as part of the BENEFIT project.
-    keywords: RDF106
+  CalvingFileLayout:
+    name: CalvingFileLayout
+    title: Calving File Layout
+    description: Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project
+    keywords: RDF402
     slots:
-      - Activity_1.1
-      - Activity_1.3
-      - Activity_1.4
-      - Activity_2.1
-      - City
-      - Collected
-      - GCS_ID
-      - Host_Plant
-      - Latitude
-      - Longitude
-      - Notes
-      - Original_soil_label
-      - Province
-      - Received
-      - Soil_type
-      - Storage
+      - ANIMAL_ID
+      - CALVING_DATE
+      - CONCEPTION_DATE
+      - COUNTRY_OF_ORIGIN
+      - FILE_TYPE
+      - HERD_CODE
+      - LACTATION_NUMBER
+      - PROJECT
+      - SOURCE_OF_DATA
+      - TRANSACTION_TYPE
     slot_usage:
-      Activity_1.1:
-        name: Activity_1.1
+      ANIMAL_ID:
+        name: ANIMAL_ID
         rank: 1
         slot_group: General
-      Activity_1.3:
-        name: Activity_1.3
+      CALVING_DATE:
+        name: CALVING_DATE
         rank: 2
         slot_group: General
-      Activity_1.4:
-        name: Activity_1.4
+      CONCEPTION_DATE:
+        name: CONCEPTION_DATE
         rank: 3
         slot_group: General
-      Activity_2.1:
-        name: Activity_2.1
+      COUNTRY_OF_ORIGIN:
+        name: COUNTRY_OF_ORIGIN
         rank: 4
         slot_group: General
-      City:
-        name: City
+      FILE_TYPE:
+        name: FILE_TYPE
         rank: 5
         slot_group: General
-      Collected:
-        name: Collected
+      HERD_CODE:
+        name: HERD_CODE
         rank: 6
         slot_group: General
-      GCS_ID:
-        name: GCS_ID
+      LACTATION_NUMBER:
+        name: LACTATION_NUMBER
         rank: 7
         slot_group: General
-      Host_Plant:
-        name: Host_Plant
+      PROJECT:
+        name: PROJECT
         rank: 8
         slot_group: General
-      Latitude:
-        name: Latitude
+      SOURCE_OF_DATA:
+        name: SOURCE_OF_DATA
         rank: 9
         slot_group: General
-      Longitude:
-        name: Longitude
+      TRANSACTION_TYPE:
+        name: TRANSACTION_TYPE
         rank: 10
-        slot_group: General
-      Notes:
-        name: Notes
-        rank: 11
-        slot_group: General
-      Original_soil_label:
-        name: Original_soil_label
-        rank: 12
-        slot_group: General
-      Province:
-        name: Province
-        rank: 13
-        slot_group: General
-      Received:
-        name: Received
-        rank: 14
-        slot_group: General
-      Soil_type:
-        name: Soil_type
-        rank: 15
-        slot_group: General
-      Storage:
-        name: Storage
-        rank: 16
         slot_group: General
   Container:
     name: Container
     tree_root: true
     attributes:
-      name: BenefitSoilSampleMetadataData
+      name: CalvingFileLayoutData
       multivalued: true
-      range: BenefitSoilSampleMetadata
+      range: CalvingFileLayout
       inlined_as_list: true
 slots:
-  Activity_1.1:
-    name: Activity_1.1
-    title: Activity 1.1 soils
-    range: Boolean
-    recommended: true
-    description: An indication of whether the soil was used as part of Activity 1.1 research
-  Activity_1.3:
-    name: Activity_1.3
-    title: Activity 1.3 soils
-    range: Boolean
-    recommended: true
-    description: An indication of whether the soil was used as part of Activity 1.3 research
-  Activity_1.4:
-    name: Activity_1.4
-    title: Activity 1.4 soils
-    range: Boolean
-    recommended: true
-    description: An indication of whether the soil was used as part of Activity 1.4 research
-  Activity_2.1:
-    name: Activity_2.1
-    title: Activity 2.1 soils
-    range: Boolean
-    recommended: true
-    description: An indication of whether the soil was used as part of Activity 2.1 research
-  City:
-    name: City
-    title: City
+  ANIMAL_ID:
+    name: ANIMAL_ID
+    title: ANIMAL_ID
     range: WhitespaceMinimizedString
-    required: true
-    description: The city that the soil was collected from
-    pattern: ^.{0,250}$
-  Collected:
-    name: Collected
-    title: Date of collection
+    recommended: true
+    description: 'INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)'
+  CALVING_DATE:
+    name: CALVING_DATE
+    title: CALVING_DATE
     range: DateTime
     recommended: true
-    description: The date that the soil sample was collected
-    pattern: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$
-  GCS_ID:
-    name: GCS_ID
-    title: Genome Canada Soil ID
-    range: WhitespaceMinimizedString
-    required: true
-    description: Unique numerical identifier of each soil sample
-    pattern: ^.{0,50}$
-  Host_Plant:
-    name: Host_Plant
-    title: Associated plant species
-    range: WhitespaceMinimizedString
-    required: true
-    description: The plant species that was planted in the soil at the time of soil collection
-    pattern: ^.{0,250}$
-  Latitude:
-    name: Latitude
-    title: Latitude
-    range: decimal
-    required: true
-    description: The latitude of the soil collection site
-    pattern: ^[-+]?\d*\.?\d+$
-  Longitude:
-    name: Longitude
-    title: Longitude
-    range: decimal
-    required: true
-    description: The longitude of the soil collection site
-    pattern: ^[-+]?\d*\.?\d+$
-  Notes:
-    name: Notes
-    title: Notes
-    range: WhitespaceMinimizedString
-    recommended: true
-    description: Additional notes relevant to the soil sample
-    pattern: ^.{0,4000}$
-  Original_soil_label:
-    name: Original_soil_label
-    title: Original soil label
-    range: WhitespaceMinimizedString
-    recommended: true
-    description: Original name/label given to each soil during collection
-    pattern: ^.{0,250}$
-  Province:
-    name: Province
-    title: Province
-    any_of:
-      - range: WhitespaceMinimizedString
-      - range: Province
-    required: true
-    description: The province that the soil was collected from
-    pattern: ^.{0,50}$
-  Received:
-    name: Received
-    title: Date of receipt
+  CONCEPTION_DATE:
+    name: CONCEPTION_DATE
+    title: CONCEPTION_DATE
     range: DateTime
     recommended: true
-    description: The date that the soil sample was received at the lab
-    pattern: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$
-  Soil_type:
-    name: Soil_type
-    title: Soil type (bulk soil or rhizosphere)
-    any_of:
-      - range: WhitespaceMinimizedString
-      - range: Soil_type
-    recommended: true
-    description: If specified, whether the soil sample represents bulk soil or rhizosphere soil
-    pattern: ^.{0,50}$
-  Storage:
-    name: Storage
-    title: Storage
+  COUNTRY_OF_ORIGIN:
+    name: COUNTRY_OF_ORIGIN
+    title: COUNTRY-OF-ORIGIN
     range: WhitespaceMinimizedString
     recommended: true
-    description: How the soil sample was stored
-    pattern: ^.{0,800}$
+  FILE_TYPE:
+    name: FILE_TYPE
+    title: FILE_TYPE
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: FILE_TYPE
+    recommended: true
+  HERD_CODE:
+    name: HERD_CODE
+    title: HERD_CODE
+    range: WhitespaceMinimizedString
+    recommended: true
+  LACTATION_NUMBER:
+    name: LACTATION_NUMBER
+    title: LACTATION_NUMBER
+    range: decimal
+    recommended: true
+  PROJECT:
+    name: PROJECT
+    title: PROJECT
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: PROJECT
+    recommended: true
+  SOURCE_OF_DATA:
+    name: SOURCE_OF_DATA
+    title: SOURCE_OF_DATA
+    range: WhitespaceMinimizedString
+    recommended: true
+    description: See contacts list under 'Source of Data' column
+  TRANSACTION_TYPE:
+    name: TRANSACTION_TYPE
+    title: TRANSACTION_TYPE
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: TRANSACTION_TYPE
+    recommended: true
 enums:
   SettingsMenu:
     name: SettingsMenu
@@ -332,59 +248,66 @@ enums:
       H.MM_or_HH.MM:
         title: H:MM or HH:MM
         description: hour, minutes AM/PM
-  Province:
-    name: Province
-    title: Province
+  FILE_TYPE:
+    name: FILE_TYPE
+    title: FILE_TYPE
     permissible_values:
-      AB:
-        text: AB
-        title: Alberta
-      BC:
-        text: BC
-        title: British Columbia
-      MB:
-        text: MB
-        title: Manitoba
-      NB:
-        text: NB
-        title: New Brunswick
-      NL:
-        text: NL
-        title: Newfoundland and Labrador
-      NS:
-        text: NS
-        title: Nova Scotia
-      NT:
-        text: NT
-        title: Northwest Territories
-      NU:
-        text: NU
-        title: Nunavut
-      ON:
-        text: ON
-        title: Ontario
-      PE:
-        text: PE
-        title: Prince Edward Island
-      QC:
-        text: QC
-        title: Quebec City
-      SK:
-        text: SK
-        title: Saskatchewan
-      YT:
-        text: YT
-        title: Yukon
-  Soil_type:
-    name: Soil_type
-    title: Soil_type
+      '01':
+        text: '01'
+        title: Pedigree
+      '02':
+        text: '02'
+        title: Calving
+      '03':
+        text: '03'
+        title: Production
+      '04':
+        text: '04'
+        title: Events
+      '05':
+        text: '05'
+        title: Genotype
+      '06':
+        text: '06'
+        title: Milk data
+  PROJECT:
+    name: PROJECT
+    title: PROJECT
     permissible_values:
-      Bulk:
-        text: Bulk
-        title: Bulk soil
-      Rhizosphere:
-        text: Rhizosphere
-        title: Rhizosphere soil
+      '001':
+        text: '001'
+        title: NAEX
+      '010':
+        text: '010'
+        title: RDGP
+      '011':
+        text: '011'
+        title: RDGP & NAEX
+      '100':
+        text: '100'
+        title: EDGP
+      '101':
+        text: '101'
+        title: EDGP & NAEX
+      '102':
+        text: '102'
+        title: NDGP
+      '110':
+        text: '110'
+        title: EDGP & RDGP
+      '111':
+        text: '111'
+        title: EDGP & RDGP & NAEX
+  TRANSACTION_TYPE:
+    name: TRANSACTION_TYPE
+    title: TRANSACTION_TYPE
+    permissible_values:
+      D:
+        text: D
+        title: Delete
+      U:
+        text: U
+        title: Update
 types:
   WhitespaceMinimizedString:
     name: WhitespaceMinimizedString

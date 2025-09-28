@@ -1,10 +1,10 @@
 {
-  "id": "https://example.com/BenefitSoilSampleMetadata",
-  "name": "BenefitSoilSampleMetadata",
-  "description": "Metadata associated with the soil samples collected as part of the BENEFIT project.",
+  "id": "https://example.com/LactateQuantificationUsingLLactateAssay",
+  "name": "LactateQuantificationUsingLLactateAssay",
+  "description": "Standard calibration curve constructed using the protocol. Initial and Final absorbance measured as per protocol. Actual sample absorbance and concentration calculated.",
   "version": "0.0.0",
   "in_language": "en",
-  "default_prefix": "https://example.com/BenefitSoilSampleMetadata/",
+  "default_prefix": "https://example.com/LactateQuantificationUsingLLactateAssay/",
   "imports": [],
   "prefixes": {
     "linkml": {
@@ -25,378 +25,149 @@
     }
   },
   "classes": {
-    "BenefitSoilSampleMetadata": {
-      "name": "BenefitSoilSampleMetadata",
-      "description": "Metadata associated with the soil samples collected as part of the BENEFIT project.",
-      "title": "BENEFIT Soil Sample Metadata",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "LactateQuantificationUsingLLactateAssay": {
+      "name": "LactateQuantificationUsingLLactateAssay",
+      "description": "Standard calibration curve constructed using the protocol. Initial and Final absorbance measured as per protocol. Actual sample absorbance and concentration calculated.",
+      "title": "Lactate Quantification using L-Lactate Assay",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "keywords": [
-        "RDF106"
+        "RDF207"
       ],
       "slot_usage": {
-        "Activity_1.1": {
-          "name": "Activity_1.1",
+        "Absorbance_Final": {
+          "name": "Absorbance_Final",
           "rank": 1,
           "slot_group": "General"
         },
-        "Activity_1.3": {
-          "name": "Activity_1.3",
+        "Absorbance_Initial": {
+          "name": "Absorbance_Initial",
           "rank": 2,
           "slot_group": "General"
         },
-        "Activity_1.4": {
-          "name": "Activity_1.4",
+        "Absorbance_Subtracted": {
+          "name": "Absorbance_Subtracted",
           "rank": 3,
           "slot_group": "General"
         },
-        "Activity_2.1": {
-          "name": "Activity_2.1",
+        "Concentration_Average": {
+          "name": "Concentration_Average",
           "rank": 4,
           "slot_group": "General"
         },
-        "City": {
-          "name": "City",
+        "Concentration_Calculated": {
+          "name": "Concentration_Calculated",
           "rank": 5,
           "slot_group": "General"
         },
-        "Collected": {
-          "name": "Collected",
+        "SampleDescription": {
+          "name": "SampleDescription",
           "rank": 6,
-          "slot_group": "General"
-        },
-        "GCS_ID": {
-          "name": "GCS_ID",
-          "rank": 7,
-          "slot_group": "General"
-        },
-        "Host_Plant": {
-          "name": "Host_Plant",
-          "rank": 8,
-          "slot_group": "General"
-        },
-        "Latitude": {
-          "name": "Latitude",
-          "rank": 9,
-          "slot_group": "General"
-        },
-        "Longitude": {
-          "name": "Longitude",
-          "rank": 10,
-          "slot_group": "General"
-        },
-        "Notes": {
-          "name": "Notes",
-          "rank": 11,
-          "slot_group": "General"
-        },
-        "Original_soil_label": {
-          "name": "Original_soil_label",
-          "rank": 12,
-          "slot_group": "General"
-        },
-        "Province": {
-          "name": "Province",
-          "rank": 13,
-          "slot_group": "General"
-        },
-        "Received": {
-          "name": "Received",
-          "rank": 14,
-          "slot_group": "General"
-        },
-        "Soil_type": {
-          "name": "Soil_type",
-          "rank": 15,
-          "slot_group": "General"
-        },
-        "Storage": {
-          "name": "Storage",
-          "rank": 16,
           "slot_group": "General"
         }
       },
       "attributes": {
-        "Activity_1.1": {
-          "name": "Activity_1.1",
-          "description": "An indication of whether the soil was used as part of Activity 1.1 research",
-          "title": "Activity 1.1 soils",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "Absorbance_Final": {
+          "name": "Absorbance_Final",
+          "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
           "rank": 1,
-          "alias": "Activity_1.1",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "Absorbance_Final",
+          "owner": "LactateQuantificationUsingLLactateAssay",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "LactateQuantificationUsingLLactateAssay"
           ],
           "slot_group": "General",
-          "range": "Boolean",
-          "recommended": true
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "OD"
+          }
         },
-        "Activity_1.3": {
-          "name": "Activity_1.3",
-          "description": "An indication of whether the soil was used as part of Activity 1.3 research",
-          "title": "Activity 1.3 soils",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "Absorbance_Initial": {
+          "name": "Absorbance_Initial",
+          "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
           "rank": 2,
-          "alias": "Activity_1.3",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "Absorbance_Initial",
+          "owner": "LactateQuantificationUsingLLactateAssay",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "LactateQuantificationUsingLLactateAssay"
           ],
           "slot_group": "General",
-          "range": "Boolean",
-          "recommended": true
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "OD"
+          }
         },
-        "Activity_1.4": {
-          "name": "Activity_1.4",
-          "description": "An indication of whether the soil was used as part of Activity 1.4 research",
-          "title": "Activity 1.4 soils",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "Absorbance_Subtracted": {
+          "name": "Absorbance_Subtracted",
+          "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
           "rank": 3,
-          "alias": "Activity_1.4",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "Absorbance_Subtracted",
+          "owner": "LactateQuantificationUsingLLactateAssay",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "LactateQuantificationUsingLLactateAssay"
           ],
           "slot_group": "General",
-          "range": "Boolean",
-          "recommended": true
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "OD"
+          }
         },
-        "Activity_2.1": {
-          "name": "Activity_2.1",
-          "description": "An indication of whether the soil was used as part of Activity 2.1 research",
-          "title": "Activity 2.1 soils",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "Concentration_Average": {
+          "name": "Concentration_Average",
+          "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
           "rank": 4,
-          "alias": "Activity_2.1",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "Concentration_Average",
+          "owner": "LactateQuantificationUsingLLactateAssay",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "LactateQuantificationUsingLLactateAssay"
           ],
           "slot_group": "General",
-          "range": "Boolean",
-          "recommended": true
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "mM"
+          }
         },
-        "City": {
-          "name": "City",
-          "description": "The city that the soil was collected from",
-          "title": "City",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "Concentration_Calculated": {
+          "name": "Concentration_Calculated",
+          "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
           "rank": 5,
-          "alias": "City",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "Concentration_Calculated",
+          "owner": "LactateQuantificationUsingLLactateAssay",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "LactateQuantificationUsingLLactateAssay"
           ],
           "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "required": true,
-          "pattern": "^.{0,250}$"
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "mM"
+          }
         },
-        "Collected": {
-          "name": "Collected",
-          "description": "The date that the soil sample was collected",
-          "title": "Date of collection",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "SampleDescription": {
+          "name": "SampleDescription",
+          "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
           "rank": 6,
-          "alias": "Collected",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "SampleDescription",
+          "owner": "LactateQuantificationUsingLLactateAssay",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "LactateQuantificationUsingLLactateAssay"
           ],
           "slot_group": "General",
-          "range": "DateTime",
-          "recommended": true,
-          "pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
-        },
-        "GCS_ID": {
-          "name": "GCS_ID",
-          "description": "Unique numerical identifier of each soil sample",
-          "title": "Genome Canada Soil ID",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 7,
-          "alias": "GCS_ID",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "required": true,
-          "pattern": "^.{0,50}$"
-        },
-        "Host_Plant": {
-          "name": "Host_Plant",
-          "description": "The plant species that was planted in the soil at the time of soil collection",
-          "title": "Associated plant species",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 8,
-          "alias": "Host_Plant",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "required": true,
-          "pattern": "^.{0,250}$"
-        },
-        "Latitude": {
-          "name": "Latitude",
-          "description": "The latitude of the soil collection site",
-          "title": "Latitude",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 9,
-          "alias": "Latitude",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "range": "decimal",
-          "required": true,
-          "pattern": "^[-+]?\\d*\\.?\\d+$"
-        },
-        "Longitude": {
-          "name": "Longitude",
-          "description": "The longitude of the soil collection site",
-          "title": "Longitude",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 10,
-          "alias": "Longitude",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "range": "decimal",
-          "required": true,
-          "pattern": "^[-+]?\\d*\\.?\\d+$"
-        },
-        "Notes": {
-          "name": "Notes",
-          "description": "Additional notes relevant to the soil sample",
-          "title": "Notes",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 11,
-          "alias": "Notes",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "recommended": true,
-          "pattern": "^.{0,4000}$"
-        },
-        "Original_soil_label": {
-          "name": "Original_soil_label",
-          "description": "Original name/label given to each soil during collection",
-          "title": "Original soil label",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 12,
-          "alias": "Original_soil_label",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "recommended": true,
-          "pattern": "^.{0,250}$"
-        },
-        "Province": {
-          "name": "Province",
-          "description": "The province that the soil was collected from",
-          "title": "Province",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 13,
-          "alias": "Province",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "required": true,
-          "pattern": "^.{0,50}$",
-          "any_of": [
-            {
-              "range": "WhitespaceMinimizedString"
-            },
-            {
-              "range": "Province"
-            }
-          ]
-        },
-        "Received": {
-          "name": "Received",
-          "description": "The date that the soil sample was received at the lab",
-          "title": "Date of receipt",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 14,
-          "alias": "Received",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "range": "DateTime",
-          "recommended": true,
-          "pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
-        },
-        "Soil_type": {
-          "name": "Soil_type",
-          "description": "If specified, whether the soil sample represents bulk soil or rhizosphere soil",
-          "title": "Soil type (bulk soil or rhizosphere)",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 15,
-          "alias": "Soil_type",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "recommended": true,
-          "pattern": "^.{0,50}$",
-          "any_of": [
-            {
-              "range": "WhitespaceMinimizedString"
-            },
-            {
-              "range": "Soil_type"
-            }
-          ]
-        },
-        "Storage": {
-          "name": "Storage",
-          "description": "How the soil sample was stored",
-          "title": "Storage",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 16,
-          "alias": "Storage",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "recommended": true,
-          "pattern": "^.{0,800}$"
+          "range": "WhitespaceMinimizedString"
         }
       }
     },
     "Container": {
       "name": "Container",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "attributes": {
-        "BenefitSoilSampleMetadataData": {
-          "name": "BenefitSoilSampleMetadataData",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "alias": "BenefitSoilSampleMetadataData",
+        "LactateQuantificationUsingLLactateAssayData": {
+          "name": "LactateQuantificationUsingLLactateAssayData",
+          "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
+          "alias": "LactateQuantificationUsingLLactateAssayData",
           "owner": "Container",
           "domain_of": [
             "Container"
           ],
-          "range": "BenefitSoilSampleMetadata",
+          "range": "LactateQuantificationUsingLLactateAssay",
           "multivalued": true,
           "inlined_as_list": true
         }
@@ -405,214 +176,75 @@
     }
   },
   "slots": {
-    "Activity_1.1": {
-      "name": "Activity_1.1",
-      "description": "An indication of whether the soil was used as part of Activity 1.1 research",
-      "title": "Activity 1.1 soils",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "Absorbance_Final": {
+      "name": "Absorbance_Final",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "Boolean",
-      "recommended": true
-    },
-    "Activity_1.3": {
-      "name": "Activity_1.3",
-      "description": "An indication of whether the soil was used as part of Activity 1.3 research",
-      "title": "Activity 1.3 soils",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "Boolean",
-      "recommended": true
-    },
-    "Activity_1.4": {
-      "name": "Activity_1.4",
-      "description": "An indication of whether the soil was used as part of Activity 1.4 research",
-      "title": "Activity 1.4 soils",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "Boolean",
-      "recommended": true
-    },
-    "Activity_2.1": {
-      "name": "Activity_2.1",
-      "description": "An indication of whether the soil was used as part of Activity 2.1 research",
-      "title": "Activity 2.1 soils",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "Boolean",
-      "recommended": true
-    },
-    "City": {
-      "name": "City",
-      "description": "The city that the soil was collected from",
-      "title": "City",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "WhitespaceMinimizedString",
-      "required": true,
-      "pattern": "^.{0,250}$"
-    },
-    "Collected": {
-      "name": "Collected",
-      "description": "The date that the soil sample was collected",
-      "title": "Date of collection",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "DateTime",
-      "recommended": true,
-      "pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
-    },
-    "GCS_ID": {
-      "name": "GCS_ID",
-      "description": "Unique numerical identifier of each soil sample",
-      "title": "Genome Canada Soil ID",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "WhitespaceMinimizedString",
-      "required": true,
-      "pattern": "^.{0,50}$"
-    },
-    "Host_Plant": {
-      "name": "Host_Plant",
-      "description": "The plant species that was planted in the soil at the time of soil collection",
-      "title": "Associated plant species",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "WhitespaceMinimizedString",
-      "required": true,
-      "pattern": "^.{0,250}$"
-    },
-    "Latitude": {
-      "name": "Latitude",
-      "description": "The latitude of the soil collection site",
-      "title": "Latitude",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
+        "LactateQuantificationUsingLLactateAssay"
       ],
       "range": "decimal",
-      "required": true,
-      "pattern": "^[-+]?\\d*\\.?\\d+$"
+      "unit": {
+        "ucum_code": "OD"
+      }
     },
-    "Longitude": {
-      "name": "Longitude",
-      "description": "The longitude of the soil collection site",
-      "title": "Longitude",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "Absorbance_Initial": {
+      "name": "Absorbance_Initial",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "domain_of": [
-        "BenefitSoilSampleMetadata"
+        "LactateQuantificationUsingLLactateAssay"
       ],
       "range": "decimal",
-      "required": true,
-      "pattern": "^[-+]?\\d*\\.?\\d+$"
+      "unit": {
+        "ucum_code": "OD"
+      }
     },
-    "Notes": {
-      "name": "Notes",
-      "description": "Additional notes relevant to the soil sample",
-      "title": "Notes",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "Absorbance_Subtracted": {
+      "name": "Absorbance_Subtracted",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "domain_of": [
-        "BenefitSoilSampleMetadata"
+        "LactateQuantificationUsingLLactateAssay"
       ],
-      "range": "WhitespaceMinimizedString",
-      "recommended": true,
-      "pattern": "^.{0,4000}$"
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "OD"
+      }
     },
-    "Original_soil_label": {
-      "name": "Original_soil_label",
-      "description": "Original name/label given to each soil during collection",
-      "title": "Original soil label",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "Concentration_Average": {
+      "name": "Concentration_Average",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "domain_of": [
-        "BenefitSoilSampleMetadata"
+        "LactateQuantificationUsingLLactateAssay"
       ],
-      "range": "WhitespaceMinimizedString",
-      "recommended": true,
-      "pattern": "^.{0,250}$"
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "mM"
+      }
     },
-    "Province": {
-      "name": "Province",
-      "description": "The province that the soil was collected from",
-      "title": "Province",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "Concentration_Calculated": {
+      "name": "Concentration_Calculated",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "domain_of": [
-        "BenefitSoilSampleMetadata"
+        "LactateQuantificationUsingLLactateAssay"
       ],
-      "required": true,
-      "pattern": "^.{0,50}$",
-      "any_of": [
-        {
-          "range": "WhitespaceMinimizedString"
-        },
-        {
-          "range": "Province"
-        }
-      ]
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "mM"
+      }
     },
-    "Received": {
-      "name": "Received",
-      "description": "The date that the soil sample was received at the lab",
-      "title": "Date of receipt",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "SampleDescription": {
+      "name": "SampleDescription",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "domain_of": [
-        "BenefitSoilSampleMetadata"
+        "LactateQuantificationUsingLLactateAssay"
       ],
-      "range": "DateTime",
-      "recommended": true,
-      "pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
-    },
-    "Soil_type": {
-      "name": "Soil_type",
-      "description": "If specified, whether the soil sample represents bulk soil or rhizosphere soil",
-      "title": "Soil type (bulk soil or rhizosphere)",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "recommended": true,
-      "pattern": "^.{0,50}$",
-      "any_of": [
-        {
-          "range": "WhitespaceMinimizedString"
-        },
-        {
-          "range": "Soil_type"
-        }
-      ]
-    },
-    "Storage": {
-      "name": "Storage",
-      "description": "How the soil sample was stored",
-      "title": "Storage",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "WhitespaceMinimizedString",
-      "recommended": true,
-      "pattern": "^.{0,800}$"
+      "range": "WhitespaceMinimizedString"
     }
   },
   "enums": {
     "SettingsMenu": {
       "name": "SettingsMenu",
       "title": "Regular Expressions",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "permissible_values": {
         "AllCaps": {
           "text": "AllCaps",
@@ -799,85 +431,13 @@
           "title": "H:MM or HH:MM"
         }
       }
-    },
-    "Province": {
-      "name": "Province",
-      "title": "Province",
-      "permissible_values": {
-        "AB": {
-          "text": "AB",
-          "title": "Alberta"
-        },
-        "BC": {
-          "text": "BC",
-          "title": "British Columbia"
-        },
-        "MB": {
-          "text": "MB",
-          "title": "Manitoba"
-        },
-        "NB": {
-          "text": "NB",
-          "title": "New Brunswick"
-        },
-        "NL": {
-          "text": "NL",
-          "title": "Newfoundland and Labrador"
-        },
-        "NS": {
-          "text": "NS",
-          "title": "Nova Scotia"
-        },
-        "NT": {
-          "text": "NT",
-          "title": "Northwest Territories"
-        },
-        "NU": {
-          "text": "NU",
-          "title": "Nunavut"
-        },
-        "ON": {
-          "text": "ON",
-          "title": "Ontario"
-        },
-        "PE": {
-          "text": "PE",
-          "title": "Prince Edward Island"
-        },
-        "QC": {
-          "text": "QC",
-          "title": "Quebec City"
-        },
-        "SK": {
-          "text": "SK",
-          "title": "Saskatchewan"
-        },
-        "YT": {
-          "text": "YT",
-          "title": "Yukon"
-        }
-      }
-    },
-    "Soil_type": {
-      "name": "Soil_type",
-      "title": "Soil_type",
-      "permissible_values": {
-        "Bulk": {
-          "text": "Bulk",
-          "title": "Bulk soil"
-        },
-        "Rhizosphere": {
-          "text": "Rhizosphere",
-          "title": "Rhizosphere soil"
-        }
-      }
     }
   },
   "types": {
     "WhitespaceMinimizedString": {
       "name": "WhitespaceMinimizedString",
       "description": "A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "typeof": "string",
       "base": "str",
       "uri": "xsd:token"
@@ -888,7 +448,7 @@
       "notes": [
         "In RDF serializations, a slot with range of string is treated as a literal or type xsd:string.   If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"string\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "exact_mappings": [
         "schema:Text"
       ],
@@ -901,7 +461,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"integer\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "exact_mappings": [
         "schema:Integer"
       ],
@@ -914,7 +474,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"boolean\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "exact_mappings": [
         "schema:Boolean"
       ],
@@ -928,7 +488,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"float\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "exact_mappings": [
         "schema:Float"
       ],
@@ -941,7 +501,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"double\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "close_mappings": [
         "schema:Float"
       ],
@@ -954,7 +514,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"decimal\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "broad_mappings": [
         "schema:Number"
       ],
@@ -968,7 +528,7 @@
         "URI is dateTime because OWL reasoners do not work with straight date or time",
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"time\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "exact_mappings": [
         "schema:Time"
       ],
@@ -983,7 +543,7 @@
         "URI is dateTime because OWL reasoners don't work with straight date or time",
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "exact_mappings": [
         "schema:Date"
       ],
@@ -997,7 +557,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"datetime\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "exact_mappings": [
         "schema:DateTime"
       ],
@@ -1011,7 +571,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date_or_datetime\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "base": "str",
       "uri": "linkml:DateOrDatetime",
       "repr": "str"
@@ -1022,7 +582,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uriorcurie\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "base": "URIorCURIE",
       "uri": "xsd:anyURI",
       "repr": "str"
@@ -1038,7 +598,7 @@
         "in RDF serializations this MUST be expanded to a URI",
         "in non-RDF serializations MAY be serialized as the compact representation"
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "base": "Curie",
       "uri": "xsd:string",
       "repr": "str"
@@ -1053,7 +613,7 @@
       "comments": [
         "in RDF serializations a slot with range of uri is treated as a literal or type xsd:anyURI unless it is an identifier or a reference to an identifier, in which case it is translated directly to a node"
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "close_mappings": [
         "schema:URL"
       ],
@@ -1067,7 +627,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"ncname\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "base": "NCName",
       "uri": "xsd:string",
       "repr": "str"
@@ -1081,7 +641,7 @@
       "comments": [
         "Used for inheritance and type checking"
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "base": "ElementIdentifier",
       "uri": "shex:iri",
       "repr": "str"
@@ -1092,7 +652,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"nodeidentifier\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "base": "NodeIdentifier",
       "uri": "shex:nonLiteral",
       "repr": "str"
@@ -1104,7 +664,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpointer\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"
@@ -1116,7 +676,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpath\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"
@@ -1128,7 +688,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"sparqlpath\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/LactateQuantificationUsingLLactateAssay",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"

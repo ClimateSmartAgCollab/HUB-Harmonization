@@ -1,10 +1,10 @@
 {
-  "id": "https://example.com/BenefitSoilSampleMetadata",
-  "name": "BenefitSoilSampleMetadata",
-  "description": "Metadata associated with the soil samples collected as part of the BENEFIT project.",
+  "id": "https://example.com/QrtPcr",
+  "name": "QrtPcr",
+  "description": "",
   "version": "0.0.0",
   "in_language": "en",
-  "default_prefix": "https://example.com/BenefitSoilSampleMetadata/",
+  "default_prefix": "https://example.com/QrtPcr/",
   "imports": [],
   "prefixes": {
     "linkml": {
@@ -25,378 +25,320 @@
     }
   },
   "classes": {
-    "BenefitSoilSampleMetadata": {
-      "name": "BenefitSoilSampleMetadata",
-      "description": "Metadata associated with the soil samples collected as part of the BENEFIT project.",
-      "title": "BENEFIT Soil Sample Metadata",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "QrtPcr": {
+      "name": "QrtPcr",
+      "description": "",
+      "title": "qRT-PCR",
+      "from_schema": "https://example.com/QrtPcr",
       "keywords": [
-        "RDF106"
+        "RDF207"
       ],
       "slot_usage": {
-        "Activity_1.1": {
-          "name": "Activity_1.1",
+        "Amp_Status": {
+          "name": "Amp_Status",
           "rank": 1,
           "slot_group": "General"
         },
-        "Activity_1.3": {
-          "name": "Activity_1.3",
+        "Baseline_End": {
+          "name": "Baseline_End",
           "rank": 2,
           "slot_group": "General"
         },
-        "Activity_1.4": {
-          "name": "Activity_1.4",
+        "Baseline_Start": {
+          "name": "Baseline_Start",
           "rank": 3,
           "slot_group": "General"
         },
-        "Activity_2.1": {
-          "name": "Activity_2.1",
+        "CT": {
+          "name": "CT",
           "rank": 4,
           "slot_group": "General"
         },
-        "City": {
-          "name": "City",
+        "Cq_Conf": {
+          "name": "Cq_Conf",
           "rank": 5,
           "slot_group": "General"
         },
-        "Collected": {
-          "name": "Collected",
+        "Ct_Mean": {
+          "name": "Ct_Mean",
           "rank": 6,
           "slot_group": "General"
         },
-        "GCS_ID": {
-          "name": "GCS_ID",
+        "Ct_SD": {
+          "name": "Ct_SD",
           "rank": 7,
           "slot_group": "General"
         },
-        "Host_Plant": {
-          "name": "Host_Plant",
+        "Ct_Threshold": {
+          "name": "Ct_Threshold",
           "rank": 8,
           "slot_group": "General"
         },
-        "Latitude": {
-          "name": "Latitude",
+        "HIGHSD": {
+          "name": "HIGHSD",
           "rank": 9,
           "slot_group": "General"
         },
-        "Longitude": {
-          "name": "Longitude",
+        "Reporter": {
+          "name": "Reporter",
           "rank": 10,
           "slot_group": "General"
         },
-        "Notes": {
-          "name": "Notes",
+        "Sample_Name": {
+          "name": "Sample_Name",
           "rank": 11,
           "slot_group": "General"
         },
-        "Original_soil_label": {
-          "name": "Original_soil_label",
+        "Target_Name": {
+          "name": "Target_Name",
           "rank": 12,
           "slot_group": "General"
         },
-        "Province": {
-          "name": "Province",
+        "Tm1": {
+          "name": "Tm1",
           "rank": 13,
           "slot_group": "General"
         },
-        "Received": {
-          "name": "Received",
+        "Well": {
+          "name": "Well",
           "rank": 14,
           "slot_group": "General"
         },
-        "Soil_type": {
-          "name": "Soil_type",
+        "Well_Position": {
+          "name": "Well_Position",
           "rank": 15,
-          "slot_group": "General"
-        },
-        "Storage": {
-          "name": "Storage",
-          "rank": 16,
           "slot_group": "General"
         }
       },
       "attributes": {
-        "Activity_1.1": {
-          "name": "Activity_1.1",
-          "description": "An indication of whether the soil was used as part of Activity 1.1 research",
-          "title": "Activity 1.1 soils",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "Amp_Status": {
+          "name": "Amp_Status",
+          "description": "Indicates whether amplification was detected",
+          "from_schema": "https://example.com/QrtPcr",
           "rank": 1,
-          "alias": "Activity_1.1",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "Amp_Status",
+          "owner": "QrtPcr",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "QrtPcr"
           ],
           "slot_group": "General",
-          "range": "Boolean",
-          "recommended": true
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "Amp_Status"
+            }
+          ]
         },
-        "Activity_1.3": {
-          "name": "Activity_1.3",
-          "description": "An indication of whether the soil was used as part of Activity 1.3 research",
-          "title": "Activity 1.3 soils",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "Baseline_End": {
+          "name": "Baseline_End",
+          "description": "End cycle for baseline signal calculation",
+          "from_schema": "https://example.com/QrtPcr",
           "rank": 2,
-          "alias": "Activity_1.3",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "Baseline_End",
+          "owner": "QrtPcr",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "QrtPcr"
           ],
           "slot_group": "General",
-          "range": "Boolean",
-          "recommended": true
+          "range": "decimal"
         },
-        "Activity_1.4": {
-          "name": "Activity_1.4",
-          "description": "An indication of whether the soil was used as part of Activity 1.4 research",
-          "title": "Activity 1.4 soils",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "Baseline_Start": {
+          "name": "Baseline_Start",
+          "description": "Start cycle for baseline signal calculation",
+          "from_schema": "https://example.com/QrtPcr",
           "rank": 3,
-          "alias": "Activity_1.4",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "Baseline_Start",
+          "owner": "QrtPcr",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "QrtPcr"
           ],
           "slot_group": "General",
-          "range": "Boolean",
-          "recommended": true
+          "range": "decimal"
         },
-        "Activity_2.1": {
-          "name": "Activity_2.1",
-          "description": "An indication of whether the soil was used as part of Activity 2.1 research",
-          "title": "Activity 2.1 soils",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "CT": {
+          "name": "CT",
+          "description": "Threshold cycle where fluorescence exceeds background",
+          "from_schema": "https://example.com/QrtPcr",
           "rank": 4,
-          "alias": "Activity_2.1",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "CT",
+          "owner": "QrtPcr",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "QrtPcr"
           ],
           "slot_group": "General",
-          "range": "Boolean",
-          "recommended": true
+          "range": "decimal"
         },
-        "City": {
-          "name": "City",
-          "description": "The city that the soil was collected from",
-          "title": "City",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "Cq_Conf": {
+          "name": "Cq_Conf",
+          "description": "Confidence in quantification cycle (Cq) value",
+          "from_schema": "https://example.com/QrtPcr",
           "rank": 5,
-          "alias": "City",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "Cq_Conf",
+          "owner": "QrtPcr",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "QrtPcr"
           ],
           "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "required": true,
-          "pattern": "^.{0,250}$"
+          "range": "decimal"
         },
-        "Collected": {
-          "name": "Collected",
-          "description": "The date that the soil sample was collected",
-          "title": "Date of collection",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "Ct_Mean": {
+          "name": "Ct_Mean",
+          "description": "Average CT value from technical replicates",
+          "from_schema": "https://example.com/QrtPcr",
           "rank": 6,
-          "alias": "Collected",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "Ct_Mean",
+          "owner": "QrtPcr",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "QrtPcr"
           ],
           "slot_group": "General",
-          "range": "DateTime",
-          "recommended": true,
-          "pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
+          "range": "decimal"
         },
-        "GCS_ID": {
-          "name": "GCS_ID",
-          "description": "Unique numerical identifier of each soil sample",
-          "title": "Genome Canada Soil ID",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "Ct_SD": {
+          "name": "Ct_SD",
+          "description": "Standard deviation of CT values among replicates",
+          "from_schema": "https://example.com/QrtPcr",
           "rank": 7,
-          "alias": "GCS_ID",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "Ct_SD",
+          "owner": "QrtPcr",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "QrtPcr"
           ],
           "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "required": true,
-          "pattern": "^.{0,50}$"
+          "range": "decimal"
         },
-        "Host_Plant": {
-          "name": "Host_Plant",
-          "description": "The plant species that was planted in the soil at the time of soil collection",
-          "title": "Associated plant species",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "Ct_Threshold": {
+          "name": "Ct_Threshold",
+          "description": "Fluorescence threshold used to calculate CT",
+          "from_schema": "https://example.com/QrtPcr",
           "rank": 8,
-          "alias": "Host_Plant",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "Ct_Threshold",
+          "owner": "QrtPcr",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "QrtPcr"
           ],
           "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "required": true,
-          "pattern": "^.{0,250}$"
+          "range": "decimal"
         },
-        "Latitude": {
-          "name": "Latitude",
-          "description": "The latitude of the soil collection site",
-          "title": "Latitude",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "HIGHSD": {
+          "name": "HIGHSD",
+          "description": "High standard deviation among technical replicates for a given sample, suggesting inconsistent amplification",
+          "from_schema": "https://example.com/QrtPcr",
           "rank": 9,
-          "alias": "Latitude",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "HIGHSD",
+          "owner": "QrtPcr",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "QrtPcr"
           ],
           "slot_group": "General",
-          "range": "decimal",
-          "required": true,
-          "pattern": "^[-+]?\\d*\\.?\\d+$"
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "HIGHSD"
+            }
+          ]
         },
-        "Longitude": {
-          "name": "Longitude",
-          "description": "The longitude of the soil collection site",
-          "title": "Longitude",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "Reporter": {
+          "name": "Reporter",
+          "description": "Fluorescent dye used to detect amplification",
+          "from_schema": "https://example.com/QrtPcr",
           "rank": 10,
-          "alias": "Longitude",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "Reporter",
+          "owner": "QrtPcr",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "QrtPcr"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "Sample_Name": {
+          "name": "Sample_Name",
+          "description": "Name or ID of the biological or experimental sample",
+          "from_schema": "https://example.com/QrtPcr",
+          "rank": 11,
+          "alias": "Sample_Name",
+          "owner": "QrtPcr",
+          "domain_of": [
+            "QrtPcr"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "Target_Name": {
+          "name": "Target_Name",
+          "description": "Target Gene",
+          "from_schema": "https://example.com/QrtPcr",
+          "rank": 12,
+          "alias": "Target_Name",
+          "owner": "QrtPcr",
+          "domain_of": [
+            "QrtPcr"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "Tm1": {
+          "name": "Tm1",
+          "description": "Melting temperature of the first PCR product peak",
+          "from_schema": "https://example.com/QrtPcr",
+          "rank": 13,
+          "alias": "Tm1",
+          "owner": "QrtPcr",
+          "domain_of": [
+            "QrtPcr"
           ],
           "slot_group": "General",
           "range": "decimal",
-          "required": true,
-          "pattern": "^[-+]?\\d*\\.?\\d+$"
+          "unit": {
+            "ucum_code": "Celsius"
+          }
         },
-        "Notes": {
-          "name": "Notes",
-          "description": "Additional notes relevant to the soil sample",
-          "title": "Notes",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 11,
-          "alias": "Notes",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "recommended": true,
-          "pattern": "^.{0,4000}$"
-        },
-        "Original_soil_label": {
-          "name": "Original_soil_label",
-          "description": "Original name/label given to each soil during collection",
-          "title": "Original soil label",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 12,
-          "alias": "Original_soil_label",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "recommended": true,
-          "pattern": "^.{0,250}$"
-        },
-        "Province": {
-          "name": "Province",
-          "description": "The province that the soil was collected from",
-          "title": "Province",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 13,
-          "alias": "Province",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "required": true,
-          "pattern": "^.{0,50}$",
-          "any_of": [
-            {
-              "range": "WhitespaceMinimizedString"
-            },
-            {
-              "range": "Province"
-            }
-          ]
-        },
-        "Received": {
-          "name": "Received",
-          "description": "The date that the soil sample was received at the lab",
-          "title": "Date of receipt",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "Well": {
+          "name": "Well",
+          "description": "Identifies the specific well on the qPCR plate",
+          "from_schema": "https://example.com/QrtPcr",
           "rank": 14,
-          "alias": "Received",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "Well",
+          "owner": "QrtPcr",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "QrtPcr"
           ],
           "slot_group": "General",
-          "range": "DateTime",
-          "recommended": true,
-          "pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
+          "range": "decimal"
         },
-        "Soil_type": {
-          "name": "Soil_type",
-          "description": "If specified, whether the soil sample represents bulk soil or rhizosphere soil",
-          "title": "Soil type (bulk soil or rhizosphere)",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+        "Well_Position": {
+          "name": "Well_Position",
+          "description": "Coordinates of the well",
+          "from_schema": "https://example.com/QrtPcr",
           "rank": 15,
-          "alias": "Soil_type",
-          "owner": "BenefitSoilSampleMetadata",
+          "alias": "Well_Position",
+          "owner": "QrtPcr",
           "domain_of": [
-            "BenefitSoilSampleMetadata"
-          ],
-          "slot_group": "General",
-          "recommended": true,
-          "pattern": "^.{0,50}$",
-          "any_of": [
-            {
-              "range": "WhitespaceMinimizedString"
-            },
-            {
-              "range": "Soil_type"
-            }
-          ]
-        },
-        "Storage": {
-          "name": "Storage",
-          "description": "How the soil sample was stored",
-          "title": "Storage",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "rank": 16,
-          "alias": "Storage",
-          "owner": "BenefitSoilSampleMetadata",
-          "domain_of": [
-            "BenefitSoilSampleMetadata"
+            "QrtPcr"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString",
-          "recommended": true,
-          "pattern": "^.{0,800}$"
+          "pattern": "^[A-Z]*$"
         }
       }
     },
     "Container": {
       "name": "Container",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "attributes": {
-        "BenefitSoilSampleMetadataData": {
-          "name": "BenefitSoilSampleMetadataData",
-          "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-          "alias": "BenefitSoilSampleMetadataData",
+        "QrtPcrData": {
+          "name": "QrtPcrData",
+          "from_schema": "https://example.com/QrtPcr",
+          "alias": "QrtPcrData",
           "owner": "Container",
           "domain_of": [
             "Container"
           ],
-          "range": "BenefitSoilSampleMetadata",
+          "range": "QrtPcr",
           "multivalued": true,
           "inlined_as_list": true
         }
@@ -405,214 +347,165 @@
     }
   },
   "slots": {
-    "Activity_1.1": {
-      "name": "Activity_1.1",
-      "description": "An indication of whether the soil was used as part of Activity 1.1 research",
-      "title": "Activity 1.1 soils",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "Amp_Status": {
+      "name": "Amp_Status",
+      "description": "Indicates whether amplification was detected",
+      "from_schema": "https://example.com/QrtPcr",
       "domain_of": [
-        "BenefitSoilSampleMetadata"
+        "QrtPcr"
       ],
-      "range": "Boolean",
-      "recommended": true
-    },
-    "Activity_1.3": {
-      "name": "Activity_1.3",
-      "description": "An indication of whether the soil was used as part of Activity 1.3 research",
-      "title": "Activity 1.3 soils",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "Boolean",
-      "recommended": true
-    },
-    "Activity_1.4": {
-      "name": "Activity_1.4",
-      "description": "An indication of whether the soil was used as part of Activity 1.4 research",
-      "title": "Activity 1.4 soils",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "Boolean",
-      "recommended": true
-    },
-    "Activity_2.1": {
-      "name": "Activity_2.1",
-      "description": "An indication of whether the soil was used as part of Activity 2.1 research",
-      "title": "Activity 2.1 soils",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "Boolean",
-      "recommended": true
-    },
-    "City": {
-      "name": "City",
-      "description": "The city that the soil was collected from",
-      "title": "City",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "WhitespaceMinimizedString",
-      "required": true,
-      "pattern": "^.{0,250}$"
-    },
-    "Collected": {
-      "name": "Collected",
-      "description": "The date that the soil sample was collected",
-      "title": "Date of collection",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "DateTime",
-      "recommended": true,
-      "pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
-    },
-    "GCS_ID": {
-      "name": "GCS_ID",
-      "description": "Unique numerical identifier of each soil sample",
-      "title": "Genome Canada Soil ID",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "WhitespaceMinimizedString",
-      "required": true,
-      "pattern": "^.{0,50}$"
-    },
-    "Host_Plant": {
-      "name": "Host_Plant",
-      "description": "The plant species that was planted in the soil at the time of soil collection",
-      "title": "Associated plant species",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "WhitespaceMinimizedString",
-      "required": true,
-      "pattern": "^.{0,250}$"
-    },
-    "Latitude": {
-      "name": "Latitude",
-      "description": "The latitude of the soil collection site",
-      "title": "Latitude",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "decimal",
-      "required": true,
-      "pattern": "^[-+]?\\d*\\.?\\d+$"
-    },
-    "Longitude": {
-      "name": "Longitude",
-      "description": "The longitude of the soil collection site",
-      "title": "Longitude",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "decimal",
-      "required": true,
-      "pattern": "^[-+]?\\d*\\.?\\d+$"
-    },
-    "Notes": {
-      "name": "Notes",
-      "description": "Additional notes relevant to the soil sample",
-      "title": "Notes",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "WhitespaceMinimizedString",
-      "recommended": true,
-      "pattern": "^.{0,4000}$"
-    },
-    "Original_soil_label": {
-      "name": "Original_soil_label",
-      "description": "Original name/label given to each soil during collection",
-      "title": "Original soil label",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "range": "WhitespaceMinimizedString",
-      "recommended": true,
-      "pattern": "^.{0,250}$"
-    },
-    "Province": {
-      "name": "Province",
-      "description": "The province that the soil was collected from",
-      "title": "Province",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
-      "domain_of": [
-        "BenefitSoilSampleMetadata"
-      ],
-      "required": true,
-      "pattern": "^.{0,50}$",
       "any_of": [
         {
           "range": "WhitespaceMinimizedString"
         },
         {
-          "range": "Province"
+          "range": "Amp_Status"
         }
       ]
     },
-    "Received": {
-      "name": "Received",
-      "description": "The date that the soil sample was received at the lab",
-      "title": "Date of receipt",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "Baseline_End": {
+      "name": "Baseline_End",
+      "description": "End cycle for baseline signal calculation",
+      "from_schema": "https://example.com/QrtPcr",
       "domain_of": [
-        "BenefitSoilSampleMetadata"
+        "QrtPcr"
       ],
-      "range": "DateTime",
-      "recommended": true,
-      "pattern": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
+      "range": "decimal"
     },
-    "Soil_type": {
-      "name": "Soil_type",
-      "description": "If specified, whether the soil sample represents bulk soil or rhizosphere soil",
-      "title": "Soil type (bulk soil or rhizosphere)",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "Baseline_Start": {
+      "name": "Baseline_Start",
+      "description": "Start cycle for baseline signal calculation",
+      "from_schema": "https://example.com/QrtPcr",
       "domain_of": [
-        "BenefitSoilSampleMetadata"
+        "QrtPcr"
       ],
-      "recommended": true,
-      "pattern": "^.{0,50}$",
+      "range": "decimal"
+    },
+    "CT": {
+      "name": "CT",
+      "description": "Threshold cycle where fluorescence exceeds background",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "decimal"
+    },
+    "Cq_Conf": {
+      "name": "Cq_Conf",
+      "description": "Confidence in quantification cycle (Cq) value",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "decimal"
+    },
+    "Ct_Mean": {
+      "name": "Ct_Mean",
+      "description": "Average CT value from technical replicates",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "decimal"
+    },
+    "Ct_SD": {
+      "name": "Ct_SD",
+      "description": "Standard deviation of CT values among replicates",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "decimal"
+    },
+    "Ct_Threshold": {
+      "name": "Ct_Threshold",
+      "description": "Fluorescence threshold used to calculate CT",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "decimal"
+    },
+    "HIGHSD": {
+      "name": "HIGHSD",
+      "description": "High standard deviation among technical replicates for a given sample, suggesting inconsistent amplification",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
       "any_of": [
         {
           "range": "WhitespaceMinimizedString"
         },
         {
-          "range": "Soil_type"
+          "range": "HIGHSD"
         }
       ]
     },
-    "Storage": {
-      "name": "Storage",
-      "description": "How the soil sample was stored",
-      "title": "Storage",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+    "Reporter": {
+      "name": "Reporter",
+      "description": "Fluorescent dye used to detect amplification",
+      "from_schema": "https://example.com/QrtPcr",
       "domain_of": [
-        "BenefitSoilSampleMetadata"
+        "QrtPcr"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "Sample_Name": {
+      "name": "Sample_Name",
+      "description": "Name or ID of the biological or experimental sample",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "Target_Name": {
+      "name": "Target_Name",
+      "description": "Target Gene",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "Tm1": {
+      "name": "Tm1",
+      "description": "Melting temperature of the first PCR product peak",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "Celsius"
+      }
+    },
+    "Well": {
+      "name": "Well",
+      "description": "Identifies the specific well on the qPCR plate",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "decimal"
+    },
+    "Well_Position": {
+      "name": "Well_Position",
+      "description": "Coordinates of the well",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
       ],
       "range": "WhitespaceMinimizedString",
-      "recommended": true,
-      "pattern": "^.{0,800}$"
+      "pattern": "^[A-Z]*$"
     }
   },
   "enums": {
     "SettingsMenu": {
       "name": "SettingsMenu",
       "title": "Regular Expressions",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "permissible_values": {
         "AllCaps": {
           "text": "AllCaps",
@@ -800,75 +693,31 @@
         }
       }
     },
-    "Province": {
-      "name": "Province",
-      "title": "Province",
+    "Amp_Status": {
+      "name": "Amp_Status",
+      "title": "Amp_Status",
       "permissible_values": {
-        "AB": {
-          "text": "AB",
-          "title": "Alberta"
+        "Amp": {
+          "text": "Amp",
+          "title": "Amplified"
         },
-        "BC": {
-          "text": "BC",
-          "title": "British Columbia"
-        },
-        "MB": {
-          "text": "MB",
-          "title": "Manitoba"
-        },
-        "NB": {
-          "text": "NB",
-          "title": "New Brunswick"
-        },
-        "NL": {
-          "text": "NL",
-          "title": "Newfoundland and Labrador"
-        },
-        "NS": {
-          "text": "NS",
-          "title": "Nova Scotia"
-        },
-        "NT": {
-          "text": "NT",
-          "title": "Northwest Territories"
-        },
-        "NU": {
-          "text": "NU",
-          "title": "Nunavut"
-        },
-        "ON": {
-          "text": "ON",
-          "title": "Ontario"
-        },
-        "PE": {
-          "text": "PE",
-          "title": "Prince Edward Island"
-        },
-        "QC": {
-          "text": "QC",
-          "title": "Quebec City"
-        },
-        "SK": {
-          "text": "SK",
-          "title": "Saskatchewan"
-        },
-        "YT": {
-          "text": "YT",
-          "title": "Yukon"
+        "No Amp": {
+          "text": "No Amp",
+          "title": "Not amplified"
         }
       }
     },
-    "Soil_type": {
-      "name": "Soil_type",
-      "title": "Soil_type",
+    "HIGHSD": {
+      "name": "HIGHSD",
+      "title": "HIGHSD",
       "permissible_values": {
-        "Bulk": {
-          "text": "Bulk",
-          "title": "Bulk soil"
+        "N": {
+          "text": "N",
+          "title": "No"
         },
-        "Rhizosphere": {
-          "text": "Rhizosphere",
-          "title": "Rhizosphere soil"
+        "Y": {
+          "text": "Y",
+          "title": "Yes"
         }
       }
     }
@@ -877,7 +726,7 @@
     "WhitespaceMinimizedString": {
       "name": "WhitespaceMinimizedString",
       "description": "A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).",
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "typeof": "string",
       "base": "str",
       "uri": "xsd:token"
@@ -888,7 +737,7 @@
       "notes": [
         "In RDF serializations, a slot with range of string is treated as a literal or type xsd:string.   If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"string\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "exact_mappings": [
         "schema:Text"
       ],
@@ -901,7 +750,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"integer\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "exact_mappings": [
         "schema:Integer"
       ],
@@ -914,7 +763,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"boolean\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "exact_mappings": [
         "schema:Boolean"
       ],
@@ -928,7 +777,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"float\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "exact_mappings": [
         "schema:Float"
       ],
@@ -941,7 +790,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"double\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "close_mappings": [
         "schema:Float"
       ],
@@ -954,7 +803,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"decimal\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "broad_mappings": [
         "schema:Number"
       ],
@@ -968,7 +817,7 @@
         "URI is dateTime because OWL reasoners do not work with straight date or time",
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"time\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "exact_mappings": [
         "schema:Time"
       ],
@@ -983,7 +832,7 @@
         "URI is dateTime because OWL reasoners don't work with straight date or time",
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "exact_mappings": [
         "schema:Date"
       ],
@@ -997,7 +846,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"datetime\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "exact_mappings": [
         "schema:DateTime"
       ],
@@ -1011,7 +860,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date_or_datetime\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "base": "str",
       "uri": "linkml:DateOrDatetime",
       "repr": "str"
@@ -1022,7 +871,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uriorcurie\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "base": "URIorCURIE",
       "uri": "xsd:anyURI",
       "repr": "str"
@@ -1038,7 +887,7 @@
         "in RDF serializations this MUST be expanded to a URI",
         "in non-RDF serializations MAY be serialized as the compact representation"
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "base": "Curie",
       "uri": "xsd:string",
       "repr": "str"
@@ -1053,7 +902,7 @@
       "comments": [
         "in RDF serializations a slot with range of uri is treated as a literal or type xsd:anyURI unless it is an identifier or a reference to an identifier, in which case it is translated directly to a node"
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "close_mappings": [
         "schema:URL"
       ],
@@ -1067,7 +916,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"ncname\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "base": "NCName",
       "uri": "xsd:string",
       "repr": "str"
@@ -1081,7 +930,7 @@
       "comments": [
         "Used for inheritance and type checking"
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "base": "ElementIdentifier",
       "uri": "shex:iri",
       "repr": "str"
@@ -1092,7 +941,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"nodeidentifier\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "base": "NodeIdentifier",
       "uri": "shex:nonLiteral",
       "repr": "str"
@@ -1104,7 +953,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpointer\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"
@@ -1116,7 +965,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpath\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"
@@ -1128,7 +977,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"sparqlpath\"."
       ],
-      "from_schema": "https://example.com/BenefitSoilSampleMetadata",
+      "from_schema": "https://example.com/QrtPcr",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"

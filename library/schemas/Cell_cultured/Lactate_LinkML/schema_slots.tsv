@@ -1,0 +1,7 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+LactateQuantificationUsingLLactateAssay	General		Absorbance_Final		decimal		OD														
+LactateQuantificationUsingLLactateAssay	General		Absorbance_Initial		decimal		OD														
+LactateQuantificationUsingLLactateAssay	General		Absorbance_Subtracted		decimal		OD														
+LactateQuantificationUsingLLactateAssay	General		Concentration_Average		decimal		mM														
+LactateQuantificationUsingLLactateAssay	General		Concentration_Calculated		decimal		mM														
+LactateQuantificationUsingLLactateAssay	General		SampleDescription		WhitespaceMinimizedString																
