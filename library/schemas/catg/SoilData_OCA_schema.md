@@ -22,6 +22,8 @@ parent: CAT-G
 
 [download Semantic Engine schema](SoilData_OCA_package.json)
 
+[Download LinkML Schema](SoilData_LinkML/schema.json) ([yaml](SoilData_LinkML/schema.yaml); table view: [fields](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/catg/SoilData_LinkML/schema_slots.tsv), [picklists](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/catg/SoilData_LinkML/schema_enums.tsv))
+
 ## Schema quick view
 
 | Attribute | Label | Description |

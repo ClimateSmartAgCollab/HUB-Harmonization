@@ -1,0 +1,3974 @@
+{
+  "id": "https://example.com/EnvironmentalDna",
+  "name": "EnvironmentalDna",
+  "description": "This schema is designed for environmental or agricultural monitoring datasets. It includes several key attributes such as sample identifiers, sample types, geographic coordinates (latitude and longitude), and site descriptions. The schema also defines metadata fields for data validation, such as required entry values, accepted formats, and character encoding. It aims to support structured data collection and ensure interoperability across platforms through consistent attribute naming and semantic annotations.",
+  "version": "0.0.0",
+  "in_language": "en",
+  "default_prefix": "https://example.com/EnvironmentalDna/",
+  "imports": [],
+  "prefixes": {
+    "linkml": {
+      "prefix_prefix": "linkml",
+      "prefix_reference": "https://w3id.org/linkml/"
+    },
+    "xsd": {
+      "prefix_prefix": "xsd",
+      "prefix_reference": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "shex": {
+      "prefix_prefix": "shex",
+      "prefix_reference": "http://www.w3.org/ns/shex#"
+    },
+    "schema": {
+      "prefix_prefix": "schema",
+      "prefix_reference": "http://schema.org/"
+    }
+  },
+  "classes": {
+    "EnvironmentalDna": {
+      "name": "EnvironmentalDna",
+      "description": "This schema is designed for environmental or agricultural monitoring datasets. It includes several key attributes such as sample identifiers, sample types, geographic coordinates (latitude and longitude), and site descriptions. The schema also defines metadata fields for data validation, such as required entry values, accepted formats, and character encoding. It aims to support structured data collection and ensure interoperability across platforms through consistent attribute naming and semantic annotations.",
+      "title": "Environmental DNA",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "keywords": [
+        "RDF209"
+      ],
+      "slot_usage": {
+        "above_ground_biomass": {
+          "name": "above_ground_biomass",
+          "rank": 1,
+          "slot_group": "General"
+        },
+        "analysis_method": {
+          "name": "analysis_method",
+          "rank": 2,
+          "slot_group": "General"
+        },
+        "analyst": {
+          "name": "analyst",
+          "rank": 3,
+          "slot_group": "General"
+        },
+        "analyst_affiliation": {
+          "name": "analyst_affiliation",
+          "rank": 4,
+          "slot_group": "General"
+        },
+        "average_seq_quality": {
+          "name": "average_seq_quality",
+          "rank": 5,
+          "slot_group": "General"
+        },
+        "below_ground_biomass": {
+          "name": "below_ground_biomass",
+          "rank": 6,
+          "slot_group": "General"
+        },
+        "biocontrol_ability": {
+          "name": "biocontrol_ability",
+          "rank": 7,
+          "slot_group": "General"
+        },
+        "carotenoids_content": {
+          "name": "carotenoids_content",
+          "rank": 8,
+          "slot_group": "General"
+        },
+        "chlorophyll_content": {
+          "name": "chlorophyll_content",
+          "rank": 9,
+          "slot_group": "General"
+        },
+        "colonisation_index": {
+          "name": "colonisation_index",
+          "rank": 10,
+          "slot_group": "General"
+        },
+        "contamination_index": {
+          "name": "contamination_index",
+          "rank": 11,
+          "slot_group": "General"
+        },
+        "crop": {
+          "name": "crop",
+          "rank": 12,
+          "slot_group": "General"
+        },
+        "crop_growth_promoting_ability": {
+          "name": "crop_growth_promoting_ability",
+          "rank": 13,
+          "slot_group": "General"
+        },
+        "crop_yield": {
+          "name": "crop_yield",
+          "rank": 14,
+          "slot_group": "General"
+        },
+        "data_curator": {
+          "name": "data_curator",
+          "rank": 15,
+          "slot_group": "General"
+        },
+        "dataset_doi": {
+          "name": "dataset_doi",
+          "rank": 16,
+          "slot_group": "General"
+        },
+        "device_serial_number": {
+          "name": "device_serial_number",
+          "rank": 17,
+          "slot_group": "General"
+        },
+        "disease_scale": {
+          "name": "disease_scale",
+          "rank": 18,
+          "slot_group": "General"
+        },
+        "dna_quantity": {
+          "name": "dna_quantity",
+          "rank": 19,
+          "slot_group": "General"
+        },
+        "electric_conductivity": {
+          "name": "electric_conductivity",
+          "rank": 20,
+          "slot_group": "General"
+        },
+        "experimental_design": {
+          "name": "experimental_design",
+          "rank": 21,
+          "slot_group": "General"
+        },
+        "extraction_protocol": {
+          "name": "extraction_protocol",
+          "rank": 22,
+          "slot_group": "General"
+        },
+        "fermented_diet": {
+          "name": "fermented_diet",
+          "rank": 23,
+          "slot_group": "General"
+        },
+        "filter_size": {
+          "name": "filter_size",
+          "rank": 24,
+          "slot_group": "General"
+        },
+        "filter_type": {
+          "name": "filter_type",
+          "rank": 25,
+          "slot_group": "General"
+        },
+        "flux_measurement_method": {
+          "name": "flux_measurement_method",
+          "rank": 26,
+          "slot_group": "General"
+        },
+        "fruit_quality": {
+          "name": "fruit_quality",
+          "rank": 27,
+          "slot_group": "General"
+        },
+        "fwd_probe_name": {
+          "name": "fwd_probe_name",
+          "rank": 28,
+          "slot_group": "General"
+        },
+        "fwd_probe_seq": {
+          "name": "fwd_probe_seq",
+          "rank": 29,
+          "slot_group": "General"
+        },
+        "gas": {
+          "name": "gas",
+          "rank": 30,
+          "slot_group": "General"
+        },
+        "isolated_strains": {
+          "name": "isolated_strains",
+          "rank": 31,
+          "slot_group": "General"
+        },
+        "larval_biomass_yield": {
+          "name": "larval_biomass_yield",
+          "rank": 32,
+          "slot_group": "General"
+        },
+        "larval_dry_diet": {
+          "name": "larval_dry_diet",
+          "rank": 33,
+          "slot_group": "General"
+        },
+        "larval_protein_content": {
+          "name": "larval_protein_content",
+          "rank": 34,
+          "slot_group": "General"
+        },
+        "larval_wet_diet": {
+          "name": "larval_wet_diet",
+          "rank": 35,
+          "slot_group": "General"
+        },
+        "latitude": {
+          "name": "latitude",
+          "rank": 36,
+          "slot_group": "General"
+        },
+        "leaf_water_potential": {
+          "name": "leaf_water_potential",
+          "rank": 37,
+          "slot_group": "General"
+        },
+        "lib_prep_protocol": {
+          "name": "lib_prep_protocol",
+          "rank": 38,
+          "slot_group": "General"
+        },
+        "library": {
+          "name": "library",
+          "rank": 39,
+          "slot_group": "General"
+        },
+        "license": {
+          "name": "license",
+          "rank": 40,
+          "slot_group": "General"
+        },
+        "location_name": {
+          "name": "location_name",
+          "rank": 41,
+          "slot_group": "General"
+        },
+        "longitude": {
+          "name": "longitude",
+          "rank": 42,
+          "slot_group": "General"
+        },
+        "merging_tool": {
+          "name": "merging_tool",
+          "rank": 43,
+          "slot_group": "General"
+        },
+        "metadata_version": {
+          "name": "metadata_version",
+          "rank": 44,
+          "slot_group": "General"
+        },
+        "method_citation": {
+          "name": "method_citation",
+          "rank": 45,
+          "slot_group": "General"
+        },
+        "mushroom_biomass_yield": {
+          "name": "mushroom_biomass_yield",
+          "rank": 46,
+          "slot_group": "General"
+        },
+        "mushroom_species": {
+          "name": "mushroom_species",
+          "rank": 47,
+          "slot_group": "General"
+        },
+        "mushroom_substrate_conditioning": {
+          "name": "mushroom_substrate_conditioning",
+          "rank": 48,
+          "slot_group": "General"
+        },
+        "mushroom_substrate_upcycling": {
+          "name": "mushroom_substrate_upcycling",
+          "rank": 49,
+          "slot_group": "General"
+        },
+        "number_of_cycles": {
+          "name": "number_of_cycles",
+          "rank": 50,
+          "slot_group": "General"
+        },
+        "pH_level": {
+          "name": "pH_level",
+          "rank": 51,
+          "slot_group": "General"
+        },
+        "photosynthesis": {
+          "name": "photosynthesis",
+          "rank": 52,
+          "slot_group": "General"
+        },
+        "plant_height": {
+          "name": "plant_height",
+          "rank": 53,
+          "slot_group": "General"
+        },
+        "prep_type": {
+          "name": "prep_type",
+          "rank": 54,
+          "slot_group": "General"
+        },
+        "production": {
+          "name": "production",
+          "rank": 55,
+          "slot_group": "General"
+        },
+        "qc_flag": {
+          "name": "qc_flag",
+          "rank": 56,
+          "slot_group": "General"
+        },
+        "qc_protocol": {
+          "name": "qc_protocol",
+          "rank": 57,
+          "slot_group": "General"
+        },
+        "reactor_type": {
+          "name": "reactor_type",
+          "rank": 58,
+          "slot_group": "General"
+        },
+        "read_count": {
+          "name": "read_count",
+          "rank": 59,
+          "slot_group": "General"
+        },
+        "ref_database": {
+          "name": "ref_database",
+          "rank": 60,
+          "slot_group": "General"
+        },
+        "replicates_count": {
+          "name": "replicates_count",
+          "rank": 61,
+          "slot_group": "General"
+        },
+        "rev_probe_name": {
+          "name": "rev_probe_name",
+          "rank": 62,
+          "slot_group": "General"
+        },
+        "rev_probe_seq": {
+          "name": "rev_probe_seq",
+          "rank": 63,
+          "slot_group": "General"
+        },
+        "root_class": {
+          "name": "root_class",
+          "rank": 64,
+          "slot_group": "General"
+        },
+        "root_forks": {
+          "name": "root_forks",
+          "rank": 65,
+          "slot_group": "General"
+        },
+        "root_length": {
+          "name": "root_length",
+          "rank": 66,
+          "slot_group": "General"
+        },
+        "root_tips": {
+          "name": "root_tips",
+          "rank": 67,
+          "slot_group": "General"
+        },
+        "sample_name": {
+          "name": "sample_name",
+          "rank": 68,
+          "slot_group": "General"
+        },
+        "sample_source_reactor": {
+          "name": "sample_source_reactor",
+          "rank": 69,
+          "slot_group": "General"
+        },
+        "sample_type": {
+          "name": "sample_type",
+          "rank": 70,
+          "slot_group": "General"
+        },
+        "sampled_quantity": {
+          "name": "sampled_quantity",
+          "rank": 71,
+          "slot_group": "General"
+        },
+        "sampler": {
+          "name": "sampler",
+          "rank": 72,
+          "slot_group": "General"
+        },
+        "sampler_affiliation": {
+          "name": "sampler_affiliation",
+          "rank": 73,
+          "slot_group": "General"
+        },
+        "sampling_date": {
+          "name": "sampling_date",
+          "rank": 74,
+          "slot_group": "General"
+        },
+        "sampling_depth": {
+          "name": "sampling_depth",
+          "rank": 75,
+          "slot_group": "General"
+        },
+        "sampling_device": {
+          "name": "sampling_device",
+          "rank": 76,
+          "slot_group": "General"
+        },
+        "sequencing_instrument": {
+          "name": "sequencing_instrument",
+          "rank": 77,
+          "slot_group": "General"
+        },
+        "sequencing_mode": {
+          "name": "sequencing_mode",
+          "rank": 78,
+          "slot_group": "General"
+        },
+        "soil_water_content": {
+          "name": "soil_water_content",
+          "rank": 79,
+          "slot_group": "General"
+        },
+        "stomatal_conductance": {
+          "name": "stomatal_conductance",
+          "rank": 80,
+          "slot_group": "General"
+        },
+        "substrate_health_promoting_ability": {
+          "name": "substrate_health_promoting_ability",
+          "rank": 81,
+          "slot_group": "General"
+        },
+        "survival_rate": {
+          "name": "survival_rate",
+          "rank": 82,
+          "slot_group": "General"
+        },
+        "taxonomic_assign_tool": {
+          "name": "taxonomic_assign_tool",
+          "rank": 83,
+          "slot_group": "General"
+        },
+        "tea_bag_index": {
+          "name": "tea_bag_index",
+          "rank": 84,
+          "slot_group": "General"
+        },
+        "temperature": {
+          "name": "temperature",
+          "rank": 85,
+          "slot_group": "General"
+        },
+        "temporal_resolution": {
+          "name": "temporal_resolution",
+          "rank": 86,
+          "slot_group": "General"
+        },
+        "tissue_composition": {
+          "name": "tissue_composition",
+          "rank": 87,
+          "slot_group": "General"
+        },
+        "trace_gas_flux": {
+          "name": "trace_gas_flux",
+          "rank": 88,
+          "slot_group": "General"
+        },
+        "transpiration": {
+          "name": "transpiration",
+          "rank": 89,
+          "slot_group": "General"
+        },
+        "treatment_details": {
+          "name": "treatment_details",
+          "rank": 90,
+          "slot_group": "General"
+        },
+        "trimming_tool": {
+          "name": "trimming_tool",
+          "rank": 91,
+          "slot_group": "General"
+        },
+        "unique_seq_creation_tool": {
+          "name": "unique_seq_creation_tool",
+          "rank": 92,
+          "slot_group": "General"
+        },
+        "unique_seq_similarity_threshold": {
+          "name": "unique_seq_similarity_threshold",
+          "rank": 93,
+          "slot_group": "General"
+        }
+      },
+      "attributes": {
+        "above_ground_biomass": {
+          "name": "above_ground_biomass",
+          "description": "Shoot biomass (g). Example: 25.3",
+          "title": "Aerial biomass",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 1,
+          "alias": "above_ground_biomass",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "g"
+          }
+        },
+        "analysis_method": {
+          "name": "analysis_method",
+          "description": "Sequence variant method. Example: \\\"asv\\\"",
+          "title": "Analysis method",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 2,
+          "alias": "analysis_method",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "analysis_method"
+            }
+          ]
+        },
+        "analyst": {
+          "name": "analyst",
+          "description": "Person who performed the analyses. Example: \\\"Jean Martin\\\"",
+          "title": "Analyst",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 3,
+          "alias": "analyst",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "analyst_affiliation": {
+          "name": "analyst_affiliation",
+          "description": "Analyst\\'s institution. Example: \\\"CNRS LEM\\\"",
+          "title": "Analyst affiliation",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 4,
+          "alias": "analyst_affiliation",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "average_seq_quality": {
+          "name": "average_seq_quality",
+          "description": "Mean sequencing quality score (Q-score). Example: 30",
+          "title": "Average quality",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 5,
+          "alias": "average_seq_quality",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal"
+        },
+        "below_ground_biomass": {
+          "name": "below_ground_biomass",
+          "description": "Root biomass (g). Example: 10.2",
+          "title": "Root biomass",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 6,
+          "alias": "below_ground_biomass",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "g"
+          }
+        },
+        "biocontrol_ability": {
+          "name": "biocontrol_ability",
+          "description": "Pathogen control capacity. Example: \\\"Fusarium oxysporum inhibition\\\"",
+          "title": "Biocontrol",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 7,
+          "alias": "biocontrol_ability",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "carotenoids_content": {
+          "name": "carotenoids_content",
+          "description": "Pigment content (mg/g DW). Example: 0.15",
+          "title": "Carotenoids",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 8,
+          "alias": "carotenoids_content",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "mg/g"
+          }
+        },
+        "chlorophyll_content": {
+          "name": "chlorophyll_content",
+          "description": "Pigment content (mg/g DW). Example: 2.5",
+          "title": "Chlorophyll",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 9,
+          "alias": "chlorophyll_content",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "mg/g"
+          }
+        },
+        "colonisation_index": {
+          "name": "colonisation_index",
+          "description": "Mycorrhizal colonization rate in %. Example: 75",
+          "title": "Colonization",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 10,
+          "alias": "colonisation_index",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "%"
+          }
+        },
+        "contamination_index": {
+          "name": "contamination_index",
+          "description": "Contamination level in %. Example: 5",
+          "title": "Contamination",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 11,
+          "alias": "contamination_index",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "%"
+          }
+        },
+        "crop": {
+          "name": "crop",
+          "description": "Plant species. Example: \\\"Zea mays\\\"",
+          "title": "Crop type",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 12,
+          "alias": "crop",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "crop_growth_promoting_ability": {
+          "name": "crop_growth_promoting_ability",
+          "description": "Plant growth enhancement. Example: \\\"Siderophore production\\\"",
+          "title": "Growth promotion",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 13,
+          "alias": "crop_growth_promoting_ability",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "crop_yield": {
+          "name": "crop_yield",
+          "description": "Agricultural production (kg/ha). Example: 5000",
+          "title": "Crop yield",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 14,
+          "alias": "crop_yield",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "kg/ha"
+          }
+        },
+        "data_curator": {
+          "name": "data_curator",
+          "description": "Data quality manager. Example: \\\"Pierre Lambert\\\"",
+          "title": "Data curator",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 15,
+          "alias": "data_curator",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "dataset_doi": {
+          "name": "dataset_doi",
+          "description": "Persistent identifier for the dataset (Digital Object Identifier). Example: \\\"10.5281/zenodo.123456\\\"",
+          "title": "Dataset DOI",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 16,
+          "alias": "dataset_doi",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "device_serial_number": {
+          "name": "device_serial_number",
+          "description": "Equipment unique ID. Example: \\\"SN-2023-456\\\"",
+          "title": "Device serial number",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 17,
+          "alias": "device_serial_number",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "disease_scale": {
+          "name": "disease_scale",
+          "description": "Pathogen impact scale (0-5). Example: 2",
+          "title": "Disease index",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 18,
+          "alias": "disease_scale",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal"
+        },
+        "dna_quantity": {
+          "name": "dna_quantity",
+          "description": "Extracted DNA amount (ng). Example: 50",
+          "title": "DNA quantity",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 19,
+          "alias": "dna_quantity",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "ng"
+          }
+        },
+        "electric_conductivity": {
+          "name": "electric_conductivity",
+          "description": "Substrate conductivity (µS/cm). Example: 1200",
+          "title": "Conductivity",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 20,
+          "alias": "electric_conductivity",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "µS/cm"
+          }
+        },
+        "experimental_design": {
+          "name": "experimental_design",
+          "description": "Experimental scheme. Example: \\\"Randomized blocks\\\"",
+          "title": "Experimental design",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 21,
+          "alias": "experimental_design",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "extraction_protocol": {
+          "name": "extraction_protocol",
+          "description": "DNA extraction method. Example: \\\"DNeasy PowerSoil Kit\\\"",
+          "title": "Extraction protocol",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 22,
+          "alias": "extraction_protocol",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "fermented_diet": {
+          "name": "fermented_diet",
+          "description": "Fermentation conditions. Example: \\\"Lactic fermentation 48h\\\"",
+          "title": "Fermentation",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 23,
+          "alias": "fermented_diet",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "filter_size": {
+          "name": "filter_size",
+          "description": "Filter size for water samples (micrometers). Example: 0.22",
+          "title": "Filter size",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 24,
+          "alias": "filter_size",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "µm"
+          }
+        },
+        "filter_type": {
+          "name": "filter_type",
+          "description": "Filter material. Example: \\\"Polycarbonate\\\"",
+          "title": "Filter type",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 25,
+          "alias": "filter_type",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "flux_measurement_method": {
+          "name": "flux_measurement_method",
+          "description": "Measurement technique. Example: \\\"GC\\\" (Gas Chromatography)",
+          "title": "Flux method",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 26,
+          "alias": "flux_measurement_method",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "flux_measurement_method"
+            }
+          ]
+        },
+        "fruit_quality": {
+          "name": "fruit_quality",
+          "description": "Fruit quality index (1-10 scale). Example: 8",
+          "title": "Fruit quality",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 27,
+          "alias": "fruit_quality",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal"
+        },
+        "fwd_probe_name": {
+          "name": "fwd_probe_name",
+          "description": "Forward primer name. Example: \\\"515F\\\"",
+          "title": "FWD probe name",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 28,
+          "alias": "fwd_probe_name",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "fwd_probe_seq": {
+          "name": "fwd_probe_seq",
+          "description": "Forward primer sequence. Example: \\\"GTGCCAGCMGCCGCGGTAA\\\"",
+          "title": "FWD probe sequence",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 29,
+          "alias": "fwd_probe_seq",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "gas": {
+          "name": "gas",
+          "description": "Measured gas type. Example: \\\"CH₄\\\"",
+          "title": "Gas type",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 30,
+          "alias": "gas",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "gas"
+            }
+          ]
+        },
+        "isolated_strains": {
+          "name": "isolated_strains",
+          "description": "Microbial isolates. Example: \\\"Bacillus subtilis XYZ\\\"",
+          "title": "Isolated strains",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 31,
+          "alias": "isolated_strains",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "larval_biomass_yield": {
+          "name": "larval_biomass_yield",
+          "description": "Insect biomass yield (g). Example: 150",
+          "title": "Larval biomass",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 32,
+          "alias": "larval_biomass_yield",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "g"
+          }
+        },
+        "larval_dry_diet": {
+          "name": "larval_dry_diet",
+          "description": "Insect dry feed. Example: \\\"wheat\\\"",
+          "title": "Dry diet",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 33,
+          "alias": "larval_dry_diet",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "larval_dry_diet"
+            }
+          ]
+        },
+        "larval_protein_content": {
+          "name": "larval_protein_content",
+          "description": "Insect protein content (mg/g). Example: 200",
+          "title": "Larval protein",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 34,
+          "alias": "larval_protein_content",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "mg/g"
+          }
+        },
+        "larval_wet_diet": {
+          "name": "larval_wet_diet",
+          "description": "Insect wet feed. Example: \\\"carrot\\\"",
+          "title": "Wet diet",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 35,
+          "alias": "larval_wet_diet",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "larval_wet_diet"
+            }
+          ]
+        },
+        "latitude": {
+          "name": "latitude",
+          "description": "WGS84 coordinate (decimal degrees). Example: 48.8053",
+          "title": "Decimal latitude",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 36,
+          "alias": "latitude",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "degree"
+          }
+        },
+        "leaf_water_potential": {
+          "name": "leaf_water_potential",
+          "description": "Plant water status (-MPa). Example: 1.2",
+          "title": "Leaf water potential",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 37,
+          "alias": "leaf_water_potential",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "mmol/m²/s"
+          }
+        },
+        "lib_prep_protocol": {
+          "name": "lib_prep_protocol",
+          "description": "Library preparation protocol. Example: \\\"Illumina 16S Metagenomic\\\"",
+          "title": "Library protocol",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 38,
+          "alias": "lib_prep_protocol",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "library": {
+          "name": "library",
+          "description": "Targeted gene region. Example: \\\"16S rRNA V4-V5\\\"",
+          "title": "Amplicon/library",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 39,
+          "alias": "library",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "license": {
+          "name": "license",
+          "description": "Data distribution license. Example: \\\"CC-BY-4.0\\\"",
+          "title": "License",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 40,
+          "alias": "license",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "location_name": {
+          "name": "location_name",
+          "description": "Sampling site description. Example: \\\"Experimental Field A, Versailles\\\"",
+          "title": "Location name",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 41,
+          "alias": "location_name",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "longitude": {
+          "name": "longitude",
+          "description": "WGS84 coordinate (decimal degrees). Example: 2.1211",
+          "title": "Decimal longitude",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 42,
+          "alias": "longitude",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "degree"
+          }
+        },
+        "merging_tool": {
+          "name": "merging_tool",
+          "description": "Read merging tool for paired-end data. Example: \\\"FLASH v1.2.11\\\"",
+          "title": "Merging tool",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 43,
+          "alias": "merging_tool",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "metadata_version": {
+          "name": "metadata_version",
+          "description": "Version of the metadata schema used. Example: \\\"1.2\\\"",
+          "title": "Metadata version",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 44,
+          "alias": "metadata_version",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "method_citation": {
+          "name": "method_citation",
+          "description": "Protocol reference (DOI/standard). Example: \\\"doi:10.1038/nmeth.1234\\\"",
+          "title": "Method citation",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 45,
+          "alias": "method_citation",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "mushroom_biomass_yield": {
+          "name": "mushroom_biomass_yield",
+          "description": "Fungal yield (kg/kg substrate). Example: 0.3",
+          "title": "Mushroom biomass",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 46,
+          "alias": "mushroom_biomass_yield",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "kg/kg"
+          }
+        },
+        "mushroom_species": {
+          "name": "mushroom_species",
+          "description": "Fungal species. Example: \\\"Pleurotus ostreatus\\\"",
+          "title": "Mushroom species",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 47,
+          "alias": "mushroom_species",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "mushroom_species"
+            }
+          ]
+        },
+        "mushroom_substrate_conditioning": {
+          "name": "mushroom_substrate_conditioning",
+          "description": "Substrate preparation method. Example: \\\"Pasteurization 70°C\\\"",
+          "title": "Substrate prep",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 48,
+          "alias": "mushroom_substrate_conditioning",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "mushroom_substrate_upcycling": {
+          "name": "mushroom_substrate_upcycling",
+          "description": "Reused substrate fraction (%). Example: 30",
+          "title": "Substrate reuse",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 49,
+          "alias": "mushroom_substrate_upcycling",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "%"
+          }
+        },
+        "number_of_cycles": {
+          "name": "number_of_cycles",
+          "description": "PCR cycles. Example: 30",
+          "title": "Number of cycles",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 50,
+          "alias": "number_of_cycles",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "count"
+          }
+        },
+        "pH_level": {
+          "name": "pH_level",
+          "description": "Acidity level. Example: 6.8",
+          "title": "pH",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 51,
+          "alias": "pH_level",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal"
+        },
+        "photosynthesis": {
+          "name": "photosynthesis",
+          "description": "CO₂ assimilation rate (µmol/m²/s). Example: 20",
+          "title": "Photosynthesis",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 52,
+          "alias": "photosynthesis",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "µmol/m²/s"
+          }
+        },
+        "plant_height": {
+          "name": "plant_height",
+          "description": "Plant height (cm). Example: 150",
+          "title": "Plant height",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 53,
+          "alias": "plant_height",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "cm"
+          }
+        },
+        "prep_type": {
+          "name": "prep_type",
+          "description": "Molecular preparation type. Example: \\\"amplicon\\\"",
+          "title": "Preparation type",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 54,
+          "alias": "prep_type",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "prep_type"
+            }
+          ]
+        },
+        "production": {
+          "name": "production",
+          "description": "General yield indicator. Example: 85",
+          "title": "Production",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 55,
+          "alias": "production",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal"
+        },
+        "qc_flag": {
+          "name": "qc_flag",
+          "description": "Measurement quality indicator. Example: \\\"pass\\\", \\\"suspect\\\", \\\"fail\\\"",
+          "title": "QC flag",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 56,
+          "alias": "qc_flag",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "qc_flag"
+            }
+          ]
+        },
+        "qc_protocol": {
+          "name": "qc_protocol",
+          "description": "Quality control procedure. Example: \\\"16S sequence verification by PCR\\\"",
+          "title": "QC protocol",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 57,
+          "alias": "qc_protocol",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "reactor_type": {
+          "name": "reactor_type",
+          "description": "Type of bioreactor. Example: \\\"Compost\\\"",
+          "title": "Reactor type",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 58,
+          "alias": "reactor_type",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "reactor_type"
+            }
+          ]
+        },
+        "read_count": {
+          "name": "read_count",
+          "description": "Number of sequences (millions). Example: 10.5",
+          "title": "Read count",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 59,
+          "alias": "read_count",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "count"
+          }
+        },
+        "ref_database": {
+          "name": "ref_database",
+          "description": "Taxonomic reference database name and version. Example: \\\"SILVA 138.1\\\"",
+          "title": "Reference database",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 60,
+          "alias": "ref_database",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "replicates_count": {
+          "name": "replicates_count",
+          "description": "Number of technical replicates. Example: 3",
+          "title": "Replicates count",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 61,
+          "alias": "replicates_count",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "count"
+          }
+        },
+        "rev_probe_name": {
+          "name": "rev_probe_name",
+          "description": "Reverse primer name. Example: \\\"806R\\\"",
+          "title": "REV probe name",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 62,
+          "alias": "rev_probe_name",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "rev_probe_seq": {
+          "name": "rev_probe_seq",
+          "description": "Reverse primer sequence. Example: \\\"GGACTACHVGGGTWTCTAAT\\\"",
+          "title": "REV probe sequence",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 63,
+          "alias": "rev_probe_seq",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "root_class": {
+          "name": "root_class",
+          "description": "Root classification. Example: 3 (1=taproot, 2=fibrous)",
+          "title": "Root class",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 64,
+          "alias": "root_class",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "count"
+          }
+        },
+        "root_forks": {
+          "name": "root_forks",
+          "description": "Root branching points (count). Example: 45",
+          "title": "Root forks",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 65,
+          "alias": "root_forks",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "count"
+          }
+        },
+        "root_length": {
+          "name": "root_length",
+          "description": "Total root length (cm). Example: 120",
+          "title": "Root length",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 66,
+          "alias": "root_length",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "cm"
+          }
+        },
+        "root_tips": {
+          "name": "root_tips",
+          "description": "Root apical points (count). Example: 200",
+          "title": "Root tips",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 67,
+          "alias": "root_tips",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "count"
+          }
+        },
+        "sample_name": {
+          "name": "sample_name",
+          "description": "Unique identifier for each sample. Example: \\\"Soil_2023_SiteA_Rep1\\\"",
+          "title": "Sample name",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 68,
+          "alias": "sample_name",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "sample_source_reactor": {
+          "name": "sample_source_reactor",
+          "description": "Position relative to reactor. Example: \\\"inside\\\"",
+          "title": "Sample source",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 69,
+          "alias": "sample_source_reactor",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "sample_source_reactor"
+            }
+          ]
+        },
+        "sample_type": {
+          "name": "sample_type",
+          "description": "Material nature. Example: \\\"soil\\\", \\\"water\\\"",
+          "title": "Sample type",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 70,
+          "alias": "sample_type",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "sample_type"
+            }
+          ]
+        },
+        "sampled_quantity": {
+          "name": "sampled_quantity",
+          "description": "Weight collected (grams). Example: 50",
+          "title": "Sampled quantity",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 71,
+          "alias": "sampled_quantity",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "g"
+          }
+        },
+        "sampler": {
+          "name": "sampler",
+          "description": "Person who performed the sampling. Format: \\\"Firstname Lastname\\\". Example: \\\"Marie Dupon\\\"",
+          "title": "Sampler",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 72,
+          "alias": "sampler",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "sampler_affiliation": {
+          "name": "sampler_affiliation",
+          "description": "Sampler\\'s institution. Example: \\\"INRAE UMR EcoSys\\\"",
+          "title": "Sampler affiliation",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 73,
+          "alias": "sampler_affiliation",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "sampling_date": {
+          "name": "sampling_date",
+          "description": "Collection date and time (ISO 8601). Example: \\\"2023-06-15T14:30:00+02:00\\\"",
+          "title": "Sampling date",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 74,
+          "alias": "sampling_date",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "DateTime"
+        },
+        "sampling_depth": {
+          "name": "sampling_depth",
+          "description": "Depth below surface (meters). Example: 0.2",
+          "title": "Sampling depth",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 75,
+          "alias": "sampling_depth",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "m"
+          }
+        },
+        "sampling_device": {
+          "name": "sampling_device",
+          "description": "Equipment used. Example: \\\"Sterile corer\\\"",
+          "title": "Sampling device",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 76,
+          "alias": "sampling_device",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "sequencing_instrument": {
+          "name": "sequencing_instrument",
+          "description": "Sequencer model. Example: \\\"Illumina NovaSeq 6000\\\"",
+          "title": "Sequencing instrument",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 77,
+          "alias": "sequencing_instrument",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "sequencing_mode": {
+          "name": "sequencing_mode",
+          "description": "Read configuration. Example: \\\"pe\\\" (paired-end)",
+          "title": "Sequencing mode",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 78,
+          "alias": "sequencing_mode",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "sequencing_mode"
+            }
+          ]
+        },
+        "soil_water_content": {
+          "name": "soil_water_content",
+          "description": "Soil moisture (%). Example: 22.5",
+          "title": "Water content",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 79,
+          "alias": "soil_water_content",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "%"
+          }
+        },
+        "stomatal_conductance": {
+          "name": "stomatal_conductance",
+          "description": "Gas exchange rate (mmol/m²/s). Example: 0.5",
+          "title": "Stomatal conductance",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 80,
+          "alias": "stomatal_conductance",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "mmol/m²/s"
+          }
+        },
+        "substrate_health_promoting_ability": {
+          "name": "substrate_health_promoting_ability",
+          "description": "Substrate improvement. Example: \\\"PAH degradation\\\"",
+          "title": "Substrate health",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 81,
+          "alias": "substrate_health_promoting_ability",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "survival_rate": {
+          "name": "survival_rate",
+          "description": "Plant survival rate (%). Example: 90",
+          "title": "Survival rate",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 82,
+          "alias": "survival_rate",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "%"
+          }
+        },
+        "taxonomic_assign_tool": {
+          "name": "taxonomic_assign_tool",
+          "description": "Taxonomy classification software. Example: \\\"QIIME2 q2-feature-classifier\\\"",
+          "title": "Taxonomy tool",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 83,
+          "alias": "taxonomic_assign_tool",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "tea_bag_index": {
+          "name": "tea_bag_index",
+          "description": "Decomposition rate indicator. Example: 0.05",
+          "title": "Tea Bag Index",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 84,
+          "alias": "tea_bag_index",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "g/g"
+          }
+        },
+        "temperature": {
+          "name": "temperature",
+          "description": "Average temperature during experiment (°C). Example: 25.5",
+          "title": "Temperature",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 85,
+          "alias": "temperature",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "°C"
+          }
+        },
+        "temporal_resolution": {
+          "name": "temporal_resolution",
+          "description": "Measurement frequency. Example: \\\"daily\\\", \\\"weekly\\\"",
+          "title": "Temporal resolution",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 86,
+          "alias": "temporal_resolution",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "day"
+          }
+        },
+        "tissue_composition": {
+          "name": "tissue_composition",
+          "description": "Biochemical composition (%). Example: 20 (dry matter)",
+          "title": "Tissue comp",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 87,
+          "alias": "tissue_composition",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "%"
+          }
+        },
+        "trace_gas_flux": {
+          "name": "trace_gas_flux",
+          "description": "Emission rate (nmol/g/h). Example: 15.2",
+          "title": "Gas flux",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 88,
+          "alias": "trace_gas_flux",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "nmol/g/h"
+          }
+        },
+        "transpiration": {
+          "name": "transpiration",
+          "description": "Water loss rate (mmol/m²/s). Example: 4.5",
+          "title": "Transpiration",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 89,
+          "alias": "transpiration",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "mmol/m²/s"
+          }
+        },
+        "treatment_details": {
+          "name": "treatment_details",
+          "description": "Applied experimental conditions. Example: \\\"Irrigation at 50% field capacity\\\"",
+          "title": "Treatment details",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 90,
+          "alias": "treatment_details",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "trimming_tool": {
+          "name": "trimming_tool",
+          "description": "Read trimming software. Example: \\\"Trimmomatic v0.39\\\"",
+          "title": "Trimming tool",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 91,
+          "alias": "trimming_tool",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "unique_seq_creation_tool": {
+          "name": "unique_seq_creation_tool",
+          "description": "Dereplication tool. Example: \\\"VSEARCH v2.18.0\\\"",
+          "title": "Dereplication tool",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 92,
+          "alias": "unique_seq_creation_tool",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "unique_seq_similarity_threshold": {
+          "name": "unique_seq_similarity_threshold",
+          "description": "Clustering cutoff (%). Example: 97",
+          "title": "Similarity threshold",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "rank": 93,
+          "alias": "unique_seq_similarity_threshold",
+          "owner": "EnvironmentalDna",
+          "domain_of": [
+            "EnvironmentalDna"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "%"
+          }
+        }
+      }
+    },
+    "Container": {
+      "name": "Container",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "attributes": {
+        "EnvironmentalDnaData": {
+          "name": "EnvironmentalDnaData",
+          "from_schema": "https://example.com/EnvironmentalDna",
+          "alias": "EnvironmentalDnaData",
+          "owner": "Container",
+          "domain_of": [
+            "Container"
+          ],
+          "range": "EnvironmentalDna",
+          "multivalued": true,
+          "inlined_as_list": true
+        }
+      },
+      "tree_root": true
+    }
+  },
+  "slots": {
+    "above_ground_biomass": {
+      "name": "above_ground_biomass",
+      "description": "Shoot biomass (g). Example: 25.3",
+      "title": "Aerial biomass",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "g"
+      }
+    },
+    "analysis_method": {
+      "name": "analysis_method",
+      "description": "Sequence variant method. Example: \\\"asv\\\"",
+      "title": "Analysis method",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "analysis_method"
+        }
+      ]
+    },
+    "analyst": {
+      "name": "analyst",
+      "description": "Person who performed the analyses. Example: \\\"Jean Martin\\\"",
+      "title": "Analyst",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "analyst_affiliation": {
+      "name": "analyst_affiliation",
+      "description": "Analyst\\'s institution. Example: \\\"CNRS LEM\\\"",
+      "title": "Analyst affiliation",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "average_seq_quality": {
+      "name": "average_seq_quality",
+      "description": "Mean sequencing quality score (Q-score). Example: 30",
+      "title": "Average quality",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal"
+    },
+    "below_ground_biomass": {
+      "name": "below_ground_biomass",
+      "description": "Root biomass (g). Example: 10.2",
+      "title": "Root biomass",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "g"
+      }
+    },
+    "biocontrol_ability": {
+      "name": "biocontrol_ability",
+      "description": "Pathogen control capacity. Example: \\\"Fusarium oxysporum inhibition\\\"",
+      "title": "Biocontrol",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "carotenoids_content": {
+      "name": "carotenoids_content",
+      "description": "Pigment content (mg/g DW). Example: 0.15",
+      "title": "Carotenoids",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "mg/g"
+      }
+    },
+    "chlorophyll_content": {
+      "name": "chlorophyll_content",
+      "description": "Pigment content (mg/g DW). Example: 2.5",
+      "title": "Chlorophyll",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "mg/g"
+      }
+    },
+    "colonisation_index": {
+      "name": "colonisation_index",
+      "description": "Mycorrhizal colonization rate in %. Example: 75",
+      "title": "Colonization",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "%"
+      }
+    },
+    "contamination_index": {
+      "name": "contamination_index",
+      "description": "Contamination level in %. Example: 5",
+      "title": "Contamination",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "%"
+      }
+    },
+    "crop": {
+      "name": "crop",
+      "description": "Plant species. Example: \\\"Zea mays\\\"",
+      "title": "Crop type",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "crop_growth_promoting_ability": {
+      "name": "crop_growth_promoting_ability",
+      "description": "Plant growth enhancement. Example: \\\"Siderophore production\\\"",
+      "title": "Growth promotion",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "crop_yield": {
+      "name": "crop_yield",
+      "description": "Agricultural production (kg/ha). Example: 5000",
+      "title": "Crop yield",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "kg/ha"
+      }
+    },
+    "data_curator": {
+      "name": "data_curator",
+      "description": "Data quality manager. Example: \\\"Pierre Lambert\\\"",
+      "title": "Data curator",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "dataset_doi": {
+      "name": "dataset_doi",
+      "description": "Persistent identifier for the dataset (Digital Object Identifier). Example: \\\"10.5281/zenodo.123456\\\"",
+      "title": "Dataset DOI",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "device_serial_number": {
+      "name": "device_serial_number",
+      "description": "Equipment unique ID. Example: \\\"SN-2023-456\\\"",
+      "title": "Device serial number",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "disease_scale": {
+      "name": "disease_scale",
+      "description": "Pathogen impact scale (0-5). Example: 2",
+      "title": "Disease index",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal"
+    },
+    "dna_quantity": {
+      "name": "dna_quantity",
+      "description": "Extracted DNA amount (ng). Example: 50",
+      "title": "DNA quantity",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "ng"
+      }
+    },
+    "electric_conductivity": {
+      "name": "electric_conductivity",
+      "description": "Substrate conductivity (µS/cm). Example: 1200",
+      "title": "Conductivity",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "µS/cm"
+      }
+    },
+    "experimental_design": {
+      "name": "experimental_design",
+      "description": "Experimental scheme. Example: \\\"Randomized blocks\\\"",
+      "title": "Experimental design",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "extraction_protocol": {
+      "name": "extraction_protocol",
+      "description": "DNA extraction method. Example: \\\"DNeasy PowerSoil Kit\\\"",
+      "title": "Extraction protocol",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "fermented_diet": {
+      "name": "fermented_diet",
+      "description": "Fermentation conditions. Example: \\\"Lactic fermentation 48h\\\"",
+      "title": "Fermentation",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "filter_size": {
+      "name": "filter_size",
+      "description": "Filter size for water samples (micrometers). Example: 0.22",
+      "title": "Filter size",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "µm"
+      }
+    },
+    "filter_type": {
+      "name": "filter_type",
+      "description": "Filter material. Example: \\\"Polycarbonate\\\"",
+      "title": "Filter type",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "flux_measurement_method": {
+      "name": "flux_measurement_method",
+      "description": "Measurement technique. Example: \\\"GC\\\" (Gas Chromatography)",
+      "title": "Flux method",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "flux_measurement_method"
+        }
+      ]
+    },
+    "fruit_quality": {
+      "name": "fruit_quality",
+      "description": "Fruit quality index (1-10 scale). Example: 8",
+      "title": "Fruit quality",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal"
+    },
+    "fwd_probe_name": {
+      "name": "fwd_probe_name",
+      "description": "Forward primer name. Example: \\\"515F\\\"",
+      "title": "FWD probe name",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "fwd_probe_seq": {
+      "name": "fwd_probe_seq",
+      "description": "Forward primer sequence. Example: \\\"GTGCCAGCMGCCGCGGTAA\\\"",
+      "title": "FWD probe sequence",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "gas": {
+      "name": "gas",
+      "description": "Measured gas type. Example: \\\"CH₄\\\"",
+      "title": "Gas type",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "gas"
+        }
+      ]
+    },
+    "isolated_strains": {
+      "name": "isolated_strains",
+      "description": "Microbial isolates. Example: \\\"Bacillus subtilis XYZ\\\"",
+      "title": "Isolated strains",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "larval_biomass_yield": {
+      "name": "larval_biomass_yield",
+      "description": "Insect biomass yield (g). Example: 150",
+      "title": "Larval biomass",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "g"
+      }
+    },
+    "larval_dry_diet": {
+      "name": "larval_dry_diet",
+      "description": "Insect dry feed. Example: \\\"wheat\\\"",
+      "title": "Dry diet",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "larval_dry_diet"
+        }
+      ]
+    },
+    "larval_protein_content": {
+      "name": "larval_protein_content",
+      "description": "Insect protein content (mg/g). Example: 200",
+      "title": "Larval protein",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "mg/g"
+      }
+    },
+    "larval_wet_diet": {
+      "name": "larval_wet_diet",
+      "description": "Insect wet feed. Example: \\\"carrot\\\"",
+      "title": "Wet diet",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "larval_wet_diet"
+        }
+      ]
+    },
+    "latitude": {
+      "name": "latitude",
+      "description": "WGS84 coordinate (decimal degrees). Example: 48.8053",
+      "title": "Decimal latitude",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "degree"
+      }
+    },
+    "leaf_water_potential": {
+      "name": "leaf_water_potential",
+      "description": "Plant water status (-MPa). Example: 1.2",
+      "title": "Leaf water potential",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "mmol/m²/s"
+      }
+    },
+    "lib_prep_protocol": {
+      "name": "lib_prep_protocol",
+      "description": "Library preparation protocol. Example: \\\"Illumina 16S Metagenomic\\\"",
+      "title": "Library protocol",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "library": {
+      "name": "library",
+      "description": "Targeted gene region. Example: \\\"16S rRNA V4-V5\\\"",
+      "title": "Amplicon/library",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "license": {
+      "name": "license",
+      "description": "Data distribution license. Example: \\\"CC-BY-4.0\\\"",
+      "title": "License",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "location_name": {
+      "name": "location_name",
+      "description": "Sampling site description. Example: \\\"Experimental Field A, Versailles\\\"",
+      "title": "Location name",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "longitude": {
+      "name": "longitude",
+      "description": "WGS84 coordinate (decimal degrees). Example: 2.1211",
+      "title": "Decimal longitude",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "degree"
+      }
+    },
+    "merging_tool": {
+      "name": "merging_tool",
+      "description": "Read merging tool for paired-end data. Example: \\\"FLASH v1.2.11\\\"",
+      "title": "Merging tool",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "metadata_version": {
+      "name": "metadata_version",
+      "description": "Version of the metadata schema used. Example: \\\"1.2\\\"",
+      "title": "Metadata version",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "method_citation": {
+      "name": "method_citation",
+      "description": "Protocol reference (DOI/standard). Example: \\\"doi:10.1038/nmeth.1234\\\"",
+      "title": "Method citation",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "mushroom_biomass_yield": {
+      "name": "mushroom_biomass_yield",
+      "description": "Fungal yield (kg/kg substrate). Example: 0.3",
+      "title": "Mushroom biomass",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "kg/kg"
+      }
+    },
+    "mushroom_species": {
+      "name": "mushroom_species",
+      "description": "Fungal species. Example: \\\"Pleurotus ostreatus\\\"",
+      "title": "Mushroom species",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "mushroom_species"
+        }
+      ]
+    },
+    "mushroom_substrate_conditioning": {
+      "name": "mushroom_substrate_conditioning",
+      "description": "Substrate preparation method. Example: \\\"Pasteurization 70°C\\\"",
+      "title": "Substrate prep",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "mushroom_substrate_upcycling": {
+      "name": "mushroom_substrate_upcycling",
+      "description": "Reused substrate fraction (%). Example: 30",
+      "title": "Substrate reuse",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "%"
+      }
+    },
+    "number_of_cycles": {
+      "name": "number_of_cycles",
+      "description": "PCR cycles. Example: 30",
+      "title": "Number of cycles",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "count"
+      }
+    },
+    "pH_level": {
+      "name": "pH_level",
+      "description": "Acidity level. Example: 6.8",
+      "title": "pH",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal"
+    },
+    "photosynthesis": {
+      "name": "photosynthesis",
+      "description": "CO₂ assimilation rate (µmol/m²/s). Example: 20",
+      "title": "Photosynthesis",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "µmol/m²/s"
+      }
+    },
+    "plant_height": {
+      "name": "plant_height",
+      "description": "Plant height (cm). Example: 150",
+      "title": "Plant height",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "cm"
+      }
+    },
+    "prep_type": {
+      "name": "prep_type",
+      "description": "Molecular preparation type. Example: \\\"amplicon\\\"",
+      "title": "Preparation type",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "prep_type"
+        }
+      ]
+    },
+    "production": {
+      "name": "production",
+      "description": "General yield indicator. Example: 85",
+      "title": "Production",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal"
+    },
+    "qc_flag": {
+      "name": "qc_flag",
+      "description": "Measurement quality indicator. Example: \\\"pass\\\", \\\"suspect\\\", \\\"fail\\\"",
+      "title": "QC flag",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "qc_flag"
+        }
+      ]
+    },
+    "qc_protocol": {
+      "name": "qc_protocol",
+      "description": "Quality control procedure. Example: \\\"16S sequence verification by PCR\\\"",
+      "title": "QC protocol",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "reactor_type": {
+      "name": "reactor_type",
+      "description": "Type of bioreactor. Example: \\\"Compost\\\"",
+      "title": "Reactor type",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "reactor_type"
+        }
+      ]
+    },
+    "read_count": {
+      "name": "read_count",
+      "description": "Number of sequences (millions). Example: 10.5",
+      "title": "Read count",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "count"
+      }
+    },
+    "ref_database": {
+      "name": "ref_database",
+      "description": "Taxonomic reference database name and version. Example: \\\"SILVA 138.1\\\"",
+      "title": "Reference database",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "replicates_count": {
+      "name": "replicates_count",
+      "description": "Number of technical replicates. Example: 3",
+      "title": "Replicates count",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "count"
+      }
+    },
+    "rev_probe_name": {
+      "name": "rev_probe_name",
+      "description": "Reverse primer name. Example: \\\"806R\\\"",
+      "title": "REV probe name",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "rev_probe_seq": {
+      "name": "rev_probe_seq",
+      "description": "Reverse primer sequence. Example: \\\"GGACTACHVGGGTWTCTAAT\\\"",
+      "title": "REV probe sequence",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "root_class": {
+      "name": "root_class",
+      "description": "Root classification. Example: 3 (1=taproot, 2=fibrous)",
+      "title": "Root class",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "count"
+      }
+    },
+    "root_forks": {
+      "name": "root_forks",
+      "description": "Root branching points (count). Example: 45",
+      "title": "Root forks",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "count"
+      }
+    },
+    "root_length": {
+      "name": "root_length",
+      "description": "Total root length (cm). Example: 120",
+      "title": "Root length",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "cm"
+      }
+    },
+    "root_tips": {
+      "name": "root_tips",
+      "description": "Root apical points (count). Example: 200",
+      "title": "Root tips",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "count"
+      }
+    },
+    "sample_name": {
+      "name": "sample_name",
+      "description": "Unique identifier for each sample. Example: \\\"Soil_2023_SiteA_Rep1\\\"",
+      "title": "Sample name",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "sample_source_reactor": {
+      "name": "sample_source_reactor",
+      "description": "Position relative to reactor. Example: \\\"inside\\\"",
+      "title": "Sample source",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "sample_source_reactor"
+        }
+      ]
+    },
+    "sample_type": {
+      "name": "sample_type",
+      "description": "Material nature. Example: \\\"soil\\\", \\\"water\\\"",
+      "title": "Sample type",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "sample_type"
+        }
+      ]
+    },
+    "sampled_quantity": {
+      "name": "sampled_quantity",
+      "description": "Weight collected (grams). Example: 50",
+      "title": "Sampled quantity",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "g"
+      }
+    },
+    "sampler": {
+      "name": "sampler",
+      "description": "Person who performed the sampling. Format: \\\"Firstname Lastname\\\". Example: \\\"Marie Dupon\\\"",
+      "title": "Sampler",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "sampler_affiliation": {
+      "name": "sampler_affiliation",
+      "description": "Sampler\\'s institution. Example: \\\"INRAE UMR EcoSys\\\"",
+      "title": "Sampler affiliation",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "sampling_date": {
+      "name": "sampling_date",
+      "description": "Collection date and time (ISO 8601). Example: \\\"2023-06-15T14:30:00+02:00\\\"",
+      "title": "Sampling date",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "DateTime"
+    },
+    "sampling_depth": {
+      "name": "sampling_depth",
+      "description": "Depth below surface (meters). Example: 0.2",
+      "title": "Sampling depth",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "m"
+      }
+    },
+    "sampling_device": {
+      "name": "sampling_device",
+      "description": "Equipment used. Example: \\\"Sterile corer\\\"",
+      "title": "Sampling device",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "sequencing_instrument": {
+      "name": "sequencing_instrument",
+      "description": "Sequencer model. Example: \\\"Illumina NovaSeq 6000\\\"",
+      "title": "Sequencing instrument",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "sequencing_mode": {
+      "name": "sequencing_mode",
+      "description": "Read configuration. Example: \\\"pe\\\" (paired-end)",
+      "title": "Sequencing mode",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "sequencing_mode"
+        }
+      ]
+    },
+    "soil_water_content": {
+      "name": "soil_water_content",
+      "description": "Soil moisture (%). Example: 22.5",
+      "title": "Water content",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "%"
+      }
+    },
+    "stomatal_conductance": {
+      "name": "stomatal_conductance",
+      "description": "Gas exchange rate (mmol/m²/s). Example: 0.5",
+      "title": "Stomatal conductance",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "mmol/m²/s"
+      }
+    },
+    "substrate_health_promoting_ability": {
+      "name": "substrate_health_promoting_ability",
+      "description": "Substrate improvement. Example: \\\"PAH degradation\\\"",
+      "title": "Substrate health",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "survival_rate": {
+      "name": "survival_rate",
+      "description": "Plant survival rate (%). Example: 90",
+      "title": "Survival rate",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "%"
+      }
+    },
+    "taxonomic_assign_tool": {
+      "name": "taxonomic_assign_tool",
+      "description": "Taxonomy classification software. Example: \\\"QIIME2 q2-feature-classifier\\\"",
+      "title": "Taxonomy tool",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "tea_bag_index": {
+      "name": "tea_bag_index",
+      "description": "Decomposition rate indicator. Example: 0.05",
+      "title": "Tea Bag Index",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "g/g"
+      }
+    },
+    "temperature": {
+      "name": "temperature",
+      "description": "Average temperature during experiment (°C). Example: 25.5",
+      "title": "Temperature",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "°C"
+      }
+    },
+    "temporal_resolution": {
+      "name": "temporal_resolution",
+      "description": "Measurement frequency. Example: \\\"daily\\\", \\\"weekly\\\"",
+      "title": "Temporal resolution",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "day"
+      }
+    },
+    "tissue_composition": {
+      "name": "tissue_composition",
+      "description": "Biochemical composition (%). Example: 20 (dry matter)",
+      "title": "Tissue comp",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "%"
+      }
+    },
+    "trace_gas_flux": {
+      "name": "trace_gas_flux",
+      "description": "Emission rate (nmol/g/h). Example: 15.2",
+      "title": "Gas flux",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "nmol/g/h"
+      }
+    },
+    "transpiration": {
+      "name": "transpiration",
+      "description": "Water loss rate (mmol/m²/s). Example: 4.5",
+      "title": "Transpiration",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "mmol/m²/s"
+      }
+    },
+    "treatment_details": {
+      "name": "treatment_details",
+      "description": "Applied experimental conditions. Example: \\\"Irrigation at 50% field capacity\\\"",
+      "title": "Treatment details",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "trimming_tool": {
+      "name": "trimming_tool",
+      "description": "Read trimming software. Example: \\\"Trimmomatic v0.39\\\"",
+      "title": "Trimming tool",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "unique_seq_creation_tool": {
+      "name": "unique_seq_creation_tool",
+      "description": "Dereplication tool. Example: \\\"VSEARCH v2.18.0\\\"",
+      "title": "Dereplication tool",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "unique_seq_similarity_threshold": {
+      "name": "unique_seq_similarity_threshold",
+      "description": "Clustering cutoff (%). Example: 97",
+      "title": "Similarity threshold",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "domain_of": [
+        "EnvironmentalDna"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "%"
+      }
+    }
+  },
+  "enums": {
+    "SettingsMenu": {
+      "name": "SettingsMenu",
+      "title": "Regular Expressions",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "permissible_values": {
+        "AllCaps": {
+          "text": "AllCaps",
+          "description": "Entries of any length with only capital letters",
+          "title": "AllCaps"
+        },
+        "AlphaText1-50": {
+          "text": "AlphaText1-50",
+          "description": "Capital or lower case letters only, at least 1 character, and 50 characters max",
+          "title": "AlphaText1-50"
+        },
+        "AlphaText0-50": {
+          "text": "AlphaText0-50",
+          "description": "Capital or lower case letters only, 50 characters max",
+          "title": "AlphaText0-50"
+        },
+        "FreeText0-50": {
+          "text": "FreeText0-50",
+          "description": "Short text, 50 characters max",
+          "title": "FreeText0-50"
+        },
+        "FreeText0-250": {
+          "text": "FreeText0-250",
+          "description": "Short text, 250 characters max",
+          "title": "FreeText0-250"
+        },
+        "FreeText0-800": {
+          "text": "FreeText0-800",
+          "description": "Long text, 800 characters max",
+          "title": "FreeText0-800"
+        },
+        "FreeText0-4000": {
+          "text": "FreeText0-4000",
+          "description": "Long text, 4000 characters max",
+          "title": "FreeText0-4000"
+        },
+        "CanadianPostalCode": {
+          "text": "CanadianPostalCode",
+          "description": "Canadian postal codes (A1A 1A1)",
+          "title": "CanadianPostalCode"
+        },
+        "ZipCode": {
+          "text": "ZipCode",
+          "description": "USA Zip code",
+          "title": "ZipCode"
+        },
+        "EmailAddress": {
+          "text": "EmailAddress",
+          "description": "Email address",
+          "title": "EmailAddress"
+        },
+        "URL": {
+          "text": "URL",
+          "description": "Secure (https) URL",
+          "title": "URL"
+        },
+        "PhoneNumber": {
+          "text": "PhoneNumber",
+          "description": "Phone number with international and area code component.",
+          "title": "PhoneNumber"
+        },
+        "Latitude": {
+          "text": "Latitude",
+          "description": "Latitude in formats S30°15'45.678\" or N12°30.999\"",
+          "title": "Latitude"
+        },
+        "Longitude": {
+          "text": "Longitude",
+          "description": "Longitude in formats E30°15'45.678\" or W90°00.000\"",
+          "title": "Longitude"
+        },
+        "ISO_YYYY-MM-DD": {
+          "text": "ISO_YYYY-MM-DD",
+          "description": "year month day",
+          "title": "ISO_YYYY-MM-DD"
+        },
+        "ISO_YYYYMMDD": {
+          "text": "ISO_YYYYMMDD",
+          "title": "ISO_YYYYMMDD"
+        },
+        "ISO_YYYY-MM": {
+          "text": "ISO_YYYY-MM",
+          "description": "year month",
+          "title": "ISO_YYYY-MM"
+        },
+        "ISO_YYYY-Www": {
+          "text": "ISO_YYYY-Www",
+          "description": "year week (e.g. W01)",
+          "title": "ISO_YYYY-Www"
+        },
+        "ISO_YYYYWww": {
+          "text": "ISO_YYYYWww",
+          "description": "year week (e.g. W01)",
+          "title": "ISO_YYYYWww"
+        },
+        "ISO_YYYY-DDD": {
+          "text": "ISO_YYYY-DDD",
+          "description": "Ordinal date (day number from the year)",
+          "title": "ISO_YYYY-DDD"
+        },
+        "ISO_YYYYDDD": {
+          "text": "ISO_YYYYDDD",
+          "description": "Ordinal date (day number from the year)",
+          "title": "ISO_YYYYDDD"
+        },
+        "ISO_YYYY": {
+          "text": "ISO_YYYY",
+          "description": "year",
+          "title": "ISO_YYYY"
+        },
+        "ISO_MM": {
+          "text": "ISO_MM",
+          "description": "month",
+          "title": "ISO_MM"
+        },
+        "ISO_DD": {
+          "text": "ISO_DD",
+          "description": "day",
+          "title": "ISO_DD"
+        },
+        "ISO_YYYY-MM-DDTHH.MM.SSZ": {
+          "text": "ISO_YYYY-MM-DDTHH.MM.SSZ",
+          "description": "Date and Time Combined (UTC)",
+          "title": "ISO_YYYY-MM-DDTHH:MM:SSZ"
+        },
+        "ISO_YYYY-MM-DDTHH.MM.SS-hh.mm": {
+          "text": "ISO_YYYY-MM-DDTHH.MM.SS-hh.mm",
+          "description": "Date and Time Combined (with Timezone Offset)",
+          "title": "ISO_YYYY-MM-DDTHH:MM:SS±hh:mm"
+        },
+        "ISO_PnYnMnDTnHnMnS": {
+          "text": "ISO_PnYnMnDTnHnMnS",
+          "description": "durations e.g. P3Y6M4DT12H30M5S",
+          "title": "ISO_PnYnMnDTnHnMnS"
+        },
+        "ISO_HH.MM": {
+          "text": "ISO_HH.MM",
+          "description": "hour, minutes in 24 hour notation",
+          "title": "ISO_HH:MM"
+        },
+        "ISO_HH.MM.SS": {
+          "text": "ISO_HH.MM.SS",
+          "description": "hour, minutes, seconds in 24 hour notation",
+          "title": "ISO_HH:MM:SS"
+        },
+        "SLASH_DD_MM_YYYY": {
+          "text": "SLASH_DD_MM_YYYY",
+          "description": "day, month, year",
+          "title": "DD/MM/YYYY"
+        },
+        "SLASH_DD_MM_YY": {
+          "text": "SLASH_DD_MM_YY",
+          "description": "day, month, year",
+          "title": "DD/MM/YY"
+        },
+        "SLASH_MM_DD_YYYY": {
+          "text": "SLASH_MM_DD_YYYY",
+          "description": "month, day, year",
+          "title": "MM/DD/YYYY"
+        },
+        "DDMMYYYY": {
+          "text": "DDMMYYYY",
+          "description": "day, month, year",
+          "title": "DDMMYYYY"
+        },
+        "MMDDYYYY": {
+          "text": "MMDDYYYY",
+          "description": "month, day, year",
+          "title": "MMDDYYYY"
+        },
+        "YYYYMMDD": {
+          "text": "YYYYMMDD",
+          "description": "year, month, day",
+          "title": "YYYYMMDD"
+        },
+        "HH.MM.SS": {
+          "text": "HH.MM.SS",
+          "description": "hour, minutes, seconds 12 hour notation AM/PM",
+          "title": "HH:MM:SS"
+        },
+        "H.MM_or_HH.MM": {
+          "text": "H.MM_or_HH.MM",
+          "description": "hour, minutes AM/PM",
+          "title": "H:MM or HH:MM"
+        }
+      }
+    },
+    "analysis_method": {
+      "name": "analysis_method",
+      "title": "analysis_method",
+      "permissible_values": {
+        "asv": {
+          "text": "asv",
+          "title": "Amplicon Sequence Variant"
+        },
+        "otu": {
+          "text": "otu",
+          "title": "Operational Taxonomic Unit"
+        }
+      }
+    },
+    "flux_measurement_method": {
+      "name": "flux_measurement_method",
+      "title": "flux_measurement_method",
+      "permissible_values": {
+        "FC": {
+          "text": "FC",
+          "title": "Flux Chamber"
+        },
+        "GC": {
+          "text": "GC",
+          "title": "Gas Chromatography"
+        }
+      }
+    },
+    "gas": {
+      "name": "gas",
+      "title": "gas",
+      "permissible_values": {
+        "CH4": {
+          "text": "CH4",
+          "title": "CH4"
+        },
+        "CO2": {
+          "text": "CO2",
+          "title": "CO2"
+        },
+        "N2O": {
+          "text": "N2O",
+          "title": "N2O"
+        }
+      }
+    },
+    "larval_dry_diet": {
+      "name": "larval_dry_diet",
+      "title": "larval_dry_diet",
+      "permissible_values": {
+        "prorec": {
+          "text": "prorec",
+          "title": "prorec"
+        },
+        "wheat": {
+          "text": "wheat",
+          "title": "wheat"
+        }
+      }
+    },
+    "larval_wet_diet": {
+      "name": "larval_wet_diet",
+      "title": "larval_wet_diet",
+      "permissible_values": {
+        "carrot": {
+          "text": "carrot",
+          "title": "carrot"
+        },
+        "fermented mix": {
+          "text": "fermented mix",
+          "title": "fermented mix"
+        },
+        "puree": {
+          "text": "puree",
+          "title": "puree"
+        }
+      }
+    },
+    "mushroom_species": {
+      "name": "mushroom_species",
+      "title": "mushroom_species",
+      "permissible_values": {
+        "Ganoderma": {
+          "text": "Ganoderma",
+          "title": "Ganoderma"
+        },
+        "Pleurotus": {
+          "text": "Pleurotus",
+          "title": "Pleurotus"
+        }
+      }
+    },
+    "prep_type": {
+      "name": "prep_type",
+      "title": "prep_type",
+      "permissible_values": {
+        "amplicon": {
+          "text": "amplicon",
+          "title": "amplicon"
+        },
+        "gdna": {
+          "text": "gdna",
+          "title": "gdna"
+        },
+        "rna": {
+          "text": "rna",
+          "title": "rna"
+        }
+      }
+    },
+    "qc_flag": {
+      "name": "qc_flag",
+      "title": "qc_flag",
+      "permissible_values": {
+        "fail": {
+          "text": "fail",
+          "title": "fail"
+        },
+        "pass": {
+          "text": "pass",
+          "title": "pass"
+        },
+        "suspect": {
+          "text": "suspect",
+          "title": "suspect"
+        }
+      }
+    },
+    "reactor_type": {
+      "name": "reactor_type",
+      "title": "reactor_type",
+      "permissible_values": {
+        "Compost": {
+          "text": "Compost",
+          "title": "Compost"
+        },
+        "Mealworm": {
+          "text": "Mealworm",
+          "title": "Mealworm"
+        },
+        "Mushroom": {
+          "text": "Mushroom",
+          "title": "Mushroom"
+        }
+      }
+    },
+    "sample_source_reactor": {
+      "name": "sample_source_reactor",
+      "title": "sample_source_reactor",
+      "permissible_values": {
+        "Upstream": {
+          "text": "Upstream",
+          "title": "Upstream"
+        },
+        "downstream": {
+          "text": "downstream",
+          "title": "downstream"
+        },
+        "inside": {
+          "text": "inside",
+          "title": "inside"
+        }
+      }
+    },
+    "sample_type": {
+      "name": "sample_type",
+      "title": "sample_type",
+      "permissible_values": {
+        "plant": {
+          "text": "plant",
+          "title": "plant"
+        },
+        "reactor": {
+          "text": "reactor",
+          "title": "reactor"
+        },
+        "soil": {
+          "text": "soil",
+          "title": "soil"
+        },
+        "water": {
+          "text": "water",
+          "title": "water"
+        }
+      }
+    },
+    "sequencing_mode": {
+      "name": "sequencing_mode",
+      "title": "sequencing_mode",
+      "permissible_values": {
+        "pe": {
+          "text": "pe",
+          "title": "Paired-end"
+        },
+        "se": {
+          "text": "se",
+          "title": "Single-end"
+        }
+      }
+    }
+  },
+  "types": {
+    "WhitespaceMinimizedString": {
+      "name": "WhitespaceMinimizedString",
+      "description": "A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).",
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "typeof": "string",
+      "base": "str",
+      "uri": "xsd:token"
+    },
+    "string": {
+      "name": "string",
+      "description": "A character string",
+      "notes": [
+        "In RDF serializations, a slot with range of string is treated as a literal or type xsd:string.   If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"string\"."
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "exact_mappings": [
+        "schema:Text"
+      ],
+      "base": "str",
+      "uri": "xsd:string"
+    },
+    "integer": {
+      "name": "integer",
+      "description": "An integer",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"integer\"."
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "exact_mappings": [
+        "schema:Integer"
+      ],
+      "base": "int",
+      "uri": "xsd:integer"
+    },
+    "boolean": {
+      "name": "boolean",
+      "description": "A binary (true or false) value",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"boolean\"."
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "exact_mappings": [
+        "schema:Boolean"
+      ],
+      "base": "Bool",
+      "uri": "xsd:boolean",
+      "repr": "bool"
+    },
+    "float": {
+      "name": "float",
+      "description": "A real number that conforms to the xsd:float specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"float\"."
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "exact_mappings": [
+        "schema:Float"
+      ],
+      "base": "float",
+      "uri": "xsd:float"
+    },
+    "double": {
+      "name": "double",
+      "description": "A real number that conforms to the xsd:double specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"double\"."
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "close_mappings": [
+        "schema:Float"
+      ],
+      "base": "float",
+      "uri": "xsd:double"
+    },
+    "decimal": {
+      "name": "decimal",
+      "description": "A real number with arbitrary precision that conforms to the xsd:decimal specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"decimal\"."
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "broad_mappings": [
+        "schema:Number"
+      ],
+      "base": "Decimal",
+      "uri": "xsd:decimal"
+    },
+    "time": {
+      "name": "time",
+      "description": "A time object represents a (local) time of day, independent of any particular day",
+      "notes": [
+        "URI is dateTime because OWL reasoners do not work with straight date or time",
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"time\"."
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "exact_mappings": [
+        "schema:Time"
+      ],
+      "base": "XSDTime",
+      "uri": "xsd:time",
+      "repr": "str"
+    },
+    "date": {
+      "name": "date",
+      "description": "a date (year, month and day) in an idealized calendar",
+      "notes": [
+        "URI is dateTime because OWL reasoners don't work with straight date or time",
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date\"."
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "exact_mappings": [
+        "schema:Date"
+      ],
+      "base": "XSDDate",
+      "uri": "xsd:date",
+      "repr": "str"
+    },
+    "datetime": {
+      "name": "datetime",
+      "description": "The combination of a date and time",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"datetime\"."
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "exact_mappings": [
+        "schema:DateTime"
+      ],
+      "base": "XSDDateTime",
+      "uri": "xsd:dateTime",
+      "repr": "str"
+    },
+    "date_or_datetime": {
+      "name": "date_or_datetime",
+      "description": "Either a date or a datetime",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date_or_datetime\"."
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "base": "str",
+      "uri": "linkml:DateOrDatetime",
+      "repr": "str"
+    },
+    "uriorcurie": {
+      "name": "uriorcurie",
+      "description": "a URI or a CURIE",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uriorcurie\"."
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "base": "URIorCURIE",
+      "uri": "xsd:anyURI",
+      "repr": "str"
+    },
+    "curie": {
+      "name": "curie",
+      "conforms_to": "https://www.w3.org/TR/curie/",
+      "description": "a compact URI",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"curie\"."
+      ],
+      "comments": [
+        "in RDF serializations this MUST be expanded to a URI",
+        "in non-RDF serializations MAY be serialized as the compact representation"
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "base": "Curie",
+      "uri": "xsd:string",
+      "repr": "str"
+    },
+    "uri": {
+      "name": "uri",
+      "conforms_to": "https://www.ietf.org/rfc/rfc3987.txt",
+      "description": "a complete URI",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uri\"."
+      ],
+      "comments": [
+        "in RDF serializations a slot with range of uri is treated as a literal or type xsd:anyURI unless it is an identifier or a reference to an identifier, in which case it is translated directly to a node"
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "close_mappings": [
+        "schema:URL"
+      ],
+      "base": "URI",
+      "uri": "xsd:anyURI",
+      "repr": "str"
+    },
+    "ncname": {
+      "name": "ncname",
+      "description": "Prefix part of CURIE",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"ncname\"."
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "base": "NCName",
+      "uri": "xsd:string",
+      "repr": "str"
+    },
+    "objectidentifier": {
+      "name": "objectidentifier",
+      "description": "A URI or CURIE that represents an object in the model.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"objectidentifier\"."
+      ],
+      "comments": [
+        "Used for inheritance and type checking"
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "base": "ElementIdentifier",
+      "uri": "shex:iri",
+      "repr": "str"
+    },
+    "nodeidentifier": {
+      "name": "nodeidentifier",
+      "description": "A URI, CURIE or BNODE that represents a node in a model.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"nodeidentifier\"."
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "base": "NodeIdentifier",
+      "uri": "shex:nonLiteral",
+      "repr": "str"
+    },
+    "jsonpointer": {
+      "name": "jsonpointer",
+      "conforms_to": "https://datatracker.ietf.org/doc/html/rfc6901",
+      "description": "A string encoding a JSON Pointer. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to a valid object within the current instance document when encoded in tree form.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpointer\"."
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "base": "str",
+      "uri": "xsd:string",
+      "repr": "str"
+    },
+    "jsonpath": {
+      "name": "jsonpath",
+      "conforms_to": "https://www.ietf.org/archive/id/draft-goessner-dispatch-jsonpath-00.html",
+      "description": "A string encoding a JSON Path. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to zero or more valid objects within the current instance document when encoded in tree form.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpath\"."
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "base": "str",
+      "uri": "xsd:string",
+      "repr": "str"
+    },
+    "sparqlpath": {
+      "name": "sparqlpath",
+      "conforms_to": "https://www.w3.org/TR/sparql11-query/#propertypaths",
+      "description": "A string encoding a SPARQL Property Path. The value of the string MUST conform to SPARQL syntax and SHOULD dereference to zero or more valid objects within the current instance document when encoded as RDF.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"sparqlpath\"."
+      ],
+      "from_schema": "https://example.com/EnvironmentalDna",
+      "base": "str",
+      "uri": "xsd:string",
+      "repr": "str"
+    }
+  },
+  "settings": {
+    "Title_Case": {
+      "setting_key": "Title_Case",
+      "setting_value": "((?<=\\b)[^a-z\\W]\\w*?|[\\W])+"
+    },
+    "UPPER_CASE": {
+      "setting_key": "UPPER_CASE",
+      "setting_value": "[A-Z\\W\\d_]*"
+    },
+    "lower_case": {
+      "setting_key": "lower_case",
+      "setting_value": "[a-z\\W\\d_]*"
+    },
+    "AllCaps": {
+      "setting_key": "AllCaps",
+      "setting_value": "^[A-Z]*$"
+    },
+    "AlphaText1-50": {
+      "setting_key": "AlphaText1-50",
+      "setting_value": "^[A-Za-z]{1,50}$"
+    },
+    "AlphaText0-50": {
+      "setting_key": "AlphaText0-50",
+      "setting_value": "^[A-Za-z]{0,50}$"
+    },
+    "FreeText0-50": {
+      "setting_key": "FreeText0-50",
+      "setting_value": "^.{0,50}$"
+    },
+    "FreeText0-250": {
+      "setting_key": "FreeText0-250",
+      "setting_value": "^.{0,250}$"
+    },
+    "FreeText0-800": {
+      "setting_key": "FreeText0-800",
+      "setting_value": "^.{0,800}$"
+    },
+    "FreeText0-4000": {
+      "setting_key": "FreeText0-4000",
+      "setting_value": "^.{0,4000}$"
+    },
+    "CanadianPostalCode": {
+      "setting_key": "CanadianPostalCode",
+      "setting_value": "^[A-Z][0-9][A-Z]\\s[0-9][A-Z][0-9]$"
+    },
+    "ZipCode": {
+      "setting_key": "ZipCode",
+      "setting_value": "^\\d{5,6}(?:[-\\s]\\d{4})?$"
+    },
+    "EmailAddress": {
+      "setting_key": "EmailAddress",
+      "setting_value": "^[a-zA-Z0-9_\\.\\+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-\\.]+"
+    },
+    "URL": {
+      "setting_key": "URL",
+      "setting_value": "^https?\\:\\/\\/[a-zA-Z0-9\\-\\.]+\\.[a-zA-Z]{2,}$"
+    },
+    "PhoneNumber": {
+      "setting_key": "PhoneNumber",
+      "setting_value": "^\\+?\\(?\\d{2,4}\\)?[\\d\\s-]{3,}$"
+    },
+    "Latitude": {
+      "setting_key": "Latitude",
+      "setting_value": "^[NS]-?(?:[0-8]?\\d|90)°(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\")?$"
+    },
+    "Longitude": {
+      "setting_key": "Longitude",
+      "setting_value": "^[WE]-?(?:[0-8]?\\d|90)°(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\")?$"
+    },
+    "ISO_YYYY-MM-DD": {
+      "setting_key": "ISO_YYYY-MM-DD",
+      "setting_value": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
+    },
+    "ISO_YYYYMMDD": {
+      "setting_key": "ISO_YYYYMMDD",
+      "setting_value": "^(\\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\\d|3[0-1])$"
+    },
+    "ISO_YYYY-MM": {
+      "setting_key": "ISO_YYYY-MM",
+      "setting_value": "^(\\d{4})-(0[1-9]|1[0-2])$"
+    },
+    "ISO_YYYY-Www": {
+      "setting_key": "ISO_YYYY-Www",
+      "setting_value": "^(?:\\d{4})-W(0[1-9]|[1-4][0-9]|5[0-3])$"
+    },
+    "ISO_YYYYWww": {
+      "setting_key": "ISO_YYYYWww",
+      "setting_value": "^(?:\\d{4})W(0[1-9]|[1-4][0-9]|5[0-3])$"
+    },
+    "ISO_YYYY-DDD": {
+      "setting_key": "ISO_YYYY-DDD",
+      "setting_value": "^(?:\\d{4})-(00[1-9]|0[1-9][0-9]|[1-2][0-9]{2}|3[0-5][0-9]|36[0-6])$"
+    },
+    "ISO_YYYYDDD": {
+      "setting_key": "ISO_YYYYDDD",
+      "setting_value": "^(?:\\d{4})(00[1-9]|0[1-9][0-9]|[1-2][0-9]{2}|3[0-5][0-9]|36[0-6])$"
+    },
+    "ISO_YYYY": {
+      "setting_key": "ISO_YYYY",
+      "setting_value": "^(\\d{4})$"
+    },
+    "ISO_MM": {
+      "setting_key": "ISO_MM",
+      "setting_value": "^(0[1-9]|1[0-2])$"
+    },
+    "ISO_DD": {
+      "setting_key": "ISO_DD",
+      "setting_value": "^(0[1-9]|[1-2][0-9]|3[01])$"
+    },
+    "ISO_YYYY-MM-DDTHH.MM.SSZ": {
+      "setting_key": "ISO_YYYY-MM-DDTHH.MM.SSZ",
+      "setting_value": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])T([01]\\d|2[0-3]):([0-5]\\d):([0-5]\\d)Z$"
+    },
+    "ISO_YYYY-MM-DDTHH.MM.SS-hh.mm": {
+      "setting_key": "ISO_YYYY-MM-DDTHH.MM.SS-hh.mm",
+      "setting_value": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])T([01]\\d|2[0-3]):([0-5]\\d):([0-5]\\\\d)([+-][01]\\\\d:[0-5]\\d)$"
+    },
+    "ISO_PnYnMnDTnHnMnS": {
+      "setting_key": "ISO_PnYnMnDTnHnMnS",
+      "setting_value": "^P(?!$)((\\d+Y)|(\\d+.\\d+Y)$)?((\\d+M)|(\\d+.\\d+M)$)?((\\d+W)|(\\d+.\\d+W)$)?((\\d+D)|(\\d+.\\d+D)$)?(T(?=\\d)((\\d+H)|(\\d+.\\d+H)$)?((\\d+M)|(\\d+.\\d+M)$)?(\\d+(.\\d+S)?)?)?$"
+    },
+    "ISO_HH.MM": {
+      "setting_key": "ISO_HH.MM",
+      "setting_value": "^([01]\\d|2[0-3]):([0-5]\\d)$"
+    },
+    "ISO_HH.MM.SS": {
+      "setting_key": "ISO_HH.MM.SS",
+      "setting_value": "^([01]\\d|2[0-3]):([0-5]\\d):([0-5]\\d)$"
+    },
+    "SLASH_DD_MM_YYYY": {
+      "setting_key": "SLASH_DD_MM_YYYY",
+      "setting_value": "^(0[1-9]|[12]\\d|3[01])/(0[1-9]|1[0-2])/\\d{4}$"
+    },
+    "SLASH_DD_MM_YY": {
+      "setting_key": "SLASH_DD_MM_YY",
+      "setting_value": "^(0[1-9]|[12]\\d|3[01])/(0[1-9]|1[0-2])/\\d{2}$"
+    },
+    "SLASH_MM_DD_YYYY": {
+      "setting_key": "SLASH_MM_DD_YYYY",
+      "setting_value": "^(0[1-9]|1[0-2])/(0[1-9]|[12]\\d|3[01])/\\d{4}$"
+    },
+    "DDMMYYYY": {
+      "setting_key": "DDMMYYYY",
+      "setting_value": "^(0[1-9]|[12]\\d|3[01])(0[1-9]|1[0-2])\\d{4}$"
+    },
+    "MMDDYYYY": {
+      "setting_key": "MMDDYYYY",
+      "setting_value": "^(0[1-9]|1[0-2])(0[1-9]|[12]\\d|3[01])\\d{4}$"
+    },
+    "YYYYMMDD": {
+      "setting_key": "YYYYMMDD",
+      "setting_value": "^(\\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\\d|3[0-1])$"
+    },
+    "HH.MM.SS": {
+      "setting_key": "HH.MM.SS",
+      "setting_value": "^(0?[1-9]|1[0-2]):[0-5][0-9]:[0-5][0-9] ?[APMapm]{2}$"
+    },
+    "H.MM_or_HH.MM": {
+      "setting_key": "H.MM_or_HH.MM",
+      "setting_value": "^(0?[1-9]|1[0-2]):[0-5][0-9] ?[APMapm]{2}$"
+    }
+  },
+  "extensions": {},
+  "@type": "OrderedDict"
+}

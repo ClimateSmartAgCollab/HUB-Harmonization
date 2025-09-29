@@ -1,0 +1,45 @@
+title	name	text	meaning	menu_1	menu_2	menu_3	menu_4	menu_5	description
+analysis_method	analysis_method								
+		asv		Amplicon Sequence Variant					
+		otu		Operational Taxonomic Unit					
+flux_measurement_method	flux_measurement_method								
+		FC		Flux Chamber					
+		GC		Gas Chromatography					
+gas	gas								
+		CH4		CH4					
+		CO2		CO2					
+		N2O		N2O					
+larval_dry_diet	larval_dry_diet								
+		prorec		prorec					
+		wheat		wheat					
+larval_wet_diet	larval_wet_diet								
+		carrot		carrot					
+		fermented mix		fermented mix					
+		puree		puree					
+mushroom_species	mushroom_species								
+		Ganoderma		Ganoderma					
+		Pleurotus		Pleurotus					
+prep_type	prep_type								
+		amplicon		amplicon					
+		gdna		gdna					
+		rna		rna					
+qc_flag	qc_flag								
+		fail		fail					
+		pass		pass					
+		suspect		suspect					
+reactor_type	reactor_type								
+		Compost		Compost					
+		Mealworm		Mealworm					
+		Mushroom		Mushroom					
+sample_source_reactor	sample_source_reactor								
+		Upstream		Upstream					
+		downstream		downstream					
+		inside		inside					
+sample_type	sample_type								
+		plant		plant					
+		reactor		reactor					
+		soil		soil					
+		water		water					
+sequencing_mode	sequencing_mode								
+		pe		Paired-end					
+		se		Single-end					

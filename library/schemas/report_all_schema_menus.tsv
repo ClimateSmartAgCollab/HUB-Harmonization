@@ -64,6 +64,28 @@ BENEFIT	CCASM		risk_group	2		Risk Group 2
 BENEFIT	CCASM		risk_group	3		Risk Group 3					
 BENEFIT	CCASM		risk_group	4		Risk Group 4					
 BENEFIT	CCASM		risk_group	Unknown		Unknown					
+catg	Kinsella	RANCH	RANCH								
+catg	Kinsella		RANCH	Kinsella		Kinsella					
+catg	Kinsella		RANCH	Mattheis		Mattheis					
+catg	Soil_Moisture	MONTH	MONTH								
+catg	Soil_Moisture		MONTH	April		April					
+catg	Soil_Moisture		MONTH	August		August					
+catg	Soil_Moisture		MONTH	December		December					
+catg	Soil_Moisture		MONTH	February		February					
+catg	Soil_Moisture		MONTH	January		January					
+catg	Soil_Moisture		MONTH	July		July					
+catg	Soil_Moisture		MONTH	June		June					
+catg	Soil_Moisture		MONTH	March		March					
+catg	Soil_Moisture		MONTH	May		May					
+catg	Soil_Moisture		MONTH	November		November					
+catg	Soil_Moisture		MONTH	October		October					
+catg	Soil_Moisture		MONTH	September		September					
+catg	Soil_Moisture	RANCH	RANCH								
+catg	Soil_Moisture		RANCH	Kinsella		Kinsella					
+catg	Soil_Moisture		RANCH	Mattheis		Mattheis					
+catg	SoilData	Ranch	Ranch								
+catg	SoilData		Ranch	K		Kinsella					
+catg	SoilData		Ranch	M		Mattheis					
 Cell_cultured	Bovine	collection_site	collection_site								
 Cell_cultured	Bovine		collection_site	Guelph		Guelph CMIT					
 Cell_cultured	Bovine		collection_site	HP		Highland Packers					
@@ -111,6 +133,126 @@ GG4GHG	Community		Species	DP		Dalea purpurea
 GG4GHG	Community		Species	HM		Helianthus maximilliani					
 GG4GHG	Community		Species	LL		Linum lewisii					
 GG4GHG	Community		Species	NV		Nasella viridula					
+loop	environmental_DNA	analysis_method	analysis_method								
+loop	environmental_DNA		analysis_method	asv		Amplicon Sequence Variant					
+loop	environmental_DNA		analysis_method	otu		Operational Taxonomic Unit					
+loop	environmental_DNA	flux_measurement_method	flux_measurement_method								
+loop	environmental_DNA		flux_measurement_method	FC		Flux Chamber					
+loop	environmental_DNA		flux_measurement_method	GC		Gas Chromatography					
+loop	environmental_DNA	gas	gas								
+loop	environmental_DNA		gas	CH4		CH4					
+loop	environmental_DNA		gas	CO2		CO2					
+loop	environmental_DNA		gas	N2O		N2O					
+loop	environmental_DNA	larval_dry_diet	larval_dry_diet								
+loop	environmental_DNA		larval_dry_diet	prorec		prorec					
+loop	environmental_DNA		larval_dry_diet	wheat		wheat					
+loop	environmental_DNA	larval_wet_diet	larval_wet_diet								
+loop	environmental_DNA		larval_wet_diet	carrot		carrot					
+loop	environmental_DNA		larval_wet_diet	fermented mix		fermented mix					
+loop	environmental_DNA		larval_wet_diet	puree		puree					
+loop	environmental_DNA	mushroom_species	mushroom_species								
+loop	environmental_DNA		mushroom_species	Ganoderma		Ganoderma					
+loop	environmental_DNA		mushroom_species	Pleurotus		Pleurotus					
+loop	environmental_DNA	prep_type	prep_type								
+loop	environmental_DNA		prep_type	amplicon		amplicon					
+loop	environmental_DNA		prep_type	gdna		gdna					
+loop	environmental_DNA		prep_type	rna		rna					
+loop	environmental_DNA	qc_flag	qc_flag								
+loop	environmental_DNA		qc_flag	fail		fail					
+loop	environmental_DNA		qc_flag	pass		pass					
+loop	environmental_DNA		qc_flag	suspect		suspect					
+loop	environmental_DNA	reactor_type	reactor_type								
+loop	environmental_DNA		reactor_type	Compost		Compost					
+loop	environmental_DNA		reactor_type	Mealworm		Mealworm					
+loop	environmental_DNA		reactor_type	Mushroom		Mushroom					
+loop	environmental_DNA	sample_source_reactor	sample_source_reactor								
+loop	environmental_DNA		sample_source_reactor	Upstream		Upstream					
+loop	environmental_DNA		sample_source_reactor	downstream		downstream					
+loop	environmental_DNA		sample_source_reactor	inside		inside					
+loop	environmental_DNA	sample_type	sample_type								
+loop	environmental_DNA		sample_type	plant		plant					
+loop	environmental_DNA		sample_type	reactor		reactor					
+loop	environmental_DNA		sample_type	soil		soil					
+loop	environmental_DNA		sample_type	water		water					
+loop	environmental_DNA	sequencing_mode	sequencing_mode								
+loop	environmental_DNA		sequencing_mode	pe		Paired-end					
+loop	environmental_DNA		sequencing_mode	se		Single-end					
+NDGP	Calving	FILE_TYPE	FILE_TYPE								
+NDGP	Calving		FILE_TYPE	01		Pedigree					
+NDGP	Calving		FILE_TYPE	02		Calving					
+NDGP	Calving		FILE_TYPE	03		Production					
+NDGP	Calving		FILE_TYPE	04		Events					
+NDGP	Calving		FILE_TYPE	05		Genotype					
+NDGP	Calving		FILE_TYPE	06		Milk data					
+NDGP	Calving	PROJECT	PROJECT								
+NDGP	Calving		PROJECT	001		NAEX					
+NDGP	Calving		PROJECT	010		RDGP					
+NDGP	Calving		PROJECT	011		RDGP & NAEX					
+NDGP	Calving		PROJECT	100		EDGP					
+NDGP	Calving		PROJECT	101		EDGP & NAEX					
+NDGP	Calving		PROJECT	102		NDGP					
+NDGP	Calving		PROJECT	110		EDGP & RDGP					
+NDGP	Calving		PROJECT	111		EDGP & RDGP & NAEX					
+NDGP	Calving	TRANSACTION_TYPE	TRANSACTION_TYPE								
+NDGP	Calving		TRANSACTION_TYPE	D		Delete					
+NDGP	Calving		TRANSACTION_TYPE	U		Update					
+NDGP	Milk	FILE_TYPE	FILE_TYPE								
+NDGP	Milk		FILE_TYPE	01		Pedigree					
+NDGP	Milk		FILE_TYPE	02		Calving					
+NDGP	Milk		FILE_TYPE	03		Production					
+NDGP	Milk		FILE_TYPE	04		Events					
+NDGP	Milk		FILE_TYPE	05		Genotype					
+NDGP	Milk		FILE_TYPE	06		Milk data					
+NDGP	Milk	PROJECT	PROJECT								
+NDGP	Milk		PROJECT	001		NAEX					
+NDGP	Milk		PROJECT	010		RDGP					
+NDGP	Milk		PROJECT	011		RDGP & NAEX					
+NDGP	Milk		PROJECT	100		EDGP					
+NDGP	Milk		PROJECT	101		EDGP & NAEX					
+NDGP	Milk		PROJECT	102		NDGP					
+NDGP	Milk		PROJECT	110		EDGP & RDGP					
+NDGP	Milk		PROJECT	111		EDGP & RDGP & NAEX					
+NDGP	Milk	TRANSACTION_TYPE	TRANSACTION_TYPE								
+NDGP	Milk		TRANSACTION_TYPE	D		Delete					
+NDGP	Milk		TRANSACTION_TYPE	U		Update					
+NDGP	MIR	FILE_TYPE	FILE_TYPE								
+NDGP	MIR		FILE_TYPE	01		Pedigree					
+NDGP	MIR		FILE_TYPE	02		Calving					
+NDGP	MIR		FILE_TYPE	03		Production					
+NDGP	MIR		FILE_TYPE	04		Events					
+NDGP	MIR		FILE_TYPE	05		Genotype					
+NDGP	MIR		FILE_TYPE	06		Milk data					
+NDGP	MIR	PROJECT	PROJECT								
+NDGP	MIR		PROJECT	001		NAEX					
+NDGP	MIR		PROJECT	010		RDGP					
+NDGP	MIR		PROJECT	011		RDGP & NAEX					
+NDGP	MIR		PROJECT	100		EDGP					
+NDGP	MIR		PROJECT	101		EDGP & NAEX					
+NDGP	MIR		PROJECT	102		NDGP					
+NDGP	MIR		PROJECT	110		EDGP & RDGP					
+NDGP	MIR		PROJECT	111		EDGP & RDGP & NAEX					
+NDGP	MIR	TRANSACTION_TYPE	TRANSACTION_TYPE								
+NDGP	MIR		TRANSACTION_TYPE	D		Delete					
+NDGP	MIR		TRANSACTION_TYPE	U		Update					
+NDGP	Pedigree	FILE_TYPE	FILE_TYPE								
+NDGP	Pedigree		FILE_TYPE	01		Pedigree					
+NDGP	Pedigree		FILE_TYPE	02		Calving					
+NDGP	Pedigree		FILE_TYPE	03		Production					
+NDGP	Pedigree		FILE_TYPE	04		Events					
+NDGP	Pedigree		FILE_TYPE	05		Genotype					
+NDGP	Pedigree		FILE_TYPE	06		Milk data					
+NDGP	Pedigree	PROJECT	PROJECT								
+NDGP	Pedigree		PROJECT	001		NAEX					
+NDGP	Pedigree		PROJECT	010		RDGP					
+NDGP	Pedigree		PROJECT	011		RDGP & NAEX					
+NDGP	Pedigree		PROJECT	100		EDGP					
+NDGP	Pedigree		PROJECT	101		EDGP & NAEX					
+NDGP	Pedigree		PROJECT	102		NDGP					
+NDGP	Pedigree		PROJECT	110		EDGP & RDGP					
+NDGP	Pedigree		PROJECT	111		EDGP & RDGP & NAEX					
+NDGP	Pedigree	TRANSACTION_TYPE	TRANSACTION_TYPE								
+NDGP	Pedigree		TRANSACTION_TYPE	D		Delete					
+NDGP	Pedigree		TRANSACTION_TYPE	U		Update					
 JT	GENOME	access_training	access_training								
 JT	GENOME		access_training	Agree		AG					
 JT	GENOME		access_training	Disagree		DA					
@@ -998,79 +1140,3 @@ JT	GENOME		vertical_agriculture	More comfortable		MC
 JT	GENOME		vertical_agriculture	Much less comfortable with genetically modified rice than cellular agriculture		MLC					
 JT	GENOME		vertical_agriculture	Much more comfortable with genetically modified rice than cellular agriculture		MMC					
 JT	GENOME		vertical_agriculture	Same level of comfort		SLC					
-NDGP	Calving	FILE_TYPE	FILE_TYPE								
-NDGP	Calving		FILE_TYPE	01		Pedigree					
-NDGP	Calving		FILE_TYPE	02		Calving					
-NDGP	Calving		FILE_TYPE	03		Production					
-NDGP	Calving		FILE_TYPE	04		Events					
-NDGP	Calving		FILE_TYPE	05		Genotype					
-NDGP	Calving		FILE_TYPE	06		Milk data					
-NDGP	Calving	PROJECT	PROJECT								
-NDGP	Calving		PROJECT	001		NAEX					
-NDGP	Calving		PROJECT	010		RDGP					
-NDGP	Calving		PROJECT	011		RDGP & NAEX					
-NDGP	Calving		PROJECT	100		EDGP					
-NDGP	Calving		PROJECT	101		EDGP & NAEX					
-NDGP	Calving		PROJECT	102		NDGP					
-NDGP	Calving		PROJECT	110		EDGP & RDGP					
-NDGP	Calving		PROJECT	111		EDGP & RDGP & NAEX					
-NDGP	Calving	TRANSACTION_TYPE	TRANSACTION_TYPE								
-NDGP	Calving		TRANSACTION_TYPE	D		Delete					
-NDGP	Calving		TRANSACTION_TYPE	U		Update					
-NDGP	Milk	FILE_TYPE	FILE_TYPE								
-NDGP	Milk		FILE_TYPE	01		Pedigree					
-NDGP	Milk		FILE_TYPE	02		Calving					
-NDGP	Milk		FILE_TYPE	03		Production					
-NDGP	Milk		FILE_TYPE	04		Events					
-NDGP	Milk		FILE_TYPE	05		Genotype					
-NDGP	Milk		FILE_TYPE	06		Milk data					
-NDGP	Milk	PROJECT	PROJECT								
-NDGP	Milk		PROJECT	001		NAEX					
-NDGP	Milk		PROJECT	010		RDGP					
-NDGP	Milk		PROJECT	011		RDGP & NAEX					
-NDGP	Milk		PROJECT	100		EDGP					
-NDGP	Milk		PROJECT	101		EDGP & NAEX					
-NDGP	Milk		PROJECT	102		NDGP					
-NDGP	Milk		PROJECT	110		EDGP & RDGP					
-NDGP	Milk		PROJECT	111		EDGP & RDGP & NAEX					
-NDGP	Milk	TRANSACTION_TYPE	TRANSACTION_TYPE								
-NDGP	Milk		TRANSACTION_TYPE	D		Delete					
-NDGP	Milk		TRANSACTION_TYPE	U		Update					
-NDGP	MIR	FILE_TYPE	FILE_TYPE								
-NDGP	MIR		FILE_TYPE	01		Pedigree					
-NDGP	MIR		FILE_TYPE	02		Calving					
-NDGP	MIR		FILE_TYPE	03		Production					
-NDGP	MIR		FILE_TYPE	04		Events					
-NDGP	MIR		FILE_TYPE	05		Genotype					
-NDGP	MIR		FILE_TYPE	06		Milk data					
-NDGP	MIR	PROJECT	PROJECT								
-NDGP	MIR		PROJECT	001		NAEX					
-NDGP	MIR		PROJECT	010		RDGP					
-NDGP	MIR		PROJECT	011		RDGP & NAEX					
-NDGP	MIR		PROJECT	100		EDGP					
-NDGP	MIR		PROJECT	101		EDGP & NAEX					
-NDGP	MIR		PROJECT	102		NDGP					
-NDGP	MIR		PROJECT	110		EDGP & RDGP					
-NDGP	MIR		PROJECT	111		EDGP & RDGP & NAEX					
-NDGP	MIR	TRANSACTION_TYPE	TRANSACTION_TYPE								
-NDGP	MIR		TRANSACTION_TYPE	D		Delete					
-NDGP	MIR		TRANSACTION_TYPE	U		Update					
-NDGP	Pedigree	FILE_TYPE	FILE_TYPE								
-NDGP	Pedigree		FILE_TYPE	01		Pedigree					
-NDGP	Pedigree		FILE_TYPE	02		Calving					
-NDGP	Pedigree		FILE_TYPE	03		Production					
-NDGP	Pedigree		FILE_TYPE	04		Events					
-NDGP	Pedigree		FILE_TYPE	05		Genotype					
-NDGP	Pedigree		FILE_TYPE	06		Milk data					
-NDGP	Pedigree	PROJECT	PROJECT								
-NDGP	Pedigree		PROJECT	001		NAEX					
-NDGP	Pedigree		PROJECT	010		RDGP					
-NDGP	Pedigree		PROJECT	011		RDGP & NAEX					
-NDGP	Pedigree		PROJECT	100		EDGP					
-NDGP	Pedigree		PROJECT	101		EDGP & NAEX					
-NDGP	Pedigree		PROJECT	102		NDGP					
-NDGP	Pedigree		PROJECT	110		EDGP & RDGP					
-NDGP	Pedigree		PROJECT	111		EDGP & RDGP & NAEX					
-NDGP	Pedigree	TRANSACTION_TYPE	TRANSACTION_TYPE								
-NDGP	Pedigree		TRANSACTION_TYPE	D		Delete					
-NDGP	Pedigree		TRANSACTION_TYPE	U		Update					

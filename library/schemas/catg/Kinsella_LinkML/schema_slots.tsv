@@ -1,0 +1,14 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+KinsellaCowProductionData	General		CF_BRDT_2024	Calf Birth Date	DateTime													Date calf was born (YYYY-MM-DD)			
+KinsellaCowProductionData	General		CW_AGE_JUL2025_YR	Age of Cow	decimal													Age (in years) of cow at the start of the trial, calculated from start date of trial period minus cow birthdate			
+KinsellaCowProductionData	General		CW_BRDT	Cow Birth date	DateTime													The date cow was born (YYYY-MM-DD)			
+KinsellaCowProductionData	General		CW_GENO_ID	Cow Genotype ID	WhitespaceMinimizedString													The genotype identification number of the cows			
+KinsellaCowProductionData	General		CW_PGDT	Cow PregTest Date	DateTime													Date cow is Preg-Checked, and often the same date as the calf is weaned (YYYY-MM-DD)			
+KinsellaCowProductionData	General		CW_PGPREG	Pregnancy Status	WhitespaceMinimizedString													Pregnancy diagnosis of cow at preg-check (P=Pregnant;O=Open;.=missing data)			
+KinsellaCowProductionData	General		CW_PGWT_KG	Cow PregTest Weight	decimal		kg											Cow weight at preg check in kg, collected from raw weight files			
+KinsellaCowProductionData	General		CW_Pred_PGWT_KG	Cow predicted Pregnancy Weight	decimal		kg											Cow predicted Pregnancy Weight in kg			
+KinsellaCowProductionData	General		CW_REMARKS	General remarks about cow	WhitespaceMinimizedString													Will include general remarks about the cow before and after prebreed, ie. Treatments, notes regarding fostering, etc.			
+KinsellaCowProductionData	General		CW_TAG	Visual Cow Tag	WhitespaceMinimizedString													Corresponds to the visual cow ID tag			
+KinsellaCowProductionData	General		CW_YR_LETTER	Year Letter of Cow	WhitespaceMinimizedString													Letter that reflects the year animal was born in			
+KinsellaCowProductionData	General		RANCH	Ranch name	WhitespaceMinimizedString	RANCH												The ranch where the animal belong (Kinsella or Mattheis)			
+KinsellaCowProductionData	General		RFI_gEPD	Cow genomic estimated Expected Progeny Difference	decimal													Cow genomic estimated Expected Progeny Difference			

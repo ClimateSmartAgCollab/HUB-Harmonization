@@ -1,0 +1,7 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+SoilMoistureMonthly	General		ENV_PROBEMOIS	Probe Moisture Reading	decimal																
+SoilMoistureMonthly	General		MONTH	Month in which data was taken	WhitespaceMinimizedString	MONTH															
+SoilMoistureMonthly	General		OBSERVERS	Initials of individuals who took data sample	WhitespaceMinimizedString																
+SoilMoistureMonthly	General		PLOT	Plot number	decimal																
+SoilMoistureMonthly	General		RANCH	Ranch name	WhitespaceMinimizedString	RANCH															
+SoilMoistureMonthly	General		SAMPLEDATE	Date soil moisture was sampled	DateTime																
