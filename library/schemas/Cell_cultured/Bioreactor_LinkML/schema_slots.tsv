@@ -1,0 +1,9 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+BioreactorBatches	General		cell_type		WhitespaceMinimizedString																
+BioreactorBatches	General		doubling_time		WhitespaceMinimizedString		hours														
+BioreactorBatches	General		final_cell_count		decimal		cells/mL														
+BioreactorBatches	General		media_supplements		WhitespaceMinimizedString																
+BioreactorBatches	General		microcarrier_concentration		decimal		g/L														
+BioreactorBatches	General		microcarrier_type		WhitespaceMinimizedString																
+BioreactorBatches	General		operating_volume		decimal		L														
+BioreactorBatches	General		seeding_density		decimal		cells/mL														

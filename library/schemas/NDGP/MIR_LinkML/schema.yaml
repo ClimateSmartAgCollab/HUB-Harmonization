@@ -1,0 +1,371 @@
+id: https://example.com/MirFileLayout
+name: MirFileLayout
+title: MIR File Layout
+description: Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project
+version: 0.0.0
+in_language: en
+imports:
+  - linkml:types
+prefixes:
+  linkml: https://w3id.org/linkml/
+classes:
+  MirFileLayout:
+    name: MirFileLayout
+    title: MIR File Layout
+    description: Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project
+    keywords: RDF402
+    slots:
+      - ANIMAL_ID
+      - COUNTRY_OF_DATA_ORIGIN
+      - DATE_OF_TESTING
+      - FILE_TYPE
+      - HERD_CODE
+      - MILK_SPECTRAL_DATA
+      - NUMBER_OF_DATA_POINTS
+      - PROJECT
+      - SOURCE_OF_DATA
+      - TRANSACTION_TYPE
+      - TYPE_OF_SPECTROMETER
+    slot_usage:
+      ANIMAL_ID:
+        name: ANIMAL_ID
+        rank: 1
+        slot_group: General
+      COUNTRY_OF_DATA_ORIGIN:
+        name: COUNTRY_OF_DATA_ORIGIN
+        rank: 2
+        slot_group: General
+      DATE_OF_TESTING:
+        name: DATE_OF_TESTING
+        rank: 3
+        slot_group: General
+      FILE_TYPE:
+        name: FILE_TYPE
+        rank: 4
+        slot_group: General
+      HERD_CODE:
+        name: HERD_CODE
+        rank: 5
+        slot_group: General
+      MILK_SPECTRAL_DATA:
+        name: MILK_SPECTRAL_DATA
+        rank: 6
+        slot_group: General
+      NUMBER_OF_DATA_POINTS:
+        name: NUMBER_OF_DATA_POINTS
+        rank: 7
+        slot_group: General
+      PROJECT:
+        name: PROJECT
+        rank: 8
+        slot_group: General
+      SOURCE_OF_DATA:
+        name: SOURCE_OF_DATA
+        rank: 9
+        slot_group: General
+      TRANSACTION_TYPE:
+        name: TRANSACTION_TYPE
+        rank: 10
+        slot_group: General
+      TYPE_OF_SPECTROMETER:
+        name: TYPE_OF_SPECTROMETER
+        rank: 11
+        slot_group: General
+  Container:
+    name: Container
+    tree_root: true
+    attributes:
+      name: MirFileLayoutData
+      multivalued: true
+      range: MirFileLayout
+      inlined_as_list: true
+slots:
+  ANIMAL_ID:
+    name: ANIMAL_ID
+    title: ANIMAL_ID
+    range: WhitespaceMinimizedString
+    required: true
+    description: 'INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)'
+  COUNTRY_OF_DATA_ORIGIN:
+    name: COUNTRY_OF_DATA_ORIGIN
+    title: COUNTRY_OF_DATA_ORIGIN
+    range: WhitespaceMinimizedString
+    required: true
+  DATE_OF_TESTING:
+    name: DATE_OF_TESTING
+    title: DATE_OF_TESTING
+    range: DateTime
+    unit:
+      ucum_code: YYYYMMDD
+    required: true
+  FILE_TYPE:
+    name: FILE_TYPE
+    title: FILE_TYPE
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: FILE_TYPE
+    required: true
+  HERD_CODE:
+    name: HERD_CODE
+    title: HERD_CODE
+    range: WhitespaceMinimizedString
+    required: true
+  MILK_SPECTRAL_DATA:
+    name: MILK_SPECTRAL_DATA
+    title: MILK_SPECTRAL_DATA
+    range: decimal
+    required: true
+    description: ULTIPLIED BY 100,000,000
+  NUMBER_OF_DATA_POINTS:
+    name: NUMBER_OF_DATA_POINTS
+    title: NUMBER_OF_DATA_POINTS
+    range: decimal
+    recommended: true
+  PROJECT:
+    name: PROJECT
+    title: PROJECT
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: PROJECT
+    required: true
+  SOURCE_OF_DATA:
+    name: SOURCE_OF_DATA
+    title: SOURCE_OF_DATA
+    range: WhitespaceMinimizedString
+    required: true
+    description: See contacts list under 'Source of Data' column
+  TRANSACTION_TYPE:
+    name: TRANSACTION_TYPE
+    title: TRANSACTION_TYPE
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: TRANSACTION_TYPE
+    required: true
+  TYPE_OF_SPECTROMETER:
+    name: TYPE_OF_SPECTROMETER
+    title: TYPE_OF_SPECTROMETER
+    range: WhitespaceMinimizedString
+    recommended: true
+enums:
+  SettingsMenu:
+    name: SettingsMenu
+    title: Regular Expressions
+    permissible_values:
+      AllCaps:
+        title: AllCaps
+        description: Entries of any length with only capital letters
+      AlphaText1-50:
+        title: AlphaText1-50
+        description: Capital or lower case letters only, at least 1 character, and 50 characters max
+      AlphaText0-50:
+        title: AlphaText0-50
+        description: Capital or lower case letters only, 50 characters max
+      FreeText0-50:
+        title: FreeText0-50
+        description: Short text, 50 characters max
+      FreeText0-250:
+        title: FreeText0-250
+        description: Short text, 250 characters max
+      FreeText0-800:
+        title: FreeText0-800
+        description: Long text, 800 characters max
+      FreeText0-4000:
+        title: FreeText0-4000
+        description: Long text, 4000 characters max
+      CanadianPostalCode:
+        title: CanadianPostalCode
+        description: Canadian postal codes (A1A 1A1)
+      ZipCode:
+        title: ZipCode
+        description: USA Zip code
+      EmailAddress:
+        title: EmailAddress
+        description: Email address
+      URL:
+        title: URL
+        description: Secure (https) URL
+      PhoneNumber:
+        title: PhoneNumber
+        description: Phone number with international and area code component.
+      Latitude:
+        title: Latitude
+        description: Latitude in formats S30°15'45.678" or N12°30.999"
+      Longitude:
+        title: Longitude
+        description: Longitude in formats E30°15'45.678" or W90°00.000"
+      ISO_YYYY-MM-DD:
+        title: ISO_YYYY-MM-DD
+        description: year month day
+      ISO_YYYYMMDD:
+        title: ISO_YYYYMMDD
+      ISO_YYYY-MM:
+        title: ISO_YYYY-MM
+        description: year month
+      ISO_YYYY-Www:
+        title: ISO_YYYY-Www
+        description: year week (e.g. W01)
+      ISO_YYYYWww:
+        title: ISO_YYYYWww
+        description: year week (e.g. W01)
+      ISO_YYYY-DDD:
+        title: ISO_YYYY-DDD
+        description: Ordinal date (day number from the year)
+      ISO_YYYYDDD:
+        title: ISO_YYYYDDD
+        description: Ordinal date (day number from the year)
+      ISO_YYYY:
+        title: ISO_YYYY
+        description: year
+      ISO_MM:
+        title: ISO_MM
+        description: month
+      ISO_DD:
+        title: ISO_DD
+        description: day
+      ISO_YYYY-MM-DDTHH.MM.SSZ:
+        title: ISO_YYYY-MM-DDTHH:MM:SSZ
+        description: Date and Time Combined (UTC)
+      ISO_YYYY-MM-DDTHH.MM.SS-hh.mm:
+        title: ISO_YYYY-MM-DDTHH:MM:SS±hh:mm
+        description: Date and Time Combined (with Timezone Offset)
+      ISO_PnYnMnDTnHnMnS:
+        title: ISO_PnYnMnDTnHnMnS
+        description: durations e.g. P3Y6M4DT12H30M5S
+      ISO_HH.MM:
+        title: ISO_HH:MM
+        description: hour, minutes in 24 hour notation
+      ISO_HH.MM.SS:
+        title: ISO_HH:MM:SS
+        description: hour, minutes, seconds in 24 hour notation
+      SLASH_DD_MM_YYYY:
+        title: DD/MM/YYYY
+        description: day, month, year
+      SLASH_DD_MM_YY:
+        title: DD/MM/YY
+        description: day, month, year
+      SLASH_MM_DD_YYYY:
+        title: MM/DD/YYYY
+        description: month, day, year
+      DDMMYYYY:
+        title: DDMMYYYY
+        description: day, month, year
+      MMDDYYYY:
+        title: MMDDYYYY
+        description: month, day, year
+      YYYYMMDD:
+        title: YYYYMMDD
+        description: year, month, day
+      HH.MM.SS:
+        title: HH:MM:SS
+        description: hour, minutes, seconds 12 hour notation AM/PM
+      H.MM_or_HH.MM:
+        title: H:MM or HH:MM
+        description: hour, minutes AM/PM
+  FILE_TYPE:
+    name: FILE_TYPE
+    title: FILE_TYPE
+    permissible_values:
+      '01':
+        text: '01'
+        title: Pedigree
+      '02':
+        text: '02'
+        title: Calving
+      '03':
+        text: '03'
+        title: Production
+      '04':
+        text: '04'
+        title: Events
+      '05':
+        text: '05'
+        title: Genotype
+      '06':
+        text: '06'
+        title: Milk data
+  PROJECT:
+    name: PROJECT
+    title: PROJECT
+    permissible_values:
+      '001':
+        text: '001'
+        title: NAEX
+      '010':
+        text: '010'
+        title: RDGP
+      '011':
+        text: '011'
+        title: RDGP & NAEX
+      '100':
+        text: '100'
+        title: EDGP
+      '101':
+        text: '101'
+        title: EDGP & NAEX
+      '102':
+        text: '102'
+        title: NDGP
+      '110':
+        text: '110'
+        title: EDGP & RDGP
+      '111':
+        text: '111'
+        title: EDGP & RDGP & NAEX
+  TRANSACTION_TYPE:
+    name: TRANSACTION_TYPE
+    title: TRANSACTION_TYPE
+    permissible_values:
+      D:
+        text: D
+        title: Delete
+      U:
+        text: U
+        title: Update
+types:
+  WhitespaceMinimizedString:
+    name: WhitespaceMinimizedString
+    typeof: string
+    description: 'A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).'
+    base: str
+    uri: xsd:token
+settings:
+  Title_Case: ((?<=\b)[^a-z\W]\w*?|[\W])+
+  UPPER_CASE: '[A-Z\W\d_]*'
+  lower_case: '[a-z\W\d_]*'
+  AllCaps: ^[A-Z]*$
+  AlphaText1-50: ^[A-Za-z]{1,50}$
+  AlphaText0-50: ^[A-Za-z]{0,50}$
+  FreeText0-50: ^.{0,50}$
+  FreeText0-250: ^.{0,250}$
+  FreeText0-800: ^.{0,800}$
+  FreeText0-4000: ^.{0,4000}$
+  CanadianPostalCode: ^[A-Z][0-9][A-Z]\s[0-9][A-Z][0-9]$
+  ZipCode: ^\d{5,6}(?:[-\s]\d{4})?$
+  EmailAddress: ^[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+
+  URL: ^https?\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,}$
+  PhoneNumber: ^\+?\(?\d{2,4}\)?[\d\s-]{3,}$
+  Latitude: ^[NS]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
+  Longitude: ^[WE]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
+  ISO_YYYY-MM-DD: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$
+  ISO_YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
+  ISO_YYYY-MM: ^(\d{4})-(0[1-9]|1[0-2])$
+  ISO_YYYY-Www: ^(?:\d{4})-W(0[1-9]|[1-4][0-9]|5[0-3])$
+  ISO_YYYYWww: ^(?:\d{4})W(0[1-9]|[1-4][0-9]|5[0-3])$
+  ISO_YYYY-DDD: ^(?:\d{4})-(00[1-9]|0[1-9][0-9]|[1-2][0-9]{2}|3[0-5][0-9]|36[0-6])$
+  ISO_YYYYDDD: ^(?:\d{4})(00[1-9]|0[1-9][0-9]|[1-2][0-9]{2}|3[0-5][0-9]|36[0-6])$
+  ISO_YYYY: ^(\d{4})$
+  ISO_MM: ^(0[1-9]|1[0-2])$
+  ISO_DD: ^(0[1-9]|[1-2][0-9]|3[01])$
+  ISO_YYYY-MM-DDTHH.MM.SSZ: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])T([01]\d|2[0-3]):([0-5]\d):([0-5]\d)Z$
+  ISO_YYYY-MM-DDTHH.MM.SS-hh.mm: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])T([01]\d|2[0-3]):([0-5]\d):([0-5]\\d)([+-][01]\\d:[0-5]\d)$
+  ISO_PnYnMnDTnHnMnS: ^P(?!$)((\d+Y)|(\d+.\d+Y)$)?((\d+M)|(\d+.\d+M)$)?((\d+W)|(\d+.\d+W)$)?((\d+D)|(\d+.\d+D)$)?(T(?=\d)((\d+H)|(\d+.\d+H)$)?((\d+M)|(\d+.\d+M)$)?(\d+(.\d+S)?)?)?$
+  ISO_HH.MM: ^([01]\d|2[0-3]):([0-5]\d)$
+  ISO_HH.MM.SS: ^([01]\d|2[0-3]):([0-5]\d):([0-5]\d)$
+  SLASH_DD_MM_YYYY: ^(0[1-9]|[12]\d|3[01])/(0[1-9]|1[0-2])/\d{4}$
+  SLASH_DD_MM_YY: ^(0[1-9]|[12]\d|3[01])/(0[1-9]|1[0-2])/\d{2}$
+  SLASH_MM_DD_YYYY: ^(0[1-9]|1[0-2])/(0[1-9]|[12]\d|3[01])/\d{4}$
+  DDMMYYYY: ^(0[1-9]|[12]\d|3[01])(0[1-9]|1[0-2])\d{4}$
+  MMDDYYYY: ^(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])\d{4}$
+  YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
+  HH.MM.SS: ^(0?[1-9]|1[0-2]):[0-5][0-9]:[0-5][0-9] ?[APMapm]{2}$
+  H.MM_or_HH.MM: ^(0?[1-9]|1[0-2]):[0-5][0-9] ?[APMapm]{2}$

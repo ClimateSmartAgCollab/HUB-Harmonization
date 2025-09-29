@@ -1,133 +1,159 @@
 id: https://example.com/TeamActivateMultiGenusRotationalFieldTrial
 name: TeamActivateMultiGenusRotationalFieldTrial
 title: 'Team ACTIVATE: Multi-genus Rotational Field Trial'
-description: This data schema refers to the Activity 2.3 phenotypic dataset which
-  is taken on our large, multi-genus field trial.
+description: This data schema refers to the Activity 2.3 phenotypic dataset which is taken on our large, multi-genus field trial.
 version: 0.0.0
 in_language: en
 imports:
-- linkml:types
+  - linkml:types
 prefixes:
   linkml: https://w3id.org/linkml/
 classes:
   TeamActivateMultiGenusRotationalFieldTrial:
     name: TeamActivateMultiGenusRotationalFieldTrial
     title: 'Team ACTIVATE: Multi-genus Rotational Field Trial'
-    description: This data schema refers to the Activity 2.3 phenotypic dataset which
-      is taken on our large, multi-genus field trial.
+    description: This data schema refers to the Activity 2.3 phenotypic dataset which is taken on our large, multi-genus field trial.
     keywords: RDF401
     slots:
-    - Block
-    - BlockCol
-    - BlockRow
-    - Col
-    - Combo
-    - Comment
-    - Days_to_Emergence
-    - Emergence_Date
-    - Expt
-    - Flowering_Date_R1
-    - Half_Pods_Mature_R7
-    - Lentil
-    - Lodging
-    - Maturity_Date_R7
-    - NIR
-    - NIR_LenPro_preTweak
-    - Name
-    - One_Open_Flower_R1
-    - Planting_Date
-    - Rep
-    - Row
-    - Type
-    - UniqueID
-    - Wheat
-    - plot
-    - yield_plot
-    - yield_subsample
-    - yield_total
+      - Block
+      - BlockCol
+      - BlockRow
+      - Col
+      - Combo
+      - Comment
+      - Days_to_Emergence
+      - Emergence_Date
+      - Expt
+      - Flowering_Date_R1
+      - Half_Pods_Mature_R7
+      - Lentil
+      - Lodging
+      - Maturity_Date_R7
+      - NIR
+      - NIR_LenPro_preTweak
+      - Name
+      - One_Open_Flower_R1
+      - Planting_Date
+      - Rep
+      - Row
+      - Type
+      - UniqueID
+      - Wheat
+      - plot
+      - yield_plot
+      - yield_subsample
+      - yield_total
     slot_usage:
       Block:
+        name: Block
         rank: 1
         slot_group: General
       BlockCol:
+        name: BlockCol
         rank: 2
         slot_group: General
       BlockRow:
+        name: BlockRow
         rank: 3
         slot_group: General
       Col:
+        name: Col
         rank: 4
         slot_group: General
       Combo:
+        name: Combo
         rank: 5
         slot_group: General
       Comment:
+        name: Comment
         rank: 6
         slot_group: General
       Days_to_Emergence:
+        name: Days_to_Emergence
         rank: 7
         slot_group: General
       Emergence_Date:
+        name: Emergence_Date
         rank: 8
         slot_group: General
       Expt:
+        name: Expt
         rank: 9
         slot_group: General
       Flowering_Date_R1:
+        name: Flowering_Date_R1
         rank: 10
         slot_group: General
       Half_Pods_Mature_R7:
+        name: Half_Pods_Mature_R7
         rank: 11
         slot_group: General
       Lentil:
+        name: Lentil
         rank: 12
         slot_group: General
       Lodging:
+        name: Lodging
         rank: 13
         slot_group: General
       Maturity_Date_R7:
+        name: Maturity_Date_R7
         rank: 14
         slot_group: General
       NIR:
+        name: NIR
         rank: 15
         slot_group: General
       NIR_LenPro_preTweak:
+        name: NIR_LenPro_preTweak
         rank: 16
         slot_group: General
       Name:
+        name: Name
         rank: 17
         slot_group: General
       One_Open_Flower_R1:
+        name: One_Open_Flower_R1
         rank: 18
         slot_group: General
       Planting_Date:
+        name: Planting_Date
         rank: 19
         slot_group: General
       Rep:
+        name: Rep
         rank: 20
         slot_group: General
       Row:
+        name: Row
         rank: 21
         slot_group: General
       Type:
+        name: Type
         rank: 22
         slot_group: General
       UniqueID:
+        name: UniqueID
         rank: 23
         slot_group: General
       Wheat:
+        name: Wheat
         rank: 24
         slot_group: General
       plot:
+        name: plot
         rank: 25
         slot_group: General
       yield_plot:
+        name: yield_plot
         rank: 26
         slot_group: General
       yield_subsample:
+        name: yield_subsample
         rank: 27
         slot_group: General
       yield_total:
+        name: yield_total
         rank: 28
         slot_group: General
   Container:
@@ -142,223 +168,203 @@ slots:
   Block:
     name: Block
     title: Block
-    description: Block number
-    required: true
     range: decimal
+    required: true
+    description: Block number
   BlockCol:
     name: BlockCol
     title: BlockCol
-    description: Column number within block
-    required: true
     range: decimal
+    required: true
+    description: Column number within block
   BlockRow:
     name: BlockRow
     title: BlockRow
-    description: Row number within block
-    required: true
     range: decimal
+    required: true
+    description: Row number within block
   Col:
     name: Col
     title: Col
-    description: Column number
-    required: true
     range: decimal
+    required: true
+    description: Column number
   Combo:
     name: Combo
     title: Combo
-    description: Identifies the Lentil-Wheat combination evaluated in this plot.
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: Identifies the Lentil-Wheat combination evaluated in this plot.
   Comment:
     name: Comment
     title: Comment
-    description: General comments from the field crew that may be pertinent to know
-      during analysis.
-    recommended: true
     range: WhitespaceMinimizedString
+    recommended: true
+    description: General comments from the field crew that may be pertinent to know during analysis.
   Days_to_Emergence:
     name: Days_to_Emergence
     title: Days to Emergence (date)
-    description: The number of days from the date of planting to the \"Emergence Date\".
-    recommended: true
     range: decimal
     unit:
       ucum_code: days
+    recommended: true
+    description: The number of days from the date of planting to the \"Emergence Date\".
   Emergence_Date:
     name: Emergence_Date
     title: Emergence Date (date)
-    description: The date on which at least 50% of the seeds within the plot are visible
-      above the soil.
-    recommended: true
     range: DateTime
     unit:
       ucum_code: year-month-day
+    recommended: true
+    description: The date on which at least 50% of the seeds within the plot are visible above the soil.
   Expt:
     name: Expt
     title: Expt
-    description: Captures the particular siteyear and Lentil/Wheat portion of the
-      experiment evaluated in this row. This also indicates where and then these data
-      were collected.
-    required: true
     any_of:
-    - range: WhitespaceMinimizedString
-    - range: Expt
+      - range: WhitespaceMinimizedString
+      - range: Expt
+    required: true
+    description: Captures the particular siteyear and Lentil/Wheat portion of the experiment evaluated in this row. This also indicates where and then these data were collected.
   Flowering_Date_R1:
     name: Flowering_Date_R1
     title: Flowering Date (R1; date)
-    description: The date at which there is one open flower at any node on 50% of
-      the plants in the plot. This is R1 in the Lentil Reproductive & Maturity Staging
-      Guide.
-    recommended: true
     range: DateTime
     unit:
       ucum_code: year-month-day
+    recommended: true
+    description: The date at which there is one open flower at any node on 50% of the plants in the plot. This is R1 in the Lentil Reproductive & Maturity Staging Guide.
   Half_Pods_Mature_R7:
     name: Half_Pods_Mature_R7
     title: Days till 10% of Plants have 1/2 Pods Mature (R7; days)
-    description: The number of days from the date of planting to the \"Maturity Date\"
-      where the Maturity date is the date the plants reach R7 according to the Lentil
-      Reproductive & Maturity Staging Guide.
-    recommended: true
     range: decimal
     unit:
       ucum_code: days
+    recommended: true
+    description: The number of days from the date of planting to the \"Maturity Date\" where the Maturity date is the date the plants reach R7 according to the Lentil Reproductive & Maturity Staging Guide.
   Lentil:
     name: Lentil
     title: Lentil
-    description: Uniquely identifies the Lentil germplasm planted in this plot within
-      the trial.
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: Uniquely identifies the Lentil germplasm planted in this plot within the trial.
   Lodging:
     name: Lodging
     title: Lodging (scale; 1=upright; 5=prostrate)
-    description: Indicates the rate of lodging in the plot between R6-R7 where lodging
-      is defined as an irreversible falling over of the primary plant stem greater
-      than 45 degrees.
-    recommended: true
     any_of:
-    - range: decimal
-    - range: Lodging
+      - range: decimal
+      - range: Lodging
     unit:
       ucum_code: scale
+    recommended: true
+    description: Indicates the rate of lodging in the plot between R6-R7 where lodging is defined as an irreversible falling over of the primary plant stem greater than 45 degrees.
   Maturity_Date_R7:
     name: Maturity_Date_R7
     title: Maturity Date (R7; date)
-    description: This is R7 in the Lentil Reproductive & Maturity Staging Guide.
-    recommended: true
     range: DateTime
     unit:
       ucum_code: year-month-day
+    recommended: true
+    description: This is R7 in the Lentil Reproductive & Maturity Staging Guide.
   NIR:
     name: NIR
     title: NIR
-    description: Protein percentage estimated by Near Infrared Spectroscopy (updated
-      calibration)
-    recommended: true
     range: decimal
     unit:
       ucum_code: percent protein
+    recommended: true
+    description: Protein percentage estimated by Near Infrared Spectroscopy (updated calibration)
   NIR_LenPro_preTweak:
     name: NIR_LenPro_preTweak
     title: NIR_LenPro_preTweak
-    description: Protein percentage estimated by Near Infrared Spectroscopy (old calibration)
-    recommended: true
     range: decimal
     unit:
       ucum_code: percent protein
+    recommended: true
+    description: Protein percentage estimated by Near Infrared Spectroscopy (old calibration)
   Name:
     name: Name
     title: Name
-    description: The full name of the Lentil or Wheat germplasm evaluated in this
-      particular row.
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: The full name of the Lentil or Wheat germplasm evaluated in this particular row.
   One_Open_Flower_R1:
     name: One_Open_Flower_R1
     title: Days till 10% of Plants have One Open Flower (R1; days)
-    description: The number of days from the date of planting to the \"Flowering Date\"
-      where the Flowering date is the date the plants reach R1 according to the Lentil
-      Reproductive & Maturity Staging Guide.
-    recommended: true
     range: decimal
     unit:
       ucum_code: days
+    recommended: true
+    description: The number of days from the date of planting to the \"Flowering Date\" where the Flowering date is the date the plants reach R1 according to the Lentil Reproductive & Maturity Staging Guide.
   Planting_Date:
     name: Planting_Date
     title: Planting Date (date)
-    description: The date the seeds were sown.
-    recommended: true
     range: DateTime
     unit:
       ucum_code: year-month-day
+    recommended: true
+    description: The date the seeds were sown.
   Rep:
     name: Rep
     title: Rep
-    description: Replication number
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: Replication number
   Row:
     name: Row
     title: Row
-    description: Row number
-    required: true
     range: decimal
+    required: true
+    description: Row number
   Type:
     name: Type
     title: Type
-    description: Treatment or check
-    required: true
     any_of:
-    - range: WhitespaceMinimizedString
-    - range: Type
+      - range: WhitespaceMinimizedString
+      - range: Type
+    required: true
+    description: Treatment or check
   UniqueID:
     name: UniqueID
     title: Unique ID
-    description: Uniquely identifies the particular plot within the larger trial.
-      It consists of the year the plot was grown, the Plot ID and either the Lentil
-      OR Wheat ID depending on which is grown when these data are taken.
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: Uniquely identifies the particular plot within the larger trial. It consists of the year the plot was grown, the Plot ID and either the Lentil OR Wheat ID depending on which is grown when these data are taken.
   Wheat:
     name: Wheat
     title: Wheat
-    description: Uniquely identifies the Wheat germplasm planted in this plot within
-      the trial.
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: Uniquely identifies the Wheat germplasm planted in this plot within the trial.
   plot:
     name: plot
     title: Plot
-    description: Identifies the plot uniquely within a given location/year (i.e. siteyear).
-    required: true
     range: WhitespaceMinimizedString
+    required: true
+    description: Identifies the plot uniquely within a given location/year (i.e. siteyear).
   yield_plot:
     name: yield_plot
     title: yield plot (g)
-    description: The weight of the seed harvested from the plot by the combine.
-    recommended: true
     range: decimal
     unit:
       ucum_code: grams
+    recommended: true
+    description: The weight of the seed harvested from the plot by the combine.
   yield_subsample:
     name: yield_subsample
     title: yield subsample (g)
-    description: Some plots have yield subsampled at R7 by hand. This value is recorded
-      here.
-    recommended: true
     range: decimal
     unit:
       ucum_code: grams
+    recommended: true
+    description: Some plots have yield subsampled at R7 by hand. This value is recorded here.
   yield_total:
     name: yield_total
     title: yield total (g)
-    description: For subsampled plots this is the yield from both the combine and
-      the subsample. For others this will be equal to the plot yield measurement.
-    recommended: true
     range: decimal
     unit:
       ucum_code: grams
+    recommended: true
+    description: For subsampled plots this is the yield from both the combine and the subsample. For others this will be equal to the plot yield measurement.
 enums:
   SettingsMenu:
     name: SettingsMenu
@@ -369,8 +375,7 @@ enums:
         description: Entries of any length with only capital letters
       AlphaText1-50:
         title: AlphaText1-50
-        description: Capital or lower case letters only, at least 1 character, and
-          50 characters max
+        description: Capital or lower case letters only, at least 1 character, and 50 characters max
       AlphaText0-50:
         title: AlphaText0-50
         description: Capital or lower case letters only, 50 characters max
@@ -403,10 +408,10 @@ enums:
         description: Phone number with international and area code component.
       Latitude:
         title: Latitude
-        description: "Latitude in formats S30\xB015'45.678\" or N12\xB030.999\""
+        description: Latitude in formats S30°15'45.678" or N12°30.999"
       Longitude:
         title: Longitude
-        description: "Longitude in formats E30\xB015'45.678\" or W90\xB000.000\""
+        description: Longitude in formats E30°15'45.678" or W90°00.000"
       ISO_YYYY-MM-DD:
         title: ISO_YYYY-MM-DD
         description: year month day
@@ -440,7 +445,7 @@ enums:
         title: ISO_YYYY-MM-DDTHH:MM:SSZ
         description: Date and Time Combined (UTC)
       ISO_YYYY-MM-DDTHH.MM.SS-hh.mm:
-        title: "ISO_YYYY-MM-DDTHH:MM:SS\xB1hh:mm"
+        title: ISO_YYYY-MM-DDTHH:MM:SS±hh:mm
         description: Date and Time Combined (with Timezone Offset)
       ISO_PnYnMnDTnHnMnS:
         title: ISO_PnYnMnDTnHnMnS
@@ -515,9 +520,7 @@ types:
   WhitespaceMinimizedString:
     name: WhitespaceMinimizedString
     typeof: string
-    description: 'A string that has all whitespace trimmed off of beginning and end,
-      and all internal whitespace segments reduced to single spaces. Whitespace includes
-      x9 (tab), #xA (linefeed), and #xD (carriage return).'
+    description: 'A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).'
     base: str
     uri: xsd:token
 settings:
@@ -536,10 +539,8 @@ settings:
   EmailAddress: ^[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+
   URL: ^https?\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,}$
   PhoneNumber: ^\+?\(?\d{2,4}\)?[\d\s-]{3,}$
-  Latitude: "^[NS]-?(?:[0-8]?\\d|90)\xB0(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\"\
-    )?$"
-  Longitude: "^[WE]-?(?:[0-8]?\\d|90)\xB0(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\"\
-    )?$"
+  Latitude: ^[NS]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
+  Longitude: ^[WE]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
   ISO_YYYY-MM-DD: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$
   ISO_YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
   ISO_YYYY-MM: ^(\d{4})-(0[1-9]|1[0-2])$

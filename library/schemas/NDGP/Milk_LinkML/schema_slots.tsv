@@ -1,0 +1,19 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+MilkProductionFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString								True					INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
+MilkProductionFileLayout	General		BETA_HYDROXYBUTYRATE	BETA_HYDROXYBUTYRATE	decimal		MMOL/L MULTIPLIED PER 1000						True								
+MilkProductionFileLayout	General		COUNTRY_OF_ORIGIN	COUNTRY-OF-ORIGIN	WhitespaceMinimizedString								True								
+MilkProductionFileLayout	General		FAT_PROTEIN_CORRECTED_YIELD	FAT_PROTEIN_CORRECTED_YIELD	decimal		KG						True								
+MilkProductionFileLayout	General		FAT_YIELD	FAT_YIELD	decimal		KG						True								
+MilkProductionFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE							True								
+MilkProductionFileLayout	General		HERD_CODE	HERD_CODE	WhitespaceMinimizedString								True								
+MilkProductionFileLayout	General		INTEGER_OF_MILKING_PER_DAY	INTEGER_OF_MILKING_PER_DAY	decimal								True								
+MilkProductionFileLayout	General		LACTOSE_YIELD	LACTOSE_YIELD	decimal		KG						True								
+MilkProductionFileLayout	General		MILKING_PROGRAM	MILKING_PROGRAM	WhitespaceMinimizedString								True								
+MilkProductionFileLayout	General		MILK_UREA_NITROGEN	MILK_UREA_NITROGEN	decimal		MG/KG						True								
+MilkProductionFileLayout	General		MILK_YIELD	MILK_YIELD	decimal		KG						True								
+MilkProductionFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT							True								
+MilkProductionFileLayout	General		PROTEIN_YIELD	PROTEIN_YIELD	decimal		KG						True								
+MilkProductionFileLayout	General		SOMATIC_CELL_COUNT	SOMATIC_CELL_COUNT	decimal		1000/ML						True								
+MilkProductionFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under 'Source of Data' column			
+MilkProductionFileLayout	General		TEST_DATE		DateTime								True								
+MilkProductionFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE							True								

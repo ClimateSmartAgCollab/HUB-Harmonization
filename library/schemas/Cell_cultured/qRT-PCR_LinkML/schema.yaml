@@ -1,0 +1,352 @@
+id: https://example.com/QrtPcr
+name: QrtPcr
+title: qRT-PCR
+description: ''
+version: 0.0.0
+in_language: en
+imports:
+  - linkml:types
+prefixes:
+  linkml: https://w3id.org/linkml/
+classes:
+  QrtPcr:
+    name: QrtPcr
+    title: qRT-PCR
+    description: ''
+    keywords: RDF207
+    slots:
+      - Amp_Status
+      - Baseline_End
+      - Baseline_Start
+      - CT
+      - Cq_Conf
+      - Ct_Mean
+      - Ct_SD
+      - Ct_Threshold
+      - HIGHSD
+      - Reporter
+      - Sample_Name
+      - Target_Name
+      - Tm1
+      - Well
+      - Well_Position
+    slot_usage:
+      Amp_Status:
+        name: Amp_Status
+        rank: 1
+        slot_group: General
+      Baseline_End:
+        name: Baseline_End
+        rank: 2
+        slot_group: General
+      Baseline_Start:
+        name: Baseline_Start
+        rank: 3
+        slot_group: General
+      CT:
+        name: CT
+        rank: 4
+        slot_group: General
+      Cq_Conf:
+        name: Cq_Conf
+        rank: 5
+        slot_group: General
+      Ct_Mean:
+        name: Ct_Mean
+        rank: 6
+        slot_group: General
+      Ct_SD:
+        name: Ct_SD
+        rank: 7
+        slot_group: General
+      Ct_Threshold:
+        name: Ct_Threshold
+        rank: 8
+        slot_group: General
+      HIGHSD:
+        name: HIGHSD
+        rank: 9
+        slot_group: General
+      Reporter:
+        name: Reporter
+        rank: 10
+        slot_group: General
+      Sample_Name:
+        name: Sample_Name
+        rank: 11
+        slot_group: General
+      Target_Name:
+        name: Target_Name
+        rank: 12
+        slot_group: General
+      Tm1:
+        name: Tm1
+        rank: 13
+        slot_group: General
+      Well:
+        name: Well
+        rank: 14
+        slot_group: General
+      Well_Position:
+        name: Well_Position
+        rank: 15
+        slot_group: General
+  Container:
+    name: Container
+    tree_root: true
+    attributes:
+      name: QrtPcrData
+      multivalued: true
+      range: QrtPcr
+      inlined_as_list: true
+slots:
+  Amp_Status:
+    name: Amp_Status
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: Amp_Status
+    description: Indicates whether amplification was detected
+  Baseline_End:
+    name: Baseline_End
+    range: decimal
+    description: End cycle for baseline signal calculation
+  Baseline_Start:
+    name: Baseline_Start
+    range: decimal
+    description: Start cycle for baseline signal calculation
+  CT:
+    name: CT
+    range: decimal
+    description: Threshold cycle where fluorescence exceeds background
+  Cq_Conf:
+    name: Cq_Conf
+    range: decimal
+    description: Confidence in quantification cycle (Cq) value
+  Ct_Mean:
+    name: Ct_Mean
+    range: decimal
+    description: Average CT value from technical replicates
+  Ct_SD:
+    name: Ct_SD
+    range: decimal
+    description: Standard deviation of CT values among replicates
+  Ct_Threshold:
+    name: Ct_Threshold
+    range: decimal
+    description: Fluorescence threshold used to calculate CT
+  HIGHSD:
+    name: HIGHSD
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: HIGHSD
+    description: High standard deviation among technical replicates for a given sample, suggesting inconsistent amplification
+  Reporter:
+    name: Reporter
+    range: WhitespaceMinimizedString
+    description: Fluorescent dye used to detect amplification
+  Sample_Name:
+    name: Sample_Name
+    range: WhitespaceMinimizedString
+    description: Name or ID of the biological or experimental sample
+  Target_Name:
+    name: Target_Name
+    range: WhitespaceMinimizedString
+    description: Target Gene
+  Tm1:
+    name: Tm1
+    range: decimal
+    unit:
+      ucum_code: Celsius
+    description: Melting temperature of the first PCR product peak
+  Well:
+    name: Well
+    range: decimal
+    description: Identifies the specific well on the qPCR plate
+  Well_Position:
+    name: Well_Position
+    range: WhitespaceMinimizedString
+    description: Coordinates of the well
+    pattern: ^[A-Z]*$
+enums:
+  SettingsMenu:
+    name: SettingsMenu
+    title: Regular Expressions
+    permissible_values:
+      AllCaps:
+        title: AllCaps
+        description: Entries of any length with only capital letters
+      AlphaText1-50:
+        title: AlphaText1-50
+        description: Capital or lower case letters only, at least 1 character, and 50 characters max
+      AlphaText0-50:
+        title: AlphaText0-50
+        description: Capital or lower case letters only, 50 characters max
+      FreeText0-50:
+        title: FreeText0-50
+        description: Short text, 50 characters max
+      FreeText0-250:
+        title: FreeText0-250
+        description: Short text, 250 characters max
+      FreeText0-800:
+        title: FreeText0-800
+        description: Long text, 800 characters max
+      FreeText0-4000:
+        title: FreeText0-4000
+        description: Long text, 4000 characters max
+      CanadianPostalCode:
+        title: CanadianPostalCode
+        description: Canadian postal codes (A1A 1A1)
+      ZipCode:
+        title: ZipCode
+        description: USA Zip code
+      EmailAddress:
+        title: EmailAddress
+        description: Email address
+      URL:
+        title: URL
+        description: Secure (https) URL
+      PhoneNumber:
+        title: PhoneNumber
+        description: Phone number with international and area code component.
+      Latitude:
+        title: Latitude
+        description: Latitude in formats S30°15'45.678" or N12°30.999"
+      Longitude:
+        title: Longitude
+        description: Longitude in formats E30°15'45.678" or W90°00.000"
+      ISO_YYYY-MM-DD:
+        title: ISO_YYYY-MM-DD
+        description: year month day
+      ISO_YYYYMMDD:
+        title: ISO_YYYYMMDD
+      ISO_YYYY-MM:
+        title: ISO_YYYY-MM
+        description: year month
+      ISO_YYYY-Www:
+        title: ISO_YYYY-Www
+        description: year week (e.g. W01)
+      ISO_YYYYWww:
+        title: ISO_YYYYWww
+        description: year week (e.g. W01)
+      ISO_YYYY-DDD:
+        title: ISO_YYYY-DDD
+        description: Ordinal date (day number from the year)
+      ISO_YYYYDDD:
+        title: ISO_YYYYDDD
+        description: Ordinal date (day number from the year)
+      ISO_YYYY:
+        title: ISO_YYYY
+        description: year
+      ISO_MM:
+        title: ISO_MM
+        description: month
+      ISO_DD:
+        title: ISO_DD
+        description: day
+      ISO_YYYY-MM-DDTHH.MM.SSZ:
+        title: ISO_YYYY-MM-DDTHH:MM:SSZ
+        description: Date and Time Combined (UTC)
+      ISO_YYYY-MM-DDTHH.MM.SS-hh.mm:
+        title: ISO_YYYY-MM-DDTHH:MM:SS±hh:mm
+        description: Date and Time Combined (with Timezone Offset)
+      ISO_PnYnMnDTnHnMnS:
+        title: ISO_PnYnMnDTnHnMnS
+        description: durations e.g. P3Y6M4DT12H30M5S
+      ISO_HH.MM:
+        title: ISO_HH:MM
+        description: hour, minutes in 24 hour notation
+      ISO_HH.MM.SS:
+        title: ISO_HH:MM:SS
+        description: hour, minutes, seconds in 24 hour notation
+      SLASH_DD_MM_YYYY:
+        title: DD/MM/YYYY
+        description: day, month, year
+      SLASH_DD_MM_YY:
+        title: DD/MM/YY
+        description: day, month, year
+      SLASH_MM_DD_YYYY:
+        title: MM/DD/YYYY
+        description: month, day, year
+      DDMMYYYY:
+        title: DDMMYYYY
+        description: day, month, year
+      MMDDYYYY:
+        title: MMDDYYYY
+        description: month, day, year
+      YYYYMMDD:
+        title: YYYYMMDD
+        description: year, month, day
+      HH.MM.SS:
+        title: HH:MM:SS
+        description: hour, minutes, seconds 12 hour notation AM/PM
+      H.MM_or_HH.MM:
+        title: H:MM or HH:MM
+        description: hour, minutes AM/PM
+  Amp_Status:
+    name: Amp_Status
+    title: Amp_Status
+    permissible_values:
+      Amp:
+        text: Amp
+        title: Amplified
+      No Amp:
+        text: No Amp
+        title: Not amplified
+  HIGHSD:
+    name: HIGHSD
+    title: HIGHSD
+    permissible_values:
+      N:
+        text: N
+        title: No
+      Y:
+        text: Y
+        title: Yes
+types:
+  WhitespaceMinimizedString:
+    name: WhitespaceMinimizedString
+    typeof: string
+    description: 'A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).'
+    base: str
+    uri: xsd:token
+settings:
+  Title_Case: ((?<=\b)[^a-z\W]\w*?|[\W])+
+  UPPER_CASE: '[A-Z\W\d_]*'
+  lower_case: '[a-z\W\d_]*'
+  AllCaps: ^[A-Z]*$
+  AlphaText1-50: ^[A-Za-z]{1,50}$
+  AlphaText0-50: ^[A-Za-z]{0,50}$
+  FreeText0-50: ^.{0,50}$
+  FreeText0-250: ^.{0,250}$
+  FreeText0-800: ^.{0,800}$
+  FreeText0-4000: ^.{0,4000}$
+  CanadianPostalCode: ^[A-Z][0-9][A-Z]\s[0-9][A-Z][0-9]$
+  ZipCode: ^\d{5,6}(?:[-\s]\d{4})?$
+  EmailAddress: ^[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+
+  URL: ^https?\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,}$
+  PhoneNumber: ^\+?\(?\d{2,4}\)?[\d\s-]{3,}$
+  Latitude: ^[NS]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
+  Longitude: ^[WE]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
+  ISO_YYYY-MM-DD: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$
+  ISO_YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
+  ISO_YYYY-MM: ^(\d{4})-(0[1-9]|1[0-2])$
+  ISO_YYYY-Www: ^(?:\d{4})-W(0[1-9]|[1-4][0-9]|5[0-3])$
+  ISO_YYYYWww: ^(?:\d{4})W(0[1-9]|[1-4][0-9]|5[0-3])$
+  ISO_YYYY-DDD: ^(?:\d{4})-(00[1-9]|0[1-9][0-9]|[1-2][0-9]{2}|3[0-5][0-9]|36[0-6])$
+  ISO_YYYYDDD: ^(?:\d{4})(00[1-9]|0[1-9][0-9]|[1-2][0-9]{2}|3[0-5][0-9]|36[0-6])$
+  ISO_YYYY: ^(\d{4})$
+  ISO_MM: ^(0[1-9]|1[0-2])$
+  ISO_DD: ^(0[1-9]|[1-2][0-9]|3[01])$
+  ISO_YYYY-MM-DDTHH.MM.SSZ: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])T([01]\d|2[0-3]):([0-5]\d):([0-5]\d)Z$
+  ISO_YYYY-MM-DDTHH.MM.SS-hh.mm: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])T([01]\d|2[0-3]):([0-5]\d):([0-5]\\d)([+-][01]\\d:[0-5]\d)$
+  ISO_PnYnMnDTnHnMnS: ^P(?!$)((\d+Y)|(\d+.\d+Y)$)?((\d+M)|(\d+.\d+M)$)?((\d+W)|(\d+.\d+W)$)?((\d+D)|(\d+.\d+D)$)?(T(?=\d)((\d+H)|(\d+.\d+H)$)?((\d+M)|(\d+.\d+M)$)?(\d+(.\d+S)?)?)?$
+  ISO_HH.MM: ^([01]\d|2[0-3]):([0-5]\d)$
+  ISO_HH.MM.SS: ^([01]\d|2[0-3]):([0-5]\d):([0-5]\d)$
+  SLASH_DD_MM_YYYY: ^(0[1-9]|[12]\d|3[01])/(0[1-9]|1[0-2])/\d{4}$
+  SLASH_DD_MM_YY: ^(0[1-9]|[12]\d|3[01])/(0[1-9]|1[0-2])/\d{2}$
+  SLASH_MM_DD_YYYY: ^(0[1-9]|1[0-2])/(0[1-9]|[12]\d|3[01])/\d{4}$
+  DDMMYYYY: ^(0[1-9]|[12]\d|3[01])(0[1-9]|1[0-2])\d{4}$
+  MMDDYYYY: ^(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])\d{4}$
+  YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
+  HH.MM.SS: ^(0?[1-9]|1[0-2]):[0-5][0-9]:[0-5][0-9] ?[APMapm]{2}$
+  H.MM_or_HH.MM: ^(0?[1-9]|1[0-2]):[0-5][0-9] ?[APMapm]{2}$

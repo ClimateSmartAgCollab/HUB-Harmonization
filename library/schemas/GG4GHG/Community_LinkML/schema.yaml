@@ -5,7 +5,7 @@ description: Genome Canada community composition data
 version: 0.0.0
 in_language: en
 imports:
-- linkml:types
+  - linkml:types
 prefixes:
   linkml: https://w3id.org/linkml/
 classes:
@@ -15,825 +15,1030 @@ classes:
     description: Genome Canada community composition data
     keywords: RDF106
     slots:
-    - Achillea.millefolium
-    - Agropyron.caninum
-    - Agropyron.cristatum
-    - Agroseris.glauca
-    - Allium.stellatum
-    - Allium.textile
-    - Ambrosia.psilostachya
-    - Amelanchier.alnifolia
-    - Andropogon.gerardii
-    - Androsace.septentrionalis
-    - Anemonastrum_canadense
-    - Anenome.cylindrica
-    - Anenome.multifida
-    - Antecedant.Precip
-    - Antecedant.Temp
-    - Antennaria.neglecta
-    - Antennaria.parvifolia
-    - Anticlea.elegans
-    - Arabis
-    - Arctostaphylos.uva-ursi
-    - Argentina.anserina
-    - Arnica.fulgens
-    - Artemisia
-    - Artemisia.campestris
-    - Artemisia.cana
-    - Artemisia.frigida
-    - Artemisia.ludoviciana
-    - Asclepias.speciosa
-    - Aspect
-    - Aster.laevis
-    - Aster.unknown
-    - Astragalus
-    - Astragalus.agrestis
-    - Astragalus.bisulcatus
-    - Astragalus.canadensis
-    - Astragalus.cicer
-    - Astragalus.missouriensis
-    - Astragalus.pectinatus
-    - Bare.Ground
-    - Bouteloua.gracilis
-    - Bromus.inermis
-    - Calamagrostis.stricta
-    - Calamovilfa.longifolia
-    - Campanula.alaskana
-    - Carex
-    - Cerastium.arvense
-    - Chenopodiaceae
-    - Chenopodium.album
-    - Cirsium.arvense
-    - Cirsium.arvense.2
-    - Cirsium.flodmanii
-    - Collomia.linearis
-    - Comandra.umbellata
-    - Crisium
-    - Current.Precip
-    - Current.Temp
-    - Dalea.candida
-    - Dalea.purpurea
-    - Date
-    - Descurainia.sophia
-    - Elaeagnus.commutata
-    - Elymus.repens
-    - Elymus.trachycaulus.subsecundus
-    - Elymus.trachycaulus.trachycaulus
-    - Equisetum
-    - Erigeron.caespitosus
-    - Erigeron.canadensis
-    - Erigeron.glabellus
-    - Eriogonum.flavum
-    - Eriogonum.pauciflorum
-    - Euphorbia.virgata
-    - Festuca.hallii
-    - Festuca.ovina
-    - Fragaria.virginiana
-    - Gaillardia.aristata
-    - Galium.boreale
-    - Geum.triflorum
-    - Glycyrrhiza.lepidota
-    - Grindelia.squarrosa
-    - Gutierrezia.sarothrae
-    - Hairy.grass.unknown
-    - Hedysarum.alpinum
-    - Helianthus.maximiliani
-    - Helianthus.nuttallii
-    - Helianthus.pauciflorus
-    - Helictochloa.hookeri
-    - Hesperostipa.comata
-    - Hesperostipa.curtiseta
-    - Hesperostipa.spartea
-    - Heterotheca.villosa
-    - Heuchera.richardsonii
-    - Houstonia.longifolia
-    - Hymenoxys.richardsonii
-    - Iva.axillaris
-    - Juniperus.horizontalis
-    - Koeleria.macrantha
-    - Lactuca.pulchella
-    - Ladeania.lanceolata
-    - Lathyrus
-    - Lathyrus.ochroleucus
-    - Lathyrus.venosus
-    - Lepidum.densiflorum
-    - Liatris.ligulistylis
-    - Liatris.punctata
-    - Lilium.philadelphicum
-    - Linum.lewisii
-    - Linum.rigidum
-    - Lithospermum.canescens
-    - Litter
-    - Lygodesmia.juncea
-    - Maianthemum.stellatum
-    - Medicago
-    - Medicago.lupulina
-    - Medicago.sativa
-    - Melilotus.albus
-    - Melilotus.officinalis
-    - Monarda.fistulosa
-    - Muhlenbergia
-    - Muhlenbergia.cuspidata
-    - Muhlenbergia.richardsonis
-    - Nassella.viridula
-    - Number
-    - Observer
-    - Oenothera.serrulata
-    - Oenothera.suffrutescens
-    - Opuntia.fragilis
-    - Opuntia.polycantha
-    - Orthocarpus.luteus
-    - Oxytropis.lambertii
-    - Panicum.virgatum
-    - Pascopyrum.smithii
-    - Pediomelum.agrophyllum
-    - Pediomelum.esculentum
-    - Penstemon
-    - Penstemon.gracilis
-    - Persicaria.amphibia
-    - Phlox.hodii
-    - Physalis.virginiana
-    - Plantago
-    - Plantago.major
-    - Plantago.patagonica
-    - Plot
-    - Poa.interior
-    - Poa.pratensis
-    - Poa.secunda
-    - Poa.unknown
-    - Poaceae.unidentified
-    - Polygala.alba
-    - Polygala.senega
-    - Populus.tremuloides
-    - Potentilla
-    - Potentilla.argenta
-    - Potentilla.hippiana
-    - Potentilla.pensylvanica
-    - Prunus.pumila
-    - Prunus.virginiana
-    - Pulsatilla.nuttalliana
-    - Ratibida.columnifera
-    - Replicate
-    - Rosa.acicularis
-    - Rosa.arkansana
-    - Rosa.woodsii
-    - Rudbeckia.hirta
-    - Salix
-    - Schizachyrium.scoparium
-    - Shepherdia.argentea
-    - Silene.drummondii
-    - Silver.trifoliate.unkown
-    - Site
-    - Slope
-    - Solidago
-    - Solidago.canadensis
-    - Solidago.missouriensis
-    - Solidago.rigida
-    - Sonchus.arvensis
-    - Species
-    - Sphaeralcea.coccinea
-    - Sporobolus.cryptandrus
-    - Sporobolus.heterolepis
-    - Sporobolus.michauxianus
-    - Stachys
-    - Stipa.spartea
-    - Symphoricarpos.occidentalis
-    - Symphyotrichum
-    - Symphyotrichum.boreale
-    - Symphyotrichum.ericoides
-    - Symphyotrichum.falcatum
-    - Symphyotrichum.laeve
-    - Symphyotrichum.lanceolatum
-    - Taraxacum.officinale
-    - Thalictrum.venulosum
-    - Thermopsis.rhombifolia
-    - Toadflaxlikeplant
-    - Toxicoscordion.venenosum
-    - Tragopogon.dubius
-    - Trifolium
-    - Trifolium.pratense
-    - Trifolium.repens
-    - Ulmus
-    - Vicia
-    - Vicia.americana
-    - Viola.adunca
-    - Viola.vallicola
-    - Xanthisma.spinulosum
-    - Zizia.aptera
+      - Achillea.millefolium
+      - Agropyron.caninum
+      - Agropyron.cristatum
+      - Agroseris.glauca
+      - Allium.stellatum
+      - Allium.textile
+      - Ambrosia.psilostachya
+      - Amelanchier.alnifolia
+      - Andropogon.gerardii
+      - Androsace.septentrionalis
+      - Anemonastrum_canadense
+      - Anenome.cylindrica
+      - Anenome.multifida
+      - Antecedant.Precip
+      - Antecedant.Temp
+      - Antennaria.neglecta
+      - Antennaria.parvifolia
+      - Anticlea.elegans
+      - Arabis
+      - Arctostaphylos.uva-ursi
+      - Argentina.anserina
+      - Arnica.fulgens
+      - Artemisia
+      - Artemisia.campestris
+      - Artemisia.cana
+      - Artemisia.frigida
+      - Artemisia.ludoviciana
+      - Asclepias.speciosa
+      - Aspect
+      - Aster.laevis
+      - Aster.unknown
+      - Astragalus
+      - Astragalus.agrestis
+      - Astragalus.bisulcatus
+      - Astragalus.canadensis
+      - Astragalus.cicer
+      - Astragalus.missouriensis
+      - Astragalus.pectinatus
+      - Bare.Ground
+      - Bouteloua.gracilis
+      - Bromus.inermis
+      - Calamagrostis.stricta
+      - Calamovilfa.longifolia
+      - Campanula.alaskana
+      - Carex
+      - Cerastium.arvense
+      - Chenopodiaceae
+      - Chenopodium.album
+      - Cirsium.arvense
+      - Cirsium.arvense.2
+      - Cirsium.flodmanii
+      - Collomia.linearis
+      - Comandra.umbellata
+      - Crisium
+      - Current.Precip
+      - Current.Temp
+      - Dalea.candida
+      - Dalea.purpurea
+      - Date
+      - Descurainia.sophia
+      - Elaeagnus.commutata
+      - Elymus.repens
+      - Elymus.trachycaulus.subsecundus
+      - Elymus.trachycaulus.trachycaulus
+      - Equisetum
+      - Erigeron.caespitosus
+      - Erigeron.canadensis
+      - Erigeron.glabellus
+      - Eriogonum.flavum
+      - Eriogonum.pauciflorum
+      - Euphorbia.virgata
+      - Festuca.hallii
+      - Festuca.ovina
+      - Fragaria.virginiana
+      - Gaillardia.aristata
+      - Galium.boreale
+      - Geum.triflorum
+      - Glycyrrhiza.lepidota
+      - Grindelia.squarrosa
+      - Gutierrezia.sarothrae
+      - Hairy.grass.unknown
+      - Hedysarum.alpinum
+      - Helianthus.maximiliani
+      - Helianthus.nuttallii
+      - Helianthus.pauciflorus
+      - Helictochloa.hookeri
+      - Hesperostipa.comata
+      - Hesperostipa.curtiseta
+      - Hesperostipa.spartea
+      - Heterotheca.villosa
+      - Heuchera.richardsonii
+      - Houstonia.longifolia
+      - Hymenoxys.richardsonii
+      - Iva.axillaris
+      - Juniperus.horizontalis
+      - Koeleria.macrantha
+      - Lactuca.pulchella
+      - Ladeania.lanceolata
+      - Lathyrus
+      - Lathyrus.ochroleucus
+      - Lathyrus.venosus
+      - Lepidum.densiflorum
+      - Liatris.ligulistylis
+      - Liatris.punctata
+      - Lilium.philadelphicum
+      - Linum.lewisii
+      - Linum.rigidum
+      - Lithospermum.canescens
+      - Litter
+      - Lygodesmia.juncea
+      - Maianthemum.stellatum
+      - Medicago
+      - Medicago.lupulina
+      - Medicago.sativa
+      - Melilotus.albus
+      - Melilotus.officinalis
+      - Monarda.fistulosa
+      - Muhlenbergia
+      - Muhlenbergia.cuspidata
+      - Muhlenbergia.richardsonis
+      - Nassella.viridula
+      - Number
+      - Observer
+      - Oenothera.serrulata
+      - Oenothera.suffrutescens
+      - Opuntia.fragilis
+      - Opuntia.polycantha
+      - Orthocarpus.luteus
+      - Oxytropis.lambertii
+      - Panicum.virgatum
+      - Pascopyrum.smithii
+      - Pediomelum.agrophyllum
+      - Pediomelum.esculentum
+      - Penstemon
+      - Penstemon.gracilis
+      - Persicaria.amphibia
+      - Phlox.hodii
+      - Physalis.virginiana
+      - Plantago
+      - Plantago.major
+      - Plantago.patagonica
+      - Plot
+      - Poa.interior
+      - Poa.pratensis
+      - Poa.secunda
+      - Poa.unknown
+      - Poaceae.unidentified
+      - Polygala.alba
+      - Polygala.senega
+      - Populus.tremuloides
+      - Potentilla
+      - Potentilla.argenta
+      - Potentilla.hippiana
+      - Potentilla.pensylvanica
+      - Prunus.pumila
+      - Prunus.virginiana
+      - Pulsatilla.nuttalliana
+      - Ratibida.columnifera
+      - Replicate
+      - Rosa.acicularis
+      - Rosa.arkansana
+      - Rosa.woodsii
+      - Rudbeckia.hirta
+      - Salix
+      - Schizachyrium.scoparium
+      - Shepherdia.argentea
+      - Silene.drummondii
+      - Silver.trifoliate.unkown
+      - Site
+      - Slope
+      - Solidago
+      - Solidago.canadensis
+      - Solidago.missouriensis
+      - Solidago.rigida
+      - Sonchus.arvensis
+      - Species
+      - Sphaeralcea.coccinea
+      - Sporobolus.cryptandrus
+      - Sporobolus.heterolepis
+      - Sporobolus.michauxianus
+      - Stachys
+      - Stipa.spartea
+      - Symphoricarpos.occidentalis
+      - Symphyotrichum
+      - Symphyotrichum.boreale
+      - Symphyotrichum.ericoides
+      - Symphyotrichum.falcatum
+      - Symphyotrichum.laeve
+      - Symphyotrichum.lanceolatum
+      - Taraxacum.officinale
+      - Thalictrum.venulosum
+      - Thermopsis.rhombifolia
+      - Toadflaxlikeplant
+      - Toxicoscordion.venenosum
+      - Tragopogon.dubius
+      - Trifolium
+      - Trifolium.pratense
+      - Trifolium.repens
+      - Ulmus
+      - Vicia
+      - Vicia.americana
+      - Viola.adunca
+      - Viola.vallicola
+      - Xanthisma.spinulosum
+      - Zizia.aptera
     slot_usage:
       Achillea.millefolium:
+        name: Achillea.millefolium
         rank: 1
         slot_group: General
       Agropyron.caninum:
+        name: Agropyron.caninum
         rank: 2
         slot_group: General
       Agropyron.cristatum:
+        name: Agropyron.cristatum
         rank: 3
         slot_group: General
       Agroseris.glauca:
+        name: Agroseris.glauca
         rank: 4
         slot_group: General
       Allium.stellatum:
+        name: Allium.stellatum
         rank: 5
         slot_group: General
       Allium.textile:
+        name: Allium.textile
         rank: 6
         slot_group: General
       Ambrosia.psilostachya:
+        name: Ambrosia.psilostachya
         rank: 7
         slot_group: General
       Amelanchier.alnifolia:
+        name: Amelanchier.alnifolia
         rank: 8
         slot_group: General
       Andropogon.gerardii:
+        name: Andropogon.gerardii
         rank: 9
         slot_group: General
       Androsace.septentrionalis:
+        name: Androsace.septentrionalis
         rank: 10
         slot_group: General
       Anemonastrum_canadense:
+        name: Anemonastrum_canadense
         rank: 11
         slot_group: General
       Anenome.cylindrica:
+        name: Anenome.cylindrica
         rank: 12
         slot_group: General
       Anenome.multifida:
+        name: Anenome.multifida
         rank: 13
         slot_group: General
       Antecedant.Precip:
+        name: Antecedant.Precip
         rank: 14
         slot_group: General
       Antecedant.Temp:
+        name: Antecedant.Temp
         rank: 15
         slot_group: General
       Antennaria.neglecta:
+        name: Antennaria.neglecta
         rank: 16
         slot_group: General
       Antennaria.parvifolia:
+        name: Antennaria.parvifolia
         rank: 17
         slot_group: General
       Anticlea.elegans:
+        name: Anticlea.elegans
         rank: 18
         slot_group: General
       Arabis:
+        name: Arabis
         rank: 19
         slot_group: General
       Arctostaphylos.uva-ursi:
+        name: Arctostaphylos.uva-ursi
         rank: 20
         slot_group: General
       Argentina.anserina:
+        name: Argentina.anserina
         rank: 21
         slot_group: General
       Arnica.fulgens:
+        name: Arnica.fulgens
         rank: 22
         slot_group: General
       Artemisia:
+        name: Artemisia
         rank: 23
         slot_group: General
       Artemisia.campestris:
+        name: Artemisia.campestris
         rank: 24
         slot_group: General
       Artemisia.cana:
+        name: Artemisia.cana
         rank: 25
         slot_group: General
       Artemisia.frigida:
+        name: Artemisia.frigida
         rank: 26
         slot_group: General
       Artemisia.ludoviciana:
+        name: Artemisia.ludoviciana
         rank: 27
         slot_group: General
       Asclepias.speciosa:
+        name: Asclepias.speciosa
         rank: 28
         slot_group: General
       Aspect:
+        name: Aspect
         rank: 29
         slot_group: General
       Aster.laevis:
+        name: Aster.laevis
         rank: 30
         slot_group: General
       Aster.unknown:
+        name: Aster.unknown
         rank: 31
         slot_group: General
       Astragalus:
+        name: Astragalus
         rank: 32
         slot_group: General
       Astragalus.agrestis:
+        name: Astragalus.agrestis
         rank: 33
         slot_group: General
       Astragalus.bisulcatus:
+        name: Astragalus.bisulcatus
         rank: 34
         slot_group: General
       Astragalus.canadensis:
+        name: Astragalus.canadensis
         rank: 35
         slot_group: General
       Astragalus.cicer:
+        name: Astragalus.cicer
         rank: 36
         slot_group: General
       Astragalus.missouriensis:
+        name: Astragalus.missouriensis
         rank: 37
         slot_group: General
       Astragalus.pectinatus:
+        name: Astragalus.pectinatus
         rank: 38
         slot_group: General
       Bare.Ground:
+        name: Bare.Ground
         rank: 39
         slot_group: General
       Bouteloua.gracilis:
+        name: Bouteloua.gracilis
         rank: 40
         slot_group: General
       Bromus.inermis:
+        name: Bromus.inermis
         rank: 41
         slot_group: General
       Calamagrostis.stricta:
+        name: Calamagrostis.stricta
         rank: 42
         slot_group: General
       Calamovilfa.longifolia:
+        name: Calamovilfa.longifolia
         rank: 43
         slot_group: General
       Campanula.alaskana:
+        name: Campanula.alaskana
         rank: 44
         slot_group: General
       Carex:
+        name: Carex
         rank: 45
         slot_group: General
       Cerastium.arvense:
+        name: Cerastium.arvense
         rank: 46
         slot_group: General
       Chenopodiaceae:
+        name: Chenopodiaceae
         rank: 47
         slot_group: General
       Chenopodium.album:
+        name: Chenopodium.album
         rank: 48
         slot_group: General
       Cirsium.arvense:
+        name: Cirsium.arvense
         rank: 49
         slot_group: General
       Cirsium.arvense.2:
+        name: Cirsium.arvense.2
         rank: 50
         slot_group: General
       Cirsium.flodmanii:
+        name: Cirsium.flodmanii
         rank: 51
         slot_group: General
       Collomia.linearis:
+        name: Collomia.linearis
         rank: 52
         slot_group: General
       Comandra.umbellata:
+        name: Comandra.umbellata
         rank: 53
         slot_group: General
       Crisium:
+        name: Crisium
         rank: 54
         slot_group: General
       Current.Precip:
+        name: Current.Precip
         rank: 55
         slot_group: General
       Current.Temp:
+        name: Current.Temp
         rank: 56
         slot_group: General
       Dalea.candida:
+        name: Dalea.candida
         rank: 57
         slot_group: General
       Dalea.purpurea:
+        name: Dalea.purpurea
         rank: 58
         slot_group: General
       Date:
+        name: Date
         rank: 59
         slot_group: General
       Descurainia.sophia:
+        name: Descurainia.sophia
         rank: 60
         slot_group: General
       Elaeagnus.commutata:
+        name: Elaeagnus.commutata
         rank: 61
         slot_group: General
       Elymus.repens:
+        name: Elymus.repens
         rank: 62
         slot_group: General
       Elymus.trachycaulus.subsecundus:
+        name: Elymus.trachycaulus.subsecundus
         rank: 63
         slot_group: General
       Elymus.trachycaulus.trachycaulus:
+        name: Elymus.trachycaulus.trachycaulus
         rank: 64
         slot_group: General
       Equisetum:
+        name: Equisetum
         rank: 65
         slot_group: General
       Erigeron.caespitosus:
+        name: Erigeron.caespitosus
         rank: 66
         slot_group: General
       Erigeron.canadensis:
+        name: Erigeron.canadensis
         rank: 67
         slot_group: General
       Erigeron.glabellus:
+        name: Erigeron.glabellus
         rank: 68
         slot_group: General
       Eriogonum.flavum:
+        name: Eriogonum.flavum
         rank: 69
         slot_group: General
       Eriogonum.pauciflorum:
+        name: Eriogonum.pauciflorum
         rank: 70
         slot_group: General
       Euphorbia.virgata:
+        name: Euphorbia.virgata
         rank: 71
         slot_group: General
       Festuca.hallii:
+        name: Festuca.hallii
         rank: 72
         slot_group: General
       Festuca.ovina:
+        name: Festuca.ovina
         rank: 73
         slot_group: General
       Fragaria.virginiana:
+        name: Fragaria.virginiana
         rank: 74
         slot_group: General
       Gaillardia.aristata:
+        name: Gaillardia.aristata
         rank: 75
         slot_group: General
       Galium.boreale:
+        name: Galium.boreale
         rank: 76
         slot_group: General
       Geum.triflorum:
+        name: Geum.triflorum
         rank: 77
         slot_group: General
       Glycyrrhiza.lepidota:
+        name: Glycyrrhiza.lepidota
         rank: 78
         slot_group: General
       Grindelia.squarrosa:
+        name: Grindelia.squarrosa
         rank: 79
         slot_group: General
       Gutierrezia.sarothrae:
+        name: Gutierrezia.sarothrae
         rank: 80
         slot_group: General
       Hairy.grass.unknown:
+        name: Hairy.grass.unknown
         rank: 81
         slot_group: General
       Hedysarum.alpinum:
+        name: Hedysarum.alpinum
         rank: 82
         slot_group: General
       Helianthus.maximiliani:
+        name: Helianthus.maximiliani
         rank: 83
         slot_group: General
       Helianthus.nuttallii:
+        name: Helianthus.nuttallii
         rank: 84
         slot_group: General
       Helianthus.pauciflorus:
+        name: Helianthus.pauciflorus
         rank: 85
         slot_group: General
       Helictochloa.hookeri:
+        name: Helictochloa.hookeri
         rank: 86
         slot_group: General
       Hesperostipa.comata:
+        name: Hesperostipa.comata
         rank: 87
         slot_group: General
       Hesperostipa.curtiseta:
+        name: Hesperostipa.curtiseta
         rank: 88
         slot_group: General
       Hesperostipa.spartea:
+        name: Hesperostipa.spartea
         rank: 89
         slot_group: General
       Heterotheca.villosa:
+        name: Heterotheca.villosa
         rank: 90
         slot_group: General
       Heuchera.richardsonii:
+        name: Heuchera.richardsonii
         rank: 91
         slot_group: General
       Houstonia.longifolia:
+        name: Houstonia.longifolia
         rank: 92
         slot_group: General
       Hymenoxys.richardsonii:
+        name: Hymenoxys.richardsonii
         rank: 93
         slot_group: General
       Iva.axillaris:
+        name: Iva.axillaris
         rank: 94
         slot_group: General
       Juniperus.horizontalis:
+        name: Juniperus.horizontalis
         rank: 95
         slot_group: General
       Koeleria.macrantha:
+        name: Koeleria.macrantha
         rank: 96
         slot_group: General
       Lactuca.pulchella:
+        name: Lactuca.pulchella
         rank: 97
         slot_group: General
       Ladeania.lanceolata:
+        name: Ladeania.lanceolata
         rank: 98
         slot_group: General
       Lathyrus:
+        name: Lathyrus
         rank: 99
         slot_group: General
       Lathyrus.ochroleucus:
+        name: Lathyrus.ochroleucus
         rank: 100
         slot_group: General
       Lathyrus.venosus:
+        name: Lathyrus.venosus
         rank: 101
         slot_group: General
       Lepidum.densiflorum:
+        name: Lepidum.densiflorum
         rank: 102
         slot_group: General
       Liatris.ligulistylis:
+        name: Liatris.ligulistylis
         rank: 103
         slot_group: General
       Liatris.punctata:
+        name: Liatris.punctata
         rank: 104
         slot_group: General
       Lilium.philadelphicum:
+        name: Lilium.philadelphicum
         rank: 105
         slot_group: General
       Linum.lewisii:
+        name: Linum.lewisii
         rank: 106
         slot_group: General
       Linum.rigidum:
+        name: Linum.rigidum
         rank: 107
         slot_group: General
       Lithospermum.canescens:
+        name: Lithospermum.canescens
         rank: 108
         slot_group: General
       Litter:
+        name: Litter
         rank: 109
         slot_group: General
       Lygodesmia.juncea:
+        name: Lygodesmia.juncea
         rank: 110
         slot_group: General
       Maianthemum.stellatum:
+        name: Maianthemum.stellatum
         rank: 111
         slot_group: General
       Medicago:
+        name: Medicago
         rank: 112
         slot_group: General
       Medicago.lupulina:
+        name: Medicago.lupulina
         rank: 113
         slot_group: General
       Medicago.sativa:
+        name: Medicago.sativa
         rank: 114
         slot_group: General
       Melilotus.albus:
+        name: Melilotus.albus
         rank: 115
         slot_group: General
       Melilotus.officinalis:
+        name: Melilotus.officinalis
         rank: 116
         slot_group: General
       Monarda.fistulosa:
+        name: Monarda.fistulosa
         rank: 117
         slot_group: General
       Muhlenbergia:
+        name: Muhlenbergia
         rank: 118
         slot_group: General
       Muhlenbergia.cuspidata:
+        name: Muhlenbergia.cuspidata
         rank: 119
         slot_group: General
       Muhlenbergia.richardsonis:
+        name: Muhlenbergia.richardsonis
         rank: 120
         slot_group: General
       Nassella.viridula:
+        name: Nassella.viridula
         rank: 121
         slot_group: General
       Number:
+        name: Number
         rank: 122
         slot_group: General
       Observer:
+        name: Observer
         rank: 123
         slot_group: General
       Oenothera.serrulata:
+        name: Oenothera.serrulata
         rank: 124
         slot_group: General
       Oenothera.suffrutescens:
+        name: Oenothera.suffrutescens
         rank: 125
         slot_group: General
       Opuntia.fragilis:
+        name: Opuntia.fragilis
         rank: 126
         slot_group: General
       Opuntia.polycantha:
+        name: Opuntia.polycantha
         rank: 127
         slot_group: General
       Orthocarpus.luteus:
+        name: Orthocarpus.luteus
         rank: 128
         slot_group: General
       Oxytropis.lambertii:
+        name: Oxytropis.lambertii
         rank: 129
         slot_group: General
       Panicum.virgatum:
+        name: Panicum.virgatum
         rank: 130
         slot_group: General
       Pascopyrum.smithii:
+        name: Pascopyrum.smithii
         rank: 131
         slot_group: General
       Pediomelum.agrophyllum:
+        name: Pediomelum.agrophyllum
         rank: 132
         slot_group: General
       Pediomelum.esculentum:
+        name: Pediomelum.esculentum
         rank: 133
         slot_group: General
       Penstemon:
+        name: Penstemon
         rank: 134
         slot_group: General
       Penstemon.gracilis:
+        name: Penstemon.gracilis
         rank: 135
         slot_group: General
       Persicaria.amphibia:
+        name: Persicaria.amphibia
         rank: 136
         slot_group: General
       Phlox.hodii:
+        name: Phlox.hodii
         rank: 137
         slot_group: General
       Physalis.virginiana:
+        name: Physalis.virginiana
         rank: 138
         slot_group: General
       Plantago:
+        name: Plantago
         rank: 139
         slot_group: General
       Plantago.major:
+        name: Plantago.major
         rank: 140
         slot_group: General
       Plantago.patagonica:
+        name: Plantago.patagonica
         rank: 141
         slot_group: General
       Plot:
+        name: Plot
         rank: 142
         slot_group: General
       Poa.interior:
+        name: Poa.interior
         rank: 143
         slot_group: General
       Poa.pratensis:
+        name: Poa.pratensis
         rank: 144
         slot_group: General
       Poa.secunda:
+        name: Poa.secunda
         rank: 145
         slot_group: General
       Poa.unknown:
+        name: Poa.unknown
         rank: 146
         slot_group: General
       Poaceae.unidentified:
+        name: Poaceae.unidentified
         rank: 147
         slot_group: General
       Polygala.alba:
+        name: Polygala.alba
         rank: 148
         slot_group: General
       Polygala.senega:
+        name: Polygala.senega
         rank: 149
         slot_group: General
       Populus.tremuloides:
+        name: Populus.tremuloides
         rank: 150
         slot_group: General
       Potentilla:
+        name: Potentilla
         rank: 151
         slot_group: General
       Potentilla.argenta:
+        name: Potentilla.argenta
         rank: 152
         slot_group: General
       Potentilla.hippiana:
+        name: Potentilla.hippiana
         rank: 153
         slot_group: General
       Potentilla.pensylvanica:
+        name: Potentilla.pensylvanica
         rank: 154
         slot_group: General
       Prunus.pumila:
+        name: Prunus.pumila
         rank: 155
         slot_group: General
       Prunus.virginiana:
+        name: Prunus.virginiana
         rank: 156
         slot_group: General
       Pulsatilla.nuttalliana:
+        name: Pulsatilla.nuttalliana
         rank: 157
         slot_group: General
       Ratibida.columnifera:
+        name: Ratibida.columnifera
         rank: 158
         slot_group: General
       Replicate:
+        name: Replicate
         rank: 159
         slot_group: General
       Rosa.acicularis:
+        name: Rosa.acicularis
         rank: 160
         slot_group: General
       Rosa.arkansana:
+        name: Rosa.arkansana
         rank: 161
         slot_group: General
       Rosa.woodsii:
+        name: Rosa.woodsii
         rank: 162
         slot_group: General
       Rudbeckia.hirta:
+        name: Rudbeckia.hirta
         rank: 163
         slot_group: General
       Salix:
+        name: Salix
         rank: 164
         slot_group: General
       Schizachyrium.scoparium:
+        name: Schizachyrium.scoparium
         rank: 165
         slot_group: General
       Shepherdia.argentea:
+        name: Shepherdia.argentea
         rank: 166
         slot_group: General
       Silene.drummondii:
+        name: Silene.drummondii
         rank: 167
         slot_group: General
       Silver.trifoliate.unkown:
+        name: Silver.trifoliate.unkown
         rank: 168
         slot_group: General
       Site:
+        name: Site
         rank: 169
         slot_group: General
       Slope:
+        name: Slope
         rank: 170
         slot_group: General
       Solidago:
+        name: Solidago
         rank: 171
         slot_group: General
       Solidago.canadensis:
+        name: Solidago.canadensis
         rank: 172
         slot_group: General
       Solidago.missouriensis:
+        name: Solidago.missouriensis
         rank: 173
         slot_group: General
       Solidago.rigida:
+        name: Solidago.rigida
         rank: 174
         slot_group: General
       Sonchus.arvensis:
+        name: Sonchus.arvensis
         rank: 175
         slot_group: General
       Species:
+        name: Species
         rank: 176
         slot_group: General
       Sphaeralcea.coccinea:
+        name: Sphaeralcea.coccinea
         rank: 177
         slot_group: General
       Sporobolus.cryptandrus:
+        name: Sporobolus.cryptandrus
         rank: 178
         slot_group: General
       Sporobolus.heterolepis:
+        name: Sporobolus.heterolepis
         rank: 179
         slot_group: General
       Sporobolus.michauxianus:
+        name: Sporobolus.michauxianus
         rank: 180
         slot_group: General
       Stachys:
+        name: Stachys
         rank: 181
         slot_group: General
       Stipa.spartea:
+        name: Stipa.spartea
         rank: 182
         slot_group: General
       Symphoricarpos.occidentalis:
+        name: Symphoricarpos.occidentalis
         rank: 183
         slot_group: General
       Symphyotrichum:
+        name: Symphyotrichum
         rank: 184
         slot_group: General
       Symphyotrichum.boreale:
+        name: Symphyotrichum.boreale
         rank: 185
         slot_group: General
       Symphyotrichum.ericoides:
+        name: Symphyotrichum.ericoides
         rank: 186
         slot_group: General
       Symphyotrichum.falcatum:
+        name: Symphyotrichum.falcatum
         rank: 187
         slot_group: General
       Symphyotrichum.laeve:
+        name: Symphyotrichum.laeve
         rank: 188
         slot_group: General
       Symphyotrichum.lanceolatum:
+        name: Symphyotrichum.lanceolatum
         rank: 189
         slot_group: General
       Taraxacum.officinale:
+        name: Taraxacum.officinale
         rank: 190
         slot_group: General
       Thalictrum.venulosum:
+        name: Thalictrum.venulosum
         rank: 191
         slot_group: General
       Thermopsis.rhombifolia:
+        name: Thermopsis.rhombifolia
         rank: 192
         slot_group: General
       Toadflaxlikeplant:
+        name: Toadflaxlikeplant
         rank: 193
         slot_group: General
       Toxicoscordion.venenosum:
+        name: Toxicoscordion.venenosum
         rank: 194
         slot_group: General
       Tragopogon.dubius:
+        name: Tragopogon.dubius
         rank: 195
         slot_group: General
       Trifolium:
+        name: Trifolium
         rank: 196
         slot_group: General
       Trifolium.pratense:
+        name: Trifolium.pratense
         rank: 197
         slot_group: General
       Trifolium.repens:
+        name: Trifolium.repens
         rank: 198
         slot_group: General
       Ulmus:
+        name: Ulmus
         rank: 199
         slot_group: General
       Vicia:
+        name: Vicia
         rank: 200
         slot_group: General
       Vicia.americana:
+        name: Vicia.americana
         rank: 201
         slot_group: General
       Viola.adunca:
+        name: Viola.adunca
         rank: 202
         slot_group: General
       Viola.vallicola:
+        name: Viola.vallicola
         rank: 203
         slot_group: General
       Xanthisma.spinulosum:
+        name: Xanthisma.spinulosum
         rank: 204
         slot_group: General
       Zizia.aptera:
+        name: Zizia.aptera
         rank: 205
         slot_group: General
   Container:
@@ -847,1036 +1052,1036 @@ classes:
 slots:
   Achillea.millefolium:
     name: Achillea.millefolium
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Agropyron.caninum:
     name: Agropyron.caninum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Agropyron.cristatum:
     name: Agropyron.cristatum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Agroseris.glauca:
     name: Agroseris.glauca
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Allium.stellatum:
     name: Allium.stellatum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Allium.textile:
     name: Allium.textile
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Ambrosia.psilostachya:
     name: Ambrosia.psilostachya
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Amelanchier.alnifolia:
     name: Amelanchier.alnifolia
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Andropogon.gerardii:
     name: Andropogon.gerardii
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Androsace.septentrionalis:
     name: Androsace.septentrionalis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Anemonastrum_canadense:
     name: Anemonastrum_canadense
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Anenome.cylindrica:
     name: Anenome.cylindrica
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Anenome.multifida:
     name: Anenome.multifida
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Antecedant.Precip:
     name: Antecedant.Precip
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Antecedant.Temp:
     name: Antecedant.Temp
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^[-+]?\d*\.?\d+$
   Antennaria.neglecta:
     name: Antennaria.neglecta
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Antennaria.parvifolia:
     name: Antennaria.parvifolia
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Anticlea.elegans:
     name: Anticlea.elegans
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Arabis:
     name: Arabis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Arctostaphylos.uva-ursi:
     name: Arctostaphylos.uva-ursi
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Argentina.anserina:
     name: Argentina.anserina
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Arnica.fulgens:
     name: Arnica.fulgens
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Artemisia:
     name: Artemisia
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Artemisia.campestris:
     name: Artemisia.campestris
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Artemisia.cana:
     name: Artemisia.cana
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Artemisia.frigida:
     name: Artemisia.frigida
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Artemisia.ludoviciana:
     name: Artemisia.ludoviciana
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Asclepias.speciosa:
     name: Asclepias.speciosa
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Aspect:
     name: Aspect
-    required: true
     any_of:
-    - range: WhitespaceMinimizedString
-    - range: Aspect
+      - range: WhitespaceMinimizedString
+      - range: Aspect
+    required: true
     pattern: ^.{0,50}$
   Aster.laevis:
     name: Aster.laevis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Aster.unknown:
     name: Aster.unknown
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Astragalus:
     name: Astragalus
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Astragalus.agrestis:
     name: Astragalus.agrestis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Astragalus.bisulcatus:
     name: Astragalus.bisulcatus
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Astragalus.canadensis:
     name: Astragalus.canadensis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Astragalus.cicer:
     name: Astragalus.cicer
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Astragalus.missouriensis:
     name: Astragalus.missouriensis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Astragalus.pectinatus:
     name: Astragalus.pectinatus
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Bare.Ground:
     name: Bare.Ground
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^[-+]?\d*\.?\d+$
   Bouteloua.gracilis:
     name: Bouteloua.gracilis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Bromus.inermis:
     name: Bromus.inermis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Calamagrostis.stricta:
     name: Calamagrostis.stricta
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Calamovilfa.longifolia:
     name: Calamovilfa.longifolia
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Campanula.alaskana:
     name: Campanula.alaskana
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Carex:
     name: Carex
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Cerastium.arvense:
     name: Cerastium.arvense
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Chenopodiaceae:
     name: Chenopodiaceae
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Chenopodium.album:
     name: Chenopodium.album
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Cirsium.arvense:
     name: Cirsium.arvense
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Cirsium.arvense.2:
     name: Cirsium.arvense.2
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Cirsium.flodmanii:
     name: Cirsium.flodmanii
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Collomia.linearis:
     name: Collomia.linearis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Comandra.umbellata:
     name: Comandra.umbellata
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Crisium:
     name: Crisium
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Current.Precip:
     name: Current.Precip
-    required: true
     range: decimal
+    required: true
     pattern: ^[-+]?\d*\.?\d+$
   Current.Temp:
     name: Current.Temp
-    required: true
     range: decimal
+    required: true
     pattern: ^[-+]?\d*\.?\d+$
   Dalea.candida:
     name: Dalea.candida
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Dalea.purpurea:
     name: Dalea.purpurea
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Date:
     name: Date
-    required: true
     range: DateTime
+    required: true
     pattern: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$
   Descurainia.sophia:
     name: Descurainia.sophia
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Elaeagnus.commutata:
     name: Elaeagnus.commutata
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Elymus.repens:
     name: Elymus.repens
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Elymus.trachycaulus.subsecundus:
     name: Elymus.trachycaulus.subsecundus
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Elymus.trachycaulus.trachycaulus:
     name: Elymus.trachycaulus.trachycaulus
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Equisetum:
     name: Equisetum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Erigeron.caespitosus:
     name: Erigeron.caespitosus
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Erigeron.canadensis:
     name: Erigeron.canadensis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Erigeron.glabellus:
     name: Erigeron.glabellus
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Eriogonum.flavum:
     name: Eriogonum.flavum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Eriogonum.pauciflorum:
     name: Eriogonum.pauciflorum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Euphorbia.virgata:
     name: Euphorbia.virgata
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Festuca.hallii:
     name: Festuca.hallii
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Festuca.ovina:
     name: Festuca.ovina
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Fragaria.virginiana:
     name: Fragaria.virginiana
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Gaillardia.aristata:
     name: Gaillardia.aristata
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Galium.boreale:
     name: Galium.boreale
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Geum.triflorum:
     name: Geum.triflorum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Glycyrrhiza.lepidota:
     name: Glycyrrhiza.lepidota
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Grindelia.squarrosa:
     name: Grindelia.squarrosa
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Gutierrezia.sarothrae:
     name: Gutierrezia.sarothrae
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Hairy.grass.unknown:
     name: Hairy.grass.unknown
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Hedysarum.alpinum:
     name: Hedysarum.alpinum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Helianthus.maximiliani:
     name: Helianthus.maximiliani
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Helianthus.nuttallii:
     name: Helianthus.nuttallii
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Helianthus.pauciflorus:
     name: Helianthus.pauciflorus
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Helictochloa.hookeri:
     name: Helictochloa.hookeri
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Hesperostipa.comata:
     name: Hesperostipa.comata
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Hesperostipa.curtiseta:
     name: Hesperostipa.curtiseta
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Hesperostipa.spartea:
     name: Hesperostipa.spartea
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Heterotheca.villosa:
     name: Heterotheca.villosa
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Heuchera.richardsonii:
     name: Heuchera.richardsonii
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Houstonia.longifolia:
     name: Houstonia.longifolia
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Hymenoxys.richardsonii:
     name: Hymenoxys.richardsonii
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Iva.axillaris:
     name: Iva.axillaris
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Juniperus.horizontalis:
     name: Juniperus.horizontalis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Koeleria.macrantha:
     name: Koeleria.macrantha
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Lactuca.pulchella:
     name: Lactuca.pulchella
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Ladeania.lanceolata:
     name: Ladeania.lanceolata
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Lathyrus:
     name: Lathyrus
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Lathyrus.ochroleucus:
     name: Lathyrus.ochroleucus
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Lathyrus.venosus:
     name: Lathyrus.venosus
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Lepidum.densiflorum:
     name: Lepidum.densiflorum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Liatris.ligulistylis:
     name: Liatris.ligulistylis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Liatris.punctata:
     name: Liatris.punctata
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Lilium.philadelphicum:
     name: Lilium.philadelphicum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Linum.lewisii:
     name: Linum.lewisii
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Linum.rigidum:
     name: Linum.rigidum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Lithospermum.canescens:
     name: Lithospermum.canescens
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Litter:
     name: Litter
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^[-+]?\d*\.?\d+$
   Lygodesmia.juncea:
     name: Lygodesmia.juncea
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Maianthemum.stellatum:
     name: Maianthemum.stellatum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Medicago:
     name: Medicago
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Medicago.lupulina:
     name: Medicago.lupulina
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Medicago.sativa:
     name: Medicago.sativa
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Melilotus.albus:
     name: Melilotus.albus
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Melilotus.officinalis:
     name: Melilotus.officinalis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Monarda.fistulosa:
     name: Monarda.fistulosa
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Muhlenbergia:
     name: Muhlenbergia
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Muhlenbergia.cuspidata:
     name: Muhlenbergia.cuspidata
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Muhlenbergia.richardsonis:
     name: Muhlenbergia.richardsonis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Nassella.viridula:
     name: Nassella.viridula
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Number:
     name: Number
-    required: true
     range: decimal
+    required: true
     pattern: ^-?[0-9]+$
   Observer:
     name: Observer
-    required: true
     range: WhitespaceMinimizedString
+    required: true
     pattern: ^.{0,250}$
   Oenothera.serrulata:
     name: Oenothera.serrulata
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Oenothera.suffrutescens:
     name: Oenothera.suffrutescens
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Opuntia.fragilis:
     name: Opuntia.fragilis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Opuntia.polycantha:
     name: Opuntia.polycantha
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Orthocarpus.luteus:
     name: Orthocarpus.luteus
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Oxytropis.lambertii:
     name: Oxytropis.lambertii
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Panicum.virgatum:
     name: Panicum.virgatum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Pascopyrum.smithii:
     name: Pascopyrum.smithii
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Pediomelum.agrophyllum:
     name: Pediomelum.agrophyllum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Pediomelum.esculentum:
     name: Pediomelum.esculentum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Penstemon:
     name: Penstemon
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Penstemon.gracilis:
     name: Penstemon.gracilis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Persicaria.amphibia:
     name: Persicaria.amphibia
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Phlox.hodii:
     name: Phlox.hodii
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Physalis.virginiana:
     name: Physalis.virginiana
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Plantago:
     name: Plantago
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Plantago.major:
     name: Plantago.major
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Plantago.patagonica:
     name: Plantago.patagonica
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Plot:
     name: Plot
-    required: true
     any_of:
-    - range: WhitespaceMinimizedString
-    - range: Plot
+      - range: WhitespaceMinimizedString
+      - range: Plot
+    required: true
     pattern: ^.{0,50}$
   Poa.interior:
     name: Poa.interior
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Poa.pratensis:
     name: Poa.pratensis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Poa.secunda:
     name: Poa.secunda
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Poa.unknown:
     name: Poa.unknown
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Poaceae.unidentified:
     name: Poaceae.unidentified
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Polygala.alba:
     name: Polygala.alba
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Polygala.senega:
     name: Polygala.senega
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Populus.tremuloides:
     name: Populus.tremuloides
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Potentilla:
     name: Potentilla
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Potentilla.argenta:
     name: Potentilla.argenta
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Potentilla.hippiana:
     name: Potentilla.hippiana
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Potentilla.pensylvanica:
     name: Potentilla.pensylvanica
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Prunus.pumila:
     name: Prunus.pumila
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Prunus.virginiana:
     name: Prunus.virginiana
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Pulsatilla.nuttalliana:
     name: Pulsatilla.nuttalliana
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Ratibida.columnifera:
     name: Ratibida.columnifera
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Replicate:
     name: Replicate
-    required: true
     range: decimal
+    required: true
     pattern: ^-?[0-9]+$
   Rosa.acicularis:
     name: Rosa.acicularis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Rosa.arkansana:
     name: Rosa.arkansana
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Rosa.woodsii:
     name: Rosa.woodsii
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Rudbeckia.hirta:
     name: Rudbeckia.hirta
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Salix:
     name: Salix
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Schizachyrium.scoparium:
     name: Schizachyrium.scoparium
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Shepherdia.argentea:
     name: Shepherdia.argentea
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Silene.drummondii:
     name: Silene.drummondii
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Silver.trifoliate.unkown:
     name: Silver.trifoliate.unkown
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Site:
     name: Site
-    required: true
     any_of:
-    - range: WhitespaceMinimizedString
-    - range: Site
+      - range: WhitespaceMinimizedString
+      - range: Site
+    required: true
     pattern: ^.{0,50}$
   Slope:
     name: Slope
-    required: true
     range: decimal
+    required: true
     pattern: ^-?[0-9]+$
   Solidago:
     name: Solidago
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Solidago.canadensis:
     name: Solidago.canadensis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Solidago.missouriensis:
     name: Solidago.missouriensis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Solidago.rigida:
     name: Solidago.rigida
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Sonchus.arvensis:
     name: Sonchus.arvensis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Species:
     name: Species
-    required: true
     any_of:
-    - range: WhitespaceMinimizedString
-    - range: Species
+      - range: WhitespaceMinimizedString
+      - range: Species
+    required: true
     pattern: ^.{0,250}$
   Sphaeralcea.coccinea:
     name: Sphaeralcea.coccinea
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Sporobolus.cryptandrus:
     name: Sporobolus.cryptandrus
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Sporobolus.heterolepis:
     name: Sporobolus.heterolepis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Sporobolus.michauxianus:
     name: Sporobolus.michauxianus
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Stachys:
     name: Stachys
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Stipa.spartea:
     name: Stipa.spartea
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Symphoricarpos.occidentalis:
     name: Symphoricarpos.occidentalis
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Symphyotrichum:
     name: Symphyotrichum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Symphyotrichum.boreale:
     name: Symphyotrichum.boreale
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Symphyotrichum.ericoides:
     name: Symphyotrichum.ericoides
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Symphyotrichum.falcatum:
     name: Symphyotrichum.falcatum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Symphyotrichum.laeve:
     name: Symphyotrichum.laeve
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Symphyotrichum.lanceolatum:
     name: Symphyotrichum.lanceolatum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Taraxacum.officinale:
     name: Taraxacum.officinale
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Thalictrum.venulosum:
     name: Thalictrum.venulosum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Thermopsis.rhombifolia:
     name: Thermopsis.rhombifolia
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Toadflaxlikeplant:
     name: Toadflaxlikeplant
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Toxicoscordion.venenosum:
     name: Toxicoscordion.venenosum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Tragopogon.dubius:
     name: Tragopogon.dubius
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Trifolium:
     name: Trifolium
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Trifolium.pratense:
     name: Trifolium.pratense
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Trifolium.repens:
     name: Trifolium.repens
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Ulmus:
     name: Ulmus
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Vicia:
     name: Vicia
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Vicia.americana:
     name: Vicia.americana
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Viola.adunca:
     name: Viola.adunca
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Viola.vallicola:
     name: Viola.vallicola
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Xanthisma.spinulosum:
     name: Xanthisma.spinulosum
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
   Zizia.aptera:
     name: Zizia.aptera
-    recommended: true
     range: decimal
+    recommended: true
     pattern: ^-?[0-9]+$
 enums:
   SettingsMenu:
@@ -1888,8 +2093,7 @@ enums:
         description: Entries of any length with only capital letters
       AlphaText1-50:
         title: AlphaText1-50
-        description: Capital or lower case letters only, at least 1 character, and
-          50 characters max
+        description: Capital or lower case letters only, at least 1 character, and 50 characters max
       AlphaText0-50:
         title: AlphaText0-50
         description: Capital or lower case letters only, 50 characters max
@@ -1922,10 +2126,10 @@ enums:
         description: Phone number with international and area code component.
       Latitude:
         title: Latitude
-        description: "Latitude in formats S30\xB015'45.678\" or N12\xB030.999\""
+        description: Latitude in formats S30°15'45.678" or N12°30.999"
       Longitude:
         title: Longitude
-        description: "Longitude in formats E30\xB015'45.678\" or W90\xB000.000\""
+        description: Longitude in formats E30°15'45.678" or W90°00.000"
       ISO_YYYY-MM-DD:
         title: ISO_YYYY-MM-DD
         description: year month day
@@ -1959,7 +2163,7 @@ enums:
         title: ISO_YYYY-MM-DDTHH:MM:SSZ
         description: Date and Time Combined (UTC)
       ISO_YYYY-MM-DDTHH.MM.SS-hh.mm:
-        title: "ISO_YYYY-MM-DDTHH:MM:SS\xB1hh:mm"
+        title: ISO_YYYY-MM-DDTHH:MM:SS±hh:mm
         description: Date and Time Combined (with Timezone Offset)
       ISO_PnYnMnDTnHnMnS:
         title: ISO_PnYnMnDTnHnMnS
@@ -2116,9 +2320,7 @@ types:
   WhitespaceMinimizedString:
     name: WhitespaceMinimizedString
     typeof: string
-    description: 'A string that has all whitespace trimmed off of beginning and end,
-      and all internal whitespace segments reduced to single spaces. Whitespace includes
-      x9 (tab), #xA (linefeed), and #xD (carriage return).'
+    description: 'A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).'
     base: str
     uri: xsd:token
 settings:
@@ -2137,10 +2339,8 @@ settings:
   EmailAddress: ^[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+
   URL: ^https?\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,}$
   PhoneNumber: ^\+?\(?\d{2,4}\)?[\d\s-]{3,}$
-  Latitude: "^[NS]-?(?:[0-8]?\\d|90)\xB0(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\"\
-    )?$"
-  Longitude: "^[WE]-?(?:[0-8]?\\d|90)\xB0(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\"\
-    )?$"
+  Latitude: ^[NS]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
+  Longitude: ^[WE]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
   ISO_YYYY-MM-DD: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$
   ISO_YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
   ISO_YYYY-MM: ^(\d{4})-(0[1-9]|1[0-2])$

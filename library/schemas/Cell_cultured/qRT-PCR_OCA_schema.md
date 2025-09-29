@@ -23,6 +23,8 @@ parent: Cell Cultured Meat
 
 [Download Schema](qRT-PCR_OCA_package.json)
 
+[Download LinkML Schema](qRT-PCR_LinkML/schema.json) ([yaml](qRT-PCR_LinkML/schema.yaml); table view: [fields](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/Cell_cultured/qRT-PCR_LinkML/schema_slots.tsv), [picklists](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/Cell_cultured/qRT-PCR_LinkML/schema_enums.tsv))
+
 ## Schema quick view
 
 | Attribute | Label | Description |

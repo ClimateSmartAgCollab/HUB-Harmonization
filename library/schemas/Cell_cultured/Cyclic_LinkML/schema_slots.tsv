@@ -1,0 +1,5 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+CyclicVoltammetryForLactateDetection	General		Current_Scan1		decimal		micro Amperes											Corresponding Current read by the instrument during Scan 1			
+CyclicVoltammetryForLactateDetection	General		Current_Scan2		decimal		micro amperes											Corresponding current read by the instrument during Scan 2			
+CyclicVoltammetryForLactateDetection	General		Current_Scan3		decimal		micro amperes											Corresponding current read by the instrument during Scan 3			
+CyclicVoltammetryForLactateDetection	General		Voltage		decimal		V											Voltage range specified in the instrument software: -1 to 1V			

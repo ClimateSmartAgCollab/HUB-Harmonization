@@ -1,10 +1,11 @@
 {
+  "id": "https://example.com/Peace",
   "name": "Peace",
   "description": "CLIMATE SMART AGRICULTURE AND FOOD SYSTEMS – INTERDISCIPLINARY CHALLENGE TEAMS (CSAFS-ICT) APPLICATION FORM",
-  "title": "PeaCE",
-  "in_language": "en",
-  "id": "https://example.com/Peace",
   "version": "0.0.0",
+  "in_language": "en",
+  "default_prefix": "https://example.com/Peace/",
+  "imports": [],
   "prefixes": {
     "linkml": {
       "prefix_prefix": "linkml",
@@ -21,972 +22,6 @@
     "schema": {
       "prefix_prefix": "schema",
       "prefix_reference": "http://schema.org/"
-    }
-  },
-  "default_prefix": "https://example.com/Peace/",
-  "types": {
-    "WhitespaceMinimizedString": {
-      "name": "WhitespaceMinimizedString",
-      "description": "A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).",
-      "from_schema": "https://example.com/Peace",
-      "typeof": "string",
-      "base": "str",
-      "uri": "xsd:token"
-    },
-    "string": {
-      "name": "string",
-      "description": "A character string",
-      "notes": [
-        "In RDF serializations, a slot with range of string is treated as a literal or type xsd:string.   If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"string\"."
-      ],
-      "from_schema": "https://example.com/Peace",
-      "exact_mappings": [
-        "schema:Text"
-      ],
-      "base": "str",
-      "uri": "xsd:string"
-    },
-    "integer": {
-      "name": "integer",
-      "description": "An integer",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"integer\"."
-      ],
-      "from_schema": "https://example.com/Peace",
-      "exact_mappings": [
-        "schema:Integer"
-      ],
-      "base": "int",
-      "uri": "xsd:integer"
-    },
-    "boolean": {
-      "name": "boolean",
-      "description": "A binary (true or false) value",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"boolean\"."
-      ],
-      "from_schema": "https://example.com/Peace",
-      "exact_mappings": [
-        "schema:Boolean"
-      ],
-      "base": "Bool",
-      "uri": "xsd:boolean",
-      "repr": "bool"
-    },
-    "float": {
-      "name": "float",
-      "description": "A real number that conforms to the xsd:float specification",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"float\"."
-      ],
-      "from_schema": "https://example.com/Peace",
-      "exact_mappings": [
-        "schema:Float"
-      ],
-      "base": "float",
-      "uri": "xsd:float"
-    },
-    "double": {
-      "name": "double",
-      "description": "A real number that conforms to the xsd:double specification",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"double\"."
-      ],
-      "from_schema": "https://example.com/Peace",
-      "close_mappings": [
-        "schema:Float"
-      ],
-      "base": "float",
-      "uri": "xsd:double"
-    },
-    "decimal": {
-      "name": "decimal",
-      "description": "A real number with arbitrary precision that conforms to the xsd:decimal specification",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"decimal\"."
-      ],
-      "from_schema": "https://example.com/Peace",
-      "broad_mappings": [
-        "schema:Number"
-      ],
-      "base": "Decimal",
-      "uri": "xsd:decimal"
-    },
-    "time": {
-      "name": "time",
-      "description": "A time object represents a (local) time of day, independent of any particular day",
-      "notes": [
-        "URI is dateTime because OWL reasoners do not work with straight date or time",
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"time\"."
-      ],
-      "from_schema": "https://example.com/Peace",
-      "exact_mappings": [
-        "schema:Time"
-      ],
-      "base": "XSDTime",
-      "uri": "xsd:time",
-      "repr": "str"
-    },
-    "date": {
-      "name": "date",
-      "description": "a date (year, month and day) in an idealized calendar",
-      "notes": [
-        "URI is dateTime because OWL reasoners don't work with straight date or time",
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date\"."
-      ],
-      "from_schema": "https://example.com/Peace",
-      "exact_mappings": [
-        "schema:Date"
-      ],
-      "base": "XSDDate",
-      "uri": "xsd:date",
-      "repr": "str"
-    },
-    "datetime": {
-      "name": "datetime",
-      "description": "The combination of a date and time",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"datetime\"."
-      ],
-      "from_schema": "https://example.com/Peace",
-      "exact_mappings": [
-        "schema:DateTime"
-      ],
-      "base": "XSDDateTime",
-      "uri": "xsd:dateTime",
-      "repr": "str"
-    },
-    "date_or_datetime": {
-      "name": "date_or_datetime",
-      "description": "Either a date or a datetime",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date_or_datetime\"."
-      ],
-      "from_schema": "https://example.com/Peace",
-      "base": "str",
-      "uri": "linkml:DateOrDatetime",
-      "repr": "str"
-    },
-    "uriorcurie": {
-      "name": "uriorcurie",
-      "description": "a URI or a CURIE",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uriorcurie\"."
-      ],
-      "from_schema": "https://example.com/Peace",
-      "base": "URIorCURIE",
-      "uri": "xsd:anyURI",
-      "repr": "str"
-    },
-    "curie": {
-      "name": "curie",
-      "conforms_to": "https://www.w3.org/TR/curie/",
-      "description": "a compact URI",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"curie\"."
-      ],
-      "comments": [
-        "in RDF serializations this MUST be expanded to a URI",
-        "in non-RDF serializations MAY be serialized as the compact representation"
-      ],
-      "from_schema": "https://example.com/Peace",
-      "base": "Curie",
-      "uri": "xsd:string",
-      "repr": "str"
-    },
-    "uri": {
-      "name": "uri",
-      "conforms_to": "https://www.ietf.org/rfc/rfc3987.txt",
-      "description": "a complete URI",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uri\"."
-      ],
-      "comments": [
-        "in RDF serializations a slot with range of uri is treated as a literal or type xsd:anyURI unless it is an identifier or a reference to an identifier, in which case it is translated directly to a node"
-      ],
-      "from_schema": "https://example.com/Peace",
-      "close_mappings": [
-        "schema:URL"
-      ],
-      "base": "URI",
-      "uri": "xsd:anyURI",
-      "repr": "str"
-    },
-    "ncname": {
-      "name": "ncname",
-      "description": "Prefix part of CURIE",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"ncname\"."
-      ],
-      "from_schema": "https://example.com/Peace",
-      "base": "NCName",
-      "uri": "xsd:string",
-      "repr": "str"
-    },
-    "objectidentifier": {
-      "name": "objectidentifier",
-      "description": "A URI or CURIE that represents an object in the model.",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"objectidentifier\"."
-      ],
-      "comments": [
-        "Used for inheritance and type checking"
-      ],
-      "from_schema": "https://example.com/Peace",
-      "base": "ElementIdentifier",
-      "uri": "shex:iri",
-      "repr": "str"
-    },
-    "nodeidentifier": {
-      "name": "nodeidentifier",
-      "description": "A URI, CURIE or BNODE that represents a node in a model.",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"nodeidentifier\"."
-      ],
-      "from_schema": "https://example.com/Peace",
-      "base": "NodeIdentifier",
-      "uri": "shex:nonLiteral",
-      "repr": "str"
-    },
-    "jsonpointer": {
-      "name": "jsonpointer",
-      "conforms_to": "https://datatracker.ietf.org/doc/html/rfc6901",
-      "description": "A string encoding a JSON Pointer. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to a valid object within the current instance document when encoded in tree form.",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpointer\"."
-      ],
-      "from_schema": "https://example.com/Peace",
-      "base": "str",
-      "uri": "xsd:string",
-      "repr": "str"
-    },
-    "jsonpath": {
-      "name": "jsonpath",
-      "conforms_to": "https://www.ietf.org/archive/id/draft-goessner-dispatch-jsonpath-00.html",
-      "description": "A string encoding a JSON Path. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to zero or more valid objects within the current instance document when encoded in tree form.",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpath\"."
-      ],
-      "from_schema": "https://example.com/Peace",
-      "base": "str",
-      "uri": "xsd:string",
-      "repr": "str"
-    },
-    "sparqlpath": {
-      "name": "sparqlpath",
-      "conforms_to": "https://www.w3.org/TR/sparql11-query/#propertypaths",
-      "description": "A string encoding a SPARQL Property Path. The value of the string MUST conform to SPARQL syntax and SHOULD dereference to zero or more valid objects within the current instance document when encoded as RDF.",
-      "notes": [
-        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"sparqlpath\"."
-      ],
-      "from_schema": "https://example.com/Peace",
-      "base": "str",
-      "uri": "xsd:string",
-      "repr": "str"
-    }
-  },
-  "enums": {
-    "SettingsMenu": {
-      "name": "SettingsMenu",
-      "title": "Regular Expressions",
-      "from_schema": "https://example.com/Peace",
-      "permissible_values": {
-        "AllCaps": {
-          "text": "AllCaps",
-          "description": "Entries of any length with only capital letters",
-          "title": "AllCaps"
-        },
-        "AlphaText1-50": {
-          "text": "AlphaText1-50",
-          "description": "Capital or lower case letters only, at least 1 character, and 50 characters max",
-          "title": "AlphaText1-50"
-        },
-        "AlphaText0-50": {
-          "text": "AlphaText0-50",
-          "description": "Capital or lower case letters only, 50 characters max",
-          "title": "AlphaText0-50"
-        },
-        "FreeText0-50": {
-          "text": "FreeText0-50",
-          "description": "Short text, 50 characters max",
-          "title": "FreeText0-50"
-        },
-        "FreeText0-250": {
-          "text": "FreeText0-250",
-          "description": "Short text, 250 characters max",
-          "title": "FreeText0-250"
-        },
-        "FreeText0-800": {
-          "text": "FreeText0-800",
-          "description": "Long text, 800 characters max",
-          "title": "FreeText0-800"
-        },
-        "FreeText0-4000": {
-          "text": "FreeText0-4000",
-          "description": "Long text, 4000 characters max",
-          "title": "FreeText0-4000"
-        },
-        "CanadianPostalCode": {
-          "text": "CanadianPostalCode",
-          "description": "Canadian postal codes (A1A 1A1)",
-          "title": "CanadianPostalCode"
-        },
-        "ZipCode": {
-          "text": "ZipCode",
-          "description": "USA Zip code",
-          "title": "ZipCode"
-        },
-        "EmailAddress": {
-          "text": "EmailAddress",
-          "description": "Email address",
-          "title": "EmailAddress"
-        },
-        "URL": {
-          "text": "URL",
-          "description": "Secure (https) URL",
-          "title": "URL"
-        },
-        "PhoneNumber": {
-          "text": "PhoneNumber",
-          "description": "Phone number with international and area code component.",
-          "title": "PhoneNumber"
-        },
-        "Latitude": {
-          "text": "Latitude",
-          "description": "Latitude in formats S30°15'45.678\" or N12°30.999\"",
-          "title": "Latitude"
-        },
-        "Longitude": {
-          "text": "Longitude",
-          "description": "Longitude in formats E30°15'45.678\" or W90°00.000\"",
-          "title": "Longitude"
-        },
-        "ISO_YYYY-MM-DD": {
-          "text": "ISO_YYYY-MM-DD",
-          "description": "year month day",
-          "title": "ISO_YYYY-MM-DD"
-        },
-        "ISO_YYYYMMDD": {
-          "text": "ISO_YYYYMMDD",
-          "title": "ISO_YYYYMMDD"
-        },
-        "ISO_YYYY-MM": {
-          "text": "ISO_YYYY-MM",
-          "description": "year month",
-          "title": "ISO_YYYY-MM"
-        },
-        "ISO_YYYY-Www": {
-          "text": "ISO_YYYY-Www",
-          "description": "year week (e.g. W01)",
-          "title": "ISO_YYYY-Www"
-        },
-        "ISO_YYYYWww": {
-          "text": "ISO_YYYYWww",
-          "description": "year week (e.g. W01)",
-          "title": "ISO_YYYYWww"
-        },
-        "ISO_YYYY-DDD": {
-          "text": "ISO_YYYY-DDD",
-          "description": "Ordinal date (day number from the year)",
-          "title": "ISO_YYYY-DDD"
-        },
-        "ISO_YYYYDDD": {
-          "text": "ISO_YYYYDDD",
-          "description": "Ordinal date (day number from the year)",
-          "title": "ISO_YYYYDDD"
-        },
-        "ISO_YYYY": {
-          "text": "ISO_YYYY",
-          "description": "year",
-          "title": "ISO_YYYY"
-        },
-        "ISO_MM": {
-          "text": "ISO_MM",
-          "description": "month",
-          "title": "ISO_MM"
-        },
-        "ISO_DD": {
-          "text": "ISO_DD",
-          "description": "day",
-          "title": "ISO_DD"
-        },
-        "ISO_YYYY-MM-DDTHH.MM.SSZ": {
-          "text": "ISO_YYYY-MM-DDTHH.MM.SSZ",
-          "description": "Date and Time Combined (UTC)",
-          "title": "ISO_YYYY-MM-DDTHH:MM:SSZ"
-        },
-        "ISO_YYYY-MM-DDTHH.MM.SS-hh.mm": {
-          "text": "ISO_YYYY-MM-DDTHH.MM.SS-hh.mm",
-          "description": "Date and Time Combined (with Timezone Offset)",
-          "title": "ISO_YYYY-MM-DDTHH:MM:SS±hh:mm"
-        },
-        "ISO_PnYnMnDTnHnMnS": {
-          "text": "ISO_PnYnMnDTnHnMnS",
-          "description": "durations e.g. P3Y6M4DT12H30M5S",
-          "title": "ISO_PnYnMnDTnHnMnS"
-        },
-        "ISO_HH.MM": {
-          "text": "ISO_HH.MM",
-          "description": "hour, minutes in 24 hour notation",
-          "title": "ISO_HH:MM"
-        },
-        "ISO_HH.MM.SS": {
-          "text": "ISO_HH.MM.SS",
-          "description": "hour, minutes, seconds in 24 hour notation",
-          "title": "ISO_HH:MM:SS"
-        },
-        "SLASH_DD_MM_YYYY": {
-          "text": "SLASH_DD_MM_YYYY",
-          "description": "day, month, year",
-          "title": "DD/MM/YYYY"
-        },
-        "SLASH_DD_MM_YY": {
-          "text": "SLASH_DD_MM_YY",
-          "description": "day, month, year",
-          "title": "DD/MM/YY"
-        },
-        "SLASH_MM_DD_YYYY": {
-          "text": "SLASH_MM_DD_YYYY",
-          "description": "month, day, year",
-          "title": "MM/DD/YYYY"
-        },
-        "DDMMYYYY": {
-          "text": "DDMMYYYY",
-          "description": "day, month, year",
-          "title": "DDMMYYYY"
-        },
-        "MMDDYYYY": {
-          "text": "MMDDYYYY",
-          "description": "month, day, year",
-          "title": "MMDDYYYY"
-        },
-        "YYYYMMDD": {
-          "text": "YYYYMMDD",
-          "description": "year, month, day",
-          "title": "YYYYMMDD"
-        },
-        "HH.MM.SS": {
-          "text": "HH.MM.SS",
-          "description": "hour, minutes, seconds 12 hour notation AM/PM",
-          "title": "HH:MM:SS"
-        },
-        "H.MM_or_HH.MM": {
-          "text": "H.MM_or_HH.MM",
-          "description": "hour, minutes AM/PM",
-          "title": "H:MM or HH:MM"
-        }
-      }
-    }
-  },
-  "slots": {
-    "accession_id": {
-      "name": "accession_id",
-      "description": "Unique identifier for each germplasm accession",
-      "title": "Accession ID",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "agronomic_trait": {
-      "name": "agronomic_trait",
-      "description": "Agronomic trait measured for the germplasm accession",
-      "title": "Agronomic Trait",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "ch4_flux": {
-      "name": "ch4_flux",
-      "description": "Methane flux measurement",
-      "title": "CH4 Flux",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "decimal",
-      "unit": {
-        "ucum_code": "g C/ha/day"
-      }
-    },
-    "climate_conditions": {
-      "name": "climate_conditions",
-      "description": "Climate conditions at the origin of the germplasm accession",
-      "title": "Climate Conditions",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "co2_flux": {
-      "name": "co2_flux",
-      "description": "Carbon dioxide flux measurement",
-      "title": "CO2 Flux",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "decimal",
-      "unit": {
-        "ucum_code": "g C/ha/day"
-      }
-    },
-    "cost_benefit_analysis": {
-      "name": "cost_benefit_analysis",
-      "description": "Cost-benefit analysis data",
-      "title": "Cost-Benefit Analysis",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "crop_yield": {
-      "name": "crop_yield",
-      "description": "Crop yield measurement",
-      "title": "Crop Yield",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "decimal",
-      "unit": {
-        "ucum_code": "kg/ha"
-      }
-    },
-    "demographic_data": {
-      "name": "demographic_data",
-      "description": "Demographic data of the participant",
-      "title": "Demographic Data",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "disease_severity_score": {
-      "name": "disease_severity_score",
-      "description": "Disease severity score on a scale of 1-5",
-      "title": "Disease Severity Score",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "decimal",
-      "unit": {
-        "ucum_code": "-"
-      }
-    },
-    "fertilizer_application_rate": {
-      "name": "fertilizer_application_rate",
-      "description": "Fertilizer application rate",
-      "title": "Fertilizer Application Rate",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "decimal",
-      "unit": {
-        "ucum_code": "kg/ha"
-      }
-    },
-    "field_trial_location": {
-      "name": "field_trial_location",
-      "description": "Location of the field trial for the breeding population",
-      "title": "Field Trial Location",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "functional_description": {
-      "name": "functional_description",
-      "description": "Functional description of the gene",
-      "title": "Functional Description",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "gene_id": {
-      "name": "gene_id",
-      "description": "Unique identifier for each gene",
-      "title": "Gene ID",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "generation": {
-      "name": "generation",
-      "description": "Generation of the breeding population",
-      "title": "Generation",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "geographic_location": {
-      "name": "geographic_location",
-      "description": "Geographic location of the germplasm accession",
-      "title": "Geographic Location",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "inoculum_concentration": {
-      "name": "inoculum_concentration",
-      "description": "Concentration of the pathogen inoculum",
-      "title": "Inoculum Concentration",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "decimal",
-      "unit": {
-        "ucum_code": "cfu/ml"
-      }
-    },
-    "interview_coding": {
-      "name": "interview_coding",
-      "description": "Interview coding data",
-      "title": "Interview Coding",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "interview_transcript": {
-      "name": "interview_transcript",
-      "description": "Interview transcript data",
-      "title": "Interview Transcript",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "marker_data": {
-      "name": "marker_data",
-      "description": "Marker data generated for the breeding population",
-      "title": "Marker Data",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "market_analysis": {
-      "name": "market_analysis",
-      "description": "Market analysis data",
-      "title": "Market Analysis",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "maturity": {
-      "name": "maturity",
-      "description": "Maturity measurement for the breeding population",
-      "title": "Maturity",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "decimal",
-      "unit": {
-        "ucum_code": "days"
-      }
-    },
-    "metabolite_profile": {
-      "name": "metabolite_profile",
-      "description": "Metabolite profile data",
-      "title": "Metabolite Profile",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "morphological_trait": {
-      "name": "morphological_trait",
-      "description": "Morphological trait measured for the germplasm accession",
-      "title": "Morphological Trait",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "n2o_flux": {
-      "name": "n2o_flux",
-      "description": "Nitrous oxide flux measurement",
-      "title": "N2O Flux",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "decimal",
-      "unit": {
-        "ucum_code": "g N/ha/day"
-      }
-    },
-    "origin": {
-      "name": "origin",
-      "description": "Geographical origin of the germplasm accession",
-      "title": "Origin",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "parental_line": {
-      "name": "parental_line",
-      "description": "Parental line used in the breeding program",
-      "title": "Parental Line",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "participant_id": {
-      "name": "participant_id",
-      "description": "Unique identifier for each participant",
-      "title": "Participant ID",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "pathogen_strain": {
-      "name": "pathogen_strain",
-      "description": "Pathogen strain used for disease resistance screening",
-      "title": "Pathogen Strain",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "pathway_analysis": {
-      "name": "pathway_analysis",
-      "description": "Pathway analysis data",
-      "title": "Pathway Analysis",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "protein_content": {
-      "name": "protein_content",
-      "description": "Protein content measurement for the breeding population",
-      "title": "Protein Content",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "decimal",
-      "unit": {
-        "ucum_code": "%"
-      }
-    },
-    "protein_interaction_data": {
-      "name": "protein_interaction_data",
-      "description": "Protein-protein interaction data",
-      "title": "Protein Interaction Data",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "proteomics_data": {
-      "name": "proteomics_data",
-      "description": "Proteomics data for protein analysis",
-      "title": "Proteomics Data",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "qpcr_data": {
-      "name": "qpcr_data",
-      "description": "qPCR data for gene expression analysis",
-      "title": "qPCR Data",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "qtl_mapping": {
-      "name": "qtl_mapping",
-      "description": "QTL mapping data for the breeding population",
-      "title": "QTL Mapping",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "regulations": {
-      "name": "regulations",
-      "description": "Regulations data",
-      "title": "Regulations",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "rna_seq_data": {
-      "name": "rna_seq_data",
-      "description": "RNA-seq data for gene expression analysis",
-      "title": "RNA-Seq Data",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "sequencing_platform": {
-      "name": "sequencing_platform",
-      "description": "Sequencing platform used for genotyping",
-      "title": "Sequencing Platform",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "soil_moisture": {
-      "name": "soil_moisture",
-      "description": "Soil moisture measurement",
-      "title": "Soil Moisture",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "decimal",
-      "unit": {
-        "ucum_code": "%"
-      }
-    },
-    "soil_nutrient_content": {
-      "name": "soil_nutrient_content",
-      "description": "Soil nutrient content measurement",
-      "title": "Soil Nutrient Content",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "decimal",
-      "unit": {
-        "ucum_code": "varies"
-      }
-    },
-    "soil_temperature": {
-      "name": "soil_temperature",
-      "description": "Soil temperature measurement",
-      "title": "Soil Temperature",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "decimal",
-      "unit": {
-        "ucum_code": "°C"
-      }
-    },
-    "species": {
-      "name": "species",
-      "description": "Species of the germplasm accession",
-      "title": "Species",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "stakeholder_analysis": {
-      "name": "stakeholder_analysis",
-      "description": "Stakeholder analysis data",
-      "title": "Stakeholder Analysis",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "subspecies": {
-      "name": "subspecies",
-      "description": "Subspecies of the germplasm accession",
-      "title": "Subspecies",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "survey_response": {
-      "name": "survey_response",
-      "description": "Survey response data",
-      "title": "Survey Response",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "variant_calls": {
-      "name": "variant_calls",
-      "description": "Variant calls generated from sequencing data",
-      "title": "Variant Calls",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "weather_conditions": {
-      "name": "weather_conditions",
-      "description": "Weather conditions during the field trial",
-      "title": "Weather Conditions",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "WhitespaceMinimizedString"
-    },
-    "yield": {
-      "name": "yield",
-      "description": "Yield measurement for the breeding population",
-      "title": "Yield",
-      "from_schema": "https://example.com/Peace",
-      "domain_of": [
-        "Peace"
-      ],
-      "range": "decimal",
-      "unit": {
-        "ucum_code": "kg/ha"
-      }
     }
   },
   "classes": {
@@ -1955,6 +990,971 @@
       "tree_root": true
     }
   },
+  "slots": {
+    "accession_id": {
+      "name": "accession_id",
+      "description": "Unique identifier for each germplasm accession",
+      "title": "Accession ID",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "agronomic_trait": {
+      "name": "agronomic_trait",
+      "description": "Agronomic trait measured for the germplasm accession",
+      "title": "Agronomic Trait",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "ch4_flux": {
+      "name": "ch4_flux",
+      "description": "Methane flux measurement",
+      "title": "CH4 Flux",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "g C/ha/day"
+      }
+    },
+    "climate_conditions": {
+      "name": "climate_conditions",
+      "description": "Climate conditions at the origin of the germplasm accession",
+      "title": "Climate Conditions",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "co2_flux": {
+      "name": "co2_flux",
+      "description": "Carbon dioxide flux measurement",
+      "title": "CO2 Flux",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "g C/ha/day"
+      }
+    },
+    "cost_benefit_analysis": {
+      "name": "cost_benefit_analysis",
+      "description": "Cost-benefit analysis data",
+      "title": "Cost-Benefit Analysis",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "crop_yield": {
+      "name": "crop_yield",
+      "description": "Crop yield measurement",
+      "title": "Crop Yield",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "kg/ha"
+      }
+    },
+    "demographic_data": {
+      "name": "demographic_data",
+      "description": "Demographic data of the participant",
+      "title": "Demographic Data",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "disease_severity_score": {
+      "name": "disease_severity_score",
+      "description": "Disease severity score on a scale of 1-5",
+      "title": "Disease Severity Score",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "-"
+      }
+    },
+    "fertilizer_application_rate": {
+      "name": "fertilizer_application_rate",
+      "description": "Fertilizer application rate",
+      "title": "Fertilizer Application Rate",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "kg/ha"
+      }
+    },
+    "field_trial_location": {
+      "name": "field_trial_location",
+      "description": "Location of the field trial for the breeding population",
+      "title": "Field Trial Location",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "functional_description": {
+      "name": "functional_description",
+      "description": "Functional description of the gene",
+      "title": "Functional Description",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "gene_id": {
+      "name": "gene_id",
+      "description": "Unique identifier for each gene",
+      "title": "Gene ID",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "generation": {
+      "name": "generation",
+      "description": "Generation of the breeding population",
+      "title": "Generation",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "geographic_location": {
+      "name": "geographic_location",
+      "description": "Geographic location of the germplasm accession",
+      "title": "Geographic Location",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "inoculum_concentration": {
+      "name": "inoculum_concentration",
+      "description": "Concentration of the pathogen inoculum",
+      "title": "Inoculum Concentration",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "cfu/ml"
+      }
+    },
+    "interview_coding": {
+      "name": "interview_coding",
+      "description": "Interview coding data",
+      "title": "Interview Coding",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "interview_transcript": {
+      "name": "interview_transcript",
+      "description": "Interview transcript data",
+      "title": "Interview Transcript",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "marker_data": {
+      "name": "marker_data",
+      "description": "Marker data generated for the breeding population",
+      "title": "Marker Data",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "market_analysis": {
+      "name": "market_analysis",
+      "description": "Market analysis data",
+      "title": "Market Analysis",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "maturity": {
+      "name": "maturity",
+      "description": "Maturity measurement for the breeding population",
+      "title": "Maturity",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "days"
+      }
+    },
+    "metabolite_profile": {
+      "name": "metabolite_profile",
+      "description": "Metabolite profile data",
+      "title": "Metabolite Profile",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "morphological_trait": {
+      "name": "morphological_trait",
+      "description": "Morphological trait measured for the germplasm accession",
+      "title": "Morphological Trait",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "n2o_flux": {
+      "name": "n2o_flux",
+      "description": "Nitrous oxide flux measurement",
+      "title": "N2O Flux",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "g N/ha/day"
+      }
+    },
+    "origin": {
+      "name": "origin",
+      "description": "Geographical origin of the germplasm accession",
+      "title": "Origin",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "parental_line": {
+      "name": "parental_line",
+      "description": "Parental line used in the breeding program",
+      "title": "Parental Line",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "participant_id": {
+      "name": "participant_id",
+      "description": "Unique identifier for each participant",
+      "title": "Participant ID",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "pathogen_strain": {
+      "name": "pathogen_strain",
+      "description": "Pathogen strain used for disease resistance screening",
+      "title": "Pathogen Strain",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "pathway_analysis": {
+      "name": "pathway_analysis",
+      "description": "Pathway analysis data",
+      "title": "Pathway Analysis",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "protein_content": {
+      "name": "protein_content",
+      "description": "Protein content measurement for the breeding population",
+      "title": "Protein Content",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "%"
+      }
+    },
+    "protein_interaction_data": {
+      "name": "protein_interaction_data",
+      "description": "Protein-protein interaction data",
+      "title": "Protein Interaction Data",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "proteomics_data": {
+      "name": "proteomics_data",
+      "description": "Proteomics data for protein analysis",
+      "title": "Proteomics Data",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "qpcr_data": {
+      "name": "qpcr_data",
+      "description": "qPCR data for gene expression analysis",
+      "title": "qPCR Data",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "qtl_mapping": {
+      "name": "qtl_mapping",
+      "description": "QTL mapping data for the breeding population",
+      "title": "QTL Mapping",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "regulations": {
+      "name": "regulations",
+      "description": "Regulations data",
+      "title": "Regulations",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "rna_seq_data": {
+      "name": "rna_seq_data",
+      "description": "RNA-seq data for gene expression analysis",
+      "title": "RNA-Seq Data",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "sequencing_platform": {
+      "name": "sequencing_platform",
+      "description": "Sequencing platform used for genotyping",
+      "title": "Sequencing Platform",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "soil_moisture": {
+      "name": "soil_moisture",
+      "description": "Soil moisture measurement",
+      "title": "Soil Moisture",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "%"
+      }
+    },
+    "soil_nutrient_content": {
+      "name": "soil_nutrient_content",
+      "description": "Soil nutrient content measurement",
+      "title": "Soil Nutrient Content",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "varies"
+      }
+    },
+    "soil_temperature": {
+      "name": "soil_temperature",
+      "description": "Soil temperature measurement",
+      "title": "Soil Temperature",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "°C"
+      }
+    },
+    "species": {
+      "name": "species",
+      "description": "Species of the germplasm accession",
+      "title": "Species",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "stakeholder_analysis": {
+      "name": "stakeholder_analysis",
+      "description": "Stakeholder analysis data",
+      "title": "Stakeholder Analysis",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "subspecies": {
+      "name": "subspecies",
+      "description": "Subspecies of the germplasm accession",
+      "title": "Subspecies",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "survey_response": {
+      "name": "survey_response",
+      "description": "Survey response data",
+      "title": "Survey Response",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "variant_calls": {
+      "name": "variant_calls",
+      "description": "Variant calls generated from sequencing data",
+      "title": "Variant Calls",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "weather_conditions": {
+      "name": "weather_conditions",
+      "description": "Weather conditions during the field trial",
+      "title": "Weather Conditions",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "yield": {
+      "name": "yield",
+      "description": "Yield measurement for the breeding population",
+      "title": "Yield",
+      "from_schema": "https://example.com/Peace",
+      "domain_of": [
+        "Peace"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "kg/ha"
+      }
+    }
+  },
+  "enums": {
+    "SettingsMenu": {
+      "name": "SettingsMenu",
+      "title": "Regular Expressions",
+      "from_schema": "https://example.com/Peace",
+      "permissible_values": {
+        "AllCaps": {
+          "text": "AllCaps",
+          "description": "Entries of any length with only capital letters",
+          "title": "AllCaps"
+        },
+        "AlphaText1-50": {
+          "text": "AlphaText1-50",
+          "description": "Capital or lower case letters only, at least 1 character, and 50 characters max",
+          "title": "AlphaText1-50"
+        },
+        "AlphaText0-50": {
+          "text": "AlphaText0-50",
+          "description": "Capital or lower case letters only, 50 characters max",
+          "title": "AlphaText0-50"
+        },
+        "FreeText0-50": {
+          "text": "FreeText0-50",
+          "description": "Short text, 50 characters max",
+          "title": "FreeText0-50"
+        },
+        "FreeText0-250": {
+          "text": "FreeText0-250",
+          "description": "Short text, 250 characters max",
+          "title": "FreeText0-250"
+        },
+        "FreeText0-800": {
+          "text": "FreeText0-800",
+          "description": "Long text, 800 characters max",
+          "title": "FreeText0-800"
+        },
+        "FreeText0-4000": {
+          "text": "FreeText0-4000",
+          "description": "Long text, 4000 characters max",
+          "title": "FreeText0-4000"
+        },
+        "CanadianPostalCode": {
+          "text": "CanadianPostalCode",
+          "description": "Canadian postal codes (A1A 1A1)",
+          "title": "CanadianPostalCode"
+        },
+        "ZipCode": {
+          "text": "ZipCode",
+          "description": "USA Zip code",
+          "title": "ZipCode"
+        },
+        "EmailAddress": {
+          "text": "EmailAddress",
+          "description": "Email address",
+          "title": "EmailAddress"
+        },
+        "URL": {
+          "text": "URL",
+          "description": "Secure (https) URL",
+          "title": "URL"
+        },
+        "PhoneNumber": {
+          "text": "PhoneNumber",
+          "description": "Phone number with international and area code component.",
+          "title": "PhoneNumber"
+        },
+        "Latitude": {
+          "text": "Latitude",
+          "description": "Latitude in formats S30°15'45.678\" or N12°30.999\"",
+          "title": "Latitude"
+        },
+        "Longitude": {
+          "text": "Longitude",
+          "description": "Longitude in formats E30°15'45.678\" or W90°00.000\"",
+          "title": "Longitude"
+        },
+        "ISO_YYYY-MM-DD": {
+          "text": "ISO_YYYY-MM-DD",
+          "description": "year month day",
+          "title": "ISO_YYYY-MM-DD"
+        },
+        "ISO_YYYYMMDD": {
+          "text": "ISO_YYYYMMDD",
+          "title": "ISO_YYYYMMDD"
+        },
+        "ISO_YYYY-MM": {
+          "text": "ISO_YYYY-MM",
+          "description": "year month",
+          "title": "ISO_YYYY-MM"
+        },
+        "ISO_YYYY-Www": {
+          "text": "ISO_YYYY-Www",
+          "description": "year week (e.g. W01)",
+          "title": "ISO_YYYY-Www"
+        },
+        "ISO_YYYYWww": {
+          "text": "ISO_YYYYWww",
+          "description": "year week (e.g. W01)",
+          "title": "ISO_YYYYWww"
+        },
+        "ISO_YYYY-DDD": {
+          "text": "ISO_YYYY-DDD",
+          "description": "Ordinal date (day number from the year)",
+          "title": "ISO_YYYY-DDD"
+        },
+        "ISO_YYYYDDD": {
+          "text": "ISO_YYYYDDD",
+          "description": "Ordinal date (day number from the year)",
+          "title": "ISO_YYYYDDD"
+        },
+        "ISO_YYYY": {
+          "text": "ISO_YYYY",
+          "description": "year",
+          "title": "ISO_YYYY"
+        },
+        "ISO_MM": {
+          "text": "ISO_MM",
+          "description": "month",
+          "title": "ISO_MM"
+        },
+        "ISO_DD": {
+          "text": "ISO_DD",
+          "description": "day",
+          "title": "ISO_DD"
+        },
+        "ISO_YYYY-MM-DDTHH.MM.SSZ": {
+          "text": "ISO_YYYY-MM-DDTHH.MM.SSZ",
+          "description": "Date and Time Combined (UTC)",
+          "title": "ISO_YYYY-MM-DDTHH:MM:SSZ"
+        },
+        "ISO_YYYY-MM-DDTHH.MM.SS-hh.mm": {
+          "text": "ISO_YYYY-MM-DDTHH.MM.SS-hh.mm",
+          "description": "Date and Time Combined (with Timezone Offset)",
+          "title": "ISO_YYYY-MM-DDTHH:MM:SS±hh:mm"
+        },
+        "ISO_PnYnMnDTnHnMnS": {
+          "text": "ISO_PnYnMnDTnHnMnS",
+          "description": "durations e.g. P3Y6M4DT12H30M5S",
+          "title": "ISO_PnYnMnDTnHnMnS"
+        },
+        "ISO_HH.MM": {
+          "text": "ISO_HH.MM",
+          "description": "hour, minutes in 24 hour notation",
+          "title": "ISO_HH:MM"
+        },
+        "ISO_HH.MM.SS": {
+          "text": "ISO_HH.MM.SS",
+          "description": "hour, minutes, seconds in 24 hour notation",
+          "title": "ISO_HH:MM:SS"
+        },
+        "SLASH_DD_MM_YYYY": {
+          "text": "SLASH_DD_MM_YYYY",
+          "description": "day, month, year",
+          "title": "DD/MM/YYYY"
+        },
+        "SLASH_DD_MM_YY": {
+          "text": "SLASH_DD_MM_YY",
+          "description": "day, month, year",
+          "title": "DD/MM/YY"
+        },
+        "SLASH_MM_DD_YYYY": {
+          "text": "SLASH_MM_DD_YYYY",
+          "description": "month, day, year",
+          "title": "MM/DD/YYYY"
+        },
+        "DDMMYYYY": {
+          "text": "DDMMYYYY",
+          "description": "day, month, year",
+          "title": "DDMMYYYY"
+        },
+        "MMDDYYYY": {
+          "text": "MMDDYYYY",
+          "description": "month, day, year",
+          "title": "MMDDYYYY"
+        },
+        "YYYYMMDD": {
+          "text": "YYYYMMDD",
+          "description": "year, month, day",
+          "title": "YYYYMMDD"
+        },
+        "HH.MM.SS": {
+          "text": "HH.MM.SS",
+          "description": "hour, minutes, seconds 12 hour notation AM/PM",
+          "title": "HH:MM:SS"
+        },
+        "H.MM_or_HH.MM": {
+          "text": "H.MM_or_HH.MM",
+          "description": "hour, minutes AM/PM",
+          "title": "H:MM or HH:MM"
+        }
+      }
+    }
+  },
+  "types": {
+    "WhitespaceMinimizedString": {
+      "name": "WhitespaceMinimizedString",
+      "description": "A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).",
+      "from_schema": "https://example.com/Peace",
+      "typeof": "string",
+      "base": "str",
+      "uri": "xsd:token"
+    },
+    "string": {
+      "name": "string",
+      "description": "A character string",
+      "notes": [
+        "In RDF serializations, a slot with range of string is treated as a literal or type xsd:string.   If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"string\"."
+      ],
+      "from_schema": "https://example.com/Peace",
+      "exact_mappings": [
+        "schema:Text"
+      ],
+      "base": "str",
+      "uri": "xsd:string"
+    },
+    "integer": {
+      "name": "integer",
+      "description": "An integer",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"integer\"."
+      ],
+      "from_schema": "https://example.com/Peace",
+      "exact_mappings": [
+        "schema:Integer"
+      ],
+      "base": "int",
+      "uri": "xsd:integer"
+    },
+    "boolean": {
+      "name": "boolean",
+      "description": "A binary (true or false) value",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"boolean\"."
+      ],
+      "from_schema": "https://example.com/Peace",
+      "exact_mappings": [
+        "schema:Boolean"
+      ],
+      "base": "Bool",
+      "uri": "xsd:boolean",
+      "repr": "bool"
+    },
+    "float": {
+      "name": "float",
+      "description": "A real number that conforms to the xsd:float specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"float\"."
+      ],
+      "from_schema": "https://example.com/Peace",
+      "exact_mappings": [
+        "schema:Float"
+      ],
+      "base": "float",
+      "uri": "xsd:float"
+    },
+    "double": {
+      "name": "double",
+      "description": "A real number that conforms to the xsd:double specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"double\"."
+      ],
+      "from_schema": "https://example.com/Peace",
+      "close_mappings": [
+        "schema:Float"
+      ],
+      "base": "float",
+      "uri": "xsd:double"
+    },
+    "decimal": {
+      "name": "decimal",
+      "description": "A real number with arbitrary precision that conforms to the xsd:decimal specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"decimal\"."
+      ],
+      "from_schema": "https://example.com/Peace",
+      "broad_mappings": [
+        "schema:Number"
+      ],
+      "base": "Decimal",
+      "uri": "xsd:decimal"
+    },
+    "time": {
+      "name": "time",
+      "description": "A time object represents a (local) time of day, independent of any particular day",
+      "notes": [
+        "URI is dateTime because OWL reasoners do not work with straight date or time",
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"time\"."
+      ],
+      "from_schema": "https://example.com/Peace",
+      "exact_mappings": [
+        "schema:Time"
+      ],
+      "base": "XSDTime",
+      "uri": "xsd:time",
+      "repr": "str"
+    },
+    "date": {
+      "name": "date",
+      "description": "a date (year, month and day) in an idealized calendar",
+      "notes": [
+        "URI is dateTime because OWL reasoners don't work with straight date or time",
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date\"."
+      ],
+      "from_schema": "https://example.com/Peace",
+      "exact_mappings": [
+        "schema:Date"
+      ],
+      "base": "XSDDate",
+      "uri": "xsd:date",
+      "repr": "str"
+    },
+    "datetime": {
+      "name": "datetime",
+      "description": "The combination of a date and time",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"datetime\"."
+      ],
+      "from_schema": "https://example.com/Peace",
+      "exact_mappings": [
+        "schema:DateTime"
+      ],
+      "base": "XSDDateTime",
+      "uri": "xsd:dateTime",
+      "repr": "str"
+    },
+    "date_or_datetime": {
+      "name": "date_or_datetime",
+      "description": "Either a date or a datetime",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date_or_datetime\"."
+      ],
+      "from_schema": "https://example.com/Peace",
+      "base": "str",
+      "uri": "linkml:DateOrDatetime",
+      "repr": "str"
+    },
+    "uriorcurie": {
+      "name": "uriorcurie",
+      "description": "a URI or a CURIE",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uriorcurie\"."
+      ],
+      "from_schema": "https://example.com/Peace",
+      "base": "URIorCURIE",
+      "uri": "xsd:anyURI",
+      "repr": "str"
+    },
+    "curie": {
+      "name": "curie",
+      "conforms_to": "https://www.w3.org/TR/curie/",
+      "description": "a compact URI",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"curie\"."
+      ],
+      "comments": [
+        "in RDF serializations this MUST be expanded to a URI",
+        "in non-RDF serializations MAY be serialized as the compact representation"
+      ],
+      "from_schema": "https://example.com/Peace",
+      "base": "Curie",
+      "uri": "xsd:string",
+      "repr": "str"
+    },
+    "uri": {
+      "name": "uri",
+      "conforms_to": "https://www.ietf.org/rfc/rfc3987.txt",
+      "description": "a complete URI",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uri\"."
+      ],
+      "comments": [
+        "in RDF serializations a slot with range of uri is treated as a literal or type xsd:anyURI unless it is an identifier or a reference to an identifier, in which case it is translated directly to a node"
+      ],
+      "from_schema": "https://example.com/Peace",
+      "close_mappings": [
+        "schema:URL"
+      ],
+      "base": "URI",
+      "uri": "xsd:anyURI",
+      "repr": "str"
+    },
+    "ncname": {
+      "name": "ncname",
+      "description": "Prefix part of CURIE",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"ncname\"."
+      ],
+      "from_schema": "https://example.com/Peace",
+      "base": "NCName",
+      "uri": "xsd:string",
+      "repr": "str"
+    },
+    "objectidentifier": {
+      "name": "objectidentifier",
+      "description": "A URI or CURIE that represents an object in the model.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"objectidentifier\"."
+      ],
+      "comments": [
+        "Used for inheritance and type checking"
+      ],
+      "from_schema": "https://example.com/Peace",
+      "base": "ElementIdentifier",
+      "uri": "shex:iri",
+      "repr": "str"
+    },
+    "nodeidentifier": {
+      "name": "nodeidentifier",
+      "description": "A URI, CURIE or BNODE that represents a node in a model.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"nodeidentifier\"."
+      ],
+      "from_schema": "https://example.com/Peace",
+      "base": "NodeIdentifier",
+      "uri": "shex:nonLiteral",
+      "repr": "str"
+    },
+    "jsonpointer": {
+      "name": "jsonpointer",
+      "conforms_to": "https://datatracker.ietf.org/doc/html/rfc6901",
+      "description": "A string encoding a JSON Pointer. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to a valid object within the current instance document when encoded in tree form.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpointer\"."
+      ],
+      "from_schema": "https://example.com/Peace",
+      "base": "str",
+      "uri": "xsd:string",
+      "repr": "str"
+    },
+    "jsonpath": {
+      "name": "jsonpath",
+      "conforms_to": "https://www.ietf.org/archive/id/draft-goessner-dispatch-jsonpath-00.html",
+      "description": "A string encoding a JSON Path. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to zero or more valid objects within the current instance document when encoded in tree form.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpath\"."
+      ],
+      "from_schema": "https://example.com/Peace",
+      "base": "str",
+      "uri": "xsd:string",
+      "repr": "str"
+    },
+    "sparqlpath": {
+      "name": "sparqlpath",
+      "conforms_to": "https://www.w3.org/TR/sparql11-query/#propertypaths",
+      "description": "A string encoding a SPARQL Property Path. The value of the string MUST conform to SPARQL syntax and SHOULD dereference to zero or more valid objects within the current instance document when encoded as RDF.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"sparqlpath\"."
+      ],
+      "from_schema": "https://example.com/Peace",
+      "base": "str",
+      "uri": "xsd:string",
+      "repr": "str"
+    }
+  },
   "settings": {
     "Title_Case": {
       "setting_key": "Title_Case",
@@ -2117,5 +2117,6 @@
       "setting_value": "^(0?[1-9]|1[0-2]):[0-5][0-9] ?[APMapm]{2}$"
     }
   },
-  "@type": "SchemaDefinition"
+  "extensions": {},
+  "@type": "OrderedDict"
 }

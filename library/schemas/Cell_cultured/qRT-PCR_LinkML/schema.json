@@ -1,0 +1,1150 @@
+{
+  "id": "https://example.com/QrtPcr",
+  "name": "QrtPcr",
+  "description": "",
+  "version": "0.0.0",
+  "in_language": "en",
+  "default_prefix": "https://example.com/QrtPcr/",
+  "imports": [],
+  "prefixes": {
+    "linkml": {
+      "prefix_prefix": "linkml",
+      "prefix_reference": "https://w3id.org/linkml/"
+    },
+    "xsd": {
+      "prefix_prefix": "xsd",
+      "prefix_reference": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "shex": {
+      "prefix_prefix": "shex",
+      "prefix_reference": "http://www.w3.org/ns/shex#"
+    },
+    "schema": {
+      "prefix_prefix": "schema",
+      "prefix_reference": "http://schema.org/"
+    }
+  },
+  "classes": {
+    "QrtPcr": {
+      "name": "QrtPcr",
+      "description": "",
+      "title": "qRT-PCR",
+      "from_schema": "https://example.com/QrtPcr",
+      "keywords": [
+        "RDF207"
+      ],
+      "slot_usage": {
+        "Amp_Status": {
+          "name": "Amp_Status",
+          "rank": 1,
+          "slot_group": "General"
+        },
+        "Baseline_End": {
+          "name": "Baseline_End",
+          "rank": 2,
+          "slot_group": "General"
+        },
+        "Baseline_Start": {
+          "name": "Baseline_Start",
+          "rank": 3,
+          "slot_group": "General"
+        },
+        "CT": {
+          "name": "CT",
+          "rank": 4,
+          "slot_group": "General"
+        },
+        "Cq_Conf": {
+          "name": "Cq_Conf",
+          "rank": 5,
+          "slot_group": "General"
+        },
+        "Ct_Mean": {
+          "name": "Ct_Mean",
+          "rank": 6,
+          "slot_group": "General"
+        },
+        "Ct_SD": {
+          "name": "Ct_SD",
+          "rank": 7,
+          "slot_group": "General"
+        },
+        "Ct_Threshold": {
+          "name": "Ct_Threshold",
+          "rank": 8,
+          "slot_group": "General"
+        },
+        "HIGHSD": {
+          "name": "HIGHSD",
+          "rank": 9,
+          "slot_group": "General"
+        },
+        "Reporter": {
+          "name": "Reporter",
+          "rank": 10,
+          "slot_group": "General"
+        },
+        "Sample_Name": {
+          "name": "Sample_Name",
+          "rank": 11,
+          "slot_group": "General"
+        },
+        "Target_Name": {
+          "name": "Target_Name",
+          "rank": 12,
+          "slot_group": "General"
+        },
+        "Tm1": {
+          "name": "Tm1",
+          "rank": 13,
+          "slot_group": "General"
+        },
+        "Well": {
+          "name": "Well",
+          "rank": 14,
+          "slot_group": "General"
+        },
+        "Well_Position": {
+          "name": "Well_Position",
+          "rank": 15,
+          "slot_group": "General"
+        }
+      },
+      "attributes": {
+        "Amp_Status": {
+          "name": "Amp_Status",
+          "description": "Indicates whether amplification was detected",
+          "from_schema": "https://example.com/QrtPcr",
+          "rank": 1,
+          "alias": "Amp_Status",
+          "owner": "QrtPcr",
+          "domain_of": [
+            "QrtPcr"
+          ],
+          "slot_group": "General",
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "Amp_Status"
+            }
+          ]
+        },
+        "Baseline_End": {
+          "name": "Baseline_End",
+          "description": "End cycle for baseline signal calculation",
+          "from_schema": "https://example.com/QrtPcr",
+          "rank": 2,
+          "alias": "Baseline_End",
+          "owner": "QrtPcr",
+          "domain_of": [
+            "QrtPcr"
+          ],
+          "slot_group": "General",
+          "range": "decimal"
+        },
+        "Baseline_Start": {
+          "name": "Baseline_Start",
+          "description": "Start cycle for baseline signal calculation",
+          "from_schema": "https://example.com/QrtPcr",
+          "rank": 3,
+          "alias": "Baseline_Start",
+          "owner": "QrtPcr",
+          "domain_of": [
+            "QrtPcr"
+          ],
+          "slot_group": "General",
+          "range": "decimal"
+        },
+        "CT": {
+          "name": "CT",
+          "description": "Threshold cycle where fluorescence exceeds background",
+          "from_schema": "https://example.com/QrtPcr",
+          "rank": 4,
+          "alias": "CT",
+          "owner": "QrtPcr",
+          "domain_of": [
+            "QrtPcr"
+          ],
+          "slot_group": "General",
+          "range": "decimal"
+        },
+        "Cq_Conf": {
+          "name": "Cq_Conf",
+          "description": "Confidence in quantification cycle (Cq) value",
+          "from_schema": "https://example.com/QrtPcr",
+          "rank": 5,
+          "alias": "Cq_Conf",
+          "owner": "QrtPcr",
+          "domain_of": [
+            "QrtPcr"
+          ],
+          "slot_group": "General",
+          "range": "decimal"
+        },
+        "Ct_Mean": {
+          "name": "Ct_Mean",
+          "description": "Average CT value from technical replicates",
+          "from_schema": "https://example.com/QrtPcr",
+          "rank": 6,
+          "alias": "Ct_Mean",
+          "owner": "QrtPcr",
+          "domain_of": [
+            "QrtPcr"
+          ],
+          "slot_group": "General",
+          "range": "decimal"
+        },
+        "Ct_SD": {
+          "name": "Ct_SD",
+          "description": "Standard deviation of CT values among replicates",
+          "from_schema": "https://example.com/QrtPcr",
+          "rank": 7,
+          "alias": "Ct_SD",
+          "owner": "QrtPcr",
+          "domain_of": [
+            "QrtPcr"
+          ],
+          "slot_group": "General",
+          "range": "decimal"
+        },
+        "Ct_Threshold": {
+          "name": "Ct_Threshold",
+          "description": "Fluorescence threshold used to calculate CT",
+          "from_schema": "https://example.com/QrtPcr",
+          "rank": 8,
+          "alias": "Ct_Threshold",
+          "owner": "QrtPcr",
+          "domain_of": [
+            "QrtPcr"
+          ],
+          "slot_group": "General",
+          "range": "decimal"
+        },
+        "HIGHSD": {
+          "name": "HIGHSD",
+          "description": "High standard deviation among technical replicates for a given sample, suggesting inconsistent amplification",
+          "from_schema": "https://example.com/QrtPcr",
+          "rank": 9,
+          "alias": "HIGHSD",
+          "owner": "QrtPcr",
+          "domain_of": [
+            "QrtPcr"
+          ],
+          "slot_group": "General",
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "HIGHSD"
+            }
+          ]
+        },
+        "Reporter": {
+          "name": "Reporter",
+          "description": "Fluorescent dye used to detect amplification",
+          "from_schema": "https://example.com/QrtPcr",
+          "rank": 10,
+          "alias": "Reporter",
+          "owner": "QrtPcr",
+          "domain_of": [
+            "QrtPcr"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "Sample_Name": {
+          "name": "Sample_Name",
+          "description": "Name or ID of the biological or experimental sample",
+          "from_schema": "https://example.com/QrtPcr",
+          "rank": 11,
+          "alias": "Sample_Name",
+          "owner": "QrtPcr",
+          "domain_of": [
+            "QrtPcr"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "Target_Name": {
+          "name": "Target_Name",
+          "description": "Target Gene",
+          "from_schema": "https://example.com/QrtPcr",
+          "rank": 12,
+          "alias": "Target_Name",
+          "owner": "QrtPcr",
+          "domain_of": [
+            "QrtPcr"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString"
+        },
+        "Tm1": {
+          "name": "Tm1",
+          "description": "Melting temperature of the first PCR product peak",
+          "from_schema": "https://example.com/QrtPcr",
+          "rank": 13,
+          "alias": "Tm1",
+          "owner": "QrtPcr",
+          "domain_of": [
+            "QrtPcr"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "unit": {
+            "ucum_code": "Celsius"
+          }
+        },
+        "Well": {
+          "name": "Well",
+          "description": "Identifies the specific well on the qPCR plate",
+          "from_schema": "https://example.com/QrtPcr",
+          "rank": 14,
+          "alias": "Well",
+          "owner": "QrtPcr",
+          "domain_of": [
+            "QrtPcr"
+          ],
+          "slot_group": "General",
+          "range": "decimal"
+        },
+        "Well_Position": {
+          "name": "Well_Position",
+          "description": "Coordinates of the well",
+          "from_schema": "https://example.com/QrtPcr",
+          "rank": 15,
+          "alias": "Well_Position",
+          "owner": "QrtPcr",
+          "domain_of": [
+            "QrtPcr"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString",
+          "pattern": "^[A-Z]*$"
+        }
+      }
+    },
+    "Container": {
+      "name": "Container",
+      "from_schema": "https://example.com/QrtPcr",
+      "attributes": {
+        "QrtPcrData": {
+          "name": "QrtPcrData",
+          "from_schema": "https://example.com/QrtPcr",
+          "alias": "QrtPcrData",
+          "owner": "Container",
+          "domain_of": [
+            "Container"
+          ],
+          "range": "QrtPcr",
+          "multivalued": true,
+          "inlined_as_list": true
+        }
+      },
+      "tree_root": true
+    }
+  },
+  "slots": {
+    "Amp_Status": {
+      "name": "Amp_Status",
+      "description": "Indicates whether amplification was detected",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "Amp_Status"
+        }
+      ]
+    },
+    "Baseline_End": {
+      "name": "Baseline_End",
+      "description": "End cycle for baseline signal calculation",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "decimal"
+    },
+    "Baseline_Start": {
+      "name": "Baseline_Start",
+      "description": "Start cycle for baseline signal calculation",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "decimal"
+    },
+    "CT": {
+      "name": "CT",
+      "description": "Threshold cycle where fluorescence exceeds background",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "decimal"
+    },
+    "Cq_Conf": {
+      "name": "Cq_Conf",
+      "description": "Confidence in quantification cycle (Cq) value",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "decimal"
+    },
+    "Ct_Mean": {
+      "name": "Ct_Mean",
+      "description": "Average CT value from technical replicates",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "decimal"
+    },
+    "Ct_SD": {
+      "name": "Ct_SD",
+      "description": "Standard deviation of CT values among replicates",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "decimal"
+    },
+    "Ct_Threshold": {
+      "name": "Ct_Threshold",
+      "description": "Fluorescence threshold used to calculate CT",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "decimal"
+    },
+    "HIGHSD": {
+      "name": "HIGHSD",
+      "description": "High standard deviation among technical replicates for a given sample, suggesting inconsistent amplification",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "any_of": [
+        {
+          "range": "WhitespaceMinimizedString"
+        },
+        {
+          "range": "HIGHSD"
+        }
+      ]
+    },
+    "Reporter": {
+      "name": "Reporter",
+      "description": "Fluorescent dye used to detect amplification",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "Sample_Name": {
+      "name": "Sample_Name",
+      "description": "Name or ID of the biological or experimental sample",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "Target_Name": {
+      "name": "Target_Name",
+      "description": "Target Gene",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "WhitespaceMinimizedString"
+    },
+    "Tm1": {
+      "name": "Tm1",
+      "description": "Melting temperature of the first PCR product peak",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "decimal",
+      "unit": {
+        "ucum_code": "Celsius"
+      }
+    },
+    "Well": {
+      "name": "Well",
+      "description": "Identifies the specific well on the qPCR plate",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "decimal"
+    },
+    "Well_Position": {
+      "name": "Well_Position",
+      "description": "Coordinates of the well",
+      "from_schema": "https://example.com/QrtPcr",
+      "domain_of": [
+        "QrtPcr"
+      ],
+      "range": "WhitespaceMinimizedString",
+      "pattern": "^[A-Z]*$"
+    }
+  },
+  "enums": {
+    "SettingsMenu": {
+      "name": "SettingsMenu",
+      "title": "Regular Expressions",
+      "from_schema": "https://example.com/QrtPcr",
+      "permissible_values": {
+        "AllCaps": {
+          "text": "AllCaps",
+          "description": "Entries of any length with only capital letters",
+          "title": "AllCaps"
+        },
+        "AlphaText1-50": {
+          "text": "AlphaText1-50",
+          "description": "Capital or lower case letters only, at least 1 character, and 50 characters max",
+          "title": "AlphaText1-50"
+        },
+        "AlphaText0-50": {
+          "text": "AlphaText0-50",
+          "description": "Capital or lower case letters only, 50 characters max",
+          "title": "AlphaText0-50"
+        },
+        "FreeText0-50": {
+          "text": "FreeText0-50",
+          "description": "Short text, 50 characters max",
+          "title": "FreeText0-50"
+        },
+        "FreeText0-250": {
+          "text": "FreeText0-250",
+          "description": "Short text, 250 characters max",
+          "title": "FreeText0-250"
+        },
+        "FreeText0-800": {
+          "text": "FreeText0-800",
+          "description": "Long text, 800 characters max",
+          "title": "FreeText0-800"
+        },
+        "FreeText0-4000": {
+          "text": "FreeText0-4000",
+          "description": "Long text, 4000 characters max",
+          "title": "FreeText0-4000"
+        },
+        "CanadianPostalCode": {
+          "text": "CanadianPostalCode",
+          "description": "Canadian postal codes (A1A 1A1)",
+          "title": "CanadianPostalCode"
+        },
+        "ZipCode": {
+          "text": "ZipCode",
+          "description": "USA Zip code",
+          "title": "ZipCode"
+        },
+        "EmailAddress": {
+          "text": "EmailAddress",
+          "description": "Email address",
+          "title": "EmailAddress"
+        },
+        "URL": {
+          "text": "URL",
+          "description": "Secure (https) URL",
+          "title": "URL"
+        },
+        "PhoneNumber": {
+          "text": "PhoneNumber",
+          "description": "Phone number with international and area code component.",
+          "title": "PhoneNumber"
+        },
+        "Latitude": {
+          "text": "Latitude",
+          "description": "Latitude in formats S30°15'45.678\" or N12°30.999\"",
+          "title": "Latitude"
+        },
+        "Longitude": {
+          "text": "Longitude",
+          "description": "Longitude in formats E30°15'45.678\" or W90°00.000\"",
+          "title": "Longitude"
+        },
+        "ISO_YYYY-MM-DD": {
+          "text": "ISO_YYYY-MM-DD",
+          "description": "year month day",
+          "title": "ISO_YYYY-MM-DD"
+        },
+        "ISO_YYYYMMDD": {
+          "text": "ISO_YYYYMMDD",
+          "title": "ISO_YYYYMMDD"
+        },
+        "ISO_YYYY-MM": {
+          "text": "ISO_YYYY-MM",
+          "description": "year month",
+          "title": "ISO_YYYY-MM"
+        },
+        "ISO_YYYY-Www": {
+          "text": "ISO_YYYY-Www",
+          "description": "year week (e.g. W01)",
+          "title": "ISO_YYYY-Www"
+        },
+        "ISO_YYYYWww": {
+          "text": "ISO_YYYYWww",
+          "description": "year week (e.g. W01)",
+          "title": "ISO_YYYYWww"
+        },
+        "ISO_YYYY-DDD": {
+          "text": "ISO_YYYY-DDD",
+          "description": "Ordinal date (day number from the year)",
+          "title": "ISO_YYYY-DDD"
+        },
+        "ISO_YYYYDDD": {
+          "text": "ISO_YYYYDDD",
+          "description": "Ordinal date (day number from the year)",
+          "title": "ISO_YYYYDDD"
+        },
+        "ISO_YYYY": {
+          "text": "ISO_YYYY",
+          "description": "year",
+          "title": "ISO_YYYY"
+        },
+        "ISO_MM": {
+          "text": "ISO_MM",
+          "description": "month",
+          "title": "ISO_MM"
+        },
+        "ISO_DD": {
+          "text": "ISO_DD",
+          "description": "day",
+          "title": "ISO_DD"
+        },
+        "ISO_YYYY-MM-DDTHH.MM.SSZ": {
+          "text": "ISO_YYYY-MM-DDTHH.MM.SSZ",
+          "description": "Date and Time Combined (UTC)",
+          "title": "ISO_YYYY-MM-DDTHH:MM:SSZ"
+        },
+        "ISO_YYYY-MM-DDTHH.MM.SS-hh.mm": {
+          "text": "ISO_YYYY-MM-DDTHH.MM.SS-hh.mm",
+          "description": "Date and Time Combined (with Timezone Offset)",
+          "title": "ISO_YYYY-MM-DDTHH:MM:SS±hh:mm"
+        },
+        "ISO_PnYnMnDTnHnMnS": {
+          "text": "ISO_PnYnMnDTnHnMnS",
+          "description": "durations e.g. P3Y6M4DT12H30M5S",
+          "title": "ISO_PnYnMnDTnHnMnS"
+        },
+        "ISO_HH.MM": {
+          "text": "ISO_HH.MM",
+          "description": "hour, minutes in 24 hour notation",
+          "title": "ISO_HH:MM"
+        },
+        "ISO_HH.MM.SS": {
+          "text": "ISO_HH.MM.SS",
+          "description": "hour, minutes, seconds in 24 hour notation",
+          "title": "ISO_HH:MM:SS"
+        },
+        "SLASH_DD_MM_YYYY": {
+          "text": "SLASH_DD_MM_YYYY",
+          "description": "day, month, year",
+          "title": "DD/MM/YYYY"
+        },
+        "SLASH_DD_MM_YY": {
+          "text": "SLASH_DD_MM_YY",
+          "description": "day, month, year",
+          "title": "DD/MM/YY"
+        },
+        "SLASH_MM_DD_YYYY": {
+          "text": "SLASH_MM_DD_YYYY",
+          "description": "month, day, year",
+          "title": "MM/DD/YYYY"
+        },
+        "DDMMYYYY": {
+          "text": "DDMMYYYY",
+          "description": "day, month, year",
+          "title": "DDMMYYYY"
+        },
+        "MMDDYYYY": {
+          "text": "MMDDYYYY",
+          "description": "month, day, year",
+          "title": "MMDDYYYY"
+        },
+        "YYYYMMDD": {
+          "text": "YYYYMMDD",
+          "description": "year, month, day",
+          "title": "YYYYMMDD"
+        },
+        "HH.MM.SS": {
+          "text": "HH.MM.SS",
+          "description": "hour, minutes, seconds 12 hour notation AM/PM",
+          "title": "HH:MM:SS"
+        },
+        "H.MM_or_HH.MM": {
+          "text": "H.MM_or_HH.MM",
+          "description": "hour, minutes AM/PM",
+          "title": "H:MM or HH:MM"
+        }
+      }
+    },
+    "Amp_Status": {
+      "name": "Amp_Status",
+      "title": "Amp_Status",
+      "permissible_values": {
+        "Amp": {
+          "text": "Amp",
+          "title": "Amplified"
+        },
+        "No Amp": {
+          "text": "No Amp",
+          "title": "Not amplified"
+        }
+      }
+    },
+    "HIGHSD": {
+      "name": "HIGHSD",
+      "title": "HIGHSD",
+      "permissible_values": {
+        "N": {
+          "text": "N",
+          "title": "No"
+        },
+        "Y": {
+          "text": "Y",
+          "title": "Yes"
+        }
+      }
+    }
+  },
+  "types": {
+    "WhitespaceMinimizedString": {
+      "name": "WhitespaceMinimizedString",
+      "description": "A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).",
+      "from_schema": "https://example.com/QrtPcr",
+      "typeof": "string",
+      "base": "str",
+      "uri": "xsd:token"
+    },
+    "string": {
+      "name": "string",
+      "description": "A character string",
+      "notes": [
+        "In RDF serializations, a slot with range of string is treated as a literal or type xsd:string.   If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"string\"."
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "exact_mappings": [
+        "schema:Text"
+      ],
+      "base": "str",
+      "uri": "xsd:string"
+    },
+    "integer": {
+      "name": "integer",
+      "description": "An integer",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"integer\"."
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "exact_mappings": [
+        "schema:Integer"
+      ],
+      "base": "int",
+      "uri": "xsd:integer"
+    },
+    "boolean": {
+      "name": "boolean",
+      "description": "A binary (true or false) value",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"boolean\"."
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "exact_mappings": [
+        "schema:Boolean"
+      ],
+      "base": "Bool",
+      "uri": "xsd:boolean",
+      "repr": "bool"
+    },
+    "float": {
+      "name": "float",
+      "description": "A real number that conforms to the xsd:float specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"float\"."
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "exact_mappings": [
+        "schema:Float"
+      ],
+      "base": "float",
+      "uri": "xsd:float"
+    },
+    "double": {
+      "name": "double",
+      "description": "A real number that conforms to the xsd:double specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"double\"."
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "close_mappings": [
+        "schema:Float"
+      ],
+      "base": "float",
+      "uri": "xsd:double"
+    },
+    "decimal": {
+      "name": "decimal",
+      "description": "A real number with arbitrary precision that conforms to the xsd:decimal specification",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"decimal\"."
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "broad_mappings": [
+        "schema:Number"
+      ],
+      "base": "Decimal",
+      "uri": "xsd:decimal"
+    },
+    "time": {
+      "name": "time",
+      "description": "A time object represents a (local) time of day, independent of any particular day",
+      "notes": [
+        "URI is dateTime because OWL reasoners do not work with straight date or time",
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"time\"."
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "exact_mappings": [
+        "schema:Time"
+      ],
+      "base": "XSDTime",
+      "uri": "xsd:time",
+      "repr": "str"
+    },
+    "date": {
+      "name": "date",
+      "description": "a date (year, month and day) in an idealized calendar",
+      "notes": [
+        "URI is dateTime because OWL reasoners don't work with straight date or time",
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date\"."
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "exact_mappings": [
+        "schema:Date"
+      ],
+      "base": "XSDDate",
+      "uri": "xsd:date",
+      "repr": "str"
+    },
+    "datetime": {
+      "name": "datetime",
+      "description": "The combination of a date and time",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"datetime\"."
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "exact_mappings": [
+        "schema:DateTime"
+      ],
+      "base": "XSDDateTime",
+      "uri": "xsd:dateTime",
+      "repr": "str"
+    },
+    "date_or_datetime": {
+      "name": "date_or_datetime",
+      "description": "Either a date or a datetime",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date_or_datetime\"."
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "base": "str",
+      "uri": "linkml:DateOrDatetime",
+      "repr": "str"
+    },
+    "uriorcurie": {
+      "name": "uriorcurie",
+      "description": "a URI or a CURIE",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uriorcurie\"."
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "base": "URIorCURIE",
+      "uri": "xsd:anyURI",
+      "repr": "str"
+    },
+    "curie": {
+      "name": "curie",
+      "conforms_to": "https://www.w3.org/TR/curie/",
+      "description": "a compact URI",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"curie\"."
+      ],
+      "comments": [
+        "in RDF serializations this MUST be expanded to a URI",
+        "in non-RDF serializations MAY be serialized as the compact representation"
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "base": "Curie",
+      "uri": "xsd:string",
+      "repr": "str"
+    },
+    "uri": {
+      "name": "uri",
+      "conforms_to": "https://www.ietf.org/rfc/rfc3987.txt",
+      "description": "a complete URI",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uri\"."
+      ],
+      "comments": [
+        "in RDF serializations a slot with range of uri is treated as a literal or type xsd:anyURI unless it is an identifier or a reference to an identifier, in which case it is translated directly to a node"
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "close_mappings": [
+        "schema:URL"
+      ],
+      "base": "URI",
+      "uri": "xsd:anyURI",
+      "repr": "str"
+    },
+    "ncname": {
+      "name": "ncname",
+      "description": "Prefix part of CURIE",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"ncname\"."
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "base": "NCName",
+      "uri": "xsd:string",
+      "repr": "str"
+    },
+    "objectidentifier": {
+      "name": "objectidentifier",
+      "description": "A URI or CURIE that represents an object in the model.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"objectidentifier\"."
+      ],
+      "comments": [
+        "Used for inheritance and type checking"
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "base": "ElementIdentifier",
+      "uri": "shex:iri",
+      "repr": "str"
+    },
+    "nodeidentifier": {
+      "name": "nodeidentifier",
+      "description": "A URI, CURIE or BNODE that represents a node in a model.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"nodeidentifier\"."
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "base": "NodeIdentifier",
+      "uri": "shex:nonLiteral",
+      "repr": "str"
+    },
+    "jsonpointer": {
+      "name": "jsonpointer",
+      "conforms_to": "https://datatracker.ietf.org/doc/html/rfc6901",
+      "description": "A string encoding a JSON Pointer. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to a valid object within the current instance document when encoded in tree form.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpointer\"."
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "base": "str",
+      "uri": "xsd:string",
+      "repr": "str"
+    },
+    "jsonpath": {
+      "name": "jsonpath",
+      "conforms_to": "https://www.ietf.org/archive/id/draft-goessner-dispatch-jsonpath-00.html",
+      "description": "A string encoding a JSON Path. The value of the string MUST conform to JSON Point syntax and SHOULD dereference to zero or more valid objects within the current instance document when encoded in tree form.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpath\"."
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "base": "str",
+      "uri": "xsd:string",
+      "repr": "str"
+    },
+    "sparqlpath": {
+      "name": "sparqlpath",
+      "conforms_to": "https://www.w3.org/TR/sparql11-query/#propertypaths",
+      "description": "A string encoding a SPARQL Property Path. The value of the string MUST conform to SPARQL syntax and SHOULD dereference to zero or more valid objects within the current instance document when encoded as RDF.",
+      "notes": [
+        "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"sparqlpath\"."
+      ],
+      "from_schema": "https://example.com/QrtPcr",
+      "base": "str",
+      "uri": "xsd:string",
+      "repr": "str"
+    }
+  },
+  "settings": {
+    "Title_Case": {
+      "setting_key": "Title_Case",
+      "setting_value": "((?<=\\b)[^a-z\\W]\\w*?|[\\W])+"
+    },
+    "UPPER_CASE": {
+      "setting_key": "UPPER_CASE",
+      "setting_value": "[A-Z\\W\\d_]*"
+    },
+    "lower_case": {
+      "setting_key": "lower_case",
+      "setting_value": "[a-z\\W\\d_]*"
+    },
+    "AllCaps": {
+      "setting_key": "AllCaps",
+      "setting_value": "^[A-Z]*$"
+    },
+    "AlphaText1-50": {
+      "setting_key": "AlphaText1-50",
+      "setting_value": "^[A-Za-z]{1,50}$"
+    },
+    "AlphaText0-50": {
+      "setting_key": "AlphaText0-50",
+      "setting_value": "^[A-Za-z]{0,50}$"
+    },
+    "FreeText0-50": {
+      "setting_key": "FreeText0-50",
+      "setting_value": "^.{0,50}$"
+    },
+    "FreeText0-250": {
+      "setting_key": "FreeText0-250",
+      "setting_value": "^.{0,250}$"
+    },
+    "FreeText0-800": {
+      "setting_key": "FreeText0-800",
+      "setting_value": "^.{0,800}$"
+    },
+    "FreeText0-4000": {
+      "setting_key": "FreeText0-4000",
+      "setting_value": "^.{0,4000}$"
+    },
+    "CanadianPostalCode": {
+      "setting_key": "CanadianPostalCode",
+      "setting_value": "^[A-Z][0-9][A-Z]\\s[0-9][A-Z][0-9]$"
+    },
+    "ZipCode": {
+      "setting_key": "ZipCode",
+      "setting_value": "^\\d{5,6}(?:[-\\s]\\d{4})?$"
+    },
+    "EmailAddress": {
+      "setting_key": "EmailAddress",
+      "setting_value": "^[a-zA-Z0-9_\\.\\+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-\\.]+"
+    },
+    "URL": {
+      "setting_key": "URL",
+      "setting_value": "^https?\\:\\/\\/[a-zA-Z0-9\\-\\.]+\\.[a-zA-Z]{2,}$"
+    },
+    "PhoneNumber": {
+      "setting_key": "PhoneNumber",
+      "setting_value": "^\\+?\\(?\\d{2,4}\\)?[\\d\\s-]{3,}$"
+    },
+    "Latitude": {
+      "setting_key": "Latitude",
+      "setting_value": "^[NS]-?(?:[0-8]?\\d|90)°(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\")?$"
+    },
+    "Longitude": {
+      "setting_key": "Longitude",
+      "setting_value": "^[WE]-?(?:[0-8]?\\d|90)°(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\")?$"
+    },
+    "ISO_YYYY-MM-DD": {
+      "setting_key": "ISO_YYYY-MM-DD",
+      "setting_value": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$"
+    },
+    "ISO_YYYYMMDD": {
+      "setting_key": "ISO_YYYYMMDD",
+      "setting_value": "^(\\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\\d|3[0-1])$"
+    },
+    "ISO_YYYY-MM": {
+      "setting_key": "ISO_YYYY-MM",
+      "setting_value": "^(\\d{4})-(0[1-9]|1[0-2])$"
+    },
+    "ISO_YYYY-Www": {
+      "setting_key": "ISO_YYYY-Www",
+      "setting_value": "^(?:\\d{4})-W(0[1-9]|[1-4][0-9]|5[0-3])$"
+    },
+    "ISO_YYYYWww": {
+      "setting_key": "ISO_YYYYWww",
+      "setting_value": "^(?:\\d{4})W(0[1-9]|[1-4][0-9]|5[0-3])$"
+    },
+    "ISO_YYYY-DDD": {
+      "setting_key": "ISO_YYYY-DDD",
+      "setting_value": "^(?:\\d{4})-(00[1-9]|0[1-9][0-9]|[1-2][0-9]{2}|3[0-5][0-9]|36[0-6])$"
+    },
+    "ISO_YYYYDDD": {
+      "setting_key": "ISO_YYYYDDD",
+      "setting_value": "^(?:\\d{4})(00[1-9]|0[1-9][0-9]|[1-2][0-9]{2}|3[0-5][0-9]|36[0-6])$"
+    },
+    "ISO_YYYY": {
+      "setting_key": "ISO_YYYY",
+      "setting_value": "^(\\d{4})$"
+    },
+    "ISO_MM": {
+      "setting_key": "ISO_MM",
+      "setting_value": "^(0[1-9]|1[0-2])$"
+    },
+    "ISO_DD": {
+      "setting_key": "ISO_DD",
+      "setting_value": "^(0[1-9]|[1-2][0-9]|3[01])$"
+    },
+    "ISO_YYYY-MM-DDTHH.MM.SSZ": {
+      "setting_key": "ISO_YYYY-MM-DDTHH.MM.SSZ",
+      "setting_value": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])T([01]\\d|2[0-3]):([0-5]\\d):([0-5]\\d)Z$"
+    },
+    "ISO_YYYY-MM-DDTHH.MM.SS-hh.mm": {
+      "setting_key": "ISO_YYYY-MM-DDTHH.MM.SS-hh.mm",
+      "setting_value": "^(\\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])T([01]\\d|2[0-3]):([0-5]\\d):([0-5]\\\\d)([+-][01]\\\\d:[0-5]\\d)$"
+    },
+    "ISO_PnYnMnDTnHnMnS": {
+      "setting_key": "ISO_PnYnMnDTnHnMnS",
+      "setting_value": "^P(?!$)((\\d+Y)|(\\d+.\\d+Y)$)?((\\d+M)|(\\d+.\\d+M)$)?((\\d+W)|(\\d+.\\d+W)$)?((\\d+D)|(\\d+.\\d+D)$)?(T(?=\\d)((\\d+H)|(\\d+.\\d+H)$)?((\\d+M)|(\\d+.\\d+M)$)?(\\d+(.\\d+S)?)?)?$"
+    },
+    "ISO_HH.MM": {
+      "setting_key": "ISO_HH.MM",
+      "setting_value": "^([01]\\d|2[0-3]):([0-5]\\d)$"
+    },
+    "ISO_HH.MM.SS": {
+      "setting_key": "ISO_HH.MM.SS",
+      "setting_value": "^([01]\\d|2[0-3]):([0-5]\\d):([0-5]\\d)$"
+    },
+    "SLASH_DD_MM_YYYY": {
+      "setting_key": "SLASH_DD_MM_YYYY",
+      "setting_value": "^(0[1-9]|[12]\\d|3[01])/(0[1-9]|1[0-2])/\\d{4}$"
+    },
+    "SLASH_DD_MM_YY": {
+      "setting_key": "SLASH_DD_MM_YY",
+      "setting_value": "^(0[1-9]|[12]\\d|3[01])/(0[1-9]|1[0-2])/\\d{2}$"
+    },
+    "SLASH_MM_DD_YYYY": {
+      "setting_key": "SLASH_MM_DD_YYYY",
+      "setting_value": "^(0[1-9]|1[0-2])/(0[1-9]|[12]\\d|3[01])/\\d{4}$"
+    },
+    "DDMMYYYY": {
+      "setting_key": "DDMMYYYY",
+      "setting_value": "^(0[1-9]|[12]\\d|3[01])(0[1-9]|1[0-2])\\d{4}$"
+    },
+    "MMDDYYYY": {
+      "setting_key": "MMDDYYYY",
+      "setting_value": "^(0[1-9]|1[0-2])(0[1-9]|[12]\\d|3[01])\\d{4}$"
+    },
+    "YYYYMMDD": {
+      "setting_key": "YYYYMMDD",
+      "setting_value": "^(\\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\\d|3[0-1])$"
+    },
+    "HH.MM.SS": {
+      "setting_key": "HH.MM.SS",
+      "setting_value": "^(0?[1-9]|1[0-2]):[0-5][0-9]:[0-5][0-9] ?[APMapm]{2}$"
+    },
+    "H.MM_or_HH.MM": {
+      "setting_key": "H.MM_or_HH.MM",
+      "setting_value": "^(0?[1-9]|1[0-2]):[0-5][0-9] ?[APMapm]{2}$"
+    }
+  },
+  "extensions": {},
+  "@type": "OrderedDict"
+}

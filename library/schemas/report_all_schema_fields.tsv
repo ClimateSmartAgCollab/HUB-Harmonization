@@ -1,0 +1,638 @@
+folder	prefix	class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		Block	Block	decimal							True						Block number			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		BlockCol	BlockCol	decimal							True						Column number within block			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		BlockRow	BlockRow	decimal							True						Row number within block			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		Col	Col	decimal							True						Column number			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		Combo	Combo	WhitespaceMinimizedString							True						Identifies the Lentil-Wheat combination evaluated in this plot.			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		Comment	Comment	WhitespaceMinimizedString								True					General comments from the field crew that may be pertinent to know during analysis.			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		Days_to_Emergence	Days to Emergence (date)	decimal		days						True					"The number of days from the date of planting to the \""Emergence Date\""."			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		Emergence_Date	Emergence Date (date)	DateTime		year-month-day						True					The date on which at least 50% of the seeds within the plot are visible above the soil.			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		Expt	Expt	WhitespaceMinimizedString	Expt						True						Captures the particular siteyear and Lentil/Wheat portion of the experiment evaluated in this row. This also indicates where and then these data were collected.			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		Flowering_Date_R1	Flowering Date (R1; date)	DateTime		year-month-day						True					The date at which there is one open flower at any node on 50% of the plants in the plot. This is R1 in the Lentil Reproductive & Maturity Staging Guide.			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		Half_Pods_Mature_R7	Days till 10% of Plants have 1/2 Pods Mature (R7; days)	decimal		days						True					"The number of days from the date of planting to the \""Maturity Date\"" where the Maturity date is the date the plants reach R7 according to the Lentil Reproductive & Maturity Staging Guide."			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		Lentil	Lentil	WhitespaceMinimizedString							True						Uniquely identifies the Lentil germplasm planted in this plot within the trial.			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		Lodging	Lodging (scale; 1=upright; 5=prostrate)	decimal	Lodging	scale						True					Indicates the rate of lodging in the plot between R6-R7 where lodging is defined as an irreversible falling over of the primary plant stem greater than 45 degrees.			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		Maturity_Date_R7	Maturity Date (R7; date)	DateTime		year-month-day						True					This is R7 in the Lentil Reproductive & Maturity Staging Guide.			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		NIR	NIR	decimal		percent protein						True					Protein percentage estimated by Near Infrared Spectroscopy (updated calibration)			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		NIR_LenPro_preTweak	NIR_LenPro_preTweak	decimal		percent protein						True					Protein percentage estimated by Near Infrared Spectroscopy (old calibration)			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		Name	Name	WhitespaceMinimizedString							True						The full name of the Lentil or Wheat germplasm evaluated in this particular row.			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		One_Open_Flower_R1	Days till 10% of Plants have One Open Flower (R1; days)	decimal		days						True					"The number of days from the date of planting to the \""Flowering Date\"" where the Flowering date is the date the plants reach R1 according to the Lentil Reproductive & Maturity Staging Guide."			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		Planting_Date	Planting Date (date)	DateTime		year-month-day						True					The date the seeds were sown.			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		Rep	Rep	WhitespaceMinimizedString							True						Replication number			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		Row	Row	decimal							True						Row number			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		Type	Type	WhitespaceMinimizedString	Type						True						Treatment or check			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		UniqueID	Unique ID	WhitespaceMinimizedString							True						Uniquely identifies the particular plot within the larger trial. It consists of the year the plot was grown, the Plot ID and either the Lentil OR Wheat ID depending on which is grown when these data are taken.			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		Wheat	Wheat	WhitespaceMinimizedString							True						Uniquely identifies the Wheat germplasm planted in this plot within the trial.			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		plot	Plot	WhitespaceMinimizedString							True						Identifies the plot uniquely within a given location/year (i.e. siteyear).			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		yield_plot	yield plot (g)	decimal		grams						True					The weight of the seed harvested from the plot by the combine.			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		yield_subsample	yield subsample (g)	decimal		grams						True					Some plots have yield subsampled at R7 by hand. This value is recorded here.			
+ACTIVATE	ACTIVATE	TeamActivateMultiGenusRotationalFieldTrial	General		yield_total	yield total (g)	decimal		grams						True					For subsampled plots this is the yield from both the combine and the subsample. For others this will be equal to the plot yield measurement.			
+BENEFIT	BENEFIT	BenefitSoilSampleMetadata	General		Activity_1.1	Activity 1.1 soils	Boolean								True					An indication of whether the soil was used as part of Activity 1.1 research			
+BENEFIT	BENEFIT	BenefitSoilSampleMetadata	General		Activity_1.3	Activity 1.3 soils	Boolean								True					An indication of whether the soil was used as part of Activity 1.3 research			
+BENEFIT	BENEFIT	BenefitSoilSampleMetadata	General		Activity_1.4	Activity 1.4 soils	Boolean								True					An indication of whether the soil was used as part of Activity 1.4 research			
+BENEFIT	BENEFIT	BenefitSoilSampleMetadata	General		Activity_2.1	Activity 2.1 soils	Boolean								True					An indication of whether the soil was used as part of Activity 2.1 research			
+BENEFIT	BENEFIT	BenefitSoilSampleMetadata	General		City	City	WhitespaceMinimizedString							True				^.{0,250}$		The city that the soil was collected from			
+BENEFIT	BENEFIT	BenefitSoilSampleMetadata	General		Collected	Date of collection	DateTime								True			^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$		The date that the soil sample was collected			
+BENEFIT	BENEFIT	BenefitSoilSampleMetadata	General		GCS_ID	Genome Canada Soil ID	WhitespaceMinimizedString							True				^.{0,50}$		Unique numerical identifier of each soil sample			
+BENEFIT	BENEFIT	BenefitSoilSampleMetadata	General		Host_Plant	Associated plant species	WhitespaceMinimizedString							True				^.{0,250}$		The plant species that was planted in the soil at the time of soil collection			
+BENEFIT	BENEFIT	BenefitSoilSampleMetadata	General		Latitude	Latitude	decimal							True				^[-+]?\d*\.?\d+$		The latitude of the soil collection site			
+BENEFIT	BENEFIT	BenefitSoilSampleMetadata	General		Longitude	Longitude	decimal							True				^[-+]?\d*\.?\d+$		The longitude of the soil collection site			
+BENEFIT	BENEFIT	BenefitSoilSampleMetadata	General		Notes	Notes	WhitespaceMinimizedString								True			^.{0,4000}$		Additional notes relevant to the soil sample			
+BENEFIT	BENEFIT	BenefitSoilSampleMetadata	General		Original_soil_label	Original soil label	WhitespaceMinimizedString								True			^.{0,250}$		Original name/label given to each soil during collection			
+BENEFIT	BENEFIT	BenefitSoilSampleMetadata	General		Province	Province	WhitespaceMinimizedString	Province						True				^.{0,50}$		The province that the soil was collected from			
+BENEFIT	BENEFIT	BenefitSoilSampleMetadata	General		Received	Date of receipt	DateTime								True			^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$		The date that the soil sample was received at the lab			
+BENEFIT	BENEFIT	BenefitSoilSampleMetadata	General		Soil_type	Soil type (bulk soil or rhizosphere)	WhitespaceMinimizedString	Soil_type							True			^.{0,50}$		If specified, whether the soil sample represents bulk soil or rhizosphere soil			
+BENEFIT	BENEFIT	BenefitSoilSampleMetadata	General		Storage	Storage	WhitespaceMinimizedString								True			^.{0,800}$		How the soil sample was stored			
+BENEFIT	CCASM	CcasmStrainCollection	General		CCASM_ID	CCASM identifier	WhitespaceMinimizedString							True				^.{0,50}$		The unique CCASM identifier of the strain			
+BENEFIT	CCASM	CcasmStrainCollection	General		Manitoba_barcode	Manitoba freezer vial barcode	WhitespaceMinimizedString							True				^.{0,50}$		The barcode on the freezer vial of the replicate stored at the University of Manitoba			
+BENEFIT	CCASM	CcasmStrainCollection	General		Manitoba_box_ID	Manitoba freezer box ID	WhitespaceMinimizedString							True				^.{0,50}$		The barcode on the freezer box of the replicate stored at the University of Manitoba			
+BENEFIT	CCASM	CcasmStrainCollection	General		Manitoba_box_name	Manitoba freezer box name	WhitespaceMinimizedString							True				^.{0,50}$		The common name of the freezer box of the replicate stored at the University of Manitoba			
+BENEFIT	CCASM	CcasmStrainCollection	General		Manitoba_well	Manitoba freezer box well position	WhitespaceMinimizedString							True				^.{0,50}$		The position within the freezer box of the replicate stored at the University of Manitoba			
+BENEFIT	CCASM	CcasmStrainCollection	General		Queens_barcode	Queen's freezer vial barcode	WhitespaceMinimizedString							True				^.{0,50}$		The barcode on the freezer vial of the replicate stored at Queen\'s University			
+BENEFIT	CCASM	CcasmStrainCollection	General		Queens_box_ID	Queen's freezer box ID	WhitespaceMinimizedString							True				^.{0,50}$		The barcode on the freezer box of the replicate stored at Queen\'s University			
+BENEFIT	CCASM	CcasmStrainCollection	General		Queens_box_name	Queen's freezer box name	WhitespaceMinimizedString							True				^.{0,50}$		The common name of the freezer box of the replicate stored at Queen\'s University			
+BENEFIT	CCASM	CcasmStrainCollection	General		Queens_well	Queen's freezer box well position	WhitespaceMinimizedString							True				^.{0,50}$		The position within the freezer box of the replicate stored at Queen\'s University			
+BENEFIT	CCASM	CcasmStrainCollection	General		binomial_classification	Binomial classification	WhitespaceMinimizedString							True				^.{0,250}$		The binomial classification (genus and species, if classified) of the isolate			
+BENEFIT	CCASM	CcasmStrainCollection	General		citation	Citation	WhitespaceMinimizedString								True			^.{0,4000}$		Citation of the study reporting the microbe, if available			
+BENEFIT	CCASM	CcasmStrainCollection	General		colony_morphology	Colony morphology	WhitespaceMinimizedString								True			^.{0,4000}$		Description of the colony morphology of the isolate			
+BENEFIT	CCASM	CcasmStrainCollection	General		genome_ncbi_association	Genome NCBI accession	WhitespaceMinimizedString								True			^.{0,800}$		NCBI accession code(s) for the genome assembly of the microbe, if available			
+BENEFIT	CCASM	CcasmStrainCollection	General		genome_size	Genome size	decimal								True			^-?[0-9]+$		The genome size of the microbe, if known			
+BENEFIT	CCASM	CcasmStrainCollection	General		host_plant_species	Associated plant species	WhitespaceMinimizedString							True				^.{0,250}$		The plant species from which the microbe was isolated, or that was planted in the soil from which the microbe was isolated			
+BENEFIT	CCASM	CcasmStrainCollection	General		is_plant_pathogen	Is the strain a plant pathogen	WhitespaceMinimizedString	is_plant_pathogen						True				^.{0,50}$		An indication of whether the strain is a known plant pathogen			
+BENEFIT	CCASM	CcasmStrainCollection	General		isolation_growth_medium	Isolation growth medium	WhitespaceMinimizedString							True				^.{0,50}$		The name of the growth medium that was used to isolate the microbe			
+BENEFIT	CCASM	CcasmStrainCollection	General		isolation_growth_medium_composition	Isolation growth medium composition	WhitespaceMinimizedString							True				^.{0,4000}$		The full composition of the growth medium used to isolate the microbe			
+BENEFIT	CCASM	CcasmStrainCollection	General		isolation_growth_temperature	Isolation growth temperature	decimal							True				^[-+]?\d*\.?\d+$		The incubation temperature used when isolating the microbe			
+BENEFIT	CCASM	CcasmStrainCollection	General		isolation_protocol	Isolation protocol	WhitespaceMinimizedString	isolation_protocol						True				^.{0,250}$		The method used for isolating the microbe			
+BENEFIT	CCASM	CcasmStrainCollection	General		isolation_soil_organic_matter	Isolation soil organic matter (%)	decimal								True			^[-+]?\d*\.?\d+$		The organic matter content of the soil from which the microbe was isolated, if known and if relevant			
+BENEFIT	CCASM	CcasmStrainCollection	General		isolation_soil_ph	Isolation soil pH	decimal								True			^[-+]?\d*\.?\d+$		The pH of the soil from which the microbe was isolated, if known and if relevant			
+BENEFIT	CCASM	CcasmStrainCollection	General		isolation_soil_province	Isolation soil province	WhitespaceMinimizedString	isolation_soil_province							True			^.{0,50}$		The province from which the soil (or plant material) was isolated			
+BENEFIT	CCASM	CcasmStrainCollection	General		isolation_soil_texture	Isolation soil texture	WhitespaceMinimizedString								True			^.{0,250}$		The texture of the soil from which the microbe was isolated, if known and if relevant			
+BENEFIT	CCASM	CcasmStrainCollection	General		isolation_source	Isolation source	WhitespaceMinimizedString	isolation_source						True				^.{0,250}$		The source (soil or plant tissue type) that the microbe was isolated from			
+BENEFIT	CCASM	CcasmStrainCollection	General		isolation_year	Isolation year	DateTime							True				^(\d{4})$		The year that the microbe was isolated			
+BENEFIT	CCASM	CcasmStrainCollection	General		latitude	Latitude	decimal							True				^[-+]?\d*\.?\d+$		The latitude at which the soil or plant material was sampled			
+BENEFIT	CCASM	CcasmStrainCollection	General		longitude	Longitute	decimal							True				^[-+]?\d*\.?\d+$		The longitude at which the soil or plant material was sampled			
+BENEFIT	CCASM	CcasmStrainCollection	General		notes	Notes	WhitespaceMinimizedString								True			^.{0,4000}$		Additional notes about the microbe			
+BENEFIT	CCASM	CcasmStrainCollection	General		risk_group	Risk group	decimal	risk_group						True				^-?[0-9]+$		The risk group (1, 2, 3, 4) of the isolate, if known			
+BENEFIT	CCASM	CcasmStrainCollection	General		strain_name	Strain name(s)	WhitespaceMinimizedString							True				^.{0,4000}$		Other strain name(s) of the isolate			
+BENEFIT	CCASM	CcasmStrainCollection	General		taxonomic_lineage	Full taxonomic lineage	WhitespaceMinimizedString							True				^.{0,4000}$		The full taxonomic lineage of the isolate			
+Cell_cultured	Bioreactor	BioreactorBatches	General		cell_type		WhitespaceMinimizedString																
+Cell_cultured	Bioreactor	BioreactorBatches	General		doubling_time		WhitespaceMinimizedString		hours														
+Cell_cultured	Bioreactor	BioreactorBatches	General		final_cell_count		decimal		cells/mL														
+Cell_cultured	Bioreactor	BioreactorBatches	General		media_supplements		WhitespaceMinimizedString																
+Cell_cultured	Bioreactor	BioreactorBatches	General		microcarrier_concentration		decimal		g/L														
+Cell_cultured	Bioreactor	BioreactorBatches	General		microcarrier_type		WhitespaceMinimizedString																
+Cell_cultured	Bioreactor	BioreactorBatches	General		operating_volume		decimal		L														
+Cell_cultured	Bioreactor	BioreactorBatches	General		seeding_density		decimal		cells/mL														
+Cell_cultured	Bovine	BovineCells	General		animal_ID	Animal Number	decimal							True						Animal species and number.			
+Cell_cultured	Bovine	BovineCells	General		collection_date	Collection Date	DateTime							True				^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$		Date tissue was collected on.			
+Cell_cultured	Bovine	BovineCells	General		collection_site	Collection Location	WhitespaceMinimizedString	collection_site						True						Location tissue was collected from.			
+Cell_cultured	Bovine	BovineCells	General		number_of_cells	Number of Cells	decimal								True					Number of cells in the sorted population.			
+Cell_cultured	Bovine	BovineCells	General		percentage	Percentage of Cells	decimal								True					What percentage the sorted population made up of the total cell number.			
+Cell_cultured	Bovine	BovineCells	General		sort_date	Sort Date	DateTime								True			^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$		Date FACS was performed			
+Cell_cultured	Bovine	BovineCells	General		sorted_population	Sorted Population	WhitespaceMinimizedString								True					Include positive and negative sorting markers.			
+Cell_cultured	Chronoamperometry	ChronoamperometryForLactateConversion	General		Current		decimal		microamperes											Corresponding current read by the instrument			
+Cell_cultured	Chronoamperometry	ChronoamperometryForLactateConversion	General		Time		DateTime		seconds											Time needed for Lactate conversion which can be varied by the user			
+Cell_cultured	Cyclic	CyclicVoltammetryForLactateDetection	General		Current_Scan1		decimal		micro Amperes											Corresponding Current read by the instrument during Scan 1			
+Cell_cultured	Cyclic	CyclicVoltammetryForLactateDetection	General		Current_Scan2		decimal		micro amperes											Corresponding current read by the instrument during Scan 2			
+Cell_cultured	Cyclic	CyclicVoltammetryForLactateDetection	General		Current_Scan3		decimal		micro amperes											Corresponding current read by the instrument during Scan 3			
+Cell_cultured	Cyclic	CyclicVoltammetryForLactateDetection	General		Voltage		decimal		V											Voltage range specified in the instrument software: -1 to 1V			
+Cell_cultured	Lactate	LactateQuantificationUsingLLactateAssay	General		Absorbance_Final		decimal		OD														
+Cell_cultured	Lactate	LactateQuantificationUsingLLactateAssay	General		Absorbance_Initial		decimal		OD														
+Cell_cultured	Lactate	LactateQuantificationUsingLLactateAssay	General		Absorbance_Subtracted		decimal		OD														
+Cell_cultured	Lactate	LactateQuantificationUsingLLactateAssay	General		Concentration_Average		decimal		mM														
+Cell_cultured	Lactate	LactateQuantificationUsingLLactateAssay	General		Concentration_Calculated		decimal		mM														
+Cell_cultured	Lactate	LactateQuantificationUsingLLactateAssay	General		SampleDescription		WhitespaceMinimizedString																
+Cell_cultured	Lactate_Spec	LactateQuantificationUsingSpectrophotometry	General		Absorbance_Blankwell		decimal		OD														
+Cell_cultured	Lactate_Spec	LactateQuantificationUsingSpectrophotometry	General		Absorbance_Reference		decimal		OD														
+Cell_cultured	Lactate_Spec	LactateQuantificationUsingSpectrophotometry	General		Absorbance_Sample		decimal		OD														
+Cell_cultured	Lactate_Spec	LactateQuantificationUsingSpectrophotometry	General		Absorbance_SampleandBlankwell		decimal		OD														
+Cell_cultured	Lactate_Spec	LactateQuantificationUsingSpectrophotometry	General		ActualAbsorbance_Sample		decimal		OD														
+Cell_cultured	Lactate_Spec	LactateQuantificationUsingSpectrophotometry	General		Concentration_Average		decimal		mM														
+Cell_cultured	Lactate_Spec	LactateQuantificationUsingSpectrophotometry	General		Concentration_Calculated		decimal		mM														
+Cell_cultured	Lactate_Spec	LactateQuantificationUsingSpectrophotometry	General		Concentration_StandardDeviation		decimal		mM														
+Cell_cultured	Lactate_Spec	LactateQuantificationUsingSpectrophotometry	General		SampleDescription		WhitespaceMinimizedString																
+Cell_cultured	qRT-PCR	QrtPcr	General		Amp_Status		WhitespaceMinimizedString	Amp_Status												Indicates whether amplification was detected			
+Cell_cultured	qRT-PCR	QrtPcr	General		Baseline_End		decimal													End cycle for baseline signal calculation			
+Cell_cultured	qRT-PCR	QrtPcr	General		Baseline_Start		decimal													Start cycle for baseline signal calculation			
+Cell_cultured	qRT-PCR	QrtPcr	General		CT		decimal													Threshold cycle where fluorescence exceeds background			
+Cell_cultured	qRT-PCR	QrtPcr	General		Cq_Conf		decimal													Confidence in quantification cycle (Cq) value			
+Cell_cultured	qRT-PCR	QrtPcr	General		Ct_Mean		decimal													Average CT value from technical replicates			
+Cell_cultured	qRT-PCR	QrtPcr	General		Ct_SD		decimal													Standard deviation of CT values among replicates			
+Cell_cultured	qRT-PCR	QrtPcr	General		Ct_Threshold		decimal													Fluorescence threshold used to calculate CT			
+Cell_cultured	qRT-PCR	QrtPcr	General		HIGHSD		WhitespaceMinimizedString	HIGHSD												High standard deviation among technical replicates for a given sample, suggesting inconsistent amplification			
+Cell_cultured	qRT-PCR	QrtPcr	General		Reporter		WhitespaceMinimizedString													Fluorescent dye used to detect amplification			
+Cell_cultured	qRT-PCR	QrtPcr	General		Sample_Name		WhitespaceMinimizedString													Name or ID of the biological or experimental sample			
+Cell_cultured	qRT-PCR	QrtPcr	General		Target_Name		WhitespaceMinimizedString													Target Gene			
+Cell_cultured	qRT-PCR	QrtPcr	General		Tm1		decimal		Celsius											Melting temperature of the first PCR product peak			
+Cell_cultured	qRT-PCR	QrtPcr	General		Well		decimal													Identifies the specific well on the qPCR plate			
+Cell_cultured	qRT-PCR	QrtPcr	General		Well_Position		WhitespaceMinimizedString											^[A-Z]*$		Coordinates of the well			
+GG4GHG	Community	CommunityCompositionData	General		Achillea.millefolium		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Agropyron.caninum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Agropyron.cristatum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Agroseris.glauca		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Allium.stellatum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Allium.textile		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Ambrosia.psilostachya		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Amelanchier.alnifolia		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Andropogon.gerardii		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Androsace.septentrionalis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Anemonastrum_canadense		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Anenome.cylindrica		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Anenome.multifida		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Antecedant.Precip		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Antecedant.Temp		decimal								True			^[-+]?\d*\.?\d+$					
+GG4GHG	Community	CommunityCompositionData	General		Antennaria.neglecta		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Antennaria.parvifolia		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Anticlea.elegans		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Arabis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Arctostaphylos.uva-ursi		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Argentina.anserina		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Arnica.fulgens		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Artemisia		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Artemisia.campestris		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Artemisia.cana		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Artemisia.frigida		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Artemisia.ludoviciana		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Asclepias.speciosa		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Aspect		WhitespaceMinimizedString	Aspect						True				^.{0,50}$					
+GG4GHG	Community	CommunityCompositionData	General		Aster.laevis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Aster.unknown		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Astragalus		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Astragalus.agrestis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Astragalus.bisulcatus		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Astragalus.canadensis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Astragalus.cicer		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Astragalus.missouriensis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Astragalus.pectinatus		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Bare.Ground		decimal								True			^[-+]?\d*\.?\d+$					
+GG4GHG	Community	CommunityCompositionData	General		Bouteloua.gracilis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Bromus.inermis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Calamagrostis.stricta		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Calamovilfa.longifolia		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Campanula.alaskana		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Carex		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Cerastium.arvense		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Chenopodiaceae		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Chenopodium.album		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Cirsium.arvense		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Cirsium.arvense.2		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Cirsium.flodmanii		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Collomia.linearis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Comandra.umbellata		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Crisium		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Current.Precip		decimal							True				^[-+]?\d*\.?\d+$					
+GG4GHG	Community	CommunityCompositionData	General		Current.Temp		decimal							True				^[-+]?\d*\.?\d+$					
+GG4GHG	Community	CommunityCompositionData	General		Dalea.candida		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Dalea.purpurea		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Date		DateTime							True				^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$					
+GG4GHG	Community	CommunityCompositionData	General		Descurainia.sophia		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Elaeagnus.commutata		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Elymus.repens		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Elymus.trachycaulus.subsecundus		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Elymus.trachycaulus.trachycaulus		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Equisetum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Erigeron.caespitosus		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Erigeron.canadensis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Erigeron.glabellus		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Eriogonum.flavum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Eriogonum.pauciflorum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Euphorbia.virgata		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Festuca.hallii		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Festuca.ovina		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Fragaria.virginiana		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Gaillardia.aristata		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Galium.boreale		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Geum.triflorum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Glycyrrhiza.lepidota		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Grindelia.squarrosa		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Gutierrezia.sarothrae		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Hairy.grass.unknown		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Hedysarum.alpinum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Helianthus.maximiliani		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Helianthus.nuttallii		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Helianthus.pauciflorus		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Helictochloa.hookeri		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Hesperostipa.comata		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Hesperostipa.curtiseta		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Hesperostipa.spartea		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Heterotheca.villosa		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Heuchera.richardsonii		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Houstonia.longifolia		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Hymenoxys.richardsonii		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Iva.axillaris		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Juniperus.horizontalis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Koeleria.macrantha		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Lactuca.pulchella		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Ladeania.lanceolata		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Lathyrus		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Lathyrus.ochroleucus		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Lathyrus.venosus		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Lepidum.densiflorum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Liatris.ligulistylis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Liatris.punctata		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Lilium.philadelphicum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Linum.lewisii		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Linum.rigidum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Lithospermum.canescens		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Litter		decimal								True			^[-+]?\d*\.?\d+$					
+GG4GHG	Community	CommunityCompositionData	General		Lygodesmia.juncea		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Maianthemum.stellatum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Medicago		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Medicago.lupulina		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Medicago.sativa		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Melilotus.albus		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Melilotus.officinalis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Monarda.fistulosa		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Muhlenbergia		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Muhlenbergia.cuspidata		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Muhlenbergia.richardsonis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Nassella.viridula		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Number		decimal							True				^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Observer		WhitespaceMinimizedString							True				^.{0,250}$					
+GG4GHG	Community	CommunityCompositionData	General		Oenothera.serrulata		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Oenothera.suffrutescens		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Opuntia.fragilis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Opuntia.polycantha		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Orthocarpus.luteus		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Oxytropis.lambertii		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Panicum.virgatum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Pascopyrum.smithii		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Pediomelum.agrophyllum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Pediomelum.esculentum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Penstemon		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Penstemon.gracilis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Persicaria.amphibia		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Phlox.hodii		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Physalis.virginiana		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Plantago		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Plantago.major		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Plantago.patagonica		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Plot		WhitespaceMinimizedString	Plot						True				^.{0,50}$					
+GG4GHG	Community	CommunityCompositionData	General		Poa.interior		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Poa.pratensis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Poa.secunda		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Poa.unknown		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Poaceae.unidentified		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Polygala.alba		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Polygala.senega		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Populus.tremuloides		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Potentilla		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Potentilla.argenta		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Potentilla.hippiana		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Potentilla.pensylvanica		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Prunus.pumila		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Prunus.virginiana		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Pulsatilla.nuttalliana		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Ratibida.columnifera		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Replicate		decimal							True				^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Rosa.acicularis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Rosa.arkansana		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Rosa.woodsii		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Rudbeckia.hirta		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Salix		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Schizachyrium.scoparium		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Shepherdia.argentea		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Silene.drummondii		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Silver.trifoliate.unkown		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Site		WhitespaceMinimizedString	Site						True				^.{0,50}$					
+GG4GHG	Community	CommunityCompositionData	General		Slope		decimal							True				^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Solidago		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Solidago.canadensis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Solidago.missouriensis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Solidago.rigida		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Sonchus.arvensis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Species		WhitespaceMinimizedString	Species						True				^.{0,250}$					
+GG4GHG	Community	CommunityCompositionData	General		Sphaeralcea.coccinea		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Sporobolus.cryptandrus		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Sporobolus.heterolepis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Sporobolus.michauxianus		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Stachys		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Stipa.spartea		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Symphoricarpos.occidentalis		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Symphyotrichum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Symphyotrichum.boreale		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Symphyotrichum.ericoides		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Symphyotrichum.falcatum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Symphyotrichum.laeve		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Symphyotrichum.lanceolatum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Taraxacum.officinale		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Thalictrum.venulosum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Thermopsis.rhombifolia		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Toadflaxlikeplant		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Toxicoscordion.venenosum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Tragopogon.dubius		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Trifolium		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Trifolium.pratense		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Trifolium.repens		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Ulmus		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Vicia		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Vicia.americana		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Viola.adunca		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Viola.vallicola		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Xanthisma.spinulosum		decimal								True			^-?[0-9]+$					
+GG4GHG	Community	CommunityCompositionData	General		Zizia.aptera		decimal								True			^-?[0-9]+$					
+JT	GENOME	Genome	General		access_training		WhitespaceMinimizedString	access_training															
+JT	GENOME	Genome	General		act_on_climate		WhitespaceMinimizedString	act_on_climate															
+JT	GENOME	Genome	General		age		Boolean																
+JT	GENOME	Genome	General		attention_check		WhitespaceMinimizedString	attention_check															
+JT	GENOME	Genome	General		birth_year		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		break_up_big_tech		WhitespaceMinimizedString	break_up_big_tech															
+JT	GENOME	Genome	General		buy_if_cheaper_icecream		WhitespaceMinimizedString	buy_if_cheaper_icecream															
+JT	GENOME	Genome	General		buy_if_cheaper_nuggets		WhitespaceMinimizedString	buy_if_cheaper_nuggets															
+JT	GENOME	Genome	General		buy_if_cheaper_salmon		WhitespaceMinimizedString	buy_if_cheaper_salmon															
+JT	GENOME	Genome	General		buy_if_healthier_icecream		WhitespaceMinimizedString	buy_if_healthier_icecream															
+JT	GENOME	Genome	General		buy_if_healthier_nuggets		WhitespaceMinimizedString	buy_if_healthier_nuggets															
+JT	GENOME	Genome	General		buy_if_healthier_salmon		WhitespaceMinimizedString	buy_if_healthier_salmon															
+JT	GENOME	Genome	General		buy_instead_icecream		WhitespaceMinimizedString	buy_instead_icecream															
+JT	GENOME	Genome	General		buy_instead_nuggets		WhitespaceMinimizedString	buy_instead_nuggets															
+JT	GENOME	Genome	General		buy_instead_salmon		WhitespaceMinimizedString	buy_instead_salmon															
+JT	GENOME	Genome	General		buy_regular_cell_icecream		WhitespaceMinimizedString	buy_regular_cell_icecream															
+JT	GENOME	Genome	General		buy_regular_cell_nuggets		WhitespaceMinimizedString	buy_regular_cell_nuggets															
+JT	GENOME	Genome	General		buy_regular_cell_salmon		WhitespaceMinimizedString	buy_regular_cell_salmon															
+JT	GENOME	Genome	General		city		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		city_only_access		WhitespaceMinimizedString	city_only_access															
+JT	GENOME	Genome	General		city_only_jobs		WhitespaceMinimizedString	city_only_jobs															
+JT	GENOME	Genome	General		climate_biodiversity_loss		WhitespaceMinimizedString	climate_biodiversity_loss															
+JT	GENOME	Genome	General		climate_ecosystem		WhitespaceMinimizedString	climate_ecosystem															
+JT	GENOME	Genome	General		climate_not_urgent		WhitespaceMinimizedString	climate_not_urgent															
+JT	GENOME	Genome	General		comm		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		comment_cell_agri_fut		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		community_owned_model		WhitespaceMinimizedString	community_owned_model															
+JT	GENOME	Genome	General		consent_given		Boolean																
+JT	GENOME	Genome	General		cont_id		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		conventional_farmers_opportunity		WhitespaceMinimizedString	conventional_farmers_opportunity															
+JT	GENOME	Genome	General		corp_patents_limit_knowledge		WhitespaceMinimizedString	corp_patents_limit_knowledge															
+JT	GENOME	Genome	General		country		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		date_sub		DateTime		date														
+JT	GENOME	Genome	General		diet_avoid_red_meat		Boolean																
+JT	GENOME	Genome	General		diet_buying_organic		Boolean																
+JT	GENOME	Genome	General		diet_flexitarian		Boolean																
+JT	GENOME	Genome	General		diet_halal		Boolean																
+JT	GENOME	Genome	General		diet_keto		Boolean																
+JT	GENOME	Genome	General		diet_kosher		Boolean																
+JT	GENOME	Genome	General		diet_none_of_the_above		Boolean																
+JT	GENOME	Genome	General		diet_other_specified		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		diet_paleo		Boolean																
+JT	GENOME	Genome	General		diet_pescatarian		Boolean																
+JT	GENOME	Genome	General		diet_plant_based		Boolean																
+JT	GENOME	Genome	General		diet_vegan		Boolean																
+JT	GENOME	Genome	General		diet_vegetarian		Boolean																
+JT	GENOME	Genome	General		education_level		WhitespaceMinimizedString	education_level															
+JT	GENOME	Genome	General		env_impact_beef		WhitespaceMinimizedString	env_impact_beef															
+JT	GENOME	Genome	General		env_impact_chicken		WhitespaceMinimizedString	env_impact_chicken															
+JT	GENOME	Genome	General		env_impact_fish		WhitespaceMinimizedString	env_impact_fish															
+JT	GENOME	Genome	General		env_impact_pork		WhitespaceMinimizedString	env_impact_pork															
+JT	GENOME	Genome	General		eth_african		Boolean																
+JT	GENOME	Genome	General		eth_caribbean		Boolean																
+JT	GENOME	Genome	General		eth_east_asian		Boolean																
+JT	GENOME	Genome	General		eth_european		Boolean																
+JT	GENOME	Genome	General		eth_indigenous		Boolean																
+JT	GENOME	Genome	General		eth_latin_american		Boolean																
+JT	GENOME	Genome	General		eth_middle_eastern		Boolean																
+JT	GENOME	Genome	General		eth_oceania		Boolean																
+JT	GENOME	Genome	General		eth_other		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		eth_prefer_not_say		Boolean																
+JT	GENOME	Genome	General		eth_south_asian		Boolean																
+JT	GENOME	Genome	General		eth_southeast_asian		Boolean																
+JT	GENOME	Genome	General		ext_affordable_protein		WhitespaceMinimizedString	ext_affordable_protein															
+JT	GENOME	Genome	General		ext_disrespectful_nature		WhitespaceMinimizedString	ext_disrespectful_nature															
+JT	GENOME	Genome	General		ext_env_sustainability		WhitespaceMinimizedString	ext_env_sustainability															
+JT	GENOME	Genome	General		ext_healthy_products		WhitespaceMinimizedString	ext_healthy_products															
+JT	GENOME	Genome	General		ext_improve_welfare		WhitespaceMinimizedString	ext_improve_welfare															
+JT	GENOME	Genome	General		ext_solve_hunger		WhitespaceMinimizedString	ext_solve_hunger															
+JT	GENOME	Genome	General		ext_tasty_products		WhitespaceMinimizedString	ext_tasty_products															
+JT	GENOME	Genome	General		ext_unnatural		WhitespaceMinimizedString	ext_unnatural															
+JT	GENOME	Genome	General		ext_viable_alternative		WhitespaceMinimizedString	ext_viable_alternative															
+JT	GENOME	Genome	General		farmers_lose_jobs		WhitespaceMinimizedString	farmers_lose_jobs															
+JT	GENOME	Genome	General		farmers_transition		WhitespaceMinimizedString	farmers_transition															
+JT	GENOME	Genome	General		food_banks_benefit		WhitespaceMinimizedString	food_banks_benefit															
+JT	GENOME	Genome	General		freq_dairy		WhitespaceMinimizedString	freq_dairy															
+JT	GENOME	Genome	General		freq_eggs		WhitespaceMinimizedString	freq_eggs															
+JT	GENOME	Genome	General		freq_fish		WhitespaceMinimizedString	freq_fish															
+JT	GENOME	Genome	General		freq_other		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		freq_pork		WhitespaceMinimizedString	freq_pork															
+JT	GENOME	Genome	General		freq_poultry		WhitespaceMinimizedString	freq_poultry															
+JT	GENOME	Genome	General		freq_red_meat		WhitespaceMinimizedString	freq_red_meat															
+JT	GENOME	Genome	General		gatekeep_methods		WhitespaceMinimizedString	gatekeep_methods															
+JT	GENOME	Genome	General		gender		WhitespaceMinimizedString	gender															
+JT	GENOME	Genome	General		gender_other		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		glob_benefits		WhitespaceMinimizedString	glob_benefits															
+JT	GENOME	Genome	General		gm_beef		WhitespaceMinimizedString	gm_beef															
+JT	GENOME	Genome	General		gm_rice		WhitespaceMinimizedString	gm_rice															
+JT	GENOME	Genome	General		grocery_availability		WhitespaceMinimizedString	grocery_availability															
+JT	GENOME	Genome	General		heard_cellular_agriculture		WhitespaceMinimizedString	heard_cellular_agriculture															
+JT	GENOME	Genome	General		home_production_possible		WhitespaceMinimizedString	home_production_possible															
+JT	GENOME	Genome	General		hope_tech		WhitespaceMinimizedString	hope_tech															
+JT	GENOME	Genome	General		household_composition		WhitespaceMinimizedString	household_composition															
+JT	GENOME	Genome	General		household_composition_other		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		household_income		WhitespaceMinimizedString	household_income															
+JT	GENOME	Genome	General		human_caused_climate		WhitespaceMinimizedString	human_caused_climate															
+JT	GENOME	Genome	General		human_impacts		WhitespaceMinimizedString	human_impacts															
+JT	GENOME	Genome	General		imp_animal_welfare		Boolean																
+JT	GENOME	Genome	General		imp_antibiotic_free		Boolean																
+JT	GENOME	Genome	General		imp_cost		Boolean																
+JT	GENOME	Genome	General		imp_cultural_practices		Boolean																
+JT	GENOME	Genome	General		imp_dairy		WhitespaceMinimizedString	imp_dairy															
+JT	GENOME	Genome	General		imp_eggs		WhitespaceMinimizedString	imp_eggs															
+JT	GENOME	Genome	General		imp_fish		WhitespaceMinimizedString	imp_fish															
+JT	GENOME	Genome	General		imp_freshness		Boolean																
+JT	GENOME	Genome	General		imp_organic		Boolean																
+JT	GENOME	Genome	General		imp_other_foods_specified		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		imp_other_specified		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		imp_pork		WhitespaceMinimizedString	imp_pork															
+JT	GENOME	Genome	General		imp_poultry		WhitespaceMinimizedString	imp_poultry															
+JT	GENOME	Genome	General		imp_production		Boolean																
+JT	GENOME	Genome	General		imp_red_meat		WhitespaceMinimizedString	imp_red_meat															
+JT	GENOME	Genome	General		imp_self_hunted		Boolean																
+JT	GENOME	Genome	General		imp_sustainability		Boolean																
+JT	GENOME	Genome	General		inaccessible_education		WhitespaceMinimizedString	inaccessible_education															
+JT	GENOME	Genome	General		industry_dominated		WhitespaceMinimizedString	industry_dominated															
+JT	GENOME	Genome	General		innovation_comfort		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		ip_address		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		lang		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		larg_corp_influence		WhitespaceMinimizedString	larg_corp_influence															
+JT	GENOME	Genome	General		lat		decimal																
+JT	GENOME	Genome	General		leg_comm		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		lives_in_can		Boolean																
+JT	GENOME	Genome	General		local_food_security		WhitespaceMinimizedString	local_food_security															
+JT	GENOME	Genome	General		location_general		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		long		decimal																
+JT	GENOME	Genome	General		main_grocery_shopper		WhitespaceMinimizedString	main_grocery_shopper															
+JT	GENOME	Genome	General		min		decimal		minutes														
+JT	GENOME	Genome	General		newhiddenvalue		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		online_superstore_availability		WhitespaceMinimizedString	online_superstore_availability															
+JT	GENOME	Genome	General		only_wealthy_access		WhitespaceMinimizedString	only_wealthy_access															
+JT	GENOME	Genome	General		plant_burger_mushroom		WhitespaceMinimizedString	plant_burger_mushroom															
+JT	GENOME	Genome	General		plant_burger_soy		WhitespaceMinimizedString	plant_burger_soy															
+JT	GENOME	Genome	General		political_scale		Boolean																
+JT	GENOME	Genome	General		political_scale_other		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		post		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		postal_prefix		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		priority_climate_resilience		Boolean																
+JT	GENOME	Genome	General		priority_farm_animal_conditions		Boolean																
+JT	GENOME	Genome	General		priority_food_tech		Boolean																
+JT	GENOME	Genome	General		priority_ghg_reduction		Boolean																
+JT	GENOME	Genome	General		priority_healthy_access		Boolean																
+JT	GENOME	Genome	General		priority_indigenous_food_practices		Boolean																
+JT	GENOME	Genome	General		priority_local_retail		Boolean																
+JT	GENOME	Genome	General		priority_migrant_worker_rights		Boolean																
+JT	GENOME	Genome	General		priority_none		Boolean																
+JT	GENOME	Genome	General		priority_other_specified		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		priority_vegan_shift		Boolean																
+JT	GENOME	Genome	General		priority_wildlife_habitat		Boolean																
+JT	GENOME	Genome	General		progress_tech		WhitespaceMinimizedString	progress_tech															
+JT	GENOME	Genome	General		ref		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		reject_cell_icecream		WhitespaceMinimizedString	reject_cell_icecream															
+JT	GENOME	Genome	General		reject_cell_nuggets		WhitespaceMinimizedString	reject_cell_nuggets															
+JT	GENOME	Genome	General		reject_cell_salmon		WhitespaceMinimizedString	reject_cell_salmon															
+JT	GENOME	Genome	General		replaces_fresh_meat		WhitespaceMinimizedString	replaces_fresh_meat															
+JT	GENOME	Genome	General		res_id		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		see_agri_industry_icecream		WhitespaceMinimizedString	see_agri_industry_icecream															
+JT	GENOME	Genome	General		see_agri_industry_nuggets		WhitespaceMinimizedString	see_agri_industry_nuggets															
+JT	GENOME	Genome	General		see_agri_industry_salmon		WhitespaceMinimizedString	see_agri_industry_salmon															
+JT	GENOME	Genome	General		see_global_dev_icecream		WhitespaceMinimizedString	see_global_dev_icecream															
+JT	GENOME	Genome	General		see_global_dev_nuggets		WhitespaceMinimizedString	see_global_dev_nuggets															
+JT	GENOME	Genome	General		see_global_dev_salmon		WhitespaceMinimizedString	see_global_dev_salmon															
+JT	GENOME	Genome	General		see_in_store_icecream		WhitespaceMinimizedString	see_in_store_icecream															
+JT	GENOME	Genome	General		see_in_store_nuggets		WhitespaceMinimizedString	see_in_store_nuggets															
+JT	GENOME	Genome	General		see_in_store_salmon		WhitespaceMinimizedString	see_in_store_salmon															
+JT	GENOME	Genome	General		see_local_food_icecream		WhitespaceMinimizedString	see_local_food_icecream															
+JT	GENOME	Genome	General		see_local_food_nuggets		WhitespaceMinimizedString	see_local_food_nuggets															
+JT	GENOME	Genome	General		see_local_food_salmon		WhitespaceMinimizedString	see_local_food_salmon															
+JT	GENOME	Genome	General		self_grown_food_freq		WhitespaceMinimizedString	self_grown_food_freq															
+JT	GENOME	Genome	General		ses_id		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		source_backyard_animals		Boolean																
+JT	GENOME	Genome	General		source_butcher_shop		Boolean																
+JT	GENOME	Genome	General		source_direct_from_farms		Boolean																
+JT	GENOME	Genome	General		source_farmers_market		Boolean																
+JT	GENOME	Genome	General		source_food_bank		Boolean																
+JT	GENOME	Genome	General		source_grocery_superstore		Boolean																
+JT	GENOME	Genome	General		source_hunting_fishing		Boolean																
+JT	GENOME	Genome	General		source_other_specified		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		source_own_farm		Boolean																
+JT	GENOME	Genome	General		start_time		DateTime																
+JT	GENOME	Genome	General		state		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		status		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		support_cell_ag_sale		WhitespaceMinimizedString	support_cell_ag_sale															
+JT	GENOME	Genome	General		tag		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		tech_marginalized		WhitespaceMinimizedString	tech_marginalized															
+JT	GENOME	Genome	General		tech_negatives		WhitespaceMinimizedString	tech_negatives															
+JT	GENOME	Genome	General		tech_resources		WhitespaceMinimizedString	tech_resources															
+JT	GENOME	Genome	General		tech_society		WhitespaceMinimizedString	tech_society															
+JT	GENOME	Genome	General		trust_ag_companies		WhitespaceMinimizedString	trust_ag_companies															
+JT	GENOME	Genome	General		trust_celebrities		WhitespaceMinimizedString	trust_celebrities															
+JT	GENOME	Genome	General		trust_env_activists		WhitespaceMinimizedString	trust_env_activists															
+JT	GENOME	Genome	General		trust_family_friends		WhitespaceMinimizedString	trust_family_friends															
+JT	GENOME	Genome	General		trust_regulators		WhitespaceMinimizedString	trust_regulators															
+JT	GENOME	Genome	General		trust_scientists		WhitespaceMinimizedString	trust_scientists															
+JT	GENOME	Genome	General		try_cell_icecream		WhitespaceMinimizedString	try_cell_icecream															
+JT	GENOME	Genome	General		try_cell_nuggets		WhitespaceMinimizedString	try_cell_nuggets															
+JT	GENOME	Genome	General		try_cell_salmon		WhitespaceMinimizedString	try_cell_salmon															
+JT	GENOME	Genome	General		url		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		used_in_processed_foods		WhitespaceMinimizedString	used_in_processed_foods															
+JT	GENOME	Genome	General		user_agent		WhitespaceMinimizedString																
+JT	GENOME	Genome	General		vertical_agriculture		WhitespaceMinimizedString	vertical_agriculture															
+JT	GENOME	Genome	General		work_farming_employee		Boolean																
+JT	GENOME	Genome	General		work_farming_owner		Boolean																
+JT	GENOME	Genome	General		work_food_access		Boolean																
+JT	GENOME	Genome	General		work_food_distribution		Boolean																
+JT	GENOME	Genome	General		work_food_education		Boolean																
+JT	GENOME	Genome	General		work_food_processing		Boolean																
+JT	GENOME	Genome	General		work_food_retail		Boolean																
+JT	GENOME	Genome	General		work_none		Boolean																
+JT	GENOME	Genome	General		work_prefer_not_say		Boolean																
+NDGP	Calving	CalvingFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString								True					INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
+NDGP	Calving	CalvingFileLayout	General		CALVING_DATE	CALVING_DATE	DateTime								True								
+NDGP	Calving	CalvingFileLayout	General		CONCEPTION_DATE	CONCEPTION_DATE	DateTime								True								
+NDGP	Calving	CalvingFileLayout	General		COUNTRY_OF_ORIGIN	COUNTRY-OF-ORIGIN	WhitespaceMinimizedString								True								
+NDGP	Calving	CalvingFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE							True								
+NDGP	Calving	CalvingFileLayout	General		HERD_CODE	HERD_CODE	WhitespaceMinimizedString								True								
+NDGP	Calving	CalvingFileLayout	General		LACTATION_NUMBER	LACTATION_NUMBER	decimal								True								
+NDGP	Calving	CalvingFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT							True								
+NDGP	Calving	CalvingFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under 'Source of Data' column			
+NDGP	Calving	CalvingFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE							True								
+NDGP	Milk	MilkProductionFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString								True					INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
+NDGP	Milk	MilkProductionFileLayout	General		BETA_HYDROXYBUTYRATE	BETA_HYDROXYBUTYRATE	decimal		MMOL/L MULTIPLIED PER 1000						True								
+NDGP	Milk	MilkProductionFileLayout	General		COUNTRY_OF_ORIGIN	COUNTRY-OF-ORIGIN	WhitespaceMinimizedString								True								
+NDGP	Milk	MilkProductionFileLayout	General		FAT_PROTEIN_CORRECTED_YIELD	FAT_PROTEIN_CORRECTED_YIELD	decimal		KG						True								
+NDGP	Milk	MilkProductionFileLayout	General		FAT_YIELD	FAT_YIELD	decimal		KG						True								
+NDGP	Milk	MilkProductionFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE							True								
+NDGP	Milk	MilkProductionFileLayout	General		HERD_CODE	HERD_CODE	WhitespaceMinimizedString								True								
+NDGP	Milk	MilkProductionFileLayout	General		INTEGER_OF_MILKING_PER_DAY	INTEGER_OF_MILKING_PER_DAY	decimal								True								
+NDGP	Milk	MilkProductionFileLayout	General		LACTOSE_YIELD	LACTOSE_YIELD	decimal		KG						True								
+NDGP	Milk	MilkProductionFileLayout	General		MILKING_PROGRAM	MILKING_PROGRAM	WhitespaceMinimizedString								True								
+NDGP	Milk	MilkProductionFileLayout	General		MILK_UREA_NITROGEN	MILK_UREA_NITROGEN	decimal		MG/KG						True								
+NDGP	Milk	MilkProductionFileLayout	General		MILK_YIELD	MILK_YIELD	decimal		KG						True								
+NDGP	Milk	MilkProductionFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT							True								
+NDGP	Milk	MilkProductionFileLayout	General		PROTEIN_YIELD	PROTEIN_YIELD	decimal		KG						True								
+NDGP	Milk	MilkProductionFileLayout	General		SOMATIC_CELL_COUNT	SOMATIC_CELL_COUNT	decimal		1000/ML						True								
+NDGP	Milk	MilkProductionFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under 'Source of Data' column			
+NDGP	Milk	MilkProductionFileLayout	General		TEST_DATE		DateTime								True								
+NDGP	Milk	MilkProductionFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE							True								
+NDGP	MIR	MirFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString							True						INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
+NDGP	MIR	MirFileLayout	General		COUNTRY_OF_DATA_ORIGIN	COUNTRY_OF_DATA_ORIGIN	WhitespaceMinimizedString							True									
+NDGP	MIR	MirFileLayout	General		DATE_OF_TESTING	DATE_OF_TESTING	DateTime		YYYYMMDD					True									
+NDGP	MIR	MirFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE						True									
+NDGP	MIR	MirFileLayout	General		HERD_CODE	HERD_CODE	WhitespaceMinimizedString							True									
+NDGP	MIR	MirFileLayout	General		MILK_SPECTRAL_DATA	MILK_SPECTRAL_DATA	decimal							True						ULTIPLIED BY 100,000,000			
+NDGP	MIR	MirFileLayout	General		NUMBER_OF_DATA_POINTS	NUMBER_OF_DATA_POINTS	decimal								True								
+NDGP	MIR	MirFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT						True									
+NDGP	MIR	MirFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString							True						See contacts list under 'Source of Data' column			
+NDGP	MIR	MirFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE						True									
+NDGP	MIR	MirFileLayout	General		TYPE_OF_SPECTROMETER	TYPE_OF_SPECTROMETER	WhitespaceMinimizedString								True								
+NDGP	Pedigree	PedigreeFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString								True					INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
+NDGP	Pedigree	PedigreeFileLayout	General		BIRTH_DATE	BIRTH_DATE	DateTime								True								
+NDGP	Pedigree	PedigreeFileLayout	General		DAM_ID	DAM_ID	WhitespaceMinimizedString							True						12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING '0'S).			
+NDGP	Pedigree	PedigreeFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE							True								
+NDGP	Pedigree	PedigreeFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT							True								
+NDGP	Pedigree	PedigreeFileLayout	General		REGISTERED_NAME	REGISTERED_NAME	WhitespaceMinimizedString							True									
+NDGP	Pedigree	PedigreeFileLayout	General		SIRE_ID	SIRE_ID	WhitespaceMinimizedString							True						12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING '0'S).			
+NDGP	Pedigree	PedigreeFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under 'Source of Data' column			
+NDGP	Pedigree	PedigreeFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE							True								
+peACE	PeaCE	Peace	General		accession_id	Accession ID	WhitespaceMinimizedString													Unique identifier for each germplasm accession			
+peACE	PeaCE	Peace	General		agronomic_trait	Agronomic Trait	WhitespaceMinimizedString													Agronomic trait measured for the germplasm accession			
+peACE	PeaCE	Peace	General		ch4_flux	CH4 Flux	decimal		g C/ha/day											Methane flux measurement			
+peACE	PeaCE	Peace	General		climate_conditions	Climate Conditions	WhitespaceMinimizedString													Climate conditions at the origin of the germplasm accession			
+peACE	PeaCE	Peace	General		co2_flux	CO2 Flux	decimal		g C/ha/day											Carbon dioxide flux measurement			
+peACE	PeaCE	Peace	General		cost_benefit_analysis	Cost-Benefit Analysis	WhitespaceMinimizedString													Cost-benefit analysis data			
+peACE	PeaCE	Peace	General		crop_yield	Crop Yield	decimal		kg/ha											Crop yield measurement			
+peACE	PeaCE	Peace	General		demographic_data	Demographic Data	WhitespaceMinimizedString													Demographic data of the participant			
+peACE	PeaCE	Peace	General		disease_severity_score	Disease Severity Score	decimal		-											Disease severity score on a scale of 1-5			
+peACE	PeaCE	Peace	General		fertilizer_application_rate	Fertilizer Application Rate	decimal		kg/ha											Fertilizer application rate			
+peACE	PeaCE	Peace	General		field_trial_location	Field Trial Location	WhitespaceMinimizedString													Location of the field trial for the breeding population			
+peACE	PeaCE	Peace	General		functional_description	Functional Description	WhitespaceMinimizedString													Functional description of the gene			
+peACE	PeaCE	Peace	General		gene_id	Gene ID	WhitespaceMinimizedString													Unique identifier for each gene			
+peACE	PeaCE	Peace	General		generation	Generation	WhitespaceMinimizedString													Generation of the breeding population			
+peACE	PeaCE	Peace	General		geographic_location	Geographic Location	WhitespaceMinimizedString													Geographic location of the germplasm accession			
+peACE	PeaCE	Peace	General		inoculum_concentration	Inoculum Concentration	decimal		cfu/ml											Concentration of the pathogen inoculum			
+peACE	PeaCE	Peace	General		interview_coding	Interview Coding	WhitespaceMinimizedString													Interview coding data			
+peACE	PeaCE	Peace	General		interview_transcript	Interview Transcript	WhitespaceMinimizedString													Interview transcript data			
+peACE	PeaCE	Peace	General		marker_data	Marker Data	WhitespaceMinimizedString													Marker data generated for the breeding population			
+peACE	PeaCE	Peace	General		market_analysis	Market Analysis	WhitespaceMinimizedString													Market analysis data			
+peACE	PeaCE	Peace	General		maturity	Maturity	decimal		days											Maturity measurement for the breeding population			
+peACE	PeaCE	Peace	General		metabolite_profile	Metabolite Profile	WhitespaceMinimizedString													Metabolite profile data			
+peACE	PeaCE	Peace	General		morphological_trait	Morphological Trait	WhitespaceMinimizedString													Morphological trait measured for the germplasm accession			
+peACE	PeaCE	Peace	General		n2o_flux	N2O Flux	decimal		g N/ha/day											Nitrous oxide flux measurement			
+peACE	PeaCE	Peace	General		origin	Origin	WhitespaceMinimizedString													Geographical origin of the germplasm accession			
+peACE	PeaCE	Peace	General		parental_line	Parental Line	WhitespaceMinimizedString													Parental line used in the breeding program			
+peACE	PeaCE	Peace	General		participant_id	Participant ID	WhitespaceMinimizedString													Unique identifier for each participant			
+peACE	PeaCE	Peace	General		pathogen_strain	Pathogen Strain	WhitespaceMinimizedString													Pathogen strain used for disease resistance screening			
+peACE	PeaCE	Peace	General		pathway_analysis	Pathway Analysis	WhitespaceMinimizedString													Pathway analysis data			
+peACE	PeaCE	Peace	General		protein_content	Protein Content	decimal		%											Protein content measurement for the breeding population			
+peACE	PeaCE	Peace	General		protein_interaction_data	Protein Interaction Data	WhitespaceMinimizedString													Protein-protein interaction data			
+peACE	PeaCE	Peace	General		proteomics_data	Proteomics Data	WhitespaceMinimizedString													Proteomics data for protein analysis			
+peACE	PeaCE	Peace	General		qpcr_data	qPCR Data	WhitespaceMinimizedString													qPCR data for gene expression analysis			
+peACE	PeaCE	Peace	General		qtl_mapping	QTL Mapping	WhitespaceMinimizedString													QTL mapping data for the breeding population			
+peACE	PeaCE	Peace	General		regulations	Regulations	WhitespaceMinimizedString													Regulations data			
+peACE	PeaCE	Peace	General		rna_seq_data	RNA-Seq Data	WhitespaceMinimizedString													RNA-seq data for gene expression analysis			
+peACE	PeaCE	Peace	General		sequencing_platform	Sequencing Platform	WhitespaceMinimizedString													Sequencing platform used for genotyping			
+peACE	PeaCE	Peace	General		soil_moisture	Soil Moisture	decimal		%											Soil moisture measurement			
+peACE	PeaCE	Peace	General		soil_nutrient_content	Soil Nutrient Content	decimal		varies											Soil nutrient content measurement			
+peACE	PeaCE	Peace	General		soil_temperature	Soil Temperature	decimal		°C											Soil temperature measurement			
+peACE	PeaCE	Peace	General		species	Species	WhitespaceMinimizedString													Species of the germplasm accession			
+peACE	PeaCE	Peace	General		stakeholder_analysis	Stakeholder Analysis	WhitespaceMinimizedString													Stakeholder analysis data			
+peACE	PeaCE	Peace	General		subspecies	Subspecies	WhitespaceMinimizedString													Subspecies of the germplasm accession			
+peACE	PeaCE	Peace	General		survey_response	Survey Response	WhitespaceMinimizedString													Survey response data			
+peACE	PeaCE	Peace	General		variant_calls	Variant Calls	WhitespaceMinimizedString													Variant calls generated from sequencing data			
+peACE	PeaCE	Peace	General		weather_conditions	Weather Conditions	WhitespaceMinimizedString													Weather conditions during the field trial			
+peACE	PeaCE	Peace	General		yield	Yield	decimal		kg/ha											Yield measurement for the breeding population			

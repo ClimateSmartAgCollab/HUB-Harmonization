@@ -23,6 +23,8 @@ parent: Cell Cultured Meat
 
 [Download schema](Cyclic_OCA_package.json)
 
+[Download LinkML Schema](Cyclic_LinkML/schema.json) ([yaml](Cyclic_LinkML/schema.yaml); table view: [fields](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/Cell_cultured/Cyclic_LinkML/schema_slots.tsv), [picklists](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/Cell_cultured/Cyclic_LinkML/schema_enums.tsv))
+
 ## Schema quick view
 
 | Attribute | Label | Description |

@@ -1,0 +1,16 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+QrtPcr	General		Amp_Status		WhitespaceMinimizedString	Amp_Status												Indicates whether amplification was detected			
+QrtPcr	General		Baseline_End		decimal													End cycle for baseline signal calculation			
+QrtPcr	General		Baseline_Start		decimal													Start cycle for baseline signal calculation			
+QrtPcr	General		CT		decimal													Threshold cycle where fluorescence exceeds background			
+QrtPcr	General		Cq_Conf		decimal													Confidence in quantification cycle (Cq) value			
+QrtPcr	General		Ct_Mean		decimal													Average CT value from technical replicates			
+QrtPcr	General		Ct_SD		decimal													Standard deviation of CT values among replicates			
+QrtPcr	General		Ct_Threshold		decimal													Fluorescence threshold used to calculate CT			
+QrtPcr	General		HIGHSD		WhitespaceMinimizedString	HIGHSD												High standard deviation among technical replicates for a given sample, suggesting inconsistent amplification			
+QrtPcr	General		Reporter		WhitespaceMinimizedString													Fluorescent dye used to detect amplification			
+QrtPcr	General		Sample_Name		WhitespaceMinimizedString													Name or ID of the biological or experimental sample			
+QrtPcr	General		Target_Name		WhitespaceMinimizedString													Target Gene			
+QrtPcr	General		Tm1		decimal		Celsius											Melting temperature of the first PCR product peak			
+QrtPcr	General		Well		decimal													Identifies the specific well on the qPCR plate			
+QrtPcr	General		Well_Position		WhitespaceMinimizedString											^[A-Z]*$		Coordinates of the well			

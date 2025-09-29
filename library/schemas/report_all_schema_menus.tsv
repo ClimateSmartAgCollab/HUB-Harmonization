@@ -1,0 +1,1076 @@
+folder	prefix	title	name	text	meaning	menu_1	menu_2	menu_3	menu_4	menu_5	description
+ACTIVATE	ACTIVATE	Expt	Expt								
+ACTIVATE	ACTIVATE		Expt	ACTIVATE 2024 Clavet Lentil		ACTIVATE 2024 Clavet Lentil					
+ACTIVATE	ACTIVATE		Expt	ACTIVATE 2024 Hunter Lentil		ACTIVATE 2024 Hunter Lentil					
+ACTIVATE	ACTIVATE		Expt	ACTIVATE 2025 Clavet Wheat		ACTIVATE 2025 Clavet Wheat					
+ACTIVATE	ACTIVATE		Expt	ACTIVATE 2025 Hunter Wheat		ACTIVATE 2025 Hunter Wheat					
+ACTIVATE	ACTIVATE	Lodging	Lodging								
+ACTIVATE	ACTIVATE		Lodging	1		Upright					
+ACTIVATE	ACTIVATE		Lodging	5		Prostate					
+ACTIVATE	ACTIVATE	Type	Type								
+ACTIVATE	ACTIVATE		Type	Check		Check					
+ACTIVATE	ACTIVATE		Type	Treatment		Treatment					
+BENEFIT	BENEFIT	Province	Province								
+BENEFIT	BENEFIT		Province	AB		Alberta					
+BENEFIT	BENEFIT		Province	BC		British Columbia					
+BENEFIT	BENEFIT		Province	MB		Manitoba					
+BENEFIT	BENEFIT		Province	NB		New Brunswick					
+BENEFIT	BENEFIT		Province	NL		Newfoundland and Labrador					
+BENEFIT	BENEFIT		Province	NS		Nova Scotia					
+BENEFIT	BENEFIT		Province	NT		Northwest Territories					
+BENEFIT	BENEFIT		Province	NU		Nunavut					
+BENEFIT	BENEFIT		Province	ON		Ontario					
+BENEFIT	BENEFIT		Province	PE		Prince Edward Island					
+BENEFIT	BENEFIT		Province	QC		Quebec City					
+BENEFIT	BENEFIT		Province	SK		Saskatchewan					
+BENEFIT	BENEFIT		Province	YT		Yukon					
+BENEFIT	BENEFIT	Soil_type	Soil_type								
+BENEFIT	BENEFIT		Soil_type	Bulk		Bulk soil					
+BENEFIT	BENEFIT		Soil_type	Rhizosphere		Rhizosphere soil					
+BENEFIT	CCASM	is_plant_pathogen	is_plant_pathogen								
+BENEFIT	CCASM		is_plant_pathogen	No		No					
+BENEFIT	CCASM		is_plant_pathogen	Unknown		Unknown					
+BENEFIT	CCASM		is_plant_pathogen	Yes		Yes					
+BENEFIT	CCASM	isolation_protocol	isolation_protocol								
+BENEFIT	CCASM		isolation_protocol	Nodule trapping		Nodule trapping experiment					
+BENEFIT	CCASM		isolation_protocol	Other		Other method as indicated in notes					
+BENEFIT	CCASM		isolation_protocol	Soil dilution		Soil dilution plating					
+BENEFIT	CCASM		isolation_protocol	Tissue dilution		Tissue crushing and dilution plating					
+BENEFIT	CCASM	isolation_soil_province	isolation_soil_province								
+BENEFIT	CCASM		isolation_soil_province	AB		Alberta					
+BENEFIT	CCASM		isolation_soil_province	BC		British Columbia					
+BENEFIT	CCASM		isolation_soil_province	MB		Manitoba					
+BENEFIT	CCASM		isolation_soil_province	NB		New Brunswick					
+BENEFIT	CCASM		isolation_soil_province	NL		Newfoundland and Labrador					
+BENEFIT	CCASM		isolation_soil_province	NS		Nova Scotia					
+BENEFIT	CCASM		isolation_soil_province	NT		Northwest Territories					
+BENEFIT	CCASM		isolation_soil_province	NU		Nunavut					
+BENEFIT	CCASM		isolation_soil_province	ON		Ontario					
+BENEFIT	CCASM		isolation_soil_province	PE		Prince Edward Island					
+BENEFIT	CCASM		isolation_soil_province	QC		Quebec					
+BENEFIT	CCASM		isolation_soil_province	SK		Saskatchewan					
+BENEFIT	CCASM		isolation_soil_province	YT		Yukon					
+BENEFIT	CCASM	isolation_source	isolation_source								
+BENEFIT	CCASM		isolation_source	Leaf		Leaf tissue					
+BENEFIT	CCASM		isolation_source	Nodule		Nodule tissue					
+BENEFIT	CCASM		isolation_source	Other		Other source as indicated in notes					
+BENEFIT	CCASM		isolation_source	Root		Root tissue					
+BENEFIT	CCASM		isolation_source	Seed		Seed tissue					
+BENEFIT	CCASM		isolation_source	Soil		Soil sample					
+BENEFIT	CCASM		isolation_source	Stem		Stem tissue					
+BENEFIT	CCASM	risk_group	risk_group								
+BENEFIT	CCASM		risk_group	1		Risk Group 1					
+BENEFIT	CCASM		risk_group	2		Risk Group 2					
+BENEFIT	CCASM		risk_group	3		Risk Group 3					
+BENEFIT	CCASM		risk_group	4		Risk Group 4					
+BENEFIT	CCASM		risk_group	Unknown		Unknown					
+Cell_cultured	Bovine	collection_site	collection_site								
+Cell_cultured	Bovine		collection_site	Guelph		Guelph CMIT					
+Cell_cultured	Bovine		collection_site	HP		Highland Packers					
+Cell_cultured	qRT-PCR	Amp_Status	Amp_Status								
+Cell_cultured	qRT-PCR		Amp_Status	Amp		Amplified					
+Cell_cultured	qRT-PCR		Amp_Status	No Amp		Not amplified					
+Cell_cultured	qRT-PCR	HIGHSD	HIGHSD								
+Cell_cultured	qRT-PCR		HIGHSD	N		No					
+Cell_cultured	qRT-PCR		HIGHSD	Y		Yes					
+GG4GHG	Community	Aspect	Aspect								
+GG4GHG	Community		Aspect	East		East					
+GG4GHG	Community		Aspect	None		None					
+GG4GHG	Community		Aspect	North		North					
+GG4GHG	Community		Aspect	Northeast		Northeast					
+GG4GHG	Community		Aspect	Northwest		Northwest					
+GG4GHG	Community		Aspect	South		South					
+GG4GHG	Community		Aspect	Southeast		Southeast					
+GG4GHG	Community		Aspect	Southwest		Southwest					
+GG4GHG	Community		Aspect	West		West					
+GG4GHG	Community	Plot	Plot								
+GG4GHG	Community		Plot	Community		Community					
+GG4GHG	Community		Plot	Focal		Focal					
+GG4GHG	Community	Site	Site								
+GG4GHG	Community		Site	ASQ		NCC Asquith					
+GG4GHG	Community		Site	BID		Biddulph					
+GG4GHG	Community		Site	CDE		Condie					
+GG4GHG	Community		Site	CFL		Cranberry Flats					
+GG4GHG	Community		Site	CPH		Camp Hughes					
+GG4GHG	Community		Site	ESL		East Shoal Lake					
+GG4GHG	Community		Site	FEL		Fort Ellice-St. Lazare					
+GG4GHG	Community		Site	GLE		Grasslands East (west block)					
+GG4GHG	Community		Site	GLW		Grasslands West (west block)					
+GG4GHG	Community		Site	GWR		Goodwater					
+GG4GHG	Community		Site	HDM		Horod Moraine-Onanole					
+GG4GHG	Community		Site	HZN		Hazen					
+GG4GHG	Community		Site	LAM		Lake Alma					
+GG4GHG	Community		Site	MAT		Matador					
+GG4GHG	Community		Site	MCK		McKinney					
+GG4GHG	Community		Site	SLO		CFB Shilo					
+GG4GHG	Community		Site	STD		St. Denis					
+GG4GHG	Community		Site	YQP		Yellow Quill Prairie					
+GG4GHG	Community	Species	Species								
+GG4GHG	Community		Species	CL		Calamovilfa longifolia					
+GG4GHG	Community		Species	DP		Dalea purpurea					
+GG4GHG	Community		Species	HM		Helianthus maximilliani					
+GG4GHG	Community		Species	LL		Linum lewisii					
+GG4GHG	Community		Species	NV		Nasella viridula					
+JT	GENOME	access_training	access_training								
+JT	GENOME		access_training	Agree		AG					
+JT	GENOME		access_training	Disagree		DA					
+JT	GENOME		access_training	Mildly agree		MA					
+JT	GENOME		access_training	Mildly disagree		MD					
+JT	GENOME		access_training	Neither agree nor disagree		NAD					
+JT	GENOME		access_training	Strongly agree		SA					
+JT	GENOME		access_training	Strongly disagree		SD					
+JT	GENOME	act_on_climate	act_on_climate								
+JT	GENOME		act_on_climate	Agree		AG					
+JT	GENOME		act_on_climate	Disagree		DA					
+JT	GENOME		act_on_climate	Don't know		DK					
+JT	GENOME		act_on_climate	Mildly agree		MA					
+JT	GENOME		act_on_climate	Mildly disagree		MD					
+JT	GENOME		act_on_climate	Neither agree nor disagree		NAD					
+JT	GENOME		act_on_climate	Strongly agree		SA					
+JT	GENOME		act_on_climate	Strongly disagree		SD					
+JT	GENOME	attention_check	attention_check								
+JT	GENOME		attention_check	Agree		AG					
+JT	GENOME		attention_check	Disagree		DA					
+JT	GENOME		attention_check	Mildly agree		MA					
+JT	GENOME		attention_check	Mildly disagree		MD					
+JT	GENOME		attention_check	Neither agree nor disagree		NAD					
+JT	GENOME		attention_check	Strongly agree		SA					
+JT	GENOME		attention_check	Strongly disagree		SD					
+JT	GENOME	break_up_big_tech	break_up_big_tech								
+JT	GENOME		break_up_big_tech	Agree		AG					
+JT	GENOME		break_up_big_tech	Disagree		DA					
+JT	GENOME		break_up_big_tech	Don't know		DK					
+JT	GENOME		break_up_big_tech	Mildly agree		MA					
+JT	GENOME		break_up_big_tech	Mildly disagree		MD					
+JT	GENOME		break_up_big_tech	Neither agree nor disagree		NAD					
+JT	GENOME		break_up_big_tech	Strongly agree		SA					
+JT	GENOME		break_up_big_tech	Strongly disagree		SD					
+JT	GENOME	buy_if_cheaper_icecream	buy_if_cheaper_icecream								
+JT	GENOME		buy_if_cheaper_icecream	Agree		AG					
+JT	GENOME		buy_if_cheaper_icecream	Disagree		DA					
+JT	GENOME		buy_if_cheaper_icecream	Mildly agree		MA					
+JT	GENOME		buy_if_cheaper_icecream	Mildly disagree		MD					
+JT	GENOME		buy_if_cheaper_icecream	Neither agree nor disagree		NAD					
+JT	GENOME		buy_if_cheaper_icecream	Strongly agree		SA					
+JT	GENOME		buy_if_cheaper_icecream	Strongly disagree		SD					
+JT	GENOME	buy_if_cheaper_nuggets	buy_if_cheaper_nuggets								
+JT	GENOME		buy_if_cheaper_nuggets	Agree		AG					
+JT	GENOME		buy_if_cheaper_nuggets	Disagree		DA					
+JT	GENOME		buy_if_cheaper_nuggets	Mildly agree		MA					
+JT	GENOME		buy_if_cheaper_nuggets	Mildly disagree		MD					
+JT	GENOME		buy_if_cheaper_nuggets	Neither agree nor disagree		NAD					
+JT	GENOME		buy_if_cheaper_nuggets	Strongly agree		SA					
+JT	GENOME		buy_if_cheaper_nuggets	Strongly disagree		SD					
+JT	GENOME	buy_if_cheaper_salmon	buy_if_cheaper_salmon								
+JT	GENOME		buy_if_cheaper_salmon	Agree		AG					
+JT	GENOME		buy_if_cheaper_salmon	Disagree		DA					
+JT	GENOME		buy_if_cheaper_salmon	Mildly agree		MA					
+JT	GENOME		buy_if_cheaper_salmon	Mildly disagree		MD					
+JT	GENOME		buy_if_cheaper_salmon	Neither agree nor disagree		NAD					
+JT	GENOME		buy_if_cheaper_salmon	Strongly agree		SA					
+JT	GENOME		buy_if_cheaper_salmon	Strongly disagree		SD					
+JT	GENOME	buy_if_healthier_icecream	buy_if_healthier_icecream								
+JT	GENOME		buy_if_healthier_icecream	Agree		AG					
+JT	GENOME		buy_if_healthier_icecream	Disagree		DA					
+JT	GENOME		buy_if_healthier_icecream	Mildly agree		MA					
+JT	GENOME		buy_if_healthier_icecream	Mildly disagree		MD					
+JT	GENOME		buy_if_healthier_icecream	Neither agree nor disagree		NAD					
+JT	GENOME		buy_if_healthier_icecream	Strongly agree		SA					
+JT	GENOME		buy_if_healthier_icecream	Strongly disagree		SD					
+JT	GENOME	buy_if_healthier_nuggets	buy_if_healthier_nuggets								
+JT	GENOME		buy_if_healthier_nuggets	Agree		AG					
+JT	GENOME		buy_if_healthier_nuggets	Disagree		DA					
+JT	GENOME		buy_if_healthier_nuggets	Mildly agree		MA					
+JT	GENOME		buy_if_healthier_nuggets	Mildly disagree		MD					
+JT	GENOME		buy_if_healthier_nuggets	Neither agree nor disagree		NAD					
+JT	GENOME		buy_if_healthier_nuggets	Strongly agree		SA					
+JT	GENOME		buy_if_healthier_nuggets	Strongly disagree		SD					
+JT	GENOME	buy_if_healthier_salmon	buy_if_healthier_salmon								
+JT	GENOME		buy_if_healthier_salmon	Agree		AG					
+JT	GENOME		buy_if_healthier_salmon	Disagree		DA					
+JT	GENOME		buy_if_healthier_salmon	Mildly agree		MA					
+JT	GENOME		buy_if_healthier_salmon	Mildly disagree		MD					
+JT	GENOME		buy_if_healthier_salmon	Neither agree nor disagree		NAD					
+JT	GENOME		buy_if_healthier_salmon	Strongly agree		SA					
+JT	GENOME		buy_if_healthier_salmon	Strongly disagree		SD					
+JT	GENOME	buy_instead_icecream	buy_instead_icecream								
+JT	GENOME		buy_instead_icecream	Agree		AG					
+JT	GENOME		buy_instead_icecream	Disagree		DA					
+JT	GENOME		buy_instead_icecream	Mildly agree		MA					
+JT	GENOME		buy_instead_icecream	Mildly disagree		MD					
+JT	GENOME		buy_instead_icecream	Neither agree nor disagree		NAD					
+JT	GENOME		buy_instead_icecream	Strongly agree		SA					
+JT	GENOME		buy_instead_icecream	Strongly disagree		SD					
+JT	GENOME	buy_instead_nuggets	buy_instead_nuggets								
+JT	GENOME		buy_instead_nuggets	Agree		AG					
+JT	GENOME		buy_instead_nuggets	Disagree		DA					
+JT	GENOME		buy_instead_nuggets	Mildly agree		MA					
+JT	GENOME		buy_instead_nuggets	Mildly disagree		MD					
+JT	GENOME		buy_instead_nuggets	Neither agree nor disagree		NAD					
+JT	GENOME		buy_instead_nuggets	Strongly agree		SA					
+JT	GENOME		buy_instead_nuggets	Strongly disagree		SD					
+JT	GENOME	buy_instead_salmon	buy_instead_salmon								
+JT	GENOME		buy_instead_salmon	Agree		AG					
+JT	GENOME		buy_instead_salmon	Disagree		DA					
+JT	GENOME		buy_instead_salmon	Mildly agree		MA					
+JT	GENOME		buy_instead_salmon	Mildly disagree		MD					
+JT	GENOME		buy_instead_salmon	Neither agree nor disagree		NAD					
+JT	GENOME		buy_instead_salmon	Strongly agree		SA					
+JT	GENOME		buy_instead_salmon	Strongly disagree		SD					
+JT	GENOME	buy_regular_cell_icecream	buy_regular_cell_icecream								
+JT	GENOME		buy_regular_cell_icecream	Agree		AG					
+JT	GENOME		buy_regular_cell_icecream	Disagree		DA					
+JT	GENOME		buy_regular_cell_icecream	Mildly agree		MA					
+JT	GENOME		buy_regular_cell_icecream	Mildly disagree		MD					
+JT	GENOME		buy_regular_cell_icecream	Neither agree nor disagree		NAD					
+JT	GENOME		buy_regular_cell_icecream	Strongly agree		SA					
+JT	GENOME		buy_regular_cell_icecream	Strongly disagree		SD					
+JT	GENOME	buy_regular_cell_nuggets	buy_regular_cell_nuggets								
+JT	GENOME		buy_regular_cell_nuggets	Agree		AG					
+JT	GENOME		buy_regular_cell_nuggets	Disagree		DA					
+JT	GENOME		buy_regular_cell_nuggets	Mildly agree		MA					
+JT	GENOME		buy_regular_cell_nuggets	Mildly disagree		MD					
+JT	GENOME		buy_regular_cell_nuggets	Neither agree nor disagree		NAD					
+JT	GENOME		buy_regular_cell_nuggets	Strongly agree		SA					
+JT	GENOME		buy_regular_cell_nuggets	Strongly disagree		SD					
+JT	GENOME	buy_regular_cell_salmon	buy_regular_cell_salmon								
+JT	GENOME		buy_regular_cell_salmon	Agree		AG					
+JT	GENOME		buy_regular_cell_salmon	Disagree		DA					
+JT	GENOME		buy_regular_cell_salmon	Mildly agree		MA					
+JT	GENOME		buy_regular_cell_salmon	Mildly disagree		MD					
+JT	GENOME		buy_regular_cell_salmon	Neither agree nor disagree		NAD					
+JT	GENOME		buy_regular_cell_salmon	Strongly agree		SA					
+JT	GENOME		buy_regular_cell_salmon	Strongly disagree		SD					
+JT	GENOME	city_only_access	city_only_access								
+JT	GENOME		city_only_access	Agree		AG					
+JT	GENOME		city_only_access	Disagree		DA					
+JT	GENOME		city_only_access	Mildly agree		MA					
+JT	GENOME		city_only_access	Mildly disagree		MD					
+JT	GENOME		city_only_access	Neither agree nor disagree		NAD					
+JT	GENOME		city_only_access	Strongly agree		SA					
+JT	GENOME		city_only_access	Strongly disagree		SD					
+JT	GENOME	city_only_jobs	city_only_jobs								
+JT	GENOME		city_only_jobs	Agree		AG					
+JT	GENOME		city_only_jobs	Disagree		DA					
+JT	GENOME		city_only_jobs	Mildly agree		MA					
+JT	GENOME		city_only_jobs	Mildly disagree		MD					
+JT	GENOME		city_only_jobs	Neither agree nor disagree		NAD					
+JT	GENOME		city_only_jobs	Strongly agree		SA					
+JT	GENOME		city_only_jobs	Strongly disagree		SD					
+JT	GENOME	climate_biodiversity_loss	climate_biodiversity_loss								
+JT	GENOME		climate_biodiversity_loss	Agree		AG					
+JT	GENOME		climate_biodiversity_loss	Disagree		DA					
+JT	GENOME		climate_biodiversity_loss	Don't know		DK					
+JT	GENOME		climate_biodiversity_loss	Mildly agree		MA					
+JT	GENOME		climate_biodiversity_loss	Mildly disagree		MD					
+JT	GENOME		climate_biodiversity_loss	Neither agree nor disagree		NAD					
+JT	GENOME		climate_biodiversity_loss	Strongly agree		SA					
+JT	GENOME		climate_biodiversity_loss	Strongly disagree		SD					
+JT	GENOME	climate_ecosystem	climate_ecosystem								
+JT	GENOME		climate_ecosystem	Agree		AG					
+JT	GENOME		climate_ecosystem	Disagree		DA					
+JT	GENOME		climate_ecosystem	Mildly agree		MA					
+JT	GENOME		climate_ecosystem	Mildly disagree		MD					
+JT	GENOME		climate_ecosystem	Neither agree nor disagree		NAD					
+JT	GENOME		climate_ecosystem	Strongly agree		SA					
+JT	GENOME		climate_ecosystem	Strongly disagree		SD					
+JT	GENOME	climate_not_urgent	climate_not_urgent								
+JT	GENOME		climate_not_urgent	Agree		AG					
+JT	GENOME		climate_not_urgent	Disagree		DA					
+JT	GENOME		climate_not_urgent	Mildly agree		MA					
+JT	GENOME		climate_not_urgent	Mildly disagree		MD					
+JT	GENOME		climate_not_urgent	Neither agree nor disagree		NAD					
+JT	GENOME		climate_not_urgent	Strongly agree		SA					
+JT	GENOME		climate_not_urgent	Strongly disagree		SD					
+JT	GENOME	community_owned_model	community_owned_model								
+JT	GENOME		community_owned_model	Agree		AG					
+JT	GENOME		community_owned_model	Disagree		DA					
+JT	GENOME		community_owned_model	Mildly agree		MA					
+JT	GENOME		community_owned_model	Mildly disagree		MD					
+JT	GENOME		community_owned_model	Neither agree nor disagree		NAD					
+JT	GENOME		community_owned_model	Strongly agree		SA					
+JT	GENOME		community_owned_model	Strongly disagree		SD					
+JT	GENOME	conventional_farmers_opportunity	conventional_farmers_opportunity								
+JT	GENOME		conventional_farmers_opportunity	Agree		AG					
+JT	GENOME		conventional_farmers_opportunity	Disagree		DA					
+JT	GENOME		conventional_farmers_opportunity	Mildly agree		MA					
+JT	GENOME		conventional_farmers_opportunity	Mildly disagree		MD					
+JT	GENOME		conventional_farmers_opportunity	Neither agree nor disagree		NAD					
+JT	GENOME		conventional_farmers_opportunity	Strongly agree		SA					
+JT	GENOME		conventional_farmers_opportunity	Strongly disagree		SD					
+JT	GENOME	corp_patents_limit_knowledge	corp_patents_limit_knowledge								
+JT	GENOME		corp_patents_limit_knowledge	Agree		AG					
+JT	GENOME		corp_patents_limit_knowledge	Disagree		DA					
+JT	GENOME		corp_patents_limit_knowledge	Don't know		DK					
+JT	GENOME		corp_patents_limit_knowledge	Mildly agree		MA					
+JT	GENOME		corp_patents_limit_knowledge	Mildly disagree		MD					
+JT	GENOME		corp_patents_limit_knowledge	Neither agree nor disagree		NAD					
+JT	GENOME		corp_patents_limit_knowledge	Strongly agree		SA					
+JT	GENOME		corp_patents_limit_knowledge	Strongly disagree		SD					
+JT	GENOME	education_level	education_level								
+JT	GENOME		education_level	Apprenticeship or trades		AT					
+JT	GENOME		education_level	College or other non-university level		CNU					
+JT	GENOME		education_level	Prefer not to say		PNS					
+JT	GENOME		education_level	Primary or elementary school		PES					
+JT	GENOME		education_level	Professional school		PS					
+JT	GENOME		education_level	Secondary (high school diploma or equivalent)		SEC					
+JT	GENOME		education_level	University bachelor level degree		UBD					
+JT	GENOME		education_level	University graduate school		UGS					
+JT	GENOME	env_impact_beef	env_impact_beef								
+JT	GENOME		env_impact_beef	Agree		AG					
+JT	GENOME		env_impact_beef	Disagree		DA					
+JT	GENOME		env_impact_beef	Don't know		DK					
+JT	GENOME		env_impact_beef	Mildly agree		MA					
+JT	GENOME		env_impact_beef	Mildly disagree		MD					
+JT	GENOME		env_impact_beef	Neither agree nor disagree		NAD					
+JT	GENOME		env_impact_beef	Strongly agree		SA					
+JT	GENOME		env_impact_beef	Strongly disagree		SD					
+JT	GENOME	env_impact_chicken	env_impact_chicken								
+JT	GENOME		env_impact_chicken	Agree		AG					
+JT	GENOME		env_impact_chicken	Disagree		DA					
+JT	GENOME		env_impact_chicken	Don't know		DK					
+JT	GENOME		env_impact_chicken	Mildly agree		MA					
+JT	GENOME		env_impact_chicken	Mildly disagree		MD					
+JT	GENOME		env_impact_chicken	Neither agree nor disagree		NAD					
+JT	GENOME		env_impact_chicken	Strongly agree		SA					
+JT	GENOME		env_impact_chicken	Strongly disagree		SD					
+JT	GENOME	env_impact_fish	env_impact_fish								
+JT	GENOME		env_impact_fish	Agree		AG					
+JT	GENOME		env_impact_fish	Disagree		DA					
+JT	GENOME		env_impact_fish	Don't know		DK					
+JT	GENOME		env_impact_fish	Mildly agree		MA					
+JT	GENOME		env_impact_fish	Mildly disagree		MD					
+JT	GENOME		env_impact_fish	Neither agree nor disagree		NAD					
+JT	GENOME		env_impact_fish	Strongly agree		SA					
+JT	GENOME		env_impact_fish	Strongly disagree		SD					
+JT	GENOME	env_impact_pork	env_impact_pork								
+JT	GENOME		env_impact_pork	Agree		AG					
+JT	GENOME		env_impact_pork	Disagree		DA					
+JT	GENOME		env_impact_pork	Don't know		DK					
+JT	GENOME		env_impact_pork	Mildly agree		MA					
+JT	GENOME		env_impact_pork	Mildly disagree		MD					
+JT	GENOME		env_impact_pork	Neither agree nor disagree		NAD					
+JT	GENOME		env_impact_pork	Strongly agree		SA					
+JT	GENOME		env_impact_pork	Strongly disagree		SD					
+JT	GENOME	ext_affordable_protein	ext_affordable_protein								
+JT	GENOME		ext_affordable_protein	Agree		AG					
+JT	GENOME		ext_affordable_protein	Disagree		DA					
+JT	GENOME		ext_affordable_protein	Mildly agree		MA					
+JT	GENOME		ext_affordable_protein	Mildly disagree		MD					
+JT	GENOME		ext_affordable_protein	Neither agree nor disagree		NAD					
+JT	GENOME		ext_affordable_protein	Strongly agree		SA					
+JT	GENOME		ext_affordable_protein	Strongly disagree		SD					
+JT	GENOME	ext_disrespectful_nature	ext_disrespectful_nature								
+JT	GENOME		ext_disrespectful_nature	Agree		AG					
+JT	GENOME		ext_disrespectful_nature	Disagree		DA					
+JT	GENOME		ext_disrespectful_nature	Mildly agree		MA					
+JT	GENOME		ext_disrespectful_nature	Mildly disagree		MD					
+JT	GENOME		ext_disrespectful_nature	Neither agree nor disagree		NAD					
+JT	GENOME		ext_disrespectful_nature	Strongly agree		SA					
+JT	GENOME		ext_disrespectful_nature	Strongly disagree		SD					
+JT	GENOME	ext_env_sustainability	ext_env_sustainability								
+JT	GENOME		ext_env_sustainability	Agree		AG					
+JT	GENOME		ext_env_sustainability	Disagree		DA					
+JT	GENOME		ext_env_sustainability	Mildly agree		MA					
+JT	GENOME		ext_env_sustainability	Mildly disagree		MD					
+JT	GENOME		ext_env_sustainability	Neither agree nor disagree		NAD					
+JT	GENOME		ext_env_sustainability	Strongly agree		SA					
+JT	GENOME		ext_env_sustainability	Strongly disagree		SD					
+JT	GENOME	ext_healthy_products	ext_healthy_products								
+JT	GENOME		ext_healthy_products	Agree		AG					
+JT	GENOME		ext_healthy_products	Disagree		DA					
+JT	GENOME		ext_healthy_products	Mildly agree		MA					
+JT	GENOME		ext_healthy_products	Mildly disagree		MD					
+JT	GENOME		ext_healthy_products	Neither agree nor disagree		NAD					
+JT	GENOME		ext_healthy_products	Strongly agree		SA					
+JT	GENOME		ext_healthy_products	Strongly disagree		SD					
+JT	GENOME	ext_improve_welfare	ext_improve_welfare								
+JT	GENOME		ext_improve_welfare	Agree		AG					
+JT	GENOME		ext_improve_welfare	Disagree		DA					
+JT	GENOME		ext_improve_welfare	Mildly agree		MA					
+JT	GENOME		ext_improve_welfare	Mildly disagree		MD					
+JT	GENOME		ext_improve_welfare	Neither agree nor disagree		NAD					
+JT	GENOME		ext_improve_welfare	Strongly agree		SA					
+JT	GENOME		ext_improve_welfare	Strongly disagree		SD					
+JT	GENOME	ext_solve_hunger	ext_solve_hunger								
+JT	GENOME		ext_solve_hunger	Agree		AG					
+JT	GENOME		ext_solve_hunger	Disagree		DA					
+JT	GENOME		ext_solve_hunger	Mildly agree		MA					
+JT	GENOME		ext_solve_hunger	Mildly disagree		MD					
+JT	GENOME		ext_solve_hunger	Neither agree nor disagree		NAD					
+JT	GENOME		ext_solve_hunger	Strongly agree		SA					
+JT	GENOME		ext_solve_hunger	Strongly disagree		SD					
+JT	GENOME	ext_tasty_products	ext_tasty_products								
+JT	GENOME		ext_tasty_products	Agree		AG					
+JT	GENOME		ext_tasty_products	Disagree		DA					
+JT	GENOME		ext_tasty_products	Mildly agree		MA					
+JT	GENOME		ext_tasty_products	Mildly disagree		MD					
+JT	GENOME		ext_tasty_products	Neither agree nor disagree		NAD					
+JT	GENOME		ext_tasty_products	Strongly agree		SA					
+JT	GENOME		ext_tasty_products	Strongly disagree		SD					
+JT	GENOME	ext_unnatural	ext_unnatural								
+JT	GENOME		ext_unnatural	Agree		AG					
+JT	GENOME		ext_unnatural	Disagree		DA					
+JT	GENOME		ext_unnatural	Mildly agree		MA					
+JT	GENOME		ext_unnatural	Mildly disagree		MD					
+JT	GENOME		ext_unnatural	Neither agree nor disagree		NAD					
+JT	GENOME		ext_unnatural	Strongly agree		SA					
+JT	GENOME		ext_unnatural	Strongly disagree		SD					
+JT	GENOME	ext_viable_alternative	ext_viable_alternative								
+JT	GENOME		ext_viable_alternative	Agree		AG					
+JT	GENOME		ext_viable_alternative	Disagree		DA					
+JT	GENOME		ext_viable_alternative	Mildly agree		MA					
+JT	GENOME		ext_viable_alternative	Mildly disagree		MD					
+JT	GENOME		ext_viable_alternative	Neither agree nor disagree		NAD					
+JT	GENOME		ext_viable_alternative	Strongly agree		SA					
+JT	GENOME		ext_viable_alternative	Strongly disagree		SD					
+JT	GENOME	farmers_lose_jobs	farmers_lose_jobs								
+JT	GENOME		farmers_lose_jobs	Agree		AG					
+JT	GENOME		farmers_lose_jobs	Disagree		DA					
+JT	GENOME		farmers_lose_jobs	Mildly agree		MA					
+JT	GENOME		farmers_lose_jobs	Mildly disagree		MD					
+JT	GENOME		farmers_lose_jobs	Neither agree nor disagree		NAD					
+JT	GENOME		farmers_lose_jobs	Strongly agree		SA					
+JT	GENOME		farmers_lose_jobs	Strongly disagree		SD					
+JT	GENOME	farmers_transition	farmers_transition								
+JT	GENOME		farmers_transition	Agree		AG					
+JT	GENOME		farmers_transition	Disagree		DA					
+JT	GENOME		farmers_transition	Mildly agree		MA					
+JT	GENOME		farmers_transition	Mildly disagree		MD					
+JT	GENOME		farmers_transition	Neither agree nor disagree		NAD					
+JT	GENOME		farmers_transition	Strongly agree		SA					
+JT	GENOME		farmers_transition	Strongly disagree		SD					
+JT	GENOME	food_banks_benefit	food_banks_benefit								
+JT	GENOME		food_banks_benefit	Agree		AG					
+JT	GENOME		food_banks_benefit	Disagree		DA					
+JT	GENOME		food_banks_benefit	Mildly agree		MA					
+JT	GENOME		food_banks_benefit	Mildly disagree		MD					
+JT	GENOME		food_banks_benefit	Neither agree nor disagree		NAD					
+JT	GENOME		food_banks_benefit	Strongly agree		SA					
+JT	GENOME		food_banks_benefit	Strongly disagree		SD					
+JT	GENOME	freq_dairy	freq_dairy								
+JT	GENOME		freq_dairy	A few times per week		FTW					
+JT	GENOME		freq_dairy	A few times per year		FT					
+JT	GENOME		freq_dairy	Every day		ED					
+JT	GENOME		freq_dairy	Never		NV					
+JT	GENOME		freq_dairy	Once a month		OM					
+JT	GENOME		freq_dairy	Once a week		OW					
+JT	GENOME	freq_eggs	freq_eggs								
+JT	GENOME		freq_eggs	A few times per week		FTW					
+JT	GENOME		freq_eggs	A few times per year		FT					
+JT	GENOME		freq_eggs	Every day		ED					
+JT	GENOME		freq_eggs	Never		NV					
+JT	GENOME		freq_eggs	Once a month		OM					
+JT	GENOME		freq_eggs	Once a week		OW					
+JT	GENOME	freq_fish	freq_fish								
+JT	GENOME		freq_fish	A few times per week		FTW					
+JT	GENOME		freq_fish	A few times per year		FT					
+JT	GENOME		freq_fish	Every day		ED					
+JT	GENOME		freq_fish	Never		NV					
+JT	GENOME		freq_fish	Once a month		OM					
+JT	GENOME		freq_fish	Once a week		OW					
+JT	GENOME	freq_pork	freq_pork								
+JT	GENOME		freq_pork	A few times per week		FTW					
+JT	GENOME		freq_pork	A few times per year		FT					
+JT	GENOME		freq_pork	Every day		ED					
+JT	GENOME		freq_pork	Never		NV					
+JT	GENOME		freq_pork	Once a month		OM					
+JT	GENOME		freq_pork	Once a week		OW					
+JT	GENOME	freq_poultry	freq_poultry								
+JT	GENOME		freq_poultry	A few times per week		FTW					
+JT	GENOME		freq_poultry	A few times per year		FT					
+JT	GENOME		freq_poultry	Every day		ED					
+JT	GENOME		freq_poultry	Never		NV					
+JT	GENOME		freq_poultry	Once a month		OM					
+JT	GENOME		freq_poultry	Once a week		OW					
+JT	GENOME	freq_red_meat	freq_red_meat								
+JT	GENOME		freq_red_meat	A few times per week		FTW					
+JT	GENOME		freq_red_meat	A few times per year		FT					
+JT	GENOME		freq_red_meat	Every day		ED					
+JT	GENOME		freq_red_meat	Never		NV					
+JT	GENOME		freq_red_meat	Once a month		OM					
+JT	GENOME		freq_red_meat	Once a week		OW					
+JT	GENOME	gatekeep_methods	gatekeep_methods								
+JT	GENOME		gatekeep_methods	Agree		AG					
+JT	GENOME		gatekeep_methods	Disagree		DA					
+JT	GENOME		gatekeep_methods	Mildly agree		MA					
+JT	GENOME		gatekeep_methods	Mildly disagree		MD					
+JT	GENOME		gatekeep_methods	Neither agree nor disagree		NAD					
+JT	GENOME		gatekeep_methods	Strongly agree		SA					
+JT	GENOME		gatekeep_methods	Strongly disagree		SD					
+JT	GENOME	gender	gender								
+JT	GENOME		gender	Female		F					
+JT	GENOME		gender	Male		M					
+JT	GENOME		gender	Non-binary (gender diverse)		NB					
+JT	GENOME		gender	Other		OTH					
+JT	GENOME		gender	Prefer not to say		PNS					
+JT	GENOME	glob_benefits	glob_benefits								
+JT	GENOME		glob_benefits	Agree		AG					
+JT	GENOME		glob_benefits	Disagree		DA					
+JT	GENOME		glob_benefits	Don't know		DK					
+JT	GENOME		glob_benefits	Mildly agree		MA					
+JT	GENOME		glob_benefits	Mildly disagree		MD					
+JT	GENOME		glob_benefits	Neither agree nor disagree		NAD					
+JT	GENOME		glob_benefits	Strongly agree		SA					
+JT	GENOME		glob_benefits	Strongly disagree		SD					
+JT	GENOME	gm_beef	gm_beef								
+JT	GENOME		gm_beef	A little less comfortable		LLC					
+JT	GENOME		gm_beef	A little more comfortable		LMC					
+JT	GENOME		gm_beef	Don't know		DK					
+JT	GENOME		gm_beef	Less comfortable		LC					
+JT	GENOME		gm_beef	More comfortable		MC					
+JT	GENOME		gm_beef	Much less comfortable with genetically modified rice than cellular agriculture		MLC					
+JT	GENOME		gm_beef	Much more comfortable with genetically modified rice than cellular agriculture		MMC					
+JT	GENOME		gm_beef	Same level of comfort		SLC					
+JT	GENOME	gm_rice	gm_rice								
+JT	GENOME		gm_rice	A little less comfortable		LLC					
+JT	GENOME		gm_rice	A little more comfortable		LMC					
+JT	GENOME		gm_rice	Don't know		DK					
+JT	GENOME		gm_rice	Less comfortable		LC					
+JT	GENOME		gm_rice	More comfortable		MC					
+JT	GENOME		gm_rice	Much less comfortable with genetically modified rice than cellular agriculture		MLC					
+JT	GENOME		gm_rice	Much more comfortable with genetically modified rice than cellular agriculture		MMC					
+JT	GENOME		gm_rice	Same level of comfort		SLC					
+JT	GENOME	grocery_availability	grocery_availability								
+JT	GENOME		grocery_availability	Agree		AG					
+JT	GENOME		grocery_availability	Disagree		DA					
+JT	GENOME		grocery_availability	Mildly agree		MA					
+JT	GENOME		grocery_availability	Mildly disagree		MD					
+JT	GENOME		grocery_availability	Neither agree nor disagree		NAD					
+JT	GENOME		grocery_availability	Strongly agree		SA					
+JT	GENOME		grocery_availability	Strongly disagree		SD					
+JT	GENOME	heard_cellular_agriculture	heard_cellular_agriculture								
+JT	GENOME		heard_cellular_agriculture	I don't know		DK					
+JT	GENOME		heard_cellular_agriculture	No		N					
+JT	GENOME		heard_cellular_agriculture	Yes		Y					
+JT	GENOME	home_production_possible	home_production_possible								
+JT	GENOME		home_production_possible	Agree		AG					
+JT	GENOME		home_production_possible	Disagree		DA					
+JT	GENOME		home_production_possible	Mildly agree		MA					
+JT	GENOME		home_production_possible	Mildly disagree		MD					
+JT	GENOME		home_production_possible	Neither agree nor disagree		NAD					
+JT	GENOME		home_production_possible	Strongly agree		SA					
+JT	GENOME		home_production_possible	Strongly disagree		SD					
+JT	GENOME	hope_tech	hope_tech								
+JT	GENOME		hope_tech	Agree		AG					
+JT	GENOME		hope_tech	Disagree		DA					
+JT	GENOME		hope_tech	Don't know		DK					
+JT	GENOME		hope_tech	Mildly agree		MA					
+JT	GENOME		hope_tech	Mildly disagree		MD					
+JT	GENOME		hope_tech	Neither agree nor disagree		NAD					
+JT	GENOME		hope_tech	Strongly agree		SA					
+JT	GENOME		hope_tech	Strongly disagree		SD					
+JT	GENOME	household_composition	household_composition								
+JT	GENOME		household_composition	Couple living together		CLT					
+JT	GENOME		household_composition	Family with children		FC					
+JT	GENOME		household_composition	I live on my own		LO					
+JT	GENOME		household_composition	Multigenerational (two or more families living together)		MLG					
+JT	GENOME		household_composition	Other		Oth					
+JT	GENOME		household_composition	Prefer not to say		PNS					
+JT	GENOME	household_income	household_income								
+JT	GENOME		household_income	$100,000 to $149,999		U150					
+JT	GENOME		household_income	$150,000 to $199,999		U200					
+JT	GENOME		household_income	$20,000 to $49,999		U50					
+JT	GENOME		household_income	$200,000 to $249,999		U250					
+JT	GENOME		household_income	$250,000 and over		A250					
+JT	GENOME		household_income	$50,000 to $99,999		U100					
+JT	GENOME		household_income	Prefer not to say		PNS					
+JT	GENOME		household_income	Under $20,000		U20					
+JT	GENOME	human_caused_climate	human_caused_climate								
+JT	GENOME		human_caused_climate	Agree		AG					
+JT	GENOME		human_caused_climate	Disagree		DA					
+JT	GENOME		human_caused_climate	Mildly agree		MA					
+JT	GENOME		human_caused_climate	Mildly disagree		MD					
+JT	GENOME		human_caused_climate	Neither agree nor disagree		NAD					
+JT	GENOME		human_caused_climate	Strongly agree		SA					
+JT	GENOME		human_caused_climate	Strongly disagree		SD					
+JT	GENOME	human_impacts	human_impacts								
+JT	GENOME		human_impacts	Agree		AG					
+JT	GENOME		human_impacts	Disagree		DA					
+JT	GENOME		human_impacts	Don't know		DK					
+JT	GENOME		human_impacts	Mildly agree		MA					
+JT	GENOME		human_impacts	Mildly disagree		MD					
+JT	GENOME		human_impacts	Neither agree nor disagree		NAD					
+JT	GENOME		human_impacts	Strongly agree		SA					
+JT	GENOME		human_impacts	Strongly disagree		SD					
+JT	GENOME	imp_dairy	imp_dairy								
+JT	GENOME		imp_dairy	Agree		AG					
+JT	GENOME		imp_dairy	Disagree		DA					
+JT	GENOME		imp_dairy	Mildly agree		MA					
+JT	GENOME		imp_dairy	Mildly disagree		MD					
+JT	GENOME		imp_dairy	Neither agree nor disagree		NAD					
+JT	GENOME		imp_dairy	Strongly agree		SA					
+JT	GENOME		imp_dairy	Strongly disagree		SD					
+JT	GENOME	imp_eggs	imp_eggs								
+JT	GENOME		imp_eggs	Agree		AG					
+JT	GENOME		imp_eggs	Disagree		DA					
+JT	GENOME		imp_eggs	Mildly agree		MA					
+JT	GENOME		imp_eggs	Mildly disagree		MD					
+JT	GENOME		imp_eggs	Neither agree nor disagree		NAD					
+JT	GENOME		imp_eggs	Strongly agree		SA					
+JT	GENOME		imp_eggs	Strongly disagree		SD					
+JT	GENOME	imp_fish	imp_fish								
+JT	GENOME		imp_fish	Agree		AG					
+JT	GENOME		imp_fish	Disagree		DA					
+JT	GENOME		imp_fish	Mildly agree		MA					
+JT	GENOME		imp_fish	Mildly disagree		MD					
+JT	GENOME		imp_fish	Neither agree nor disagree		NAD					
+JT	GENOME		imp_fish	Strongly agree		SA					
+JT	GENOME		imp_fish	Strongly disagree		SD					
+JT	GENOME	imp_pork	imp_pork								
+JT	GENOME		imp_pork	Agree		AG					
+JT	GENOME		imp_pork	Disagree		DA					
+JT	GENOME		imp_pork	Mildly agree		MA					
+JT	GENOME		imp_pork	Mildly disagree		MD					
+JT	GENOME		imp_pork	Neither agree nor disagree		NAD					
+JT	GENOME		imp_pork	Strongly agree		SA					
+JT	GENOME		imp_pork	Strongly disagree		SD					
+JT	GENOME	imp_poultry	imp_poultry								
+JT	GENOME		imp_poultry	Agree		AG					
+JT	GENOME		imp_poultry	Disagree		DA					
+JT	GENOME		imp_poultry	Mildly agree		MA					
+JT	GENOME		imp_poultry	Mildly disagree		MD					
+JT	GENOME		imp_poultry	Neither agree nor disagree		NAD					
+JT	GENOME		imp_poultry	Strongly agree		SA					
+JT	GENOME		imp_poultry	Strongly disagree		SD					
+JT	GENOME	imp_red_meat	imp_red_meat								
+JT	GENOME		imp_red_meat	Agree		AG					
+JT	GENOME		imp_red_meat	Disagree		DA					
+JT	GENOME		imp_red_meat	Mildly agree		MA					
+JT	GENOME		imp_red_meat	Mildly disagree		MD					
+JT	GENOME		imp_red_meat	Neither agree nor disagree		NAD					
+JT	GENOME		imp_red_meat	Strongly agree		SA					
+JT	GENOME		imp_red_meat	Strongly disagree		SD					
+JT	GENOME	inaccessible_education	inaccessible_education								
+JT	GENOME		inaccessible_education	Agree		AG					
+JT	GENOME		inaccessible_education	Disagree		DA					
+JT	GENOME		inaccessible_education	Mildly agree		MA					
+JT	GENOME		inaccessible_education	Mildly disagree		MD					
+JT	GENOME		inaccessible_education	Neither agree nor disagree		NAD					
+JT	GENOME		inaccessible_education	Strongly agree		SA					
+JT	GENOME		inaccessible_education	Strongly disagree		SD					
+JT	GENOME	industry_dominated	industry_dominated								
+JT	GENOME		industry_dominated	Agree		AG					
+JT	GENOME		industry_dominated	Disagree		DA					
+JT	GENOME		industry_dominated	Mildly agree		MA					
+JT	GENOME		industry_dominated	Mildly disagree		MD					
+JT	GENOME		industry_dominated	Neither agree nor disagree		NAD					
+JT	GENOME		industry_dominated	Strongly agree		SA					
+JT	GENOME		industry_dominated	Strongly disagree		SD					
+JT	GENOME	larg_corp_influence	larg_corp_influence								
+JT	GENOME		larg_corp_influence	Agree		AG					
+JT	GENOME		larg_corp_influence	Disagree		DA					
+JT	GENOME		larg_corp_influence	Don't know		DK					
+JT	GENOME		larg_corp_influence	Mildly agree		MA					
+JT	GENOME		larg_corp_influence	Mildly disagree		MD					
+JT	GENOME		larg_corp_influence	Neither agree nor disagree		NAD					
+JT	GENOME		larg_corp_influence	Strongly agree		SA					
+JT	GENOME		larg_corp_influence	Strongly disagree		SD					
+JT	GENOME	local_food_security	local_food_security								
+JT	GENOME		local_food_security	Agree		AG					
+JT	GENOME		local_food_security	Disagree		DA					
+JT	GENOME		local_food_security	Mildly agree		MA					
+JT	GENOME		local_food_security	Mildly disagree		MD					
+JT	GENOME		local_food_security	Neither agree nor disagree		NAD					
+JT	GENOME		local_food_security	Strongly agree		SA					
+JT	GENOME		local_food_security	Strongly disagree		SD					
+JT	GENOME	main_grocery_shopper	main_grocery_shopper								
+JT	GENOME		main_grocery_shopper	I do		ID					
+JT	GENOME		main_grocery_shopper	I shop the same amount as other in my household		SAH					
+JT	GENOME		main_grocery_shopper	Prefer not to say		PNS					
+JT	GENOME		main_grocery_shopper	Someone else		SE					
+JT	GENOME	online_superstore_availability	online_superstore_availability								
+JT	GENOME		online_superstore_availability	Agree		AG					
+JT	GENOME		online_superstore_availability	Disagree		DA					
+JT	GENOME		online_superstore_availability	Mildly agree		MA					
+JT	GENOME		online_superstore_availability	Mildly disagree		MD					
+JT	GENOME		online_superstore_availability	Neither agree nor disagree		NAD					
+JT	GENOME		online_superstore_availability	Strongly agree		SA					
+JT	GENOME		online_superstore_availability	Strongly disagree		SD					
+JT	GENOME	only_wealthy_access	only_wealthy_access								
+JT	GENOME		only_wealthy_access	Agree		AG					
+JT	GENOME		only_wealthy_access	Disagree		DA					
+JT	GENOME		only_wealthy_access	Mildly agree		MA					
+JT	GENOME		only_wealthy_access	Mildly disagree		MD					
+JT	GENOME		only_wealthy_access	Neither agree nor disagree		NAD					
+JT	GENOME		only_wealthy_access	Strongly agree		SA					
+JT	GENOME		only_wealthy_access	Strongly disagree		SD					
+JT	GENOME	plant_burger_mushroom	plant_burger_mushroom								
+JT	GENOME		plant_burger_mushroom	A little less comfortable		LLC					
+JT	GENOME		plant_burger_mushroom	A little more comfortable		LMC					
+JT	GENOME		plant_burger_mushroom	Don't know		DK					
+JT	GENOME		plant_burger_mushroom	Less comfortable		LC					
+JT	GENOME		plant_burger_mushroom	More comfortable		MC					
+JT	GENOME		plant_burger_mushroom	Much less comfortable with genetically modified rice than cellular agriculture		MLC					
+JT	GENOME		plant_burger_mushroom	Much more comfortable with genetically modified rice than cellular agriculture		MMC					
+JT	GENOME		plant_burger_mushroom	Same level of comfort		SLC					
+JT	GENOME	plant_burger_soy	plant_burger_soy								
+JT	GENOME		plant_burger_soy	A little less comfortable		LLC					
+JT	GENOME		plant_burger_soy	A little more comfortable		LMC					
+JT	GENOME		plant_burger_soy	Don't know		DK					
+JT	GENOME		plant_burger_soy	Less comfortable		LC					
+JT	GENOME		plant_burger_soy	More comfortable		MC					
+JT	GENOME		plant_burger_soy	Much less comfortable with genetically modified rice than cellular agriculture		MLC					
+JT	GENOME		plant_burger_soy	Much more comfortable with genetically modified rice than cellular agriculture		MMC					
+JT	GENOME		plant_burger_soy	Same level of comfort		SLC					
+JT	GENOME	progress_tech	progress_tech								
+JT	GENOME		progress_tech	Agree		AG					
+JT	GENOME		progress_tech	Disagree		DA					
+JT	GENOME		progress_tech	Don't know		DK					
+JT	GENOME		progress_tech	Mildly agree		MA					
+JT	GENOME		progress_tech	Mildly disagree		MD					
+JT	GENOME		progress_tech	Neither agree nor disagree		NAD					
+JT	GENOME		progress_tech	Strongly agree		SA					
+JT	GENOME		progress_tech	Strongly disagree		SD					
+JT	GENOME	reject_cell_icecream	reject_cell_icecream								
+JT	GENOME		reject_cell_icecream	Agree		AG					
+JT	GENOME		reject_cell_icecream	Disagree		DA					
+JT	GENOME		reject_cell_icecream	Mildly agree		MA					
+JT	GENOME		reject_cell_icecream	Mildly disagree		MD					
+JT	GENOME		reject_cell_icecream	Neither agree nor disagree		NAD					
+JT	GENOME		reject_cell_icecream	Strongly agree		SA					
+JT	GENOME		reject_cell_icecream	Strongly disagree		SD					
+JT	GENOME	reject_cell_nuggets	reject_cell_nuggets								
+JT	GENOME		reject_cell_nuggets	Agree		AG					
+JT	GENOME		reject_cell_nuggets	Disagree		DA					
+JT	GENOME		reject_cell_nuggets	Mildly agree		MA					
+JT	GENOME		reject_cell_nuggets	Mildly disagree		MD					
+JT	GENOME		reject_cell_nuggets	Neither agree nor disagree		NAD					
+JT	GENOME		reject_cell_nuggets	Strongly agree		SA					
+JT	GENOME		reject_cell_nuggets	Strongly disagree		SD					
+JT	GENOME	reject_cell_salmon	reject_cell_salmon								
+JT	GENOME		reject_cell_salmon	Agree		AG					
+JT	GENOME		reject_cell_salmon	Disagree		DA					
+JT	GENOME		reject_cell_salmon	Mildly agree		MA					
+JT	GENOME		reject_cell_salmon	Mildly disagree		MD					
+JT	GENOME		reject_cell_salmon	Neither agree nor disagree		NAD					
+JT	GENOME		reject_cell_salmon	Strongly agree		SA					
+JT	GENOME		reject_cell_salmon	Strongly disagree		SD					
+JT	GENOME	replaces_fresh_meat	replaces_fresh_meat								
+JT	GENOME		replaces_fresh_meat	Agree		AG					
+JT	GENOME		replaces_fresh_meat	Disagree		DA					
+JT	GENOME		replaces_fresh_meat	Mildly agree		MA					
+JT	GENOME		replaces_fresh_meat	Mildly disagree		MD					
+JT	GENOME		replaces_fresh_meat	Neither agree nor disagree		NAD					
+JT	GENOME		replaces_fresh_meat	Strongly agree		SA					
+JT	GENOME		replaces_fresh_meat	Strongly disagree		SD					
+JT	GENOME	see_agri_industry_icecream	see_agri_industry_icecream								
+JT	GENOME		see_agri_industry_icecream	Agree		AG					
+JT	GENOME		see_agri_industry_icecream	Disagree		DA					
+JT	GENOME		see_agri_industry_icecream	Mildly agree		MA					
+JT	GENOME		see_agri_industry_icecream	Mildly disagree		MD					
+JT	GENOME		see_agri_industry_icecream	Neither agree nor disagree		NAD					
+JT	GENOME		see_agri_industry_icecream	Strongly agree		SA					
+JT	GENOME		see_agri_industry_icecream	Strongly disagree		SD					
+JT	GENOME	see_agri_industry_nuggets	see_agri_industry_nuggets								
+JT	GENOME		see_agri_industry_nuggets	Agree		AG					
+JT	GENOME		see_agri_industry_nuggets	Disagree		DA					
+JT	GENOME		see_agri_industry_nuggets	Mildly agree		MA					
+JT	GENOME		see_agri_industry_nuggets	Mildly disagree		MD					
+JT	GENOME		see_agri_industry_nuggets	Neither agree nor disagree		NAD					
+JT	GENOME		see_agri_industry_nuggets	Strongly agree		SA					
+JT	GENOME		see_agri_industry_nuggets	Strongly disagree		SD					
+JT	GENOME	see_agri_industry_salmon	see_agri_industry_salmon								
+JT	GENOME		see_agri_industry_salmon	Agree		AG					
+JT	GENOME		see_agri_industry_salmon	Disagree		DA					
+JT	GENOME		see_agri_industry_salmon	Mildly agree		MA					
+JT	GENOME		see_agri_industry_salmon	Mildly disagree		MD					
+JT	GENOME		see_agri_industry_salmon	Neither agree nor disagree		NAD					
+JT	GENOME		see_agri_industry_salmon	Strongly agree		SA					
+JT	GENOME		see_agri_industry_salmon	Strongly disagree		SD					
+JT	GENOME	see_global_dev_icecream	see_global_dev_icecream								
+JT	GENOME		see_global_dev_icecream	Agree		AG					
+JT	GENOME		see_global_dev_icecream	Disagree		DA					
+JT	GENOME		see_global_dev_icecream	Mildly agree		MA					
+JT	GENOME		see_global_dev_icecream	Mildly disagree		MD					
+JT	GENOME		see_global_dev_icecream	Neither agree nor disagree		NAD					
+JT	GENOME		see_global_dev_icecream	Strongly agree		SA					
+JT	GENOME		see_global_dev_icecream	Strongly disagree		SD					
+JT	GENOME	see_global_dev_nuggets	see_global_dev_nuggets								
+JT	GENOME		see_global_dev_nuggets	Agree		AG					
+JT	GENOME		see_global_dev_nuggets	Disagree		DA					
+JT	GENOME		see_global_dev_nuggets	Mildly agree		MA					
+JT	GENOME		see_global_dev_nuggets	Mildly disagree		MD					
+JT	GENOME		see_global_dev_nuggets	Neither agree nor disagree		NAD					
+JT	GENOME		see_global_dev_nuggets	Strongly agree		SA					
+JT	GENOME		see_global_dev_nuggets	Strongly disagree		SD					
+JT	GENOME	see_global_dev_salmon	see_global_dev_salmon								
+JT	GENOME		see_global_dev_salmon	Agree		AG					
+JT	GENOME		see_global_dev_salmon	Disagree		DA					
+JT	GENOME		see_global_dev_salmon	Mildly agree		MA					
+JT	GENOME		see_global_dev_salmon	Mildly disagree		MD					
+JT	GENOME		see_global_dev_salmon	Neither agree nor disagree		NAD					
+JT	GENOME		see_global_dev_salmon	Strongly agree		SA					
+JT	GENOME		see_global_dev_salmon	Strongly disagree		SD					
+JT	GENOME	see_in_store_icecream	see_in_store_icecream								
+JT	GENOME		see_in_store_icecream	Agree		AG					
+JT	GENOME		see_in_store_icecream	Disagree		DA					
+JT	GENOME		see_in_store_icecream	Mildly agree		MA					
+JT	GENOME		see_in_store_icecream	Mildly disagree		MD					
+JT	GENOME		see_in_store_icecream	Neither agree nor disagree		NAD					
+JT	GENOME		see_in_store_icecream	Strongly agree		SA					
+JT	GENOME		see_in_store_icecream	Strongly disagree		SD					
+JT	GENOME	see_in_store_nuggets	see_in_store_nuggets								
+JT	GENOME		see_in_store_nuggets	Agree		AG					
+JT	GENOME		see_in_store_nuggets	Disagree		DA					
+JT	GENOME		see_in_store_nuggets	Mildly agree		MA					
+JT	GENOME		see_in_store_nuggets	Mildly disagree		MD					
+JT	GENOME		see_in_store_nuggets	Neither agree nor disagree		NAD					
+JT	GENOME		see_in_store_nuggets	Strongly agree		SA					
+JT	GENOME		see_in_store_nuggets	Strongly disagree		SD					
+JT	GENOME	see_in_store_salmon	see_in_store_salmon								
+JT	GENOME		see_in_store_salmon	Agree		AG					
+JT	GENOME		see_in_store_salmon	Disagree		DA					
+JT	GENOME		see_in_store_salmon	Mildly agree		MA					
+JT	GENOME		see_in_store_salmon	Mildly disagree		MD					
+JT	GENOME		see_in_store_salmon	Neither agree nor disagree		NAD					
+JT	GENOME		see_in_store_salmon	Strongly agree		SA					
+JT	GENOME		see_in_store_salmon	Strongly disagree		SD					
+JT	GENOME	see_local_food_icecream	see_local_food_icecream								
+JT	GENOME		see_local_food_icecream	Agree		AG					
+JT	GENOME		see_local_food_icecream	Disagree		DA					
+JT	GENOME		see_local_food_icecream	Mildly agree		MA					
+JT	GENOME		see_local_food_icecream	Mildly disagree		MD					
+JT	GENOME		see_local_food_icecream	Neither agree nor disagree		NAD					
+JT	GENOME		see_local_food_icecream	Strongly agree		SA					
+JT	GENOME		see_local_food_icecream	Strongly disagree		SD					
+JT	GENOME	see_local_food_nuggets	see_local_food_nuggets								
+JT	GENOME		see_local_food_nuggets	Agree		AG					
+JT	GENOME		see_local_food_nuggets	Disagree		DA					
+JT	GENOME		see_local_food_nuggets	Mildly agree		MA					
+JT	GENOME		see_local_food_nuggets	Mildly disagree		MD					
+JT	GENOME		see_local_food_nuggets	Neither agree nor disagree		NAD					
+JT	GENOME		see_local_food_nuggets	Strongly agree		SA					
+JT	GENOME		see_local_food_nuggets	Strongly disagree		SD					
+JT	GENOME	see_local_food_salmon	see_local_food_salmon								
+JT	GENOME		see_local_food_salmon	Agree		AG					
+JT	GENOME		see_local_food_salmon	Disagree		DA					
+JT	GENOME		see_local_food_salmon	Mildly agree		MA					
+JT	GENOME		see_local_food_salmon	Mildly disagree		MD					
+JT	GENOME		see_local_food_salmon	Neither agree nor disagree		NAD					
+JT	GENOME		see_local_food_salmon	Strongly agree		SA					
+JT	GENOME		see_local_food_salmon	Strongly disagree		SD					
+JT	GENOME	self_grown_food_freq	self_grown_food_freq								
+JT	GENOME		self_grown_food_freq	A few times per month		FTM					
+JT	GENOME		self_grown_food_freq	A few times per year (e.g., special occasions)		FTY					
+JT	GENOME		self_grown_food_freq	At least once a week		OW					
+JT	GENOME		self_grown_food_freq	I don’t grow or raise any of my own food		DGR					
+JT	GENOME		self_grown_food_freq	Most days		MD					
+JT	GENOME		self_grown_food_freq	Never		NV					
+JT	GENOME		self_grown_food_freq	Once per month		ON					
+JT	GENOME	support_cell_ag_sale	support_cell_ag_sale								
+JT	GENOME		support_cell_ag_sale	Don't know		DK					
+JT	GENOME		support_cell_ag_sale	Mildly oppose		MO					
+JT	GENOME		support_cell_ag_sale	Mildly support		MS					
+JT	GENOME		support_cell_ag_sale	Neither oppose nor support		NOS					
+JT	GENOME		support_cell_ag_sale	Oppose		OP					
+JT	GENOME		support_cell_ag_sale	Strongly oppose		SO					
+JT	GENOME		support_cell_ag_sale	Strongly support		SS					
+JT	GENOME		support_cell_ag_sale	Support		SU					
+JT	GENOME	tech_marginalized	tech_marginalized								
+JT	GENOME		tech_marginalized	Agree		AG					
+JT	GENOME		tech_marginalized	Disagree		DA					
+JT	GENOME		tech_marginalized	Don't know		DK					
+JT	GENOME		tech_marginalized	Mildly agree		MA					
+JT	GENOME		tech_marginalized	Mildly disagree		MD					
+JT	GENOME		tech_marginalized	Neither agree nor disagree		NAD					
+JT	GENOME		tech_marginalized	Strongly agree		SA					
+JT	GENOME		tech_marginalized	Strongly disagree		SD					
+JT	GENOME	tech_negatives	tech_negatives								
+JT	GENOME		tech_negatives	Agree		AG					
+JT	GENOME		tech_negatives	Disagree		DA					
+JT	GENOME		tech_negatives	Don't know		DK					
+JT	GENOME		tech_negatives	Mildly agree		MA					
+JT	GENOME		tech_negatives	Mildly disagree		MD					
+JT	GENOME		tech_negatives	Neither agree nor disagree		NAD					
+JT	GENOME		tech_negatives	Strongly agree		SA					
+JT	GENOME		tech_negatives	Strongly disagree		SD					
+JT	GENOME	tech_resources	tech_resources								
+JT	GENOME		tech_resources	Agree		AG					
+JT	GENOME		tech_resources	Disagree		DA					
+JT	GENOME		tech_resources	Don't know		DK					
+JT	GENOME		tech_resources	Mildly agree		MA					
+JT	GENOME		tech_resources	Mildly disagree		MD					
+JT	GENOME		tech_resources	Neither agree nor disagree		NAD					
+JT	GENOME		tech_resources	Strongly agree		SA					
+JT	GENOME		tech_resources	Strongly disagree		SD					
+JT	GENOME	tech_society	tech_society								
+JT	GENOME		tech_society	Agree		AG					
+JT	GENOME		tech_society	Disagree		DA					
+JT	GENOME		tech_society	Don't know		DK					
+JT	GENOME		tech_society	Mildly agree		MA					
+JT	GENOME		tech_society	Mildly disagree		MD					
+JT	GENOME		tech_society	Neither agree nor disagree		NAD					
+JT	GENOME		tech_society	Strongly agree		SA					
+JT	GENOME		tech_society	Strongly disagree		SD					
+JT	GENOME	trust_ag_companies	trust_ag_companies								
+JT	GENOME		trust_ag_companies	Agree		AG					
+JT	GENOME		trust_ag_companies	Disagree		DA					
+JT	GENOME		trust_ag_companies	Don't know		DK					
+JT	GENOME		trust_ag_companies	Mildly agree		MA					
+JT	GENOME		trust_ag_companies	Mildly disagree		MD					
+JT	GENOME		trust_ag_companies	Neither agree nor disagree		NAD					
+JT	GENOME		trust_ag_companies	Strongly agree		SA					
+JT	GENOME		trust_ag_companies	Strongly disagree		SD					
+JT	GENOME	trust_celebrities	trust_celebrities								
+JT	GENOME		trust_celebrities	Agree		AG					
+JT	GENOME		trust_celebrities	Disagree		DA					
+JT	GENOME		trust_celebrities	Don't know		DK					
+JT	GENOME		trust_celebrities	Mildly agree		MA					
+JT	GENOME		trust_celebrities	Mildly disagree		MD					
+JT	GENOME		trust_celebrities	Neither agree nor disagree		NAD					
+JT	GENOME		trust_celebrities	Strongly agree		SA					
+JT	GENOME		trust_celebrities	Strongly disagree		SD					
+JT	GENOME	trust_env_activists	trust_env_activists								
+JT	GENOME		trust_env_activists	Agree		AG					
+JT	GENOME		trust_env_activists	Disagree		DA					
+JT	GENOME		trust_env_activists	Don't know		DK					
+JT	GENOME		trust_env_activists	Mildly agree		MA					
+JT	GENOME		trust_env_activists	Mildly disagree		MD					
+JT	GENOME		trust_env_activists	Neither agree nor disagree		NAD					
+JT	GENOME		trust_env_activists	Strongly agree		SA					
+JT	GENOME		trust_env_activists	Strongly disagree		SD					
+JT	GENOME	trust_family_friends	trust_family_friends								
+JT	GENOME		trust_family_friends	Agree		AG					
+JT	GENOME		trust_family_friends	Disagree		DA					
+JT	GENOME		trust_family_friends	Don't know		DK					
+JT	GENOME		trust_family_friends	Mildly agree		MA					
+JT	GENOME		trust_family_friends	Mildly disagree		MD					
+JT	GENOME		trust_family_friends	Neither agree nor disagree		NAD					
+JT	GENOME		trust_family_friends	Strongly agree		SA					
+JT	GENOME		trust_family_friends	Strongly disagree		SD					
+JT	GENOME	trust_regulators	trust_regulators								
+JT	GENOME		trust_regulators	Agree		AG					
+JT	GENOME		trust_regulators	Disagree		DA					
+JT	GENOME		trust_regulators	Don't know		DK					
+JT	GENOME		trust_regulators	Mildly agree		MA					
+JT	GENOME		trust_regulators	Mildly disagree		MD					
+JT	GENOME		trust_regulators	Neither agree nor disagree		NAD					
+JT	GENOME		trust_regulators	Strongly agree		SA					
+JT	GENOME		trust_regulators	Strongly disagree		SD					
+JT	GENOME	trust_scientists	trust_scientists								
+JT	GENOME		trust_scientists	Agree		AG					
+JT	GENOME		trust_scientists	Disagree		DA					
+JT	GENOME		trust_scientists	Don't know		DK					
+JT	GENOME		trust_scientists	Mildly agree		MA					
+JT	GENOME		trust_scientists	Mildly disagree		MD					
+JT	GENOME		trust_scientists	Neither agree nor disagree		NAD					
+JT	GENOME		trust_scientists	Strongly agree		SA					
+JT	GENOME		trust_scientists	Strongly disagree		SD					
+JT	GENOME	try_cell_icecream	try_cell_icecream								
+JT	GENOME		try_cell_icecream	Agree		AG					
+JT	GENOME		try_cell_icecream	Disagree		DA					
+JT	GENOME		try_cell_icecream	Mildly agree		MA					
+JT	GENOME		try_cell_icecream	Mildly disagree		MD					
+JT	GENOME		try_cell_icecream	Neither agree nor disagree		NAD					
+JT	GENOME		try_cell_icecream	Strongly agree		SA					
+JT	GENOME		try_cell_icecream	Strongly disagree		SD					
+JT	GENOME	try_cell_nuggets	try_cell_nuggets								
+JT	GENOME		try_cell_nuggets	Agree		AG					
+JT	GENOME		try_cell_nuggets	Disagree		DA					
+JT	GENOME		try_cell_nuggets	Mildly agree		MA					
+JT	GENOME		try_cell_nuggets	Mildly disagree		MD					
+JT	GENOME		try_cell_nuggets	Neither agree nor disagree		NAD					
+JT	GENOME		try_cell_nuggets	Strongly agree		SA					
+JT	GENOME		try_cell_nuggets	Strongly disagree		SD					
+JT	GENOME	try_cell_salmon	try_cell_salmon								
+JT	GENOME		try_cell_salmon	Agree		AG					
+JT	GENOME		try_cell_salmon	Disagree		DA					
+JT	GENOME		try_cell_salmon	Mildly agree		MA					
+JT	GENOME		try_cell_salmon	Mildly disagree		MD					
+JT	GENOME		try_cell_salmon	Neither agree nor disagree		NAD					
+JT	GENOME		try_cell_salmon	Strongly agree		SA					
+JT	GENOME		try_cell_salmon	Strongly disagree		SD					
+JT	GENOME	used_in_processed_foods	used_in_processed_foods								
+JT	GENOME		used_in_processed_foods	Agree		AG					
+JT	GENOME		used_in_processed_foods	Disagree		DA					
+JT	GENOME		used_in_processed_foods	Mildly agree		MA					
+JT	GENOME		used_in_processed_foods	Mildly disagree		MD					
+JT	GENOME		used_in_processed_foods	Neither agree nor disagree		NAD					
+JT	GENOME		used_in_processed_foods	Strongly agree		SA					
+JT	GENOME		used_in_processed_foods	Strongly disagree		SD					
+JT	GENOME	vertical_agriculture	vertical_agriculture								
+JT	GENOME		vertical_agriculture	A little less comfortable		LLC					
+JT	GENOME		vertical_agriculture	A little more comfortable		LMC					
+JT	GENOME		vertical_agriculture	Don't know		DK					
+JT	GENOME		vertical_agriculture	Less comfortable		LC					
+JT	GENOME		vertical_agriculture	More comfortable		MC					
+JT	GENOME		vertical_agriculture	Much less comfortable with genetically modified rice than cellular agriculture		MLC					
+JT	GENOME		vertical_agriculture	Much more comfortable with genetically modified rice than cellular agriculture		MMC					
+JT	GENOME		vertical_agriculture	Same level of comfort		SLC					
+NDGP	Calving	FILE_TYPE	FILE_TYPE								
+NDGP	Calving		FILE_TYPE	01		Pedigree					
+NDGP	Calving		FILE_TYPE	02		Calving					
+NDGP	Calving		FILE_TYPE	03		Production					
+NDGP	Calving		FILE_TYPE	04		Events					
+NDGP	Calving		FILE_TYPE	05		Genotype					
+NDGP	Calving		FILE_TYPE	06		Milk data					
+NDGP	Calving	PROJECT	PROJECT								
+NDGP	Calving		PROJECT	001		NAEX					
+NDGP	Calving		PROJECT	010		RDGP					
+NDGP	Calving		PROJECT	011		RDGP & NAEX					
+NDGP	Calving		PROJECT	100		EDGP					
+NDGP	Calving		PROJECT	101		EDGP & NAEX					
+NDGP	Calving		PROJECT	102		NDGP					
+NDGP	Calving		PROJECT	110		EDGP & RDGP					
+NDGP	Calving		PROJECT	111		EDGP & RDGP & NAEX					
+NDGP	Calving	TRANSACTION_TYPE	TRANSACTION_TYPE								
+NDGP	Calving		TRANSACTION_TYPE	D		Delete					
+NDGP	Calving		TRANSACTION_TYPE	U		Update					
+NDGP	Milk	FILE_TYPE	FILE_TYPE								
+NDGP	Milk		FILE_TYPE	01		Pedigree					
+NDGP	Milk		FILE_TYPE	02		Calving					
+NDGP	Milk		FILE_TYPE	03		Production					
+NDGP	Milk		FILE_TYPE	04		Events					
+NDGP	Milk		FILE_TYPE	05		Genotype					
+NDGP	Milk		FILE_TYPE	06		Milk data					
+NDGP	Milk	PROJECT	PROJECT								
+NDGP	Milk		PROJECT	001		NAEX					
+NDGP	Milk		PROJECT	010		RDGP					
+NDGP	Milk		PROJECT	011		RDGP & NAEX					
+NDGP	Milk		PROJECT	100		EDGP					
+NDGP	Milk		PROJECT	101		EDGP & NAEX					
+NDGP	Milk		PROJECT	102		NDGP					
+NDGP	Milk		PROJECT	110		EDGP & RDGP					
+NDGP	Milk		PROJECT	111		EDGP & RDGP & NAEX					
+NDGP	Milk	TRANSACTION_TYPE	TRANSACTION_TYPE								
+NDGP	Milk		TRANSACTION_TYPE	D		Delete					
+NDGP	Milk		TRANSACTION_TYPE	U		Update					
+NDGP	MIR	FILE_TYPE	FILE_TYPE								
+NDGP	MIR		FILE_TYPE	01		Pedigree					
+NDGP	MIR		FILE_TYPE	02		Calving					
+NDGP	MIR		FILE_TYPE	03		Production					
+NDGP	MIR		FILE_TYPE	04		Events					
+NDGP	MIR		FILE_TYPE	05		Genotype					
+NDGP	MIR		FILE_TYPE	06		Milk data					
+NDGP	MIR	PROJECT	PROJECT								
+NDGP	MIR		PROJECT	001		NAEX					
+NDGP	MIR		PROJECT	010		RDGP					
+NDGP	MIR		PROJECT	011		RDGP & NAEX					
+NDGP	MIR		PROJECT	100		EDGP					
+NDGP	MIR		PROJECT	101		EDGP & NAEX					
+NDGP	MIR		PROJECT	102		NDGP					
+NDGP	MIR		PROJECT	110		EDGP & RDGP					
+NDGP	MIR		PROJECT	111		EDGP & RDGP & NAEX					
+NDGP	MIR	TRANSACTION_TYPE	TRANSACTION_TYPE								
+NDGP	MIR		TRANSACTION_TYPE	D		Delete					
+NDGP	MIR		TRANSACTION_TYPE	U		Update					
+NDGP	Pedigree	FILE_TYPE	FILE_TYPE								
+NDGP	Pedigree		FILE_TYPE	01		Pedigree					
+NDGP	Pedigree		FILE_TYPE	02		Calving					
+NDGP	Pedigree		FILE_TYPE	03		Production					
+NDGP	Pedigree		FILE_TYPE	04		Events					
+NDGP	Pedigree		FILE_TYPE	05		Genotype					
+NDGP	Pedigree		FILE_TYPE	06		Milk data					
+NDGP	Pedigree	PROJECT	PROJECT								
+NDGP	Pedigree		PROJECT	001		NAEX					
+NDGP	Pedigree		PROJECT	010		RDGP					
+NDGP	Pedigree		PROJECT	011		RDGP & NAEX					
+NDGP	Pedigree		PROJECT	100		EDGP					
+NDGP	Pedigree		PROJECT	101		EDGP & NAEX					
+NDGP	Pedigree		PROJECT	102		NDGP					
+NDGP	Pedigree		PROJECT	110		EDGP & RDGP					
+NDGP	Pedigree		PROJECT	111		EDGP & RDGP & NAEX					
+NDGP	Pedigree	TRANSACTION_TYPE	TRANSACTION_TYPE								
+NDGP	Pedigree		TRANSACTION_TYPE	D		Delete					
+NDGP	Pedigree		TRANSACTION_TYPE	U		Update					

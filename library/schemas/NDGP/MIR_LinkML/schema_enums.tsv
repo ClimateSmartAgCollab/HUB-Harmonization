@@ -1,0 +1,20 @@
+title	name	text	meaning	menu_1	menu_2	menu_3	menu_4	menu_5	description
+FILE_TYPE	FILE_TYPE								
+		01		Pedigree					
+		02		Calving					
+		03		Production					
+		04		Events					
+		05		Genotype					
+		06		Milk data					
+PROJECT	PROJECT								
+		001		NAEX					
+		010		RDGP					
+		011		RDGP & NAEX					
+		100		EDGP					
+		101		EDGP & NAEX					
+		102		NDGP					
+		110		EDGP & RDGP					
+		111		EDGP & RDGP & NAEX					
+TRANSACTION_TYPE	TRANSACTION_TYPE								
+		D		Delete					
+		U		Update					

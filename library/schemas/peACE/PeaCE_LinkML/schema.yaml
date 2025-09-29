@@ -1,209 +1,254 @@
 id: https://example.com/Peace
 name: Peace
 title: PeaCE
-description: "CLIMATE SMART AGRICULTURE AND FOOD SYSTEMS \u2013 INTERDISCIPLINARY\
-  \ CHALLENGE TEAMS (CSAFS-ICT) APPLICATION FORM"
+description: CLIMATE SMART AGRICULTURE AND FOOD SYSTEMS – INTERDISCIPLINARY CHALLENGE TEAMS (CSAFS-ICT) APPLICATION FORM
 version: 0.0.0
 in_language: en
 imports:
-- linkml:types
+  - linkml:types
 prefixes:
   linkml: https://w3id.org/linkml/
 classes:
   Peace:
     name: Peace
     title: PeaCE
-    description: "CLIMATE SMART AGRICULTURE AND FOOD SYSTEMS \u2013 INTERDISCIPLINARY\
-      \ CHALLENGE TEAMS (CSAFS-ICT) APPLICATION FORM"
+    description: CLIMATE SMART AGRICULTURE AND FOOD SYSTEMS – INTERDISCIPLINARY CHALLENGE TEAMS (CSAFS-ICT) APPLICATION FORM
     keywords: RDF401
     slots:
-    - accession_id
-    - agronomic_trait
-    - ch4_flux
-    - climate_conditions
-    - co2_flux
-    - cost_benefit_analysis
-    - crop_yield
-    - demographic_data
-    - disease_severity_score
-    - fertilizer_application_rate
-    - field_trial_location
-    - functional_description
-    - gene_id
-    - generation
-    - geographic_location
-    - inoculum_concentration
-    - interview_coding
-    - interview_transcript
-    - marker_data
-    - market_analysis
-    - maturity
-    - metabolite_profile
-    - morphological_trait
-    - n2o_flux
-    - origin
-    - parental_line
-    - participant_id
-    - pathogen_strain
-    - pathway_analysis
-    - protein_content
-    - protein_interaction_data
-    - proteomics_data
-    - qpcr_data
-    - qtl_mapping
-    - regulations
-    - rna_seq_data
-    - sequencing_platform
-    - soil_moisture
-    - soil_nutrient_content
-    - soil_temperature
-    - species
-    - stakeholder_analysis
-    - subspecies
-    - survey_response
-    - variant_calls
-    - weather_conditions
-    - yield
+      - accession_id
+      - agronomic_trait
+      - ch4_flux
+      - climate_conditions
+      - co2_flux
+      - cost_benefit_analysis
+      - crop_yield
+      - demographic_data
+      - disease_severity_score
+      - fertilizer_application_rate
+      - field_trial_location
+      - functional_description
+      - gene_id
+      - generation
+      - geographic_location
+      - inoculum_concentration
+      - interview_coding
+      - interview_transcript
+      - marker_data
+      - market_analysis
+      - maturity
+      - metabolite_profile
+      - morphological_trait
+      - n2o_flux
+      - origin
+      - parental_line
+      - participant_id
+      - pathogen_strain
+      - pathway_analysis
+      - protein_content
+      - protein_interaction_data
+      - proteomics_data
+      - qpcr_data
+      - qtl_mapping
+      - regulations
+      - rna_seq_data
+      - sequencing_platform
+      - soil_moisture
+      - soil_nutrient_content
+      - soil_temperature
+      - species
+      - stakeholder_analysis
+      - subspecies
+      - survey_response
+      - variant_calls
+      - weather_conditions
+      - yield
     slot_usage:
       accession_id:
+        name: accession_id
         rank: 1
         slot_group: General
       agronomic_trait:
+        name: agronomic_trait
         rank: 2
         slot_group: General
       ch4_flux:
+        name: ch4_flux
         rank: 3
         slot_group: General
       climate_conditions:
+        name: climate_conditions
         rank: 4
         slot_group: General
       co2_flux:
+        name: co2_flux
         rank: 5
         slot_group: General
       cost_benefit_analysis:
+        name: cost_benefit_analysis
         rank: 6
         slot_group: General
       crop_yield:
+        name: crop_yield
         rank: 7
         slot_group: General
       demographic_data:
+        name: demographic_data
         rank: 8
         slot_group: General
       disease_severity_score:
+        name: disease_severity_score
         rank: 9
         slot_group: General
       fertilizer_application_rate:
+        name: fertilizer_application_rate
         rank: 10
         slot_group: General
       field_trial_location:
+        name: field_trial_location
         rank: 11
         slot_group: General
       functional_description:
+        name: functional_description
         rank: 12
         slot_group: General
       gene_id:
+        name: gene_id
         rank: 13
         slot_group: General
       generation:
+        name: generation
         rank: 14
         slot_group: General
       geographic_location:
+        name: geographic_location
         rank: 15
         slot_group: General
       inoculum_concentration:
+        name: inoculum_concentration
         rank: 16
         slot_group: General
       interview_coding:
+        name: interview_coding
         rank: 17
         slot_group: General
       interview_transcript:
+        name: interview_transcript
         rank: 18
         slot_group: General
       marker_data:
+        name: marker_data
         rank: 19
         slot_group: General
       market_analysis:
+        name: market_analysis
         rank: 20
         slot_group: General
       maturity:
+        name: maturity
         rank: 21
         slot_group: General
       metabolite_profile:
+        name: metabolite_profile
         rank: 22
         slot_group: General
       morphological_trait:
+        name: morphological_trait
         rank: 23
         slot_group: General
       n2o_flux:
+        name: n2o_flux
         rank: 24
         slot_group: General
       origin:
+        name: origin
         rank: 25
         slot_group: General
       parental_line:
+        name: parental_line
         rank: 26
         slot_group: General
       participant_id:
+        name: participant_id
         rank: 27
         slot_group: General
       pathogen_strain:
+        name: pathogen_strain
         rank: 28
         slot_group: General
       pathway_analysis:
+        name: pathway_analysis
         rank: 29
         slot_group: General
       protein_content:
+        name: protein_content
         rank: 30
         slot_group: General
       protein_interaction_data:
+        name: protein_interaction_data
         rank: 31
         slot_group: General
       proteomics_data:
+        name: proteomics_data
         rank: 32
         slot_group: General
       qpcr_data:
+        name: qpcr_data
         rank: 33
         slot_group: General
       qtl_mapping:
+        name: qtl_mapping
         rank: 34
         slot_group: General
       regulations:
+        name: regulations
         rank: 35
         slot_group: General
       rna_seq_data:
+        name: rna_seq_data
         rank: 36
         slot_group: General
       sequencing_platform:
+        name: sequencing_platform
         rank: 37
         slot_group: General
       soil_moisture:
+        name: soil_moisture
         rank: 38
         slot_group: General
       soil_nutrient_content:
+        name: soil_nutrient_content
         rank: 39
         slot_group: General
       soil_temperature:
+        name: soil_temperature
         rank: 40
         slot_group: General
       species:
+        name: species
         rank: 41
         slot_group: General
       stakeholder_analysis:
+        name: stakeholder_analysis
         rank: 42
         slot_group: General
       subspecies:
+        name: subspecies
         rank: 43
         slot_group: General
       survey_response:
+        name: survey_response
         rank: 44
         slot_group: General
       variant_calls:
+        name: variant_calls
         rank: 45
         slot_group: General
       weather_conditions:
+        name: weather_conditions
         rank: 46
         slot_group: General
       yield:
+        name: yield
         rank: 47
         slot_group: General
   Container:
@@ -218,264 +263,264 @@ slots:
   accession_id:
     name: accession_id
     title: Accession ID
-    description: Unique identifier for each germplasm accession
     range: WhitespaceMinimizedString
+    description: Unique identifier for each germplasm accession
   agronomic_trait:
     name: agronomic_trait
     title: Agronomic Trait
-    description: Agronomic trait measured for the germplasm accession
     range: WhitespaceMinimizedString
+    description: Agronomic trait measured for the germplasm accession
   ch4_flux:
     name: ch4_flux
     title: CH4 Flux
-    description: Methane flux measurement
     range: decimal
     unit:
       ucum_code: g C/ha/day
+    description: Methane flux measurement
   climate_conditions:
     name: climate_conditions
     title: Climate Conditions
-    description: Climate conditions at the origin of the germplasm accession
     range: WhitespaceMinimizedString
+    description: Climate conditions at the origin of the germplasm accession
   co2_flux:
     name: co2_flux
     title: CO2 Flux
-    description: Carbon dioxide flux measurement
     range: decimal
     unit:
       ucum_code: g C/ha/day
+    description: Carbon dioxide flux measurement
   cost_benefit_analysis:
     name: cost_benefit_analysis
     title: Cost-Benefit Analysis
-    description: Cost-benefit analysis data
     range: WhitespaceMinimizedString
+    description: Cost-benefit analysis data
   crop_yield:
     name: crop_yield
     title: Crop Yield
-    description: Crop yield measurement
     range: decimal
     unit:
       ucum_code: kg/ha
+    description: Crop yield measurement
   demographic_data:
     name: demographic_data
     title: Demographic Data
-    description: Demographic data of the participant
     range: WhitespaceMinimizedString
+    description: Demographic data of the participant
   disease_severity_score:
     name: disease_severity_score
     title: Disease Severity Score
-    description: Disease severity score on a scale of 1-5
     range: decimal
     unit:
       ucum_code: '-'
+    description: Disease severity score on a scale of 1-5
   fertilizer_application_rate:
     name: fertilizer_application_rate
     title: Fertilizer Application Rate
-    description: Fertilizer application rate
     range: decimal
     unit:
       ucum_code: kg/ha
+    description: Fertilizer application rate
   field_trial_location:
     name: field_trial_location
     title: Field Trial Location
-    description: Location of the field trial for the breeding population
     range: WhitespaceMinimizedString
+    description: Location of the field trial for the breeding population
   functional_description:
     name: functional_description
     title: Functional Description
-    description: Functional description of the gene
     range: WhitespaceMinimizedString
+    description: Functional description of the gene
   gene_id:
     name: gene_id
     title: Gene ID
-    description: Unique identifier for each gene
     range: WhitespaceMinimizedString
+    description: Unique identifier for each gene
   generation:
     name: generation
     title: Generation
-    description: Generation of the breeding population
     range: WhitespaceMinimizedString
+    description: Generation of the breeding population
   geographic_location:
     name: geographic_location
     title: Geographic Location
-    description: Geographic location of the germplasm accession
     range: WhitespaceMinimizedString
+    description: Geographic location of the germplasm accession
   inoculum_concentration:
     name: inoculum_concentration
     title: Inoculum Concentration
-    description: Concentration of the pathogen inoculum
     range: decimal
     unit:
       ucum_code: cfu/ml
+    description: Concentration of the pathogen inoculum
   interview_coding:
     name: interview_coding
     title: Interview Coding
-    description: Interview coding data
     range: WhitespaceMinimizedString
+    description: Interview coding data
   interview_transcript:
     name: interview_transcript
     title: Interview Transcript
-    description: Interview transcript data
     range: WhitespaceMinimizedString
+    description: Interview transcript data
   marker_data:
     name: marker_data
     title: Marker Data
-    description: Marker data generated for the breeding population
     range: WhitespaceMinimizedString
+    description: Marker data generated for the breeding population
   market_analysis:
     name: market_analysis
     title: Market Analysis
-    description: Market analysis data
     range: WhitespaceMinimizedString
+    description: Market analysis data
   maturity:
     name: maturity
     title: Maturity
-    description: Maturity measurement for the breeding population
     range: decimal
     unit:
       ucum_code: days
+    description: Maturity measurement for the breeding population
   metabolite_profile:
     name: metabolite_profile
     title: Metabolite Profile
-    description: Metabolite profile data
     range: WhitespaceMinimizedString
+    description: Metabolite profile data
   morphological_trait:
     name: morphological_trait
     title: Morphological Trait
-    description: Morphological trait measured for the germplasm accession
     range: WhitespaceMinimizedString
+    description: Morphological trait measured for the germplasm accession
   n2o_flux:
     name: n2o_flux
     title: N2O Flux
-    description: Nitrous oxide flux measurement
     range: decimal
     unit:
       ucum_code: g N/ha/day
+    description: Nitrous oxide flux measurement
   origin:
     name: origin
     title: Origin
-    description: Geographical origin of the germplasm accession
     range: WhitespaceMinimizedString
+    description: Geographical origin of the germplasm accession
   parental_line:
     name: parental_line
     title: Parental Line
-    description: Parental line used in the breeding program
     range: WhitespaceMinimizedString
+    description: Parental line used in the breeding program
   participant_id:
     name: participant_id
     title: Participant ID
-    description: Unique identifier for each participant
     range: WhitespaceMinimizedString
+    description: Unique identifier for each participant
   pathogen_strain:
     name: pathogen_strain
     title: Pathogen Strain
-    description: Pathogen strain used for disease resistance screening
     range: WhitespaceMinimizedString
+    description: Pathogen strain used for disease resistance screening
   pathway_analysis:
     name: pathway_analysis
     title: Pathway Analysis
-    description: Pathway analysis data
     range: WhitespaceMinimizedString
+    description: Pathway analysis data
   protein_content:
     name: protein_content
     title: Protein Content
-    description: Protein content measurement for the breeding population
     range: decimal
     unit:
       ucum_code: '%'
+    description: Protein content measurement for the breeding population
   protein_interaction_data:
     name: protein_interaction_data
     title: Protein Interaction Data
-    description: Protein-protein interaction data
     range: WhitespaceMinimizedString
+    description: Protein-protein interaction data
   proteomics_data:
     name: proteomics_data
     title: Proteomics Data
-    description: Proteomics data for protein analysis
     range: WhitespaceMinimizedString
+    description: Proteomics data for protein analysis
   qpcr_data:
     name: qpcr_data
     title: qPCR Data
-    description: qPCR data for gene expression analysis
     range: WhitespaceMinimizedString
+    description: qPCR data for gene expression analysis
   qtl_mapping:
     name: qtl_mapping
     title: QTL Mapping
-    description: QTL mapping data for the breeding population
     range: WhitespaceMinimizedString
+    description: QTL mapping data for the breeding population
   regulations:
     name: regulations
     title: Regulations
-    description: Regulations data
     range: WhitespaceMinimizedString
+    description: Regulations data
   rna_seq_data:
     name: rna_seq_data
     title: RNA-Seq Data
-    description: RNA-seq data for gene expression analysis
     range: WhitespaceMinimizedString
+    description: RNA-seq data for gene expression analysis
   sequencing_platform:
     name: sequencing_platform
     title: Sequencing Platform
-    description: Sequencing platform used for genotyping
     range: WhitespaceMinimizedString
+    description: Sequencing platform used for genotyping
   soil_moisture:
     name: soil_moisture
     title: Soil Moisture
-    description: Soil moisture measurement
     range: decimal
     unit:
       ucum_code: '%'
+    description: Soil moisture measurement
   soil_nutrient_content:
     name: soil_nutrient_content
     title: Soil Nutrient Content
-    description: Soil nutrient content measurement
     range: decimal
     unit:
       ucum_code: varies
+    description: Soil nutrient content measurement
   soil_temperature:
     name: soil_temperature
     title: Soil Temperature
-    description: Soil temperature measurement
     range: decimal
     unit:
-      ucum_code: "\xB0C"
+      ucum_code: °C
+    description: Soil temperature measurement
   species:
     name: species
     title: Species
-    description: Species of the germplasm accession
     range: WhitespaceMinimizedString
+    description: Species of the germplasm accession
   stakeholder_analysis:
     name: stakeholder_analysis
     title: Stakeholder Analysis
-    description: Stakeholder analysis data
     range: WhitespaceMinimizedString
+    description: Stakeholder analysis data
   subspecies:
     name: subspecies
     title: Subspecies
-    description: Subspecies of the germplasm accession
     range: WhitespaceMinimizedString
+    description: Subspecies of the germplasm accession
   survey_response:
     name: survey_response
     title: Survey Response
-    description: Survey response data
     range: WhitespaceMinimizedString
+    description: Survey response data
   variant_calls:
     name: variant_calls
     title: Variant Calls
-    description: Variant calls generated from sequencing data
     range: WhitespaceMinimizedString
+    description: Variant calls generated from sequencing data
   weather_conditions:
     name: weather_conditions
     title: Weather Conditions
-    description: Weather conditions during the field trial
     range: WhitespaceMinimizedString
+    description: Weather conditions during the field trial
   yield:
     name: yield
     title: Yield
-    description: Yield measurement for the breeding population
     range: decimal
     unit:
       ucum_code: kg/ha
+    description: Yield measurement for the breeding population
 enums:
   SettingsMenu:
     name: SettingsMenu
@@ -486,8 +531,7 @@ enums:
         description: Entries of any length with only capital letters
       AlphaText1-50:
         title: AlphaText1-50
-        description: Capital or lower case letters only, at least 1 character, and
-          50 characters max
+        description: Capital or lower case letters only, at least 1 character, and 50 characters max
       AlphaText0-50:
         title: AlphaText0-50
         description: Capital or lower case letters only, 50 characters max
@@ -520,10 +564,10 @@ enums:
         description: Phone number with international and area code component.
       Latitude:
         title: Latitude
-        description: "Latitude in formats S30\xB015'45.678\" or N12\xB030.999\""
+        description: Latitude in formats S30°15'45.678" or N12°30.999"
       Longitude:
         title: Longitude
-        description: "Longitude in formats E30\xB015'45.678\" or W90\xB000.000\""
+        description: Longitude in formats E30°15'45.678" or W90°00.000"
       ISO_YYYY-MM-DD:
         title: ISO_YYYY-MM-DD
         description: year month day
@@ -557,7 +601,7 @@ enums:
         title: ISO_YYYY-MM-DDTHH:MM:SSZ
         description: Date and Time Combined (UTC)
       ISO_YYYY-MM-DDTHH.MM.SS-hh.mm:
-        title: "ISO_YYYY-MM-DDTHH:MM:SS\xB1hh:mm"
+        title: ISO_YYYY-MM-DDTHH:MM:SS±hh:mm
         description: Date and Time Combined (with Timezone Offset)
       ISO_PnYnMnDTnHnMnS:
         title: ISO_PnYnMnDTnHnMnS
@@ -596,9 +640,7 @@ types:
   WhitespaceMinimizedString:
     name: WhitespaceMinimizedString
     typeof: string
-    description: 'A string that has all whitespace trimmed off of beginning and end,
-      and all internal whitespace segments reduced to single spaces. Whitespace includes
-      x9 (tab), #xA (linefeed), and #xD (carriage return).'
+    description: 'A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).'
     base: str
     uri: xsd:token
 settings:
@@ -617,10 +659,8 @@ settings:
   EmailAddress: ^[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+
   URL: ^https?\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,}$
   PhoneNumber: ^\+?\(?\d{2,4}\)?[\d\s-]{3,}$
-  Latitude: "^[NS]-?(?:[0-8]?\\d|90)\xB0(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\"\
-    )?$"
-  Longitude: "^[WE]-?(?:[0-8]?\\d|90)\xB0(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\"\
-    )?$"
+  Latitude: ^[NS]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
+  Longitude: ^[WE]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
   ISO_YYYY-MM-DD: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$
   ISO_YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
   ISO_YYYY-MM: ^(\d{4})-(0[1-9]|1[0-2])$

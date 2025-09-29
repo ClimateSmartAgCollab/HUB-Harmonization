@@ -1,0 +1,4862 @@
+id: https://example.com/Genome
+name: Genome
+title: GENOME
+description: ''
+version: 0.0.0
+in_language: en
+imports:
+  - linkml:types
+prefixes:
+  linkml: https://w3id.org/linkml/
+classes:
+  Genome:
+    name: Genome
+    title: GENOME
+    description: ''
+    keywords: RDF401
+    slots:
+      - access_training
+      - act_on_climate
+      - age
+      - attention_check
+      - birth_year
+      - break_up_big_tech
+      - buy_if_cheaper_icecream
+      - buy_if_cheaper_nuggets
+      - buy_if_cheaper_salmon
+      - buy_if_healthier_icecream
+      - buy_if_healthier_nuggets
+      - buy_if_healthier_salmon
+      - buy_instead_icecream
+      - buy_instead_nuggets
+      - buy_instead_salmon
+      - buy_regular_cell_icecream
+      - buy_regular_cell_nuggets
+      - buy_regular_cell_salmon
+      - city
+      - city_only_access
+      - city_only_jobs
+      - climate_biodiversity_loss
+      - climate_ecosystem
+      - climate_not_urgent
+      - comm
+      - comment_cell_agri_fut
+      - community_owned_model
+      - consent_given
+      - cont_id
+      - conventional_farmers_opportunity
+      - corp_patents_limit_knowledge
+      - country
+      - date_sub
+      - diet_avoid_red_meat
+      - diet_buying_organic
+      - diet_flexitarian
+      - diet_halal
+      - diet_keto
+      - diet_kosher
+      - diet_none_of_the_above
+      - diet_other_specified
+      - diet_paleo
+      - diet_pescatarian
+      - diet_plant_based
+      - diet_vegan
+      - diet_vegetarian
+      - education_level
+      - env_impact_beef
+      - env_impact_chicken
+      - env_impact_fish
+      - env_impact_pork
+      - eth_african
+      - eth_caribbean
+      - eth_east_asian
+      - eth_european
+      - eth_indigenous
+      - eth_latin_american
+      - eth_middle_eastern
+      - eth_oceania
+      - eth_other
+      - eth_prefer_not_say
+      - eth_south_asian
+      - eth_southeast_asian
+      - ext_affordable_protein
+      - ext_disrespectful_nature
+      - ext_env_sustainability
+      - ext_healthy_products
+      - ext_improve_welfare
+      - ext_solve_hunger
+      - ext_tasty_products
+      - ext_unnatural
+      - ext_viable_alternative
+      - farmers_lose_jobs
+      - farmers_transition
+      - food_banks_benefit
+      - freq_dairy
+      - freq_eggs
+      - freq_fish
+      - freq_other
+      - freq_pork
+      - freq_poultry
+      - freq_red_meat
+      - gatekeep_methods
+      - gender
+      - gender_other
+      - glob_benefits
+      - gm_beef
+      - gm_rice
+      - grocery_availability
+      - heard_cellular_agriculture
+      - home_production_possible
+      - hope_tech
+      - household_composition
+      - household_composition_other
+      - household_income
+      - human_caused_climate
+      - human_impacts
+      - imp_animal_welfare
+      - imp_antibiotic_free
+      - imp_cost
+      - imp_cultural_practices
+      - imp_dairy
+      - imp_eggs
+      - imp_fish
+      - imp_freshness
+      - imp_organic
+      - imp_other_foods_specified
+      - imp_other_specified
+      - imp_pork
+      - imp_poultry
+      - imp_production
+      - imp_red_meat
+      - imp_self_hunted
+      - imp_sustainability
+      - inaccessible_education
+      - industry_dominated
+      - innovation_comfort
+      - ip_address
+      - lang
+      - larg_corp_influence
+      - lat
+      - leg_comm
+      - lives_in_can
+      - local_food_security
+      - location_general
+      - long
+      - main_grocery_shopper
+      - min
+      - newhiddenvalue
+      - online_superstore_availability
+      - only_wealthy_access
+      - plant_burger_mushroom
+      - plant_burger_soy
+      - political_scale
+      - political_scale_other
+      - post
+      - postal_prefix
+      - priority_climate_resilience
+      - priority_farm_animal_conditions
+      - priority_food_tech
+      - priority_ghg_reduction
+      - priority_healthy_access
+      - priority_indigenous_food_practices
+      - priority_local_retail
+      - priority_migrant_worker_rights
+      - priority_none
+      - priority_other_specified
+      - priority_vegan_shift
+      - priority_wildlife_habitat
+      - progress_tech
+      - ref
+      - reject_cell_icecream
+      - reject_cell_nuggets
+      - reject_cell_salmon
+      - replaces_fresh_meat
+      - res_id
+      - see_agri_industry_icecream
+      - see_agri_industry_nuggets
+      - see_agri_industry_salmon
+      - see_global_dev_icecream
+      - see_global_dev_nuggets
+      - see_global_dev_salmon
+      - see_in_store_icecream
+      - see_in_store_nuggets
+      - see_in_store_salmon
+      - see_local_food_icecream
+      - see_local_food_nuggets
+      - see_local_food_salmon
+      - self_grown_food_freq
+      - ses_id
+      - source_backyard_animals
+      - source_butcher_shop
+      - source_direct_from_farms
+      - source_farmers_market
+      - source_food_bank
+      - source_grocery_superstore
+      - source_hunting_fishing
+      - source_other_specified
+      - source_own_farm
+      - start_time
+      - state
+      - status
+      - support_cell_ag_sale
+      - tag
+      - tech_marginalized
+      - tech_negatives
+      - tech_resources
+      - tech_society
+      - trust_ag_companies
+      - trust_celebrities
+      - trust_env_activists
+      - trust_family_friends
+      - trust_regulators
+      - trust_scientists
+      - try_cell_icecream
+      - try_cell_nuggets
+      - try_cell_salmon
+      - url
+      - used_in_processed_foods
+      - user_agent
+      - vertical_agriculture
+      - work_farming_employee
+      - work_farming_owner
+      - work_food_access
+      - work_food_distribution
+      - work_food_education
+      - work_food_processing
+      - work_food_retail
+      - work_none
+      - work_prefer_not_say
+    slot_usage:
+      access_training:
+        name: access_training
+        rank: 1
+        slot_group: General
+      act_on_climate:
+        name: act_on_climate
+        rank: 2
+        slot_group: General
+      age:
+        name: age
+        rank: 3
+        slot_group: General
+      attention_check:
+        name: attention_check
+        rank: 4
+        slot_group: General
+      birth_year:
+        name: birth_year
+        rank: 5
+        slot_group: General
+      break_up_big_tech:
+        name: break_up_big_tech
+        rank: 6
+        slot_group: General
+      buy_if_cheaper_icecream:
+        name: buy_if_cheaper_icecream
+        rank: 7
+        slot_group: General
+      buy_if_cheaper_nuggets:
+        name: buy_if_cheaper_nuggets
+        rank: 8
+        slot_group: General
+      buy_if_cheaper_salmon:
+        name: buy_if_cheaper_salmon
+        rank: 9
+        slot_group: General
+      buy_if_healthier_icecream:
+        name: buy_if_healthier_icecream
+        rank: 10
+        slot_group: General
+      buy_if_healthier_nuggets:
+        name: buy_if_healthier_nuggets
+        rank: 11
+        slot_group: General
+      buy_if_healthier_salmon:
+        name: buy_if_healthier_salmon
+        rank: 12
+        slot_group: General
+      buy_instead_icecream:
+        name: buy_instead_icecream
+        rank: 13
+        slot_group: General
+      buy_instead_nuggets:
+        name: buy_instead_nuggets
+        rank: 14
+        slot_group: General
+      buy_instead_salmon:
+        name: buy_instead_salmon
+        rank: 15
+        slot_group: General
+      buy_regular_cell_icecream:
+        name: buy_regular_cell_icecream
+        rank: 16
+        slot_group: General
+      buy_regular_cell_nuggets:
+        name: buy_regular_cell_nuggets
+        rank: 17
+        slot_group: General
+      buy_regular_cell_salmon:
+        name: buy_regular_cell_salmon
+        rank: 18
+        slot_group: General
+      city:
+        name: city
+        rank: 19
+        slot_group: General
+      city_only_access:
+        name: city_only_access
+        rank: 20
+        slot_group: General
+      city_only_jobs:
+        name: city_only_jobs
+        rank: 21
+        slot_group: General
+      climate_biodiversity_loss:
+        name: climate_biodiversity_loss
+        rank: 22
+        slot_group: General
+      climate_ecosystem:
+        name: climate_ecosystem
+        rank: 23
+        slot_group: General
+      climate_not_urgent:
+        name: climate_not_urgent
+        rank: 24
+        slot_group: General
+      comm:
+        name: comm
+        rank: 25
+        slot_group: General
+      comment_cell_agri_fut:
+        name: comment_cell_agri_fut
+        rank: 26
+        slot_group: General
+      community_owned_model:
+        name: community_owned_model
+        rank: 27
+        slot_group: General
+      consent_given:
+        name: consent_given
+        rank: 28
+        slot_group: General
+      cont_id:
+        name: cont_id
+        rank: 29
+        slot_group: General
+      conventional_farmers_opportunity:
+        name: conventional_farmers_opportunity
+        rank: 30
+        slot_group: General
+      corp_patents_limit_knowledge:
+        name: corp_patents_limit_knowledge
+        rank: 31
+        slot_group: General
+      country:
+        name: country
+        rank: 32
+        slot_group: General
+      date_sub:
+        name: date_sub
+        rank: 33
+        slot_group: General
+      diet_avoid_red_meat:
+        name: diet_avoid_red_meat
+        rank: 34
+        slot_group: General
+      diet_buying_organic:
+        name: diet_buying_organic
+        rank: 35
+        slot_group: General
+      diet_flexitarian:
+        name: diet_flexitarian
+        rank: 36
+        slot_group: General
+      diet_halal:
+        name: diet_halal
+        rank: 37
+        slot_group: General
+      diet_keto:
+        name: diet_keto
+        rank: 38
+        slot_group: General
+      diet_kosher:
+        name: diet_kosher
+        rank: 39
+        slot_group: General
+      diet_none_of_the_above:
+        name: diet_none_of_the_above
+        rank: 40
+        slot_group: General
+      diet_other_specified:
+        name: diet_other_specified
+        rank: 41
+        slot_group: General
+      diet_paleo:
+        name: diet_paleo
+        rank: 42
+        slot_group: General
+      diet_pescatarian:
+        name: diet_pescatarian
+        rank: 43
+        slot_group: General
+      diet_plant_based:
+        name: diet_plant_based
+        rank: 44
+        slot_group: General
+      diet_vegan:
+        name: diet_vegan
+        rank: 45
+        slot_group: General
+      diet_vegetarian:
+        name: diet_vegetarian
+        rank: 46
+        slot_group: General
+      education_level:
+        name: education_level
+        rank: 47
+        slot_group: General
+      env_impact_beef:
+        name: env_impact_beef
+        rank: 48
+        slot_group: General
+      env_impact_chicken:
+        name: env_impact_chicken
+        rank: 49
+        slot_group: General
+      env_impact_fish:
+        name: env_impact_fish
+        rank: 50
+        slot_group: General
+      env_impact_pork:
+        name: env_impact_pork
+        rank: 51
+        slot_group: General
+      eth_african:
+        name: eth_african
+        rank: 52
+        slot_group: General
+      eth_caribbean:
+        name: eth_caribbean
+        rank: 53
+        slot_group: General
+      eth_east_asian:
+        name: eth_east_asian
+        rank: 54
+        slot_group: General
+      eth_european:
+        name: eth_european
+        rank: 55
+        slot_group: General
+      eth_indigenous:
+        name: eth_indigenous
+        rank: 56
+        slot_group: General
+      eth_latin_american:
+        name: eth_latin_american
+        rank: 57
+        slot_group: General
+      eth_middle_eastern:
+        name: eth_middle_eastern
+        rank: 58
+        slot_group: General
+      eth_oceania:
+        name: eth_oceania
+        rank: 59
+        slot_group: General
+      eth_other:
+        name: eth_other
+        rank: 60
+        slot_group: General
+      eth_prefer_not_say:
+        name: eth_prefer_not_say
+        rank: 61
+        slot_group: General
+      eth_south_asian:
+        name: eth_south_asian
+        rank: 62
+        slot_group: General
+      eth_southeast_asian:
+        name: eth_southeast_asian
+        rank: 63
+        slot_group: General
+      ext_affordable_protein:
+        name: ext_affordable_protein
+        rank: 64
+        slot_group: General
+      ext_disrespectful_nature:
+        name: ext_disrespectful_nature
+        rank: 65
+        slot_group: General
+      ext_env_sustainability:
+        name: ext_env_sustainability
+        rank: 66
+        slot_group: General
+      ext_healthy_products:
+        name: ext_healthy_products
+        rank: 67
+        slot_group: General
+      ext_improve_welfare:
+        name: ext_improve_welfare
+        rank: 68
+        slot_group: General
+      ext_solve_hunger:
+        name: ext_solve_hunger
+        rank: 69
+        slot_group: General
+      ext_tasty_products:
+        name: ext_tasty_products
+        rank: 70
+        slot_group: General
+      ext_unnatural:
+        name: ext_unnatural
+        rank: 71
+        slot_group: General
+      ext_viable_alternative:
+        name: ext_viable_alternative
+        rank: 72
+        slot_group: General
+      farmers_lose_jobs:
+        name: farmers_lose_jobs
+        rank: 73
+        slot_group: General
+      farmers_transition:
+        name: farmers_transition
+        rank: 74
+        slot_group: General
+      food_banks_benefit:
+        name: food_banks_benefit
+        rank: 75
+        slot_group: General
+      freq_dairy:
+        name: freq_dairy
+        rank: 76
+        slot_group: General
+      freq_eggs:
+        name: freq_eggs
+        rank: 77
+        slot_group: General
+      freq_fish:
+        name: freq_fish
+        rank: 78
+        slot_group: General
+      freq_other:
+        name: freq_other
+        rank: 79
+        slot_group: General
+      freq_pork:
+        name: freq_pork
+        rank: 80
+        slot_group: General
+      freq_poultry:
+        name: freq_poultry
+        rank: 81
+        slot_group: General
+      freq_red_meat:
+        name: freq_red_meat
+        rank: 82
+        slot_group: General
+      gatekeep_methods:
+        name: gatekeep_methods
+        rank: 83
+        slot_group: General
+      gender:
+        name: gender
+        rank: 84
+        slot_group: General
+      gender_other:
+        name: gender_other
+        rank: 85
+        slot_group: General
+      glob_benefits:
+        name: glob_benefits
+        rank: 86
+        slot_group: General
+      gm_beef:
+        name: gm_beef
+        rank: 87
+        slot_group: General
+      gm_rice:
+        name: gm_rice
+        rank: 88
+        slot_group: General
+      grocery_availability:
+        name: grocery_availability
+        rank: 89
+        slot_group: General
+      heard_cellular_agriculture:
+        name: heard_cellular_agriculture
+        rank: 90
+        slot_group: General
+      home_production_possible:
+        name: home_production_possible
+        rank: 91
+        slot_group: General
+      hope_tech:
+        name: hope_tech
+        rank: 92
+        slot_group: General
+      household_composition:
+        name: household_composition
+        rank: 93
+        slot_group: General
+      household_composition_other:
+        name: household_composition_other
+        rank: 94
+        slot_group: General
+      household_income:
+        name: household_income
+        rank: 95
+        slot_group: General
+      human_caused_climate:
+        name: human_caused_climate
+        rank: 96
+        slot_group: General
+      human_impacts:
+        name: human_impacts
+        rank: 97
+        slot_group: General
+      imp_animal_welfare:
+        name: imp_animal_welfare
+        rank: 98
+        slot_group: General
+      imp_antibiotic_free:
+        name: imp_antibiotic_free
+        rank: 99
+        slot_group: General
+      imp_cost:
+        name: imp_cost
+        rank: 100
+        slot_group: General
+      imp_cultural_practices:
+        name: imp_cultural_practices
+        rank: 101
+        slot_group: General
+      imp_dairy:
+        name: imp_dairy
+        rank: 102
+        slot_group: General
+      imp_eggs:
+        name: imp_eggs
+        rank: 103
+        slot_group: General
+      imp_fish:
+        name: imp_fish
+        rank: 104
+        slot_group: General
+      imp_freshness:
+        name: imp_freshness
+        rank: 105
+        slot_group: General
+      imp_organic:
+        name: imp_organic
+        rank: 106
+        slot_group: General
+      imp_other_foods_specified:
+        name: imp_other_foods_specified
+        rank: 107
+        slot_group: General
+      imp_other_specified:
+        name: imp_other_specified
+        rank: 108
+        slot_group: General
+      imp_pork:
+        name: imp_pork
+        rank: 109
+        slot_group: General
+      imp_poultry:
+        name: imp_poultry
+        rank: 110
+        slot_group: General
+      imp_production:
+        name: imp_production
+        rank: 111
+        slot_group: General
+      imp_red_meat:
+        name: imp_red_meat
+        rank: 112
+        slot_group: General
+      imp_self_hunted:
+        name: imp_self_hunted
+        rank: 113
+        slot_group: General
+      imp_sustainability:
+        name: imp_sustainability
+        rank: 114
+        slot_group: General
+      inaccessible_education:
+        name: inaccessible_education
+        rank: 115
+        slot_group: General
+      industry_dominated:
+        name: industry_dominated
+        rank: 116
+        slot_group: General
+      innovation_comfort:
+        name: innovation_comfort
+        rank: 117
+        slot_group: General
+      ip_address:
+        name: ip_address
+        rank: 118
+        slot_group: General
+      lang:
+        name: lang
+        rank: 119
+        slot_group: General
+      larg_corp_influence:
+        name: larg_corp_influence
+        rank: 120
+        slot_group: General
+      lat:
+        name: lat
+        rank: 121
+        slot_group: General
+      leg_comm:
+        name: leg_comm
+        rank: 122
+        slot_group: General
+      lives_in_can:
+        name: lives_in_can
+        rank: 123
+        slot_group: General
+      local_food_security:
+        name: local_food_security
+        rank: 124
+        slot_group: General
+      location_general:
+        name: location_general
+        rank: 125
+        slot_group: General
+      long:
+        name: long
+        rank: 126
+        slot_group: General
+      main_grocery_shopper:
+        name: main_grocery_shopper
+        rank: 127
+        slot_group: General
+      min:
+        name: min
+        rank: 128
+        slot_group: General
+      newhiddenvalue:
+        name: newhiddenvalue
+        rank: 129
+        slot_group: General
+      online_superstore_availability:
+        name: online_superstore_availability
+        rank: 130
+        slot_group: General
+      only_wealthy_access:
+        name: only_wealthy_access
+        rank: 131
+        slot_group: General
+      plant_burger_mushroom:
+        name: plant_burger_mushroom
+        rank: 132
+        slot_group: General
+      plant_burger_soy:
+        name: plant_burger_soy
+        rank: 133
+        slot_group: General
+      political_scale:
+        name: political_scale
+        rank: 134
+        slot_group: General
+      political_scale_other:
+        name: political_scale_other
+        rank: 135
+        slot_group: General
+      post:
+        name: post
+        rank: 136
+        slot_group: General
+      postal_prefix:
+        name: postal_prefix
+        rank: 137
+        slot_group: General
+      priority_climate_resilience:
+        name: priority_climate_resilience
+        rank: 138
+        slot_group: General
+      priority_farm_animal_conditions:
+        name: priority_farm_animal_conditions
+        rank: 139
+        slot_group: General
+      priority_food_tech:
+        name: priority_food_tech
+        rank: 140
+        slot_group: General
+      priority_ghg_reduction:
+        name: priority_ghg_reduction
+        rank: 141
+        slot_group: General
+      priority_healthy_access:
+        name: priority_healthy_access
+        rank: 142
+        slot_group: General
+      priority_indigenous_food_practices:
+        name: priority_indigenous_food_practices
+        rank: 143
+        slot_group: General
+      priority_local_retail:
+        name: priority_local_retail
+        rank: 144
+        slot_group: General
+      priority_migrant_worker_rights:
+        name: priority_migrant_worker_rights
+        rank: 145
+        slot_group: General
+      priority_none:
+        name: priority_none
+        rank: 146
+        slot_group: General
+      priority_other_specified:
+        name: priority_other_specified
+        rank: 147
+        slot_group: General
+      priority_vegan_shift:
+        name: priority_vegan_shift
+        rank: 148
+        slot_group: General
+      priority_wildlife_habitat:
+        name: priority_wildlife_habitat
+        rank: 149
+        slot_group: General
+      progress_tech:
+        name: progress_tech
+        rank: 150
+        slot_group: General
+      ref:
+        name: ref
+        rank: 151
+        slot_group: General
+      reject_cell_icecream:
+        name: reject_cell_icecream
+        rank: 152
+        slot_group: General
+      reject_cell_nuggets:
+        name: reject_cell_nuggets
+        rank: 153
+        slot_group: General
+      reject_cell_salmon:
+        name: reject_cell_salmon
+        rank: 154
+        slot_group: General
+      replaces_fresh_meat:
+        name: replaces_fresh_meat
+        rank: 155
+        slot_group: General
+      res_id:
+        name: res_id
+        rank: 156
+        slot_group: General
+      see_agri_industry_icecream:
+        name: see_agri_industry_icecream
+        rank: 157
+        slot_group: General
+      see_agri_industry_nuggets:
+        name: see_agri_industry_nuggets
+        rank: 158
+        slot_group: General
+      see_agri_industry_salmon:
+        name: see_agri_industry_salmon
+        rank: 159
+        slot_group: General
+      see_global_dev_icecream:
+        name: see_global_dev_icecream
+        rank: 160
+        slot_group: General
+      see_global_dev_nuggets:
+        name: see_global_dev_nuggets
+        rank: 161
+        slot_group: General
+      see_global_dev_salmon:
+        name: see_global_dev_salmon
+        rank: 162
+        slot_group: General
+      see_in_store_icecream:
+        name: see_in_store_icecream
+        rank: 163
+        slot_group: General
+      see_in_store_nuggets:
+        name: see_in_store_nuggets
+        rank: 164
+        slot_group: General
+      see_in_store_salmon:
+        name: see_in_store_salmon
+        rank: 165
+        slot_group: General
+      see_local_food_icecream:
+        name: see_local_food_icecream
+        rank: 166
+        slot_group: General
+      see_local_food_nuggets:
+        name: see_local_food_nuggets
+        rank: 167
+        slot_group: General
+      see_local_food_salmon:
+        name: see_local_food_salmon
+        rank: 168
+        slot_group: General
+      self_grown_food_freq:
+        name: self_grown_food_freq
+        rank: 169
+        slot_group: General
+      ses_id:
+        name: ses_id
+        rank: 170
+        slot_group: General
+      source_backyard_animals:
+        name: source_backyard_animals
+        rank: 171
+        slot_group: General
+      source_butcher_shop:
+        name: source_butcher_shop
+        rank: 172
+        slot_group: General
+      source_direct_from_farms:
+        name: source_direct_from_farms
+        rank: 173
+        slot_group: General
+      source_farmers_market:
+        name: source_farmers_market
+        rank: 174
+        slot_group: General
+      source_food_bank:
+        name: source_food_bank
+        rank: 175
+        slot_group: General
+      source_grocery_superstore:
+        name: source_grocery_superstore
+        rank: 176
+        slot_group: General
+      source_hunting_fishing:
+        name: source_hunting_fishing
+        rank: 177
+        slot_group: General
+      source_other_specified:
+        name: source_other_specified
+        rank: 178
+        slot_group: General
+      source_own_farm:
+        name: source_own_farm
+        rank: 179
+        slot_group: General
+      start_time:
+        name: start_time
+        rank: 180
+        slot_group: General
+      state:
+        name: state
+        rank: 181
+        slot_group: General
+      status:
+        name: status
+        rank: 182
+        slot_group: General
+      support_cell_ag_sale:
+        name: support_cell_ag_sale
+        rank: 183
+        slot_group: General
+      tag:
+        name: tag
+        rank: 184
+        slot_group: General
+      tech_marginalized:
+        name: tech_marginalized
+        rank: 185
+        slot_group: General
+      tech_negatives:
+        name: tech_negatives
+        rank: 186
+        slot_group: General
+      tech_resources:
+        name: tech_resources
+        rank: 187
+        slot_group: General
+      tech_society:
+        name: tech_society
+        rank: 188
+        slot_group: General
+      trust_ag_companies:
+        name: trust_ag_companies
+        rank: 189
+        slot_group: General
+      trust_celebrities:
+        name: trust_celebrities
+        rank: 190
+        slot_group: General
+      trust_env_activists:
+        name: trust_env_activists
+        rank: 191
+        slot_group: General
+      trust_family_friends:
+        name: trust_family_friends
+        rank: 192
+        slot_group: General
+      trust_regulators:
+        name: trust_regulators
+        rank: 193
+        slot_group: General
+      trust_scientists:
+        name: trust_scientists
+        rank: 194
+        slot_group: General
+      try_cell_icecream:
+        name: try_cell_icecream
+        rank: 195
+        slot_group: General
+      try_cell_nuggets:
+        name: try_cell_nuggets
+        rank: 196
+        slot_group: General
+      try_cell_salmon:
+        name: try_cell_salmon
+        rank: 197
+        slot_group: General
+      url:
+        name: url
+        rank: 198
+        slot_group: General
+      used_in_processed_foods:
+        name: used_in_processed_foods
+        rank: 199
+        slot_group: General
+      user_agent:
+        name: user_agent
+        rank: 200
+        slot_group: General
+      vertical_agriculture:
+        name: vertical_agriculture
+        rank: 201
+        slot_group: General
+      work_farming_employee:
+        name: work_farming_employee
+        rank: 202
+        slot_group: General
+      work_farming_owner:
+        name: work_farming_owner
+        rank: 203
+        slot_group: General
+      work_food_access:
+        name: work_food_access
+        rank: 204
+        slot_group: General
+      work_food_distribution:
+        name: work_food_distribution
+        rank: 205
+        slot_group: General
+      work_food_education:
+        name: work_food_education
+        rank: 206
+        slot_group: General
+      work_food_processing:
+        name: work_food_processing
+        rank: 207
+        slot_group: General
+      work_food_retail:
+        name: work_food_retail
+        rank: 208
+        slot_group: General
+      work_none:
+        name: work_none
+        rank: 209
+        slot_group: General
+      work_prefer_not_say:
+        name: work_prefer_not_say
+        rank: 210
+        slot_group: General
+  Container:
+    name: Container
+    tree_root: true
+    attributes:
+      name: GenomeData
+      multivalued: true
+      range: Genome
+      inlined_as_list: true
+slots:
+  access_training:
+    name: access_training
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: access_training
+  act_on_climate:
+    name: act_on_climate
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: act_on_climate
+  age:
+    name: age
+    range: Boolean
+  attention_check:
+    name: attention_check
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: attention_check
+  birth_year:
+    name: birth_year
+    range: WhitespaceMinimizedString
+  break_up_big_tech:
+    name: break_up_big_tech
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: break_up_big_tech
+  buy_if_cheaper_icecream:
+    name: buy_if_cheaper_icecream
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: buy_if_cheaper_icecream
+  buy_if_cheaper_nuggets:
+    name: buy_if_cheaper_nuggets
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: buy_if_cheaper_nuggets
+  buy_if_cheaper_salmon:
+    name: buy_if_cheaper_salmon
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: buy_if_cheaper_salmon
+  buy_if_healthier_icecream:
+    name: buy_if_healthier_icecream
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: buy_if_healthier_icecream
+  buy_if_healthier_nuggets:
+    name: buy_if_healthier_nuggets
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: buy_if_healthier_nuggets
+  buy_if_healthier_salmon:
+    name: buy_if_healthier_salmon
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: buy_if_healthier_salmon
+  buy_instead_icecream:
+    name: buy_instead_icecream
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: buy_instead_icecream
+  buy_instead_nuggets:
+    name: buy_instead_nuggets
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: buy_instead_nuggets
+  buy_instead_salmon:
+    name: buy_instead_salmon
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: buy_instead_salmon
+  buy_regular_cell_icecream:
+    name: buy_regular_cell_icecream
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: buy_regular_cell_icecream
+  buy_regular_cell_nuggets:
+    name: buy_regular_cell_nuggets
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: buy_regular_cell_nuggets
+  buy_regular_cell_salmon:
+    name: buy_regular_cell_salmon
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: buy_regular_cell_salmon
+  city:
+    name: city
+    range: WhitespaceMinimizedString
+  city_only_access:
+    name: city_only_access
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: city_only_access
+  city_only_jobs:
+    name: city_only_jobs
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: city_only_jobs
+  climate_biodiversity_loss:
+    name: climate_biodiversity_loss
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: climate_biodiversity_loss
+  climate_ecosystem:
+    name: climate_ecosystem
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: climate_ecosystem
+  climate_not_urgent:
+    name: climate_not_urgent
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: climate_not_urgent
+  comm:
+    name: comm
+    range: WhitespaceMinimizedString
+  comment_cell_agri_fut:
+    name: comment_cell_agri_fut
+    range: WhitespaceMinimizedString
+  community_owned_model:
+    name: community_owned_model
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: community_owned_model
+  consent_given:
+    name: consent_given
+    range: Boolean
+  cont_id:
+    name: cont_id
+    range: WhitespaceMinimizedString
+  conventional_farmers_opportunity:
+    name: conventional_farmers_opportunity
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: conventional_farmers_opportunity
+  corp_patents_limit_knowledge:
+    name: corp_patents_limit_knowledge
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: corp_patents_limit_knowledge
+  country:
+    name: country
+    range: WhitespaceMinimizedString
+  date_sub:
+    name: date_sub
+    range: DateTime
+    unit:
+      ucum_code: date
+  diet_avoid_red_meat:
+    name: diet_avoid_red_meat
+    range: Boolean
+  diet_buying_organic:
+    name: diet_buying_organic
+    range: Boolean
+  diet_flexitarian:
+    name: diet_flexitarian
+    range: Boolean
+  diet_halal:
+    name: diet_halal
+    range: Boolean
+  diet_keto:
+    name: diet_keto
+    range: Boolean
+  diet_kosher:
+    name: diet_kosher
+    range: Boolean
+  diet_none_of_the_above:
+    name: diet_none_of_the_above
+    range: Boolean
+  diet_other_specified:
+    name: diet_other_specified
+    range: WhitespaceMinimizedString
+  diet_paleo:
+    name: diet_paleo
+    range: Boolean
+  diet_pescatarian:
+    name: diet_pescatarian
+    range: Boolean
+  diet_plant_based:
+    name: diet_plant_based
+    range: Boolean
+  diet_vegan:
+    name: diet_vegan
+    range: Boolean
+  diet_vegetarian:
+    name: diet_vegetarian
+    range: Boolean
+  education_level:
+    name: education_level
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: education_level
+  env_impact_beef:
+    name: env_impact_beef
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: env_impact_beef
+  env_impact_chicken:
+    name: env_impact_chicken
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: env_impact_chicken
+  env_impact_fish:
+    name: env_impact_fish
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: env_impact_fish
+  env_impact_pork:
+    name: env_impact_pork
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: env_impact_pork
+  eth_african:
+    name: eth_african
+    range: Boolean
+  eth_caribbean:
+    name: eth_caribbean
+    range: Boolean
+  eth_east_asian:
+    name: eth_east_asian
+    range: Boolean
+  eth_european:
+    name: eth_european
+    range: Boolean
+  eth_indigenous:
+    name: eth_indigenous
+    range: Boolean
+  eth_latin_american:
+    name: eth_latin_american
+    range: Boolean
+  eth_middle_eastern:
+    name: eth_middle_eastern
+    range: Boolean
+  eth_oceania:
+    name: eth_oceania
+    range: Boolean
+  eth_other:
+    name: eth_other
+    range: WhitespaceMinimizedString
+  eth_prefer_not_say:
+    name: eth_prefer_not_say
+    range: Boolean
+  eth_south_asian:
+    name: eth_south_asian
+    range: Boolean
+  eth_southeast_asian:
+    name: eth_southeast_asian
+    range: Boolean
+  ext_affordable_protein:
+    name: ext_affordable_protein
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: ext_affordable_protein
+  ext_disrespectful_nature:
+    name: ext_disrespectful_nature
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: ext_disrespectful_nature
+  ext_env_sustainability:
+    name: ext_env_sustainability
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: ext_env_sustainability
+  ext_healthy_products:
+    name: ext_healthy_products
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: ext_healthy_products
+  ext_improve_welfare:
+    name: ext_improve_welfare
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: ext_improve_welfare
+  ext_solve_hunger:
+    name: ext_solve_hunger
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: ext_solve_hunger
+  ext_tasty_products:
+    name: ext_tasty_products
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: ext_tasty_products
+  ext_unnatural:
+    name: ext_unnatural
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: ext_unnatural
+  ext_viable_alternative:
+    name: ext_viable_alternative
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: ext_viable_alternative
+  farmers_lose_jobs:
+    name: farmers_lose_jobs
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: farmers_lose_jobs
+  farmers_transition:
+    name: farmers_transition
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: farmers_transition
+  food_banks_benefit:
+    name: food_banks_benefit
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: food_banks_benefit
+  freq_dairy:
+    name: freq_dairy
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: freq_dairy
+  freq_eggs:
+    name: freq_eggs
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: freq_eggs
+  freq_fish:
+    name: freq_fish
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: freq_fish
+  freq_other:
+    name: freq_other
+    range: WhitespaceMinimizedString
+  freq_pork:
+    name: freq_pork
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: freq_pork
+  freq_poultry:
+    name: freq_poultry
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: freq_poultry
+  freq_red_meat:
+    name: freq_red_meat
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: freq_red_meat
+  gatekeep_methods:
+    name: gatekeep_methods
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: gatekeep_methods
+  gender:
+    name: gender
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: gender
+  gender_other:
+    name: gender_other
+    range: WhitespaceMinimizedString
+  glob_benefits:
+    name: glob_benefits
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: glob_benefits
+  gm_beef:
+    name: gm_beef
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: gm_beef
+  gm_rice:
+    name: gm_rice
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: gm_rice
+  grocery_availability:
+    name: grocery_availability
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: grocery_availability
+  heard_cellular_agriculture:
+    name: heard_cellular_agriculture
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: heard_cellular_agriculture
+  home_production_possible:
+    name: home_production_possible
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: home_production_possible
+  hope_tech:
+    name: hope_tech
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: hope_tech
+  household_composition:
+    name: household_composition
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: household_composition
+  household_composition_other:
+    name: household_composition_other
+    range: WhitespaceMinimizedString
+  household_income:
+    name: household_income
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: household_income
+  human_caused_climate:
+    name: human_caused_climate
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: human_caused_climate
+  human_impacts:
+    name: human_impacts
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: human_impacts
+  imp_animal_welfare:
+    name: imp_animal_welfare
+    range: Boolean
+  imp_antibiotic_free:
+    name: imp_antibiotic_free
+    range: Boolean
+  imp_cost:
+    name: imp_cost
+    range: Boolean
+  imp_cultural_practices:
+    name: imp_cultural_practices
+    range: Boolean
+  imp_dairy:
+    name: imp_dairy
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: imp_dairy
+  imp_eggs:
+    name: imp_eggs
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: imp_eggs
+  imp_fish:
+    name: imp_fish
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: imp_fish
+  imp_freshness:
+    name: imp_freshness
+    range: Boolean
+  imp_organic:
+    name: imp_organic
+    range: Boolean
+  imp_other_foods_specified:
+    name: imp_other_foods_specified
+    range: WhitespaceMinimizedString
+  imp_other_specified:
+    name: imp_other_specified
+    range: WhitespaceMinimizedString
+  imp_pork:
+    name: imp_pork
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: imp_pork
+  imp_poultry:
+    name: imp_poultry
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: imp_poultry
+  imp_production:
+    name: imp_production
+    range: Boolean
+  imp_red_meat:
+    name: imp_red_meat
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: imp_red_meat
+  imp_self_hunted:
+    name: imp_self_hunted
+    range: Boolean
+  imp_sustainability:
+    name: imp_sustainability
+    range: Boolean
+  inaccessible_education:
+    name: inaccessible_education
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: inaccessible_education
+  industry_dominated:
+    name: industry_dominated
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: industry_dominated
+  innovation_comfort:
+    name: innovation_comfort
+    range: WhitespaceMinimizedString
+  ip_address:
+    name: ip_address
+    range: WhitespaceMinimizedString
+  lang:
+    name: lang
+    range: WhitespaceMinimizedString
+  larg_corp_influence:
+    name: larg_corp_influence
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: larg_corp_influence
+  lat:
+    name: lat
+    range: decimal
+  leg_comm:
+    name: leg_comm
+    range: WhitespaceMinimizedString
+  lives_in_can:
+    name: lives_in_can
+    range: Boolean
+  local_food_security:
+    name: local_food_security
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: local_food_security
+  location_general:
+    name: location_general
+    range: WhitespaceMinimizedString
+  long:
+    name: long
+    range: decimal
+  main_grocery_shopper:
+    name: main_grocery_shopper
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: main_grocery_shopper
+  min:
+    name: min
+    range: decimal
+    unit:
+      ucum_code: minutes
+  newhiddenvalue:
+    name: newhiddenvalue
+    range: WhitespaceMinimizedString
+  online_superstore_availability:
+    name: online_superstore_availability
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: online_superstore_availability
+  only_wealthy_access:
+    name: only_wealthy_access
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: only_wealthy_access
+  plant_burger_mushroom:
+    name: plant_burger_mushroom
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: plant_burger_mushroom
+  plant_burger_soy:
+    name: plant_burger_soy
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: plant_burger_soy
+  political_scale:
+    name: political_scale
+    range: Boolean
+  political_scale_other:
+    name: political_scale_other
+    range: WhitespaceMinimizedString
+  post:
+    name: post
+    range: WhitespaceMinimizedString
+  postal_prefix:
+    name: postal_prefix
+    range: WhitespaceMinimizedString
+  priority_climate_resilience:
+    name: priority_climate_resilience
+    range: Boolean
+  priority_farm_animal_conditions:
+    name: priority_farm_animal_conditions
+    range: Boolean
+  priority_food_tech:
+    name: priority_food_tech
+    range: Boolean
+  priority_ghg_reduction:
+    name: priority_ghg_reduction
+    range: Boolean
+  priority_healthy_access:
+    name: priority_healthy_access
+    range: Boolean
+  priority_indigenous_food_practices:
+    name: priority_indigenous_food_practices
+    range: Boolean
+  priority_local_retail:
+    name: priority_local_retail
+    range: Boolean
+  priority_migrant_worker_rights:
+    name: priority_migrant_worker_rights
+    range: Boolean
+  priority_none:
+    name: priority_none
+    range: Boolean
+  priority_other_specified:
+    name: priority_other_specified
+    range: WhitespaceMinimizedString
+  priority_vegan_shift:
+    name: priority_vegan_shift
+    range: Boolean
+  priority_wildlife_habitat:
+    name: priority_wildlife_habitat
+    range: Boolean
+  progress_tech:
+    name: progress_tech
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: progress_tech
+  ref:
+    name: ref
+    range: WhitespaceMinimizedString
+  reject_cell_icecream:
+    name: reject_cell_icecream
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: reject_cell_icecream
+  reject_cell_nuggets:
+    name: reject_cell_nuggets
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: reject_cell_nuggets
+  reject_cell_salmon:
+    name: reject_cell_salmon
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: reject_cell_salmon
+  replaces_fresh_meat:
+    name: replaces_fresh_meat
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: replaces_fresh_meat
+  res_id:
+    name: res_id
+    range: WhitespaceMinimizedString
+  see_agri_industry_icecream:
+    name: see_agri_industry_icecream
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: see_agri_industry_icecream
+  see_agri_industry_nuggets:
+    name: see_agri_industry_nuggets
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: see_agri_industry_nuggets
+  see_agri_industry_salmon:
+    name: see_agri_industry_salmon
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: see_agri_industry_salmon
+  see_global_dev_icecream:
+    name: see_global_dev_icecream
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: see_global_dev_icecream
+  see_global_dev_nuggets:
+    name: see_global_dev_nuggets
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: see_global_dev_nuggets
+  see_global_dev_salmon:
+    name: see_global_dev_salmon
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: see_global_dev_salmon
+  see_in_store_icecream:
+    name: see_in_store_icecream
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: see_in_store_icecream
+  see_in_store_nuggets:
+    name: see_in_store_nuggets
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: see_in_store_nuggets
+  see_in_store_salmon:
+    name: see_in_store_salmon
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: see_in_store_salmon
+  see_local_food_icecream:
+    name: see_local_food_icecream
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: see_local_food_icecream
+  see_local_food_nuggets:
+    name: see_local_food_nuggets
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: see_local_food_nuggets
+  see_local_food_salmon:
+    name: see_local_food_salmon
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: see_local_food_salmon
+  self_grown_food_freq:
+    name: self_grown_food_freq
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: self_grown_food_freq
+  ses_id:
+    name: ses_id
+    range: WhitespaceMinimizedString
+  source_backyard_animals:
+    name: source_backyard_animals
+    range: Boolean
+  source_butcher_shop:
+    name: source_butcher_shop
+    range: Boolean
+  source_direct_from_farms:
+    name: source_direct_from_farms
+    range: Boolean
+  source_farmers_market:
+    name: source_farmers_market
+    range: Boolean
+  source_food_bank:
+    name: source_food_bank
+    range: Boolean
+  source_grocery_superstore:
+    name: source_grocery_superstore
+    range: Boolean
+  source_hunting_fishing:
+    name: source_hunting_fishing
+    range: Boolean
+  source_other_specified:
+    name: source_other_specified
+    range: WhitespaceMinimizedString
+  source_own_farm:
+    name: source_own_farm
+    range: Boolean
+  start_time:
+    name: start_time
+    range: DateTime
+  state:
+    name: state
+    range: WhitespaceMinimizedString
+  status:
+    name: status
+    range: WhitespaceMinimizedString
+  support_cell_ag_sale:
+    name: support_cell_ag_sale
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: support_cell_ag_sale
+  tag:
+    name: tag
+    range: WhitespaceMinimizedString
+  tech_marginalized:
+    name: tech_marginalized
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: tech_marginalized
+  tech_negatives:
+    name: tech_negatives
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: tech_negatives
+  tech_resources:
+    name: tech_resources
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: tech_resources
+  tech_society:
+    name: tech_society
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: tech_society
+  trust_ag_companies:
+    name: trust_ag_companies
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: trust_ag_companies
+  trust_celebrities:
+    name: trust_celebrities
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: trust_celebrities
+  trust_env_activists:
+    name: trust_env_activists
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: trust_env_activists
+  trust_family_friends:
+    name: trust_family_friends
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: trust_family_friends
+  trust_regulators:
+    name: trust_regulators
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: trust_regulators
+  trust_scientists:
+    name: trust_scientists
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: trust_scientists
+  try_cell_icecream:
+    name: try_cell_icecream
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: try_cell_icecream
+  try_cell_nuggets:
+    name: try_cell_nuggets
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: try_cell_nuggets
+  try_cell_salmon:
+    name: try_cell_salmon
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: try_cell_salmon
+  url:
+    name: url
+    range: WhitespaceMinimizedString
+  used_in_processed_foods:
+    name: used_in_processed_foods
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: used_in_processed_foods
+  user_agent:
+    name: user_agent
+    range: WhitespaceMinimizedString
+  vertical_agriculture:
+    name: vertical_agriculture
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: vertical_agriculture
+  work_farming_employee:
+    name: work_farming_employee
+    range: Boolean
+  work_farming_owner:
+    name: work_farming_owner
+    range: Boolean
+  work_food_access:
+    name: work_food_access
+    range: Boolean
+  work_food_distribution:
+    name: work_food_distribution
+    range: Boolean
+  work_food_education:
+    name: work_food_education
+    range: Boolean
+  work_food_processing:
+    name: work_food_processing
+    range: Boolean
+  work_food_retail:
+    name: work_food_retail
+    range: Boolean
+  work_none:
+    name: work_none
+    range: Boolean
+  work_prefer_not_say:
+    name: work_prefer_not_say
+    range: Boolean
+enums:
+  SettingsMenu:
+    name: SettingsMenu
+    title: Regular Expressions
+    permissible_values:
+      AllCaps:
+        title: AllCaps
+        description: Entries of any length with only capital letters
+      AlphaText1-50:
+        title: AlphaText1-50
+        description: Capital or lower case letters only, at least 1 character, and 50 characters max
+      AlphaText0-50:
+        title: AlphaText0-50
+        description: Capital or lower case letters only, 50 characters max
+      FreeText0-50:
+        title: FreeText0-50
+        description: Short text, 50 characters max
+      FreeText0-250:
+        title: FreeText0-250
+        description: Short text, 250 characters max
+      FreeText0-800:
+        title: FreeText0-800
+        description: Long text, 800 characters max
+      FreeText0-4000:
+        title: FreeText0-4000
+        description: Long text, 4000 characters max
+      CanadianPostalCode:
+        title: CanadianPostalCode
+        description: Canadian postal codes (A1A 1A1)
+      ZipCode:
+        title: ZipCode
+        description: USA Zip code
+      EmailAddress:
+        title: EmailAddress
+        description: Email address
+      URL:
+        title: URL
+        description: Secure (https) URL
+      PhoneNumber:
+        title: PhoneNumber
+        description: Phone number with international and area code component.
+      Latitude:
+        title: Latitude
+        description: Latitude in formats S30°15'45.678" or N12°30.999"
+      Longitude:
+        title: Longitude
+        description: Longitude in formats E30°15'45.678" or W90°00.000"
+      ISO_YYYY-MM-DD:
+        title: ISO_YYYY-MM-DD
+        description: year month day
+      ISO_YYYYMMDD:
+        title: ISO_YYYYMMDD
+      ISO_YYYY-MM:
+        title: ISO_YYYY-MM
+        description: year month
+      ISO_YYYY-Www:
+        title: ISO_YYYY-Www
+        description: year week (e.g. W01)
+      ISO_YYYYWww:
+        title: ISO_YYYYWww
+        description: year week (e.g. W01)
+      ISO_YYYY-DDD:
+        title: ISO_YYYY-DDD
+        description: Ordinal date (day number from the year)
+      ISO_YYYYDDD:
+        title: ISO_YYYYDDD
+        description: Ordinal date (day number from the year)
+      ISO_YYYY:
+        title: ISO_YYYY
+        description: year
+      ISO_MM:
+        title: ISO_MM
+        description: month
+      ISO_DD:
+        title: ISO_DD
+        description: day
+      ISO_YYYY-MM-DDTHH.MM.SSZ:
+        title: ISO_YYYY-MM-DDTHH:MM:SSZ
+        description: Date and Time Combined (UTC)
+      ISO_YYYY-MM-DDTHH.MM.SS-hh.mm:
+        title: ISO_YYYY-MM-DDTHH:MM:SS±hh:mm
+        description: Date and Time Combined (with Timezone Offset)
+      ISO_PnYnMnDTnHnMnS:
+        title: ISO_PnYnMnDTnHnMnS
+        description: durations e.g. P3Y6M4DT12H30M5S
+      ISO_HH.MM:
+        title: ISO_HH:MM
+        description: hour, minutes in 24 hour notation
+      ISO_HH.MM.SS:
+        title: ISO_HH:MM:SS
+        description: hour, minutes, seconds in 24 hour notation
+      SLASH_DD_MM_YYYY:
+        title: DD/MM/YYYY
+        description: day, month, year
+      SLASH_DD_MM_YY:
+        title: DD/MM/YY
+        description: day, month, year
+      SLASH_MM_DD_YYYY:
+        title: MM/DD/YYYY
+        description: month, day, year
+      DDMMYYYY:
+        title: DDMMYYYY
+        description: day, month, year
+      MMDDYYYY:
+        title: MMDDYYYY
+        description: month, day, year
+      YYYYMMDD:
+        title: YYYYMMDD
+        description: year, month, day
+      HH.MM.SS:
+        title: HH:MM:SS
+        description: hour, minutes, seconds 12 hour notation AM/PM
+      H.MM_or_HH.MM:
+        title: H:MM or HH:MM
+        description: hour, minutes AM/PM
+  access_training:
+    name: access_training
+    title: access_training
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  act_on_climate:
+    name: act_on_climate
+    title: act_on_climate
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  attention_check:
+    name: attention_check
+    title: attention_check
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  break_up_big_tech:
+    name: break_up_big_tech
+    title: break_up_big_tech
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  buy_if_cheaper_icecream:
+    name: buy_if_cheaper_icecream
+    title: buy_if_cheaper_icecream
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  buy_if_cheaper_nuggets:
+    name: buy_if_cheaper_nuggets
+    title: buy_if_cheaper_nuggets
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  buy_if_cheaper_salmon:
+    name: buy_if_cheaper_salmon
+    title: buy_if_cheaper_salmon
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  buy_if_healthier_icecream:
+    name: buy_if_healthier_icecream
+    title: buy_if_healthier_icecream
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  buy_if_healthier_nuggets:
+    name: buy_if_healthier_nuggets
+    title: buy_if_healthier_nuggets
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  buy_if_healthier_salmon:
+    name: buy_if_healthier_salmon
+    title: buy_if_healthier_salmon
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  buy_instead_icecream:
+    name: buy_instead_icecream
+    title: buy_instead_icecream
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  buy_instead_nuggets:
+    name: buy_instead_nuggets
+    title: buy_instead_nuggets
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  buy_instead_salmon:
+    name: buy_instead_salmon
+    title: buy_instead_salmon
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  buy_regular_cell_icecream:
+    name: buy_regular_cell_icecream
+    title: buy_regular_cell_icecream
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  buy_regular_cell_nuggets:
+    name: buy_regular_cell_nuggets
+    title: buy_regular_cell_nuggets
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  buy_regular_cell_salmon:
+    name: buy_regular_cell_salmon
+    title: buy_regular_cell_salmon
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  city_only_access:
+    name: city_only_access
+    title: city_only_access
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  city_only_jobs:
+    name: city_only_jobs
+    title: city_only_jobs
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  climate_biodiversity_loss:
+    name: climate_biodiversity_loss
+    title: climate_biodiversity_loss
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  climate_ecosystem:
+    name: climate_ecosystem
+    title: climate_ecosystem
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  climate_not_urgent:
+    name: climate_not_urgent
+    title: climate_not_urgent
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  community_owned_model:
+    name: community_owned_model
+    title: community_owned_model
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  conventional_farmers_opportunity:
+    name: conventional_farmers_opportunity
+    title: conventional_farmers_opportunity
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  corp_patents_limit_knowledge:
+    name: corp_patents_limit_knowledge
+    title: corp_patents_limit_knowledge
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  education_level:
+    name: education_level
+    title: education_level
+    permissible_values:
+      Apprenticeship or trades:
+        text: Apprenticeship or trades
+        title: AT
+      College or other non-university level:
+        text: College or other non-university level
+        title: CNU
+      Prefer not to say:
+        text: Prefer not to say
+        title: PNS
+      Primary or elementary school:
+        text: Primary or elementary school
+        title: PES
+      Professional school:
+        text: Professional school
+        title: PS
+      Secondary (high school diploma or equivalent):
+        text: Secondary (high school diploma or equivalent)
+        title: SEC
+      University bachelor level degree:
+        text: University bachelor level degree
+        title: UBD
+      University graduate school:
+        text: University graduate school
+        title: UGS
+  env_impact_beef:
+    name: env_impact_beef
+    title: env_impact_beef
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  env_impact_chicken:
+    name: env_impact_chicken
+    title: env_impact_chicken
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  env_impact_fish:
+    name: env_impact_fish
+    title: env_impact_fish
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  env_impact_pork:
+    name: env_impact_pork
+    title: env_impact_pork
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  ext_affordable_protein:
+    name: ext_affordable_protein
+    title: ext_affordable_protein
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  ext_disrespectful_nature:
+    name: ext_disrespectful_nature
+    title: ext_disrespectful_nature
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  ext_env_sustainability:
+    name: ext_env_sustainability
+    title: ext_env_sustainability
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  ext_healthy_products:
+    name: ext_healthy_products
+    title: ext_healthy_products
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  ext_improve_welfare:
+    name: ext_improve_welfare
+    title: ext_improve_welfare
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  ext_solve_hunger:
+    name: ext_solve_hunger
+    title: ext_solve_hunger
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  ext_tasty_products:
+    name: ext_tasty_products
+    title: ext_tasty_products
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  ext_unnatural:
+    name: ext_unnatural
+    title: ext_unnatural
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  ext_viable_alternative:
+    name: ext_viable_alternative
+    title: ext_viable_alternative
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  farmers_lose_jobs:
+    name: farmers_lose_jobs
+    title: farmers_lose_jobs
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  farmers_transition:
+    name: farmers_transition
+    title: farmers_transition
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  food_banks_benefit:
+    name: food_banks_benefit
+    title: food_banks_benefit
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  freq_dairy:
+    name: freq_dairy
+    title: freq_dairy
+    permissible_values:
+      A few times per week:
+        text: A few times per week
+        title: FTW
+      A few times per year:
+        text: A few times per year
+        title: FT
+      Every day:
+        text: Every day
+        title: ED
+      Never:
+        text: Never
+        title: NV
+      Once a month:
+        text: Once a month
+        title: OM
+      Once a week:
+        text: Once a week
+        title: OW
+  freq_eggs:
+    name: freq_eggs
+    title: freq_eggs
+    permissible_values:
+      A few times per week:
+        text: A few times per week
+        title: FTW
+      A few times per year:
+        text: A few times per year
+        title: FT
+      Every day:
+        text: Every day
+        title: ED
+      Never:
+        text: Never
+        title: NV
+      Once a month:
+        text: Once a month
+        title: OM
+      Once a week:
+        text: Once a week
+        title: OW
+  freq_fish:
+    name: freq_fish
+    title: freq_fish
+    permissible_values:
+      A few times per week:
+        text: A few times per week
+        title: FTW
+      A few times per year:
+        text: A few times per year
+        title: FT
+      Every day:
+        text: Every day
+        title: ED
+      Never:
+        text: Never
+        title: NV
+      Once a month:
+        text: Once a month
+        title: OM
+      Once a week:
+        text: Once a week
+        title: OW
+  freq_pork:
+    name: freq_pork
+    title: freq_pork
+    permissible_values:
+      A few times per week:
+        text: A few times per week
+        title: FTW
+      A few times per year:
+        text: A few times per year
+        title: FT
+      Every day:
+        text: Every day
+        title: ED
+      Never:
+        text: Never
+        title: NV
+      Once a month:
+        text: Once a month
+        title: OM
+      Once a week:
+        text: Once a week
+        title: OW
+  freq_poultry:
+    name: freq_poultry
+    title: freq_poultry
+    permissible_values:
+      A few times per week:
+        text: A few times per week
+        title: FTW
+      A few times per year:
+        text: A few times per year
+        title: FT
+      Every day:
+        text: Every day
+        title: ED
+      Never:
+        text: Never
+        title: NV
+      Once a month:
+        text: Once a month
+        title: OM
+      Once a week:
+        text: Once a week
+        title: OW
+  freq_red_meat:
+    name: freq_red_meat
+    title: freq_red_meat
+    permissible_values:
+      A few times per week:
+        text: A few times per week
+        title: FTW
+      A few times per year:
+        text: A few times per year
+        title: FT
+      Every day:
+        text: Every day
+        title: ED
+      Never:
+        text: Never
+        title: NV
+      Once a month:
+        text: Once a month
+        title: OM
+      Once a week:
+        text: Once a week
+        title: OW
+  gatekeep_methods:
+    name: gatekeep_methods
+    title: gatekeep_methods
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  gender:
+    name: gender
+    title: gender
+    permissible_values:
+      Female:
+        text: Female
+        title: F
+      Male:
+        text: Male
+        title: M
+      Non-binary (gender diverse):
+        text: Non-binary (gender diverse)
+        title: NB
+      Other:
+        text: Other
+        title: OTH
+      Prefer not to say:
+        text: Prefer not to say
+        title: PNS
+  glob_benefits:
+    name: glob_benefits
+    title: glob_benefits
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  gm_beef:
+    name: gm_beef
+    title: gm_beef
+    permissible_values:
+      A little less comfortable:
+        text: A little less comfortable
+        title: LLC
+      A little more comfortable:
+        text: A little more comfortable
+        title: LMC
+      Don't know:
+        text: Don't know
+        title: DK
+      Less comfortable:
+        text: Less comfortable
+        title: LC
+      More comfortable:
+        text: More comfortable
+        title: MC
+      Much less comfortable with genetically modified rice than cellular agriculture:
+        text: Much less comfortable with genetically modified rice than cellular agriculture
+        title: MLC
+      Much more comfortable with genetically modified rice than cellular agriculture:
+        text: Much more comfortable with genetically modified rice than cellular agriculture
+        title: MMC
+      Same level of comfort:
+        text: Same level of comfort
+        title: SLC
+  gm_rice:
+    name: gm_rice
+    title: gm_rice
+    permissible_values:
+      A little less comfortable:
+        text: A little less comfortable
+        title: LLC
+      A little more comfortable:
+        text: A little more comfortable
+        title: LMC
+      Don't know:
+        text: Don't know
+        title: DK
+      Less comfortable:
+        text: Less comfortable
+        title: LC
+      More comfortable:
+        text: More comfortable
+        title: MC
+      Much less comfortable with genetically modified rice than cellular agriculture:
+        text: Much less comfortable with genetically modified rice than cellular agriculture
+        title: MLC
+      Much more comfortable with genetically modified rice than cellular agriculture:
+        text: Much more comfortable with genetically modified rice than cellular agriculture
+        title: MMC
+      Same level of comfort:
+        text: Same level of comfort
+        title: SLC
+  grocery_availability:
+    name: grocery_availability
+    title: grocery_availability
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  heard_cellular_agriculture:
+    name: heard_cellular_agriculture
+    title: heard_cellular_agriculture
+    permissible_values:
+      I don't know:
+        text: I don't know
+        title: DK
+      No:
+        text: No
+        title: N
+      Yes:
+        text: Yes
+        title: Y
+  home_production_possible:
+    name: home_production_possible
+    title: home_production_possible
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  hope_tech:
+    name: hope_tech
+    title: hope_tech
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  household_composition:
+    name: household_composition
+    title: household_composition
+    permissible_values:
+      Couple living together:
+        text: Couple living together
+        title: CLT
+      Family with children:
+        text: Family with children
+        title: FC
+      I live on my own:
+        text: I live on my own
+        title: LO
+      Multigenerational (two or more families living together):
+        text: Multigenerational (two or more families living together)
+        title: MLG
+      Other:
+        text: Other
+        title: Oth
+      Prefer not to say:
+        text: Prefer not to say
+        title: PNS
+  household_income:
+    name: household_income
+    title: household_income
+    permissible_values:
+      $100,000 to $149,999:
+        text: $100,000 to $149,999
+        title: U150
+      $150,000 to $199,999:
+        text: $150,000 to $199,999
+        title: U200
+      $20,000 to $49,999:
+        text: $20,000 to $49,999
+        title: U50
+      $200,000 to $249,999:
+        text: $200,000 to $249,999
+        title: U250
+      $250,000 and over:
+        text: $250,000 and over
+        title: A250
+      $50,000 to $99,999:
+        text: $50,000 to $99,999
+        title: U100
+      Prefer not to say:
+        text: Prefer not to say
+        title: PNS
+      Under $20,000:
+        text: Under $20,000
+        title: U20
+  human_caused_climate:
+    name: human_caused_climate
+    title: human_caused_climate
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  human_impacts:
+    name: human_impacts
+    title: human_impacts
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  imp_dairy:
+    name: imp_dairy
+    title: imp_dairy
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  imp_eggs:
+    name: imp_eggs
+    title: imp_eggs
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  imp_fish:
+    name: imp_fish
+    title: imp_fish
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  imp_pork:
+    name: imp_pork
+    title: imp_pork
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  imp_poultry:
+    name: imp_poultry
+    title: imp_poultry
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  imp_red_meat:
+    name: imp_red_meat
+    title: imp_red_meat
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  inaccessible_education:
+    name: inaccessible_education
+    title: inaccessible_education
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  industry_dominated:
+    name: industry_dominated
+    title: industry_dominated
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  larg_corp_influence:
+    name: larg_corp_influence
+    title: larg_corp_influence
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  local_food_security:
+    name: local_food_security
+    title: local_food_security
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  main_grocery_shopper:
+    name: main_grocery_shopper
+    title: main_grocery_shopper
+    permissible_values:
+      I do:
+        text: I do
+        title: ID
+      I shop the same amount as other in my household:
+        text: I shop the same amount as other in my household
+        title: SAH
+      Prefer not to say:
+        text: Prefer not to say
+        title: PNS
+      Someone else:
+        text: Someone else
+        title: SE
+  online_superstore_availability:
+    name: online_superstore_availability
+    title: online_superstore_availability
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  only_wealthy_access:
+    name: only_wealthy_access
+    title: only_wealthy_access
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  plant_burger_mushroom:
+    name: plant_burger_mushroom
+    title: plant_burger_mushroom
+    permissible_values:
+      A little less comfortable:
+        text: A little less comfortable
+        title: LLC
+      A little more comfortable:
+        text: A little more comfortable
+        title: LMC
+      Don't know:
+        text: Don't know
+        title: DK
+      Less comfortable:
+        text: Less comfortable
+        title: LC
+      More comfortable:
+        text: More comfortable
+        title: MC
+      Much less comfortable with genetically modified rice than cellular agriculture:
+        text: Much less comfortable with genetically modified rice than cellular agriculture
+        title: MLC
+      Much more comfortable with genetically modified rice than cellular agriculture:
+        text: Much more comfortable with genetically modified rice than cellular agriculture
+        title: MMC
+      Same level of comfort:
+        text: Same level of comfort
+        title: SLC
+  plant_burger_soy:
+    name: plant_burger_soy
+    title: plant_burger_soy
+    permissible_values:
+      A little less comfortable:
+        text: A little less comfortable
+        title: LLC
+      A little more comfortable:
+        text: A little more comfortable
+        title: LMC
+      Don't know:
+        text: Don't know
+        title: DK
+      Less comfortable:
+        text: Less comfortable
+        title: LC
+      More comfortable:
+        text: More comfortable
+        title: MC
+      Much less comfortable with genetically modified rice than cellular agriculture:
+        text: Much less comfortable with genetically modified rice than cellular agriculture
+        title: MLC
+      Much more comfortable with genetically modified rice than cellular agriculture:
+        text: Much more comfortable with genetically modified rice than cellular agriculture
+        title: MMC
+      Same level of comfort:
+        text: Same level of comfort
+        title: SLC
+  progress_tech:
+    name: progress_tech
+    title: progress_tech
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  reject_cell_icecream:
+    name: reject_cell_icecream
+    title: reject_cell_icecream
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  reject_cell_nuggets:
+    name: reject_cell_nuggets
+    title: reject_cell_nuggets
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  reject_cell_salmon:
+    name: reject_cell_salmon
+    title: reject_cell_salmon
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  replaces_fresh_meat:
+    name: replaces_fresh_meat
+    title: replaces_fresh_meat
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  see_agri_industry_icecream:
+    name: see_agri_industry_icecream
+    title: see_agri_industry_icecream
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  see_agri_industry_nuggets:
+    name: see_agri_industry_nuggets
+    title: see_agri_industry_nuggets
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  see_agri_industry_salmon:
+    name: see_agri_industry_salmon
+    title: see_agri_industry_salmon
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  see_global_dev_icecream:
+    name: see_global_dev_icecream
+    title: see_global_dev_icecream
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  see_global_dev_nuggets:
+    name: see_global_dev_nuggets
+    title: see_global_dev_nuggets
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  see_global_dev_salmon:
+    name: see_global_dev_salmon
+    title: see_global_dev_salmon
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  see_in_store_icecream:
+    name: see_in_store_icecream
+    title: see_in_store_icecream
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  see_in_store_nuggets:
+    name: see_in_store_nuggets
+    title: see_in_store_nuggets
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  see_in_store_salmon:
+    name: see_in_store_salmon
+    title: see_in_store_salmon
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  see_local_food_icecream:
+    name: see_local_food_icecream
+    title: see_local_food_icecream
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  see_local_food_nuggets:
+    name: see_local_food_nuggets
+    title: see_local_food_nuggets
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  see_local_food_salmon:
+    name: see_local_food_salmon
+    title: see_local_food_salmon
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  self_grown_food_freq:
+    name: self_grown_food_freq
+    title: self_grown_food_freq
+    permissible_values:
+      A few times per month:
+        text: A few times per month
+        title: FTM
+      A few times per year (e.g., special occasions):
+        text: A few times per year (e.g., special occasions)
+        title: FTY
+      At least once a week:
+        text: At least once a week
+        title: OW
+      I don’t grow or raise any of my own food:
+        text: I don’t grow or raise any of my own food
+        title: DGR
+      Most days:
+        text: Most days
+        title: MD
+      Never:
+        text: Never
+        title: NV
+      Once per month:
+        text: Once per month
+        title: ON
+  support_cell_ag_sale:
+    name: support_cell_ag_sale
+    title: support_cell_ag_sale
+    permissible_values:
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly oppose:
+        text: Mildly oppose
+        title: MO
+      Mildly support:
+        text: Mildly support
+        title: MS
+      Neither oppose nor support:
+        text: Neither oppose nor support
+        title: NOS
+      Oppose:
+        text: Oppose
+        title: OP
+      Strongly oppose:
+        text: Strongly oppose
+        title: SO
+      Strongly support:
+        text: Strongly support
+        title: SS
+      Support:
+        text: Support
+        title: SU
+  tech_marginalized:
+    name: tech_marginalized
+    title: tech_marginalized
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  tech_negatives:
+    name: tech_negatives
+    title: tech_negatives
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  tech_resources:
+    name: tech_resources
+    title: tech_resources
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  tech_society:
+    name: tech_society
+    title: tech_society
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  trust_ag_companies:
+    name: trust_ag_companies
+    title: trust_ag_companies
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  trust_celebrities:
+    name: trust_celebrities
+    title: trust_celebrities
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  trust_env_activists:
+    name: trust_env_activists
+    title: trust_env_activists
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  trust_family_friends:
+    name: trust_family_friends
+    title: trust_family_friends
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  trust_regulators:
+    name: trust_regulators
+    title: trust_regulators
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  trust_scientists:
+    name: trust_scientists
+    title: trust_scientists
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Don't know:
+        text: Don't know
+        title: DK
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  try_cell_icecream:
+    name: try_cell_icecream
+    title: try_cell_icecream
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  try_cell_nuggets:
+    name: try_cell_nuggets
+    title: try_cell_nuggets
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  try_cell_salmon:
+    name: try_cell_salmon
+    title: try_cell_salmon
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  used_in_processed_foods:
+    name: used_in_processed_foods
+    title: used_in_processed_foods
+    permissible_values:
+      Agree:
+        text: Agree
+        title: AG
+      Disagree:
+        text: Disagree
+        title: DA
+      Mildly agree:
+        text: Mildly agree
+        title: MA
+      Mildly disagree:
+        text: Mildly disagree
+        title: MD
+      Neither agree nor disagree:
+        text: Neither agree nor disagree
+        title: NAD
+      Strongly agree:
+        text: Strongly agree
+        title: SA
+      Strongly disagree:
+        text: Strongly disagree
+        title: SD
+  vertical_agriculture:
+    name: vertical_agriculture
+    title: vertical_agriculture
+    permissible_values:
+      A little less comfortable:
+        text: A little less comfortable
+        title: LLC
+      A little more comfortable:
+        text: A little more comfortable
+        title: LMC
+      Don't know:
+        text: Don't know
+        title: DK
+      Less comfortable:
+        text: Less comfortable
+        title: LC
+      More comfortable:
+        text: More comfortable
+        title: MC
+      Much less comfortable with genetically modified rice than cellular agriculture:
+        text: Much less comfortable with genetically modified rice than cellular agriculture
+        title: MLC
+      Much more comfortable with genetically modified rice than cellular agriculture:
+        text: Much more comfortable with genetically modified rice than cellular agriculture
+        title: MMC
+      Same level of comfort:
+        text: Same level of comfort
+        title: SLC
+types:
+  WhitespaceMinimizedString:
+    name: WhitespaceMinimizedString
+    typeof: string
+    description: 'A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).'
+    base: str
+    uri: xsd:token
+settings:
+  Title_Case: ((?<=\b)[^a-z\W]\w*?|[\W])+
+  UPPER_CASE: '[A-Z\W\d_]*'
+  lower_case: '[a-z\W\d_]*'
+  AllCaps: ^[A-Z]*$
+  AlphaText1-50: ^[A-Za-z]{1,50}$
+  AlphaText0-50: ^[A-Za-z]{0,50}$
+  FreeText0-50: ^.{0,50}$
+  FreeText0-250: ^.{0,250}$
+  FreeText0-800: ^.{0,800}$
+  FreeText0-4000: ^.{0,4000}$
+  CanadianPostalCode: ^[A-Z][0-9][A-Z]\s[0-9][A-Z][0-9]$
+  ZipCode: ^\d{5,6}(?:[-\s]\d{4})?$
+  EmailAddress: ^[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+
+  URL: ^https?\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,}$
+  PhoneNumber: ^\+?\(?\d{2,4}\)?[\d\s-]{3,}$
+  Latitude: ^[NS]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
+  Longitude: ^[WE]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
+  ISO_YYYY-MM-DD: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$
+  ISO_YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
+  ISO_YYYY-MM: ^(\d{4})-(0[1-9]|1[0-2])$
+  ISO_YYYY-Www: ^(?:\d{4})-W(0[1-9]|[1-4][0-9]|5[0-3])$
+  ISO_YYYYWww: ^(?:\d{4})W(0[1-9]|[1-4][0-9]|5[0-3])$
+  ISO_YYYY-DDD: ^(?:\d{4})-(00[1-9]|0[1-9][0-9]|[1-2][0-9]{2}|3[0-5][0-9]|36[0-6])$
+  ISO_YYYYDDD: ^(?:\d{4})(00[1-9]|0[1-9][0-9]|[1-2][0-9]{2}|3[0-5][0-9]|36[0-6])$
+  ISO_YYYY: ^(\d{4})$
+  ISO_MM: ^(0[1-9]|1[0-2])$
+  ISO_DD: ^(0[1-9]|[1-2][0-9]|3[01])$
+  ISO_YYYY-MM-DDTHH.MM.SSZ: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])T([01]\d|2[0-3]):([0-5]\d):([0-5]\d)Z$
+  ISO_YYYY-MM-DDTHH.MM.SS-hh.mm: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])T([01]\d|2[0-3]):([0-5]\d):([0-5]\\d)([+-][01]\\d:[0-5]\d)$
+  ISO_PnYnMnDTnHnMnS: ^P(?!$)((\d+Y)|(\d+.\d+Y)$)?((\d+M)|(\d+.\d+M)$)?((\d+W)|(\d+.\d+W)$)?((\d+D)|(\d+.\d+D)$)?(T(?=\d)((\d+H)|(\d+.\d+H)$)?((\d+M)|(\d+.\d+M)$)?(\d+(.\d+S)?)?)?$
+  ISO_HH.MM: ^([01]\d|2[0-3]):([0-5]\d)$
+  ISO_HH.MM.SS: ^([01]\d|2[0-3]):([0-5]\d):([0-5]\d)$
+  SLASH_DD_MM_YYYY: ^(0[1-9]|[12]\d|3[01])/(0[1-9]|1[0-2])/\d{4}$
+  SLASH_DD_MM_YY: ^(0[1-9]|[12]\d|3[01])/(0[1-9]|1[0-2])/\d{2}$
+  SLASH_MM_DD_YYYY: ^(0[1-9]|1[0-2])/(0[1-9]|[12]\d|3[01])/\d{4}$
+  DDMMYYYY: ^(0[1-9]|[12]\d|3[01])(0[1-9]|1[0-2])\d{4}$
+  MMDDYYYY: ^(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])\d{4}$
+  YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
+  HH.MM.SS: ^(0?[1-9]|1[0-2]):[0-5][0-9]:[0-5][0-9] ?[APMapm]{2}$
+  H.MM_or_HH.MM: ^(0?[1-9]|1[0-2]):[0-5][0-9] ?[APMapm]{2}$
