@@ -23,6 +23,8 @@ parent: Loop
 
 [Download Semantic Engine schema](environmental_DNA.json)
 
+[Download LinkML Schema](environmental_DNA_LinkML/schema.json) ([yaml](environmental_DNA_LinkML/schema.yaml); table view: [fields](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/loop/environmental_DNA_LinkML/schema_slots.tsv), [picklists](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/loop/environmental_DNA_LinkML/schema_enums.tsv))
+
 ## Schema quick view
 
 | Attribute | Label | Description |

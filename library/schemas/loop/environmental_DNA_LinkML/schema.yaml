@@ -1,0 +1,1364 @@
+id: https://example.com/EnvironmentalDna
+name: EnvironmentalDna
+title: Environmental DNA
+description: This schema is designed for environmental or agricultural monitoring datasets. It includes several key attributes such as sample identifiers, sample types, geographic coordinates (latitude and longitude), and site descriptions. The schema also defines metadata fields for data validation, such as required entry values, accepted formats, and character encoding. It aims to support structured data collection and ensure interoperability across platforms through consistent attribute naming and semantic annotations.
+version: 0.0.0
+in_language: en
+imports:
+  - linkml:types
+prefixes:
+  linkml: https://w3id.org/linkml/
+classes:
+  EnvironmentalDna:
+    name: EnvironmentalDna
+    title: Environmental DNA
+    description: This schema is designed for environmental or agricultural monitoring datasets. It includes several key attributes such as sample identifiers, sample types, geographic coordinates (latitude and longitude), and site descriptions. The schema also defines metadata fields for data validation, such as required entry values, accepted formats, and character encoding. It aims to support structured data collection and ensure interoperability across platforms through consistent attribute naming and semantic annotations.
+    keywords: RDF209
+    slots:
+      - above_ground_biomass
+      - analysis_method
+      - analyst
+      - analyst_affiliation
+      - average_seq_quality
+      - below_ground_biomass
+      - biocontrol_ability
+      - carotenoids_content
+      - chlorophyll_content
+      - colonisation_index
+      - contamination_index
+      - crop
+      - crop_growth_promoting_ability
+      - crop_yield
+      - data_curator
+      - dataset_doi
+      - device_serial_number
+      - disease_scale
+      - dna_quantity
+      - electric_conductivity
+      - experimental_design
+      - extraction_protocol
+      - fermented_diet
+      - filter_size
+      - filter_type
+      - flux_measurement_method
+      - fruit_quality
+      - fwd_probe_name
+      - fwd_probe_seq
+      - gas
+      - isolated_strains
+      - larval_biomass_yield
+      - larval_dry_diet
+      - larval_protein_content
+      - larval_wet_diet
+      - latitude
+      - leaf_water_potential
+      - lib_prep_protocol
+      - library
+      - license
+      - location_name
+      - longitude
+      - merging_tool
+      - metadata_version
+      - method_citation
+      - mushroom_biomass_yield
+      - mushroom_species
+      - mushroom_substrate_conditioning
+      - mushroom_substrate_upcycling
+      - number_of_cycles
+      - pH_level
+      - photosynthesis
+      - plant_height
+      - prep_type
+      - production
+      - qc_flag
+      - qc_protocol
+      - reactor_type
+      - read_count
+      - ref_database
+      - replicates_count
+      - rev_probe_name
+      - rev_probe_seq
+      - root_class
+      - root_forks
+      - root_length
+      - root_tips
+      - sample_name
+      - sample_source_reactor
+      - sample_type
+      - sampled_quantity
+      - sampler
+      - sampler_affiliation
+      - sampling_date
+      - sampling_depth
+      - sampling_device
+      - sequencing_instrument
+      - sequencing_mode
+      - soil_water_content
+      - stomatal_conductance
+      - substrate_health_promoting_ability
+      - survival_rate
+      - taxonomic_assign_tool
+      - tea_bag_index
+      - temperature
+      - temporal_resolution
+      - tissue_composition
+      - trace_gas_flux
+      - transpiration
+      - treatment_details
+      - trimming_tool
+      - unique_seq_creation_tool
+      - unique_seq_similarity_threshold
+    slot_usage:
+      above_ground_biomass:
+        name: above_ground_biomass
+        rank: 1
+        slot_group: General
+      analysis_method:
+        name: analysis_method
+        rank: 2
+        slot_group: General
+      analyst:
+        name: analyst
+        rank: 3
+        slot_group: General
+      analyst_affiliation:
+        name: analyst_affiliation
+        rank: 4
+        slot_group: General
+      average_seq_quality:
+        name: average_seq_quality
+        rank: 5
+        slot_group: General
+      below_ground_biomass:
+        name: below_ground_biomass
+        rank: 6
+        slot_group: General
+      biocontrol_ability:
+        name: biocontrol_ability
+        rank: 7
+        slot_group: General
+      carotenoids_content:
+        name: carotenoids_content
+        rank: 8
+        slot_group: General
+      chlorophyll_content:
+        name: chlorophyll_content
+        rank: 9
+        slot_group: General
+      colonisation_index:
+        name: colonisation_index
+        rank: 10
+        slot_group: General
+      contamination_index:
+        name: contamination_index
+        rank: 11
+        slot_group: General
+      crop:
+        name: crop
+        rank: 12
+        slot_group: General
+      crop_growth_promoting_ability:
+        name: crop_growth_promoting_ability
+        rank: 13
+        slot_group: General
+      crop_yield:
+        name: crop_yield
+        rank: 14
+        slot_group: General
+      data_curator:
+        name: data_curator
+        rank: 15
+        slot_group: General
+      dataset_doi:
+        name: dataset_doi
+        rank: 16
+        slot_group: General
+      device_serial_number:
+        name: device_serial_number
+        rank: 17
+        slot_group: General
+      disease_scale:
+        name: disease_scale
+        rank: 18
+        slot_group: General
+      dna_quantity:
+        name: dna_quantity
+        rank: 19
+        slot_group: General
+      electric_conductivity:
+        name: electric_conductivity
+        rank: 20
+        slot_group: General
+      experimental_design:
+        name: experimental_design
+        rank: 21
+        slot_group: General
+      extraction_protocol:
+        name: extraction_protocol
+        rank: 22
+        slot_group: General
+      fermented_diet:
+        name: fermented_diet
+        rank: 23
+        slot_group: General
+      filter_size:
+        name: filter_size
+        rank: 24
+        slot_group: General
+      filter_type:
+        name: filter_type
+        rank: 25
+        slot_group: General
+      flux_measurement_method:
+        name: flux_measurement_method
+        rank: 26
+        slot_group: General
+      fruit_quality:
+        name: fruit_quality
+        rank: 27
+        slot_group: General
+      fwd_probe_name:
+        name: fwd_probe_name
+        rank: 28
+        slot_group: General
+      fwd_probe_seq:
+        name: fwd_probe_seq
+        rank: 29
+        slot_group: General
+      gas:
+        name: gas
+        rank: 30
+        slot_group: General
+      isolated_strains:
+        name: isolated_strains
+        rank: 31
+        slot_group: General
+      larval_biomass_yield:
+        name: larval_biomass_yield
+        rank: 32
+        slot_group: General
+      larval_dry_diet:
+        name: larval_dry_diet
+        rank: 33
+        slot_group: General
+      larval_protein_content:
+        name: larval_protein_content
+        rank: 34
+        slot_group: General
+      larval_wet_diet:
+        name: larval_wet_diet
+        rank: 35
+        slot_group: General
+      latitude:
+        name: latitude
+        rank: 36
+        slot_group: General
+      leaf_water_potential:
+        name: leaf_water_potential
+        rank: 37
+        slot_group: General
+      lib_prep_protocol:
+        name: lib_prep_protocol
+        rank: 38
+        slot_group: General
+      library:
+        name: library
+        rank: 39
+        slot_group: General
+      license:
+        name: license
+        rank: 40
+        slot_group: General
+      location_name:
+        name: location_name
+        rank: 41
+        slot_group: General
+      longitude:
+        name: longitude
+        rank: 42
+        slot_group: General
+      merging_tool:
+        name: merging_tool
+        rank: 43
+        slot_group: General
+      metadata_version:
+        name: metadata_version
+        rank: 44
+        slot_group: General
+      method_citation:
+        name: method_citation
+        rank: 45
+        slot_group: General
+      mushroom_biomass_yield:
+        name: mushroom_biomass_yield
+        rank: 46
+        slot_group: General
+      mushroom_species:
+        name: mushroom_species
+        rank: 47
+        slot_group: General
+      mushroom_substrate_conditioning:
+        name: mushroom_substrate_conditioning
+        rank: 48
+        slot_group: General
+      mushroom_substrate_upcycling:
+        name: mushroom_substrate_upcycling
+        rank: 49
+        slot_group: General
+      number_of_cycles:
+        name: number_of_cycles
+        rank: 50
+        slot_group: General
+      pH_level:
+        name: pH_level
+        rank: 51
+        slot_group: General
+      photosynthesis:
+        name: photosynthesis
+        rank: 52
+        slot_group: General
+      plant_height:
+        name: plant_height
+        rank: 53
+        slot_group: General
+      prep_type:
+        name: prep_type
+        rank: 54
+        slot_group: General
+      production:
+        name: production
+        rank: 55
+        slot_group: General
+      qc_flag:
+        name: qc_flag
+        rank: 56
+        slot_group: General
+      qc_protocol:
+        name: qc_protocol
+        rank: 57
+        slot_group: General
+      reactor_type:
+        name: reactor_type
+        rank: 58
+        slot_group: General
+      read_count:
+        name: read_count
+        rank: 59
+        slot_group: General
+      ref_database:
+        name: ref_database
+        rank: 60
+        slot_group: General
+      replicates_count:
+        name: replicates_count
+        rank: 61
+        slot_group: General
+      rev_probe_name:
+        name: rev_probe_name
+        rank: 62
+        slot_group: General
+      rev_probe_seq:
+        name: rev_probe_seq
+        rank: 63
+        slot_group: General
+      root_class:
+        name: root_class
+        rank: 64
+        slot_group: General
+      root_forks:
+        name: root_forks
+        rank: 65
+        slot_group: General
+      root_length:
+        name: root_length
+        rank: 66
+        slot_group: General
+      root_tips:
+        name: root_tips
+        rank: 67
+        slot_group: General
+      sample_name:
+        name: sample_name
+        rank: 68
+        slot_group: General
+      sample_source_reactor:
+        name: sample_source_reactor
+        rank: 69
+        slot_group: General
+      sample_type:
+        name: sample_type
+        rank: 70
+        slot_group: General
+      sampled_quantity:
+        name: sampled_quantity
+        rank: 71
+        slot_group: General
+      sampler:
+        name: sampler
+        rank: 72
+        slot_group: General
+      sampler_affiliation:
+        name: sampler_affiliation
+        rank: 73
+        slot_group: General
+      sampling_date:
+        name: sampling_date
+        rank: 74
+        slot_group: General
+      sampling_depth:
+        name: sampling_depth
+        rank: 75
+        slot_group: General
+      sampling_device:
+        name: sampling_device
+        rank: 76
+        slot_group: General
+      sequencing_instrument:
+        name: sequencing_instrument
+        rank: 77
+        slot_group: General
+      sequencing_mode:
+        name: sequencing_mode
+        rank: 78
+        slot_group: General
+      soil_water_content:
+        name: soil_water_content
+        rank: 79
+        slot_group: General
+      stomatal_conductance:
+        name: stomatal_conductance
+        rank: 80
+        slot_group: General
+      substrate_health_promoting_ability:
+        name: substrate_health_promoting_ability
+        rank: 81
+        slot_group: General
+      survival_rate:
+        name: survival_rate
+        rank: 82
+        slot_group: General
+      taxonomic_assign_tool:
+        name: taxonomic_assign_tool
+        rank: 83
+        slot_group: General
+      tea_bag_index:
+        name: tea_bag_index
+        rank: 84
+        slot_group: General
+      temperature:
+        name: temperature
+        rank: 85
+        slot_group: General
+      temporal_resolution:
+        name: temporal_resolution
+        rank: 86
+        slot_group: General
+      tissue_composition:
+        name: tissue_composition
+        rank: 87
+        slot_group: General
+      trace_gas_flux:
+        name: trace_gas_flux
+        rank: 88
+        slot_group: General
+      transpiration:
+        name: transpiration
+        rank: 89
+        slot_group: General
+      treatment_details:
+        name: treatment_details
+        rank: 90
+        slot_group: General
+      trimming_tool:
+        name: trimming_tool
+        rank: 91
+        slot_group: General
+      unique_seq_creation_tool:
+        name: unique_seq_creation_tool
+        rank: 92
+        slot_group: General
+      unique_seq_similarity_threshold:
+        name: unique_seq_similarity_threshold
+        rank: 93
+        slot_group: General
+  Container:
+    name: Container
+    tree_root: true
+    attributes:
+      name: EnvironmentalDnaData
+      multivalued: true
+      range: EnvironmentalDna
+      inlined_as_list: true
+slots:
+  above_ground_biomass:
+    name: above_ground_biomass
+    title: Aerial biomass
+    range: decimal
+    unit:
+      ucum_code: g
+    description: 'Shoot biomass (g). Example: 25.3'
+  analysis_method:
+    name: analysis_method
+    title: Analysis method
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: analysis_method
+    description: 'Sequence variant method. Example: \"asv\"'
+  analyst:
+    name: analyst
+    title: Analyst
+    range: WhitespaceMinimizedString
+    description: 'Person who performed the analyses. Example: \"Jean Martin\"'
+  analyst_affiliation:
+    name: analyst_affiliation
+    title: Analyst affiliation
+    range: WhitespaceMinimizedString
+    description: "Analyst\\'s institution. Example: \\\"CNRS LEM\\\""
+  average_seq_quality:
+    name: average_seq_quality
+    title: Average quality
+    range: decimal
+    description: 'Mean sequencing quality score (Q-score). Example: 30'
+  below_ground_biomass:
+    name: below_ground_biomass
+    title: Root biomass
+    range: decimal
+    unit:
+      ucum_code: g
+    description: 'Root biomass (g). Example: 10.2'
+  biocontrol_ability:
+    name: biocontrol_ability
+    title: Biocontrol
+    range: WhitespaceMinimizedString
+    description: 'Pathogen control capacity. Example: \"Fusarium oxysporum inhibition\"'
+  carotenoids_content:
+    name: carotenoids_content
+    title: Carotenoids
+    range: decimal
+    unit:
+      ucum_code: mg/g
+    description: 'Pigment content (mg/g DW). Example: 0.15'
+  chlorophyll_content:
+    name: chlorophyll_content
+    title: Chlorophyll
+    range: decimal
+    unit:
+      ucum_code: mg/g
+    description: 'Pigment content (mg/g DW). Example: 2.5'
+  colonisation_index:
+    name: colonisation_index
+    title: Colonization
+    range: decimal
+    unit:
+      ucum_code: '%'
+    description: 'Mycorrhizal colonization rate in %. Example: 75'
+  contamination_index:
+    name: contamination_index
+    title: Contamination
+    range: decimal
+    unit:
+      ucum_code: '%'
+    description: 'Contamination level in %. Example: 5'
+  crop:
+    name: crop
+    title: Crop type
+    range: WhitespaceMinimizedString
+    description: 'Plant species. Example: \"Zea mays\"'
+  crop_growth_promoting_ability:
+    name: crop_growth_promoting_ability
+    title: Growth promotion
+    range: WhitespaceMinimizedString
+    description: 'Plant growth enhancement. Example: \"Siderophore production\"'
+  crop_yield:
+    name: crop_yield
+    title: Crop yield
+    range: decimal
+    unit:
+      ucum_code: kg/ha
+    description: 'Agricultural production (kg/ha). Example: 5000'
+  data_curator:
+    name: data_curator
+    title: Data curator
+    range: WhitespaceMinimizedString
+    description: 'Data quality manager. Example: \"Pierre Lambert\"'
+  dataset_doi:
+    name: dataset_doi
+    title: Dataset DOI
+    range: WhitespaceMinimizedString
+    description: 'Persistent identifier for the dataset (Digital Object Identifier). Example: \"10.5281/zenodo.123456\"'
+  device_serial_number:
+    name: device_serial_number
+    title: Device serial number
+    range: WhitespaceMinimizedString
+    description: 'Equipment unique ID. Example: \"SN-2023-456\"'
+  disease_scale:
+    name: disease_scale
+    title: Disease index
+    range: decimal
+    description: 'Pathogen impact scale (0-5). Example: 2'
+  dna_quantity:
+    name: dna_quantity
+    title: DNA quantity
+    range: decimal
+    unit:
+      ucum_code: ng
+    description: 'Extracted DNA amount (ng). Example: 50'
+  electric_conductivity:
+    name: electric_conductivity
+    title: Conductivity
+    range: decimal
+    unit:
+      ucum_code: µS/cm
+    description: 'Substrate conductivity (µS/cm). Example: 1200'
+  experimental_design:
+    name: experimental_design
+    title: Experimental design
+    range: WhitespaceMinimizedString
+    description: 'Experimental scheme. Example: \"Randomized blocks\"'
+  extraction_protocol:
+    name: extraction_protocol
+    title: Extraction protocol
+    range: WhitespaceMinimizedString
+    description: 'DNA extraction method. Example: \"DNeasy PowerSoil Kit\"'
+  fermented_diet:
+    name: fermented_diet
+    title: Fermentation
+    range: WhitespaceMinimizedString
+    description: 'Fermentation conditions. Example: \"Lactic fermentation 48h\"'
+  filter_size:
+    name: filter_size
+    title: Filter size
+    range: decimal
+    unit:
+      ucum_code: µm
+    description: 'Filter size for water samples (micrometers). Example: 0.22'
+  filter_type:
+    name: filter_type
+    title: Filter type
+    range: WhitespaceMinimizedString
+    description: 'Filter material. Example: \"Polycarbonate\"'
+  flux_measurement_method:
+    name: flux_measurement_method
+    title: Flux method
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: flux_measurement_method
+    description: 'Measurement technique. Example: \"GC\" (Gas Chromatography)'
+  fruit_quality:
+    name: fruit_quality
+    title: Fruit quality
+    range: decimal
+    description: 'Fruit quality index (1-10 scale). Example: 8'
+  fwd_probe_name:
+    name: fwd_probe_name
+    title: FWD probe name
+    range: WhitespaceMinimizedString
+    description: 'Forward primer name. Example: \"515F\"'
+  fwd_probe_seq:
+    name: fwd_probe_seq
+    title: FWD probe sequence
+    range: WhitespaceMinimizedString
+    description: 'Forward primer sequence. Example: \"GTGCCAGCMGCCGCGGTAA\"'
+  gas:
+    name: gas
+    title: Gas type
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: gas
+    description: 'Measured gas type. Example: \"CH₄\"'
+  isolated_strains:
+    name: isolated_strains
+    title: Isolated strains
+    range: WhitespaceMinimizedString
+    description: 'Microbial isolates. Example: \"Bacillus subtilis XYZ\"'
+  larval_biomass_yield:
+    name: larval_biomass_yield
+    title: Larval biomass
+    range: decimal
+    unit:
+      ucum_code: g
+    description: 'Insect biomass yield (g). Example: 150'
+  larval_dry_diet:
+    name: larval_dry_diet
+    title: Dry diet
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: larval_dry_diet
+    description: 'Insect dry feed. Example: \"wheat\"'
+  larval_protein_content:
+    name: larval_protein_content
+    title: Larval protein
+    range: decimal
+    unit:
+      ucum_code: mg/g
+    description: 'Insect protein content (mg/g). Example: 200'
+  larval_wet_diet:
+    name: larval_wet_diet
+    title: Wet diet
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: larval_wet_diet
+    description: 'Insect wet feed. Example: \"carrot\"'
+  latitude:
+    name: latitude
+    title: Decimal latitude
+    range: decimal
+    unit:
+      ucum_code: degree
+    description: 'WGS84 coordinate (decimal degrees). Example: 48.8053'
+  leaf_water_potential:
+    name: leaf_water_potential
+    title: Leaf water potential
+    range: decimal
+    unit:
+      ucum_code: mmol/m²/s
+    description: 'Plant water status (-MPa). Example: 1.2'
+  lib_prep_protocol:
+    name: lib_prep_protocol
+    title: Library protocol
+    range: WhitespaceMinimizedString
+    description: 'Library preparation protocol. Example: \"Illumina 16S Metagenomic\"'
+  library:
+    name: library
+    title: Amplicon/library
+    range: WhitespaceMinimizedString
+    description: 'Targeted gene region. Example: \"16S rRNA V4-V5\"'
+  license:
+    name: license
+    title: License
+    range: WhitespaceMinimizedString
+    description: 'Data distribution license. Example: \"CC-BY-4.0\"'
+  location_name:
+    name: location_name
+    title: Location name
+    range: WhitespaceMinimizedString
+    description: 'Sampling site description. Example: \"Experimental Field A, Versailles\"'
+  longitude:
+    name: longitude
+    title: Decimal longitude
+    range: decimal
+    unit:
+      ucum_code: degree
+    description: 'WGS84 coordinate (decimal degrees). Example: 2.1211'
+  merging_tool:
+    name: merging_tool
+    title: Merging tool
+    range: WhitespaceMinimizedString
+    description: 'Read merging tool for paired-end data. Example: \"FLASH v1.2.11\"'
+  metadata_version:
+    name: metadata_version
+    title: Metadata version
+    range: WhitespaceMinimizedString
+    description: 'Version of the metadata schema used. Example: \"1.2\"'
+  method_citation:
+    name: method_citation
+    title: Method citation
+    range: WhitespaceMinimizedString
+    description: 'Protocol reference (DOI/standard). Example: \"doi:10.1038/nmeth.1234\"'
+  mushroom_biomass_yield:
+    name: mushroom_biomass_yield
+    title: Mushroom biomass
+    range: decimal
+    unit:
+      ucum_code: kg/kg
+    description: 'Fungal yield (kg/kg substrate). Example: 0.3'
+  mushroom_species:
+    name: mushroom_species
+    title: Mushroom species
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: mushroom_species
+    description: 'Fungal species. Example: \"Pleurotus ostreatus\"'
+  mushroom_substrate_conditioning:
+    name: mushroom_substrate_conditioning
+    title: Substrate prep
+    range: WhitespaceMinimizedString
+    description: 'Substrate preparation method. Example: \"Pasteurization 70°C\"'
+  mushroom_substrate_upcycling:
+    name: mushroom_substrate_upcycling
+    title: Substrate reuse
+    range: decimal
+    unit:
+      ucum_code: '%'
+    description: 'Reused substrate fraction (%). Example: 30'
+  number_of_cycles:
+    name: number_of_cycles
+    title: Number of cycles
+    range: decimal
+    unit:
+      ucum_code: count
+    description: 'PCR cycles. Example: 30'
+  pH_level:
+    name: pH_level
+    title: pH
+    range: decimal
+    description: 'Acidity level. Example: 6.8'
+  photosynthesis:
+    name: photosynthesis
+    title: Photosynthesis
+    range: decimal
+    unit:
+      ucum_code: µmol/m²/s
+    description: 'CO₂ assimilation rate (µmol/m²/s). Example: 20'
+  plant_height:
+    name: plant_height
+    title: Plant height
+    range: decimal
+    unit:
+      ucum_code: cm
+    description: 'Plant height (cm). Example: 150'
+  prep_type:
+    name: prep_type
+    title: Preparation type
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: prep_type
+    description: 'Molecular preparation type. Example: \"amplicon\"'
+  production:
+    name: production
+    title: Production
+    range: decimal
+    description: 'General yield indicator. Example: 85'
+  qc_flag:
+    name: qc_flag
+    title: QC flag
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: qc_flag
+    description: 'Measurement quality indicator. Example: \"pass\", \"suspect\", \"fail\"'
+  qc_protocol:
+    name: qc_protocol
+    title: QC protocol
+    range: WhitespaceMinimizedString
+    description: 'Quality control procedure. Example: \"16S sequence verification by PCR\"'
+  reactor_type:
+    name: reactor_type
+    title: Reactor type
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: reactor_type
+    description: 'Type of bioreactor. Example: \"Compost\"'
+  read_count:
+    name: read_count
+    title: Read count
+    range: decimal
+    unit:
+      ucum_code: count
+    description: 'Number of sequences (millions). Example: 10.5'
+  ref_database:
+    name: ref_database
+    title: Reference database
+    range: WhitespaceMinimizedString
+    description: 'Taxonomic reference database name and version. Example: \"SILVA 138.1\"'
+  replicates_count:
+    name: replicates_count
+    title: Replicates count
+    range: decimal
+    unit:
+      ucum_code: count
+    description: 'Number of technical replicates. Example: 3'
+  rev_probe_name:
+    name: rev_probe_name
+    title: REV probe name
+    range: WhitespaceMinimizedString
+    description: 'Reverse primer name. Example: \"806R\"'
+  rev_probe_seq:
+    name: rev_probe_seq
+    title: REV probe sequence
+    range: WhitespaceMinimizedString
+    description: 'Reverse primer sequence. Example: \"GGACTACHVGGGTWTCTAAT\"'
+  root_class:
+    name: root_class
+    title: Root class
+    range: decimal
+    unit:
+      ucum_code: count
+    description: 'Root classification. Example: 3 (1=taproot, 2=fibrous)'
+  root_forks:
+    name: root_forks
+    title: Root forks
+    range: decimal
+    unit:
+      ucum_code: count
+    description: 'Root branching points (count). Example: 45'
+  root_length:
+    name: root_length
+    title: Root length
+    range: decimal
+    unit:
+      ucum_code: cm
+    description: 'Total root length (cm). Example: 120'
+  root_tips:
+    name: root_tips
+    title: Root tips
+    range: decimal
+    unit:
+      ucum_code: count
+    description: 'Root apical points (count). Example: 200'
+  sample_name:
+    name: sample_name
+    title: Sample name
+    range: WhitespaceMinimizedString
+    description: 'Unique identifier for each sample. Example: \"Soil_2023_SiteA_Rep1\"'
+  sample_source_reactor:
+    name: sample_source_reactor
+    title: Sample source
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: sample_source_reactor
+    description: 'Position relative to reactor. Example: \"inside\"'
+  sample_type:
+    name: sample_type
+    title: Sample type
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: sample_type
+    description: 'Material nature. Example: \"soil\", \"water\"'
+  sampled_quantity:
+    name: sampled_quantity
+    title: Sampled quantity
+    range: decimal
+    unit:
+      ucum_code: g
+    description: 'Weight collected (grams). Example: 50'
+  sampler:
+    name: sampler
+    title: Sampler
+    range: WhitespaceMinimizedString
+    description: 'Person who performed the sampling. Format: \"Firstname Lastname\". Example: \"Marie Dupon\"'
+  sampler_affiliation:
+    name: sampler_affiliation
+    title: Sampler affiliation
+    range: WhitespaceMinimizedString
+    description: "Sampler\\'s institution. Example: \\\"INRAE UMR EcoSys\\\""
+  sampling_date:
+    name: sampling_date
+    title: Sampling date
+    range: DateTime
+    description: 'Collection date and time (ISO 8601). Example: \"2023-06-15T14:30:00+02:00\"'
+  sampling_depth:
+    name: sampling_depth
+    title: Sampling depth
+    range: decimal
+    unit:
+      ucum_code: m
+    description: 'Depth below surface (meters). Example: 0.2'
+  sampling_device:
+    name: sampling_device
+    title: Sampling device
+    range: WhitespaceMinimizedString
+    description: 'Equipment used. Example: \"Sterile corer\"'
+  sequencing_instrument:
+    name: sequencing_instrument
+    title: Sequencing instrument
+    range: WhitespaceMinimizedString
+    description: 'Sequencer model. Example: \"Illumina NovaSeq 6000\"'
+  sequencing_mode:
+    name: sequencing_mode
+    title: Sequencing mode
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: sequencing_mode
+    description: 'Read configuration. Example: \"pe\" (paired-end)'
+  soil_water_content:
+    name: soil_water_content
+    title: Water content
+    range: decimal
+    unit:
+      ucum_code: '%'
+    description: 'Soil moisture (%). Example: 22.5'
+  stomatal_conductance:
+    name: stomatal_conductance
+    title: Stomatal conductance
+    range: decimal
+    unit:
+      ucum_code: mmol/m²/s
+    description: 'Gas exchange rate (mmol/m²/s). Example: 0.5'
+  substrate_health_promoting_ability:
+    name: substrate_health_promoting_ability
+    title: Substrate health
+    range: WhitespaceMinimizedString
+    description: 'Substrate improvement. Example: \"PAH degradation\"'
+  survival_rate:
+    name: survival_rate
+    title: Survival rate
+    range: decimal
+    unit:
+      ucum_code: '%'
+    description: 'Plant survival rate (%). Example: 90'
+  taxonomic_assign_tool:
+    name: taxonomic_assign_tool
+    title: Taxonomy tool
+    range: WhitespaceMinimizedString
+    description: 'Taxonomy classification software. Example: \"QIIME2 q2-feature-classifier\"'
+  tea_bag_index:
+    name: tea_bag_index
+    title: Tea Bag Index
+    range: decimal
+    unit:
+      ucum_code: g/g
+    description: 'Decomposition rate indicator. Example: 0.05'
+  temperature:
+    name: temperature
+    title: Temperature
+    range: decimal
+    unit:
+      ucum_code: °C
+    description: 'Average temperature during experiment (°C). Example: 25.5'
+  temporal_resolution:
+    name: temporal_resolution
+    title: Temporal resolution
+    range: decimal
+    unit:
+      ucum_code: day
+    description: 'Measurement frequency. Example: \"daily\", \"weekly\"'
+  tissue_composition:
+    name: tissue_composition
+    title: Tissue comp
+    range: decimal
+    unit:
+      ucum_code: '%'
+    description: 'Biochemical composition (%). Example: 20 (dry matter)'
+  trace_gas_flux:
+    name: trace_gas_flux
+    title: Gas flux
+    range: decimal
+    unit:
+      ucum_code: nmol/g/h
+    description: 'Emission rate (nmol/g/h). Example: 15.2'
+  transpiration:
+    name: transpiration
+    title: Transpiration
+    range: decimal
+    unit:
+      ucum_code: mmol/m²/s
+    description: 'Water loss rate (mmol/m²/s). Example: 4.5'
+  treatment_details:
+    name: treatment_details
+    title: Treatment details
+    range: WhitespaceMinimizedString
+    description: 'Applied experimental conditions. Example: \"Irrigation at 50% field capacity\"'
+  trimming_tool:
+    name: trimming_tool
+    title: Trimming tool
+    range: WhitespaceMinimizedString
+    description: 'Read trimming software. Example: \"Trimmomatic v0.39\"'
+  unique_seq_creation_tool:
+    name: unique_seq_creation_tool
+    title: Dereplication tool
+    range: WhitespaceMinimizedString
+    description: 'Dereplication tool. Example: \"VSEARCH v2.18.0\"'
+  unique_seq_similarity_threshold:
+    name: unique_seq_similarity_threshold
+    title: Similarity threshold
+    range: decimal
+    unit:
+      ucum_code: '%'
+    description: 'Clustering cutoff (%). Example: 97'
+enums:
+  SettingsMenu:
+    name: SettingsMenu
+    title: Regular Expressions
+    permissible_values:
+      AllCaps:
+        title: AllCaps
+        description: Entries of any length with only capital letters
+      AlphaText1-50:
+        title: AlphaText1-50
+        description: Capital or lower case letters only, at least 1 character, and 50 characters max
+      AlphaText0-50:
+        title: AlphaText0-50
+        description: Capital or lower case letters only, 50 characters max
+      FreeText0-50:
+        title: FreeText0-50
+        description: Short text, 50 characters max
+      FreeText0-250:
+        title: FreeText0-250
+        description: Short text, 250 characters max
+      FreeText0-800:
+        title: FreeText0-800
+        description: Long text, 800 characters max
+      FreeText0-4000:
+        title: FreeText0-4000
+        description: Long text, 4000 characters max
+      CanadianPostalCode:
+        title: CanadianPostalCode
+        description: Canadian postal codes (A1A 1A1)
+      ZipCode:
+        title: ZipCode
+        description: USA Zip code
+      EmailAddress:
+        title: EmailAddress
+        description: Email address
+      URL:
+        title: URL
+        description: Secure (https) URL
+      PhoneNumber:
+        title: PhoneNumber
+        description: Phone number with international and area code component.
+      Latitude:
+        title: Latitude
+        description: Latitude in formats S30°15'45.678" or N12°30.999"
+      Longitude:
+        title: Longitude
+        description: Longitude in formats E30°15'45.678" or W90°00.000"
+      ISO_YYYY-MM-DD:
+        title: ISO_YYYY-MM-DD
+        description: year month day
+      ISO_YYYYMMDD:
+        title: ISO_YYYYMMDD
+      ISO_YYYY-MM:
+        title: ISO_YYYY-MM
+        description: year month
+      ISO_YYYY-Www:
+        title: ISO_YYYY-Www
+        description: year week (e.g. W01)
+      ISO_YYYYWww:
+        title: ISO_YYYYWww
+        description: year week (e.g. W01)
+      ISO_YYYY-DDD:
+        title: ISO_YYYY-DDD
+        description: Ordinal date (day number from the year)
+      ISO_YYYYDDD:
+        title: ISO_YYYYDDD
+        description: Ordinal date (day number from the year)
+      ISO_YYYY:
+        title: ISO_YYYY
+        description: year
+      ISO_MM:
+        title: ISO_MM
+        description: month
+      ISO_DD:
+        title: ISO_DD
+        description: day
+      ISO_YYYY-MM-DDTHH.MM.SSZ:
+        title: ISO_YYYY-MM-DDTHH:MM:SSZ
+        description: Date and Time Combined (UTC)
+      ISO_YYYY-MM-DDTHH.MM.SS-hh.mm:
+        title: ISO_YYYY-MM-DDTHH:MM:SS±hh:mm
+        description: Date and Time Combined (with Timezone Offset)
+      ISO_PnYnMnDTnHnMnS:
+        title: ISO_PnYnMnDTnHnMnS
+        description: durations e.g. P3Y6M4DT12H30M5S
+      ISO_HH.MM:
+        title: ISO_HH:MM
+        description: hour, minutes in 24 hour notation
+      ISO_HH.MM.SS:
+        title: ISO_HH:MM:SS
+        description: hour, minutes, seconds in 24 hour notation
+      SLASH_DD_MM_YYYY:
+        title: DD/MM/YYYY
+        description: day, month, year
+      SLASH_DD_MM_YY:
+        title: DD/MM/YY
+        description: day, month, year
+      SLASH_MM_DD_YYYY:
+        title: MM/DD/YYYY
+        description: month, day, year
+      DDMMYYYY:
+        title: DDMMYYYY
+        description: day, month, year
+      MMDDYYYY:
+        title: MMDDYYYY
+        description: month, day, year
+      YYYYMMDD:
+        title: YYYYMMDD
+        description: year, month, day
+      HH.MM.SS:
+        title: HH:MM:SS
+        description: hour, minutes, seconds 12 hour notation AM/PM
+      H.MM_or_HH.MM:
+        title: H:MM or HH:MM
+        description: hour, minutes AM/PM
+  analysis_method:
+    name: analysis_method
+    title: analysis_method
+    permissible_values:
+      asv:
+        text: asv
+        title: Amplicon Sequence Variant
+      otu:
+        text: otu
+        title: Operational Taxonomic Unit
+  flux_measurement_method:
+    name: flux_measurement_method
+    title: flux_measurement_method
+    permissible_values:
+      FC:
+        text: FC
+        title: Flux Chamber
+      GC:
+        text: GC
+        title: Gas Chromatography
+  gas:
+    name: gas
+    title: gas
+    permissible_values:
+      CH4:
+        text: CH4
+        title: CH4
+      CO2:
+        text: CO2
+        title: CO2
+      N2O:
+        text: N2O
+        title: N2O
+  larval_dry_diet:
+    name: larval_dry_diet
+    title: larval_dry_diet
+    permissible_values:
+      prorec:
+        text: prorec
+        title: prorec
+      wheat:
+        text: wheat
+        title: wheat
+  larval_wet_diet:
+    name: larval_wet_diet
+    title: larval_wet_diet
+    permissible_values:
+      carrot:
+        text: carrot
+        title: carrot
+      fermented mix:
+        text: fermented mix
+        title: fermented mix
+      puree:
+        text: puree
+        title: puree
+  mushroom_species:
+    name: mushroom_species
+    title: mushroom_species
+    permissible_values:
+      Ganoderma:
+        text: Ganoderma
+        title: Ganoderma
+      Pleurotus:
+        text: Pleurotus
+        title: Pleurotus
+  prep_type:
+    name: prep_type
+    title: prep_type
+    permissible_values:
+      amplicon:
+        text: amplicon
+        title: amplicon
+      gdna:
+        text: gdna
+        title: gdna
+      rna:
+        text: rna
+        title: rna
+  qc_flag:
+    name: qc_flag
+    title: qc_flag
+    permissible_values:
+      fail:
+        text: fail
+        title: fail
+      pass:
+        text: pass
+        title: pass
+      suspect:
+        text: suspect
+        title: suspect
+  reactor_type:
+    name: reactor_type
+    title: reactor_type
+    permissible_values:
+      Compost:
+        text: Compost
+        title: Compost
+      Mealworm:
+        text: Mealworm
+        title: Mealworm
+      Mushroom:
+        text: Mushroom
+        title: Mushroom
+  sample_source_reactor:
+    name: sample_source_reactor
+    title: sample_source_reactor
+    permissible_values:
+      Upstream:
+        text: Upstream
+        title: Upstream
+      downstream:
+        text: downstream
+        title: downstream
+      inside:
+        text: inside
+        title: inside
+  sample_type:
+    name: sample_type
+    title: sample_type
+    permissible_values:
+      plant:
+        text: plant
+        title: plant
+      reactor:
+        text: reactor
+        title: reactor
+      soil:
+        text: soil
+        title: soil
+      water:
+        text: water
+        title: water
+  sequencing_mode:
+    name: sequencing_mode
+    title: sequencing_mode
+    permissible_values:
+      pe:
+        text: pe
+        title: Paired-end
+      se:
+        text: se
+        title: Single-end
+types:
+  WhitespaceMinimizedString:
+    name: WhitespaceMinimizedString
+    typeof: string
+    description: 'A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).'
+    base: str
+    uri: xsd:token
+settings:
+  Title_Case: ((?<=\b)[^a-z\W]\w*?|[\W])+
+  UPPER_CASE: '[A-Z\W\d_]*'
+  lower_case: '[a-z\W\d_]*'
+  AllCaps: ^[A-Z]*$
+  AlphaText1-50: ^[A-Za-z]{1,50}$
+  AlphaText0-50: ^[A-Za-z]{0,50}$
+  FreeText0-50: ^.{0,50}$
+  FreeText0-250: ^.{0,250}$
+  FreeText0-800: ^.{0,800}$
+  FreeText0-4000: ^.{0,4000}$
+  CanadianPostalCode: ^[A-Z][0-9][A-Z]\s[0-9][A-Z][0-9]$
+  ZipCode: ^\d{5,6}(?:[-\s]\d{4})?$
+  EmailAddress: ^[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+
+  URL: ^https?\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,}$
+  PhoneNumber: ^\+?\(?\d{2,4}\)?[\d\s-]{3,}$
+  Latitude: ^[NS]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
+  Longitude: ^[WE]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
+  ISO_YYYY-MM-DD: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$
+  ISO_YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
+  ISO_YYYY-MM: ^(\d{4})-(0[1-9]|1[0-2])$
+  ISO_YYYY-Www: ^(?:\d{4})-W(0[1-9]|[1-4][0-9]|5[0-3])$
+  ISO_YYYYWww: ^(?:\d{4})W(0[1-9]|[1-4][0-9]|5[0-3])$
+  ISO_YYYY-DDD: ^(?:\d{4})-(00[1-9]|0[1-9][0-9]|[1-2][0-9]{2}|3[0-5][0-9]|36[0-6])$
+  ISO_YYYYDDD: ^(?:\d{4})(00[1-9]|0[1-9][0-9]|[1-2][0-9]{2}|3[0-5][0-9]|36[0-6])$
+  ISO_YYYY: ^(\d{4})$
+  ISO_MM: ^(0[1-9]|1[0-2])$
+  ISO_DD: ^(0[1-9]|[1-2][0-9]|3[01])$
+  ISO_YYYY-MM-DDTHH.MM.SSZ: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])T([01]\d|2[0-3]):([0-5]\d):([0-5]\d)Z$
+  ISO_YYYY-MM-DDTHH.MM.SS-hh.mm: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])T([01]\d|2[0-3]):([0-5]\d):([0-5]\\d)([+-][01]\\d:[0-5]\d)$
+  ISO_PnYnMnDTnHnMnS: ^P(?!$)((\d+Y)|(\d+.\d+Y)$)?((\d+M)|(\d+.\d+M)$)?((\d+W)|(\d+.\d+W)$)?((\d+D)|(\d+.\d+D)$)?(T(?=\d)((\d+H)|(\d+.\d+H)$)?((\d+M)|(\d+.\d+M)$)?(\d+(.\d+S)?)?)?$
+  ISO_HH.MM: ^([01]\d|2[0-3]):([0-5]\d)$
+  ISO_HH.MM.SS: ^([01]\d|2[0-3]):([0-5]\d):([0-5]\d)$
+  SLASH_DD_MM_YYYY: ^(0[1-9]|[12]\d|3[01])/(0[1-9]|1[0-2])/\d{4}$
+  SLASH_DD_MM_YY: ^(0[1-9]|[12]\d|3[01])/(0[1-9]|1[0-2])/\d{2}$
+  SLASH_MM_DD_YYYY: ^(0[1-9]|1[0-2])/(0[1-9]|[12]\d|3[01])/\d{4}$
+  DDMMYYYY: ^(0[1-9]|[12]\d|3[01])(0[1-9]|1[0-2])\d{4}$
+  MMDDYYYY: ^(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])\d{4}$
+  YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
+  HH.MM.SS: ^(0?[1-9]|1[0-2]):[0-5][0-9]:[0-5][0-9] ?[APMapm]{2}$
+  H.MM_or_HH.MM: ^(0?[1-9]|1[0-2]):[0-5][0-9] ?[APMapm]{2}$

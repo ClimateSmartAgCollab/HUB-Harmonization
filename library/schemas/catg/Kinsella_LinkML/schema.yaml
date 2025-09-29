@@ -1,0 +1,336 @@
+id: https://example.com/KinsellaCowProductionData
+name: KinsellaCowProductionData
+title: Kinsella Cow Production Data
+description: Version 3 of cow production data for Kinsella ranch.
+version: 0.0.0
+in_language: en
+imports:
+  - linkml:types
+prefixes:
+  linkml: https://w3id.org/linkml/
+classes:
+  KinsellaCowProductionData:
+    name: KinsellaCowProductionData
+    title: Kinsella Cow Production Data
+    description: Version 3 of cow production data for Kinsella ranch.
+    keywords: RDF402
+    slots:
+      - CF_BRDT_2024
+      - CW_AGE_JUL2025_YR
+      - CW_BRDT
+      - CW_GENO_ID
+      - CW_PGDT
+      - CW_PGPREG
+      - CW_PGWT_KG
+      - CW_Pred_PGWT_KG
+      - CW_REMARKS
+      - CW_TAG
+      - CW_YR_LETTER
+      - RANCH
+      - RFI_gEPD
+    slot_usage:
+      CF_BRDT_2024:
+        name: CF_BRDT_2024
+        rank: 1
+        slot_group: General
+      CW_AGE_JUL2025_YR:
+        name: CW_AGE_JUL2025_YR
+        rank: 2
+        slot_group: General
+      CW_BRDT:
+        name: CW_BRDT
+        rank: 3
+        slot_group: General
+      CW_GENO_ID:
+        name: CW_GENO_ID
+        rank: 4
+        slot_group: General
+      CW_PGDT:
+        name: CW_PGDT
+        rank: 5
+        slot_group: General
+      CW_PGPREG:
+        name: CW_PGPREG
+        rank: 6
+        slot_group: General
+      CW_PGWT_KG:
+        name: CW_PGWT_KG
+        rank: 7
+        slot_group: General
+      CW_Pred_PGWT_KG:
+        name: CW_Pred_PGWT_KG
+        rank: 8
+        slot_group: General
+      CW_REMARKS:
+        name: CW_REMARKS
+        rank: 9
+        slot_group: General
+      CW_TAG:
+        name: CW_TAG
+        rank: 10
+        slot_group: General
+      CW_YR_LETTER:
+        name: CW_YR_LETTER
+        rank: 11
+        slot_group: General
+      RANCH:
+        name: RANCH
+        rank: 12
+        slot_group: General
+      RFI_gEPD:
+        name: RFI_gEPD
+        rank: 13
+        slot_group: General
+  Container:
+    name: Container
+    tree_root: true
+    attributes:
+      name: KinsellaCowProductionDataData
+      multivalued: true
+      range: KinsellaCowProductionData
+      inlined_as_list: true
+slots:
+  CF_BRDT_2024:
+    name: CF_BRDT_2024
+    title: Calf Birth Date
+    range: DateTime
+    description: Date calf was born (YYYY-MM-DD)
+  CW_AGE_JUL2025_YR:
+    name: CW_AGE_JUL2025_YR
+    title: Age of Cow
+    range: decimal
+    description: Age (in years) of cow at the start of the trial, calculated from start date of trial period minus cow birthdate
+  CW_BRDT:
+    name: CW_BRDT
+    title: Cow Birth date
+    range: DateTime
+    description: The date cow was born (YYYY-MM-DD)
+  CW_GENO_ID:
+    name: CW_GENO_ID
+    title: Cow Genotype ID
+    range: WhitespaceMinimizedString
+    description: The genotype identification number of the cows
+  CW_PGDT:
+    name: CW_PGDT
+    title: Cow PregTest Date
+    range: DateTime
+    description: Date cow is Preg-Checked, and often the same date as the calf is weaned (YYYY-MM-DD)
+  CW_PGPREG:
+    name: CW_PGPREG
+    title: Pregnancy Status
+    range: WhitespaceMinimizedString
+    description: Pregnancy diagnosis of cow at preg-check (P=Pregnant;O=Open;.=missing data)
+  CW_PGWT_KG:
+    name: CW_PGWT_KG
+    title: Cow PregTest Weight
+    range: decimal
+    unit:
+      ucum_code: kg
+    description: Cow weight at preg check in kg, collected from raw weight files
+  CW_Pred_PGWT_KG:
+    name: CW_Pred_PGWT_KG
+    title: Cow predicted Pregnancy Weight
+    range: decimal
+    unit:
+      ucum_code: kg
+    description: Cow predicted Pregnancy Weight in kg
+  CW_REMARKS:
+    name: CW_REMARKS
+    title: General remarks about cow
+    range: WhitespaceMinimizedString
+    description: Will include general remarks about the cow before and after prebreed, ie. Treatments, notes regarding fostering, etc.
+  CW_TAG:
+    name: CW_TAG
+    title: Visual Cow Tag
+    range: WhitespaceMinimizedString
+    description: Corresponds to the visual cow ID tag
+  CW_YR_LETTER:
+    name: CW_YR_LETTER
+    title: Year Letter of Cow
+    range: WhitespaceMinimizedString
+    description: Letter that reflects the year animal was born in
+  RANCH:
+    name: RANCH
+    title: Ranch name
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: RANCH
+    description: The ranch where the animal belong (Kinsella or Mattheis)
+  RFI_gEPD:
+    name: RFI_gEPD
+    title: Cow genomic estimated Expected Progeny Difference
+    range: decimal
+    description: Cow genomic estimated Expected Progeny Difference
+enums:
+  SettingsMenu:
+    name: SettingsMenu
+    title: Regular Expressions
+    permissible_values:
+      AllCaps:
+        title: AllCaps
+        description: Entries of any length with only capital letters
+      AlphaText1-50:
+        title: AlphaText1-50
+        description: Capital or lower case letters only, at least 1 character, and 50 characters max
+      AlphaText0-50:
+        title: AlphaText0-50
+        description: Capital or lower case letters only, 50 characters max
+      FreeText0-50:
+        title: FreeText0-50
+        description: Short text, 50 characters max
+      FreeText0-250:
+        title: FreeText0-250
+        description: Short text, 250 characters max
+      FreeText0-800:
+        title: FreeText0-800
+        description: Long text, 800 characters max
+      FreeText0-4000:
+        title: FreeText0-4000
+        description: Long text, 4000 characters max
+      CanadianPostalCode:
+        title: CanadianPostalCode
+        description: Canadian postal codes (A1A 1A1)
+      ZipCode:
+        title: ZipCode
+        description: USA Zip code
+      EmailAddress:
+        title: EmailAddress
+        description: Email address
+      URL:
+        title: URL
+        description: Secure (https) URL
+      PhoneNumber:
+        title: PhoneNumber
+        description: Phone number with international and area code component.
+      Latitude:
+        title: Latitude
+        description: Latitude in formats S30°15'45.678" or N12°30.999"
+      Longitude:
+        title: Longitude
+        description: Longitude in formats E30°15'45.678" or W90°00.000"
+      ISO_YYYY-MM-DD:
+        title: ISO_YYYY-MM-DD
+        description: year month day
+      ISO_YYYYMMDD:
+        title: ISO_YYYYMMDD
+      ISO_YYYY-MM:
+        title: ISO_YYYY-MM
+        description: year month
+      ISO_YYYY-Www:
+        title: ISO_YYYY-Www
+        description: year week (e.g. W01)
+      ISO_YYYYWww:
+        title: ISO_YYYYWww
+        description: year week (e.g. W01)
+      ISO_YYYY-DDD:
+        title: ISO_YYYY-DDD
+        description: Ordinal date (day number from the year)
+      ISO_YYYYDDD:
+        title: ISO_YYYYDDD
+        description: Ordinal date (day number from the year)
+      ISO_YYYY:
+        title: ISO_YYYY
+        description: year
+      ISO_MM:
+        title: ISO_MM
+        description: month
+      ISO_DD:
+        title: ISO_DD
+        description: day
+      ISO_YYYY-MM-DDTHH.MM.SSZ:
+        title: ISO_YYYY-MM-DDTHH:MM:SSZ
+        description: Date and Time Combined (UTC)
+      ISO_YYYY-MM-DDTHH.MM.SS-hh.mm:
+        title: ISO_YYYY-MM-DDTHH:MM:SS±hh:mm
+        description: Date and Time Combined (with Timezone Offset)
+      ISO_PnYnMnDTnHnMnS:
+        title: ISO_PnYnMnDTnHnMnS
+        description: durations e.g. P3Y6M4DT12H30M5S
+      ISO_HH.MM:
+        title: ISO_HH:MM
+        description: hour, minutes in 24 hour notation
+      ISO_HH.MM.SS:
+        title: ISO_HH:MM:SS
+        description: hour, minutes, seconds in 24 hour notation
+      SLASH_DD_MM_YYYY:
+        title: DD/MM/YYYY
+        description: day, month, year
+      SLASH_DD_MM_YY:
+        title: DD/MM/YY
+        description: day, month, year
+      SLASH_MM_DD_YYYY:
+        title: MM/DD/YYYY
+        description: month, day, year
+      DDMMYYYY:
+        title: DDMMYYYY
+        description: day, month, year
+      MMDDYYYY:
+        title: MMDDYYYY
+        description: month, day, year
+      YYYYMMDD:
+        title: YYYYMMDD
+        description: year, month, day
+      HH.MM.SS:
+        title: HH:MM:SS
+        description: hour, minutes, seconds 12 hour notation AM/PM
+      H.MM_or_HH.MM:
+        title: H:MM or HH:MM
+        description: hour, minutes AM/PM
+  RANCH:
+    name: RANCH
+    title: RANCH
+    permissible_values:
+      Kinsella:
+        text: Kinsella
+        title: Kinsella
+      Mattheis:
+        text: Mattheis
+        title: Mattheis
+types:
+  WhitespaceMinimizedString:
+    name: WhitespaceMinimizedString
+    typeof: string
+    description: 'A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).'
+    base: str
+    uri: xsd:token
+settings:
+  Title_Case: ((?<=\b)[^a-z\W]\w*?|[\W])+
+  UPPER_CASE: '[A-Z\W\d_]*'
+  lower_case: '[a-z\W\d_]*'
+  AllCaps: ^[A-Z]*$
+  AlphaText1-50: ^[A-Za-z]{1,50}$
+  AlphaText0-50: ^[A-Za-z]{0,50}$
+  FreeText0-50: ^.{0,50}$
+  FreeText0-250: ^.{0,250}$
+  FreeText0-800: ^.{0,800}$
+  FreeText0-4000: ^.{0,4000}$
+  CanadianPostalCode: ^[A-Z][0-9][A-Z]\s[0-9][A-Z][0-9]$
+  ZipCode: ^\d{5,6}(?:[-\s]\d{4})?$
+  EmailAddress: ^[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+
+  URL: ^https?\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,}$
+  PhoneNumber: ^\+?\(?\d{2,4}\)?[\d\s-]{3,}$
+  Latitude: ^[NS]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
+  Longitude: ^[WE]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
+  ISO_YYYY-MM-DD: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$
+  ISO_YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
+  ISO_YYYY-MM: ^(\d{4})-(0[1-9]|1[0-2])$
+  ISO_YYYY-Www: ^(?:\d{4})-W(0[1-9]|[1-4][0-9]|5[0-3])$
+  ISO_YYYYWww: ^(?:\d{4})W(0[1-9]|[1-4][0-9]|5[0-3])$
+  ISO_YYYY-DDD: ^(?:\d{4})-(00[1-9]|0[1-9][0-9]|[1-2][0-9]{2}|3[0-5][0-9]|36[0-6])$
+  ISO_YYYYDDD: ^(?:\d{4})(00[1-9]|0[1-9][0-9]|[1-2][0-9]{2}|3[0-5][0-9]|36[0-6])$
+  ISO_YYYY: ^(\d{4})$
+  ISO_MM: ^(0[1-9]|1[0-2])$
+  ISO_DD: ^(0[1-9]|[1-2][0-9]|3[01])$
+  ISO_YYYY-MM-DDTHH.MM.SSZ: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])T([01]\d|2[0-3]):([0-5]\d):([0-5]\d)Z$
+  ISO_YYYY-MM-DDTHH.MM.SS-hh.mm: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])T([01]\d|2[0-3]):([0-5]\d):([0-5]\\d)([+-][01]\\d:[0-5]\d)$
+  ISO_PnYnMnDTnHnMnS: ^P(?!$)((\d+Y)|(\d+.\d+Y)$)?((\d+M)|(\d+.\d+M)$)?((\d+W)|(\d+.\d+W)$)?((\d+D)|(\d+.\d+D)$)?(T(?=\d)((\d+H)|(\d+.\d+H)$)?((\d+M)|(\d+.\d+M)$)?(\d+(.\d+S)?)?)?$
+  ISO_HH.MM: ^([01]\d|2[0-3]):([0-5]\d)$
+  ISO_HH.MM.SS: ^([01]\d|2[0-3]):([0-5]\d):([0-5]\d)$
+  SLASH_DD_MM_YYYY: ^(0[1-9]|[12]\d|3[01])/(0[1-9]|1[0-2])/\d{4}$
+  SLASH_DD_MM_YY: ^(0[1-9]|[12]\d|3[01])/(0[1-9]|1[0-2])/\d{2}$
+  SLASH_MM_DD_YYYY: ^(0[1-9]|1[0-2])/(0[1-9]|[12]\d|3[01])/\d{4}$
+  DDMMYYYY: ^(0[1-9]|[12]\d|3[01])(0[1-9]|1[0-2])\d{4}$
+  MMDDYYYY: ^(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])\d{4}$
+  YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
+  HH.MM.SS: ^(0?[1-9]|1[0-2]):[0-5][0-9]:[0-5][0-9] ?[APMapm]{2}$
+  H.MM_or_HH.MM: ^(0?[1-9]|1[0-2]):[0-5][0-9] ?[APMapm]{2}$

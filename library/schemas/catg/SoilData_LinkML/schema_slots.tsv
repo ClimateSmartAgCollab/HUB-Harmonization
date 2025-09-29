@@ -1,0 +1,15 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+Soildata	General		After_Moisture_Weight		decimal								True								
+Soildata	General		Before_Moisture_Weight		decimal								True								
+Soildata	General		C_N_Weight		decimal								True								
+Soildata	General		Carbon_Weight		decimal								True								
+Soildata	General		Comments		WhitespaceMinimizedString								True								
+Soildata	General		Necromass_Weight		decimal								True								
+Soildata	General		Nitrogen_Weight		decimal								True								
+Soildata	General		Percent_Moisture		decimal								True								
+Soildata	General		Phosphorous_Weight		decimal								True								
+Soildata	General		Plot_ID		decimal							True									
+Soildata	General		Ranch		WhitespaceMinimizedString	Ranch						True									
+Soildata	General		Soil_pH		decimal								True								
+Soildata	General		Texture_Weight		decimal								True								
+Soildata	General		pH_Weight		decimal								True								

@@ -1,0 +1,94 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+EnvironmentalDna	General		above_ground_biomass	Aerial biomass	decimal		g											Shoot biomass (g). Example: 25.3			
+EnvironmentalDna	General		analysis_method	Analysis method	WhitespaceMinimizedString	analysis_method												"Sequence variant method. Example: \""asv\"""			
+EnvironmentalDna	General		analyst	Analyst	WhitespaceMinimizedString													"Person who performed the analyses. Example: \""Jean Martin\"""			
+EnvironmentalDna	General		analyst_affiliation	Analyst affiliation	WhitespaceMinimizedString													"Analyst\'s institution. Example: \""CNRS LEM\"""			
+EnvironmentalDna	General		average_seq_quality	Average quality	decimal													Mean sequencing quality score (Q-score). Example: 30			
+EnvironmentalDna	General		below_ground_biomass	Root biomass	decimal		g											Root biomass (g). Example: 10.2			
+EnvironmentalDna	General		biocontrol_ability	Biocontrol	WhitespaceMinimizedString													"Pathogen control capacity. Example: \""Fusarium oxysporum inhibition\"""			
+EnvironmentalDna	General		carotenoids_content	Carotenoids	decimal		mg/g											Pigment content (mg/g DW). Example: 0.15			
+EnvironmentalDna	General		chlorophyll_content	Chlorophyll	decimal		mg/g											Pigment content (mg/g DW). Example: 2.5			
+EnvironmentalDna	General		colonisation_index	Colonization	decimal		%											Mycorrhizal colonization rate in %. Example: 75			
+EnvironmentalDna	General		contamination_index	Contamination	decimal		%											Contamination level in %. Example: 5			
+EnvironmentalDna	General		crop	Crop type	WhitespaceMinimizedString													"Plant species. Example: \""Zea mays\"""			
+EnvironmentalDna	General		crop_growth_promoting_ability	Growth promotion	WhitespaceMinimizedString													"Plant growth enhancement. Example: \""Siderophore production\"""			
+EnvironmentalDna	General		crop_yield	Crop yield	decimal		kg/ha											Agricultural production (kg/ha). Example: 5000			
+EnvironmentalDna	General		data_curator	Data curator	WhitespaceMinimizedString													"Data quality manager. Example: \""Pierre Lambert\"""			
+EnvironmentalDna	General		dataset_doi	Dataset DOI	WhitespaceMinimizedString													"Persistent identifier for the dataset (Digital Object Identifier). Example: \""10.5281/zenodo.123456\"""			
+EnvironmentalDna	General		device_serial_number	Device serial number	WhitespaceMinimizedString													"Equipment unique ID. Example: \""SN-2023-456\"""			
+EnvironmentalDna	General		disease_scale	Disease index	decimal													Pathogen impact scale (0-5). Example: 2			
+EnvironmentalDna	General		dna_quantity	DNA quantity	decimal		ng											Extracted DNA amount (ng). Example: 50			
+EnvironmentalDna	General		electric_conductivity	Conductivity	decimal		µS/cm											Substrate conductivity (µS/cm). Example: 1200			
+EnvironmentalDna	General		experimental_design	Experimental design	WhitespaceMinimizedString													"Experimental scheme. Example: \""Randomized blocks\"""			
+EnvironmentalDna	General		extraction_protocol	Extraction protocol	WhitespaceMinimizedString													"DNA extraction method. Example: \""DNeasy PowerSoil Kit\"""			
+EnvironmentalDna	General		fermented_diet	Fermentation	WhitespaceMinimizedString													"Fermentation conditions. Example: \""Lactic fermentation 48h\"""			
+EnvironmentalDna	General		filter_size	Filter size	decimal		µm											Filter size for water samples (micrometers). Example: 0.22			
+EnvironmentalDna	General		filter_type	Filter type	WhitespaceMinimizedString													"Filter material. Example: \""Polycarbonate\"""			
+EnvironmentalDna	General		flux_measurement_method	Flux method	WhitespaceMinimizedString	flux_measurement_method												"Measurement technique. Example: \""GC\"" (Gas Chromatography)"			
+EnvironmentalDna	General		fruit_quality	Fruit quality	decimal													Fruit quality index (1-10 scale). Example: 8			
+EnvironmentalDna	General		fwd_probe_name	FWD probe name	WhitespaceMinimizedString													"Forward primer name. Example: \""515F\"""			
+EnvironmentalDna	General		fwd_probe_seq	FWD probe sequence	WhitespaceMinimizedString													"Forward primer sequence. Example: \""GTGCCAGCMGCCGCGGTAA\"""			
+EnvironmentalDna	General		gas	Gas type	WhitespaceMinimizedString	gas												"Measured gas type. Example: \""CH₄\"""			
+EnvironmentalDna	General		isolated_strains	Isolated strains	WhitespaceMinimizedString													"Microbial isolates. Example: \""Bacillus subtilis XYZ\"""			
+EnvironmentalDna	General		larval_biomass_yield	Larval biomass	decimal		g											Insect biomass yield (g). Example: 150			
+EnvironmentalDna	General		larval_dry_diet	Dry diet	WhitespaceMinimizedString	larval_dry_diet												"Insect dry feed. Example: \""wheat\"""			
+EnvironmentalDna	General		larval_protein_content	Larval protein	decimal		mg/g											Insect protein content (mg/g). Example: 200			
+EnvironmentalDna	General		larval_wet_diet	Wet diet	WhitespaceMinimizedString	larval_wet_diet												"Insect wet feed. Example: \""carrot\"""			
+EnvironmentalDna	General		latitude	Decimal latitude	decimal		degree											WGS84 coordinate (decimal degrees). Example: 48.8053			
+EnvironmentalDna	General		leaf_water_potential	Leaf water potential	decimal		mmol/m²/s											Plant water status (-MPa). Example: 1.2			
+EnvironmentalDna	General		lib_prep_protocol	Library protocol	WhitespaceMinimizedString													"Library preparation protocol. Example: \""Illumina 16S Metagenomic\"""			
+EnvironmentalDna	General		library	Amplicon/library	WhitespaceMinimizedString													"Targeted gene region. Example: \""16S rRNA V4-V5\"""			
+EnvironmentalDna	General		license	License	WhitespaceMinimizedString													"Data distribution license. Example: \""CC-BY-4.0\"""			
+EnvironmentalDna	General		location_name	Location name	WhitespaceMinimizedString													"Sampling site description. Example: \""Experimental Field A, Versailles\"""			
+EnvironmentalDna	General		longitude	Decimal longitude	decimal		degree											WGS84 coordinate (decimal degrees). Example: 2.1211			
+EnvironmentalDna	General		merging_tool	Merging tool	WhitespaceMinimizedString													"Read merging tool for paired-end data. Example: \""FLASH v1.2.11\"""			
+EnvironmentalDna	General		metadata_version	Metadata version	WhitespaceMinimizedString													"Version of the metadata schema used. Example: \""1.2\"""			
+EnvironmentalDna	General		method_citation	Method citation	WhitespaceMinimizedString													"Protocol reference (DOI/standard). Example: \""doi:10.1038/nmeth.1234\"""			
+EnvironmentalDna	General		mushroom_biomass_yield	Mushroom biomass	decimal		kg/kg											Fungal yield (kg/kg substrate). Example: 0.3			
+EnvironmentalDna	General		mushroom_species	Mushroom species	WhitespaceMinimizedString	mushroom_species												"Fungal species. Example: \""Pleurotus ostreatus\"""			
+EnvironmentalDna	General		mushroom_substrate_conditioning	Substrate prep	WhitespaceMinimizedString													"Substrate preparation method. Example: \""Pasteurization 70°C\"""			
+EnvironmentalDna	General		mushroom_substrate_upcycling	Substrate reuse	decimal		%											Reused substrate fraction (%). Example: 30			
+EnvironmentalDna	General		number_of_cycles	Number of cycles	decimal		count											PCR cycles. Example: 30			
+EnvironmentalDna	General		pH_level	pH	decimal													Acidity level. Example: 6.8			
+EnvironmentalDna	General		photosynthesis	Photosynthesis	decimal		µmol/m²/s											CO₂ assimilation rate (µmol/m²/s). Example: 20			
+EnvironmentalDna	General		plant_height	Plant height	decimal		cm											Plant height (cm). Example: 150			
+EnvironmentalDna	General		prep_type	Preparation type	WhitespaceMinimizedString	prep_type												"Molecular preparation type. Example: \""amplicon\"""			
+EnvironmentalDna	General		production	Production	decimal													General yield indicator. Example: 85			
+EnvironmentalDna	General		qc_flag	QC flag	WhitespaceMinimizedString	qc_flag												"Measurement quality indicator. Example: \""pass\"", \""suspect\"", \""fail\"""			
+EnvironmentalDna	General		qc_protocol	QC protocol	WhitespaceMinimizedString													"Quality control procedure. Example: \""16S sequence verification by PCR\"""			
+EnvironmentalDna	General		reactor_type	Reactor type	WhitespaceMinimizedString	reactor_type												"Type of bioreactor. Example: \""Compost\"""			
+EnvironmentalDna	General		read_count	Read count	decimal		count											Number of sequences (millions). Example: 10.5			
+EnvironmentalDna	General		ref_database	Reference database	WhitespaceMinimizedString													"Taxonomic reference database name and version. Example: \""SILVA 138.1\"""			
+EnvironmentalDna	General		replicates_count	Replicates count	decimal		count											Number of technical replicates. Example: 3			
+EnvironmentalDna	General		rev_probe_name	REV probe name	WhitespaceMinimizedString													"Reverse primer name. Example: \""806R\"""			
+EnvironmentalDna	General		rev_probe_seq	REV probe sequence	WhitespaceMinimizedString													"Reverse primer sequence. Example: \""GGACTACHVGGGTWTCTAAT\"""			
+EnvironmentalDna	General		root_class	Root class	decimal		count											Root classification. Example: 3 (1=taproot, 2=fibrous)			
+EnvironmentalDna	General		root_forks	Root forks	decimal		count											Root branching points (count). Example: 45			
+EnvironmentalDna	General		root_length	Root length	decimal		cm											Total root length (cm). Example: 120			
+EnvironmentalDna	General		root_tips	Root tips	decimal		count											Root apical points (count). Example: 200			
+EnvironmentalDna	General		sample_name	Sample name	WhitespaceMinimizedString													"Unique identifier for each sample. Example: \""Soil_2023_SiteA_Rep1\"""			
+EnvironmentalDna	General		sample_source_reactor	Sample source	WhitespaceMinimizedString	sample_source_reactor												"Position relative to reactor. Example: \""inside\"""			
+EnvironmentalDna	General		sample_type	Sample type	WhitespaceMinimizedString	sample_type												"Material nature. Example: \""soil\"", \""water\"""			
+EnvironmentalDna	General		sampled_quantity	Sampled quantity	decimal		g											Weight collected (grams). Example: 50			
+EnvironmentalDna	General		sampler	Sampler	WhitespaceMinimizedString													"Person who performed the sampling. Format: \""Firstname Lastname\"". Example: \""Marie Dupon\"""			
+EnvironmentalDna	General		sampler_affiliation	Sampler affiliation	WhitespaceMinimizedString													"Sampler\'s institution. Example: \""INRAE UMR EcoSys\"""			
+EnvironmentalDna	General		sampling_date	Sampling date	DateTime													"Collection date and time (ISO 8601). Example: \""2023-06-15T14:30:00+02:00\"""			
+EnvironmentalDna	General		sampling_depth	Sampling depth	decimal		m											Depth below surface (meters). Example: 0.2			
+EnvironmentalDna	General		sampling_device	Sampling device	WhitespaceMinimizedString													"Equipment used. Example: \""Sterile corer\"""			
+EnvironmentalDna	General		sequencing_instrument	Sequencing instrument	WhitespaceMinimizedString													"Sequencer model. Example: \""Illumina NovaSeq 6000\"""			
+EnvironmentalDna	General		sequencing_mode	Sequencing mode	WhitespaceMinimizedString	sequencing_mode												"Read configuration. Example: \""pe\"" (paired-end)"			
+EnvironmentalDna	General		soil_water_content	Water content	decimal		%											Soil moisture (%). Example: 22.5			
+EnvironmentalDna	General		stomatal_conductance	Stomatal conductance	decimal		mmol/m²/s											Gas exchange rate (mmol/m²/s). Example: 0.5			
+EnvironmentalDna	General		substrate_health_promoting_ability	Substrate health	WhitespaceMinimizedString													"Substrate improvement. Example: \""PAH degradation\"""			
+EnvironmentalDna	General		survival_rate	Survival rate	decimal		%											Plant survival rate (%). Example: 90			
+EnvironmentalDna	General		taxonomic_assign_tool	Taxonomy tool	WhitespaceMinimizedString													"Taxonomy classification software. Example: \""QIIME2 q2-feature-classifier\"""			
+EnvironmentalDna	General		tea_bag_index	Tea Bag Index	decimal		g/g											Decomposition rate indicator. Example: 0.05			
+EnvironmentalDna	General		temperature	Temperature	decimal		°C											Average temperature during experiment (°C). Example: 25.5			
+EnvironmentalDna	General		temporal_resolution	Temporal resolution	decimal		day											"Measurement frequency. Example: \""daily\"", \""weekly\"""			
+EnvironmentalDna	General		tissue_composition	Tissue comp	decimal		%											Biochemical composition (%). Example: 20 (dry matter)			
+EnvironmentalDna	General		trace_gas_flux	Gas flux	decimal		nmol/g/h											Emission rate (nmol/g/h). Example: 15.2			
+EnvironmentalDna	General		transpiration	Transpiration	decimal		mmol/m²/s											Water loss rate (mmol/m²/s). Example: 4.5			
+EnvironmentalDna	General		treatment_details	Treatment details	WhitespaceMinimizedString													"Applied experimental conditions. Example: \""Irrigation at 50% field capacity\"""			
+EnvironmentalDna	General		trimming_tool	Trimming tool	WhitespaceMinimizedString													"Read trimming software. Example: \""Trimmomatic v0.39\"""			
+EnvironmentalDna	General		unique_seq_creation_tool	Dereplication tool	WhitespaceMinimizedString													"Dereplication tool. Example: \""VSEARCH v2.18.0\"""			
+EnvironmentalDna	General		unique_seq_similarity_threshold	Similarity threshold	decimal		%											Clustering cutoff (%). Example: 97			

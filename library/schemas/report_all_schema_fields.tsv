@@ -75,6 +75,39 @@ BENEFIT	CCASM	CcasmStrainCollection	General		notes	Notes	WhitespaceMinimizedStri
 BENEFIT	CCASM	CcasmStrainCollection	General		risk_group	Risk group	decimal	risk_group						True				^-?[0-9]+$		The risk group (1, 2, 3, 4) of the isolate, if known			
 BENEFIT	CCASM	CcasmStrainCollection	General		strain_name	Strain name(s)	WhitespaceMinimizedString							True				^.{0,4000}$		Other strain name(s) of the isolate			
 BENEFIT	CCASM	CcasmStrainCollection	General		taxonomic_lineage	Full taxonomic lineage	WhitespaceMinimizedString							True				^.{0,4000}$		The full taxonomic lineage of the isolate			
+catg	Kinsella	KinsellaCowProductionData	General		CF_BRDT_2024	Calf Birth Date	DateTime													Date calf was born (YYYY-MM-DD)			
+catg	Kinsella	KinsellaCowProductionData	General		CW_AGE_JUL2025_YR	Age of Cow	decimal													Age (in years) of cow at the start of the trial, calculated from start date of trial period minus cow birthdate			
+catg	Kinsella	KinsellaCowProductionData	General		CW_BRDT	Cow Birth date	DateTime													The date cow was born (YYYY-MM-DD)			
+catg	Kinsella	KinsellaCowProductionData	General		CW_GENO_ID	Cow Genotype ID	WhitespaceMinimizedString													The genotype identification number of the cows			
+catg	Kinsella	KinsellaCowProductionData	General		CW_PGDT	Cow PregTest Date	DateTime													Date cow is Preg-Checked, and often the same date as the calf is weaned (YYYY-MM-DD)			
+catg	Kinsella	KinsellaCowProductionData	General		CW_PGPREG	Pregnancy Status	WhitespaceMinimizedString													Pregnancy diagnosis of cow at preg-check (P=Pregnant;O=Open;.=missing data)			
+catg	Kinsella	KinsellaCowProductionData	General		CW_PGWT_KG	Cow PregTest Weight	decimal		kg											Cow weight at preg check in kg, collected from raw weight files			
+catg	Kinsella	KinsellaCowProductionData	General		CW_Pred_PGWT_KG	Cow predicted Pregnancy Weight	decimal		kg											Cow predicted Pregnancy Weight in kg			
+catg	Kinsella	KinsellaCowProductionData	General		CW_REMARKS	General remarks about cow	WhitespaceMinimizedString													Will include general remarks about the cow before and after prebreed, ie. Treatments, notes regarding fostering, etc.			
+catg	Kinsella	KinsellaCowProductionData	General		CW_TAG	Visual Cow Tag	WhitespaceMinimizedString													Corresponds to the visual cow ID tag			
+catg	Kinsella	KinsellaCowProductionData	General		CW_YR_LETTER	Year Letter of Cow	WhitespaceMinimizedString													Letter that reflects the year animal was born in			
+catg	Kinsella	KinsellaCowProductionData	General		RANCH	Ranch name	WhitespaceMinimizedString	RANCH												The ranch where the animal belong (Kinsella or Mattheis)			
+catg	Kinsella	KinsellaCowProductionData	General		RFI_gEPD	Cow genomic estimated Expected Progeny Difference	decimal													Cow genomic estimated Expected Progeny Difference			
+catg	Soil_Moisture	SoilMoistureMonthly	General		ENV_PROBEMOIS	Probe Moisture Reading	decimal																
+catg	Soil_Moisture	SoilMoistureMonthly	General		MONTH	Month in which data was taken	WhitespaceMinimizedString	MONTH															
+catg	Soil_Moisture	SoilMoistureMonthly	General		OBSERVERS	Initials of individuals who took data sample	WhitespaceMinimizedString																
+catg	Soil_Moisture	SoilMoistureMonthly	General		PLOT	Plot number	decimal																
+catg	Soil_Moisture	SoilMoistureMonthly	General		RANCH	Ranch name	WhitespaceMinimizedString	RANCH															
+catg	Soil_Moisture	SoilMoistureMonthly	General		SAMPLEDATE	Date soil moisture was sampled	DateTime																
+catg	SoilData	Soildata	General		After_Moisture_Weight		decimal								True								
+catg	SoilData	Soildata	General		Before_Moisture_Weight		decimal								True								
+catg	SoilData	Soildata	General		C_N_Weight		decimal								True								
+catg	SoilData	Soildata	General		Carbon_Weight		decimal								True								
+catg	SoilData	Soildata	General		Comments		WhitespaceMinimizedString								True								
+catg	SoilData	Soildata	General		Necromass_Weight		decimal								True								
+catg	SoilData	Soildata	General		Nitrogen_Weight		decimal								True								
+catg	SoilData	Soildata	General		Percent_Moisture		decimal								True								
+catg	SoilData	Soildata	General		Phosphorous_Weight		decimal								True								
+catg	SoilData	Soildata	General		Plot_ID		decimal							True									
+catg	SoilData	Soildata	General		Ranch		WhitespaceMinimizedString	Ranch						True									
+catg	SoilData	Soildata	General		Soil_pH		decimal								True								
+catg	SoilData	Soildata	General		Texture_Weight		decimal								True								
+catg	SoilData	Soildata	General		pH_Weight		decimal								True								
 Cell_cultured	Bioreactor	BioreactorBatches	General		cell_type		WhitespaceMinimizedString																
 Cell_cultured	Bioreactor	BioreactorBatches	General		doubling_time		WhitespaceMinimizedString		hours														
 Cell_cultured	Bioreactor	BioreactorBatches	General		final_cell_count		decimal		cells/mL														
@@ -331,6 +364,194 @@ GG4GHG	Community	CommunityCompositionData	General		Viola.adunca		decimal								
 GG4GHG	Community	CommunityCompositionData	General		Viola.vallicola		decimal								True			^-?[0-9]+$					
 GG4GHG	Community	CommunityCompositionData	General		Xanthisma.spinulosum		decimal								True			^-?[0-9]+$					
 GG4GHG	Community	CommunityCompositionData	General		Zizia.aptera		decimal								True			^-?[0-9]+$					
+loop	environmental_DNA	EnvironmentalDna	General		above_ground_biomass	Aerial biomass	decimal		g											Shoot biomass (g). Example: 25.3			
+loop	environmental_DNA	EnvironmentalDna	General		analysis_method	Analysis method	WhitespaceMinimizedString	analysis_method												"Sequence variant method. Example: \""asv\"""			
+loop	environmental_DNA	EnvironmentalDna	General		analyst	Analyst	WhitespaceMinimizedString													"Person who performed the analyses. Example: \""Jean Martin\"""			
+loop	environmental_DNA	EnvironmentalDna	General		analyst_affiliation	Analyst affiliation	WhitespaceMinimizedString													"Analyst\'s institution. Example: \""CNRS LEM\"""			
+loop	environmental_DNA	EnvironmentalDna	General		average_seq_quality	Average quality	decimal													Mean sequencing quality score (Q-score). Example: 30			
+loop	environmental_DNA	EnvironmentalDna	General		below_ground_biomass	Root biomass	decimal		g											Root biomass (g). Example: 10.2			
+loop	environmental_DNA	EnvironmentalDna	General		biocontrol_ability	Biocontrol	WhitespaceMinimizedString													"Pathogen control capacity. Example: \""Fusarium oxysporum inhibition\"""			
+loop	environmental_DNA	EnvironmentalDna	General		carotenoids_content	Carotenoids	decimal		mg/g											Pigment content (mg/g DW). Example: 0.15			
+loop	environmental_DNA	EnvironmentalDna	General		chlorophyll_content	Chlorophyll	decimal		mg/g											Pigment content (mg/g DW). Example: 2.5			
+loop	environmental_DNA	EnvironmentalDna	General		colonisation_index	Colonization	decimal		%											Mycorrhizal colonization rate in %. Example: 75			
+loop	environmental_DNA	EnvironmentalDna	General		contamination_index	Contamination	decimal		%											Contamination level in %. Example: 5			
+loop	environmental_DNA	EnvironmentalDna	General		crop	Crop type	WhitespaceMinimizedString													"Plant species. Example: \""Zea mays\"""			
+loop	environmental_DNA	EnvironmentalDna	General		crop_growth_promoting_ability	Growth promotion	WhitespaceMinimizedString													"Plant growth enhancement. Example: \""Siderophore production\"""			
+loop	environmental_DNA	EnvironmentalDna	General		crop_yield	Crop yield	decimal		kg/ha											Agricultural production (kg/ha). Example: 5000			
+loop	environmental_DNA	EnvironmentalDna	General		data_curator	Data curator	WhitespaceMinimizedString													"Data quality manager. Example: \""Pierre Lambert\"""			
+loop	environmental_DNA	EnvironmentalDna	General		dataset_doi	Dataset DOI	WhitespaceMinimizedString													"Persistent identifier for the dataset (Digital Object Identifier). Example: \""10.5281/zenodo.123456\"""			
+loop	environmental_DNA	EnvironmentalDna	General		device_serial_number	Device serial number	WhitespaceMinimizedString													"Equipment unique ID. Example: \""SN-2023-456\"""			
+loop	environmental_DNA	EnvironmentalDna	General		disease_scale	Disease index	decimal													Pathogen impact scale (0-5). Example: 2			
+loop	environmental_DNA	EnvironmentalDna	General		dna_quantity	DNA quantity	decimal		ng											Extracted DNA amount (ng). Example: 50			
+loop	environmental_DNA	EnvironmentalDna	General		electric_conductivity	Conductivity	decimal		µS/cm											Substrate conductivity (µS/cm). Example: 1200			
+loop	environmental_DNA	EnvironmentalDna	General		experimental_design	Experimental design	WhitespaceMinimizedString													"Experimental scheme. Example: \""Randomized blocks\"""			
+loop	environmental_DNA	EnvironmentalDna	General		extraction_protocol	Extraction protocol	WhitespaceMinimizedString													"DNA extraction method. Example: \""DNeasy PowerSoil Kit\"""			
+loop	environmental_DNA	EnvironmentalDna	General		fermented_diet	Fermentation	WhitespaceMinimizedString													"Fermentation conditions. Example: \""Lactic fermentation 48h\"""			
+loop	environmental_DNA	EnvironmentalDna	General		filter_size	Filter size	decimal		µm											Filter size for water samples (micrometers). Example: 0.22			
+loop	environmental_DNA	EnvironmentalDna	General		filter_type	Filter type	WhitespaceMinimizedString													"Filter material. Example: \""Polycarbonate\"""			
+loop	environmental_DNA	EnvironmentalDna	General		flux_measurement_method	Flux method	WhitespaceMinimizedString	flux_measurement_method												"Measurement technique. Example: \""GC\"" (Gas Chromatography)"			
+loop	environmental_DNA	EnvironmentalDna	General		fruit_quality	Fruit quality	decimal													Fruit quality index (1-10 scale). Example: 8			
+loop	environmental_DNA	EnvironmentalDna	General		fwd_probe_name	FWD probe name	WhitespaceMinimizedString													"Forward primer name. Example: \""515F\"""			
+loop	environmental_DNA	EnvironmentalDna	General		fwd_probe_seq	FWD probe sequence	WhitespaceMinimizedString													"Forward primer sequence. Example: \""GTGCCAGCMGCCGCGGTAA\"""			
+loop	environmental_DNA	EnvironmentalDna	General		gas	Gas type	WhitespaceMinimizedString	gas												"Measured gas type. Example: \""CH₄\"""			
+loop	environmental_DNA	EnvironmentalDna	General		isolated_strains	Isolated strains	WhitespaceMinimizedString													"Microbial isolates. Example: \""Bacillus subtilis XYZ\"""			
+loop	environmental_DNA	EnvironmentalDna	General		larval_biomass_yield	Larval biomass	decimal		g											Insect biomass yield (g). Example: 150			
+loop	environmental_DNA	EnvironmentalDna	General		larval_dry_diet	Dry diet	WhitespaceMinimizedString	larval_dry_diet												"Insect dry feed. Example: \""wheat\"""			
+loop	environmental_DNA	EnvironmentalDna	General		larval_protein_content	Larval protein	decimal		mg/g											Insect protein content (mg/g). Example: 200			
+loop	environmental_DNA	EnvironmentalDna	General		larval_wet_diet	Wet diet	WhitespaceMinimizedString	larval_wet_diet												"Insect wet feed. Example: \""carrot\"""			
+loop	environmental_DNA	EnvironmentalDna	General		latitude	Decimal latitude	decimal		degree											WGS84 coordinate (decimal degrees). Example: 48.8053			
+loop	environmental_DNA	EnvironmentalDna	General		leaf_water_potential	Leaf water potential	decimal		mmol/m²/s											Plant water status (-MPa). Example: 1.2			
+loop	environmental_DNA	EnvironmentalDna	General		lib_prep_protocol	Library protocol	WhitespaceMinimizedString													"Library preparation protocol. Example: \""Illumina 16S Metagenomic\"""			
+loop	environmental_DNA	EnvironmentalDna	General		library	Amplicon/library	WhitespaceMinimizedString													"Targeted gene region. Example: \""16S rRNA V4-V5\"""			
+loop	environmental_DNA	EnvironmentalDna	General		license	License	WhitespaceMinimizedString													"Data distribution license. Example: \""CC-BY-4.0\"""			
+loop	environmental_DNA	EnvironmentalDna	General		location_name	Location name	WhitespaceMinimizedString													"Sampling site description. Example: \""Experimental Field A, Versailles\"""			
+loop	environmental_DNA	EnvironmentalDna	General		longitude	Decimal longitude	decimal		degree											WGS84 coordinate (decimal degrees). Example: 2.1211			
+loop	environmental_DNA	EnvironmentalDna	General		merging_tool	Merging tool	WhitespaceMinimizedString													"Read merging tool for paired-end data. Example: \""FLASH v1.2.11\"""			
+loop	environmental_DNA	EnvironmentalDna	General		metadata_version	Metadata version	WhitespaceMinimizedString													"Version of the metadata schema used. Example: \""1.2\"""			
+loop	environmental_DNA	EnvironmentalDna	General		method_citation	Method citation	WhitespaceMinimizedString													"Protocol reference (DOI/standard). Example: \""doi:10.1038/nmeth.1234\"""			
+loop	environmental_DNA	EnvironmentalDna	General		mushroom_biomass_yield	Mushroom biomass	decimal		kg/kg											Fungal yield (kg/kg substrate). Example: 0.3			
+loop	environmental_DNA	EnvironmentalDna	General		mushroom_species	Mushroom species	WhitespaceMinimizedString	mushroom_species												"Fungal species. Example: \""Pleurotus ostreatus\"""			
+loop	environmental_DNA	EnvironmentalDna	General		mushroom_substrate_conditioning	Substrate prep	WhitespaceMinimizedString													"Substrate preparation method. Example: \""Pasteurization 70°C\"""			
+loop	environmental_DNA	EnvironmentalDna	General		mushroom_substrate_upcycling	Substrate reuse	decimal		%											Reused substrate fraction (%). Example: 30			
+loop	environmental_DNA	EnvironmentalDna	General		number_of_cycles	Number of cycles	decimal		count											PCR cycles. Example: 30			
+loop	environmental_DNA	EnvironmentalDna	General		pH_level	pH	decimal													Acidity level. Example: 6.8			
+loop	environmental_DNA	EnvironmentalDna	General		photosynthesis	Photosynthesis	decimal		µmol/m²/s											CO₂ assimilation rate (µmol/m²/s). Example: 20			
+loop	environmental_DNA	EnvironmentalDna	General		plant_height	Plant height	decimal		cm											Plant height (cm). Example: 150			
+loop	environmental_DNA	EnvironmentalDna	General		prep_type	Preparation type	WhitespaceMinimizedString	prep_type												"Molecular preparation type. Example: \""amplicon\"""			
+loop	environmental_DNA	EnvironmentalDna	General		production	Production	decimal													General yield indicator. Example: 85			
+loop	environmental_DNA	EnvironmentalDna	General		qc_flag	QC flag	WhitespaceMinimizedString	qc_flag												"Measurement quality indicator. Example: \""pass\"", \""suspect\"", \""fail\"""			
+loop	environmental_DNA	EnvironmentalDna	General		qc_protocol	QC protocol	WhitespaceMinimizedString													"Quality control procedure. Example: \""16S sequence verification by PCR\"""			
+loop	environmental_DNA	EnvironmentalDna	General		reactor_type	Reactor type	WhitespaceMinimizedString	reactor_type												"Type of bioreactor. Example: \""Compost\"""			
+loop	environmental_DNA	EnvironmentalDna	General		read_count	Read count	decimal		count											Number of sequences (millions). Example: 10.5			
+loop	environmental_DNA	EnvironmentalDna	General		ref_database	Reference database	WhitespaceMinimizedString													"Taxonomic reference database name and version. Example: \""SILVA 138.1\"""			
+loop	environmental_DNA	EnvironmentalDna	General		replicates_count	Replicates count	decimal		count											Number of technical replicates. Example: 3			
+loop	environmental_DNA	EnvironmentalDna	General		rev_probe_name	REV probe name	WhitespaceMinimizedString													"Reverse primer name. Example: \""806R\"""			
+loop	environmental_DNA	EnvironmentalDna	General		rev_probe_seq	REV probe sequence	WhitespaceMinimizedString													"Reverse primer sequence. Example: \""GGACTACHVGGGTWTCTAAT\"""			
+loop	environmental_DNA	EnvironmentalDna	General		root_class	Root class	decimal		count											Root classification. Example: 3 (1=taproot, 2=fibrous)			
+loop	environmental_DNA	EnvironmentalDna	General		root_forks	Root forks	decimal		count											Root branching points (count). Example: 45			
+loop	environmental_DNA	EnvironmentalDna	General		root_length	Root length	decimal		cm											Total root length (cm). Example: 120			
+loop	environmental_DNA	EnvironmentalDna	General		root_tips	Root tips	decimal		count											Root apical points (count). Example: 200			
+loop	environmental_DNA	EnvironmentalDna	General		sample_name	Sample name	WhitespaceMinimizedString													"Unique identifier for each sample. Example: \""Soil_2023_SiteA_Rep1\"""			
+loop	environmental_DNA	EnvironmentalDna	General		sample_source_reactor	Sample source	WhitespaceMinimizedString	sample_source_reactor												"Position relative to reactor. Example: \""inside\"""			
+loop	environmental_DNA	EnvironmentalDna	General		sample_type	Sample type	WhitespaceMinimizedString	sample_type												"Material nature. Example: \""soil\"", \""water\"""			
+loop	environmental_DNA	EnvironmentalDna	General		sampled_quantity	Sampled quantity	decimal		g											Weight collected (grams). Example: 50			
+loop	environmental_DNA	EnvironmentalDna	General		sampler	Sampler	WhitespaceMinimizedString													"Person who performed the sampling. Format: \""Firstname Lastname\"". Example: \""Marie Dupon\"""			
+loop	environmental_DNA	EnvironmentalDna	General		sampler_affiliation	Sampler affiliation	WhitespaceMinimizedString													"Sampler\'s institution. Example: \""INRAE UMR EcoSys\"""			
+loop	environmental_DNA	EnvironmentalDna	General		sampling_date	Sampling date	DateTime													"Collection date and time (ISO 8601). Example: \""2023-06-15T14:30:00+02:00\"""			
+loop	environmental_DNA	EnvironmentalDna	General		sampling_depth	Sampling depth	decimal		m											Depth below surface (meters). Example: 0.2			
+loop	environmental_DNA	EnvironmentalDna	General		sampling_device	Sampling device	WhitespaceMinimizedString													"Equipment used. Example: \""Sterile corer\"""			
+loop	environmental_DNA	EnvironmentalDna	General		sequencing_instrument	Sequencing instrument	WhitespaceMinimizedString													"Sequencer model. Example: \""Illumina NovaSeq 6000\"""			
+loop	environmental_DNA	EnvironmentalDna	General		sequencing_mode	Sequencing mode	WhitespaceMinimizedString	sequencing_mode												"Read configuration. Example: \""pe\"" (paired-end)"			
+loop	environmental_DNA	EnvironmentalDna	General		soil_water_content	Water content	decimal		%											Soil moisture (%). Example: 22.5			
+loop	environmental_DNA	EnvironmentalDna	General		stomatal_conductance	Stomatal conductance	decimal		mmol/m²/s											Gas exchange rate (mmol/m²/s). Example: 0.5			
+loop	environmental_DNA	EnvironmentalDna	General		substrate_health_promoting_ability	Substrate health	WhitespaceMinimizedString													"Substrate improvement. Example: \""PAH degradation\"""			
+loop	environmental_DNA	EnvironmentalDna	General		survival_rate	Survival rate	decimal		%											Plant survival rate (%). Example: 90			
+loop	environmental_DNA	EnvironmentalDna	General		taxonomic_assign_tool	Taxonomy tool	WhitespaceMinimizedString													"Taxonomy classification software. Example: \""QIIME2 q2-feature-classifier\"""			
+loop	environmental_DNA	EnvironmentalDna	General		tea_bag_index	Tea Bag Index	decimal		g/g											Decomposition rate indicator. Example: 0.05			
+loop	environmental_DNA	EnvironmentalDna	General		temperature	Temperature	decimal		°C											Average temperature during experiment (°C). Example: 25.5			
+loop	environmental_DNA	EnvironmentalDna	General		temporal_resolution	Temporal resolution	decimal		day											"Measurement frequency. Example: \""daily\"", \""weekly\"""			
+loop	environmental_DNA	EnvironmentalDna	General		tissue_composition	Tissue comp	decimal		%											Biochemical composition (%). Example: 20 (dry matter)			
+loop	environmental_DNA	EnvironmentalDna	General		trace_gas_flux	Gas flux	decimal		nmol/g/h											Emission rate (nmol/g/h). Example: 15.2			
+loop	environmental_DNA	EnvironmentalDna	General		transpiration	Transpiration	decimal		mmol/m²/s											Water loss rate (mmol/m²/s). Example: 4.5			
+loop	environmental_DNA	EnvironmentalDna	General		treatment_details	Treatment details	WhitespaceMinimizedString													"Applied experimental conditions. Example: \""Irrigation at 50% field capacity\"""			
+loop	environmental_DNA	EnvironmentalDna	General		trimming_tool	Trimming tool	WhitespaceMinimizedString													"Read trimming software. Example: \""Trimmomatic v0.39\"""			
+loop	environmental_DNA	EnvironmentalDna	General		unique_seq_creation_tool	Dereplication tool	WhitespaceMinimizedString													"Dereplication tool. Example: \""VSEARCH v2.18.0\"""			
+loop	environmental_DNA	EnvironmentalDna	General		unique_seq_similarity_threshold	Similarity threshold	decimal		%											Clustering cutoff (%). Example: 97			
+NDGP	Calving	CalvingFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString								True					INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
+NDGP	Calving	CalvingFileLayout	General		CALVING_DATE	CALVING_DATE	DateTime								True								
+NDGP	Calving	CalvingFileLayout	General		CONCEPTION_DATE	CONCEPTION_DATE	DateTime								True								
+NDGP	Calving	CalvingFileLayout	General		COUNTRY_OF_ORIGIN	COUNTRY-OF-ORIGIN	WhitespaceMinimizedString								True								
+NDGP	Calving	CalvingFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE							True								
+NDGP	Calving	CalvingFileLayout	General		HERD_CODE	HERD_CODE	WhitespaceMinimizedString								True								
+NDGP	Calving	CalvingFileLayout	General		LACTATION_NUMBER	LACTATION_NUMBER	decimal								True								
+NDGP	Calving	CalvingFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT							True								
+NDGP	Calving	CalvingFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under 'Source of Data' column			
+NDGP	Calving	CalvingFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE							True								
+NDGP	Milk	MilkProductionFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString								True					INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
+NDGP	Milk	MilkProductionFileLayout	General		BETA_HYDROXYBUTYRATE	BETA_HYDROXYBUTYRATE	decimal		MMOL/L MULTIPLIED PER 1000						True								
+NDGP	Milk	MilkProductionFileLayout	General		COUNTRY_OF_ORIGIN	COUNTRY-OF-ORIGIN	WhitespaceMinimizedString								True								
+NDGP	Milk	MilkProductionFileLayout	General		FAT_PROTEIN_CORRECTED_YIELD	FAT_PROTEIN_CORRECTED_YIELD	decimal		KG						True								
+NDGP	Milk	MilkProductionFileLayout	General		FAT_YIELD	FAT_YIELD	decimal		KG						True								
+NDGP	Milk	MilkProductionFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE							True								
+NDGP	Milk	MilkProductionFileLayout	General		HERD_CODE	HERD_CODE	WhitespaceMinimizedString								True								
+NDGP	Milk	MilkProductionFileLayout	General		INTEGER_OF_MILKING_PER_DAY	INTEGER_OF_MILKING_PER_DAY	decimal								True								
+NDGP	Milk	MilkProductionFileLayout	General		LACTOSE_YIELD	LACTOSE_YIELD	decimal		KG						True								
+NDGP	Milk	MilkProductionFileLayout	General		MILKING_PROGRAM	MILKING_PROGRAM	WhitespaceMinimizedString								True								
+NDGP	Milk	MilkProductionFileLayout	General		MILK_UREA_NITROGEN	MILK_UREA_NITROGEN	decimal		MG/KG						True								
+NDGP	Milk	MilkProductionFileLayout	General		MILK_YIELD	MILK_YIELD	decimal		KG						True								
+NDGP	Milk	MilkProductionFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT							True								
+NDGP	Milk	MilkProductionFileLayout	General		PROTEIN_YIELD	PROTEIN_YIELD	decimal		KG						True								
+NDGP	Milk	MilkProductionFileLayout	General		SOMATIC_CELL_COUNT	SOMATIC_CELL_COUNT	decimal		1000/ML						True								
+NDGP	Milk	MilkProductionFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under 'Source of Data' column			
+NDGP	Milk	MilkProductionFileLayout	General		TEST_DATE		DateTime								True								
+NDGP	Milk	MilkProductionFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE							True								
+NDGP	MIR	MirFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString							True						INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
+NDGP	MIR	MirFileLayout	General		COUNTRY_OF_DATA_ORIGIN	COUNTRY_OF_DATA_ORIGIN	WhitespaceMinimizedString							True									
+NDGP	MIR	MirFileLayout	General		DATE_OF_TESTING	DATE_OF_TESTING	DateTime		YYYYMMDD					True									
+NDGP	MIR	MirFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE						True									
+NDGP	MIR	MirFileLayout	General		HERD_CODE	HERD_CODE	WhitespaceMinimizedString							True									
+NDGP	MIR	MirFileLayout	General		MILK_SPECTRAL_DATA	MILK_SPECTRAL_DATA	decimal							True						ULTIPLIED BY 100,000,000			
+NDGP	MIR	MirFileLayout	General		NUMBER_OF_DATA_POINTS	NUMBER_OF_DATA_POINTS	decimal								True								
+NDGP	MIR	MirFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT						True									
+NDGP	MIR	MirFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString							True						See contacts list under 'Source of Data' column			
+NDGP	MIR	MirFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE						True									
+NDGP	MIR	MirFileLayout	General		TYPE_OF_SPECTROMETER	TYPE_OF_SPECTROMETER	WhitespaceMinimizedString								True								
+NDGP	Pedigree	PedigreeFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString								True					INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
+NDGP	Pedigree	PedigreeFileLayout	General		BIRTH_DATE	BIRTH_DATE	DateTime								True								
+NDGP	Pedigree	PedigreeFileLayout	General		DAM_ID	DAM_ID	WhitespaceMinimizedString							True						12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING '0'S).			
+NDGP	Pedigree	PedigreeFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE							True								
+NDGP	Pedigree	PedigreeFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT							True								
+NDGP	Pedigree	PedigreeFileLayout	General		REGISTERED_NAME	REGISTERED_NAME	WhitespaceMinimizedString							True									
+NDGP	Pedigree	PedigreeFileLayout	General		SIRE_ID	SIRE_ID	WhitespaceMinimizedString							True						12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING '0'S).			
+NDGP	Pedigree	PedigreeFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under 'Source of Data' column			
+NDGP	Pedigree	PedigreeFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE							True								
+peACE	PeaCE	Peace	General		accession_id	Accession ID	WhitespaceMinimizedString													Unique identifier for each germplasm accession			
+peACE	PeaCE	Peace	General		agronomic_trait	Agronomic Trait	WhitespaceMinimizedString													Agronomic trait measured for the germplasm accession			
+peACE	PeaCE	Peace	General		ch4_flux	CH4 Flux	decimal		g C/ha/day											Methane flux measurement			
+peACE	PeaCE	Peace	General		climate_conditions	Climate Conditions	WhitespaceMinimizedString													Climate conditions at the origin of the germplasm accession			
+peACE	PeaCE	Peace	General		co2_flux	CO2 Flux	decimal		g C/ha/day											Carbon dioxide flux measurement			
+peACE	PeaCE	Peace	General		cost_benefit_analysis	Cost-Benefit Analysis	WhitespaceMinimizedString													Cost-benefit analysis data			
+peACE	PeaCE	Peace	General		crop_yield	Crop Yield	decimal		kg/ha											Crop yield measurement			
+peACE	PeaCE	Peace	General		demographic_data	Demographic Data	WhitespaceMinimizedString													Demographic data of the participant			
+peACE	PeaCE	Peace	General		disease_severity_score	Disease Severity Score	decimal		-											Disease severity score on a scale of 1-5			
+peACE	PeaCE	Peace	General		fertilizer_application_rate	Fertilizer Application Rate	decimal		kg/ha											Fertilizer application rate			
+peACE	PeaCE	Peace	General		field_trial_location	Field Trial Location	WhitespaceMinimizedString													Location of the field trial for the breeding population			
+peACE	PeaCE	Peace	General		functional_description	Functional Description	WhitespaceMinimizedString													Functional description of the gene			
+peACE	PeaCE	Peace	General		gene_id	Gene ID	WhitespaceMinimizedString													Unique identifier for each gene			
+peACE	PeaCE	Peace	General		generation	Generation	WhitespaceMinimizedString													Generation of the breeding population			
+peACE	PeaCE	Peace	General		geographic_location	Geographic Location	WhitespaceMinimizedString													Geographic location of the germplasm accession			
+peACE	PeaCE	Peace	General		inoculum_concentration	Inoculum Concentration	decimal		cfu/ml											Concentration of the pathogen inoculum			
+peACE	PeaCE	Peace	General		interview_coding	Interview Coding	WhitespaceMinimizedString													Interview coding data			
+peACE	PeaCE	Peace	General		interview_transcript	Interview Transcript	WhitespaceMinimizedString													Interview transcript data			
+peACE	PeaCE	Peace	General		marker_data	Marker Data	WhitespaceMinimizedString													Marker data generated for the breeding population			
+peACE	PeaCE	Peace	General		market_analysis	Market Analysis	WhitespaceMinimizedString													Market analysis data			
+peACE	PeaCE	Peace	General		maturity	Maturity	decimal		days											Maturity measurement for the breeding population			
+peACE	PeaCE	Peace	General		metabolite_profile	Metabolite Profile	WhitespaceMinimizedString													Metabolite profile data			
+peACE	PeaCE	Peace	General		morphological_trait	Morphological Trait	WhitespaceMinimizedString													Morphological trait measured for the germplasm accession			
+peACE	PeaCE	Peace	General		n2o_flux	N2O Flux	decimal		g N/ha/day											Nitrous oxide flux measurement			
+peACE	PeaCE	Peace	General		origin	Origin	WhitespaceMinimizedString													Geographical origin of the germplasm accession			
+peACE	PeaCE	Peace	General		parental_line	Parental Line	WhitespaceMinimizedString													Parental line used in the breeding program			
+peACE	PeaCE	Peace	General		participant_id	Participant ID	WhitespaceMinimizedString													Unique identifier for each participant			
+peACE	PeaCE	Peace	General		pathogen_strain	Pathogen Strain	WhitespaceMinimizedString													Pathogen strain used for disease resistance screening			
+peACE	PeaCE	Peace	General		pathway_analysis	Pathway Analysis	WhitespaceMinimizedString													Pathway analysis data			
+peACE	PeaCE	Peace	General		protein_content	Protein Content	decimal		%											Protein content measurement for the breeding population			
+peACE	PeaCE	Peace	General		protein_interaction_data	Protein Interaction Data	WhitespaceMinimizedString													Protein-protein interaction data			
+peACE	PeaCE	Peace	General		proteomics_data	Proteomics Data	WhitespaceMinimizedString													Proteomics data for protein analysis			
+peACE	PeaCE	Peace	General		qpcr_data	qPCR Data	WhitespaceMinimizedString													qPCR data for gene expression analysis			
+peACE	PeaCE	Peace	General		qtl_mapping	QTL Mapping	WhitespaceMinimizedString													QTL mapping data for the breeding population			
+peACE	PeaCE	Peace	General		regulations	Regulations	WhitespaceMinimizedString													Regulations data			
+peACE	PeaCE	Peace	General		rna_seq_data	RNA-Seq Data	WhitespaceMinimizedString													RNA-seq data for gene expression analysis			
+peACE	PeaCE	Peace	General		sequencing_platform	Sequencing Platform	WhitespaceMinimizedString													Sequencing platform used for genotyping			
+peACE	PeaCE	Peace	General		soil_moisture	Soil Moisture	decimal		%											Soil moisture measurement			
+peACE	PeaCE	Peace	General		soil_nutrient_content	Soil Nutrient Content	decimal		varies											Soil nutrient content measurement			
+peACE	PeaCE	Peace	General		soil_temperature	Soil Temperature	decimal		°C											Soil temperature measurement			
+peACE	PeaCE	Peace	General		species	Species	WhitespaceMinimizedString													Species of the germplasm accession			
+peACE	PeaCE	Peace	General		stakeholder_analysis	Stakeholder Analysis	WhitespaceMinimizedString													Stakeholder analysis data			
+peACE	PeaCE	Peace	General		subspecies	Subspecies	WhitespaceMinimizedString													Subspecies of the germplasm accession			
+peACE	PeaCE	Peace	General		survey_response	Survey Response	WhitespaceMinimizedString													Survey response data			
+peACE	PeaCE	Peace	General		variant_calls	Variant Calls	WhitespaceMinimizedString													Variant calls generated from sequencing data			
+peACE	PeaCE	Peace	General		weather_conditions	Weather Conditions	WhitespaceMinimizedString													Weather conditions during the field trial			
+peACE	PeaCE	Peace	General		yield	Yield	decimal		kg/ha											Yield measurement for the breeding population			
 JT	GENOME	Genome	General		access_training		WhitespaceMinimizedString	access_training															
 JT	GENOME	Genome	General		act_on_climate		WhitespaceMinimizedString	act_on_climate															
 JT	GENOME	Genome	General		age		Boolean																
@@ -541,98 +762,3 @@ JT	GENOME	Genome	General		work_food_processing		Boolean
 JT	GENOME	Genome	General		work_food_retail		Boolean																
 JT	GENOME	Genome	General		work_none		Boolean																
 JT	GENOME	Genome	General		work_prefer_not_say		Boolean																
-NDGP	Calving	CalvingFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString								True					INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
-NDGP	Calving	CalvingFileLayout	General		CALVING_DATE	CALVING_DATE	DateTime								True								
-NDGP	Calving	CalvingFileLayout	General		CONCEPTION_DATE	CONCEPTION_DATE	DateTime								True								
-NDGP	Calving	CalvingFileLayout	General		COUNTRY_OF_ORIGIN	COUNTRY-OF-ORIGIN	WhitespaceMinimizedString								True								
-NDGP	Calving	CalvingFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE							True								
-NDGP	Calving	CalvingFileLayout	General		HERD_CODE	HERD_CODE	WhitespaceMinimizedString								True								
-NDGP	Calving	CalvingFileLayout	General		LACTATION_NUMBER	LACTATION_NUMBER	decimal								True								
-NDGP	Calving	CalvingFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT							True								
-NDGP	Calving	CalvingFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under 'Source of Data' column			
-NDGP	Calving	CalvingFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE							True								
-NDGP	Milk	MilkProductionFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString								True					INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
-NDGP	Milk	MilkProductionFileLayout	General		BETA_HYDROXYBUTYRATE	BETA_HYDROXYBUTYRATE	decimal		MMOL/L MULTIPLIED PER 1000						True								
-NDGP	Milk	MilkProductionFileLayout	General		COUNTRY_OF_ORIGIN	COUNTRY-OF-ORIGIN	WhitespaceMinimizedString								True								
-NDGP	Milk	MilkProductionFileLayout	General		FAT_PROTEIN_CORRECTED_YIELD	FAT_PROTEIN_CORRECTED_YIELD	decimal		KG						True								
-NDGP	Milk	MilkProductionFileLayout	General		FAT_YIELD	FAT_YIELD	decimal		KG						True								
-NDGP	Milk	MilkProductionFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE							True								
-NDGP	Milk	MilkProductionFileLayout	General		HERD_CODE	HERD_CODE	WhitespaceMinimizedString								True								
-NDGP	Milk	MilkProductionFileLayout	General		INTEGER_OF_MILKING_PER_DAY	INTEGER_OF_MILKING_PER_DAY	decimal								True								
-NDGP	Milk	MilkProductionFileLayout	General		LACTOSE_YIELD	LACTOSE_YIELD	decimal		KG						True								
-NDGP	Milk	MilkProductionFileLayout	General		MILKING_PROGRAM	MILKING_PROGRAM	WhitespaceMinimizedString								True								
-NDGP	Milk	MilkProductionFileLayout	General		MILK_UREA_NITROGEN	MILK_UREA_NITROGEN	decimal		MG/KG						True								
-NDGP	Milk	MilkProductionFileLayout	General		MILK_YIELD	MILK_YIELD	decimal		KG						True								
-NDGP	Milk	MilkProductionFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT							True								
-NDGP	Milk	MilkProductionFileLayout	General		PROTEIN_YIELD	PROTEIN_YIELD	decimal		KG						True								
-NDGP	Milk	MilkProductionFileLayout	General		SOMATIC_CELL_COUNT	SOMATIC_CELL_COUNT	decimal		1000/ML						True								
-NDGP	Milk	MilkProductionFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under 'Source of Data' column			
-NDGP	Milk	MilkProductionFileLayout	General		TEST_DATE		DateTime								True								
-NDGP	Milk	MilkProductionFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE							True								
-NDGP	MIR	MirFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString							True						INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
-NDGP	MIR	MirFileLayout	General		COUNTRY_OF_DATA_ORIGIN	COUNTRY_OF_DATA_ORIGIN	WhitespaceMinimizedString							True									
-NDGP	MIR	MirFileLayout	General		DATE_OF_TESTING	DATE_OF_TESTING	DateTime		YYYYMMDD					True									
-NDGP	MIR	MirFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE						True									
-NDGP	MIR	MirFileLayout	General		HERD_CODE	HERD_CODE	WhitespaceMinimizedString							True									
-NDGP	MIR	MirFileLayout	General		MILK_SPECTRAL_DATA	MILK_SPECTRAL_DATA	decimal							True						ULTIPLIED BY 100,000,000			
-NDGP	MIR	MirFileLayout	General		NUMBER_OF_DATA_POINTS	NUMBER_OF_DATA_POINTS	decimal								True								
-NDGP	MIR	MirFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT						True									
-NDGP	MIR	MirFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString							True						See contacts list under 'Source of Data' column			
-NDGP	MIR	MirFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE						True									
-NDGP	MIR	MirFileLayout	General		TYPE_OF_SPECTROMETER	TYPE_OF_SPECTROMETER	WhitespaceMinimizedString								True								
-NDGP	Pedigree	PedigreeFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString								True					INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
-NDGP	Pedigree	PedigreeFileLayout	General		BIRTH_DATE	BIRTH_DATE	DateTime								True								
-NDGP	Pedigree	PedigreeFileLayout	General		DAM_ID	DAM_ID	WhitespaceMinimizedString							True						12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING '0'S).			
-NDGP	Pedigree	PedigreeFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE							True								
-NDGP	Pedigree	PedigreeFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT							True								
-NDGP	Pedigree	PedigreeFileLayout	General		REGISTERED_NAME	REGISTERED_NAME	WhitespaceMinimizedString							True									
-NDGP	Pedigree	PedigreeFileLayout	General		SIRE_ID	SIRE_ID	WhitespaceMinimizedString							True						12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING '0'S).			
-NDGP	Pedigree	PedigreeFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under 'Source of Data' column			
-NDGP	Pedigree	PedigreeFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE							True								
-peACE	PeaCE	Peace	General		accession_id	Accession ID	WhitespaceMinimizedString													Unique identifier for each germplasm accession			
-peACE	PeaCE	Peace	General		agronomic_trait	Agronomic Trait	WhitespaceMinimizedString													Agronomic trait measured for the germplasm accession			
-peACE	PeaCE	Peace	General		ch4_flux	CH4 Flux	decimal		g C/ha/day											Methane flux measurement			
-peACE	PeaCE	Peace	General		climate_conditions	Climate Conditions	WhitespaceMinimizedString													Climate conditions at the origin of the germplasm accession			
-peACE	PeaCE	Peace	General		co2_flux	CO2 Flux	decimal		g C/ha/day											Carbon dioxide flux measurement			
-peACE	PeaCE	Peace	General		cost_benefit_analysis	Cost-Benefit Analysis	WhitespaceMinimizedString													Cost-benefit analysis data			
-peACE	PeaCE	Peace	General		crop_yield	Crop Yield	decimal		kg/ha											Crop yield measurement			
-peACE	PeaCE	Peace	General		demographic_data	Demographic Data	WhitespaceMinimizedString													Demographic data of the participant			
-peACE	PeaCE	Peace	General		disease_severity_score	Disease Severity Score	decimal		-											Disease severity score on a scale of 1-5			
-peACE	PeaCE	Peace	General		fertilizer_application_rate	Fertilizer Application Rate	decimal		kg/ha											Fertilizer application rate			
-peACE	PeaCE	Peace	General		field_trial_location	Field Trial Location	WhitespaceMinimizedString													Location of the field trial for the breeding population			
-peACE	PeaCE	Peace	General		functional_description	Functional Description	WhitespaceMinimizedString													Functional description of the gene			
-peACE	PeaCE	Peace	General		gene_id	Gene ID	WhitespaceMinimizedString													Unique identifier for each gene			
-peACE	PeaCE	Peace	General		generation	Generation	WhitespaceMinimizedString													Generation of the breeding population			
-peACE	PeaCE	Peace	General		geographic_location	Geographic Location	WhitespaceMinimizedString													Geographic location of the germplasm accession			
-peACE	PeaCE	Peace	General		inoculum_concentration	Inoculum Concentration	decimal		cfu/ml											Concentration of the pathogen inoculum			
-peACE	PeaCE	Peace	General		interview_coding	Interview Coding	WhitespaceMinimizedString													Interview coding data			
-peACE	PeaCE	Peace	General		interview_transcript	Interview Transcript	WhitespaceMinimizedString													Interview transcript data			
-peACE	PeaCE	Peace	General		marker_data	Marker Data	WhitespaceMinimizedString													Marker data generated for the breeding population			
-peACE	PeaCE	Peace	General		market_analysis	Market Analysis	WhitespaceMinimizedString													Market analysis data			
-peACE	PeaCE	Peace	General		maturity	Maturity	decimal		days											Maturity measurement for the breeding population			
-peACE	PeaCE	Peace	General		metabolite_profile	Metabolite Profile	WhitespaceMinimizedString													Metabolite profile data			
-peACE	PeaCE	Peace	General		morphological_trait	Morphological Trait	WhitespaceMinimizedString													Morphological trait measured for the germplasm accession			
-peACE	PeaCE	Peace	General		n2o_flux	N2O Flux	decimal		g N/ha/day											Nitrous oxide flux measurement			
-peACE	PeaCE	Peace	General		origin	Origin	WhitespaceMinimizedString													Geographical origin of the germplasm accession			
-peACE	PeaCE	Peace	General		parental_line	Parental Line	WhitespaceMinimizedString													Parental line used in the breeding program			
-peACE	PeaCE	Peace	General		participant_id	Participant ID	WhitespaceMinimizedString													Unique identifier for each participant			
-peACE	PeaCE	Peace	General		pathogen_strain	Pathogen Strain	WhitespaceMinimizedString													Pathogen strain used for disease resistance screening			
-peACE	PeaCE	Peace	General		pathway_analysis	Pathway Analysis	WhitespaceMinimizedString													Pathway analysis data			
-peACE	PeaCE	Peace	General		protein_content	Protein Content	decimal		%											Protein content measurement for the breeding population			
-peACE	PeaCE	Peace	General		protein_interaction_data	Protein Interaction Data	WhitespaceMinimizedString													Protein-protein interaction data			
-peACE	PeaCE	Peace	General		proteomics_data	Proteomics Data	WhitespaceMinimizedString													Proteomics data for protein analysis			
-peACE	PeaCE	Peace	General		qpcr_data	qPCR Data	WhitespaceMinimizedString													qPCR data for gene expression analysis			
-peACE	PeaCE	Peace	General		qtl_mapping	QTL Mapping	WhitespaceMinimizedString													QTL mapping data for the breeding population			
-peACE	PeaCE	Peace	General		regulations	Regulations	WhitespaceMinimizedString													Regulations data			
-peACE	PeaCE	Peace	General		rna_seq_data	RNA-Seq Data	WhitespaceMinimizedString													RNA-seq data for gene expression analysis			
-peACE	PeaCE	Peace	General		sequencing_platform	Sequencing Platform	WhitespaceMinimizedString													Sequencing platform used for genotyping			
-peACE	PeaCE	Peace	General		soil_moisture	Soil Moisture	decimal		%											Soil moisture measurement			
-peACE	PeaCE	Peace	General		soil_nutrient_content	Soil Nutrient Content	decimal		varies											Soil nutrient content measurement			
-peACE	PeaCE	Peace	General		soil_temperature	Soil Temperature	decimal		°C											Soil temperature measurement			
-peACE	PeaCE	Peace	General		species	Species	WhitespaceMinimizedString													Species of the germplasm accession			
-peACE	PeaCE	Peace	General		stakeholder_analysis	Stakeholder Analysis	WhitespaceMinimizedString													Stakeholder analysis data			
-peACE	PeaCE	Peace	General		subspecies	Subspecies	WhitespaceMinimizedString													Subspecies of the germplasm accession			
-peACE	PeaCE	Peace	General		survey_response	Survey Response	WhitespaceMinimizedString													Survey response data			
-peACE	PeaCE	Peace	General		variant_calls	Variant Calls	WhitespaceMinimizedString													Variant calls generated from sequencing data			
-peACE	PeaCE	Peace	General		weather_conditions	Weather Conditions	WhitespaceMinimizedString													Weather conditions during the field trial			
-peACE	PeaCE	Peace	General		yield	Yield	decimal		kg/ha											Yield measurement for the breeding population			

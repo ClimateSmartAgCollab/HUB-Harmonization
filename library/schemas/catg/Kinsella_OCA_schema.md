@@ -23,6 +23,8 @@ parent: CAT-G
 
 [download Semantic Engine schema](Kinsella_Cow_Production_OCA_package.json)
 
+[Download LinkML Schema](Kinsella_LinkML/schema.json) ([yaml](Kinsella_LinkML/schema.yaml); table view: [fields](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/catg/Kinsella_LinkML/schema_slots.tsv), [picklists](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/catg/Kinsella_LinkML/schema_enums.tsv))
+
 ## Schema quick view
 
 | Attribute | Label | Description |
