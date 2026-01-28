@@ -1,8 +1,3 @@
----
-layout: default  
-title: Calving File Layout  
-parent: NDGP  
----
 
 # Schema information
 {: .no_toc }

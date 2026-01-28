@@ -1,9 +1,3 @@
----
-layout: default  
-title: MIR File Layout  
-parent: NDGP  
----
-
 # Schema information
 {: .no_toc }
 
