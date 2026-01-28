@@ -1,8 +1,3 @@
----
-layout: default  
-title: Milk Production File Layout  
-parent: NDGP  
----
 
 # Schema information
 {: .no_toc }
