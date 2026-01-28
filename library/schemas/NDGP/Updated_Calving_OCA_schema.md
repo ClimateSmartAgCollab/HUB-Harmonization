@@ -14,12 +14,15 @@ parent: NDGP
 {:toc}
 
 **Name**: Calving File Layout  
-**Description**: Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project  
+**Description**: Data schema for the pedigree file layout for Leveraging Genomics To Achieve Dairy Net-Zero (NDGP) 
 **Classification**: RDF402  
 **Author**: Ricarda E. Jahnel   
 **Author Email**: rjahnel@uoguelph.ca  
 **ICT Group**: NDGP  
 **Schema package SAID**: EM0sWar0Ibu4VCRNqpUw6qECm3ko1mVYHF7_i8dWZyw9  
+
+[Download schema](Updated_Calving_OCA_package.json)
+
 
 ## Schema quick view
 
