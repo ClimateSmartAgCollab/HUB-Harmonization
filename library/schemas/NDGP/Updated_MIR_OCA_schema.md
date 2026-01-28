@@ -14,12 +14,14 @@ parent: NDGP
 {:toc}
 
 **Name**: MIR File Layout  
-**Description**: Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project  
+**Description**: Data schema for the pedigree file layout for the Leveraging Genomics To Achieve Dairy Net-Zero (NDGP)
 **Classification**: RDF402  
 **Author**: Ricarda E. Jahnel   
 **Author Email**: rjahnel@uoguelph.ca  
 **ICT Group**: NDGP  
 **Schema package SAID**: EOcB9pF5kYH6V_Ge0jrXFkA5feeI5sR4L7l8NHvSy8Uq  
+
+[Download schema](Updated_MIR_OCA_package.json)
 
 ## Schema quick view
 
