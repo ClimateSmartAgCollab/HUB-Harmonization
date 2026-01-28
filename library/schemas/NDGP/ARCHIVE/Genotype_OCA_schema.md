@@ -1,8 +1,3 @@
----
-layout: default  
-title: Genotype File Layout  
-parent: NDGP  
----
 
 # Schema information
 {: .no_toc }
