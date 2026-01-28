@@ -14,12 +14,14 @@ parent: NDGP
 {:toc}
 
 **Name**: Events File Layout  
-**Description**: Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project  
+**Description**: Data schema for the pedigree file layout for the Leveraging Genomics To Achieve Dairy Net-Zero (NDGP)  
 **Classification**: RDF402  
 **Author**: Ricarda E. Jahnel   
 **Author Email**: rjahnel@uoguelph.ca  
 **ICT Group**: NDGP  
-**Schema package SAID**: EFyJo7JVs_fOkRWd-RMHG6ASJYviP_Gh_mXAV2Tr7dFR  
+**Schema package SAID**: EFyJo7JVs_fOkRWd-RMHG6ASJYviP_Gh_mXAV2Tr7dFR 
+
+[Download schema](Updated_Events_OCA_package.json)
 
 ## Schema quick view
 
