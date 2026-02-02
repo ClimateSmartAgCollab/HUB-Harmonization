@@ -21,6 +21,8 @@ parent: NDGP
 **ICT Group**: NDGP  
 **Schema package SAID**: EKL4rOaOkfa_SgrxZp66HgCPV1HgAM7Q0m10yb2Ll6uz  
 
+[Download schema](Genotype_OCA_package.json)
+
 ## Schema quick view
 
 | Attribute | Label | Description |
