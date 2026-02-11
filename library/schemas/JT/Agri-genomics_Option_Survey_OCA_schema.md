@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: GENOME  
+title: Agri-genomics_Option_Survey  
 parent: Just Transitions  
 ---
 
@@ -13,17 +13,15 @@ parent: Just Transitions
 1. TOC
 {:toc}
 
-**Name**: GENOME  
-**Description**:   
+**Name**: Agri-genomics_Option_Survey  
+**Description**: Agri\-genomics Option Survey  
 **Classification**: RDF401  
 **Author**: Jofri I  
 **Author Email**: jofri.issac91@gmail.com  
 **ICT Group**: Just Transitions  
-**Schema package SAID**: EIMn3DHlS9V4L3gIYy-yWmR0EecxUxc58G1muT5K5D2w  
+**Schema package SAID**: EBibIDxumGtvG9t6JX1M0cBdGAT1Y_aj4jmkpJYdYAKW  
 
-[Download Schema](GENOME_OCA_package.json)
-
-[Download LinkML Schema](GENOME_LinkML/schema.json) ([yaml](GENOME_LinkML/schema.yaml); table view: [fields](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/JT/GENOME_LinkML/schema_slots.tsv), [picklists](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/JT/GENOME_LinkML/schema_enums.tsv))
+[Download Schema](Agri-genomics_Option_Survey_OCA_package.json)
 
 ## Schema quick view
 
@@ -244,7 +242,7 @@ parent: Just Transitions
 
 | Language | Name | Description |
 | --- | --- | --- |
-| English | GENOME |  |
+| English | Agri-genomics_Option_Survey | Agri\-genomics Option Survey |
 
 ## Selection lists
 
@@ -2009,17 +2007,17 @@ parent: Just Transitions
 
 **Capture base**: ELjmiXRnm2xLEpfojV86tPFWnWcjnxjGc8swCMGTU5ha
 
-**Bundle**: EHi9pGkfQ_ju3Rd96a2ATTkOTj3vUX5lqZJVV01NoeC8
+**Bundle**: EEncFWIn8cTtHZF4TQFaQg8l0BUBUt47CsLKInfUsSTN
 
-**Package**: EIMn3DHlS9V4L3gIYy-yWmR0EecxUxc58G1muT5K5D2w
+**Package**: EBibIDxumGtvG9t6JX1M0cBdGAT1Y_aj4jmkpJYdYAKW
 
 | Layer | SAID | Type |
 | --- | --- | --- |
 | entry (eng) | ELKRepT959dr95RGEDLhAvJaACxAJ8zT-1ikxhGdcCM- | spec/overlays/entry/1.1 |
 | entry_code | EB6bRiCh83wFeheFmnQWRmTfmgnXQPgPX74Z3-9tiD5m | spec/overlays/entry_code/1.1 |
-| meta (eng) | EMdpchjzWZHx0WNkv2CMXX14OaTpBMYUChEc-hxUQQyO | spec/overlays/meta/1.1 |
+| meta (eng) | EE3bjLpYrwcM62sOuQM0q9o9ZN14rFfISS1dHvlVJTu- | spec/overlays/meta/1.1 |
 | unit | EEQCx02tAHbAzPlpAZIZ2G_TpgGTOF71AGuW_sOo4sIx | spec/overlays/unit/1.1 |
-| ordering | EEgVYnYTOcFfVdGZLxZ7L50XS-5yH88jjtpn5ftYLSNK | community/overlays/adc/ordering/1.1 |
+| ordering | EJhm-lZk1gqLHk7cKSruvLPR2fHug-KDZPN2DXUrvmMJ | community/overlays/adc/ordering/1.0 |
 
-**Date created**: 2025-05-16 14:35:20
+**Date created**: 2026-02-11 10:05:29
 
