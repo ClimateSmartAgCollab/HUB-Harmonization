@@ -7,6 +7,6 @@ MirFileLayout	General		HERD_CODE	HERD_CODE	WhitespaceMinimizedString							True
 MirFileLayout	General		MILK_SPECTRAL_DATA	MILK_SPECTRAL_DATA	decimal							True						ULTIPLIED BY 100,000,000			
 MirFileLayout	General		NUMBER_OF_DATA_POINTS	NUMBER_OF_DATA_POINTS	decimal								True								
 MirFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT						True									
-MirFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString							True						See contacts list under 'Source of Data' column			
+MirFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString							True						See contacts list under \'Source of Data\' column			
 MirFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE						True									
 MirFileLayout	General		TYPE_OF_SPECTROMETER	TYPE_OF_SPECTROMETER	WhitespaceMinimizedString								True								

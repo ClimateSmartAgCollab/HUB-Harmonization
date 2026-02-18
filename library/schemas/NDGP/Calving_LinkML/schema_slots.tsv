@@ -7,5 +7,5 @@ CalvingFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TY
 CalvingFileLayout	General		HERD_CODE	HERD_CODE	WhitespaceMinimizedString								True								
 CalvingFileLayout	General		LACTATION_NUMBER	LACTATION_NUMBER	decimal								True								
 CalvingFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT							True								
-CalvingFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under 'Source of Data' column			
+CalvingFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under \'Source of Data\' column			
 CalvingFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE							True								

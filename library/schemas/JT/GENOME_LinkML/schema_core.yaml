@@ -1,7 +1,7 @@
-id: https://example.com/Genome
-name: Genome
-title: GENOME
-description: ''
+id: https://example.com/AgriGenomicsOptionSurvey
+name: AgriGenomicsOptionSurvey
+title: Agri-genomics_Option_Survey
+description: Agri\-genomics Option Survey
 version: 0.0.0
 in_language: en
 imports:
@@ -9,18 +9,18 @@ imports:
 prefixes:
   linkml: https://w3id.org/linkml/
 classes:
-  Genome:
-    name: Genome
-    title: GENOME
-    description: ''
+  AgriGenomicsOptionSurvey:
+    name: AgriGenomicsOptionSurvey
+    title: Agri-genomics_Option_Survey
+    description: Agri\-genomics Option Survey
     keywords: RDF401
   Container:
     name: Container
     tree_root: true
     attributes:
-      name: GenomeData
+      name: AgriGenomicsOptionSurveyData
       multivalued: true
-      range: Genome
+      range: AgriGenomicsOptionSurvey
       inlined_as_list: true
 slots: {}
 enums:

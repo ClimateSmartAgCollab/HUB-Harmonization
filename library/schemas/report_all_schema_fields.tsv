@@ -364,6 +364,17 @@ GG4GHG	Community	CommunityCompositionData	General		Viola.adunca		decimal								
 GG4GHG	Community	CommunityCompositionData	General		Viola.vallicola		decimal								True			^-?[0-9]+$					
 GG4GHG	Community	CommunityCompositionData	General		Xanthisma.spinulosum		decimal								True			^-?[0-9]+$					
 GG4GHG	Community	CommunityCompositionData	General		Zizia.aptera		decimal								True			^-?[0-9]+$					
+GG4GHG	Soil	SoilChemistryData	General		Plot	Plot	decimal													The plot number associated with the sample			
+GG4GHG	Soil	SoilChemistryData	General		ROC_perc	ROC_perc	decimal													ROC as a percent.			
+GG4GHG	Soil	SoilChemistryData	General		SOC_perc	SOC_perc	decimal													Soil Organic Carbon percent			
+GG4GHG	Soil	SoilChemistryData	General		TC	TC	decimal													Total Carbon			
+GG4GHG	Soil	SoilChemistryData	General		TIC900_perc	TIC900_perc	decimal													TIC900 as a percent.			
+GG4GHG	Soil	SoilChemistryData	General		TN	TN	decimal													Total Nitrogen			
+GG4GHG	Soil	SoilChemistryData	General		TOC400_perc	TOC400_perc	decimal													TOC400 as a percent.			
+GG4GHG	Soil	SoilChemistryData	General		aspect	aspect	WhitespaceMinimizedString	aspect												Whether it is a focal or community sample.			
+GG4GHG	Soil	SoilChemistryData	General		name	name	WhitespaceMinimizedString													The full name of the sample (Combination of plant, site, aspect and plot number).			
+GG4GHG	Soil	SoilChemistryData	General		plant	plant	WhitespaceMinimizedString	plant												The focal species target.			
+GG4GHG	Soil	SoilChemistryData	General		site	site	WhitespaceMinimizedString	site												The site the sample was taken from.			
 loop	environmental_DNA	EnvironmentalDna	General		above_ground_biomass	Aerial biomass	decimal		g											Shoot biomass (g). Example: 25.3			
 loop	environmental_DNA	EnvironmentalDna	General		analysis_method	Analysis method	WhitespaceMinimizedString	analysis_method												"Sequence variant method. Example: \""asv\"""			
 loop	environmental_DNA	EnvironmentalDna	General		analyst	Analyst	WhitespaceMinimizedString													"Person who performed the analyses. Example: \""Jean Martin\"""			
@@ -457,6 +468,17 @@ loop	environmental_DNA	EnvironmentalDna	General		treatment_details	Treatment det
 loop	environmental_DNA	EnvironmentalDna	General		trimming_tool	Trimming tool	WhitespaceMinimizedString													"Read trimming software. Example: \""Trimmomatic v0.39\"""			
 loop	environmental_DNA	EnvironmentalDna	General		unique_seq_creation_tool	Dereplication tool	WhitespaceMinimizedString													"Dereplication tool. Example: \""VSEARCH v2.18.0\"""			
 loop	environmental_DNA	EnvironmentalDna	General		unique_seq_similarity_threshold	Similarity threshold	decimal		%											Clustering cutoff (%). Example: 97			
+NDGP	Genotype	GenotypeFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString							True						INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
+NDGP	Genotype	GenotypeFileLayout	General		DATE_OF_GENOTYPE_TEST	DATE_OF_GENOTYPE_TEST	DateTime							True									
+NDGP	Genotype	GenotypeFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE						True									
+NDGP	Genotype	GenotypeFileLayout	General		GENOTYPE	GENOTYPE	WhitespaceMinimizedString							True						USING THE CDCB FORMAT ; THE GENOTYPE IS A VARIABLE LENGTH STRING OF 0,1,2,5 INDICATING SNP GENOTYPES OF BB, AB, AA, \\-\\- (1 BYTE PER SNP, NO COMMAS BETWEEN SNPS). FOR EXAMPLE \'01252010250211110025.......\'.			
+NDGP	Genotype	GenotypeFileLayout	General		IMPUTATION_USED_TO_GENERATE_DATA	IMPUTATION_USED_TO_GENERATE_DATA	WhitespaceMinimizedString							True						YES or NO			
+NDGP	Genotype	GenotypeFileLayout	General		PANEL_TYPE_BEFORE_IMPUTATION	PANEL_TYPE_BEFORE_IMPUTATION	WhitespaceMinimizedString								True								
+NDGP	Genotype	GenotypeFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT						True									
+NDGP	Genotype	GenotypeFileLayout	General		SAMPLE_ID	SAMPLE_ID	WhitespaceMinimizedString							True						UNIQUELY IDENTIFIES GENOTYPE (ie. SENTRIX CODE); DO NOT USE THE ANIMAL_ID (REGISTRATION NUM) TO ALLOW FOR MULTIPLE GENOTYPES PER ANIMAL IF REQUIRED			
+NDGP	Genotype	GenotypeFileLayout	General		SNP_CHIP_PANEL_TYPE	SNP_CHIP_PANEL_TYPE	WhitespaceMinimizedString							True									
+NDGP	Genotype	GenotypeFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString							True						See contacts list under \'Source of Data\' column			
+NDGP	Genotype	GenotypeFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE						True									
 NDGP	Calving	CalvingFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString								True					INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
 NDGP	Calving	CalvingFileLayout	General		CALVING_DATE	CALVING_DATE	DateTime								True								
 NDGP	Calving	CalvingFileLayout	General		CONCEPTION_DATE	CONCEPTION_DATE	DateTime								True								
@@ -465,8 +487,38 @@ NDGP	Calving	CalvingFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedS
 NDGP	Calving	CalvingFileLayout	General		HERD_CODE	HERD_CODE	WhitespaceMinimizedString								True								
 NDGP	Calving	CalvingFileLayout	General		LACTATION_NUMBER	LACTATION_NUMBER	decimal								True								
 NDGP	Calving	CalvingFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT							True								
-NDGP	Calving	CalvingFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under 'Source of Data' column			
+NDGP	Calving	CalvingFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under \'Source of Data\' column			
 NDGP	Calving	CalvingFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE							True								
+NDGP	Events	EventsFileLayout	General		24H_DRY_MATTER_INTAKE	24H_DRY_MATTER_INTAKE	decimal		G/DAY						True								
+NDGP	Events	EventsFileLayout	General		24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE	24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE	WhitespaceMinimizedString								True								
+NDGP	Events	EventsFileLayout	General		24H_WATER_INTAKE	24H_WATER_INTAKE	decimal		DL						True								
+NDGP	Events	EventsFileLayout	General		24H_WATER_INTAKE_MEASUREMENT_ESTIMATE	24H_WATER_INTAKE_MEASUREMENT_ESTIMATE	WhitespaceMinimizedString								True								
+NDGP	Events	EventsFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString								True					INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
+NDGP	Events	EventsFileLayout	General		BODY_CONDITION_SCORE	BODY_CONDITION_SCORE	decimal		Score						True								
+NDGP	Events	EventsFileLayout	General		CH4_EMISSION	CH4_EMISSION	decimal		G/DAY						True								
+NDGP	Events	EventsFileLayout	General		CH4_EMISSION_MEASUREMENT_ESTIMATE	CH4_EMISSION_MEASUREMENT_ESTIMATE	WhitespaceMinimizedString								True								
+NDGP	Events	EventsFileLayout	General		CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM	CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM	WhitespaceMinimizedString								True								
+NDGP	Events	EventsFileLayout	General		CH4_EMISSION_PPM	CH4_EMISSION_PPM	decimal		PPM						True								
+NDGP	Events	EventsFileLayout	General		CH4_MEASURE_METHOD	CH4_MEASURE_METHOD	WhitespaceMinimizedString								True								
+NDGP	Events	EventsFileLayout	General		CO2_EMISSION	CO2_EMISSION	decimal		G/DAY						True								
+NDGP	Events	EventsFileLayout	General		CO2_EMISSION_MEASUREMENT_ESTIMATE	CO2_EMISSION_MEASUREMENT_ESTIMATE	decimal		G/DAY						True								
+NDGP	Events	EventsFileLayout	General		CO2_EMISSION_PPM	CO2_EMISSION_PPM	decimal		PPM						True								
+NDGP	Events	EventsFileLayout	General		CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE	CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE	WhitespaceMinimizedString								True								
+NDGP	Events	EventsFileLayout	General		COUNTRY_OF_ORIGIN	COUNTRY_OF_ORIGIN	WhitespaceMinimizedString								True								
+NDGP	Events	EventsFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE							True								
+NDGP	Events	EventsFileLayout	General		HERD_CODE	HERD_CODE	WhitespaceMinimizedString								True								
+NDGP	Events	EventsFileLayout	General		LIVE_BODY_WEIGHT	LIVE_BODY_WEIGHT	decimal		KG						True								
+NDGP	Events	EventsFileLayout	General		LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE	LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE	WhitespaceMinimizedString								True								
+NDGP	Events	EventsFileLayout	General		PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS	PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS	decimal		%						True								
+NDGP	Events	EventsFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT							True								
+NDGP	Events	EventsFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under \'Source of Data\' column			
+NDGP	Events	EventsFileLayout	General		STANDARD_DEVIATION_CH4_EMISSION	STANDARD_DEVIATION_CH4_EMISSION	decimal		G/DAY						True								
+NDGP	Events	EventsFileLayout	General		STANDARD_DEVIATION_CH4_EMISSION_PPM	STANDARD_DEVIATION_CH4_EMISSION_PPM	decimal		PPM						True								
+NDGP	Events	EventsFileLayout	General		STANDARD_DEVIATION_CO2_EMISSION	STANDARD_DEVIATION_CO2_EMISSION	decimal		G/DAY						True								
+NDGP	Events	EventsFileLayout	General		STANDARD_DEVIATION_SD_CO2_PPM	STANDARD_DEVIATION_SD_CO2_PPM	decimal		PPM						True								
+NDGP	Events	EventsFileLayout	General		TEST_DATE	TEST_DATE	DateTime								True								
+NDGP	Events	EventsFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE							True								
+NDGP	Events	EventsFileLayout	General		TRIAL	TRIAL	WhitespaceMinimizedString								True								
 NDGP	Milk	MilkProductionFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString								True					INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
 NDGP	Milk	MilkProductionFileLayout	General		BETA_HYDROXYBUTYRATE	BETA_HYDROXYBUTYRATE	decimal		MMOL/L MULTIPLIED PER 1000						True								
 NDGP	Milk	MilkProductionFileLayout	General		COUNTRY_OF_ORIGIN	COUNTRY-OF-ORIGIN	WhitespaceMinimizedString								True								
@@ -482,7 +534,7 @@ NDGP	Milk	MilkProductionFileLayout	General		MILK_YIELD	MILK_YIELD	decimal		KG			
 NDGP	Milk	MilkProductionFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT							True								
 NDGP	Milk	MilkProductionFileLayout	General		PROTEIN_YIELD	PROTEIN_YIELD	decimal		KG						True								
 NDGP	Milk	MilkProductionFileLayout	General		SOMATIC_CELL_COUNT	SOMATIC_CELL_COUNT	decimal		1000/ML						True								
-NDGP	Milk	MilkProductionFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under 'Source of Data' column			
+NDGP	Milk	MilkProductionFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under \'Source of Data\' column			
 NDGP	Milk	MilkProductionFileLayout	General		TEST_DATE		DateTime								True								
 NDGP	Milk	MilkProductionFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE							True								
 NDGP	MIR	MirFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString							True						INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
@@ -493,17 +545,17 @@ NDGP	MIR	MirFileLayout	General		HERD_CODE	HERD_CODE	WhitespaceMinimizedString			
 NDGP	MIR	MirFileLayout	General		MILK_SPECTRAL_DATA	MILK_SPECTRAL_DATA	decimal							True						ULTIPLIED BY 100,000,000			
 NDGP	MIR	MirFileLayout	General		NUMBER_OF_DATA_POINTS	NUMBER_OF_DATA_POINTS	decimal								True								
 NDGP	MIR	MirFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT						True									
-NDGP	MIR	MirFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString							True						See contacts list under 'Source of Data' column			
+NDGP	MIR	MirFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString							True						See contacts list under \'Source of Data\' column			
 NDGP	MIR	MirFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE						True									
 NDGP	MIR	MirFileLayout	General		TYPE_OF_SPECTROMETER	TYPE_OF_SPECTROMETER	WhitespaceMinimizedString								True								
 NDGP	Pedigree	PedigreeFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString								True					INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
 NDGP	Pedigree	PedigreeFileLayout	General		BIRTH_DATE	BIRTH_DATE	DateTime								True								
-NDGP	Pedigree	PedigreeFileLayout	General		DAM_ID	DAM_ID	WhitespaceMinimizedString							True						12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING '0'S).			
+NDGP	Pedigree	PedigreeFileLayout	General		DAM_ID	DAM_ID	WhitespaceMinimizedString							True						12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING \'0\'S).			
 NDGP	Pedigree	PedigreeFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE							True								
 NDGP	Pedigree	PedigreeFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT							True								
 NDGP	Pedigree	PedigreeFileLayout	General		REGISTERED_NAME	REGISTERED_NAME	WhitespaceMinimizedString							True									
-NDGP	Pedigree	PedigreeFileLayout	General		SIRE_ID	SIRE_ID	WhitespaceMinimizedString							True						12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING '0'S).			
-NDGP	Pedigree	PedigreeFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under 'Source of Data' column			
+NDGP	Pedigree	PedigreeFileLayout	General		SIRE_ID	SIRE_ID	WhitespaceMinimizedString							True						12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING \'0\'S).			
+NDGP	Pedigree	PedigreeFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under \'Source of Data\' column			
 NDGP	Pedigree	PedigreeFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE							True								
 peACE	PeaCE	Peace	General		accession_id	Accession ID	WhitespaceMinimizedString													Unique identifier for each germplasm accession			
 peACE	PeaCE	Peace	General		agronomic_trait	Agronomic Trait	WhitespaceMinimizedString													Agronomic trait measured for the germplasm accession			
@@ -552,213 +604,213 @@ peACE	PeaCE	Peace	General		survey_response	Survey Response	WhitespaceMinimizedSt
 peACE	PeaCE	Peace	General		variant_calls	Variant Calls	WhitespaceMinimizedString													Variant calls generated from sequencing data			
 peACE	PeaCE	Peace	General		weather_conditions	Weather Conditions	WhitespaceMinimizedString													Weather conditions during the field trial			
 peACE	PeaCE	Peace	General		yield	Yield	decimal		kg/ha											Yield measurement for the breeding population			
-JT	GENOME	Genome	General		access_training		WhitespaceMinimizedString	access_training															
-JT	GENOME	Genome	General		act_on_climate		WhitespaceMinimizedString	act_on_climate															
-JT	GENOME	Genome	General		age		Boolean																
-JT	GENOME	Genome	General		attention_check		WhitespaceMinimizedString	attention_check															
-JT	GENOME	Genome	General		birth_year		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		break_up_big_tech		WhitespaceMinimizedString	break_up_big_tech															
-JT	GENOME	Genome	General		buy_if_cheaper_icecream		WhitespaceMinimizedString	buy_if_cheaper_icecream															
-JT	GENOME	Genome	General		buy_if_cheaper_nuggets		WhitespaceMinimizedString	buy_if_cheaper_nuggets															
-JT	GENOME	Genome	General		buy_if_cheaper_salmon		WhitespaceMinimizedString	buy_if_cheaper_salmon															
-JT	GENOME	Genome	General		buy_if_healthier_icecream		WhitespaceMinimizedString	buy_if_healthier_icecream															
-JT	GENOME	Genome	General		buy_if_healthier_nuggets		WhitespaceMinimizedString	buy_if_healthier_nuggets															
-JT	GENOME	Genome	General		buy_if_healthier_salmon		WhitespaceMinimizedString	buy_if_healthier_salmon															
-JT	GENOME	Genome	General		buy_instead_icecream		WhitespaceMinimizedString	buy_instead_icecream															
-JT	GENOME	Genome	General		buy_instead_nuggets		WhitespaceMinimizedString	buy_instead_nuggets															
-JT	GENOME	Genome	General		buy_instead_salmon		WhitespaceMinimizedString	buy_instead_salmon															
-JT	GENOME	Genome	General		buy_regular_cell_icecream		WhitespaceMinimizedString	buy_regular_cell_icecream															
-JT	GENOME	Genome	General		buy_regular_cell_nuggets		WhitespaceMinimizedString	buy_regular_cell_nuggets															
-JT	GENOME	Genome	General		buy_regular_cell_salmon		WhitespaceMinimizedString	buy_regular_cell_salmon															
-JT	GENOME	Genome	General		city		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		city_only_access		WhitespaceMinimizedString	city_only_access															
-JT	GENOME	Genome	General		city_only_jobs		WhitespaceMinimizedString	city_only_jobs															
-JT	GENOME	Genome	General		climate_biodiversity_loss		WhitespaceMinimizedString	climate_biodiversity_loss															
-JT	GENOME	Genome	General		climate_ecosystem		WhitespaceMinimizedString	climate_ecosystem															
-JT	GENOME	Genome	General		climate_not_urgent		WhitespaceMinimizedString	climate_not_urgent															
-JT	GENOME	Genome	General		comm		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		comment_cell_agri_fut		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		community_owned_model		WhitespaceMinimizedString	community_owned_model															
-JT	GENOME	Genome	General		consent_given		Boolean																
-JT	GENOME	Genome	General		cont_id		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		conventional_farmers_opportunity		WhitespaceMinimizedString	conventional_farmers_opportunity															
-JT	GENOME	Genome	General		corp_patents_limit_knowledge		WhitespaceMinimizedString	corp_patents_limit_knowledge															
-JT	GENOME	Genome	General		country		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		date_sub		DateTime		date														
-JT	GENOME	Genome	General		diet_avoid_red_meat		Boolean																
-JT	GENOME	Genome	General		diet_buying_organic		Boolean																
-JT	GENOME	Genome	General		diet_flexitarian		Boolean																
-JT	GENOME	Genome	General		diet_halal		Boolean																
-JT	GENOME	Genome	General		diet_keto		Boolean																
-JT	GENOME	Genome	General		diet_kosher		Boolean																
-JT	GENOME	Genome	General		diet_none_of_the_above		Boolean																
-JT	GENOME	Genome	General		diet_other_specified		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		diet_paleo		Boolean																
-JT	GENOME	Genome	General		diet_pescatarian		Boolean																
-JT	GENOME	Genome	General		diet_plant_based		Boolean																
-JT	GENOME	Genome	General		diet_vegan		Boolean																
-JT	GENOME	Genome	General		diet_vegetarian		Boolean																
-JT	GENOME	Genome	General		education_level		WhitespaceMinimizedString	education_level															
-JT	GENOME	Genome	General		env_impact_beef		WhitespaceMinimizedString	env_impact_beef															
-JT	GENOME	Genome	General		env_impact_chicken		WhitespaceMinimizedString	env_impact_chicken															
-JT	GENOME	Genome	General		env_impact_fish		WhitespaceMinimizedString	env_impact_fish															
-JT	GENOME	Genome	General		env_impact_pork		WhitespaceMinimizedString	env_impact_pork															
-JT	GENOME	Genome	General		eth_african		Boolean																
-JT	GENOME	Genome	General		eth_caribbean		Boolean																
-JT	GENOME	Genome	General		eth_east_asian		Boolean																
-JT	GENOME	Genome	General		eth_european		Boolean																
-JT	GENOME	Genome	General		eth_indigenous		Boolean																
-JT	GENOME	Genome	General		eth_latin_american		Boolean																
-JT	GENOME	Genome	General		eth_middle_eastern		Boolean																
-JT	GENOME	Genome	General		eth_oceania		Boolean																
-JT	GENOME	Genome	General		eth_other		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		eth_prefer_not_say		Boolean																
-JT	GENOME	Genome	General		eth_south_asian		Boolean																
-JT	GENOME	Genome	General		eth_southeast_asian		Boolean																
-JT	GENOME	Genome	General		ext_affordable_protein		WhitespaceMinimizedString	ext_affordable_protein															
-JT	GENOME	Genome	General		ext_disrespectful_nature		WhitespaceMinimizedString	ext_disrespectful_nature															
-JT	GENOME	Genome	General		ext_env_sustainability		WhitespaceMinimizedString	ext_env_sustainability															
-JT	GENOME	Genome	General		ext_healthy_products		WhitespaceMinimizedString	ext_healthy_products															
-JT	GENOME	Genome	General		ext_improve_welfare		WhitespaceMinimizedString	ext_improve_welfare															
-JT	GENOME	Genome	General		ext_solve_hunger		WhitespaceMinimizedString	ext_solve_hunger															
-JT	GENOME	Genome	General		ext_tasty_products		WhitespaceMinimizedString	ext_tasty_products															
-JT	GENOME	Genome	General		ext_unnatural		WhitespaceMinimizedString	ext_unnatural															
-JT	GENOME	Genome	General		ext_viable_alternative		WhitespaceMinimizedString	ext_viable_alternative															
-JT	GENOME	Genome	General		farmers_lose_jobs		WhitespaceMinimizedString	farmers_lose_jobs															
-JT	GENOME	Genome	General		farmers_transition		WhitespaceMinimizedString	farmers_transition															
-JT	GENOME	Genome	General		food_banks_benefit		WhitespaceMinimizedString	food_banks_benefit															
-JT	GENOME	Genome	General		freq_dairy		WhitespaceMinimizedString	freq_dairy															
-JT	GENOME	Genome	General		freq_eggs		WhitespaceMinimizedString	freq_eggs															
-JT	GENOME	Genome	General		freq_fish		WhitespaceMinimizedString	freq_fish															
-JT	GENOME	Genome	General		freq_other		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		freq_pork		WhitespaceMinimizedString	freq_pork															
-JT	GENOME	Genome	General		freq_poultry		WhitespaceMinimizedString	freq_poultry															
-JT	GENOME	Genome	General		freq_red_meat		WhitespaceMinimizedString	freq_red_meat															
-JT	GENOME	Genome	General		gatekeep_methods		WhitespaceMinimizedString	gatekeep_methods															
-JT	GENOME	Genome	General		gender		WhitespaceMinimizedString	gender															
-JT	GENOME	Genome	General		gender_other		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		glob_benefits		WhitespaceMinimizedString	glob_benefits															
-JT	GENOME	Genome	General		gm_beef		WhitespaceMinimizedString	gm_beef															
-JT	GENOME	Genome	General		gm_rice		WhitespaceMinimizedString	gm_rice															
-JT	GENOME	Genome	General		grocery_availability		WhitespaceMinimizedString	grocery_availability															
-JT	GENOME	Genome	General		heard_cellular_agriculture		WhitespaceMinimizedString	heard_cellular_agriculture															
-JT	GENOME	Genome	General		home_production_possible		WhitespaceMinimizedString	home_production_possible															
-JT	GENOME	Genome	General		hope_tech		WhitespaceMinimizedString	hope_tech															
-JT	GENOME	Genome	General		household_composition		WhitespaceMinimizedString	household_composition															
-JT	GENOME	Genome	General		household_composition_other		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		household_income		WhitespaceMinimizedString	household_income															
-JT	GENOME	Genome	General		human_caused_climate		WhitespaceMinimizedString	human_caused_climate															
-JT	GENOME	Genome	General		human_impacts		WhitespaceMinimizedString	human_impacts															
-JT	GENOME	Genome	General		imp_animal_welfare		Boolean																
-JT	GENOME	Genome	General		imp_antibiotic_free		Boolean																
-JT	GENOME	Genome	General		imp_cost		Boolean																
-JT	GENOME	Genome	General		imp_cultural_practices		Boolean																
-JT	GENOME	Genome	General		imp_dairy		WhitespaceMinimizedString	imp_dairy															
-JT	GENOME	Genome	General		imp_eggs		WhitespaceMinimizedString	imp_eggs															
-JT	GENOME	Genome	General		imp_fish		WhitespaceMinimizedString	imp_fish															
-JT	GENOME	Genome	General		imp_freshness		Boolean																
-JT	GENOME	Genome	General		imp_organic		Boolean																
-JT	GENOME	Genome	General		imp_other_foods_specified		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		imp_other_specified		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		imp_pork		WhitespaceMinimizedString	imp_pork															
-JT	GENOME	Genome	General		imp_poultry		WhitespaceMinimizedString	imp_poultry															
-JT	GENOME	Genome	General		imp_production		Boolean																
-JT	GENOME	Genome	General		imp_red_meat		WhitespaceMinimizedString	imp_red_meat															
-JT	GENOME	Genome	General		imp_self_hunted		Boolean																
-JT	GENOME	Genome	General		imp_sustainability		Boolean																
-JT	GENOME	Genome	General		inaccessible_education		WhitespaceMinimizedString	inaccessible_education															
-JT	GENOME	Genome	General		industry_dominated		WhitespaceMinimizedString	industry_dominated															
-JT	GENOME	Genome	General		innovation_comfort		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		ip_address		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		lang		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		larg_corp_influence		WhitespaceMinimizedString	larg_corp_influence															
-JT	GENOME	Genome	General		lat		decimal																
-JT	GENOME	Genome	General		leg_comm		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		lives_in_can		Boolean																
-JT	GENOME	Genome	General		local_food_security		WhitespaceMinimizedString	local_food_security															
-JT	GENOME	Genome	General		location_general		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		long		decimal																
-JT	GENOME	Genome	General		main_grocery_shopper		WhitespaceMinimizedString	main_grocery_shopper															
-JT	GENOME	Genome	General		min		decimal		minutes														
-JT	GENOME	Genome	General		newhiddenvalue		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		online_superstore_availability		WhitespaceMinimizedString	online_superstore_availability															
-JT	GENOME	Genome	General		only_wealthy_access		WhitespaceMinimizedString	only_wealthy_access															
-JT	GENOME	Genome	General		plant_burger_mushroom		WhitespaceMinimizedString	plant_burger_mushroom															
-JT	GENOME	Genome	General		plant_burger_soy		WhitespaceMinimizedString	plant_burger_soy															
-JT	GENOME	Genome	General		political_scale		Boolean																
-JT	GENOME	Genome	General		political_scale_other		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		post		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		postal_prefix		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		priority_climate_resilience		Boolean																
-JT	GENOME	Genome	General		priority_farm_animal_conditions		Boolean																
-JT	GENOME	Genome	General		priority_food_tech		Boolean																
-JT	GENOME	Genome	General		priority_ghg_reduction		Boolean																
-JT	GENOME	Genome	General		priority_healthy_access		Boolean																
-JT	GENOME	Genome	General		priority_indigenous_food_practices		Boolean																
-JT	GENOME	Genome	General		priority_local_retail		Boolean																
-JT	GENOME	Genome	General		priority_migrant_worker_rights		Boolean																
-JT	GENOME	Genome	General		priority_none		Boolean																
-JT	GENOME	Genome	General		priority_other_specified		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		priority_vegan_shift		Boolean																
-JT	GENOME	Genome	General		priority_wildlife_habitat		Boolean																
-JT	GENOME	Genome	General		progress_tech		WhitespaceMinimizedString	progress_tech															
-JT	GENOME	Genome	General		ref		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		reject_cell_icecream		WhitespaceMinimizedString	reject_cell_icecream															
-JT	GENOME	Genome	General		reject_cell_nuggets		WhitespaceMinimizedString	reject_cell_nuggets															
-JT	GENOME	Genome	General		reject_cell_salmon		WhitespaceMinimizedString	reject_cell_salmon															
-JT	GENOME	Genome	General		replaces_fresh_meat		WhitespaceMinimizedString	replaces_fresh_meat															
-JT	GENOME	Genome	General		res_id		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		see_agri_industry_icecream		WhitespaceMinimizedString	see_agri_industry_icecream															
-JT	GENOME	Genome	General		see_agri_industry_nuggets		WhitespaceMinimizedString	see_agri_industry_nuggets															
-JT	GENOME	Genome	General		see_agri_industry_salmon		WhitespaceMinimizedString	see_agri_industry_salmon															
-JT	GENOME	Genome	General		see_global_dev_icecream		WhitespaceMinimizedString	see_global_dev_icecream															
-JT	GENOME	Genome	General		see_global_dev_nuggets		WhitespaceMinimizedString	see_global_dev_nuggets															
-JT	GENOME	Genome	General		see_global_dev_salmon		WhitespaceMinimizedString	see_global_dev_salmon															
-JT	GENOME	Genome	General		see_in_store_icecream		WhitespaceMinimizedString	see_in_store_icecream															
-JT	GENOME	Genome	General		see_in_store_nuggets		WhitespaceMinimizedString	see_in_store_nuggets															
-JT	GENOME	Genome	General		see_in_store_salmon		WhitespaceMinimizedString	see_in_store_salmon															
-JT	GENOME	Genome	General		see_local_food_icecream		WhitespaceMinimizedString	see_local_food_icecream															
-JT	GENOME	Genome	General		see_local_food_nuggets		WhitespaceMinimizedString	see_local_food_nuggets															
-JT	GENOME	Genome	General		see_local_food_salmon		WhitespaceMinimizedString	see_local_food_salmon															
-JT	GENOME	Genome	General		self_grown_food_freq		WhitespaceMinimizedString	self_grown_food_freq															
-JT	GENOME	Genome	General		ses_id		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		source_backyard_animals		Boolean																
-JT	GENOME	Genome	General		source_butcher_shop		Boolean																
-JT	GENOME	Genome	General		source_direct_from_farms		Boolean																
-JT	GENOME	Genome	General		source_farmers_market		Boolean																
-JT	GENOME	Genome	General		source_food_bank		Boolean																
-JT	GENOME	Genome	General		source_grocery_superstore		Boolean																
-JT	GENOME	Genome	General		source_hunting_fishing		Boolean																
-JT	GENOME	Genome	General		source_other_specified		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		source_own_farm		Boolean																
-JT	GENOME	Genome	General		start_time		DateTime																
-JT	GENOME	Genome	General		state		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		status		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		support_cell_ag_sale		WhitespaceMinimizedString	support_cell_ag_sale															
-JT	GENOME	Genome	General		tag		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		tech_marginalized		WhitespaceMinimizedString	tech_marginalized															
-JT	GENOME	Genome	General		tech_negatives		WhitespaceMinimizedString	tech_negatives															
-JT	GENOME	Genome	General		tech_resources		WhitespaceMinimizedString	tech_resources															
-JT	GENOME	Genome	General		tech_society		WhitespaceMinimizedString	tech_society															
-JT	GENOME	Genome	General		trust_ag_companies		WhitespaceMinimizedString	trust_ag_companies															
-JT	GENOME	Genome	General		trust_celebrities		WhitespaceMinimizedString	trust_celebrities															
-JT	GENOME	Genome	General		trust_env_activists		WhitespaceMinimizedString	trust_env_activists															
-JT	GENOME	Genome	General		trust_family_friends		WhitespaceMinimizedString	trust_family_friends															
-JT	GENOME	Genome	General		trust_regulators		WhitespaceMinimizedString	trust_regulators															
-JT	GENOME	Genome	General		trust_scientists		WhitespaceMinimizedString	trust_scientists															
-JT	GENOME	Genome	General		try_cell_icecream		WhitespaceMinimizedString	try_cell_icecream															
-JT	GENOME	Genome	General		try_cell_nuggets		WhitespaceMinimizedString	try_cell_nuggets															
-JT	GENOME	Genome	General		try_cell_salmon		WhitespaceMinimizedString	try_cell_salmon															
-JT	GENOME	Genome	General		url		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		used_in_processed_foods		WhitespaceMinimizedString	used_in_processed_foods															
-JT	GENOME	Genome	General		user_agent		WhitespaceMinimizedString																
-JT	GENOME	Genome	General		vertical_agriculture		WhitespaceMinimizedString	vertical_agriculture															
-JT	GENOME	Genome	General		work_farming_employee		Boolean																
-JT	GENOME	Genome	General		work_farming_owner		Boolean																
-JT	GENOME	Genome	General		work_food_access		Boolean																
-JT	GENOME	Genome	General		work_food_distribution		Boolean																
-JT	GENOME	Genome	General		work_food_education		Boolean																
-JT	GENOME	Genome	General		work_food_processing		Boolean																
-JT	GENOME	Genome	General		work_food_retail		Boolean																
-JT	GENOME	Genome	General		work_none		Boolean																
-JT	GENOME	Genome	General		work_prefer_not_say		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		access_training		WhitespaceMinimizedString	access_training															
+JT	GENOME	AgriGenomicsOptionSurvey	General		act_on_climate		WhitespaceMinimizedString	act_on_climate															
+JT	GENOME	AgriGenomicsOptionSurvey	General		age		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		attention_check		WhitespaceMinimizedString	attention_check															
+JT	GENOME	AgriGenomicsOptionSurvey	General		birth_year		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		break_up_big_tech		WhitespaceMinimizedString	break_up_big_tech															
+JT	GENOME	AgriGenomicsOptionSurvey	General		buy_if_cheaper_icecream		WhitespaceMinimizedString	buy_if_cheaper_icecream															
+JT	GENOME	AgriGenomicsOptionSurvey	General		buy_if_cheaper_nuggets		WhitespaceMinimizedString	buy_if_cheaper_nuggets															
+JT	GENOME	AgriGenomicsOptionSurvey	General		buy_if_cheaper_salmon		WhitespaceMinimizedString	buy_if_cheaper_salmon															
+JT	GENOME	AgriGenomicsOptionSurvey	General		buy_if_healthier_icecream		WhitespaceMinimizedString	buy_if_healthier_icecream															
+JT	GENOME	AgriGenomicsOptionSurvey	General		buy_if_healthier_nuggets		WhitespaceMinimizedString	buy_if_healthier_nuggets															
+JT	GENOME	AgriGenomicsOptionSurvey	General		buy_if_healthier_salmon		WhitespaceMinimizedString	buy_if_healthier_salmon															
+JT	GENOME	AgriGenomicsOptionSurvey	General		buy_instead_icecream		WhitespaceMinimizedString	buy_instead_icecream															
+JT	GENOME	AgriGenomicsOptionSurvey	General		buy_instead_nuggets		WhitespaceMinimizedString	buy_instead_nuggets															
+JT	GENOME	AgriGenomicsOptionSurvey	General		buy_instead_salmon		WhitespaceMinimizedString	buy_instead_salmon															
+JT	GENOME	AgriGenomicsOptionSurvey	General		buy_regular_cell_icecream		WhitespaceMinimizedString	buy_regular_cell_icecream															
+JT	GENOME	AgriGenomicsOptionSurvey	General		buy_regular_cell_nuggets		WhitespaceMinimizedString	buy_regular_cell_nuggets															
+JT	GENOME	AgriGenomicsOptionSurvey	General		buy_regular_cell_salmon		WhitespaceMinimizedString	buy_regular_cell_salmon															
+JT	GENOME	AgriGenomicsOptionSurvey	General		city		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		city_only_access		WhitespaceMinimizedString	city_only_access															
+JT	GENOME	AgriGenomicsOptionSurvey	General		city_only_jobs		WhitespaceMinimizedString	city_only_jobs															
+JT	GENOME	AgriGenomicsOptionSurvey	General		climate_biodiversity_loss		WhitespaceMinimizedString	climate_biodiversity_loss															
+JT	GENOME	AgriGenomicsOptionSurvey	General		climate_ecosystem		WhitespaceMinimizedString	climate_ecosystem															
+JT	GENOME	AgriGenomicsOptionSurvey	General		climate_not_urgent		WhitespaceMinimizedString	climate_not_urgent															
+JT	GENOME	AgriGenomicsOptionSurvey	General		comm		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		comment_cell_agri_fut		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		community_owned_model		WhitespaceMinimizedString	community_owned_model															
+JT	GENOME	AgriGenomicsOptionSurvey	General		consent_given		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		cont_id		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		conventional_farmers_opportunity		WhitespaceMinimizedString	conventional_farmers_opportunity															
+JT	GENOME	AgriGenomicsOptionSurvey	General		corp_patents_limit_knowledge		WhitespaceMinimizedString	corp_patents_limit_knowledge															
+JT	GENOME	AgriGenomicsOptionSurvey	General		country		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		date_sub		DateTime		date														
+JT	GENOME	AgriGenomicsOptionSurvey	General		diet_avoid_red_meat		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		diet_buying_organic		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		diet_flexitarian		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		diet_halal		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		diet_keto		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		diet_kosher		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		diet_none_of_the_above		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		diet_other_specified		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		diet_paleo		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		diet_pescatarian		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		diet_plant_based		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		diet_vegan		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		diet_vegetarian		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		education_level		WhitespaceMinimizedString	education_level															
+JT	GENOME	AgriGenomicsOptionSurvey	General		env_impact_beef		WhitespaceMinimizedString	env_impact_beef															
+JT	GENOME	AgriGenomicsOptionSurvey	General		env_impact_chicken		WhitespaceMinimizedString	env_impact_chicken															
+JT	GENOME	AgriGenomicsOptionSurvey	General		env_impact_fish		WhitespaceMinimizedString	env_impact_fish															
+JT	GENOME	AgriGenomicsOptionSurvey	General		env_impact_pork		WhitespaceMinimizedString	env_impact_pork															
+JT	GENOME	AgriGenomicsOptionSurvey	General		eth_african		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		eth_caribbean		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		eth_east_asian		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		eth_european		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		eth_indigenous		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		eth_latin_american		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		eth_middle_eastern		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		eth_oceania		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		eth_other		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		eth_prefer_not_say		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		eth_south_asian		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		eth_southeast_asian		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		ext_affordable_protein		WhitespaceMinimizedString	ext_affordable_protein															
+JT	GENOME	AgriGenomicsOptionSurvey	General		ext_disrespectful_nature		WhitespaceMinimizedString	ext_disrespectful_nature															
+JT	GENOME	AgriGenomicsOptionSurvey	General		ext_env_sustainability		WhitespaceMinimizedString	ext_env_sustainability															
+JT	GENOME	AgriGenomicsOptionSurvey	General		ext_healthy_products		WhitespaceMinimizedString	ext_healthy_products															
+JT	GENOME	AgriGenomicsOptionSurvey	General		ext_improve_welfare		WhitespaceMinimizedString	ext_improve_welfare															
+JT	GENOME	AgriGenomicsOptionSurvey	General		ext_solve_hunger		WhitespaceMinimizedString	ext_solve_hunger															
+JT	GENOME	AgriGenomicsOptionSurvey	General		ext_tasty_products		WhitespaceMinimizedString	ext_tasty_products															
+JT	GENOME	AgriGenomicsOptionSurvey	General		ext_unnatural		WhitespaceMinimizedString	ext_unnatural															
+JT	GENOME	AgriGenomicsOptionSurvey	General		ext_viable_alternative		WhitespaceMinimizedString	ext_viable_alternative															
+JT	GENOME	AgriGenomicsOptionSurvey	General		farmers_lose_jobs		WhitespaceMinimizedString	farmers_lose_jobs															
+JT	GENOME	AgriGenomicsOptionSurvey	General		farmers_transition		WhitespaceMinimizedString	farmers_transition															
+JT	GENOME	AgriGenomicsOptionSurvey	General		food_banks_benefit		WhitespaceMinimizedString	food_banks_benefit															
+JT	GENOME	AgriGenomicsOptionSurvey	General		freq_dairy		WhitespaceMinimizedString	freq_dairy															
+JT	GENOME	AgriGenomicsOptionSurvey	General		freq_eggs		WhitespaceMinimizedString	freq_eggs															
+JT	GENOME	AgriGenomicsOptionSurvey	General		freq_fish		WhitespaceMinimizedString	freq_fish															
+JT	GENOME	AgriGenomicsOptionSurvey	General		freq_other		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		freq_pork		WhitespaceMinimizedString	freq_pork															
+JT	GENOME	AgriGenomicsOptionSurvey	General		freq_poultry		WhitespaceMinimizedString	freq_poultry															
+JT	GENOME	AgriGenomicsOptionSurvey	General		freq_red_meat		WhitespaceMinimizedString	freq_red_meat															
+JT	GENOME	AgriGenomicsOptionSurvey	General		gatekeep_methods		WhitespaceMinimizedString	gatekeep_methods															
+JT	GENOME	AgriGenomicsOptionSurvey	General		gender		WhitespaceMinimizedString	gender															
+JT	GENOME	AgriGenomicsOptionSurvey	General		gender_other		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		glob_benefits		WhitespaceMinimizedString	glob_benefits															
+JT	GENOME	AgriGenomicsOptionSurvey	General		gm_beef		WhitespaceMinimizedString	gm_beef															
+JT	GENOME	AgriGenomicsOptionSurvey	General		gm_rice		WhitespaceMinimizedString	gm_rice															
+JT	GENOME	AgriGenomicsOptionSurvey	General		grocery_availability		WhitespaceMinimizedString	grocery_availability															
+JT	GENOME	AgriGenomicsOptionSurvey	General		heard_cellular_agriculture		WhitespaceMinimizedString	heard_cellular_agriculture															
+JT	GENOME	AgriGenomicsOptionSurvey	General		home_production_possible		WhitespaceMinimizedString	home_production_possible															
+JT	GENOME	AgriGenomicsOptionSurvey	General		hope_tech		WhitespaceMinimizedString	hope_tech															
+JT	GENOME	AgriGenomicsOptionSurvey	General		household_composition		WhitespaceMinimizedString	household_composition															
+JT	GENOME	AgriGenomicsOptionSurvey	General		household_composition_other		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		household_income		WhitespaceMinimizedString	household_income															
+JT	GENOME	AgriGenomicsOptionSurvey	General		human_caused_climate		WhitespaceMinimizedString	human_caused_climate															
+JT	GENOME	AgriGenomicsOptionSurvey	General		human_impacts		WhitespaceMinimizedString	human_impacts															
+JT	GENOME	AgriGenomicsOptionSurvey	General		imp_animal_welfare		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		imp_antibiotic_free		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		imp_cost		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		imp_cultural_practices		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		imp_dairy		WhitespaceMinimizedString	imp_dairy															
+JT	GENOME	AgriGenomicsOptionSurvey	General		imp_eggs		WhitespaceMinimizedString	imp_eggs															
+JT	GENOME	AgriGenomicsOptionSurvey	General		imp_fish		WhitespaceMinimizedString	imp_fish															
+JT	GENOME	AgriGenomicsOptionSurvey	General		imp_freshness		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		imp_organic		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		imp_other_foods_specified		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		imp_other_specified		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		imp_pork		WhitespaceMinimizedString	imp_pork															
+JT	GENOME	AgriGenomicsOptionSurvey	General		imp_poultry		WhitespaceMinimizedString	imp_poultry															
+JT	GENOME	AgriGenomicsOptionSurvey	General		imp_production		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		imp_red_meat		WhitespaceMinimizedString	imp_red_meat															
+JT	GENOME	AgriGenomicsOptionSurvey	General		imp_self_hunted		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		imp_sustainability		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		inaccessible_education		WhitespaceMinimizedString	inaccessible_education															
+JT	GENOME	AgriGenomicsOptionSurvey	General		industry_dominated		WhitespaceMinimizedString	industry_dominated															
+JT	GENOME	AgriGenomicsOptionSurvey	General		innovation_comfort		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		ip_address		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		lang		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		larg_corp_influence		WhitespaceMinimizedString	larg_corp_influence															
+JT	GENOME	AgriGenomicsOptionSurvey	General		lat		decimal																
+JT	GENOME	AgriGenomicsOptionSurvey	General		leg_comm		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		lives_in_can		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		local_food_security		WhitespaceMinimizedString	local_food_security															
+JT	GENOME	AgriGenomicsOptionSurvey	General		location_general		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		long		decimal																
+JT	GENOME	AgriGenomicsOptionSurvey	General		main_grocery_shopper		WhitespaceMinimizedString	main_grocery_shopper															
+JT	GENOME	AgriGenomicsOptionSurvey	General		min		decimal		minutes														
+JT	GENOME	AgriGenomicsOptionSurvey	General		newhiddenvalue		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		online_superstore_availability		WhitespaceMinimizedString	online_superstore_availability															
+JT	GENOME	AgriGenomicsOptionSurvey	General		only_wealthy_access		WhitespaceMinimizedString	only_wealthy_access															
+JT	GENOME	AgriGenomicsOptionSurvey	General		plant_burger_mushroom		WhitespaceMinimizedString	plant_burger_mushroom															
+JT	GENOME	AgriGenomicsOptionSurvey	General		plant_burger_soy		WhitespaceMinimizedString	plant_burger_soy															
+JT	GENOME	AgriGenomicsOptionSurvey	General		political_scale		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		political_scale_other		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		post		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		postal_prefix		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		priority_climate_resilience		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		priority_farm_animal_conditions		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		priority_food_tech		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		priority_ghg_reduction		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		priority_healthy_access		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		priority_indigenous_food_practices		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		priority_local_retail		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		priority_migrant_worker_rights		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		priority_none		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		priority_other_specified		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		priority_vegan_shift		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		priority_wildlife_habitat		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		progress_tech		WhitespaceMinimizedString	progress_tech															
+JT	GENOME	AgriGenomicsOptionSurvey	General		ref		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		reject_cell_icecream		WhitespaceMinimizedString	reject_cell_icecream															
+JT	GENOME	AgriGenomicsOptionSurvey	General		reject_cell_nuggets		WhitespaceMinimizedString	reject_cell_nuggets															
+JT	GENOME	AgriGenomicsOptionSurvey	General		reject_cell_salmon		WhitespaceMinimizedString	reject_cell_salmon															
+JT	GENOME	AgriGenomicsOptionSurvey	General		replaces_fresh_meat		WhitespaceMinimizedString	replaces_fresh_meat															
+JT	GENOME	AgriGenomicsOptionSurvey	General		res_id		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		see_agri_industry_icecream		WhitespaceMinimizedString	see_agri_industry_icecream															
+JT	GENOME	AgriGenomicsOptionSurvey	General		see_agri_industry_nuggets		WhitespaceMinimizedString	see_agri_industry_nuggets															
+JT	GENOME	AgriGenomicsOptionSurvey	General		see_agri_industry_salmon		WhitespaceMinimizedString	see_agri_industry_salmon															
+JT	GENOME	AgriGenomicsOptionSurvey	General		see_global_dev_icecream		WhitespaceMinimizedString	see_global_dev_icecream															
+JT	GENOME	AgriGenomicsOptionSurvey	General		see_global_dev_nuggets		WhitespaceMinimizedString	see_global_dev_nuggets															
+JT	GENOME	AgriGenomicsOptionSurvey	General		see_global_dev_salmon		WhitespaceMinimizedString	see_global_dev_salmon															
+JT	GENOME	AgriGenomicsOptionSurvey	General		see_in_store_icecream		WhitespaceMinimizedString	see_in_store_icecream															
+JT	GENOME	AgriGenomicsOptionSurvey	General		see_in_store_nuggets		WhitespaceMinimizedString	see_in_store_nuggets															
+JT	GENOME	AgriGenomicsOptionSurvey	General		see_in_store_salmon		WhitespaceMinimizedString	see_in_store_salmon															
+JT	GENOME	AgriGenomicsOptionSurvey	General		see_local_food_icecream		WhitespaceMinimizedString	see_local_food_icecream															
+JT	GENOME	AgriGenomicsOptionSurvey	General		see_local_food_nuggets		WhitespaceMinimizedString	see_local_food_nuggets															
+JT	GENOME	AgriGenomicsOptionSurvey	General		see_local_food_salmon		WhitespaceMinimizedString	see_local_food_salmon															
+JT	GENOME	AgriGenomicsOptionSurvey	General		self_grown_food_freq		WhitespaceMinimizedString	self_grown_food_freq															
+JT	GENOME	AgriGenomicsOptionSurvey	General		ses_id		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		source_backyard_animals		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		source_butcher_shop		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		source_direct_from_farms		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		source_farmers_market		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		source_food_bank		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		source_grocery_superstore		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		source_hunting_fishing		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		source_other_specified		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		source_own_farm		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		start_time		DateTime																
+JT	GENOME	AgriGenomicsOptionSurvey	General		state		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		status		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		support_cell_ag_sale		WhitespaceMinimizedString	support_cell_ag_sale															
+JT	GENOME	AgriGenomicsOptionSurvey	General		tag		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		tech_marginalized		WhitespaceMinimizedString	tech_marginalized															
+JT	GENOME	AgriGenomicsOptionSurvey	General		tech_negatives		WhitespaceMinimizedString	tech_negatives															
+JT	GENOME	AgriGenomicsOptionSurvey	General		tech_resources		WhitespaceMinimizedString	tech_resources															
+JT	GENOME	AgriGenomicsOptionSurvey	General		tech_society		WhitespaceMinimizedString	tech_society															
+JT	GENOME	AgriGenomicsOptionSurvey	General		trust_ag_companies		WhitespaceMinimizedString	trust_ag_companies															
+JT	GENOME	AgriGenomicsOptionSurvey	General		trust_celebrities		WhitespaceMinimizedString	trust_celebrities															
+JT	GENOME	AgriGenomicsOptionSurvey	General		trust_env_activists		WhitespaceMinimizedString	trust_env_activists															
+JT	GENOME	AgriGenomicsOptionSurvey	General		trust_family_friends		WhitespaceMinimizedString	trust_family_friends															
+JT	GENOME	AgriGenomicsOptionSurvey	General		trust_regulators		WhitespaceMinimizedString	trust_regulators															
+JT	GENOME	AgriGenomicsOptionSurvey	General		trust_scientists		WhitespaceMinimizedString	trust_scientists															
+JT	GENOME	AgriGenomicsOptionSurvey	General		try_cell_icecream		WhitespaceMinimizedString	try_cell_icecream															
+JT	GENOME	AgriGenomicsOptionSurvey	General		try_cell_nuggets		WhitespaceMinimizedString	try_cell_nuggets															
+JT	GENOME	AgriGenomicsOptionSurvey	General		try_cell_salmon		WhitespaceMinimizedString	try_cell_salmon															
+JT	GENOME	AgriGenomicsOptionSurvey	General		url		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		used_in_processed_foods		WhitespaceMinimizedString	used_in_processed_foods															
+JT	GENOME	AgriGenomicsOptionSurvey	General		user_agent		WhitespaceMinimizedString																
+JT	GENOME	AgriGenomicsOptionSurvey	General		vertical_agriculture		WhitespaceMinimizedString	vertical_agriculture															
+JT	GENOME	AgriGenomicsOptionSurvey	General		work_farming_employee		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		work_farming_owner		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		work_food_access		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		work_food_distribution		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		work_food_education		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		work_food_processing		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		work_food_retail		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		work_none		Boolean																
+JT	GENOME	AgriGenomicsOptionSurvey	General		work_prefer_not_say		Boolean																

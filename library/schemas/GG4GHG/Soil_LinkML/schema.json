@@ -1,10 +1,10 @@
 {
-  "id": "https://example.com/PedigreeFileLayout",
-  "name": "PedigreeFileLayout",
-  "description": "Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project",
+  "id": "https://example.com/SoilChemistryData",
+  "name": "SoilChemistryData",
+  "description": "A schema to describe soil chemistry measurements for GG4GHG data.",
   "version": "0.0.0",
   "in_language": "en",
-  "default_prefix": "https://example.com/PedigreeFileLayout/",
+  "default_prefix": "https://example.com/SoilChemistryData/",
   "imports": [],
   "prefixes": {
     "linkml": {
@@ -25,210 +25,244 @@
     }
   },
   "classes": {
-    "PedigreeFileLayout": {
-      "name": "PedigreeFileLayout",
-      "description": "Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project",
-      "title": "Pedigree File Layout",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+    "SoilChemistryData": {
+      "name": "SoilChemistryData",
+      "description": "A schema to describe soil chemistry measurements for GG4GHG data.",
+      "title": "Soil chemistry data",
+      "from_schema": "https://example.com/SoilChemistryData",
       "keywords": [
-        "RDF402"
+        "RDF106"
       ],
       "slot_usage": {
-        "ANIMAL_ID": {
-          "name": "ANIMAL_ID",
+        "Plot": {
+          "name": "Plot",
           "rank": 1,
           "slot_group": "General"
         },
-        "BIRTH_DATE": {
-          "name": "BIRTH_DATE",
+        "ROC_perc": {
+          "name": "ROC_perc",
           "rank": 2,
           "slot_group": "General"
         },
-        "DAM_ID": {
-          "name": "DAM_ID",
+        "SOC_perc": {
+          "name": "SOC_perc",
           "rank": 3,
           "slot_group": "General"
         },
-        "FILE_TYPE": {
-          "name": "FILE_TYPE",
+        "TC": {
+          "name": "TC",
           "rank": 4,
           "slot_group": "General"
         },
-        "PROJECT": {
-          "name": "PROJECT",
+        "TIC900_perc": {
+          "name": "TIC900_perc",
           "rank": 5,
           "slot_group": "General"
         },
-        "REGISTERED_NAME": {
-          "name": "REGISTERED_NAME",
+        "TN": {
+          "name": "TN",
           "rank": 6,
           "slot_group": "General"
         },
-        "SIRE_ID": {
-          "name": "SIRE_ID",
+        "TOC400_perc": {
+          "name": "TOC400_perc",
           "rank": 7,
           "slot_group": "General"
         },
-        "SOURCE_OF_DATA": {
-          "name": "SOURCE_OF_DATA",
+        "aspect": {
+          "name": "aspect",
           "rank": 8,
           "slot_group": "General"
         },
-        "TRANSACTION_TYPE": {
-          "name": "TRANSACTION_TYPE",
+        "name": {
+          "name": "name",
           "rank": 9,
+          "slot_group": "General"
+        },
+        "plant": {
+          "name": "plant",
+          "rank": 10,
+          "slot_group": "General"
+        },
+        "site": {
+          "name": "site",
+          "rank": 11,
           "slot_group": "General"
         }
       },
       "attributes": {
-        "ANIMAL_ID": {
-          "name": "ANIMAL_ID",
-          "description": "INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)",
-          "title": "ANIMAL_ID",
-          "from_schema": "https://example.com/PedigreeFileLayout",
+        "Plot": {
+          "name": "Plot",
+          "description": "The plot number associated with the sample",
+          "title": "Plot",
+          "from_schema": "https://example.com/SoilChemistryData",
           "rank": 1,
-          "alias": "ANIMAL_ID",
-          "owner": "PedigreeFileLayout",
+          "alias": "Plot",
+          "owner": "SoilChemistryData",
           "domain_of": [
-            "PedigreeFileLayout"
+            "SoilChemistryData"
           ],
           "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "recommended": true
+          "range": "decimal"
         },
-        "BIRTH_DATE": {
-          "name": "BIRTH_DATE",
-          "title": "BIRTH_DATE",
-          "from_schema": "https://example.com/PedigreeFileLayout",
+        "ROC_perc": {
+          "name": "ROC_perc",
+          "description": "ROC as a percent.",
+          "title": "ROC_perc",
+          "from_schema": "https://example.com/SoilChemistryData",
           "rank": 2,
-          "alias": "BIRTH_DATE",
-          "owner": "PedigreeFileLayout",
+          "alias": "ROC_perc",
+          "owner": "SoilChemistryData",
           "domain_of": [
-            "PedigreeFileLayout"
+            "SoilChemistryData"
           ],
           "slot_group": "General",
-          "range": "DateTime",
-          "recommended": true
+          "range": "decimal"
         },
-        "DAM_ID": {
-          "name": "DAM_ID",
-          "description": "12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING \\'0\\'S).",
-          "title": "DAM_ID",
-          "from_schema": "https://example.com/PedigreeFileLayout",
+        "SOC_perc": {
+          "name": "SOC_perc",
+          "description": "Soil Organic Carbon percent",
+          "title": "SOC_perc",
+          "from_schema": "https://example.com/SoilChemistryData",
           "rank": 3,
-          "alias": "DAM_ID",
-          "owner": "PedigreeFileLayout",
+          "alias": "SOC_perc",
+          "owner": "SoilChemistryData",
           "domain_of": [
-            "PedigreeFileLayout"
+            "SoilChemistryData"
           ],
           "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "required": true
+          "range": "decimal"
         },
-        "FILE_TYPE": {
-          "name": "FILE_TYPE",
-          "title": "FILE_TYPE",
-          "from_schema": "https://example.com/PedigreeFileLayout",
+        "TC": {
+          "name": "TC",
+          "description": "Total Carbon",
+          "title": "TC",
+          "from_schema": "https://example.com/SoilChemistryData",
           "rank": 4,
-          "alias": "FILE_TYPE",
-          "owner": "PedigreeFileLayout",
+          "alias": "TC",
+          "owner": "SoilChemistryData",
           "domain_of": [
-            "PedigreeFileLayout"
+            "SoilChemistryData"
           ],
           "slot_group": "General",
-          "recommended": true,
-          "any_of": [
-            {
-              "range": "WhitespaceMinimizedString"
-            },
-            {
-              "range": "FILE_TYPE"
-            }
-          ]
+          "range": "decimal"
         },
-        "PROJECT": {
-          "name": "PROJECT",
-          "title": "PROJECT",
-          "from_schema": "https://example.com/PedigreeFileLayout",
+        "TIC900_perc": {
+          "name": "TIC900_perc",
+          "description": "TIC900 as a percent.",
+          "title": "TIC900_perc",
+          "from_schema": "https://example.com/SoilChemistryData",
           "rank": 5,
-          "alias": "PROJECT",
-          "owner": "PedigreeFileLayout",
+          "alias": "TIC900_perc",
+          "owner": "SoilChemistryData",
           "domain_of": [
-            "PedigreeFileLayout"
+            "SoilChemistryData"
           ],
           "slot_group": "General",
-          "recommended": true,
+          "range": "decimal"
+        },
+        "TN": {
+          "name": "TN",
+          "description": "Total Nitrogen",
+          "title": "TN",
+          "from_schema": "https://example.com/SoilChemistryData",
+          "rank": 6,
+          "alias": "TN",
+          "owner": "SoilChemistryData",
+          "domain_of": [
+            "SoilChemistryData"
+          ],
+          "slot_group": "General",
+          "range": "decimal"
+        },
+        "TOC400_perc": {
+          "name": "TOC400_perc",
+          "description": "TOC400 as a percent.",
+          "title": "TOC400_perc",
+          "from_schema": "https://example.com/SoilChemistryData",
+          "rank": 7,
+          "alias": "TOC400_perc",
+          "owner": "SoilChemistryData",
+          "domain_of": [
+            "SoilChemistryData"
+          ],
+          "slot_group": "General",
+          "range": "decimal"
+        },
+        "aspect": {
+          "name": "aspect",
+          "description": "Whether it is a focal or community sample.",
+          "title": "aspect",
+          "from_schema": "https://example.com/SoilChemistryData",
+          "rank": 8,
+          "alias": "aspect",
+          "owner": "SoilChemistryData",
+          "domain_of": [
+            "SoilChemistryData"
+          ],
+          "slot_group": "General",
           "any_of": [
             {
               "range": "WhitespaceMinimizedString"
             },
             {
-              "range": "PROJECT"
+              "range": "aspect"
             }
           ]
         },
-        "REGISTERED_NAME": {
-          "name": "REGISTERED_NAME",
-          "title": "REGISTERED_NAME",
-          "from_schema": "https://example.com/PedigreeFileLayout",
-          "rank": 6,
-          "alias": "REGISTERED_NAME",
-          "owner": "PedigreeFileLayout",
-          "domain_of": [
-            "PedigreeFileLayout"
-          ],
-          "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "required": true
-        },
-        "SIRE_ID": {
-          "name": "SIRE_ID",
-          "description": "12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING \\'0\\'S).",
-          "title": "SIRE_ID",
-          "from_schema": "https://example.com/PedigreeFileLayout",
-          "rank": 7,
-          "alias": "SIRE_ID",
-          "owner": "PedigreeFileLayout",
-          "domain_of": [
-            "PedigreeFileLayout"
-          ],
-          "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "required": true
-        },
-        "SOURCE_OF_DATA": {
-          "name": "SOURCE_OF_DATA",
-          "description": "See contacts list under \\'Source of Data\\' column",
-          "title": "SOURCE_OF_DATA",
-          "from_schema": "https://example.com/PedigreeFileLayout",
-          "rank": 8,
-          "alias": "SOURCE_OF_DATA",
-          "owner": "PedigreeFileLayout",
-          "domain_of": [
-            "PedigreeFileLayout"
-          ],
-          "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "recommended": true
-        },
-        "TRANSACTION_TYPE": {
-          "name": "TRANSACTION_TYPE",
-          "title": "TRANSACTION_TYPE",
-          "from_schema": "https://example.com/PedigreeFileLayout",
+        "name": {
+          "name": "name",
+          "description": "The full name of the sample (Combination of plant, site, aspect and plot number).",
+          "title": "name",
+          "from_schema": "https://example.com/SoilChemistryData",
           "rank": 9,
-          "alias": "TRANSACTION_TYPE",
-          "owner": "PedigreeFileLayout",
+          "alias": "name",
+          "owner": "SoilChemistryData",
           "domain_of": [
-            "PedigreeFileLayout"
+            "SoilChemistryData"
           ],
           "slot_group": "General",
-          "recommended": true,
+          "range": "WhitespaceMinimizedString"
+        },
+        "plant": {
+          "name": "plant",
+          "description": "The focal species target.",
+          "title": "plant",
+          "from_schema": "https://example.com/SoilChemistryData",
+          "rank": 10,
+          "alias": "plant",
+          "owner": "SoilChemistryData",
+          "domain_of": [
+            "SoilChemistryData"
+          ],
+          "slot_group": "General",
           "any_of": [
             {
               "range": "WhitespaceMinimizedString"
             },
             {
-              "range": "TRANSACTION_TYPE"
+              "range": "plant"
+            }
+          ]
+        },
+        "site": {
+          "name": "site",
+          "description": "The site the sample was taken from.",
+          "title": "site",
+          "from_schema": "https://example.com/SoilChemistryData",
+          "rank": 11,
+          "alias": "site",
+          "owner": "SoilChemistryData",
+          "domain_of": [
+            "SoilChemistryData"
+          ],
+          "slot_group": "General",
+          "any_of": [
+            {
+              "range": "WhitespaceMinimizedString"
+            },
+            {
+              "range": "site"
             }
           ]
         }
@@ -236,17 +270,17 @@
     },
     "Container": {
       "name": "Container",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "attributes": {
-        "PedigreeFileLayoutData": {
-          "name": "PedigreeFileLayoutData",
-          "from_schema": "https://example.com/PedigreeFileLayout",
-          "alias": "PedigreeFileLayoutData",
+        "SoilChemistryDataData": {
+          "name": "SoilChemistryDataData",
+          "from_schema": "https://example.com/SoilChemistryData",
+          "alias": "SoilChemistryDataData",
           "owner": "Container",
           "domain_of": [
             "Container"
           ],
-          "range": "PedigreeFileLayout",
+          "range": "SoilChemistryData",
           "multivalued": true,
           "inlined_as_list": true
         }
@@ -255,118 +289,134 @@
     }
   },
   "slots": {
-    "ANIMAL_ID": {
-      "name": "ANIMAL_ID",
-      "description": "INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)",
-      "title": "ANIMAL_ID",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+    "Plot": {
+      "name": "Plot",
+      "description": "The plot number associated with the sample",
+      "title": "Plot",
+      "from_schema": "https://example.com/SoilChemistryData",
       "domain_of": [
-        "PedigreeFileLayout"
+        "SoilChemistryData"
       ],
-      "range": "WhitespaceMinimizedString",
-      "recommended": true
+      "range": "decimal"
     },
-    "BIRTH_DATE": {
-      "name": "BIRTH_DATE",
-      "title": "BIRTH_DATE",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+    "ROC_perc": {
+      "name": "ROC_perc",
+      "description": "ROC as a percent.",
+      "title": "ROC_perc",
+      "from_schema": "https://example.com/SoilChemistryData",
       "domain_of": [
-        "PedigreeFileLayout"
+        "SoilChemistryData"
       ],
-      "range": "DateTime",
-      "recommended": true
+      "range": "decimal"
     },
-    "DAM_ID": {
-      "name": "DAM_ID",
-      "description": "12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING \\'0\\'S).",
-      "title": "DAM_ID",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+    "SOC_perc": {
+      "name": "SOC_perc",
+      "description": "Soil Organic Carbon percent",
+      "title": "SOC_perc",
+      "from_schema": "https://example.com/SoilChemistryData",
       "domain_of": [
-        "PedigreeFileLayout"
+        "SoilChemistryData"
       ],
-      "range": "WhitespaceMinimizedString",
-      "required": true
+      "range": "decimal"
     },
-    "FILE_TYPE": {
-      "name": "FILE_TYPE",
-      "title": "FILE_TYPE",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+    "TC": {
+      "name": "TC",
+      "description": "Total Carbon",
+      "title": "TC",
+      "from_schema": "https://example.com/SoilChemistryData",
       "domain_of": [
-        "PedigreeFileLayout"
+        "SoilChemistryData"
       ],
-      "recommended": true,
+      "range": "decimal"
+    },
+    "TIC900_perc": {
+      "name": "TIC900_perc",
+      "description": "TIC900 as a percent.",
+      "title": "TIC900_perc",
+      "from_schema": "https://example.com/SoilChemistryData",
+      "domain_of": [
+        "SoilChemistryData"
+      ],
+      "range": "decimal"
+    },
+    "TN": {
+      "name": "TN",
+      "description": "Total Nitrogen",
+      "title": "TN",
+      "from_schema": "https://example.com/SoilChemistryData",
+      "domain_of": [
+        "SoilChemistryData"
+      ],
+      "range": "decimal"
+    },
+    "TOC400_perc": {
+      "name": "TOC400_perc",
+      "description": "TOC400 as a percent.",
+      "title": "TOC400_perc",
+      "from_schema": "https://example.com/SoilChemistryData",
+      "domain_of": [
+        "SoilChemistryData"
+      ],
+      "range": "decimal"
+    },
+    "aspect": {
+      "name": "aspect",
+      "description": "Whether it is a focal or community sample.",
+      "title": "aspect",
+      "from_schema": "https://example.com/SoilChemistryData",
+      "domain_of": [
+        "SoilChemistryData"
+      ],
       "any_of": [
         {
           "range": "WhitespaceMinimizedString"
         },
         {
-          "range": "FILE_TYPE"
+          "range": "aspect"
         }
       ]
     },
-    "PROJECT": {
-      "name": "PROJECT",
-      "title": "PROJECT",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+    "name": {
+      "name": "name",
+      "description": "The full name of the sample (Combination of plant, site, aspect and plot number).",
+      "title": "name",
+      "from_schema": "https://example.com/SoilChemistryData",
       "domain_of": [
-        "PedigreeFileLayout"
+        "SoilChemistryData"
       ],
-      "recommended": true,
+      "range": "WhitespaceMinimizedString"
+    },
+    "plant": {
+      "name": "plant",
+      "description": "The focal species target.",
+      "title": "plant",
+      "from_schema": "https://example.com/SoilChemistryData",
+      "domain_of": [
+        "SoilChemistryData"
+      ],
       "any_of": [
         {
           "range": "WhitespaceMinimizedString"
         },
         {
-          "range": "PROJECT"
+          "range": "plant"
         }
       ]
     },
-    "REGISTERED_NAME": {
-      "name": "REGISTERED_NAME",
-      "title": "REGISTERED_NAME",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+    "site": {
+      "name": "site",
+      "description": "The site the sample was taken from.",
+      "title": "site",
+      "from_schema": "https://example.com/SoilChemistryData",
       "domain_of": [
-        "PedigreeFileLayout"
+        "SoilChemistryData"
       ],
-      "range": "WhitespaceMinimizedString",
-      "required": true
-    },
-    "SIRE_ID": {
-      "name": "SIRE_ID",
-      "description": "12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING \\'0\\'S).",
-      "title": "SIRE_ID",
-      "from_schema": "https://example.com/PedigreeFileLayout",
-      "domain_of": [
-        "PedigreeFileLayout"
-      ],
-      "range": "WhitespaceMinimizedString",
-      "required": true
-    },
-    "SOURCE_OF_DATA": {
-      "name": "SOURCE_OF_DATA",
-      "description": "See contacts list under \\'Source of Data\\' column",
-      "title": "SOURCE_OF_DATA",
-      "from_schema": "https://example.com/PedigreeFileLayout",
-      "domain_of": [
-        "PedigreeFileLayout"
-      ],
-      "range": "WhitespaceMinimizedString",
-      "recommended": true
-    },
-    "TRANSACTION_TYPE": {
-      "name": "TRANSACTION_TYPE",
-      "title": "TRANSACTION_TYPE",
-      "from_schema": "https://example.com/PedigreeFileLayout",
-      "domain_of": [
-        "PedigreeFileLayout"
-      ],
-      "recommended": true,
       "any_of": [
         {
           "range": "WhitespaceMinimizedString"
         },
         {
-          "range": "TRANSACTION_TYPE"
+          "range": "site"
         }
       ]
     }
@@ -375,7 +425,7 @@
     "SettingsMenu": {
       "name": "SettingsMenu",
       "title": "Regular Expressions",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "permissible_values": {
         "AllCaps": {
           "text": "AllCaps",
@@ -563,97 +613,145 @@
         }
       }
     },
-    "FILE_TYPE": {
-      "name": "FILE_TYPE",
-      "title": "FILE_TYPE",
+    "aspect": {
+      "name": "aspect",
+      "title": "aspect",
       "permissible_values": {
-        "01": {
-          "text": "01",
-          "title": "Pedigree"
+        "Community": {
+          "text": "Community",
+          "title": "Community Plot"
         },
-        "02": {
-          "text": "02",
-          "title": "Calving"
-        },
-        "03": {
-          "text": "03",
-          "title": "Production"
-        },
-        "04": {
-          "text": "04",
-          "title": "Events"
-        },
-        "05": {
-          "text": "05",
-          "title": "Genotype"
-        },
-        "06": {
-          "text": "06",
-          "title": "Milk data"
+        "Focal": {
+          "text": "Focal",
+          "title": "Focal Plot"
         }
       }
     },
-    "PROJECT": {
-      "name": "PROJECT",
-      "title": "PROJECT",
+    "plant": {
+      "name": "plant",
+      "title": "plant",
       "permissible_values": {
-        "0001": {
-          "text": "0001",
-          "title": "NDGP"
+        "CL": {
+          "text": "CL",
+          "title": "Calamovilfa longifolia"
         },
-        "0010": {
-          "text": "0010",
-          "title": "NAEX"
+        "DP": {
+          "text": "DP",
+          "title": "Dalea purpurea"
         },
-        "0100": {
-          "text": "0100",
-          "title": "RDGP"
+        "LL": {
+          "text": "LL",
+          "title": "Linum lewisii"
         },
-        "0101": {
-          "text": "0101",
-          "title": "RDGP & NDGP"
-        },
-        "0110": {
-          "text": "0110",
-          "title": "RDGP & NAEX"
-        },
-        "1000": {
-          "text": "1000",
-          "title": "EDGP"
-        },
-        "1010": {
-          "text": "1010",
-          "title": "EDGP & NAEX"
-        },
-        "1100": {
-          "text": "1100",
-          "title": "EDGP & RDGP"
-        },
-        "1101": {
-          "text": "1101",
-          "title": "EDGP & RDGP & NDGP"
-        },
-        "1110": {
-          "text": "1110",
-          "title": "EDGP & RDGP & NAEX"
-        },
-        "1111": {
-          "text": "1111",
-          "title": "EDGP & RDGP & NDGP & NAEX"
+        "NV": {
+          "text": "NV",
+          "title": "Nasella viridula"
         }
       }
     },
-    "TRANSACTION_TYPE": {
-      "name": "TRANSACTION_TYPE",
-      "title": "TRANSACTION_TYPE",
+    "site": {
+      "name": "site",
+      "title": "site",
       "permissible_values": {
-        "D": {
-          "text": "D",
-          "title": "Delete"
+        "ASQ": {
+          "text": "ASQ",
+          "title": "NCC Asquith"
         },
-        "U": {
-          "text": "U",
-          "title": "Update"
+        "BFP": {
+          "text": "BFP",
+          "title": "Buffalo Pound"
+        },
+        "BID": {
+          "text": "BID",
+          "title": "Biddulph"
+        },
+        "CDE": {
+          "text": "CDE",
+          "title": "Condie"
+        },
+        "CFL": {
+          "text": "CFL",
+          "title": "Cranberry Flats"
+        },
+        "CPH": {
+          "text": "CPH",
+          "title": "Camp Hughes"
+        },
+        "DOG": {
+          "text": "DOG",
+          "title": "Douglas"
+        },
+        "DUN": {
+          "text": "DUN",
+          "title": "Dundurn"
+        },
+        "ECV": {
+          "text": "ECV",
+          "title": "Echo valley"
+        },
+        "ESL": {
+          "text": "ESL",
+          "title": "East Shoal Lake"
+        },
+        "FEL": {
+          "text": "FEL",
+          "title": "Fort Ellice – St. Lazare"
+        },
+        "GLE": {
+          "text": "GLE",
+          "title": "Grasslands E (west block)"
+        },
+        "GLW": {
+          "text": "GLW",
+          "title": "Grasslands W (west block)"
+        },
+        "GWR": {
+          "text": "GWR",
+          "title": "Goodwater"
+        },
+        "HDM": {
+          "text": "HDM",
+          "title": "Horod Moraine – Onanole"
+        },
+        "HZN": {
+          "text": "HZN",
+          "title": "Hazen"
+        },
+        "LAM": {
+          "text": "LAM",
+          "title": "Lake Alma"
+        },
+        "MAN": {
+          "text": "MAN",
+          "title": "Manitou"
+        },
+        "MAT": {
+          "text": "MAT",
+          "title": "Matador"
+        },
+        "MAY": {
+          "text": "MAY",
+          "title": "Maymonyt"
+        },
+        "MCK": {
+          "text": "MCK",
+          "title": "McKinney"
+        },
+        "RBL": {
+          "text": "RBL",
+          "title": "Redberry lake"
+        },
+        "SLO": {
+          "text": "SLO",
+          "title": "CFB Shilo"
+        },
+        "STD": {
+          "text": "STD",
+          "title": "St. Denis"
+        },
+        "YQP": {
+          "text": "YQP",
+          "title": "Yellow Quill Prairie"
         }
       }
     }
@@ -662,7 +760,7 @@
     "WhitespaceMinimizedString": {
       "name": "WhitespaceMinimizedString",
       "description": "A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "typeof": "string",
       "base": "str",
       "uri": "xsd:token"
@@ -673,7 +771,7 @@
       "notes": [
         "In RDF serializations, a slot with range of string is treated as a literal or type xsd:string.   If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"string\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "exact_mappings": [
         "schema:Text"
       ],
@@ -686,7 +784,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"integer\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "exact_mappings": [
         "schema:Integer"
       ],
@@ -699,7 +797,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"boolean\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "exact_mappings": [
         "schema:Boolean"
       ],
@@ -713,7 +811,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"float\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "exact_mappings": [
         "schema:Float"
       ],
@@ -726,7 +824,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"double\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "close_mappings": [
         "schema:Float"
       ],
@@ -739,7 +837,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"decimal\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "broad_mappings": [
         "schema:Number"
       ],
@@ -753,7 +851,7 @@
         "URI is dateTime because OWL reasoners do not work with straight date or time",
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"time\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "exact_mappings": [
         "schema:Time"
       ],
@@ -768,7 +866,7 @@
         "URI is dateTime because OWL reasoners don't work with straight date or time",
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "exact_mappings": [
         "schema:Date"
       ],
@@ -782,7 +880,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"datetime\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "exact_mappings": [
         "schema:DateTime"
       ],
@@ -796,7 +894,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date_or_datetime\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "base": "str",
       "uri": "linkml:DateOrDatetime",
       "repr": "str"
@@ -807,7 +905,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uriorcurie\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "base": "URIorCURIE",
       "uri": "xsd:anyURI",
       "repr": "str"
@@ -823,7 +921,7 @@
         "in RDF serializations this MUST be expanded to a URI",
         "in non-RDF serializations MAY be serialized as the compact representation"
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "base": "Curie",
       "uri": "xsd:string",
       "repr": "str"
@@ -838,7 +936,7 @@
       "comments": [
         "in RDF serializations a slot with range of uri is treated as a literal or type xsd:anyURI unless it is an identifier or a reference to an identifier, in which case it is translated directly to a node"
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "close_mappings": [
         "schema:URL"
       ],
@@ -852,7 +950,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"ncname\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "base": "NCName",
       "uri": "xsd:string",
       "repr": "str"
@@ -866,7 +964,7 @@
       "comments": [
         "Used for inheritance and type checking"
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "base": "ElementIdentifier",
       "uri": "shex:iri",
       "repr": "str"
@@ -877,7 +975,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"nodeidentifier\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "base": "NodeIdentifier",
       "uri": "shex:nonLiteral",
       "repr": "str"
@@ -889,7 +987,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpointer\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"
@@ -901,7 +999,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpath\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"
@@ -913,7 +1011,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"sparqlpath\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/SoilChemistryData",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"

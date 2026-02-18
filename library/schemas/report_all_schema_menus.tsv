@@ -133,6 +133,40 @@ GG4GHG	Community		Species	DP		Dalea purpurea
 GG4GHG	Community		Species	HM		Helianthus maximilliani					
 GG4GHG	Community		Species	LL		Linum lewisii					
 GG4GHG	Community		Species	NV		Nasella viridula					
+GG4GHG	Soil	aspect	aspect								
+GG4GHG	Soil		aspect	Community		Community Plot					
+GG4GHG	Soil		aspect	Focal		Focal Plot					
+GG4GHG	Soil	plant	plant								
+GG4GHG	Soil		plant	CL		Calamovilfa longifolia					
+GG4GHG	Soil		plant	DP		Dalea purpurea					
+GG4GHG	Soil		plant	LL		Linum lewisii					
+GG4GHG	Soil		plant	NV		Nasella viridula					
+GG4GHG	Soil	site	site								
+GG4GHG	Soil		site	ASQ		NCC Asquith					
+GG4GHG	Soil		site	BFP		Buffalo Pound					
+GG4GHG	Soil		site	BID		Biddulph					
+GG4GHG	Soil		site	CDE		Condie					
+GG4GHG	Soil		site	CFL		Cranberry Flats					
+GG4GHG	Soil		site	CPH		Camp Hughes					
+GG4GHG	Soil		site	DOG		Douglas					
+GG4GHG	Soil		site	DUN		Dundurn					
+GG4GHG	Soil		site	ECV		Echo valley					
+GG4GHG	Soil		site	ESL		East Shoal Lake					
+GG4GHG	Soil		site	FEL		Fort Ellice – St. Lazare					
+GG4GHG	Soil		site	GLE		Grasslands E (west block)					
+GG4GHG	Soil		site	GLW		Grasslands W (west block)					
+GG4GHG	Soil		site	GWR		Goodwater					
+GG4GHG	Soil		site	HDM		Horod Moraine – Onanole					
+GG4GHG	Soil		site	HZN		Hazen					
+GG4GHG	Soil		site	LAM		Lake Alma					
+GG4GHG	Soil		site	MAN		Manitou					
+GG4GHG	Soil		site	MAT		Matador					
+GG4GHG	Soil		site	MAY		Maymonyt					
+GG4GHG	Soil		site	MCK		McKinney					
+GG4GHG	Soil		site	RBL		Redberry lake					
+GG4GHG	Soil		site	SLO		CFB Shilo					
+GG4GHG	Soil		site	STD		St. Denis					
+GG4GHG	Soil		site	YQP		Yellow Quill Prairie					
 loop	environmental_DNA	analysis_method	analysis_method								
 loop	environmental_DNA		analysis_method	asv		Amplicon Sequence Variant					
 loop	environmental_DNA		analysis_method	otu		Operational Taxonomic Unit					
@@ -177,6 +211,28 @@ loop	environmental_DNA		sample_type	water		water
 loop	environmental_DNA	sequencing_mode	sequencing_mode								
 loop	environmental_DNA		sequencing_mode	pe		Paired-end					
 loop	environmental_DNA		sequencing_mode	se		Single-end					
+NDGP	Genotype	FILE_TYPE	FILE_TYPE								
+NDGP	Genotype		FILE_TYPE	01		Pedigree					
+NDGP	Genotype		FILE_TYPE	02		Calving					
+NDGP	Genotype		FILE_TYPE	03		Production					
+NDGP	Genotype		FILE_TYPE	04		Events					
+NDGP	Genotype		FILE_TYPE	05		Genotype					
+NDGP	Genotype		FILE_TYPE	06		Milk data					
+NDGP	Genotype	PROJECT	PROJECT								
+NDGP	Genotype		PROJECT	0001		NDGP					
+NDGP	Genotype		PROJECT	0010		NAEX					
+NDGP	Genotype		PROJECT	0100		RDGP					
+NDGP	Genotype		PROJECT	0101		RDGP & NDGP					
+NDGP	Genotype		PROJECT	0110		RDGP & NAEX					
+NDGP	Genotype		PROJECT	1000		EDGP					
+NDGP	Genotype		PROJECT	1010		EDGP & NAEX					
+NDGP	Genotype		PROJECT	1100		EDGP & RDGP					
+NDGP	Genotype		PROJECT	1101		EDGP & RDGP & NDGP					
+NDGP	Genotype		PROJECT	1110		EDGP & RDGP & NAEX					
+NDGP	Genotype		PROJECT	1111		EDGP & RDGP & NDGP & NAEX					
+NDGP	Genotype	TRANSACTION_TYPE	TRANSACTION_TYPE								
+NDGP	Genotype		TRANSACTION_TYPE	D		Delete					
+NDGP	Genotype		TRANSACTION_TYPE	U		Update					
 NDGP	Calving	FILE_TYPE	FILE_TYPE								
 NDGP	Calving		FILE_TYPE	01		Pedigree					
 NDGP	Calving		FILE_TYPE	02		Calving					
@@ -185,17 +241,42 @@ NDGP	Calving		FILE_TYPE	04		Events
 NDGP	Calving		FILE_TYPE	05		Genotype					
 NDGP	Calving		FILE_TYPE	06		Milk data					
 NDGP	Calving	PROJECT	PROJECT								
-NDGP	Calving		PROJECT	001		NAEX					
-NDGP	Calving		PROJECT	010		RDGP					
-NDGP	Calving		PROJECT	011		RDGP & NAEX					
-NDGP	Calving		PROJECT	100		EDGP					
-NDGP	Calving		PROJECT	101		EDGP & NAEX					
-NDGP	Calving		PROJECT	102		NDGP					
-NDGP	Calving		PROJECT	110		EDGP & RDGP					
-NDGP	Calving		PROJECT	111		EDGP & RDGP & NAEX					
+NDGP	Calving		PROJECT	0001		NDGP					
+NDGP	Calving		PROJECT	0010		NAEX					
+NDGP	Calving		PROJECT	0100		RDGP					
+NDGP	Calving		PROJECT	0101		RDGP & NDGP					
+NDGP	Calving		PROJECT	0110		RDGP & NAEX					
+NDGP	Calving		PROJECT	1000		EDGP					
+NDGP	Calving		PROJECT	1010		EDGP & NAEX					
+NDGP	Calving		PROJECT	1100		EDGP & RDGP					
+NDGP	Calving		PROJECT	1101		EDGP & RDGP & NDGP					
+NDGP	Calving		PROJECT	1110		EDGP & RDGP & NAEX					
+NDGP	Calving		PROJECT	1111		EDGP & RDGP & NDGP & NAEX					
 NDGP	Calving	TRANSACTION_TYPE	TRANSACTION_TYPE								
 NDGP	Calving		TRANSACTION_TYPE	D		Delete					
 NDGP	Calving		TRANSACTION_TYPE	U		Update					
+NDGP	Events	FILE_TYPE	FILE_TYPE								
+NDGP	Events		FILE_TYPE	01		Pedigree					
+NDGP	Events		FILE_TYPE	02		Calving					
+NDGP	Events		FILE_TYPE	03		Production					
+NDGP	Events		FILE_TYPE	04		Events					
+NDGP	Events		FILE_TYPE	05		Genotype					
+NDGP	Events		FILE_TYPE	06		Milk data					
+NDGP	Events	PROJECT	PROJECT								
+NDGP	Events		PROJECT	0001		NDGP					
+NDGP	Events		PROJECT	0010		NAEX					
+NDGP	Events		PROJECT	0100		RDGP					
+NDGP	Events		PROJECT	0101		RDGP & NDGP					
+NDGP	Events		PROJECT	0110		RDGP & NAEX					
+NDGP	Events		PROJECT	1000		EDGP					
+NDGP	Events		PROJECT	1010		EDGP & NAEX					
+NDGP	Events		PROJECT	1100		EDGP & RDGP					
+NDGP	Events		PROJECT	1101		EDGP & RDGP & NDGP					
+NDGP	Events		PROJECT	1110		EDGP & RDGP & NAEX					
+NDGP	Events		PROJECT	1111		EDGP & RDGP & NDGP & NAEX					
+NDGP	Events	TRANSACTION_TYPE	TRANSACTION_TYPE								
+NDGP	Events		TRANSACTION_TYPE	D		Delete					
+NDGP	Events		TRANSACTION_TYPE	U		Update					
 NDGP	Milk	FILE_TYPE	FILE_TYPE								
 NDGP	Milk		FILE_TYPE	01		Pedigree					
 NDGP	Milk		FILE_TYPE	02		Calving					
@@ -204,14 +285,17 @@ NDGP	Milk		FILE_TYPE	04		Events
 NDGP	Milk		FILE_TYPE	05		Genotype					
 NDGP	Milk		FILE_TYPE	06		Milk data					
 NDGP	Milk	PROJECT	PROJECT								
-NDGP	Milk		PROJECT	001		NAEX					
-NDGP	Milk		PROJECT	010		RDGP					
-NDGP	Milk		PROJECT	011		RDGP & NAEX					
-NDGP	Milk		PROJECT	100		EDGP					
-NDGP	Milk		PROJECT	101		EDGP & NAEX					
-NDGP	Milk		PROJECT	102		NDGP					
-NDGP	Milk		PROJECT	110		EDGP & RDGP					
-NDGP	Milk		PROJECT	111		EDGP & RDGP & NAEX					
+NDGP	Milk		PROJECT	0001		NDGP					
+NDGP	Milk		PROJECT	0010		NAEX					
+NDGP	Milk		PROJECT	0100		RDGP					
+NDGP	Milk		PROJECT	0101		RDGP & NDGP					
+NDGP	Milk		PROJECT	0110		RDGP & NAEX					
+NDGP	Milk		PROJECT	1000		EDGP					
+NDGP	Milk		PROJECT	1010		EDGP & NAEX					
+NDGP	Milk		PROJECT	1100		EDGP & RDGP					
+NDGP	Milk		PROJECT	1101		EDGP & RDGP & NDGP					
+NDGP	Milk		PROJECT	1110		EDGP & RDGP & NAEX					
+NDGP	Milk		PROJECT	1111		EDGP & RDGP & NDGP & NAEX					
 NDGP	Milk	TRANSACTION_TYPE	TRANSACTION_TYPE								
 NDGP	Milk		TRANSACTION_TYPE	D		Delete					
 NDGP	Milk		TRANSACTION_TYPE	U		Update					
@@ -223,14 +307,17 @@ NDGP	MIR		FILE_TYPE	04		Events
 NDGP	MIR		FILE_TYPE	05		Genotype					
 NDGP	MIR		FILE_TYPE	06		Milk data					
 NDGP	MIR	PROJECT	PROJECT								
-NDGP	MIR		PROJECT	001		NAEX					
-NDGP	MIR		PROJECT	010		RDGP					
-NDGP	MIR		PROJECT	011		RDGP & NAEX					
-NDGP	MIR		PROJECT	100		EDGP					
-NDGP	MIR		PROJECT	101		EDGP & NAEX					
-NDGP	MIR		PROJECT	102		NDGP					
-NDGP	MIR		PROJECT	110		EDGP & RDGP					
-NDGP	MIR		PROJECT	111		EDGP & RDGP & NAEX					
+NDGP	MIR		PROJECT	0001		NDGP					
+NDGP	MIR		PROJECT	0010		NAEX					
+NDGP	MIR		PROJECT	0100		RDGP					
+NDGP	MIR		PROJECT	0101		RDGP & NDGP					
+NDGP	MIR		PROJECT	0110		RDGP & NAEX					
+NDGP	MIR		PROJECT	1000		EDGP					
+NDGP	MIR		PROJECT	1010		EDGP & NAEX					
+NDGP	MIR		PROJECT	1100		EDGP & RDGP					
+NDGP	MIR		PROJECT	1101		EDGP & RDGP & NDGP					
+NDGP	MIR		PROJECT	1110		EDGP & RDGP & NAEX					
+NDGP	MIR		PROJECT	1111		EDGP & RDGP & NDGP & NAEX					
 NDGP	MIR	TRANSACTION_TYPE	TRANSACTION_TYPE								
 NDGP	MIR		TRANSACTION_TYPE	D		Delete					
 NDGP	MIR		TRANSACTION_TYPE	U		Update					
@@ -242,14 +329,17 @@ NDGP	Pedigree		FILE_TYPE	04		Events
 NDGP	Pedigree		FILE_TYPE	05		Genotype					
 NDGP	Pedigree		FILE_TYPE	06		Milk data					
 NDGP	Pedigree	PROJECT	PROJECT								
-NDGP	Pedigree		PROJECT	001		NAEX					
-NDGP	Pedigree		PROJECT	010		RDGP					
-NDGP	Pedigree		PROJECT	011		RDGP & NAEX					
-NDGP	Pedigree		PROJECT	100		EDGP					
-NDGP	Pedigree		PROJECT	101		EDGP & NAEX					
-NDGP	Pedigree		PROJECT	102		NDGP					
-NDGP	Pedigree		PROJECT	110		EDGP & RDGP					
-NDGP	Pedigree		PROJECT	111		EDGP & RDGP & NAEX					
+NDGP	Pedigree		PROJECT	0001		NDGP					
+NDGP	Pedigree		PROJECT	0010		NAEX					
+NDGP	Pedigree		PROJECT	0100		RDGP					
+NDGP	Pedigree		PROJECT	0101		RDGP & NDGP					
+NDGP	Pedigree		PROJECT	0110		RDGP & NAEX					
+NDGP	Pedigree		PROJECT	1000		EDGP					
+NDGP	Pedigree		PROJECT	1010		EDGP & NAEX					
+NDGP	Pedigree		PROJECT	1100		EDGP & RDGP					
+NDGP	Pedigree		PROJECT	1101		EDGP & RDGP & NDGP					
+NDGP	Pedigree		PROJECT	1110		EDGP & RDGP & NAEX					
+NDGP	Pedigree		PROJECT	1111		EDGP & RDGP & NDGP & NAEX					
 NDGP	Pedigree	TRANSACTION_TYPE	TRANSACTION_TYPE								
 NDGP	Pedigree		TRANSACTION_TYPE	D		Delete					
 NDGP	Pedigree		TRANSACTION_TYPE	U		Update					

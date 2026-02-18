@@ -1,10 +1,10 @@
 {
-  "id": "https://example.com/PedigreeFileLayout",
-  "name": "PedigreeFileLayout",
-  "description": "Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project",
+  "id": "https://example.com/GenotypeFileLayout",
+  "name": "GenotypeFileLayout",
+  "description": "Data schema for the pedigree file layout for the Net\\-Zero Dairy Genome Project",
   "version": "0.0.0",
   "in_language": "en",
-  "default_prefix": "https://example.com/PedigreeFileLayout/",
+  "default_prefix": "https://example.com/GenotypeFileLayout/",
   "imports": [],
   "prefixes": {
     "linkml": {
@@ -25,11 +25,11 @@
     }
   },
   "classes": {
-    "PedigreeFileLayout": {
-      "name": "PedigreeFileLayout",
-      "description": "Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project",
-      "title": "Pedigree File Layout",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+    "GenotypeFileLayout": {
+      "name": "GenotypeFileLayout",
+      "description": "Data schema for the pedigree file layout for the Net\\-Zero Dairy Genome Project",
+      "title": "Genotype File Layout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "keywords": [
         "RDF402"
       ],
@@ -39,44 +39,54 @@
           "rank": 1,
           "slot_group": "General"
         },
-        "BIRTH_DATE": {
-          "name": "BIRTH_DATE",
+        "DATE_OF_GENOTYPE_TEST": {
+          "name": "DATE_OF_GENOTYPE_TEST",
           "rank": 2,
-          "slot_group": "General"
-        },
-        "DAM_ID": {
-          "name": "DAM_ID",
-          "rank": 3,
           "slot_group": "General"
         },
         "FILE_TYPE": {
           "name": "FILE_TYPE",
+          "rank": 3,
+          "slot_group": "General"
+        },
+        "GENOTYPE": {
+          "name": "GENOTYPE",
           "rank": 4,
+          "slot_group": "General"
+        },
+        "IMPUTATION_USED_TO_GENERATE_DATA": {
+          "name": "IMPUTATION_USED_TO_GENERATE_DATA",
+          "rank": 5,
+          "slot_group": "General"
+        },
+        "PANEL_TYPE_BEFORE_IMPUTATION": {
+          "name": "PANEL_TYPE_BEFORE_IMPUTATION",
+          "rank": 6,
           "slot_group": "General"
         },
         "PROJECT": {
           "name": "PROJECT",
-          "rank": 5,
-          "slot_group": "General"
-        },
-        "REGISTERED_NAME": {
-          "name": "REGISTERED_NAME",
-          "rank": 6,
-          "slot_group": "General"
-        },
-        "SIRE_ID": {
-          "name": "SIRE_ID",
           "rank": 7,
+          "slot_group": "General"
+        },
+        "SAMPLE_ID": {
+          "name": "SAMPLE_ID",
+          "rank": 8,
+          "slot_group": "General"
+        },
+        "SNP_CHIP_PANEL_TYPE": {
+          "name": "SNP_CHIP_PANEL_TYPE",
+          "rank": 9,
           "slot_group": "General"
         },
         "SOURCE_OF_DATA": {
           "name": "SOURCE_OF_DATA",
-          "rank": 8,
+          "rank": 10,
           "slot_group": "General"
         },
         "TRANSACTION_TYPE": {
           "name": "TRANSACTION_TYPE",
-          "rank": 9,
+          "rank": 11,
           "slot_group": "General"
         }
       },
@@ -85,58 +95,43 @@
           "name": "ANIMAL_ID",
           "description": "INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)",
           "title": "ANIMAL_ID",
-          "from_schema": "https://example.com/PedigreeFileLayout",
+          "from_schema": "https://example.com/GenotypeFileLayout",
           "rank": 1,
           "alias": "ANIMAL_ID",
-          "owner": "PedigreeFileLayout",
+          "owner": "GenotypeFileLayout",
           "domain_of": [
-            "PedigreeFileLayout"
-          ],
-          "slot_group": "General",
-          "range": "WhitespaceMinimizedString",
-          "recommended": true
-        },
-        "BIRTH_DATE": {
-          "name": "BIRTH_DATE",
-          "title": "BIRTH_DATE",
-          "from_schema": "https://example.com/PedigreeFileLayout",
-          "rank": 2,
-          "alias": "BIRTH_DATE",
-          "owner": "PedigreeFileLayout",
-          "domain_of": [
-            "PedigreeFileLayout"
-          ],
-          "slot_group": "General",
-          "range": "DateTime",
-          "recommended": true
-        },
-        "DAM_ID": {
-          "name": "DAM_ID",
-          "description": "12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING \\'0\\'S).",
-          "title": "DAM_ID",
-          "from_schema": "https://example.com/PedigreeFileLayout",
-          "rank": 3,
-          "alias": "DAM_ID",
-          "owner": "PedigreeFileLayout",
-          "domain_of": [
-            "PedigreeFileLayout"
+            "GenotypeFileLayout"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString",
           "required": true
         },
+        "DATE_OF_GENOTYPE_TEST": {
+          "name": "DATE_OF_GENOTYPE_TEST",
+          "title": "DATE_OF_GENOTYPE_TEST",
+          "from_schema": "https://example.com/GenotypeFileLayout",
+          "rank": 2,
+          "alias": "DATE_OF_GENOTYPE_TEST",
+          "owner": "GenotypeFileLayout",
+          "domain_of": [
+            "GenotypeFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "DateTime",
+          "required": true
+        },
         "FILE_TYPE": {
           "name": "FILE_TYPE",
           "title": "FILE_TYPE",
-          "from_schema": "https://example.com/PedigreeFileLayout",
-          "rank": 4,
+          "from_schema": "https://example.com/GenotypeFileLayout",
+          "rank": 3,
           "alias": "FILE_TYPE",
-          "owner": "PedigreeFileLayout",
+          "owner": "GenotypeFileLayout",
           "domain_of": [
-            "PedigreeFileLayout"
+            "GenotypeFileLayout"
           ],
           "slot_group": "General",
-          "recommended": true,
+          "required": true,
           "any_of": [
             {
               "range": "WhitespaceMinimizedString"
@@ -146,18 +141,62 @@
             }
           ]
         },
+        "GENOTYPE": {
+          "name": "GENOTYPE",
+          "description": "USING THE CDCB FORMAT ; THE GENOTYPE IS A VARIABLE LENGTH STRING OF 0,1,2,5 INDICATING SNP GENOTYPES OF BB, AB, AA, \\\\-\\\\- (1 BYTE PER SNP, NO COMMAS BETWEEN SNPS). FOR EXAMPLE \\'01252010250211110025.......\\'.",
+          "title": "GENOTYPE",
+          "from_schema": "https://example.com/GenotypeFileLayout",
+          "rank": 4,
+          "alias": "GENOTYPE",
+          "owner": "GenotypeFileLayout",
+          "domain_of": [
+            "GenotypeFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString",
+          "required": true
+        },
+        "IMPUTATION_USED_TO_GENERATE_DATA": {
+          "name": "IMPUTATION_USED_TO_GENERATE_DATA",
+          "description": "YES or NO",
+          "title": "IMPUTATION_USED_TO_GENERATE_DATA",
+          "from_schema": "https://example.com/GenotypeFileLayout",
+          "rank": 5,
+          "alias": "IMPUTATION_USED_TO_GENERATE_DATA",
+          "owner": "GenotypeFileLayout",
+          "domain_of": [
+            "GenotypeFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString",
+          "required": true
+        },
+        "PANEL_TYPE_BEFORE_IMPUTATION": {
+          "name": "PANEL_TYPE_BEFORE_IMPUTATION",
+          "title": "PANEL_TYPE_BEFORE_IMPUTATION",
+          "from_schema": "https://example.com/GenotypeFileLayout",
+          "rank": 6,
+          "alias": "PANEL_TYPE_BEFORE_IMPUTATION",
+          "owner": "GenotypeFileLayout",
+          "domain_of": [
+            "GenotypeFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString",
+          "recommended": true
+        },
         "PROJECT": {
           "name": "PROJECT",
           "title": "PROJECT",
-          "from_schema": "https://example.com/PedigreeFileLayout",
-          "rank": 5,
+          "from_schema": "https://example.com/GenotypeFileLayout",
+          "rank": 7,
           "alias": "PROJECT",
-          "owner": "PedigreeFileLayout",
+          "owner": "GenotypeFileLayout",
           "domain_of": [
-            "PedigreeFileLayout"
+            "GenotypeFileLayout"
           ],
           "slot_group": "General",
-          "recommended": true,
+          "required": true,
           "any_of": [
             {
               "range": "WhitespaceMinimizedString"
@@ -167,30 +206,30 @@
             }
           ]
         },
-        "REGISTERED_NAME": {
-          "name": "REGISTERED_NAME",
-          "title": "REGISTERED_NAME",
-          "from_schema": "https://example.com/PedigreeFileLayout",
-          "rank": 6,
-          "alias": "REGISTERED_NAME",
-          "owner": "PedigreeFileLayout",
+        "SAMPLE_ID": {
+          "name": "SAMPLE_ID",
+          "description": "UNIQUELY IDENTIFIES GENOTYPE (ie. SENTRIX CODE); DO NOT USE THE ANIMAL_ID (REGISTRATION NUM) TO ALLOW FOR MULTIPLE GENOTYPES PER ANIMAL IF REQUIRED",
+          "title": "SAMPLE_ID",
+          "from_schema": "https://example.com/GenotypeFileLayout",
+          "rank": 8,
+          "alias": "SAMPLE_ID",
+          "owner": "GenotypeFileLayout",
           "domain_of": [
-            "PedigreeFileLayout"
+            "GenotypeFileLayout"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString",
           "required": true
         },
-        "SIRE_ID": {
-          "name": "SIRE_ID",
-          "description": "12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING \\'0\\'S).",
-          "title": "SIRE_ID",
-          "from_schema": "https://example.com/PedigreeFileLayout",
-          "rank": 7,
-          "alias": "SIRE_ID",
-          "owner": "PedigreeFileLayout",
+        "SNP_CHIP_PANEL_TYPE": {
+          "name": "SNP_CHIP_PANEL_TYPE",
+          "title": "SNP_CHIP_PANEL_TYPE",
+          "from_schema": "https://example.com/GenotypeFileLayout",
+          "rank": 9,
+          "alias": "SNP_CHIP_PANEL_TYPE",
+          "owner": "GenotypeFileLayout",
           "domain_of": [
-            "PedigreeFileLayout"
+            "GenotypeFileLayout"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString",
@@ -200,29 +239,29 @@
           "name": "SOURCE_OF_DATA",
           "description": "See contacts list under \\'Source of Data\\' column",
           "title": "SOURCE_OF_DATA",
-          "from_schema": "https://example.com/PedigreeFileLayout",
-          "rank": 8,
+          "from_schema": "https://example.com/GenotypeFileLayout",
+          "rank": 10,
           "alias": "SOURCE_OF_DATA",
-          "owner": "PedigreeFileLayout",
+          "owner": "GenotypeFileLayout",
           "domain_of": [
-            "PedigreeFileLayout"
+            "GenotypeFileLayout"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString",
-          "recommended": true
+          "required": true
         },
         "TRANSACTION_TYPE": {
           "name": "TRANSACTION_TYPE",
           "title": "TRANSACTION_TYPE",
-          "from_schema": "https://example.com/PedigreeFileLayout",
-          "rank": 9,
+          "from_schema": "https://example.com/GenotypeFileLayout",
+          "rank": 11,
           "alias": "TRANSACTION_TYPE",
-          "owner": "PedigreeFileLayout",
+          "owner": "GenotypeFileLayout",
           "domain_of": [
-            "PedigreeFileLayout"
+            "GenotypeFileLayout"
           ],
           "slot_group": "General",
-          "recommended": true,
+          "required": true,
           "any_of": [
             {
               "range": "WhitespaceMinimizedString"
@@ -236,17 +275,17 @@
     },
     "Container": {
       "name": "Container",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "attributes": {
-        "PedigreeFileLayoutData": {
-          "name": "PedigreeFileLayoutData",
-          "from_schema": "https://example.com/PedigreeFileLayout",
-          "alias": "PedigreeFileLayoutData",
+        "GenotypeFileLayoutData": {
+          "name": "GenotypeFileLayoutData",
+          "from_schema": "https://example.com/GenotypeFileLayout",
+          "alias": "GenotypeFileLayoutData",
           "owner": "Container",
           "domain_of": [
             "Container"
           ],
-          "range": "PedigreeFileLayout",
+          "range": "GenotypeFileLayout",
           "multivalued": true,
           "inlined_as_list": true
         }
@@ -259,42 +298,31 @@
       "name": "ANIMAL_ID",
       "description": "INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)",
       "title": "ANIMAL_ID",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "domain_of": [
-        "PedigreeFileLayout"
+        "GenotypeFileLayout"
       ],
       "range": "WhitespaceMinimizedString",
-      "recommended": true
+      "required": true
     },
-    "BIRTH_DATE": {
-      "name": "BIRTH_DATE",
-      "title": "BIRTH_DATE",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+    "DATE_OF_GENOTYPE_TEST": {
+      "name": "DATE_OF_GENOTYPE_TEST",
+      "title": "DATE_OF_GENOTYPE_TEST",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "domain_of": [
-        "PedigreeFileLayout"
+        "GenotypeFileLayout"
       ],
       "range": "DateTime",
-      "recommended": true
-    },
-    "DAM_ID": {
-      "name": "DAM_ID",
-      "description": "12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING \\'0\\'S).",
-      "title": "DAM_ID",
-      "from_schema": "https://example.com/PedigreeFileLayout",
-      "domain_of": [
-        "PedigreeFileLayout"
-      ],
-      "range": "WhitespaceMinimizedString",
       "required": true
     },
     "FILE_TYPE": {
       "name": "FILE_TYPE",
       "title": "FILE_TYPE",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "domain_of": [
-        "PedigreeFileLayout"
+        "GenotypeFileLayout"
       ],
-      "recommended": true,
+      "required": true,
       "any_of": [
         {
           "range": "WhitespaceMinimizedString"
@@ -304,14 +332,46 @@
         }
       ]
     },
+    "GENOTYPE": {
+      "name": "GENOTYPE",
+      "description": "USING THE CDCB FORMAT ; THE GENOTYPE IS A VARIABLE LENGTH STRING OF 0,1,2,5 INDICATING SNP GENOTYPES OF BB, AB, AA, \\\\-\\\\- (1 BYTE PER SNP, NO COMMAS BETWEEN SNPS). FOR EXAMPLE \\'01252010250211110025.......\\'.",
+      "title": "GENOTYPE",
+      "from_schema": "https://example.com/GenotypeFileLayout",
+      "domain_of": [
+        "GenotypeFileLayout"
+      ],
+      "range": "WhitespaceMinimizedString",
+      "required": true
+    },
+    "IMPUTATION_USED_TO_GENERATE_DATA": {
+      "name": "IMPUTATION_USED_TO_GENERATE_DATA",
+      "description": "YES or NO",
+      "title": "IMPUTATION_USED_TO_GENERATE_DATA",
+      "from_schema": "https://example.com/GenotypeFileLayout",
+      "domain_of": [
+        "GenotypeFileLayout"
+      ],
+      "range": "WhitespaceMinimizedString",
+      "required": true
+    },
+    "PANEL_TYPE_BEFORE_IMPUTATION": {
+      "name": "PANEL_TYPE_BEFORE_IMPUTATION",
+      "title": "PANEL_TYPE_BEFORE_IMPUTATION",
+      "from_schema": "https://example.com/GenotypeFileLayout",
+      "domain_of": [
+        "GenotypeFileLayout"
+      ],
+      "range": "WhitespaceMinimizedString",
+      "recommended": true
+    },
     "PROJECT": {
       "name": "PROJECT",
       "title": "PROJECT",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "domain_of": [
-        "PedigreeFileLayout"
+        "GenotypeFileLayout"
       ],
-      "recommended": true,
+      "required": true,
       "any_of": [
         {
           "range": "WhitespaceMinimizedString"
@@ -321,23 +381,23 @@
         }
       ]
     },
-    "REGISTERED_NAME": {
-      "name": "REGISTERED_NAME",
-      "title": "REGISTERED_NAME",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+    "SAMPLE_ID": {
+      "name": "SAMPLE_ID",
+      "description": "UNIQUELY IDENTIFIES GENOTYPE (ie. SENTRIX CODE); DO NOT USE THE ANIMAL_ID (REGISTRATION NUM) TO ALLOW FOR MULTIPLE GENOTYPES PER ANIMAL IF REQUIRED",
+      "title": "SAMPLE_ID",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "domain_of": [
-        "PedigreeFileLayout"
+        "GenotypeFileLayout"
       ],
       "range": "WhitespaceMinimizedString",
       "required": true
     },
-    "SIRE_ID": {
-      "name": "SIRE_ID",
-      "description": "12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING \\'0\\'S).",
-      "title": "SIRE_ID",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+    "SNP_CHIP_PANEL_TYPE": {
+      "name": "SNP_CHIP_PANEL_TYPE",
+      "title": "SNP_CHIP_PANEL_TYPE",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "domain_of": [
-        "PedigreeFileLayout"
+        "GenotypeFileLayout"
       ],
       "range": "WhitespaceMinimizedString",
       "required": true
@@ -346,21 +406,21 @@
       "name": "SOURCE_OF_DATA",
       "description": "See contacts list under \\'Source of Data\\' column",
       "title": "SOURCE_OF_DATA",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "domain_of": [
-        "PedigreeFileLayout"
+        "GenotypeFileLayout"
       ],
       "range": "WhitespaceMinimizedString",
-      "recommended": true
+      "required": true
     },
     "TRANSACTION_TYPE": {
       "name": "TRANSACTION_TYPE",
       "title": "TRANSACTION_TYPE",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "domain_of": [
-        "PedigreeFileLayout"
+        "GenotypeFileLayout"
       ],
-      "recommended": true,
+      "required": true,
       "any_of": [
         {
           "range": "WhitespaceMinimizedString"
@@ -375,7 +435,7 @@
     "SettingsMenu": {
       "name": "SettingsMenu",
       "title": "Regular Expressions",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "permissible_values": {
         "AllCaps": {
           "text": "AllCaps",
@@ -662,7 +722,7 @@
     "WhitespaceMinimizedString": {
       "name": "WhitespaceMinimizedString",
       "description": "A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).",
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "typeof": "string",
       "base": "str",
       "uri": "xsd:token"
@@ -673,7 +733,7 @@
       "notes": [
         "In RDF serializations, a slot with range of string is treated as a literal or type xsd:string.   If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"string\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "exact_mappings": [
         "schema:Text"
       ],
@@ -686,7 +746,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"integer\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "exact_mappings": [
         "schema:Integer"
       ],
@@ -699,7 +759,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"boolean\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "exact_mappings": [
         "schema:Boolean"
       ],
@@ -713,7 +773,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"float\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "exact_mappings": [
         "schema:Float"
       ],
@@ -726,7 +786,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"double\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "close_mappings": [
         "schema:Float"
       ],
@@ -739,7 +799,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"decimal\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "broad_mappings": [
         "schema:Number"
       ],
@@ -753,7 +813,7 @@
         "URI is dateTime because OWL reasoners do not work with straight date or time",
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"time\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "exact_mappings": [
         "schema:Time"
       ],
@@ -768,7 +828,7 @@
         "URI is dateTime because OWL reasoners don't work with straight date or time",
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "exact_mappings": [
         "schema:Date"
       ],
@@ -782,7 +842,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"datetime\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "exact_mappings": [
         "schema:DateTime"
       ],
@@ -796,7 +856,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date_or_datetime\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "base": "str",
       "uri": "linkml:DateOrDatetime",
       "repr": "str"
@@ -807,7 +867,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uriorcurie\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "base": "URIorCURIE",
       "uri": "xsd:anyURI",
       "repr": "str"
@@ -823,7 +883,7 @@
         "in RDF serializations this MUST be expanded to a URI",
         "in non-RDF serializations MAY be serialized as the compact representation"
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "base": "Curie",
       "uri": "xsd:string",
       "repr": "str"
@@ -838,7 +898,7 @@
       "comments": [
         "in RDF serializations a slot with range of uri is treated as a literal or type xsd:anyURI unless it is an identifier or a reference to an identifier, in which case it is translated directly to a node"
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "close_mappings": [
         "schema:URL"
       ],
@@ -852,7 +912,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"ncname\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "base": "NCName",
       "uri": "xsd:string",
       "repr": "str"
@@ -866,7 +926,7 @@
       "comments": [
         "Used for inheritance and type checking"
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "base": "ElementIdentifier",
       "uri": "shex:iri",
       "repr": "str"
@@ -877,7 +937,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"nodeidentifier\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "base": "NodeIdentifier",
       "uri": "shex:nonLiteral",
       "repr": "str"
@@ -889,7 +949,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpointer\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"
@@ -901,7 +961,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpath\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"
@@ -913,7 +973,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"sparqlpath\"."
       ],
-      "from_schema": "https://example.com/PedigreeFileLayout",
+      "from_schema": "https://example.com/GenotypeFileLayout",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"

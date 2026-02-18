@@ -7,14 +7,17 @@ FILE_TYPE	FILE_TYPE
 		05		Genotype					
 		06		Milk data					
 PROJECT	PROJECT								
-		001		NAEX					
-		010		RDGP					
-		011		RDGP & NAEX					
-		100		EDGP					
-		101		EDGP & NAEX					
-		102		NDGP					
-		110		EDGP & RDGP					
-		111		EDGP & RDGP & NAEX					
+		0001		NDGP					
+		0010		NAEX					
+		0100		RDGP					
+		0101		RDGP & NDGP					
+		0110		RDGP & NAEX					
+		1000		EDGP					
+		1010		EDGP & NAEX					
+		1100		EDGP & RDGP					
+		1101		EDGP & RDGP & NDGP					
+		1110		EDGP & RDGP & NAEX					
+		1111		EDGP & RDGP & NDGP & NAEX					
 TRANSACTION_TYPE	TRANSACTION_TYPE								
 		D		Delete					
 		U		Update					

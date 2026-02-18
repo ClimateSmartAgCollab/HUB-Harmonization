@@ -1,211 +1,211 @@
 class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
-Genome	General		access_training		WhitespaceMinimizedString	access_training															
-Genome	General		act_on_climate		WhitespaceMinimizedString	act_on_climate															
-Genome	General		age		Boolean																
-Genome	General		attention_check		WhitespaceMinimizedString	attention_check															
-Genome	General		birth_year		WhitespaceMinimizedString																
-Genome	General		break_up_big_tech		WhitespaceMinimizedString	break_up_big_tech															
-Genome	General		buy_if_cheaper_icecream		WhitespaceMinimizedString	buy_if_cheaper_icecream															
-Genome	General		buy_if_cheaper_nuggets		WhitespaceMinimizedString	buy_if_cheaper_nuggets															
-Genome	General		buy_if_cheaper_salmon		WhitespaceMinimizedString	buy_if_cheaper_salmon															
-Genome	General		buy_if_healthier_icecream		WhitespaceMinimizedString	buy_if_healthier_icecream															
-Genome	General		buy_if_healthier_nuggets		WhitespaceMinimizedString	buy_if_healthier_nuggets															
-Genome	General		buy_if_healthier_salmon		WhitespaceMinimizedString	buy_if_healthier_salmon															
-Genome	General		buy_instead_icecream		WhitespaceMinimizedString	buy_instead_icecream															
-Genome	General		buy_instead_nuggets		WhitespaceMinimizedString	buy_instead_nuggets															
-Genome	General		buy_instead_salmon		WhitespaceMinimizedString	buy_instead_salmon															
-Genome	General		buy_regular_cell_icecream		WhitespaceMinimizedString	buy_regular_cell_icecream															
-Genome	General		buy_regular_cell_nuggets		WhitespaceMinimizedString	buy_regular_cell_nuggets															
-Genome	General		buy_regular_cell_salmon		WhitespaceMinimizedString	buy_regular_cell_salmon															
-Genome	General		city		WhitespaceMinimizedString																
-Genome	General		city_only_access		WhitespaceMinimizedString	city_only_access															
-Genome	General		city_only_jobs		WhitespaceMinimizedString	city_only_jobs															
-Genome	General		climate_biodiversity_loss		WhitespaceMinimizedString	climate_biodiversity_loss															
-Genome	General		climate_ecosystem		WhitespaceMinimizedString	climate_ecosystem															
-Genome	General		climate_not_urgent		WhitespaceMinimizedString	climate_not_urgent															
-Genome	General		comm		WhitespaceMinimizedString																
-Genome	General		comment_cell_agri_fut		WhitespaceMinimizedString																
-Genome	General		community_owned_model		WhitespaceMinimizedString	community_owned_model															
-Genome	General		consent_given		Boolean																
-Genome	General		cont_id		WhitespaceMinimizedString																
-Genome	General		conventional_farmers_opportunity		WhitespaceMinimizedString	conventional_farmers_opportunity															
-Genome	General		corp_patents_limit_knowledge		WhitespaceMinimizedString	corp_patents_limit_knowledge															
-Genome	General		country		WhitespaceMinimizedString																
-Genome	General		date_sub		DateTime		date														
-Genome	General		diet_avoid_red_meat		Boolean																
-Genome	General		diet_buying_organic		Boolean																
-Genome	General		diet_flexitarian		Boolean																
-Genome	General		diet_halal		Boolean																
-Genome	General		diet_keto		Boolean																
-Genome	General		diet_kosher		Boolean																
-Genome	General		diet_none_of_the_above		Boolean																
-Genome	General		diet_other_specified		WhitespaceMinimizedString																
-Genome	General		diet_paleo		Boolean																
-Genome	General		diet_pescatarian		Boolean																
-Genome	General		diet_plant_based		Boolean																
-Genome	General		diet_vegan		Boolean																
-Genome	General		diet_vegetarian		Boolean																
-Genome	General		education_level		WhitespaceMinimizedString	education_level															
-Genome	General		env_impact_beef		WhitespaceMinimizedString	env_impact_beef															
-Genome	General		env_impact_chicken		WhitespaceMinimizedString	env_impact_chicken															
-Genome	General		env_impact_fish		WhitespaceMinimizedString	env_impact_fish															
-Genome	General		env_impact_pork		WhitespaceMinimizedString	env_impact_pork															
-Genome	General		eth_african		Boolean																
-Genome	General		eth_caribbean		Boolean																
-Genome	General		eth_east_asian		Boolean																
-Genome	General		eth_european		Boolean																
-Genome	General		eth_indigenous		Boolean																
-Genome	General		eth_latin_american		Boolean																
-Genome	General		eth_middle_eastern		Boolean																
-Genome	General		eth_oceania		Boolean																
-Genome	General		eth_other		WhitespaceMinimizedString																
-Genome	General		eth_prefer_not_say		Boolean																
-Genome	General		eth_south_asian		Boolean																
-Genome	General		eth_southeast_asian		Boolean																
-Genome	General		ext_affordable_protein		WhitespaceMinimizedString	ext_affordable_protein															
-Genome	General		ext_disrespectful_nature		WhitespaceMinimizedString	ext_disrespectful_nature															
-Genome	General		ext_env_sustainability		WhitespaceMinimizedString	ext_env_sustainability															
-Genome	General		ext_healthy_products		WhitespaceMinimizedString	ext_healthy_products															
-Genome	General		ext_improve_welfare		WhitespaceMinimizedString	ext_improve_welfare															
-Genome	General		ext_solve_hunger		WhitespaceMinimizedString	ext_solve_hunger															
-Genome	General		ext_tasty_products		WhitespaceMinimizedString	ext_tasty_products															
-Genome	General		ext_unnatural		WhitespaceMinimizedString	ext_unnatural															
-Genome	General		ext_viable_alternative		WhitespaceMinimizedString	ext_viable_alternative															
-Genome	General		farmers_lose_jobs		WhitespaceMinimizedString	farmers_lose_jobs															
-Genome	General		farmers_transition		WhitespaceMinimizedString	farmers_transition															
-Genome	General		food_banks_benefit		WhitespaceMinimizedString	food_banks_benefit															
-Genome	General		freq_dairy		WhitespaceMinimizedString	freq_dairy															
-Genome	General		freq_eggs		WhitespaceMinimizedString	freq_eggs															
-Genome	General		freq_fish		WhitespaceMinimizedString	freq_fish															
-Genome	General		freq_other		WhitespaceMinimizedString																
-Genome	General		freq_pork		WhitespaceMinimizedString	freq_pork															
-Genome	General		freq_poultry		WhitespaceMinimizedString	freq_poultry															
-Genome	General		freq_red_meat		WhitespaceMinimizedString	freq_red_meat															
-Genome	General		gatekeep_methods		WhitespaceMinimizedString	gatekeep_methods															
-Genome	General		gender		WhitespaceMinimizedString	gender															
-Genome	General		gender_other		WhitespaceMinimizedString																
-Genome	General		glob_benefits		WhitespaceMinimizedString	glob_benefits															
-Genome	General		gm_beef		WhitespaceMinimizedString	gm_beef															
-Genome	General		gm_rice		WhitespaceMinimizedString	gm_rice															
-Genome	General		grocery_availability		WhitespaceMinimizedString	grocery_availability															
-Genome	General		heard_cellular_agriculture		WhitespaceMinimizedString	heard_cellular_agriculture															
-Genome	General		home_production_possible		WhitespaceMinimizedString	home_production_possible															
-Genome	General		hope_tech		WhitespaceMinimizedString	hope_tech															
-Genome	General		household_composition		WhitespaceMinimizedString	household_composition															
-Genome	General		household_composition_other		WhitespaceMinimizedString																
-Genome	General		household_income		WhitespaceMinimizedString	household_income															
-Genome	General		human_caused_climate		WhitespaceMinimizedString	human_caused_climate															
-Genome	General		human_impacts		WhitespaceMinimizedString	human_impacts															
-Genome	General		imp_animal_welfare		Boolean																
-Genome	General		imp_antibiotic_free		Boolean																
-Genome	General		imp_cost		Boolean																
-Genome	General		imp_cultural_practices		Boolean																
-Genome	General		imp_dairy		WhitespaceMinimizedString	imp_dairy															
-Genome	General		imp_eggs		WhitespaceMinimizedString	imp_eggs															
-Genome	General		imp_fish		WhitespaceMinimizedString	imp_fish															
-Genome	General		imp_freshness		Boolean																
-Genome	General		imp_organic		Boolean																
-Genome	General		imp_other_foods_specified		WhitespaceMinimizedString																
-Genome	General		imp_other_specified		WhitespaceMinimizedString																
-Genome	General		imp_pork		WhitespaceMinimizedString	imp_pork															
-Genome	General		imp_poultry		WhitespaceMinimizedString	imp_poultry															
-Genome	General		imp_production		Boolean																
-Genome	General		imp_red_meat		WhitespaceMinimizedString	imp_red_meat															
-Genome	General		imp_self_hunted		Boolean																
-Genome	General		imp_sustainability		Boolean																
-Genome	General		inaccessible_education		WhitespaceMinimizedString	inaccessible_education															
-Genome	General		industry_dominated		WhitespaceMinimizedString	industry_dominated															
-Genome	General		innovation_comfort		WhitespaceMinimizedString																
-Genome	General		ip_address		WhitespaceMinimizedString																
-Genome	General		lang		WhitespaceMinimizedString																
-Genome	General		larg_corp_influence		WhitespaceMinimizedString	larg_corp_influence															
-Genome	General		lat		decimal																
-Genome	General		leg_comm		WhitespaceMinimizedString																
-Genome	General		lives_in_can		Boolean																
-Genome	General		local_food_security		WhitespaceMinimizedString	local_food_security															
-Genome	General		location_general		WhitespaceMinimizedString																
-Genome	General		long		decimal																
-Genome	General		main_grocery_shopper		WhitespaceMinimizedString	main_grocery_shopper															
-Genome	General		min		decimal		minutes														
-Genome	General		newhiddenvalue		WhitespaceMinimizedString																
-Genome	General		online_superstore_availability		WhitespaceMinimizedString	online_superstore_availability															
-Genome	General		only_wealthy_access		WhitespaceMinimizedString	only_wealthy_access															
-Genome	General		plant_burger_mushroom		WhitespaceMinimizedString	plant_burger_mushroom															
-Genome	General		plant_burger_soy		WhitespaceMinimizedString	plant_burger_soy															
-Genome	General		political_scale		Boolean																
-Genome	General		political_scale_other		WhitespaceMinimizedString																
-Genome	General		post		WhitespaceMinimizedString																
-Genome	General		postal_prefix		WhitespaceMinimizedString																
-Genome	General		priority_climate_resilience		Boolean																
-Genome	General		priority_farm_animal_conditions		Boolean																
-Genome	General		priority_food_tech		Boolean																
-Genome	General		priority_ghg_reduction		Boolean																
-Genome	General		priority_healthy_access		Boolean																
-Genome	General		priority_indigenous_food_practices		Boolean																
-Genome	General		priority_local_retail		Boolean																
-Genome	General		priority_migrant_worker_rights		Boolean																
-Genome	General		priority_none		Boolean																
-Genome	General		priority_other_specified		WhitespaceMinimizedString																
-Genome	General		priority_vegan_shift		Boolean																
-Genome	General		priority_wildlife_habitat		Boolean																
-Genome	General		progress_tech		WhitespaceMinimizedString	progress_tech															
-Genome	General		ref		WhitespaceMinimizedString																
-Genome	General		reject_cell_icecream		WhitespaceMinimizedString	reject_cell_icecream															
-Genome	General		reject_cell_nuggets		WhitespaceMinimizedString	reject_cell_nuggets															
-Genome	General		reject_cell_salmon		WhitespaceMinimizedString	reject_cell_salmon															
-Genome	General		replaces_fresh_meat		WhitespaceMinimizedString	replaces_fresh_meat															
-Genome	General		res_id		WhitespaceMinimizedString																
-Genome	General		see_agri_industry_icecream		WhitespaceMinimizedString	see_agri_industry_icecream															
-Genome	General		see_agri_industry_nuggets		WhitespaceMinimizedString	see_agri_industry_nuggets															
-Genome	General		see_agri_industry_salmon		WhitespaceMinimizedString	see_agri_industry_salmon															
-Genome	General		see_global_dev_icecream		WhitespaceMinimizedString	see_global_dev_icecream															
-Genome	General		see_global_dev_nuggets		WhitespaceMinimizedString	see_global_dev_nuggets															
-Genome	General		see_global_dev_salmon		WhitespaceMinimizedString	see_global_dev_salmon															
-Genome	General		see_in_store_icecream		WhitespaceMinimizedString	see_in_store_icecream															
-Genome	General		see_in_store_nuggets		WhitespaceMinimizedString	see_in_store_nuggets															
-Genome	General		see_in_store_salmon		WhitespaceMinimizedString	see_in_store_salmon															
-Genome	General		see_local_food_icecream		WhitespaceMinimizedString	see_local_food_icecream															
-Genome	General		see_local_food_nuggets		WhitespaceMinimizedString	see_local_food_nuggets															
-Genome	General		see_local_food_salmon		WhitespaceMinimizedString	see_local_food_salmon															
-Genome	General		self_grown_food_freq		WhitespaceMinimizedString	self_grown_food_freq															
-Genome	General		ses_id		WhitespaceMinimizedString																
-Genome	General		source_backyard_animals		Boolean																
-Genome	General		source_butcher_shop		Boolean																
-Genome	General		source_direct_from_farms		Boolean																
-Genome	General		source_farmers_market		Boolean																
-Genome	General		source_food_bank		Boolean																
-Genome	General		source_grocery_superstore		Boolean																
-Genome	General		source_hunting_fishing		Boolean																
-Genome	General		source_other_specified		WhitespaceMinimizedString																
-Genome	General		source_own_farm		Boolean																
-Genome	General		start_time		DateTime																
-Genome	General		state		WhitespaceMinimizedString																
-Genome	General		status		WhitespaceMinimizedString																
-Genome	General		support_cell_ag_sale		WhitespaceMinimizedString	support_cell_ag_sale															
-Genome	General		tag		WhitespaceMinimizedString																
-Genome	General		tech_marginalized		WhitespaceMinimizedString	tech_marginalized															
-Genome	General		tech_negatives		WhitespaceMinimizedString	tech_negatives															
-Genome	General		tech_resources		WhitespaceMinimizedString	tech_resources															
-Genome	General		tech_society		WhitespaceMinimizedString	tech_society															
-Genome	General		trust_ag_companies		WhitespaceMinimizedString	trust_ag_companies															
-Genome	General		trust_celebrities		WhitespaceMinimizedString	trust_celebrities															
-Genome	General		trust_env_activists		WhitespaceMinimizedString	trust_env_activists															
-Genome	General		trust_family_friends		WhitespaceMinimizedString	trust_family_friends															
-Genome	General		trust_regulators		WhitespaceMinimizedString	trust_regulators															
-Genome	General		trust_scientists		WhitespaceMinimizedString	trust_scientists															
-Genome	General		try_cell_icecream		WhitespaceMinimizedString	try_cell_icecream															
-Genome	General		try_cell_nuggets		WhitespaceMinimizedString	try_cell_nuggets															
-Genome	General		try_cell_salmon		WhitespaceMinimizedString	try_cell_salmon															
-Genome	General		url		WhitespaceMinimizedString																
-Genome	General		used_in_processed_foods		WhitespaceMinimizedString	used_in_processed_foods															
-Genome	General		user_agent		WhitespaceMinimizedString																
-Genome	General		vertical_agriculture		WhitespaceMinimizedString	vertical_agriculture															
-Genome	General		work_farming_employee		Boolean																
-Genome	General		work_farming_owner		Boolean																
-Genome	General		work_food_access		Boolean																
-Genome	General		work_food_distribution		Boolean																
-Genome	General		work_food_education		Boolean																
-Genome	General		work_food_processing		Boolean																
-Genome	General		work_food_retail		Boolean																
-Genome	General		work_none		Boolean																
-Genome	General		work_prefer_not_say		Boolean																
+AgriGenomicsOptionSurvey	General		access_training		WhitespaceMinimizedString	access_training															
+AgriGenomicsOptionSurvey	General		act_on_climate		WhitespaceMinimizedString	act_on_climate															
+AgriGenomicsOptionSurvey	General		age		Boolean																
+AgriGenomicsOptionSurvey	General		attention_check		WhitespaceMinimizedString	attention_check															
+AgriGenomicsOptionSurvey	General		birth_year		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		break_up_big_tech		WhitespaceMinimizedString	break_up_big_tech															
+AgriGenomicsOptionSurvey	General		buy_if_cheaper_icecream		WhitespaceMinimizedString	buy_if_cheaper_icecream															
+AgriGenomicsOptionSurvey	General		buy_if_cheaper_nuggets		WhitespaceMinimizedString	buy_if_cheaper_nuggets															
+AgriGenomicsOptionSurvey	General		buy_if_cheaper_salmon		WhitespaceMinimizedString	buy_if_cheaper_salmon															
+AgriGenomicsOptionSurvey	General		buy_if_healthier_icecream		WhitespaceMinimizedString	buy_if_healthier_icecream															
+AgriGenomicsOptionSurvey	General		buy_if_healthier_nuggets		WhitespaceMinimizedString	buy_if_healthier_nuggets															
+AgriGenomicsOptionSurvey	General		buy_if_healthier_salmon		WhitespaceMinimizedString	buy_if_healthier_salmon															
+AgriGenomicsOptionSurvey	General		buy_instead_icecream		WhitespaceMinimizedString	buy_instead_icecream															
+AgriGenomicsOptionSurvey	General		buy_instead_nuggets		WhitespaceMinimizedString	buy_instead_nuggets															
+AgriGenomicsOptionSurvey	General		buy_instead_salmon		WhitespaceMinimizedString	buy_instead_salmon															
+AgriGenomicsOptionSurvey	General		buy_regular_cell_icecream		WhitespaceMinimizedString	buy_regular_cell_icecream															
+AgriGenomicsOptionSurvey	General		buy_regular_cell_nuggets		WhitespaceMinimizedString	buy_regular_cell_nuggets															
+AgriGenomicsOptionSurvey	General		buy_regular_cell_salmon		WhitespaceMinimizedString	buy_regular_cell_salmon															
+AgriGenomicsOptionSurvey	General		city		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		city_only_access		WhitespaceMinimizedString	city_only_access															
+AgriGenomicsOptionSurvey	General		city_only_jobs		WhitespaceMinimizedString	city_only_jobs															
+AgriGenomicsOptionSurvey	General		climate_biodiversity_loss		WhitespaceMinimizedString	climate_biodiversity_loss															
+AgriGenomicsOptionSurvey	General		climate_ecosystem		WhitespaceMinimizedString	climate_ecosystem															
+AgriGenomicsOptionSurvey	General		climate_not_urgent		WhitespaceMinimizedString	climate_not_urgent															
+AgriGenomicsOptionSurvey	General		comm		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		comment_cell_agri_fut		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		community_owned_model		WhitespaceMinimizedString	community_owned_model															
+AgriGenomicsOptionSurvey	General		consent_given		Boolean																
+AgriGenomicsOptionSurvey	General		cont_id		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		conventional_farmers_opportunity		WhitespaceMinimizedString	conventional_farmers_opportunity															
+AgriGenomicsOptionSurvey	General		corp_patents_limit_knowledge		WhitespaceMinimizedString	corp_patents_limit_knowledge															
+AgriGenomicsOptionSurvey	General		country		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		date_sub		DateTime		date														
+AgriGenomicsOptionSurvey	General		diet_avoid_red_meat		Boolean																
+AgriGenomicsOptionSurvey	General		diet_buying_organic		Boolean																
+AgriGenomicsOptionSurvey	General		diet_flexitarian		Boolean																
+AgriGenomicsOptionSurvey	General		diet_halal		Boolean																
+AgriGenomicsOptionSurvey	General		diet_keto		Boolean																
+AgriGenomicsOptionSurvey	General		diet_kosher		Boolean																
+AgriGenomicsOptionSurvey	General		diet_none_of_the_above		Boolean																
+AgriGenomicsOptionSurvey	General		diet_other_specified		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		diet_paleo		Boolean																
+AgriGenomicsOptionSurvey	General		diet_pescatarian		Boolean																
+AgriGenomicsOptionSurvey	General		diet_plant_based		Boolean																
+AgriGenomicsOptionSurvey	General		diet_vegan		Boolean																
+AgriGenomicsOptionSurvey	General		diet_vegetarian		Boolean																
+AgriGenomicsOptionSurvey	General		education_level		WhitespaceMinimizedString	education_level															
+AgriGenomicsOptionSurvey	General		env_impact_beef		WhitespaceMinimizedString	env_impact_beef															
+AgriGenomicsOptionSurvey	General		env_impact_chicken		WhitespaceMinimizedString	env_impact_chicken															
+AgriGenomicsOptionSurvey	General		env_impact_fish		WhitespaceMinimizedString	env_impact_fish															
+AgriGenomicsOptionSurvey	General		env_impact_pork		WhitespaceMinimizedString	env_impact_pork															
+AgriGenomicsOptionSurvey	General		eth_african		Boolean																
+AgriGenomicsOptionSurvey	General		eth_caribbean		Boolean																
+AgriGenomicsOptionSurvey	General		eth_east_asian		Boolean																
+AgriGenomicsOptionSurvey	General		eth_european		Boolean																
+AgriGenomicsOptionSurvey	General		eth_indigenous		Boolean																
+AgriGenomicsOptionSurvey	General		eth_latin_american		Boolean																
+AgriGenomicsOptionSurvey	General		eth_middle_eastern		Boolean																
+AgriGenomicsOptionSurvey	General		eth_oceania		Boolean																
+AgriGenomicsOptionSurvey	General		eth_other		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		eth_prefer_not_say		Boolean																
+AgriGenomicsOptionSurvey	General		eth_south_asian		Boolean																
+AgriGenomicsOptionSurvey	General		eth_southeast_asian		Boolean																
+AgriGenomicsOptionSurvey	General		ext_affordable_protein		WhitespaceMinimizedString	ext_affordable_protein															
+AgriGenomicsOptionSurvey	General		ext_disrespectful_nature		WhitespaceMinimizedString	ext_disrespectful_nature															
+AgriGenomicsOptionSurvey	General		ext_env_sustainability		WhitespaceMinimizedString	ext_env_sustainability															
+AgriGenomicsOptionSurvey	General		ext_healthy_products		WhitespaceMinimizedString	ext_healthy_products															
+AgriGenomicsOptionSurvey	General		ext_improve_welfare		WhitespaceMinimizedString	ext_improve_welfare															
+AgriGenomicsOptionSurvey	General		ext_solve_hunger		WhitespaceMinimizedString	ext_solve_hunger															
+AgriGenomicsOptionSurvey	General		ext_tasty_products		WhitespaceMinimizedString	ext_tasty_products															
+AgriGenomicsOptionSurvey	General		ext_unnatural		WhitespaceMinimizedString	ext_unnatural															
+AgriGenomicsOptionSurvey	General		ext_viable_alternative		WhitespaceMinimizedString	ext_viable_alternative															
+AgriGenomicsOptionSurvey	General		farmers_lose_jobs		WhitespaceMinimizedString	farmers_lose_jobs															
+AgriGenomicsOptionSurvey	General		farmers_transition		WhitespaceMinimizedString	farmers_transition															
+AgriGenomicsOptionSurvey	General		food_banks_benefit		WhitespaceMinimizedString	food_banks_benefit															
+AgriGenomicsOptionSurvey	General		freq_dairy		WhitespaceMinimizedString	freq_dairy															
+AgriGenomicsOptionSurvey	General		freq_eggs		WhitespaceMinimizedString	freq_eggs															
+AgriGenomicsOptionSurvey	General		freq_fish		WhitespaceMinimizedString	freq_fish															
+AgriGenomicsOptionSurvey	General		freq_other		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		freq_pork		WhitespaceMinimizedString	freq_pork															
+AgriGenomicsOptionSurvey	General		freq_poultry		WhitespaceMinimizedString	freq_poultry															
+AgriGenomicsOptionSurvey	General		freq_red_meat		WhitespaceMinimizedString	freq_red_meat															
+AgriGenomicsOptionSurvey	General		gatekeep_methods		WhitespaceMinimizedString	gatekeep_methods															
+AgriGenomicsOptionSurvey	General		gender		WhitespaceMinimizedString	gender															
+AgriGenomicsOptionSurvey	General		gender_other		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		glob_benefits		WhitespaceMinimizedString	glob_benefits															
+AgriGenomicsOptionSurvey	General		gm_beef		WhitespaceMinimizedString	gm_beef															
+AgriGenomicsOptionSurvey	General		gm_rice		WhitespaceMinimizedString	gm_rice															
+AgriGenomicsOptionSurvey	General		grocery_availability		WhitespaceMinimizedString	grocery_availability															
+AgriGenomicsOptionSurvey	General		heard_cellular_agriculture		WhitespaceMinimizedString	heard_cellular_agriculture															
+AgriGenomicsOptionSurvey	General		home_production_possible		WhitespaceMinimizedString	home_production_possible															
+AgriGenomicsOptionSurvey	General		hope_tech		WhitespaceMinimizedString	hope_tech															
+AgriGenomicsOptionSurvey	General		household_composition		WhitespaceMinimizedString	household_composition															
+AgriGenomicsOptionSurvey	General		household_composition_other		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		household_income		WhitespaceMinimizedString	household_income															
+AgriGenomicsOptionSurvey	General		human_caused_climate		WhitespaceMinimizedString	human_caused_climate															
+AgriGenomicsOptionSurvey	General		human_impacts		WhitespaceMinimizedString	human_impacts															
+AgriGenomicsOptionSurvey	General		imp_animal_welfare		Boolean																
+AgriGenomicsOptionSurvey	General		imp_antibiotic_free		Boolean																
+AgriGenomicsOptionSurvey	General		imp_cost		Boolean																
+AgriGenomicsOptionSurvey	General		imp_cultural_practices		Boolean																
+AgriGenomicsOptionSurvey	General		imp_dairy		WhitespaceMinimizedString	imp_dairy															
+AgriGenomicsOptionSurvey	General		imp_eggs		WhitespaceMinimizedString	imp_eggs															
+AgriGenomicsOptionSurvey	General		imp_fish		WhitespaceMinimizedString	imp_fish															
+AgriGenomicsOptionSurvey	General		imp_freshness		Boolean																
+AgriGenomicsOptionSurvey	General		imp_organic		Boolean																
+AgriGenomicsOptionSurvey	General		imp_other_foods_specified		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		imp_other_specified		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		imp_pork		WhitespaceMinimizedString	imp_pork															
+AgriGenomicsOptionSurvey	General		imp_poultry		WhitespaceMinimizedString	imp_poultry															
+AgriGenomicsOptionSurvey	General		imp_production		Boolean																
+AgriGenomicsOptionSurvey	General		imp_red_meat		WhitespaceMinimizedString	imp_red_meat															
+AgriGenomicsOptionSurvey	General		imp_self_hunted		Boolean																
+AgriGenomicsOptionSurvey	General		imp_sustainability		Boolean																
+AgriGenomicsOptionSurvey	General		inaccessible_education		WhitespaceMinimizedString	inaccessible_education															
+AgriGenomicsOptionSurvey	General		industry_dominated		WhitespaceMinimizedString	industry_dominated															
+AgriGenomicsOptionSurvey	General		innovation_comfort		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		ip_address		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		lang		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		larg_corp_influence		WhitespaceMinimizedString	larg_corp_influence															
+AgriGenomicsOptionSurvey	General		lat		decimal																
+AgriGenomicsOptionSurvey	General		leg_comm		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		lives_in_can		Boolean																
+AgriGenomicsOptionSurvey	General		local_food_security		WhitespaceMinimizedString	local_food_security															
+AgriGenomicsOptionSurvey	General		location_general		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		long		decimal																
+AgriGenomicsOptionSurvey	General		main_grocery_shopper		WhitespaceMinimizedString	main_grocery_shopper															
+AgriGenomicsOptionSurvey	General		min		decimal		minutes														
+AgriGenomicsOptionSurvey	General		newhiddenvalue		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		online_superstore_availability		WhitespaceMinimizedString	online_superstore_availability															
+AgriGenomicsOptionSurvey	General		only_wealthy_access		WhitespaceMinimizedString	only_wealthy_access															
+AgriGenomicsOptionSurvey	General		plant_burger_mushroom		WhitespaceMinimizedString	plant_burger_mushroom															
+AgriGenomicsOptionSurvey	General		plant_burger_soy		WhitespaceMinimizedString	plant_burger_soy															
+AgriGenomicsOptionSurvey	General		political_scale		Boolean																
+AgriGenomicsOptionSurvey	General		political_scale_other		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		post		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		postal_prefix		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		priority_climate_resilience		Boolean																
+AgriGenomicsOptionSurvey	General		priority_farm_animal_conditions		Boolean																
+AgriGenomicsOptionSurvey	General		priority_food_tech		Boolean																
+AgriGenomicsOptionSurvey	General		priority_ghg_reduction		Boolean																
+AgriGenomicsOptionSurvey	General		priority_healthy_access		Boolean																
+AgriGenomicsOptionSurvey	General		priority_indigenous_food_practices		Boolean																
+AgriGenomicsOptionSurvey	General		priority_local_retail		Boolean																
+AgriGenomicsOptionSurvey	General		priority_migrant_worker_rights		Boolean																
+AgriGenomicsOptionSurvey	General		priority_none		Boolean																
+AgriGenomicsOptionSurvey	General		priority_other_specified		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		priority_vegan_shift		Boolean																
+AgriGenomicsOptionSurvey	General		priority_wildlife_habitat		Boolean																
+AgriGenomicsOptionSurvey	General		progress_tech		WhitespaceMinimizedString	progress_tech															
+AgriGenomicsOptionSurvey	General		ref		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		reject_cell_icecream		WhitespaceMinimizedString	reject_cell_icecream															
+AgriGenomicsOptionSurvey	General		reject_cell_nuggets		WhitespaceMinimizedString	reject_cell_nuggets															
+AgriGenomicsOptionSurvey	General		reject_cell_salmon		WhitespaceMinimizedString	reject_cell_salmon															
+AgriGenomicsOptionSurvey	General		replaces_fresh_meat		WhitespaceMinimizedString	replaces_fresh_meat															
+AgriGenomicsOptionSurvey	General		res_id		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		see_agri_industry_icecream		WhitespaceMinimizedString	see_agri_industry_icecream															
+AgriGenomicsOptionSurvey	General		see_agri_industry_nuggets		WhitespaceMinimizedString	see_agri_industry_nuggets															
+AgriGenomicsOptionSurvey	General		see_agri_industry_salmon		WhitespaceMinimizedString	see_agri_industry_salmon															
+AgriGenomicsOptionSurvey	General		see_global_dev_icecream		WhitespaceMinimizedString	see_global_dev_icecream															
+AgriGenomicsOptionSurvey	General		see_global_dev_nuggets		WhitespaceMinimizedString	see_global_dev_nuggets															
+AgriGenomicsOptionSurvey	General		see_global_dev_salmon		WhitespaceMinimizedString	see_global_dev_salmon															
+AgriGenomicsOptionSurvey	General		see_in_store_icecream		WhitespaceMinimizedString	see_in_store_icecream															
+AgriGenomicsOptionSurvey	General		see_in_store_nuggets		WhitespaceMinimizedString	see_in_store_nuggets															
+AgriGenomicsOptionSurvey	General		see_in_store_salmon		WhitespaceMinimizedString	see_in_store_salmon															
+AgriGenomicsOptionSurvey	General		see_local_food_icecream		WhitespaceMinimizedString	see_local_food_icecream															
+AgriGenomicsOptionSurvey	General		see_local_food_nuggets		WhitespaceMinimizedString	see_local_food_nuggets															
+AgriGenomicsOptionSurvey	General		see_local_food_salmon		WhitespaceMinimizedString	see_local_food_salmon															
+AgriGenomicsOptionSurvey	General		self_grown_food_freq		WhitespaceMinimizedString	self_grown_food_freq															
+AgriGenomicsOptionSurvey	General		ses_id		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		source_backyard_animals		Boolean																
+AgriGenomicsOptionSurvey	General		source_butcher_shop		Boolean																
+AgriGenomicsOptionSurvey	General		source_direct_from_farms		Boolean																
+AgriGenomicsOptionSurvey	General		source_farmers_market		Boolean																
+AgriGenomicsOptionSurvey	General		source_food_bank		Boolean																
+AgriGenomicsOptionSurvey	General		source_grocery_superstore		Boolean																
+AgriGenomicsOptionSurvey	General		source_hunting_fishing		Boolean																
+AgriGenomicsOptionSurvey	General		source_other_specified		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		source_own_farm		Boolean																
+AgriGenomicsOptionSurvey	General		start_time		DateTime																
+AgriGenomicsOptionSurvey	General		state		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		status		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		support_cell_ag_sale		WhitespaceMinimizedString	support_cell_ag_sale															
+AgriGenomicsOptionSurvey	General		tag		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		tech_marginalized		WhitespaceMinimizedString	tech_marginalized															
+AgriGenomicsOptionSurvey	General		tech_negatives		WhitespaceMinimizedString	tech_negatives															
+AgriGenomicsOptionSurvey	General		tech_resources		WhitespaceMinimizedString	tech_resources															
+AgriGenomicsOptionSurvey	General		tech_society		WhitespaceMinimizedString	tech_society															
+AgriGenomicsOptionSurvey	General		trust_ag_companies		WhitespaceMinimizedString	trust_ag_companies															
+AgriGenomicsOptionSurvey	General		trust_celebrities		WhitespaceMinimizedString	trust_celebrities															
+AgriGenomicsOptionSurvey	General		trust_env_activists		WhitespaceMinimizedString	trust_env_activists															
+AgriGenomicsOptionSurvey	General		trust_family_friends		WhitespaceMinimizedString	trust_family_friends															
+AgriGenomicsOptionSurvey	General		trust_regulators		WhitespaceMinimizedString	trust_regulators															
+AgriGenomicsOptionSurvey	General		trust_scientists		WhitespaceMinimizedString	trust_scientists															
+AgriGenomicsOptionSurvey	General		try_cell_icecream		WhitespaceMinimizedString	try_cell_icecream															
+AgriGenomicsOptionSurvey	General		try_cell_nuggets		WhitespaceMinimizedString	try_cell_nuggets															
+AgriGenomicsOptionSurvey	General		try_cell_salmon		WhitespaceMinimizedString	try_cell_salmon															
+AgriGenomicsOptionSurvey	General		url		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		used_in_processed_foods		WhitespaceMinimizedString	used_in_processed_foods															
+AgriGenomicsOptionSurvey	General		user_agent		WhitespaceMinimizedString																
+AgriGenomicsOptionSurvey	General		vertical_agriculture		WhitespaceMinimizedString	vertical_agriculture															
+AgriGenomicsOptionSurvey	General		work_farming_employee		Boolean																
+AgriGenomicsOptionSurvey	General		work_farming_owner		Boolean																
+AgriGenomicsOptionSurvey	General		work_food_access		Boolean																
+AgriGenomicsOptionSurvey	General		work_food_distribution		Boolean																
+AgriGenomicsOptionSurvey	General		work_food_education		Boolean																
+AgriGenomicsOptionSurvey	General		work_food_processing		Boolean																
+AgriGenomicsOptionSurvey	General		work_food_retail		Boolean																
+AgriGenomicsOptionSurvey	General		work_none		Boolean																
+AgriGenomicsOptionSurvey	General		work_prefer_not_say		Boolean																
