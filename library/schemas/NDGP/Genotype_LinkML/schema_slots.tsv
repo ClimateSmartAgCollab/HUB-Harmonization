@@ -1,0 +1,12 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+GenotypeFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString							True						INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
+GenotypeFileLayout	General		DATE_OF_GENOTYPE_TEST	DATE_OF_GENOTYPE_TEST	DateTime							True									
+GenotypeFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE						True									
+GenotypeFileLayout	General		GENOTYPE	GENOTYPE	WhitespaceMinimizedString							True						USING THE CDCB FORMAT ; THE GENOTYPE IS A VARIABLE LENGTH STRING OF 0,1,2,5 INDICATING SNP GENOTYPES OF BB, AB, AA, \\-\\- (1 BYTE PER SNP, NO COMMAS BETWEEN SNPS). FOR EXAMPLE \'01252010250211110025.......\'.			
+GenotypeFileLayout	General		IMPUTATION_USED_TO_GENERATE_DATA	IMPUTATION_USED_TO_GENERATE_DATA	WhitespaceMinimizedString							True						YES or NO			
+GenotypeFileLayout	General		PANEL_TYPE_BEFORE_IMPUTATION	PANEL_TYPE_BEFORE_IMPUTATION	WhitespaceMinimizedString								True								
+GenotypeFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT						True									
+GenotypeFileLayout	General		SAMPLE_ID	SAMPLE_ID	WhitespaceMinimizedString							True						UNIQUELY IDENTIFIES GENOTYPE (ie. SENTRIX CODE); DO NOT USE THE ANIMAL_ID (REGISTRATION NUM) TO ALLOW FOR MULTIPLE GENOTYPES PER ANIMAL IF REQUIRED			
+GenotypeFileLayout	General		SNP_CHIP_PANEL_TYPE	SNP_CHIP_PANEL_TYPE	WhitespaceMinimizedString							True									
+GenotypeFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString							True						See contacts list under \'Source of Data\' column			
+GenotypeFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE						True									

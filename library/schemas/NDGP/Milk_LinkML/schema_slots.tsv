@@ -14,6 +14,6 @@ MilkProductionFileLayout	General		MILK_YIELD	MILK_YIELD	decimal		KG						True
 MilkProductionFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT							True								
 MilkProductionFileLayout	General		PROTEIN_YIELD	PROTEIN_YIELD	decimal		KG						True								
 MilkProductionFileLayout	General		SOMATIC_CELL_COUNT	SOMATIC_CELL_COUNT	decimal		1000/ML						True								
-MilkProductionFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under 'Source of Data' column			
+MilkProductionFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under \'Source of Data\' column			
 MilkProductionFileLayout	General		TEST_DATE		DateTime								True								
 MilkProductionFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE							True								

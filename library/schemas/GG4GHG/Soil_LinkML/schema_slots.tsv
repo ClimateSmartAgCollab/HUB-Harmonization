@@ -1,0 +1,12 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+SoilChemistryData	General		Plot	Plot	decimal													The plot number associated with the sample			
+SoilChemistryData	General		ROC_perc	ROC_perc	decimal													ROC as a percent.			
+SoilChemistryData	General		SOC_perc	SOC_perc	decimal													Soil Organic Carbon percent			
+SoilChemistryData	General		TC	TC	decimal													Total Carbon			
+SoilChemistryData	General		TIC900_perc	TIC900_perc	decimal													TIC900 as a percent.			
+SoilChemistryData	General		TN	TN	decimal													Total Nitrogen			
+SoilChemistryData	General		TOC400_perc	TOC400_perc	decimal													TOC400 as a percent.			
+SoilChemistryData	General		aspect	aspect	WhitespaceMinimizedString	aspect												Whether it is a focal or community sample.			
+SoilChemistryData	General		name	name	WhitespaceMinimizedString													The full name of the sample (Combination of plant, site, aspect and plot number).			
+SoilChemistryData	General		plant	plant	WhitespaceMinimizedString	plant												The focal species target.			
+SoilChemistryData	General		site	site	WhitespaceMinimizedString	site												The site the sample was taken from.			

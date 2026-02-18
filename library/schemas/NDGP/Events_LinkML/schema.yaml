@@ -1,6 +1,6 @@
-id: https://example.com/PedigreeFileLayout
-name: PedigreeFileLayout
-title: Pedigree File Layout
+id: https://example.com/EventsFileLayout
+name: EventsFileLayout
+title: Events File Layout
 description: Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project
 version: 0.0.0
 in_language: en
@@ -9,90 +9,299 @@ imports:
 prefixes:
   linkml: https://w3id.org/linkml/
 classes:
-  PedigreeFileLayout:
-    name: PedigreeFileLayout
-    title: Pedigree File Layout
+  EventsFileLayout:
+    name: EventsFileLayout
+    title: Events File Layout
     description: Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project
     keywords: RDF402
     slots:
+      - 24H_DRY_MATTER_INTAKE
+      - 24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE
+      - 24H_WATER_INTAKE
+      - 24H_WATER_INTAKE_MEASUREMENT_ESTIMATE
       - ANIMAL_ID
-      - BIRTH_DATE
-      - DAM_ID
+      - BODY_CONDITION_SCORE
+      - CH4_EMISSION
+      - CH4_EMISSION_MEASUREMENT_ESTIMATE
+      - CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM
+      - CH4_EMISSION_PPM
+      - CH4_MEASURE_METHOD
+      - CO2_EMISSION
+      - CO2_EMISSION_MEASUREMENT_ESTIMATE
+      - CO2_EMISSION_PPM
+      - CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE
+      - COUNTRY_OF_ORIGIN
       - FILE_TYPE
+      - HERD_CODE
+      - LIVE_BODY_WEIGHT
+      - LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE
+      - PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS
       - PROJECT
-      - REGISTERED_NAME
-      - SIRE_ID
       - SOURCE_OF_DATA
+      - STANDARD_DEVIATION_CH4_EMISSION
+      - STANDARD_DEVIATION_CH4_EMISSION_PPM
+      - STANDARD_DEVIATION_CO2_EMISSION
+      - STANDARD_DEVIATION_SD_CO2_PPM
+      - TEST_DATE
       - TRANSACTION_TYPE
+      - TRIAL
     slot_usage:
-      ANIMAL_ID:
-        name: ANIMAL_ID
+      24H_DRY_MATTER_INTAKE:
+        name: 24H_DRY_MATTER_INTAKE
         rank: 1
         slot_group: General
-      BIRTH_DATE:
-        name: BIRTH_DATE
+      24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE:
+        name: 24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE
         rank: 2
         slot_group: General
-      DAM_ID:
-        name: DAM_ID
+      24H_WATER_INTAKE:
+        name: 24H_WATER_INTAKE
         rank: 3
+        slot_group: General
+      24H_WATER_INTAKE_MEASUREMENT_ESTIMATE:
+        name: 24H_WATER_INTAKE_MEASUREMENT_ESTIMATE
+        rank: 4
+        slot_group: General
+      ANIMAL_ID:
+        name: ANIMAL_ID
+        rank: 5
+        slot_group: General
+      BODY_CONDITION_SCORE:
+        name: BODY_CONDITION_SCORE
+        rank: 6
+        slot_group: General
+      CH4_EMISSION:
+        name: CH4_EMISSION
+        rank: 7
+        slot_group: General
+      CH4_EMISSION_MEASUREMENT_ESTIMATE:
+        name: CH4_EMISSION_MEASUREMENT_ESTIMATE
+        rank: 8
+        slot_group: General
+      CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM:
+        name: CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM
+        rank: 9
+        slot_group: General
+      CH4_EMISSION_PPM:
+        name: CH4_EMISSION_PPM
+        rank: 10
+        slot_group: General
+      CH4_MEASURE_METHOD:
+        name: CH4_MEASURE_METHOD
+        rank: 11
+        slot_group: General
+      CO2_EMISSION:
+        name: CO2_EMISSION
+        rank: 12
+        slot_group: General
+      CO2_EMISSION_MEASUREMENT_ESTIMATE:
+        name: CO2_EMISSION_MEASUREMENT_ESTIMATE
+        rank: 13
+        slot_group: General
+      CO2_EMISSION_PPM:
+        name: CO2_EMISSION_PPM
+        rank: 14
+        slot_group: General
+      CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE:
+        name: CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE
+        rank: 15
+        slot_group: General
+      COUNTRY_OF_ORIGIN:
+        name: COUNTRY_OF_ORIGIN
+        rank: 16
         slot_group: General
       FILE_TYPE:
         name: FILE_TYPE
-        rank: 4
+        rank: 17
+        slot_group: General
+      HERD_CODE:
+        name: HERD_CODE
+        rank: 18
+        slot_group: General
+      LIVE_BODY_WEIGHT:
+        name: LIVE_BODY_WEIGHT
+        rank: 19
+        slot_group: General
+      LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE:
+        name: LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE
+        rank: 20
+        slot_group: General
+      PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS:
+        name: PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS
+        rank: 21
         slot_group: General
       PROJECT:
         name: PROJECT
-        rank: 5
-        slot_group: General
-      REGISTERED_NAME:
-        name: REGISTERED_NAME
-        rank: 6
-        slot_group: General
-      SIRE_ID:
-        name: SIRE_ID
-        rank: 7
+        rank: 22
         slot_group: General
       SOURCE_OF_DATA:
         name: SOURCE_OF_DATA
-        rank: 8
+        rank: 23
+        slot_group: General
+      STANDARD_DEVIATION_CH4_EMISSION:
+        name: STANDARD_DEVIATION_CH4_EMISSION
+        rank: 24
+        slot_group: General
+      STANDARD_DEVIATION_CH4_EMISSION_PPM:
+        name: STANDARD_DEVIATION_CH4_EMISSION_PPM
+        rank: 25
+        slot_group: General
+      STANDARD_DEVIATION_CO2_EMISSION:
+        name: STANDARD_DEVIATION_CO2_EMISSION
+        rank: 26
+        slot_group: General
+      STANDARD_DEVIATION_SD_CO2_PPM:
+        name: STANDARD_DEVIATION_SD_CO2_PPM
+        rank: 27
+        slot_group: General
+      TEST_DATE:
+        name: TEST_DATE
+        rank: 28
         slot_group: General
       TRANSACTION_TYPE:
         name: TRANSACTION_TYPE
-        rank: 9
+        rank: 29
+        slot_group: General
+      TRIAL:
+        name: TRIAL
+        rank: 30
         slot_group: General
   Container:
     name: Container
     tree_root: true
     attributes:
-      name: PedigreeFileLayoutData
+      name: EventsFileLayoutData
       multivalued: true
-      range: PedigreeFileLayout
+      range: EventsFileLayout
       inlined_as_list: true
 slots:
+  24H_DRY_MATTER_INTAKE:
+    name: 24H_DRY_MATTER_INTAKE
+    title: 24H_DRY_MATTER_INTAKE
+    range: decimal
+    unit:
+      ucum_code: G/DAY
+    recommended: true
+  24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE:
+    name: 24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE
+    title: 24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE
+    range: WhitespaceMinimizedString
+    recommended: true
+  24H_WATER_INTAKE:
+    name: 24H_WATER_INTAKE
+    title: 24H_WATER_INTAKE
+    range: decimal
+    unit:
+      ucum_code: DL
+    recommended: true
+  24H_WATER_INTAKE_MEASUREMENT_ESTIMATE:
+    name: 24H_WATER_INTAKE_MEASUREMENT_ESTIMATE
+    title: 24H_WATER_INTAKE_MEASUREMENT_ESTIMATE
+    range: WhitespaceMinimizedString
+    recommended: true
   ANIMAL_ID:
     name: ANIMAL_ID
     title: ANIMAL_ID
     range: WhitespaceMinimizedString
     recommended: true
     description: 'INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)'
-  BIRTH_DATE:
-    name: BIRTH_DATE
-    title: BIRTH_DATE
-    range: DateTime
+  BODY_CONDITION_SCORE:
+    name: BODY_CONDITION_SCORE
+    title: BODY_CONDITION_SCORE
+    range: decimal
+    unit:
+      ucum_code: Score
     recommended: true
-  DAM_ID:
-    name: DAM_ID
-    title: DAM_ID
+  CH4_EMISSION:
+    name: CH4_EMISSION
+    title: CH4_EMISSION
+    range: decimal
+    unit:
+      ucum_code: G/DAY
+    recommended: true
+  CH4_EMISSION_MEASUREMENT_ESTIMATE:
+    name: CH4_EMISSION_MEASUREMENT_ESTIMATE
+    title: CH4_EMISSION_MEASUREMENT_ESTIMATE
     range: WhitespaceMinimizedString
-    required: true
-    description: 12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING \'0\'S).
+    recommended: true
+  CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM:
+    name: CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM
+    title: CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM
+    range: WhitespaceMinimizedString
+    recommended: true
+  CH4_EMISSION_PPM:
+    name: CH4_EMISSION_PPM
+    title: CH4_EMISSION_PPM
+    range: decimal
+    unit:
+      ucum_code: PPM
+    recommended: true
+  CH4_MEASURE_METHOD:
+    name: CH4_MEASURE_METHOD
+    title: CH4_MEASURE_METHOD
+    range: WhitespaceMinimizedString
+    recommended: true
+  CO2_EMISSION:
+    name: CO2_EMISSION
+    title: CO2_EMISSION
+    range: decimal
+    unit:
+      ucum_code: G/DAY
+    recommended: true
+  CO2_EMISSION_MEASUREMENT_ESTIMATE:
+    name: CO2_EMISSION_MEASUREMENT_ESTIMATE
+    title: CO2_EMISSION_MEASUREMENT_ESTIMATE
+    range: decimal
+    unit:
+      ucum_code: G/DAY
+    recommended: true
+  CO2_EMISSION_PPM:
+    name: CO2_EMISSION_PPM
+    title: CO2_EMISSION_PPM
+    range: decimal
+    unit:
+      ucum_code: PPM
+    recommended: true
+  CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE:
+    name: CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE
+    title: CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE
+    range: WhitespaceMinimizedString
+    recommended: true
+  COUNTRY_OF_ORIGIN:
+    name: COUNTRY_OF_ORIGIN
+    title: COUNTRY_OF_ORIGIN
+    range: WhitespaceMinimizedString
+    recommended: true
   FILE_TYPE:
     name: FILE_TYPE
     title: FILE_TYPE
     any_of:
       - range: WhitespaceMinimizedString
       - range: FILE_TYPE
+    recommended: true
+  HERD_CODE:
+    name: HERD_CODE
+    title: HERD_CODE
+    range: WhitespaceMinimizedString
+    recommended: true
+  LIVE_BODY_WEIGHT:
+    name: LIVE_BODY_WEIGHT
+    title: LIVE_BODY_WEIGHT
+    range: decimal
+    unit:
+      ucum_code: KG
+    recommended: true
+  LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE:
+    name: LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE
+    title: LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE
+    range: WhitespaceMinimizedString
+    recommended: true
+  PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS:
+    name: PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS
+    title: PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS
+    range: decimal
+    unit:
+      ucum_code: '%'
     recommended: true
   PROJECT:
     name: PROJECT
@@ -101,29 +310,56 @@ slots:
       - range: WhitespaceMinimizedString
       - range: PROJECT
     recommended: true
-  REGISTERED_NAME:
-    name: REGISTERED_NAME
-    title: REGISTERED_NAME
-    range: WhitespaceMinimizedString
-    required: true
-  SIRE_ID:
-    name: SIRE_ID
-    title: SIRE_ID
-    range: WhitespaceMinimizedString
-    required: true
-    description: 12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING \'0\'S).
   SOURCE_OF_DATA:
     name: SOURCE_OF_DATA
     title: SOURCE_OF_DATA
     range: WhitespaceMinimizedString
     recommended: true
     description: See contacts list under \'Source of Data\' column
+  STANDARD_DEVIATION_CH4_EMISSION:
+    name: STANDARD_DEVIATION_CH4_EMISSION
+    title: STANDARD_DEVIATION_CH4_EMISSION
+    range: decimal
+    unit:
+      ucum_code: G/DAY
+    recommended: true
+  STANDARD_DEVIATION_CH4_EMISSION_PPM:
+    name: STANDARD_DEVIATION_CH4_EMISSION_PPM
+    title: STANDARD_DEVIATION_CH4_EMISSION_PPM
+    range: decimal
+    unit:
+      ucum_code: PPM
+    recommended: true
+  STANDARD_DEVIATION_CO2_EMISSION:
+    name: STANDARD_DEVIATION_CO2_EMISSION
+    title: STANDARD_DEVIATION_CO2_EMISSION
+    range: decimal
+    unit:
+      ucum_code: G/DAY
+    recommended: true
+  STANDARD_DEVIATION_SD_CO2_PPM:
+    name: STANDARD_DEVIATION_SD_CO2_PPM
+    title: STANDARD_DEVIATION_SD_CO2_PPM
+    range: decimal
+    unit:
+      ucum_code: PPM
+    recommended: true
+  TEST_DATE:
+    name: TEST_DATE
+    title: TEST_DATE
+    range: DateTime
+    recommended: true
   TRANSACTION_TYPE:
     name: TRANSACTION_TYPE
     title: TRANSACTION_TYPE
     any_of:
       - range: WhitespaceMinimizedString
       - range: TRANSACTION_TYPE
+    recommended: true
+  TRIAL:
+    name: TRIAL
+    title: TRIAL
+    range: WhitespaceMinimizedString
     recommended: true
 enums:
   SettingsMenu:

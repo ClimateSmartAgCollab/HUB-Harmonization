@@ -125,7 +125,7 @@ slots:
     title: SOURCE_OF_DATA
     range: WhitespaceMinimizedString
     recommended: true
-    description: See contacts list under 'Source of Data' column
+    description: See contacts list under \'Source of Data\' column
   TRANSACTION_TYPE:
     name: TRANSACTION_TYPE
     title: TRANSACTION_TYPE
@@ -274,30 +274,39 @@ enums:
     name: PROJECT
     title: PROJECT
     permissible_values:
-      '001':
-        text: '001'
-        title: NAEX
-      '010':
-        text: '010'
-        title: RDGP
-      '011':
-        text: '011'
-        title: RDGP & NAEX
-      '100':
-        text: '100'
-        title: EDGP
-      '101':
-        text: '101'
-        title: EDGP & NAEX
-      '102':
-        text: '102'
+      '0001':
+        text: '0001'
         title: NDGP
-      '110':
-        text: '110'
+      '0010':
+        text: '0010'
+        title: NAEX
+      '0100':
+        text: '0100'
+        title: RDGP
+      '0101':
+        text: '0101'
+        title: RDGP & NDGP
+      '0110':
+        text: '0110'
+        title: RDGP & NAEX
+      '1000':
+        text: '1000'
+        title: EDGP
+      '1010':
+        text: '1010'
+        title: EDGP & NAEX
+      '1100':
+        text: '1100'
         title: EDGP & RDGP
-      '111':
-        text: '111'
+      '1101':
+        text: '1101'
+        title: EDGP & RDGP & NDGP
+      '1110':
+        text: '1110'
         title: EDGP & RDGP & NAEX
+      '1111':
+        text: '1111'
+        title: EDGP & RDGP & NDGP & NAEX
   TRANSACTION_TYPE:
     name: TRANSACTION_TYPE
     title: TRANSACTION_TYPE

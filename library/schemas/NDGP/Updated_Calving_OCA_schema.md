@@ -24,6 +24,8 @@ parent: NDGP
 [Download schema](Updated_Calving_OCA_package.json)
 
 
+[Download LinkML Schema](Calving_LinkML/schema.json) ([yaml](Calving_LinkML/schema.yaml); table view: [fields](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/NDGP/Calving_LinkML/schema_slots.tsv), [picklists](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/NDGP/Calving_LinkML/schema_enums.tsv))
+
 ## Schema quick view
 
 | Attribute | Label | Description |

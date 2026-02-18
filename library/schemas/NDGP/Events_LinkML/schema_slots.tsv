@@ -1,0 +1,31 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+EventsFileLayout	General		24H_DRY_MATTER_INTAKE	24H_DRY_MATTER_INTAKE	decimal		G/DAY						True								
+EventsFileLayout	General		24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE	24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE	WhitespaceMinimizedString								True								
+EventsFileLayout	General		24H_WATER_INTAKE	24H_WATER_INTAKE	decimal		DL						True								
+EventsFileLayout	General		24H_WATER_INTAKE_MEASUREMENT_ESTIMATE	24H_WATER_INTAKE_MEASUREMENT_ESTIMATE	WhitespaceMinimizedString								True								
+EventsFileLayout	General		ANIMAL_ID	ANIMAL_ID	WhitespaceMinimizedString								True					INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)			
+EventsFileLayout	General		BODY_CONDITION_SCORE	BODY_CONDITION_SCORE	decimal		Score						True								
+EventsFileLayout	General		CH4_EMISSION	CH4_EMISSION	decimal		G/DAY						True								
+EventsFileLayout	General		CH4_EMISSION_MEASUREMENT_ESTIMATE	CH4_EMISSION_MEASUREMENT_ESTIMATE	WhitespaceMinimizedString								True								
+EventsFileLayout	General		CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM	CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM	WhitespaceMinimizedString								True								
+EventsFileLayout	General		CH4_EMISSION_PPM	CH4_EMISSION_PPM	decimal		PPM						True								
+EventsFileLayout	General		CH4_MEASURE_METHOD	CH4_MEASURE_METHOD	WhitespaceMinimizedString								True								
+EventsFileLayout	General		CO2_EMISSION	CO2_EMISSION	decimal		G/DAY						True								
+EventsFileLayout	General		CO2_EMISSION_MEASUREMENT_ESTIMATE	CO2_EMISSION_MEASUREMENT_ESTIMATE	decimal		G/DAY						True								
+EventsFileLayout	General		CO2_EMISSION_PPM	CO2_EMISSION_PPM	decimal		PPM						True								
+EventsFileLayout	General		CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE	CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE	WhitespaceMinimizedString								True								
+EventsFileLayout	General		COUNTRY_OF_ORIGIN	COUNTRY_OF_ORIGIN	WhitespaceMinimizedString								True								
+EventsFileLayout	General		FILE_TYPE	FILE_TYPE	WhitespaceMinimizedString	FILE_TYPE							True								
+EventsFileLayout	General		HERD_CODE	HERD_CODE	WhitespaceMinimizedString								True								
+EventsFileLayout	General		LIVE_BODY_WEIGHT	LIVE_BODY_WEIGHT	decimal		KG						True								
+EventsFileLayout	General		LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE	LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE	WhitespaceMinimizedString								True								
+EventsFileLayout	General		PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS	PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS	decimal		%						True								
+EventsFileLayout	General		PROJECT	PROJECT	WhitespaceMinimizedString	PROJECT							True								
+EventsFileLayout	General		SOURCE_OF_DATA	SOURCE_OF_DATA	WhitespaceMinimizedString								True					See contacts list under \'Source of Data\' column			
+EventsFileLayout	General		STANDARD_DEVIATION_CH4_EMISSION	STANDARD_DEVIATION_CH4_EMISSION	decimal		G/DAY						True								
+EventsFileLayout	General		STANDARD_DEVIATION_CH4_EMISSION_PPM	STANDARD_DEVIATION_CH4_EMISSION_PPM	decimal		PPM						True								
+EventsFileLayout	General		STANDARD_DEVIATION_CO2_EMISSION	STANDARD_DEVIATION_CO2_EMISSION	decimal		G/DAY						True								
+EventsFileLayout	General		STANDARD_DEVIATION_SD_CO2_PPM	STANDARD_DEVIATION_SD_CO2_PPM	decimal		PPM						True								
+EventsFileLayout	General		TEST_DATE	TEST_DATE	DateTime								True								
+EventsFileLayout	General		TRANSACTION_TYPE	TRANSACTION_TYPE	WhitespaceMinimizedString	TRANSACTION_TYPE							True								
+EventsFileLayout	General		TRIAL	TRIAL	WhitespaceMinimizedString								True								

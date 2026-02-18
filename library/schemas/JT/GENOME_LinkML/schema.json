@@ -1,10 +1,10 @@
 {
-  "id": "https://example.com/Genome",
-  "name": "Genome",
-  "description": "",
+  "id": "https://example.com/AgriGenomicsOptionSurvey",
+  "name": "AgriGenomicsOptionSurvey",
+  "description": "Agri\\-genomics Option Survey",
   "version": "0.0.0",
   "in_language": "en",
-  "default_prefix": "https://example.com/Genome/",
+  "default_prefix": "https://example.com/AgriGenomicsOptionSurvey/",
   "imports": [],
   "prefixes": {
     "linkml": {
@@ -25,11 +25,11 @@
     }
   },
   "classes": {
-    "Genome": {
-      "name": "Genome",
-      "description": "",
-      "title": "GENOME",
-      "from_schema": "https://example.com/Genome",
+    "AgriGenomicsOptionSurvey": {
+      "name": "AgriGenomicsOptionSurvey",
+      "description": "Agri\\-genomics Option Survey",
+      "title": "Agri-genomics_Option_Survey",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "keywords": [
         "RDF401"
       ],
@@ -1088,12 +1088,12 @@
       "attributes": {
         "access_training": {
           "name": "access_training",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 1,
           "alias": "access_training",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1107,12 +1107,12 @@
         },
         "act_on_climate": {
           "name": "act_on_climate",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 2,
           "alias": "act_on_climate",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1126,24 +1126,24 @@
         },
         "age": {
           "name": "age",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 3,
           "alias": "age",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "attention_check": {
           "name": "attention_check",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 4,
           "alias": "attention_check",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1157,24 +1157,24 @@
         },
         "birth_year": {
           "name": "birth_year",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 5,
           "alias": "birth_year",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "break_up_big_tech": {
           "name": "break_up_big_tech",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 6,
           "alias": "break_up_big_tech",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1188,12 +1188,12 @@
         },
         "buy_if_cheaper_icecream": {
           "name": "buy_if_cheaper_icecream",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 7,
           "alias": "buy_if_cheaper_icecream",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1207,12 +1207,12 @@
         },
         "buy_if_cheaper_nuggets": {
           "name": "buy_if_cheaper_nuggets",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 8,
           "alias": "buy_if_cheaper_nuggets",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1226,12 +1226,12 @@
         },
         "buy_if_cheaper_salmon": {
           "name": "buy_if_cheaper_salmon",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 9,
           "alias": "buy_if_cheaper_salmon",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1245,12 +1245,12 @@
         },
         "buy_if_healthier_icecream": {
           "name": "buy_if_healthier_icecream",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 10,
           "alias": "buy_if_healthier_icecream",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1264,12 +1264,12 @@
         },
         "buy_if_healthier_nuggets": {
           "name": "buy_if_healthier_nuggets",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 11,
           "alias": "buy_if_healthier_nuggets",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1283,12 +1283,12 @@
         },
         "buy_if_healthier_salmon": {
           "name": "buy_if_healthier_salmon",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 12,
           "alias": "buy_if_healthier_salmon",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1302,12 +1302,12 @@
         },
         "buy_instead_icecream": {
           "name": "buy_instead_icecream",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 13,
           "alias": "buy_instead_icecream",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1321,12 +1321,12 @@
         },
         "buy_instead_nuggets": {
           "name": "buy_instead_nuggets",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 14,
           "alias": "buy_instead_nuggets",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1340,12 +1340,12 @@
         },
         "buy_instead_salmon": {
           "name": "buy_instead_salmon",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 15,
           "alias": "buy_instead_salmon",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1359,12 +1359,12 @@
         },
         "buy_regular_cell_icecream": {
           "name": "buy_regular_cell_icecream",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 16,
           "alias": "buy_regular_cell_icecream",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1378,12 +1378,12 @@
         },
         "buy_regular_cell_nuggets": {
           "name": "buy_regular_cell_nuggets",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 17,
           "alias": "buy_regular_cell_nuggets",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1397,12 +1397,12 @@
         },
         "buy_regular_cell_salmon": {
           "name": "buy_regular_cell_salmon",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 18,
           "alias": "buy_regular_cell_salmon",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1416,24 +1416,24 @@
         },
         "city": {
           "name": "city",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 19,
           "alias": "city",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "city_only_access": {
           "name": "city_only_access",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 20,
           "alias": "city_only_access",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1447,12 +1447,12 @@
         },
         "city_only_jobs": {
           "name": "city_only_jobs",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 21,
           "alias": "city_only_jobs",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1466,12 +1466,12 @@
         },
         "climate_biodiversity_loss": {
           "name": "climate_biodiversity_loss",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 22,
           "alias": "climate_biodiversity_loss",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1485,12 +1485,12 @@
         },
         "climate_ecosystem": {
           "name": "climate_ecosystem",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 23,
           "alias": "climate_ecosystem",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1504,12 +1504,12 @@
         },
         "climate_not_urgent": {
           "name": "climate_not_urgent",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 24,
           "alias": "climate_not_urgent",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1523,36 +1523,36 @@
         },
         "comm": {
           "name": "comm",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 25,
           "alias": "comm",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "comment_cell_agri_fut": {
           "name": "comment_cell_agri_fut",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 26,
           "alias": "comment_cell_agri_fut",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "community_owned_model": {
           "name": "community_owned_model",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 27,
           "alias": "community_owned_model",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1566,36 +1566,36 @@
         },
         "consent_given": {
           "name": "consent_given",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 28,
           "alias": "consent_given",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "cont_id": {
           "name": "cont_id",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 29,
           "alias": "cont_id",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "conventional_farmers_opportunity": {
           "name": "conventional_farmers_opportunity",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 30,
           "alias": "conventional_farmers_opportunity",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1609,12 +1609,12 @@
         },
         "corp_patents_limit_knowledge": {
           "name": "corp_patents_limit_knowledge",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 31,
           "alias": "corp_patents_limit_knowledge",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1628,24 +1628,24 @@
         },
         "country": {
           "name": "country",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 32,
           "alias": "country",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "date_sub": {
           "name": "date_sub",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 33,
           "alias": "date_sub",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "DateTime",
@@ -1655,168 +1655,168 @@
         },
         "diet_avoid_red_meat": {
           "name": "diet_avoid_red_meat",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 34,
           "alias": "diet_avoid_red_meat",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "diet_buying_organic": {
           "name": "diet_buying_organic",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 35,
           "alias": "diet_buying_organic",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "diet_flexitarian": {
           "name": "diet_flexitarian",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 36,
           "alias": "diet_flexitarian",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "diet_halal": {
           "name": "diet_halal",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 37,
           "alias": "diet_halal",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "diet_keto": {
           "name": "diet_keto",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 38,
           "alias": "diet_keto",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "diet_kosher": {
           "name": "diet_kosher",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 39,
           "alias": "diet_kosher",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "diet_none_of_the_above": {
           "name": "diet_none_of_the_above",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 40,
           "alias": "diet_none_of_the_above",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "diet_other_specified": {
           "name": "diet_other_specified",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 41,
           "alias": "diet_other_specified",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "diet_paleo": {
           "name": "diet_paleo",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 42,
           "alias": "diet_paleo",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "diet_pescatarian": {
           "name": "diet_pescatarian",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 43,
           "alias": "diet_pescatarian",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "diet_plant_based": {
           "name": "diet_plant_based",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 44,
           "alias": "diet_plant_based",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "diet_vegan": {
           "name": "diet_vegan",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 45,
           "alias": "diet_vegan",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "diet_vegetarian": {
           "name": "diet_vegetarian",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 46,
           "alias": "diet_vegetarian",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "education_level": {
           "name": "education_level",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 47,
           "alias": "education_level",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1830,12 +1830,12 @@
         },
         "env_impact_beef": {
           "name": "env_impact_beef",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 48,
           "alias": "env_impact_beef",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1849,12 +1849,12 @@
         },
         "env_impact_chicken": {
           "name": "env_impact_chicken",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 49,
           "alias": "env_impact_chicken",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1868,12 +1868,12 @@
         },
         "env_impact_fish": {
           "name": "env_impact_fish",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 50,
           "alias": "env_impact_fish",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1887,12 +1887,12 @@
         },
         "env_impact_pork": {
           "name": "env_impact_pork",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 51,
           "alias": "env_impact_pork",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -1906,156 +1906,156 @@
         },
         "eth_african": {
           "name": "eth_african",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 52,
           "alias": "eth_african",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "eth_caribbean": {
           "name": "eth_caribbean",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 53,
           "alias": "eth_caribbean",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "eth_east_asian": {
           "name": "eth_east_asian",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 54,
           "alias": "eth_east_asian",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "eth_european": {
           "name": "eth_european",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 55,
           "alias": "eth_european",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "eth_indigenous": {
           "name": "eth_indigenous",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 56,
           "alias": "eth_indigenous",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "eth_latin_american": {
           "name": "eth_latin_american",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 57,
           "alias": "eth_latin_american",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "eth_middle_eastern": {
           "name": "eth_middle_eastern",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 58,
           "alias": "eth_middle_eastern",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "eth_oceania": {
           "name": "eth_oceania",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 59,
           "alias": "eth_oceania",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "eth_other": {
           "name": "eth_other",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 60,
           "alias": "eth_other",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "eth_prefer_not_say": {
           "name": "eth_prefer_not_say",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 61,
           "alias": "eth_prefer_not_say",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "eth_south_asian": {
           "name": "eth_south_asian",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 62,
           "alias": "eth_south_asian",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "eth_southeast_asian": {
           "name": "eth_southeast_asian",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 63,
           "alias": "eth_southeast_asian",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "ext_affordable_protein": {
           "name": "ext_affordable_protein",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 64,
           "alias": "ext_affordable_protein",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2069,12 +2069,12 @@
         },
         "ext_disrespectful_nature": {
           "name": "ext_disrespectful_nature",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 65,
           "alias": "ext_disrespectful_nature",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2088,12 +2088,12 @@
         },
         "ext_env_sustainability": {
           "name": "ext_env_sustainability",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 66,
           "alias": "ext_env_sustainability",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2107,12 +2107,12 @@
         },
         "ext_healthy_products": {
           "name": "ext_healthy_products",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 67,
           "alias": "ext_healthy_products",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2126,12 +2126,12 @@
         },
         "ext_improve_welfare": {
           "name": "ext_improve_welfare",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 68,
           "alias": "ext_improve_welfare",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2145,12 +2145,12 @@
         },
         "ext_solve_hunger": {
           "name": "ext_solve_hunger",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 69,
           "alias": "ext_solve_hunger",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2164,12 +2164,12 @@
         },
         "ext_tasty_products": {
           "name": "ext_tasty_products",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 70,
           "alias": "ext_tasty_products",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2183,12 +2183,12 @@
         },
         "ext_unnatural": {
           "name": "ext_unnatural",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 71,
           "alias": "ext_unnatural",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2202,12 +2202,12 @@
         },
         "ext_viable_alternative": {
           "name": "ext_viable_alternative",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 72,
           "alias": "ext_viable_alternative",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2221,12 +2221,12 @@
         },
         "farmers_lose_jobs": {
           "name": "farmers_lose_jobs",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 73,
           "alias": "farmers_lose_jobs",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2240,12 +2240,12 @@
         },
         "farmers_transition": {
           "name": "farmers_transition",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 74,
           "alias": "farmers_transition",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2259,12 +2259,12 @@
         },
         "food_banks_benefit": {
           "name": "food_banks_benefit",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 75,
           "alias": "food_banks_benefit",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2278,12 +2278,12 @@
         },
         "freq_dairy": {
           "name": "freq_dairy",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 76,
           "alias": "freq_dairy",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2297,12 +2297,12 @@
         },
         "freq_eggs": {
           "name": "freq_eggs",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 77,
           "alias": "freq_eggs",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2316,12 +2316,12 @@
         },
         "freq_fish": {
           "name": "freq_fish",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 78,
           "alias": "freq_fish",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2335,24 +2335,24 @@
         },
         "freq_other": {
           "name": "freq_other",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 79,
           "alias": "freq_other",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "freq_pork": {
           "name": "freq_pork",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 80,
           "alias": "freq_pork",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2366,12 +2366,12 @@
         },
         "freq_poultry": {
           "name": "freq_poultry",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 81,
           "alias": "freq_poultry",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2385,12 +2385,12 @@
         },
         "freq_red_meat": {
           "name": "freq_red_meat",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 82,
           "alias": "freq_red_meat",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2404,12 +2404,12 @@
         },
         "gatekeep_methods": {
           "name": "gatekeep_methods",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 83,
           "alias": "gatekeep_methods",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2423,12 +2423,12 @@
         },
         "gender": {
           "name": "gender",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 84,
           "alias": "gender",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2442,24 +2442,24 @@
         },
         "gender_other": {
           "name": "gender_other",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 85,
           "alias": "gender_other",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "glob_benefits": {
           "name": "glob_benefits",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 86,
           "alias": "glob_benefits",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2473,12 +2473,12 @@
         },
         "gm_beef": {
           "name": "gm_beef",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 87,
           "alias": "gm_beef",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2492,12 +2492,12 @@
         },
         "gm_rice": {
           "name": "gm_rice",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 88,
           "alias": "gm_rice",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2511,12 +2511,12 @@
         },
         "grocery_availability": {
           "name": "grocery_availability",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 89,
           "alias": "grocery_availability",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2530,12 +2530,12 @@
         },
         "heard_cellular_agriculture": {
           "name": "heard_cellular_agriculture",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 90,
           "alias": "heard_cellular_agriculture",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2549,12 +2549,12 @@
         },
         "home_production_possible": {
           "name": "home_production_possible",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 91,
           "alias": "home_production_possible",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2568,12 +2568,12 @@
         },
         "hope_tech": {
           "name": "hope_tech",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 92,
           "alias": "hope_tech",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2587,12 +2587,12 @@
         },
         "household_composition": {
           "name": "household_composition",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 93,
           "alias": "household_composition",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2606,24 +2606,24 @@
         },
         "household_composition_other": {
           "name": "household_composition_other",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 94,
           "alias": "household_composition_other",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "household_income": {
           "name": "household_income",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 95,
           "alias": "household_income",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2637,12 +2637,12 @@
         },
         "human_caused_climate": {
           "name": "human_caused_climate",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 96,
           "alias": "human_caused_climate",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2656,12 +2656,12 @@
         },
         "human_impacts": {
           "name": "human_impacts",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 97,
           "alias": "human_impacts",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2675,60 +2675,60 @@
         },
         "imp_animal_welfare": {
           "name": "imp_animal_welfare",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 98,
           "alias": "imp_animal_welfare",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "imp_antibiotic_free": {
           "name": "imp_antibiotic_free",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 99,
           "alias": "imp_antibiotic_free",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "imp_cost": {
           "name": "imp_cost",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 100,
           "alias": "imp_cost",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "imp_cultural_practices": {
           "name": "imp_cultural_practices",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 101,
           "alias": "imp_cultural_practices",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "imp_dairy": {
           "name": "imp_dairy",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 102,
           "alias": "imp_dairy",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2742,12 +2742,12 @@
         },
         "imp_eggs": {
           "name": "imp_eggs",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 103,
           "alias": "imp_eggs",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2761,12 +2761,12 @@
         },
         "imp_fish": {
           "name": "imp_fish",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 104,
           "alias": "imp_fish",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2780,60 +2780,60 @@
         },
         "imp_freshness": {
           "name": "imp_freshness",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 105,
           "alias": "imp_freshness",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "imp_organic": {
           "name": "imp_organic",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 106,
           "alias": "imp_organic",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "imp_other_foods_specified": {
           "name": "imp_other_foods_specified",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 107,
           "alias": "imp_other_foods_specified",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "imp_other_specified": {
           "name": "imp_other_specified",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 108,
           "alias": "imp_other_specified",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "imp_pork": {
           "name": "imp_pork",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 109,
           "alias": "imp_pork",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2847,12 +2847,12 @@
         },
         "imp_poultry": {
           "name": "imp_poultry",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 110,
           "alias": "imp_poultry",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2866,24 +2866,24 @@
         },
         "imp_production": {
           "name": "imp_production",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 111,
           "alias": "imp_production",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "imp_red_meat": {
           "name": "imp_red_meat",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 112,
           "alias": "imp_red_meat",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2897,36 +2897,36 @@
         },
         "imp_self_hunted": {
           "name": "imp_self_hunted",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 113,
           "alias": "imp_self_hunted",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "imp_sustainability": {
           "name": "imp_sustainability",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 114,
           "alias": "imp_sustainability",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "inaccessible_education": {
           "name": "inaccessible_education",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 115,
           "alias": "inaccessible_education",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2940,12 +2940,12 @@
         },
         "industry_dominated": {
           "name": "industry_dominated",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 116,
           "alias": "industry_dominated",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -2959,48 +2959,48 @@
         },
         "innovation_comfort": {
           "name": "innovation_comfort",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 117,
           "alias": "innovation_comfort",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "ip_address": {
           "name": "ip_address",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 118,
           "alias": "ip_address",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "lang": {
           "name": "lang",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 119,
           "alias": "lang",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "larg_corp_influence": {
           "name": "larg_corp_influence",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 120,
           "alias": "larg_corp_influence",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3014,48 +3014,48 @@
         },
         "lat": {
           "name": "lat",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 121,
           "alias": "lat",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "decimal"
         },
         "leg_comm": {
           "name": "leg_comm",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 122,
           "alias": "leg_comm",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "lives_in_can": {
           "name": "lives_in_can",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 123,
           "alias": "lives_in_can",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "local_food_security": {
           "name": "local_food_security",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 124,
           "alias": "local_food_security",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3069,36 +3069,36 @@
         },
         "location_general": {
           "name": "location_general",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 125,
           "alias": "location_general",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "long": {
           "name": "long",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 126,
           "alias": "long",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "decimal"
         },
         "main_grocery_shopper": {
           "name": "main_grocery_shopper",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 127,
           "alias": "main_grocery_shopper",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3112,12 +3112,12 @@
         },
         "min": {
           "name": "min",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 128,
           "alias": "min",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "decimal",
@@ -3127,24 +3127,24 @@
         },
         "newhiddenvalue": {
           "name": "newhiddenvalue",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 129,
           "alias": "newhiddenvalue",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "online_superstore_availability": {
           "name": "online_superstore_availability",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 130,
           "alias": "online_superstore_availability",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3158,12 +3158,12 @@
         },
         "only_wealthy_access": {
           "name": "only_wealthy_access",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 131,
           "alias": "only_wealthy_access",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3177,12 +3177,12 @@
         },
         "plant_burger_mushroom": {
           "name": "plant_burger_mushroom",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 132,
           "alias": "plant_burger_mushroom",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3196,12 +3196,12 @@
         },
         "plant_burger_soy": {
           "name": "plant_burger_soy",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 133,
           "alias": "plant_burger_soy",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3215,204 +3215,204 @@
         },
         "political_scale": {
           "name": "political_scale",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 134,
           "alias": "political_scale",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "political_scale_other": {
           "name": "political_scale_other",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 135,
           "alias": "political_scale_other",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "post": {
           "name": "post",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 136,
           "alias": "post",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "postal_prefix": {
           "name": "postal_prefix",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 137,
           "alias": "postal_prefix",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "priority_climate_resilience": {
           "name": "priority_climate_resilience",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 138,
           "alias": "priority_climate_resilience",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "priority_farm_animal_conditions": {
           "name": "priority_farm_animal_conditions",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 139,
           "alias": "priority_farm_animal_conditions",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "priority_food_tech": {
           "name": "priority_food_tech",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 140,
           "alias": "priority_food_tech",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "priority_ghg_reduction": {
           "name": "priority_ghg_reduction",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 141,
           "alias": "priority_ghg_reduction",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "priority_healthy_access": {
           "name": "priority_healthy_access",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 142,
           "alias": "priority_healthy_access",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "priority_indigenous_food_practices": {
           "name": "priority_indigenous_food_practices",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 143,
           "alias": "priority_indigenous_food_practices",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "priority_local_retail": {
           "name": "priority_local_retail",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 144,
           "alias": "priority_local_retail",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "priority_migrant_worker_rights": {
           "name": "priority_migrant_worker_rights",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 145,
           "alias": "priority_migrant_worker_rights",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "priority_none": {
           "name": "priority_none",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 146,
           "alias": "priority_none",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "priority_other_specified": {
           "name": "priority_other_specified",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 147,
           "alias": "priority_other_specified",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "priority_vegan_shift": {
           "name": "priority_vegan_shift",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 148,
           "alias": "priority_vegan_shift",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "priority_wildlife_habitat": {
           "name": "priority_wildlife_habitat",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 149,
           "alias": "priority_wildlife_habitat",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "progress_tech": {
           "name": "progress_tech",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 150,
           "alias": "progress_tech",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3426,24 +3426,24 @@
         },
         "ref": {
           "name": "ref",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 151,
           "alias": "ref",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "reject_cell_icecream": {
           "name": "reject_cell_icecream",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 152,
           "alias": "reject_cell_icecream",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3457,12 +3457,12 @@
         },
         "reject_cell_nuggets": {
           "name": "reject_cell_nuggets",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 153,
           "alias": "reject_cell_nuggets",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3476,12 +3476,12 @@
         },
         "reject_cell_salmon": {
           "name": "reject_cell_salmon",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 154,
           "alias": "reject_cell_salmon",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3495,12 +3495,12 @@
         },
         "replaces_fresh_meat": {
           "name": "replaces_fresh_meat",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 155,
           "alias": "replaces_fresh_meat",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3514,24 +3514,24 @@
         },
         "res_id": {
           "name": "res_id",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 156,
           "alias": "res_id",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "see_agri_industry_icecream": {
           "name": "see_agri_industry_icecream",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 157,
           "alias": "see_agri_industry_icecream",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3545,12 +3545,12 @@
         },
         "see_agri_industry_nuggets": {
           "name": "see_agri_industry_nuggets",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 158,
           "alias": "see_agri_industry_nuggets",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3564,12 +3564,12 @@
         },
         "see_agri_industry_salmon": {
           "name": "see_agri_industry_salmon",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 159,
           "alias": "see_agri_industry_salmon",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3583,12 +3583,12 @@
         },
         "see_global_dev_icecream": {
           "name": "see_global_dev_icecream",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 160,
           "alias": "see_global_dev_icecream",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3602,12 +3602,12 @@
         },
         "see_global_dev_nuggets": {
           "name": "see_global_dev_nuggets",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 161,
           "alias": "see_global_dev_nuggets",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3621,12 +3621,12 @@
         },
         "see_global_dev_salmon": {
           "name": "see_global_dev_salmon",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 162,
           "alias": "see_global_dev_salmon",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3640,12 +3640,12 @@
         },
         "see_in_store_icecream": {
           "name": "see_in_store_icecream",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 163,
           "alias": "see_in_store_icecream",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3659,12 +3659,12 @@
         },
         "see_in_store_nuggets": {
           "name": "see_in_store_nuggets",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 164,
           "alias": "see_in_store_nuggets",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3678,12 +3678,12 @@
         },
         "see_in_store_salmon": {
           "name": "see_in_store_salmon",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 165,
           "alias": "see_in_store_salmon",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3697,12 +3697,12 @@
         },
         "see_local_food_icecream": {
           "name": "see_local_food_icecream",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 166,
           "alias": "see_local_food_icecream",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3716,12 +3716,12 @@
         },
         "see_local_food_nuggets": {
           "name": "see_local_food_nuggets",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 167,
           "alias": "see_local_food_nuggets",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3735,12 +3735,12 @@
         },
         "see_local_food_salmon": {
           "name": "see_local_food_salmon",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 168,
           "alias": "see_local_food_salmon",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3754,12 +3754,12 @@
         },
         "self_grown_food_freq": {
           "name": "self_grown_food_freq",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 169,
           "alias": "self_grown_food_freq",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3773,168 +3773,168 @@
         },
         "ses_id": {
           "name": "ses_id",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 170,
           "alias": "ses_id",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "source_backyard_animals": {
           "name": "source_backyard_animals",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 171,
           "alias": "source_backyard_animals",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "source_butcher_shop": {
           "name": "source_butcher_shop",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 172,
           "alias": "source_butcher_shop",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "source_direct_from_farms": {
           "name": "source_direct_from_farms",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 173,
           "alias": "source_direct_from_farms",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "source_farmers_market": {
           "name": "source_farmers_market",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 174,
           "alias": "source_farmers_market",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "source_food_bank": {
           "name": "source_food_bank",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 175,
           "alias": "source_food_bank",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "source_grocery_superstore": {
           "name": "source_grocery_superstore",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 176,
           "alias": "source_grocery_superstore",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "source_hunting_fishing": {
           "name": "source_hunting_fishing",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 177,
           "alias": "source_hunting_fishing",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "source_other_specified": {
           "name": "source_other_specified",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 178,
           "alias": "source_other_specified",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "source_own_farm": {
           "name": "source_own_farm",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 179,
           "alias": "source_own_farm",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "start_time": {
           "name": "start_time",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 180,
           "alias": "start_time",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "DateTime"
         },
         "state": {
           "name": "state",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 181,
           "alias": "state",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "status": {
           "name": "status",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 182,
           "alias": "status",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "support_cell_ag_sale": {
           "name": "support_cell_ag_sale",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 183,
           "alias": "support_cell_ag_sale",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3948,24 +3948,24 @@
         },
         "tag": {
           "name": "tag",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 184,
           "alias": "tag",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "tech_marginalized": {
           "name": "tech_marginalized",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 185,
           "alias": "tech_marginalized",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3979,12 +3979,12 @@
         },
         "tech_negatives": {
           "name": "tech_negatives",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 186,
           "alias": "tech_negatives",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -3998,12 +3998,12 @@
         },
         "tech_resources": {
           "name": "tech_resources",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 187,
           "alias": "tech_resources",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -4017,12 +4017,12 @@
         },
         "tech_society": {
           "name": "tech_society",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 188,
           "alias": "tech_society",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -4036,12 +4036,12 @@
         },
         "trust_ag_companies": {
           "name": "trust_ag_companies",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 189,
           "alias": "trust_ag_companies",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -4055,12 +4055,12 @@
         },
         "trust_celebrities": {
           "name": "trust_celebrities",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 190,
           "alias": "trust_celebrities",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -4074,12 +4074,12 @@
         },
         "trust_env_activists": {
           "name": "trust_env_activists",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 191,
           "alias": "trust_env_activists",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -4093,12 +4093,12 @@
         },
         "trust_family_friends": {
           "name": "trust_family_friends",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 192,
           "alias": "trust_family_friends",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -4112,12 +4112,12 @@
         },
         "trust_regulators": {
           "name": "trust_regulators",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 193,
           "alias": "trust_regulators",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -4131,12 +4131,12 @@
         },
         "trust_scientists": {
           "name": "trust_scientists",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 194,
           "alias": "trust_scientists",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -4150,12 +4150,12 @@
         },
         "try_cell_icecream": {
           "name": "try_cell_icecream",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 195,
           "alias": "try_cell_icecream",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -4169,12 +4169,12 @@
         },
         "try_cell_nuggets": {
           "name": "try_cell_nuggets",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 196,
           "alias": "try_cell_nuggets",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -4188,12 +4188,12 @@
         },
         "try_cell_salmon": {
           "name": "try_cell_salmon",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 197,
           "alias": "try_cell_salmon",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -4207,24 +4207,24 @@
         },
         "url": {
           "name": "url",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 198,
           "alias": "url",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "used_in_processed_foods": {
           "name": "used_in_processed_foods",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 199,
           "alias": "used_in_processed_foods",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -4238,24 +4238,24 @@
         },
         "user_agent": {
           "name": "user_agent",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 200,
           "alias": "user_agent",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString"
         },
         "vertical_agriculture": {
           "name": "vertical_agriculture",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 201,
           "alias": "vertical_agriculture",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "any_of": [
@@ -4269,108 +4269,108 @@
         },
         "work_farming_employee": {
           "name": "work_farming_employee",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 202,
           "alias": "work_farming_employee",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "work_farming_owner": {
           "name": "work_farming_owner",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 203,
           "alias": "work_farming_owner",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "work_food_access": {
           "name": "work_food_access",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 204,
           "alias": "work_food_access",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "work_food_distribution": {
           "name": "work_food_distribution",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 205,
           "alias": "work_food_distribution",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "work_food_education": {
           "name": "work_food_education",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 206,
           "alias": "work_food_education",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "work_food_processing": {
           "name": "work_food_processing",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 207,
           "alias": "work_food_processing",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "work_food_retail": {
           "name": "work_food_retail",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 208,
           "alias": "work_food_retail",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "work_none": {
           "name": "work_none",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 209,
           "alias": "work_none",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
         },
         "work_prefer_not_say": {
           "name": "work_prefer_not_say",
-          "from_schema": "https://example.com/Genome",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
           "rank": 210,
           "alias": "work_prefer_not_say",
-          "owner": "Genome",
+          "owner": "AgriGenomicsOptionSurvey",
           "domain_of": [
-            "Genome"
+            "AgriGenomicsOptionSurvey"
           ],
           "slot_group": "General",
           "range": "Boolean"
@@ -4379,17 +4379,17 @@
     },
     "Container": {
       "name": "Container",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "attributes": {
-        "GenomeData": {
-          "name": "GenomeData",
-          "from_schema": "https://example.com/Genome",
-          "alias": "GenomeData",
+        "AgriGenomicsOptionSurveyData": {
+          "name": "AgriGenomicsOptionSurveyData",
+          "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
+          "alias": "AgriGenomicsOptionSurveyData",
           "owner": "Container",
           "domain_of": [
             "Container"
           ],
-          "range": "Genome",
+          "range": "AgriGenomicsOptionSurvey",
           "multivalued": true,
           "inlined_as_list": true
         }
@@ -4400,9 +4400,9 @@
   "slots": {
     "access_training": {
       "name": "access_training",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4415,9 +4415,9 @@
     },
     "act_on_climate": {
       "name": "act_on_climate",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4430,17 +4430,17 @@
     },
     "age": {
       "name": "age",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "attention_check": {
       "name": "attention_check",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4453,17 +4453,17 @@
     },
     "birth_year": {
       "name": "birth_year",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "break_up_big_tech": {
       "name": "break_up_big_tech",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4476,9 +4476,9 @@
     },
     "buy_if_cheaper_icecream": {
       "name": "buy_if_cheaper_icecream",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4491,9 +4491,9 @@
     },
     "buy_if_cheaper_nuggets": {
       "name": "buy_if_cheaper_nuggets",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4506,9 +4506,9 @@
     },
     "buy_if_cheaper_salmon": {
       "name": "buy_if_cheaper_salmon",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4521,9 +4521,9 @@
     },
     "buy_if_healthier_icecream": {
       "name": "buy_if_healthier_icecream",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4536,9 +4536,9 @@
     },
     "buy_if_healthier_nuggets": {
       "name": "buy_if_healthier_nuggets",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4551,9 +4551,9 @@
     },
     "buy_if_healthier_salmon": {
       "name": "buy_if_healthier_salmon",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4566,9 +4566,9 @@
     },
     "buy_instead_icecream": {
       "name": "buy_instead_icecream",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4581,9 +4581,9 @@
     },
     "buy_instead_nuggets": {
       "name": "buy_instead_nuggets",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4596,9 +4596,9 @@
     },
     "buy_instead_salmon": {
       "name": "buy_instead_salmon",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4611,9 +4611,9 @@
     },
     "buy_regular_cell_icecream": {
       "name": "buy_regular_cell_icecream",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4626,9 +4626,9 @@
     },
     "buy_regular_cell_nuggets": {
       "name": "buy_regular_cell_nuggets",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4641,9 +4641,9 @@
     },
     "buy_regular_cell_salmon": {
       "name": "buy_regular_cell_salmon",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4656,17 +4656,17 @@
     },
     "city": {
       "name": "city",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "city_only_access": {
       "name": "city_only_access",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4679,9 +4679,9 @@
     },
     "city_only_jobs": {
       "name": "city_only_jobs",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4694,9 +4694,9 @@
     },
     "climate_biodiversity_loss": {
       "name": "climate_biodiversity_loss",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4709,9 +4709,9 @@
     },
     "climate_ecosystem": {
       "name": "climate_ecosystem",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4724,9 +4724,9 @@
     },
     "climate_not_urgent": {
       "name": "climate_not_urgent",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4739,25 +4739,25 @@
     },
     "comm": {
       "name": "comm",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "comment_cell_agri_fut": {
       "name": "comment_cell_agri_fut",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "community_owned_model": {
       "name": "community_owned_model",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4770,25 +4770,25 @@
     },
     "consent_given": {
       "name": "consent_given",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "cont_id": {
       "name": "cont_id",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "conventional_farmers_opportunity": {
       "name": "conventional_farmers_opportunity",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4801,9 +4801,9 @@
     },
     "corp_patents_limit_knowledge": {
       "name": "corp_patents_limit_knowledge",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4816,17 +4816,17 @@
     },
     "country": {
       "name": "country",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "date_sub": {
       "name": "date_sub",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "DateTime",
       "unit": {
@@ -4835,113 +4835,113 @@
     },
     "diet_avoid_red_meat": {
       "name": "diet_avoid_red_meat",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "diet_buying_organic": {
       "name": "diet_buying_organic",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "diet_flexitarian": {
       "name": "diet_flexitarian",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "diet_halal": {
       "name": "diet_halal",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "diet_keto": {
       "name": "diet_keto",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "diet_kosher": {
       "name": "diet_kosher",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "diet_none_of_the_above": {
       "name": "diet_none_of_the_above",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "diet_other_specified": {
       "name": "diet_other_specified",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "diet_paleo": {
       "name": "diet_paleo",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "diet_pescatarian": {
       "name": "diet_pescatarian",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "diet_plant_based": {
       "name": "diet_plant_based",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "diet_vegan": {
       "name": "diet_vegan",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "diet_vegetarian": {
       "name": "diet_vegetarian",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "education_level": {
       "name": "education_level",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4954,9 +4954,9 @@
     },
     "env_impact_beef": {
       "name": "env_impact_beef",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4969,9 +4969,9 @@
     },
     "env_impact_chicken": {
       "name": "env_impact_chicken",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4984,9 +4984,9 @@
     },
     "env_impact_fish": {
       "name": "env_impact_fish",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -4999,9 +4999,9 @@
     },
     "env_impact_pork": {
       "name": "env_impact_pork",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5014,105 +5014,105 @@
     },
     "eth_african": {
       "name": "eth_african",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "eth_caribbean": {
       "name": "eth_caribbean",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "eth_east_asian": {
       "name": "eth_east_asian",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "eth_european": {
       "name": "eth_european",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "eth_indigenous": {
       "name": "eth_indigenous",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "eth_latin_american": {
       "name": "eth_latin_american",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "eth_middle_eastern": {
       "name": "eth_middle_eastern",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "eth_oceania": {
       "name": "eth_oceania",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "eth_other": {
       "name": "eth_other",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "eth_prefer_not_say": {
       "name": "eth_prefer_not_say",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "eth_south_asian": {
       "name": "eth_south_asian",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "eth_southeast_asian": {
       "name": "eth_southeast_asian",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "ext_affordable_protein": {
       "name": "ext_affordable_protein",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5125,9 +5125,9 @@
     },
     "ext_disrespectful_nature": {
       "name": "ext_disrespectful_nature",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5140,9 +5140,9 @@
     },
     "ext_env_sustainability": {
       "name": "ext_env_sustainability",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5155,9 +5155,9 @@
     },
     "ext_healthy_products": {
       "name": "ext_healthy_products",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5170,9 +5170,9 @@
     },
     "ext_improve_welfare": {
       "name": "ext_improve_welfare",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5185,9 +5185,9 @@
     },
     "ext_solve_hunger": {
       "name": "ext_solve_hunger",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5200,9 +5200,9 @@
     },
     "ext_tasty_products": {
       "name": "ext_tasty_products",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5215,9 +5215,9 @@
     },
     "ext_unnatural": {
       "name": "ext_unnatural",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5230,9 +5230,9 @@
     },
     "ext_viable_alternative": {
       "name": "ext_viable_alternative",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5245,9 +5245,9 @@
     },
     "farmers_lose_jobs": {
       "name": "farmers_lose_jobs",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5260,9 +5260,9 @@
     },
     "farmers_transition": {
       "name": "farmers_transition",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5275,9 +5275,9 @@
     },
     "food_banks_benefit": {
       "name": "food_banks_benefit",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5290,9 +5290,9 @@
     },
     "freq_dairy": {
       "name": "freq_dairy",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5305,9 +5305,9 @@
     },
     "freq_eggs": {
       "name": "freq_eggs",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5320,9 +5320,9 @@
     },
     "freq_fish": {
       "name": "freq_fish",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5335,17 +5335,17 @@
     },
     "freq_other": {
       "name": "freq_other",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "freq_pork": {
       "name": "freq_pork",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5358,9 +5358,9 @@
     },
     "freq_poultry": {
       "name": "freq_poultry",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5373,9 +5373,9 @@
     },
     "freq_red_meat": {
       "name": "freq_red_meat",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5388,9 +5388,9 @@
     },
     "gatekeep_methods": {
       "name": "gatekeep_methods",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5403,9 +5403,9 @@
     },
     "gender": {
       "name": "gender",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5418,17 +5418,17 @@
     },
     "gender_other": {
       "name": "gender_other",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "glob_benefits": {
       "name": "glob_benefits",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5441,9 +5441,9 @@
     },
     "gm_beef": {
       "name": "gm_beef",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5456,9 +5456,9 @@
     },
     "gm_rice": {
       "name": "gm_rice",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5471,9 +5471,9 @@
     },
     "grocery_availability": {
       "name": "grocery_availability",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5486,9 +5486,9 @@
     },
     "heard_cellular_agriculture": {
       "name": "heard_cellular_agriculture",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5501,9 +5501,9 @@
     },
     "home_production_possible": {
       "name": "home_production_possible",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5516,9 +5516,9 @@
     },
     "hope_tech": {
       "name": "hope_tech",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5531,9 +5531,9 @@
     },
     "household_composition": {
       "name": "household_composition",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5546,17 +5546,17 @@
     },
     "household_composition_other": {
       "name": "household_composition_other",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "household_income": {
       "name": "household_income",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5569,9 +5569,9 @@
     },
     "human_caused_climate": {
       "name": "human_caused_climate",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5584,9 +5584,9 @@
     },
     "human_impacts": {
       "name": "human_impacts",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5599,41 +5599,41 @@
     },
     "imp_animal_welfare": {
       "name": "imp_animal_welfare",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "imp_antibiotic_free": {
       "name": "imp_antibiotic_free",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "imp_cost": {
       "name": "imp_cost",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "imp_cultural_practices": {
       "name": "imp_cultural_practices",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "imp_dairy": {
       "name": "imp_dairy",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5646,9 +5646,9 @@
     },
     "imp_eggs": {
       "name": "imp_eggs",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5661,9 +5661,9 @@
     },
     "imp_fish": {
       "name": "imp_fish",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5676,41 +5676,41 @@
     },
     "imp_freshness": {
       "name": "imp_freshness",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "imp_organic": {
       "name": "imp_organic",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "imp_other_foods_specified": {
       "name": "imp_other_foods_specified",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "imp_other_specified": {
       "name": "imp_other_specified",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "imp_pork": {
       "name": "imp_pork",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5723,9 +5723,9 @@
     },
     "imp_poultry": {
       "name": "imp_poultry",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5738,17 +5738,17 @@
     },
     "imp_production": {
       "name": "imp_production",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "imp_red_meat": {
       "name": "imp_red_meat",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5761,25 +5761,25 @@
     },
     "imp_self_hunted": {
       "name": "imp_self_hunted",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "imp_sustainability": {
       "name": "imp_sustainability",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "inaccessible_education": {
       "name": "inaccessible_education",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5792,9 +5792,9 @@
     },
     "industry_dominated": {
       "name": "industry_dominated",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5807,33 +5807,33 @@
     },
     "innovation_comfort": {
       "name": "innovation_comfort",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "ip_address": {
       "name": "ip_address",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "lang": {
       "name": "lang",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "larg_corp_influence": {
       "name": "larg_corp_influence",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5846,33 +5846,33 @@
     },
     "lat": {
       "name": "lat",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "decimal"
     },
     "leg_comm": {
       "name": "leg_comm",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "lives_in_can": {
       "name": "lives_in_can",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "local_food_security": {
       "name": "local_food_security",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5885,25 +5885,25 @@
     },
     "location_general": {
       "name": "location_general",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "long": {
       "name": "long",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "decimal"
     },
     "main_grocery_shopper": {
       "name": "main_grocery_shopper",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5916,9 +5916,9 @@
     },
     "min": {
       "name": "min",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "decimal",
       "unit": {
@@ -5927,17 +5927,17 @@
     },
     "newhiddenvalue": {
       "name": "newhiddenvalue",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "online_superstore_availability": {
       "name": "online_superstore_availability",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5950,9 +5950,9 @@
     },
     "only_wealthy_access": {
       "name": "only_wealthy_access",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5965,9 +5965,9 @@
     },
     "plant_burger_mushroom": {
       "name": "plant_burger_mushroom",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5980,9 +5980,9 @@
     },
     "plant_burger_soy": {
       "name": "plant_burger_soy",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -5995,137 +5995,137 @@
     },
     "political_scale": {
       "name": "political_scale",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "political_scale_other": {
       "name": "political_scale_other",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "post": {
       "name": "post",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "postal_prefix": {
       "name": "postal_prefix",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "priority_climate_resilience": {
       "name": "priority_climate_resilience",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "priority_farm_animal_conditions": {
       "name": "priority_farm_animal_conditions",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "priority_food_tech": {
       "name": "priority_food_tech",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "priority_ghg_reduction": {
       "name": "priority_ghg_reduction",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "priority_healthy_access": {
       "name": "priority_healthy_access",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "priority_indigenous_food_practices": {
       "name": "priority_indigenous_food_practices",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "priority_local_retail": {
       "name": "priority_local_retail",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "priority_migrant_worker_rights": {
       "name": "priority_migrant_worker_rights",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "priority_none": {
       "name": "priority_none",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "priority_other_specified": {
       "name": "priority_other_specified",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "priority_vegan_shift": {
       "name": "priority_vegan_shift",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "priority_wildlife_habitat": {
       "name": "priority_wildlife_habitat",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "progress_tech": {
       "name": "progress_tech",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6138,17 +6138,17 @@
     },
     "ref": {
       "name": "ref",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "reject_cell_icecream": {
       "name": "reject_cell_icecream",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6161,9 +6161,9 @@
     },
     "reject_cell_nuggets": {
       "name": "reject_cell_nuggets",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6176,9 +6176,9 @@
     },
     "reject_cell_salmon": {
       "name": "reject_cell_salmon",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6191,9 +6191,9 @@
     },
     "replaces_fresh_meat": {
       "name": "replaces_fresh_meat",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6206,17 +6206,17 @@
     },
     "res_id": {
       "name": "res_id",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "see_agri_industry_icecream": {
       "name": "see_agri_industry_icecream",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6229,9 +6229,9 @@
     },
     "see_agri_industry_nuggets": {
       "name": "see_agri_industry_nuggets",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6244,9 +6244,9 @@
     },
     "see_agri_industry_salmon": {
       "name": "see_agri_industry_salmon",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6259,9 +6259,9 @@
     },
     "see_global_dev_icecream": {
       "name": "see_global_dev_icecream",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6274,9 +6274,9 @@
     },
     "see_global_dev_nuggets": {
       "name": "see_global_dev_nuggets",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6289,9 +6289,9 @@
     },
     "see_global_dev_salmon": {
       "name": "see_global_dev_salmon",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6304,9 +6304,9 @@
     },
     "see_in_store_icecream": {
       "name": "see_in_store_icecream",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6319,9 +6319,9 @@
     },
     "see_in_store_nuggets": {
       "name": "see_in_store_nuggets",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6334,9 +6334,9 @@
     },
     "see_in_store_salmon": {
       "name": "see_in_store_salmon",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6349,9 +6349,9 @@
     },
     "see_local_food_icecream": {
       "name": "see_local_food_icecream",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6364,9 +6364,9 @@
     },
     "see_local_food_nuggets": {
       "name": "see_local_food_nuggets",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6379,9 +6379,9 @@
     },
     "see_local_food_salmon": {
       "name": "see_local_food_salmon",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6394,9 +6394,9 @@
     },
     "self_grown_food_freq": {
       "name": "self_grown_food_freq",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6409,113 +6409,113 @@
     },
     "ses_id": {
       "name": "ses_id",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "source_backyard_animals": {
       "name": "source_backyard_animals",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "source_butcher_shop": {
       "name": "source_butcher_shop",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "source_direct_from_farms": {
       "name": "source_direct_from_farms",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "source_farmers_market": {
       "name": "source_farmers_market",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "source_food_bank": {
       "name": "source_food_bank",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "source_grocery_superstore": {
       "name": "source_grocery_superstore",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "source_hunting_fishing": {
       "name": "source_hunting_fishing",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "source_other_specified": {
       "name": "source_other_specified",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "source_own_farm": {
       "name": "source_own_farm",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "start_time": {
       "name": "start_time",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "DateTime"
     },
     "state": {
       "name": "state",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "status": {
       "name": "status",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "support_cell_ag_sale": {
       "name": "support_cell_ag_sale",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6528,17 +6528,17 @@
     },
     "tag": {
       "name": "tag",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "tech_marginalized": {
       "name": "tech_marginalized",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6551,9 +6551,9 @@
     },
     "tech_negatives": {
       "name": "tech_negatives",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6566,9 +6566,9 @@
     },
     "tech_resources": {
       "name": "tech_resources",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6581,9 +6581,9 @@
     },
     "tech_society": {
       "name": "tech_society",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6596,9 +6596,9 @@
     },
     "trust_ag_companies": {
       "name": "trust_ag_companies",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6611,9 +6611,9 @@
     },
     "trust_celebrities": {
       "name": "trust_celebrities",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6626,9 +6626,9 @@
     },
     "trust_env_activists": {
       "name": "trust_env_activists",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6641,9 +6641,9 @@
     },
     "trust_family_friends": {
       "name": "trust_family_friends",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6656,9 +6656,9 @@
     },
     "trust_regulators": {
       "name": "trust_regulators",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6671,9 +6671,9 @@
     },
     "trust_scientists": {
       "name": "trust_scientists",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6686,9 +6686,9 @@
     },
     "try_cell_icecream": {
       "name": "try_cell_icecream",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6701,9 +6701,9 @@
     },
     "try_cell_nuggets": {
       "name": "try_cell_nuggets",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6716,9 +6716,9 @@
     },
     "try_cell_salmon": {
       "name": "try_cell_salmon",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6731,17 +6731,17 @@
     },
     "url": {
       "name": "url",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "used_in_processed_foods": {
       "name": "used_in_processed_foods",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6754,17 +6754,17 @@
     },
     "user_agent": {
       "name": "user_agent",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "WhitespaceMinimizedString"
     },
     "vertical_agriculture": {
       "name": "vertical_agriculture",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "any_of": [
         {
@@ -6777,73 +6777,73 @@
     },
     "work_farming_employee": {
       "name": "work_farming_employee",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "work_farming_owner": {
       "name": "work_farming_owner",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "work_food_access": {
       "name": "work_food_access",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "work_food_distribution": {
       "name": "work_food_distribution",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "work_food_education": {
       "name": "work_food_education",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "work_food_processing": {
       "name": "work_food_processing",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "work_food_retail": {
       "name": "work_food_retail",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "work_none": {
       "name": "work_none",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     },
     "work_prefer_not_say": {
       "name": "work_prefer_not_say",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "domain_of": [
-        "Genome"
+        "AgriGenomicsOptionSurvey"
       ],
       "range": "Boolean"
     }
@@ -6852,7 +6852,7 @@
     "SettingsMenu": {
       "name": "SettingsMenu",
       "title": "Regular Expressions",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "permissible_values": {
         "AllCaps": {
           "text": "AllCaps",
@@ -10811,7 +10811,7 @@
     "WhitespaceMinimizedString": {
       "name": "WhitespaceMinimizedString",
       "description": "A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).",
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "typeof": "string",
       "base": "str",
       "uri": "xsd:token"
@@ -10822,7 +10822,7 @@
       "notes": [
         "In RDF serializations, a slot with range of string is treated as a literal or type xsd:string.   If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"string\"."
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "exact_mappings": [
         "schema:Text"
       ],
@@ -10835,7 +10835,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"integer\"."
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "exact_mappings": [
         "schema:Integer"
       ],
@@ -10848,7 +10848,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"boolean\"."
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "exact_mappings": [
         "schema:Boolean"
       ],
@@ -10862,7 +10862,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"float\"."
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "exact_mappings": [
         "schema:Float"
       ],
@@ -10875,7 +10875,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"double\"."
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "close_mappings": [
         "schema:Float"
       ],
@@ -10888,7 +10888,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"decimal\"."
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "broad_mappings": [
         "schema:Number"
       ],
@@ -10902,7 +10902,7 @@
         "URI is dateTime because OWL reasoners do not work with straight date or time",
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"time\"."
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "exact_mappings": [
         "schema:Time"
       ],
@@ -10917,7 +10917,7 @@
         "URI is dateTime because OWL reasoners don't work with straight date or time",
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date\"."
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "exact_mappings": [
         "schema:Date"
       ],
@@ -10931,7 +10931,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"datetime\"."
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "exact_mappings": [
         "schema:DateTime"
       ],
@@ -10945,7 +10945,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date_or_datetime\"."
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "base": "str",
       "uri": "linkml:DateOrDatetime",
       "repr": "str"
@@ -10956,7 +10956,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uriorcurie\"."
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "base": "URIorCURIE",
       "uri": "xsd:anyURI",
       "repr": "str"
@@ -10972,7 +10972,7 @@
         "in RDF serializations this MUST be expanded to a URI",
         "in non-RDF serializations MAY be serialized as the compact representation"
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "base": "Curie",
       "uri": "xsd:string",
       "repr": "str"
@@ -10987,7 +10987,7 @@
       "comments": [
         "in RDF serializations a slot with range of uri is treated as a literal or type xsd:anyURI unless it is an identifier or a reference to an identifier, in which case it is translated directly to a node"
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "close_mappings": [
         "schema:URL"
       ],
@@ -11001,7 +11001,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"ncname\"."
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "base": "NCName",
       "uri": "xsd:string",
       "repr": "str"
@@ -11015,7 +11015,7 @@
       "comments": [
         "Used for inheritance and type checking"
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "base": "ElementIdentifier",
       "uri": "shex:iri",
       "repr": "str"
@@ -11026,7 +11026,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"nodeidentifier\"."
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "base": "NodeIdentifier",
       "uri": "shex:nonLiteral",
       "repr": "str"
@@ -11038,7 +11038,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpointer\"."
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"
@@ -11050,7 +11050,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpath\"."
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"
@@ -11062,7 +11062,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"sparqlpath\"."
       ],
-      "from_schema": "https://example.com/Genome",
+      "from_schema": "https://example.com/AgriGenomicsOptionSurvey",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"

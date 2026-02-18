@@ -1,7 +1,7 @@
-id: https://example.com/PedigreeFileLayout
-name: PedigreeFileLayout
-title: Pedigree File Layout
-description: Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project
+id: https://example.com/GenotypeFileLayout
+name: GenotypeFileLayout
+title: Genotype File Layout
+description: Data schema for the pedigree file layout for the Net\-Zero Dairy Genome Project
 version: 0.0.0
 in_language: en
 imports:
@@ -9,19 +9,21 @@ imports:
 prefixes:
   linkml: https://w3id.org/linkml/
 classes:
-  PedigreeFileLayout:
-    name: PedigreeFileLayout
-    title: Pedigree File Layout
-    description: Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project
+  GenotypeFileLayout:
+    name: GenotypeFileLayout
+    title: Genotype File Layout
+    description: Data schema for the pedigree file layout for the Net\-Zero Dairy Genome Project
     keywords: RDF402
     slots:
       - ANIMAL_ID
-      - BIRTH_DATE
-      - DAM_ID
+      - DATE_OF_GENOTYPE_TEST
       - FILE_TYPE
+      - GENOTYPE
+      - IMPUTATION_USED_TO_GENERATE_DATA
+      - PANEL_TYPE_BEFORE_IMPUTATION
       - PROJECT
-      - REGISTERED_NAME
-      - SIRE_ID
+      - SAMPLE_ID
+      - SNP_CHIP_PANEL_TYPE
       - SOURCE_OF_DATA
       - TRANSACTION_TYPE
     slot_usage:
@@ -29,70 +31,89 @@ classes:
         name: ANIMAL_ID
         rank: 1
         slot_group: General
-      BIRTH_DATE:
-        name: BIRTH_DATE
+      DATE_OF_GENOTYPE_TEST:
+        name: DATE_OF_GENOTYPE_TEST
         rank: 2
-        slot_group: General
-      DAM_ID:
-        name: DAM_ID
-        rank: 3
         slot_group: General
       FILE_TYPE:
         name: FILE_TYPE
+        rank: 3
+        slot_group: General
+      GENOTYPE:
+        name: GENOTYPE
         rank: 4
+        slot_group: General
+      IMPUTATION_USED_TO_GENERATE_DATA:
+        name: IMPUTATION_USED_TO_GENERATE_DATA
+        rank: 5
+        slot_group: General
+      PANEL_TYPE_BEFORE_IMPUTATION:
+        name: PANEL_TYPE_BEFORE_IMPUTATION
+        rank: 6
         slot_group: General
       PROJECT:
         name: PROJECT
-        rank: 5
-        slot_group: General
-      REGISTERED_NAME:
-        name: REGISTERED_NAME
-        rank: 6
-        slot_group: General
-      SIRE_ID:
-        name: SIRE_ID
         rank: 7
+        slot_group: General
+      SAMPLE_ID:
+        name: SAMPLE_ID
+        rank: 8
+        slot_group: General
+      SNP_CHIP_PANEL_TYPE:
+        name: SNP_CHIP_PANEL_TYPE
+        rank: 9
         slot_group: General
       SOURCE_OF_DATA:
         name: SOURCE_OF_DATA
-        rank: 8
+        rank: 10
         slot_group: General
       TRANSACTION_TYPE:
         name: TRANSACTION_TYPE
-        rank: 9
+        rank: 11
         slot_group: General
   Container:
     name: Container
     tree_root: true
     attributes:
-      name: PedigreeFileLayoutData
+      name: GenotypeFileLayoutData
       multivalued: true
-      range: PedigreeFileLayout
+      range: GenotypeFileLayout
       inlined_as_list: true
 slots:
   ANIMAL_ID:
     name: ANIMAL_ID
     title: ANIMAL_ID
     range: WhitespaceMinimizedString
-    recommended: true
-    description: 'INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)'
-  BIRTH_DATE:
-    name: BIRTH_DATE
-    title: BIRTH_DATE
-    range: DateTime
-    recommended: true
-  DAM_ID:
-    name: DAM_ID
-    title: DAM_ID
-    range: WhitespaceMinimizedString
     required: true
-    description: 12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING \'0\'S).
+    description: 'INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)'
+  DATE_OF_GENOTYPE_TEST:
+    name: DATE_OF_GENOTYPE_TEST
+    title: DATE_OF_GENOTYPE_TEST
+    range: DateTime
+    required: true
   FILE_TYPE:
     name: FILE_TYPE
     title: FILE_TYPE
     any_of:
       - range: WhitespaceMinimizedString
       - range: FILE_TYPE
+    required: true
+  GENOTYPE:
+    name: GENOTYPE
+    title: GENOTYPE
+    range: WhitespaceMinimizedString
+    required: true
+    description: USING THE CDCB FORMAT ; THE GENOTYPE IS A VARIABLE LENGTH STRING OF 0,1,2,5 INDICATING SNP GENOTYPES OF BB, AB, AA, \\-\\- (1 BYTE PER SNP, NO COMMAS BETWEEN SNPS). FOR EXAMPLE \'01252010250211110025.......\'.
+  IMPUTATION_USED_TO_GENERATE_DATA:
+    name: IMPUTATION_USED_TO_GENERATE_DATA
+    title: IMPUTATION_USED_TO_GENERATE_DATA
+    range: WhitespaceMinimizedString
+    required: true
+    description: YES or NO
+  PANEL_TYPE_BEFORE_IMPUTATION:
+    name: PANEL_TYPE_BEFORE_IMPUTATION
+    title: PANEL_TYPE_BEFORE_IMPUTATION
+    range: WhitespaceMinimizedString
     recommended: true
   PROJECT:
     name: PROJECT
@@ -100,23 +121,23 @@ slots:
     any_of:
       - range: WhitespaceMinimizedString
       - range: PROJECT
-    recommended: true
-  REGISTERED_NAME:
-    name: REGISTERED_NAME
-    title: REGISTERED_NAME
+    required: true
+  SAMPLE_ID:
+    name: SAMPLE_ID
+    title: SAMPLE_ID
     range: WhitespaceMinimizedString
     required: true
-  SIRE_ID:
-    name: SIRE_ID
-    title: SIRE_ID
+    description: UNIQUELY IDENTIFIES GENOTYPE (ie. SENTRIX CODE); DO NOT USE THE ANIMAL_ID (REGISTRATION NUM) TO ALLOW FOR MULTIPLE GENOTYPES PER ANIMAL IF REQUIRED
+  SNP_CHIP_PANEL_TYPE:
+    name: SNP_CHIP_PANEL_TYPE
+    title: SNP_CHIP_PANEL_TYPE
     range: WhitespaceMinimizedString
     required: true
-    description: 12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING \'0\'S).
   SOURCE_OF_DATA:
     name: SOURCE_OF_DATA
     title: SOURCE_OF_DATA
     range: WhitespaceMinimizedString
-    recommended: true
+    required: true
     description: See contacts list under \'Source of Data\' column
   TRANSACTION_TYPE:
     name: TRANSACTION_TYPE
@@ -124,7 +145,7 @@ slots:
     any_of:
       - range: WhitespaceMinimizedString
       - range: TRANSACTION_TYPE
-    recommended: true
+    required: true
 enums:
   SettingsMenu:
     name: SettingsMenu

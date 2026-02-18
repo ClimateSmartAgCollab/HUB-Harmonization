@@ -1,10 +1,10 @@
 {
-  "id": "https://example.com/CalvingFileLayout",
-  "name": "CalvingFileLayout",
+  "id": "https://example.com/EventsFileLayout",
+  "name": "EventsFileLayout",
   "description": "Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project",
   "version": "0.0.0",
   "in_language": "en",
-  "default_prefix": "https://example.com/CalvingFileLayout/",
+  "default_prefix": "https://example.com/EventsFileLayout/",
   "imports": [],
   "prefixes": {
     "linkml": {
@@ -25,119 +25,411 @@
     }
   },
   "classes": {
-    "CalvingFileLayout": {
-      "name": "CalvingFileLayout",
+    "EventsFileLayout": {
+      "name": "EventsFileLayout",
       "description": "Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project",
-      "title": "Calving File Layout",
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "title": "Events File Layout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "keywords": [
         "RDF402"
       ],
       "slot_usage": {
-        "ANIMAL_ID": {
-          "name": "ANIMAL_ID",
+        "24H_DRY_MATTER_INTAKE": {
+          "name": "24H_DRY_MATTER_INTAKE",
           "rank": 1,
           "slot_group": "General"
         },
-        "CALVING_DATE": {
-          "name": "CALVING_DATE",
+        "24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE": {
+          "name": "24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE",
           "rank": 2,
           "slot_group": "General"
         },
-        "CONCEPTION_DATE": {
-          "name": "CONCEPTION_DATE",
+        "24H_WATER_INTAKE": {
+          "name": "24H_WATER_INTAKE",
           "rank": 3,
+          "slot_group": "General"
+        },
+        "24H_WATER_INTAKE_MEASUREMENT_ESTIMATE": {
+          "name": "24H_WATER_INTAKE_MEASUREMENT_ESTIMATE",
+          "rank": 4,
+          "slot_group": "General"
+        },
+        "ANIMAL_ID": {
+          "name": "ANIMAL_ID",
+          "rank": 5,
+          "slot_group": "General"
+        },
+        "BODY_CONDITION_SCORE": {
+          "name": "BODY_CONDITION_SCORE",
+          "rank": 6,
+          "slot_group": "General"
+        },
+        "CH4_EMISSION": {
+          "name": "CH4_EMISSION",
+          "rank": 7,
+          "slot_group": "General"
+        },
+        "CH4_EMISSION_MEASUREMENT_ESTIMATE": {
+          "name": "CH4_EMISSION_MEASUREMENT_ESTIMATE",
+          "rank": 8,
+          "slot_group": "General"
+        },
+        "CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM": {
+          "name": "CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM",
+          "rank": 9,
+          "slot_group": "General"
+        },
+        "CH4_EMISSION_PPM": {
+          "name": "CH4_EMISSION_PPM",
+          "rank": 10,
+          "slot_group": "General"
+        },
+        "CH4_MEASURE_METHOD": {
+          "name": "CH4_MEASURE_METHOD",
+          "rank": 11,
+          "slot_group": "General"
+        },
+        "CO2_EMISSION": {
+          "name": "CO2_EMISSION",
+          "rank": 12,
+          "slot_group": "General"
+        },
+        "CO2_EMISSION_MEASUREMENT_ESTIMATE": {
+          "name": "CO2_EMISSION_MEASUREMENT_ESTIMATE",
+          "rank": 13,
+          "slot_group": "General"
+        },
+        "CO2_EMISSION_PPM": {
+          "name": "CO2_EMISSION_PPM",
+          "rank": 14,
+          "slot_group": "General"
+        },
+        "CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE": {
+          "name": "CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE",
+          "rank": 15,
           "slot_group": "General"
         },
         "COUNTRY_OF_ORIGIN": {
           "name": "COUNTRY_OF_ORIGIN",
-          "rank": 4,
+          "rank": 16,
           "slot_group": "General"
         },
         "FILE_TYPE": {
           "name": "FILE_TYPE",
-          "rank": 5,
+          "rank": 17,
           "slot_group": "General"
         },
         "HERD_CODE": {
           "name": "HERD_CODE",
-          "rank": 6,
+          "rank": 18,
           "slot_group": "General"
         },
-        "LACTATION_NUMBER": {
-          "name": "LACTATION_NUMBER",
-          "rank": 7,
+        "LIVE_BODY_WEIGHT": {
+          "name": "LIVE_BODY_WEIGHT",
+          "rank": 19,
+          "slot_group": "General"
+        },
+        "LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE": {
+          "name": "LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE",
+          "rank": 20,
+          "slot_group": "General"
+        },
+        "PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS": {
+          "name": "PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS",
+          "rank": 21,
           "slot_group": "General"
         },
         "PROJECT": {
           "name": "PROJECT",
-          "rank": 8,
+          "rank": 22,
           "slot_group": "General"
         },
         "SOURCE_OF_DATA": {
           "name": "SOURCE_OF_DATA",
-          "rank": 9,
+          "rank": 23,
+          "slot_group": "General"
+        },
+        "STANDARD_DEVIATION_CH4_EMISSION": {
+          "name": "STANDARD_DEVIATION_CH4_EMISSION",
+          "rank": 24,
+          "slot_group": "General"
+        },
+        "STANDARD_DEVIATION_CH4_EMISSION_PPM": {
+          "name": "STANDARD_DEVIATION_CH4_EMISSION_PPM",
+          "rank": 25,
+          "slot_group": "General"
+        },
+        "STANDARD_DEVIATION_CO2_EMISSION": {
+          "name": "STANDARD_DEVIATION_CO2_EMISSION",
+          "rank": 26,
+          "slot_group": "General"
+        },
+        "STANDARD_DEVIATION_SD_CO2_PPM": {
+          "name": "STANDARD_DEVIATION_SD_CO2_PPM",
+          "rank": 27,
+          "slot_group": "General"
+        },
+        "TEST_DATE": {
+          "name": "TEST_DATE",
+          "rank": 28,
           "slot_group": "General"
         },
         "TRANSACTION_TYPE": {
           "name": "TRANSACTION_TYPE",
-          "rank": 10,
+          "rank": 29,
+          "slot_group": "General"
+        },
+        "TRIAL": {
+          "name": "TRIAL",
+          "rank": 30,
           "slot_group": "General"
         }
       },
       "attributes": {
-        "ANIMAL_ID": {
-          "name": "ANIMAL_ID",
-          "description": "INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)",
-          "title": "ANIMAL_ID",
-          "from_schema": "https://example.com/CalvingFileLayout",
+        "24H_DRY_MATTER_INTAKE": {
+          "name": "24H_DRY_MATTER_INTAKE",
+          "title": "24H_DRY_MATTER_INTAKE",
+          "from_schema": "https://example.com/EventsFileLayout",
           "rank": 1,
-          "alias": "ANIMAL_ID",
-          "owner": "CalvingFileLayout",
+          "alias": "24H_DRY_MATTER_INTAKE",
+          "owner": "EventsFileLayout",
           "domain_of": [
-            "CalvingFileLayout"
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "recommended": true,
+          "unit": {
+            "ucum_code": "G/DAY"
+          }
+        },
+        "24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE": {
+          "name": "24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE",
+          "title": "24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 2,
+          "alias": "24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString",
           "recommended": true
         },
-        "CALVING_DATE": {
-          "name": "CALVING_DATE",
-          "title": "CALVING_DATE",
-          "from_schema": "https://example.com/CalvingFileLayout",
-          "rank": 2,
-          "alias": "CALVING_DATE",
-          "owner": "CalvingFileLayout",
+        "24H_WATER_INTAKE": {
+          "name": "24H_WATER_INTAKE",
+          "title": "24H_WATER_INTAKE",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 3,
+          "alias": "24H_WATER_INTAKE",
+          "owner": "EventsFileLayout",
           "domain_of": [
-            "CalvingFileLayout"
+            "EventsFileLayout"
           ],
           "slot_group": "General",
-          "range": "DateTime",
+          "range": "decimal",
+          "recommended": true,
+          "unit": {
+            "ucum_code": "DL"
+          }
+        },
+        "24H_WATER_INTAKE_MEASUREMENT_ESTIMATE": {
+          "name": "24H_WATER_INTAKE_MEASUREMENT_ESTIMATE",
+          "title": "24H_WATER_INTAKE_MEASUREMENT_ESTIMATE",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 4,
+          "alias": "24H_WATER_INTAKE_MEASUREMENT_ESTIMATE",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString",
           "recommended": true
         },
-        "CONCEPTION_DATE": {
-          "name": "CONCEPTION_DATE",
-          "title": "CONCEPTION_DATE",
-          "from_schema": "https://example.com/CalvingFileLayout",
-          "rank": 3,
-          "alias": "CONCEPTION_DATE",
-          "owner": "CalvingFileLayout",
+        "ANIMAL_ID": {
+          "name": "ANIMAL_ID",
+          "description": "INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)",
+          "title": "ANIMAL_ID",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 5,
+          "alias": "ANIMAL_ID",
+          "owner": "EventsFileLayout",
           "domain_of": [
-            "CalvingFileLayout"
+            "EventsFileLayout"
           ],
           "slot_group": "General",
-          "range": "DateTime",
+          "range": "WhitespaceMinimizedString",
+          "recommended": true
+        },
+        "BODY_CONDITION_SCORE": {
+          "name": "BODY_CONDITION_SCORE",
+          "title": "BODY_CONDITION_SCORE",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 6,
+          "alias": "BODY_CONDITION_SCORE",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "recommended": true,
+          "unit": {
+            "ucum_code": "Score"
+          }
+        },
+        "CH4_EMISSION": {
+          "name": "CH4_EMISSION",
+          "title": "CH4_EMISSION",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 7,
+          "alias": "CH4_EMISSION",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "recommended": true,
+          "unit": {
+            "ucum_code": "G/DAY"
+          }
+        },
+        "CH4_EMISSION_MEASUREMENT_ESTIMATE": {
+          "name": "CH4_EMISSION_MEASUREMENT_ESTIMATE",
+          "title": "CH4_EMISSION_MEASUREMENT_ESTIMATE",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 8,
+          "alias": "CH4_EMISSION_MEASUREMENT_ESTIMATE",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString",
+          "recommended": true
+        },
+        "CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM": {
+          "name": "CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM",
+          "title": "CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 9,
+          "alias": "CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString",
+          "recommended": true
+        },
+        "CH4_EMISSION_PPM": {
+          "name": "CH4_EMISSION_PPM",
+          "title": "CH4_EMISSION_PPM",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 10,
+          "alias": "CH4_EMISSION_PPM",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "recommended": true,
+          "unit": {
+            "ucum_code": "PPM"
+          }
+        },
+        "CH4_MEASURE_METHOD": {
+          "name": "CH4_MEASURE_METHOD",
+          "title": "CH4_MEASURE_METHOD",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 11,
+          "alias": "CH4_MEASURE_METHOD",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString",
+          "recommended": true
+        },
+        "CO2_EMISSION": {
+          "name": "CO2_EMISSION",
+          "title": "CO2_EMISSION",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 12,
+          "alias": "CO2_EMISSION",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "recommended": true,
+          "unit": {
+            "ucum_code": "G/DAY"
+          }
+        },
+        "CO2_EMISSION_MEASUREMENT_ESTIMATE": {
+          "name": "CO2_EMISSION_MEASUREMENT_ESTIMATE",
+          "title": "CO2_EMISSION_MEASUREMENT_ESTIMATE",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 13,
+          "alias": "CO2_EMISSION_MEASUREMENT_ESTIMATE",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "recommended": true,
+          "unit": {
+            "ucum_code": "G/DAY"
+          }
+        },
+        "CO2_EMISSION_PPM": {
+          "name": "CO2_EMISSION_PPM",
+          "title": "CO2_EMISSION_PPM",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 14,
+          "alias": "CO2_EMISSION_PPM",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "recommended": true,
+          "unit": {
+            "ucum_code": "PPM"
+          }
+        },
+        "CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE": {
+          "name": "CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE",
+          "title": "CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 15,
+          "alias": "CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString",
           "recommended": true
         },
         "COUNTRY_OF_ORIGIN": {
           "name": "COUNTRY_OF_ORIGIN",
-          "title": "COUNTRY-OF-ORIGIN",
-          "from_schema": "https://example.com/CalvingFileLayout",
-          "rank": 4,
+          "title": "COUNTRY_OF_ORIGIN",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 16,
           "alias": "COUNTRY_OF_ORIGIN",
-          "owner": "CalvingFileLayout",
+          "owner": "EventsFileLayout",
           "domain_of": [
-            "CalvingFileLayout"
+            "EventsFileLayout"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString",
@@ -146,12 +438,12 @@
         "FILE_TYPE": {
           "name": "FILE_TYPE",
           "title": "FILE_TYPE",
-          "from_schema": "https://example.com/CalvingFileLayout",
-          "rank": 5,
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 17,
           "alias": "FILE_TYPE",
-          "owner": "CalvingFileLayout",
+          "owner": "EventsFileLayout",
           "domain_of": [
-            "CalvingFileLayout"
+            "EventsFileLayout"
           ],
           "slot_group": "General",
           "recommended": true,
@@ -167,40 +459,74 @@
         "HERD_CODE": {
           "name": "HERD_CODE",
           "title": "HERD_CODE",
-          "from_schema": "https://example.com/CalvingFileLayout",
-          "rank": 6,
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 18,
           "alias": "HERD_CODE",
-          "owner": "CalvingFileLayout",
+          "owner": "EventsFileLayout",
           "domain_of": [
-            "CalvingFileLayout"
+            "EventsFileLayout"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString",
           "recommended": true
         },
-        "LACTATION_NUMBER": {
-          "name": "LACTATION_NUMBER",
-          "title": "LACTATION_NUMBER",
-          "from_schema": "https://example.com/CalvingFileLayout",
-          "rank": 7,
-          "alias": "LACTATION_NUMBER",
-          "owner": "CalvingFileLayout",
+        "LIVE_BODY_WEIGHT": {
+          "name": "LIVE_BODY_WEIGHT",
+          "title": "LIVE_BODY_WEIGHT",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 19,
+          "alias": "LIVE_BODY_WEIGHT",
+          "owner": "EventsFileLayout",
           "domain_of": [
-            "CalvingFileLayout"
+            "EventsFileLayout"
           ],
           "slot_group": "General",
           "range": "decimal",
+          "recommended": true,
+          "unit": {
+            "ucum_code": "KG"
+          }
+        },
+        "LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE": {
+          "name": "LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE",
+          "title": "LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 20,
+          "alias": "LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString",
           "recommended": true
+        },
+        "PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS": {
+          "name": "PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS",
+          "title": "PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 21,
+          "alias": "PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "recommended": true,
+          "unit": {
+            "ucum_code": "%"
+          }
         },
         "PROJECT": {
           "name": "PROJECT",
           "title": "PROJECT",
-          "from_schema": "https://example.com/CalvingFileLayout",
-          "rank": 8,
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 22,
           "alias": "PROJECT",
-          "owner": "CalvingFileLayout",
+          "owner": "EventsFileLayout",
           "domain_of": [
-            "CalvingFileLayout"
+            "EventsFileLayout"
           ],
           "slot_group": "General",
           "recommended": true,
@@ -217,26 +543,108 @@
           "name": "SOURCE_OF_DATA",
           "description": "See contacts list under \\'Source of Data\\' column",
           "title": "SOURCE_OF_DATA",
-          "from_schema": "https://example.com/CalvingFileLayout",
-          "rank": 9,
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 23,
           "alias": "SOURCE_OF_DATA",
-          "owner": "CalvingFileLayout",
+          "owner": "EventsFileLayout",
           "domain_of": [
-            "CalvingFileLayout"
+            "EventsFileLayout"
           ],
           "slot_group": "General",
           "range": "WhitespaceMinimizedString",
           "recommended": true
         },
+        "STANDARD_DEVIATION_CH4_EMISSION": {
+          "name": "STANDARD_DEVIATION_CH4_EMISSION",
+          "title": "STANDARD_DEVIATION_CH4_EMISSION",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 24,
+          "alias": "STANDARD_DEVIATION_CH4_EMISSION",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "recommended": true,
+          "unit": {
+            "ucum_code": "G/DAY"
+          }
+        },
+        "STANDARD_DEVIATION_CH4_EMISSION_PPM": {
+          "name": "STANDARD_DEVIATION_CH4_EMISSION_PPM",
+          "title": "STANDARD_DEVIATION_CH4_EMISSION_PPM",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 25,
+          "alias": "STANDARD_DEVIATION_CH4_EMISSION_PPM",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "recommended": true,
+          "unit": {
+            "ucum_code": "PPM"
+          }
+        },
+        "STANDARD_DEVIATION_CO2_EMISSION": {
+          "name": "STANDARD_DEVIATION_CO2_EMISSION",
+          "title": "STANDARD_DEVIATION_CO2_EMISSION",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 26,
+          "alias": "STANDARD_DEVIATION_CO2_EMISSION",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "recommended": true,
+          "unit": {
+            "ucum_code": "G/DAY"
+          }
+        },
+        "STANDARD_DEVIATION_SD_CO2_PPM": {
+          "name": "STANDARD_DEVIATION_SD_CO2_PPM",
+          "title": "STANDARD_DEVIATION_SD_CO2_PPM",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 27,
+          "alias": "STANDARD_DEVIATION_SD_CO2_PPM",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "decimal",
+          "recommended": true,
+          "unit": {
+            "ucum_code": "PPM"
+          }
+        },
+        "TEST_DATE": {
+          "name": "TEST_DATE",
+          "title": "TEST_DATE",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 28,
+          "alias": "TEST_DATE",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "DateTime",
+          "recommended": true
+        },
         "TRANSACTION_TYPE": {
           "name": "TRANSACTION_TYPE",
           "title": "TRANSACTION_TYPE",
-          "from_schema": "https://example.com/CalvingFileLayout",
-          "rank": 10,
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 29,
           "alias": "TRANSACTION_TYPE",
-          "owner": "CalvingFileLayout",
+          "owner": "EventsFileLayout",
           "domain_of": [
-            "CalvingFileLayout"
+            "EventsFileLayout"
           ],
           "slot_group": "General",
           "recommended": true,
@@ -248,22 +656,36 @@
               "range": "TRANSACTION_TYPE"
             }
           ]
+        },
+        "TRIAL": {
+          "name": "TRIAL",
+          "title": "TRIAL",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "rank": 30,
+          "alias": "TRIAL",
+          "owner": "EventsFileLayout",
+          "domain_of": [
+            "EventsFileLayout"
+          ],
+          "slot_group": "General",
+          "range": "WhitespaceMinimizedString",
+          "recommended": true
         }
       }
     },
     "Container": {
       "name": "Container",
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "attributes": {
-        "CalvingFileLayoutData": {
-          "name": "CalvingFileLayoutData",
-          "from_schema": "https://example.com/CalvingFileLayout",
-          "alias": "CalvingFileLayoutData",
+        "EventsFileLayoutData": {
+          "name": "EventsFileLayoutData",
+          "from_schema": "https://example.com/EventsFileLayout",
+          "alias": "EventsFileLayoutData",
           "owner": "Container",
           "domain_of": [
             "Container"
           ],
-          "range": "CalvingFileLayout",
+          "range": "EventsFileLayout",
           "multivalued": true,
           "inlined_as_list": true
         }
@@ -272,43 +694,187 @@
     }
   },
   "slots": {
-    "ANIMAL_ID": {
-      "name": "ANIMAL_ID",
-      "description": "INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)",
-      "title": "ANIMAL_ID",
-      "from_schema": "https://example.com/CalvingFileLayout",
+    "24H_DRY_MATTER_INTAKE": {
+      "name": "24H_DRY_MATTER_INTAKE",
+      "title": "24H_DRY_MATTER_INTAKE",
+      "from_schema": "https://example.com/EventsFileLayout",
       "domain_of": [
-        "CalvingFileLayout"
+        "EventsFileLayout"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "unit": {
+        "ucum_code": "G/DAY"
+      }
+    },
+    "24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE": {
+      "name": "24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE",
+      "title": "24H_DRY_MATTER_INTAKE_MEASUREMENT_ESTIMATE",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
       ],
       "range": "WhitespaceMinimizedString",
       "recommended": true
     },
-    "CALVING_DATE": {
-      "name": "CALVING_DATE",
-      "title": "CALVING_DATE",
-      "from_schema": "https://example.com/CalvingFileLayout",
+    "24H_WATER_INTAKE": {
+      "name": "24H_WATER_INTAKE",
+      "title": "24H_WATER_INTAKE",
+      "from_schema": "https://example.com/EventsFileLayout",
       "domain_of": [
-        "CalvingFileLayout"
+        "EventsFileLayout"
       ],
-      "range": "DateTime",
+      "range": "decimal",
+      "recommended": true,
+      "unit": {
+        "ucum_code": "DL"
+      }
+    },
+    "24H_WATER_INTAKE_MEASUREMENT_ESTIMATE": {
+      "name": "24H_WATER_INTAKE_MEASUREMENT_ESTIMATE",
+      "title": "24H_WATER_INTAKE_MEASUREMENT_ESTIMATE",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "WhitespaceMinimizedString",
       "recommended": true
     },
-    "CONCEPTION_DATE": {
-      "name": "CONCEPTION_DATE",
-      "title": "CONCEPTION_DATE",
-      "from_schema": "https://example.com/CalvingFileLayout",
+    "ANIMAL_ID": {
+      "name": "ANIMAL_ID",
+      "description": "INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)",
+      "title": "ANIMAL_ID",
+      "from_schema": "https://example.com/EventsFileLayout",
       "domain_of": [
-        "CalvingFileLayout"
+        "EventsFileLayout"
       ],
-      "range": "DateTime",
+      "range": "WhitespaceMinimizedString",
+      "recommended": true
+    },
+    "BODY_CONDITION_SCORE": {
+      "name": "BODY_CONDITION_SCORE",
+      "title": "BODY_CONDITION_SCORE",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "unit": {
+        "ucum_code": "Score"
+      }
+    },
+    "CH4_EMISSION": {
+      "name": "CH4_EMISSION",
+      "title": "CH4_EMISSION",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "unit": {
+        "ucum_code": "G/DAY"
+      }
+    },
+    "CH4_EMISSION_MEASUREMENT_ESTIMATE": {
+      "name": "CH4_EMISSION_MEASUREMENT_ESTIMATE",
+      "title": "CH4_EMISSION_MEASUREMENT_ESTIMATE",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "WhitespaceMinimizedString",
+      "recommended": true
+    },
+    "CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM": {
+      "name": "CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM",
+      "title": "CH4_EMISSION_MEASUREMENT_ESTIMATE_PPM",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "WhitespaceMinimizedString",
+      "recommended": true
+    },
+    "CH4_EMISSION_PPM": {
+      "name": "CH4_EMISSION_PPM",
+      "title": "CH4_EMISSION_PPM",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "unit": {
+        "ucum_code": "PPM"
+      }
+    },
+    "CH4_MEASURE_METHOD": {
+      "name": "CH4_MEASURE_METHOD",
+      "title": "CH4_MEASURE_METHOD",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "WhitespaceMinimizedString",
+      "recommended": true
+    },
+    "CO2_EMISSION": {
+      "name": "CO2_EMISSION",
+      "title": "CO2_EMISSION",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "unit": {
+        "ucum_code": "G/DAY"
+      }
+    },
+    "CO2_EMISSION_MEASUREMENT_ESTIMATE": {
+      "name": "CO2_EMISSION_MEASUREMENT_ESTIMATE",
+      "title": "CO2_EMISSION_MEASUREMENT_ESTIMATE",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "unit": {
+        "ucum_code": "G/DAY"
+      }
+    },
+    "CO2_EMISSION_PPM": {
+      "name": "CO2_EMISSION_PPM",
+      "title": "CO2_EMISSION_PPM",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "unit": {
+        "ucum_code": "PPM"
+      }
+    },
+    "CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE": {
+      "name": "CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE",
+      "title": "CO2_EMISSION_PPM_MEASUREMENT_ESTIMATE",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "WhitespaceMinimizedString",
       "recommended": true
     },
     "COUNTRY_OF_ORIGIN": {
       "name": "COUNTRY_OF_ORIGIN",
-      "title": "COUNTRY-OF-ORIGIN",
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "title": "COUNTRY_OF_ORIGIN",
+      "from_schema": "https://example.com/EventsFileLayout",
       "domain_of": [
-        "CalvingFileLayout"
+        "EventsFileLayout"
       ],
       "range": "WhitespaceMinimizedString",
       "recommended": true
@@ -316,9 +882,9 @@
     "FILE_TYPE": {
       "name": "FILE_TYPE",
       "title": "FILE_TYPE",
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "domain_of": [
-        "CalvingFileLayout"
+        "EventsFileLayout"
       ],
       "recommended": true,
       "any_of": [
@@ -333,29 +899,55 @@
     "HERD_CODE": {
       "name": "HERD_CODE",
       "title": "HERD_CODE",
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "domain_of": [
-        "CalvingFileLayout"
+        "EventsFileLayout"
       ],
       "range": "WhitespaceMinimizedString",
       "recommended": true
     },
-    "LACTATION_NUMBER": {
-      "name": "LACTATION_NUMBER",
-      "title": "LACTATION_NUMBER",
-      "from_schema": "https://example.com/CalvingFileLayout",
+    "LIVE_BODY_WEIGHT": {
+      "name": "LIVE_BODY_WEIGHT",
+      "title": "LIVE_BODY_WEIGHT",
+      "from_schema": "https://example.com/EventsFileLayout",
       "domain_of": [
-        "CalvingFileLayout"
+        "EventsFileLayout"
       ],
       "range": "decimal",
+      "recommended": true,
+      "unit": {
+        "ucum_code": "KG"
+      }
+    },
+    "LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE": {
+      "name": "LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE",
+      "title": "LIVE_BODY_WEIGHT_MEASUREMENT_ESTIMATE",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "WhitespaceMinimizedString",
       "recommended": true
+    },
+    "PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS": {
+      "name": "PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS",
+      "title": "PERCENTAGE_OF_DIGESTIBLE_NUTRIENTS",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "unit": {
+        "ucum_code": "%"
+      }
     },
     "PROJECT": {
       "name": "PROJECT",
       "title": "PROJECT",
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "domain_of": [
-        "CalvingFileLayout"
+        "EventsFileLayout"
       ],
       "recommended": true,
       "any_of": [
@@ -371,19 +963,81 @@
       "name": "SOURCE_OF_DATA",
       "description": "See contacts list under \\'Source of Data\\' column",
       "title": "SOURCE_OF_DATA",
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "domain_of": [
-        "CalvingFileLayout"
+        "EventsFileLayout"
       ],
       "range": "WhitespaceMinimizedString",
+      "recommended": true
+    },
+    "STANDARD_DEVIATION_CH4_EMISSION": {
+      "name": "STANDARD_DEVIATION_CH4_EMISSION",
+      "title": "STANDARD_DEVIATION_CH4_EMISSION",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "unit": {
+        "ucum_code": "G/DAY"
+      }
+    },
+    "STANDARD_DEVIATION_CH4_EMISSION_PPM": {
+      "name": "STANDARD_DEVIATION_CH4_EMISSION_PPM",
+      "title": "STANDARD_DEVIATION_CH4_EMISSION_PPM",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "unit": {
+        "ucum_code": "PPM"
+      }
+    },
+    "STANDARD_DEVIATION_CO2_EMISSION": {
+      "name": "STANDARD_DEVIATION_CO2_EMISSION",
+      "title": "STANDARD_DEVIATION_CO2_EMISSION",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "unit": {
+        "ucum_code": "G/DAY"
+      }
+    },
+    "STANDARD_DEVIATION_SD_CO2_PPM": {
+      "name": "STANDARD_DEVIATION_SD_CO2_PPM",
+      "title": "STANDARD_DEVIATION_SD_CO2_PPM",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "decimal",
+      "recommended": true,
+      "unit": {
+        "ucum_code": "PPM"
+      }
+    },
+    "TEST_DATE": {
+      "name": "TEST_DATE",
+      "title": "TEST_DATE",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "DateTime",
       "recommended": true
     },
     "TRANSACTION_TYPE": {
       "name": "TRANSACTION_TYPE",
       "title": "TRANSACTION_TYPE",
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "domain_of": [
-        "CalvingFileLayout"
+        "EventsFileLayout"
       ],
       "recommended": true,
       "any_of": [
@@ -394,13 +1048,23 @@
           "range": "TRANSACTION_TYPE"
         }
       ]
+    },
+    "TRIAL": {
+      "name": "TRIAL",
+      "title": "TRIAL",
+      "from_schema": "https://example.com/EventsFileLayout",
+      "domain_of": [
+        "EventsFileLayout"
+      ],
+      "range": "WhitespaceMinimizedString",
+      "recommended": true
     }
   },
   "enums": {
     "SettingsMenu": {
       "name": "SettingsMenu",
       "title": "Regular Expressions",
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "permissible_values": {
         "AllCaps": {
           "text": "AllCaps",
@@ -687,7 +1351,7 @@
     "WhitespaceMinimizedString": {
       "name": "WhitespaceMinimizedString",
       "description": "A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).",
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "typeof": "string",
       "base": "str",
       "uri": "xsd:token"
@@ -698,7 +1362,7 @@
       "notes": [
         "In RDF serializations, a slot with range of string is treated as a literal or type xsd:string.   If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"string\"."
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "exact_mappings": [
         "schema:Text"
       ],
@@ -711,7 +1375,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"integer\"."
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "exact_mappings": [
         "schema:Integer"
       ],
@@ -724,7 +1388,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"boolean\"."
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "exact_mappings": [
         "schema:Boolean"
       ],
@@ -738,7 +1402,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"float\"."
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "exact_mappings": [
         "schema:Float"
       ],
@@ -751,7 +1415,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"double\"."
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "close_mappings": [
         "schema:Float"
       ],
@@ -764,7 +1428,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"decimal\"."
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "broad_mappings": [
         "schema:Number"
       ],
@@ -778,7 +1442,7 @@
         "URI is dateTime because OWL reasoners do not work with straight date or time",
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"time\"."
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "exact_mappings": [
         "schema:Time"
       ],
@@ -793,7 +1457,7 @@
         "URI is dateTime because OWL reasoners don't work with straight date or time",
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date\"."
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "exact_mappings": [
         "schema:Date"
       ],
@@ -807,7 +1471,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"datetime\"."
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "exact_mappings": [
         "schema:DateTime"
       ],
@@ -821,7 +1485,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"date_or_datetime\"."
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "base": "str",
       "uri": "linkml:DateOrDatetime",
       "repr": "str"
@@ -832,7 +1496,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"uriorcurie\"."
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "base": "URIorCURIE",
       "uri": "xsd:anyURI",
       "repr": "str"
@@ -848,7 +1512,7 @@
         "in RDF serializations this MUST be expanded to a URI",
         "in non-RDF serializations MAY be serialized as the compact representation"
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "base": "Curie",
       "uri": "xsd:string",
       "repr": "str"
@@ -863,7 +1527,7 @@
       "comments": [
         "in RDF serializations a slot with range of uri is treated as a literal or type xsd:anyURI unless it is an identifier or a reference to an identifier, in which case it is translated directly to a node"
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "close_mappings": [
         "schema:URL"
       ],
@@ -877,7 +1541,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"ncname\"."
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "base": "NCName",
       "uri": "xsd:string",
       "repr": "str"
@@ -891,7 +1555,7 @@
       "comments": [
         "Used for inheritance and type checking"
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "base": "ElementIdentifier",
       "uri": "shex:iri",
       "repr": "str"
@@ -902,7 +1566,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"nodeidentifier\"."
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "base": "NodeIdentifier",
       "uri": "shex:nonLiteral",
       "repr": "str"
@@ -914,7 +1578,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpointer\"."
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"
@@ -926,7 +1590,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"jsonpath\"."
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"
@@ -938,7 +1602,7 @@
       "notes": [
         "If you are authoring schemas in LinkML YAML, the type is referenced with the lower case \"sparqlpath\"."
       ],
-      "from_schema": "https://example.com/CalvingFileLayout",
+      "from_schema": "https://example.com/EventsFileLayout",
       "base": "str",
       "uri": "xsd:string",
       "repr": "str"

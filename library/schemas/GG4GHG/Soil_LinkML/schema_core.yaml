@@ -1,130 +1,28 @@
-id: https://example.com/PedigreeFileLayout
-name: PedigreeFileLayout
-title: Pedigree File Layout
-description: Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project
+id: https://example.com/SoilChemistryData
+name: SoilChemistryData
+title: Soil chemistry data
+description: A schema to describe soil chemistry measurements for GG4GHG data.
 version: 0.0.0
 in_language: en
 imports:
-  - linkml:types
+- linkml:types
 prefixes:
   linkml: https://w3id.org/linkml/
 classes:
-  PedigreeFileLayout:
-    name: PedigreeFileLayout
-    title: Pedigree File Layout
-    description: Data schema for the pedigree file layout for the Net-Zero Dairy Genome Project
-    keywords: RDF402
-    slots:
-      - ANIMAL_ID
-      - BIRTH_DATE
-      - DAM_ID
-      - FILE_TYPE
-      - PROJECT
-      - REGISTERED_NAME
-      - SIRE_ID
-      - SOURCE_OF_DATA
-      - TRANSACTION_TYPE
-    slot_usage:
-      ANIMAL_ID:
-        name: ANIMAL_ID
-        rank: 1
-        slot_group: General
-      BIRTH_DATE:
-        name: BIRTH_DATE
-        rank: 2
-        slot_group: General
-      DAM_ID:
-        name: DAM_ID
-        rank: 3
-        slot_group: General
-      FILE_TYPE:
-        name: FILE_TYPE
-        rank: 4
-        slot_group: General
-      PROJECT:
-        name: PROJECT
-        rank: 5
-        slot_group: General
-      REGISTERED_NAME:
-        name: REGISTERED_NAME
-        rank: 6
-        slot_group: General
-      SIRE_ID:
-        name: SIRE_ID
-        rank: 7
-        slot_group: General
-      SOURCE_OF_DATA:
-        name: SOURCE_OF_DATA
-        rank: 8
-        slot_group: General
-      TRANSACTION_TYPE:
-        name: TRANSACTION_TYPE
-        rank: 9
-        slot_group: General
+  SoilChemistryData:
+    name: SoilChemistryData
+    title: Soil chemistry data
+    description: A schema to describe soil chemistry measurements for GG4GHG data.
+    keywords: RDF106
   Container:
     name: Container
     tree_root: true
     attributes:
-      name: PedigreeFileLayoutData
+      name: SoilChemistryDataData
       multivalued: true
-      range: PedigreeFileLayout
+      range: SoilChemistryData
       inlined_as_list: true
-slots:
-  ANIMAL_ID:
-    name: ANIMAL_ID
-    title: ANIMAL_ID
-    range: WhitespaceMinimizedString
-    recommended: true
-    description: 'INTERBULL REGISTRATION CODE WHICH HAS EXACTLY 19 CHARACTERS. MADE UP OF FOUR COMPONENTS: BREED (3), COUNTRY (3), SEX(1), REGISTRATION NUMBER(12)'
-  BIRTH_DATE:
-    name: BIRTH_DATE
-    title: BIRTH_DATE
-    range: DateTime
-    recommended: true
-  DAM_ID:
-    name: DAM_ID
-    title: DAM_ID
-    range: WhitespaceMinimizedString
-    required: true
-    description: 12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING \'0\'S).
-  FILE_TYPE:
-    name: FILE_TYPE
-    title: FILE_TYPE
-    any_of:
-      - range: WhitespaceMinimizedString
-      - range: FILE_TYPE
-    recommended: true
-  PROJECT:
-    name: PROJECT
-    title: PROJECT
-    any_of:
-      - range: WhitespaceMinimizedString
-      - range: PROJECT
-    recommended: true
-  REGISTERED_NAME:
-    name: REGISTERED_NAME
-    title: REGISTERED_NAME
-    range: WhitespaceMinimizedString
-    required: true
-  SIRE_ID:
-    name: SIRE_ID
-    title: SIRE_ID
-    range: WhitespaceMinimizedString
-    required: true
-    description: 12 DIGIT ALPHANUMERIC FIELD THAT CONTAIN THE UNIQUE IDENTIFICATION NUMBER ASSIGNED TO THE ANIMAL BY THE RESPECTIVE BREED ASSOCIATION. IT HAS TO BE RIGHT JUSTIFIED IN THE FIELD (WITH LEADING \'0\'S).
-  SOURCE_OF_DATA:
-    name: SOURCE_OF_DATA
-    title: SOURCE_OF_DATA
-    range: WhitespaceMinimizedString
-    recommended: true
-    description: See contacts list under \'Source of Data\' column
-  TRANSACTION_TYPE:
-    name: TRANSACTION_TYPE
-    title: TRANSACTION_TYPE
-    any_of:
-      - range: WhitespaceMinimizedString
-      - range: TRANSACTION_TYPE
-    recommended: true
+slots: {}
 enums:
   SettingsMenu:
     name: SettingsMenu
@@ -135,7 +33,8 @@ enums:
         description: Entries of any length with only capital letters
       AlphaText1-50:
         title: AlphaText1-50
-        description: Capital or lower case letters only, at least 1 character, and 50 characters max
+        description: Capital or lower case letters only, at least 1 character, and
+          50 characters max
       AlphaText0-50:
         title: AlphaText0-50
         description: Capital or lower case letters only, 50 characters max
@@ -168,10 +67,10 @@ enums:
         description: Phone number with international and area code component.
       Latitude:
         title: Latitude
-        description: Latitude in formats S30°15'45.678" or N12°30.999"
+        description: "Latitude in formats S30\xB015'45.678\" or N12\xB030.999\""
       Longitude:
         title: Longitude
-        description: Longitude in formats E30°15'45.678" or W90°00.000"
+        description: "Longitude in formats E30\xB015'45.678\" or W90\xB000.000\""
       ISO_YYYY-MM-DD:
         title: ISO_YYYY-MM-DD
         description: year month day
@@ -205,7 +104,7 @@ enums:
         title: ISO_YYYY-MM-DDTHH:MM:SSZ
         description: Date and Time Combined (UTC)
       ISO_YYYY-MM-DDTHH.MM.SS-hh.mm:
-        title: ISO_YYYY-MM-DDTHH:MM:SS±hh:mm
+        title: "ISO_YYYY-MM-DDTHH:MM:SS\xB1hh:mm"
         description: Date and Time Combined (with Timezone Offset)
       ISO_PnYnMnDTnHnMnS:
         title: ISO_PnYnMnDTnHnMnS
@@ -240,80 +139,13 @@ enums:
       H.MM_or_HH.MM:
         title: H:MM or HH:MM
         description: hour, minutes AM/PM
-  FILE_TYPE:
-    name: FILE_TYPE
-    title: FILE_TYPE
-    permissible_values:
-      '01':
-        text: '01'
-        title: Pedigree
-      '02':
-        text: '02'
-        title: Calving
-      '03':
-        text: '03'
-        title: Production
-      '04':
-        text: '04'
-        title: Events
-      '05':
-        text: '05'
-        title: Genotype
-      '06':
-        text: '06'
-        title: Milk data
-  PROJECT:
-    name: PROJECT
-    title: PROJECT
-    permissible_values:
-      '0001':
-        text: '0001'
-        title: NDGP
-      '0010':
-        text: '0010'
-        title: NAEX
-      '0100':
-        text: '0100'
-        title: RDGP
-      '0101':
-        text: '0101'
-        title: RDGP & NDGP
-      '0110':
-        text: '0110'
-        title: RDGP & NAEX
-      '1000':
-        text: '1000'
-        title: EDGP
-      '1010':
-        text: '1010'
-        title: EDGP & NAEX
-      '1100':
-        text: '1100'
-        title: EDGP & RDGP
-      '1101':
-        text: '1101'
-        title: EDGP & RDGP & NDGP
-      '1110':
-        text: '1110'
-        title: EDGP & RDGP & NAEX
-      '1111':
-        text: '1111'
-        title: EDGP & RDGP & NDGP & NAEX
-  TRANSACTION_TYPE:
-    name: TRANSACTION_TYPE
-    title: TRANSACTION_TYPE
-    permissible_values:
-      D:
-        text: D
-        title: Delete
-      U:
-        text: U
-        title: Update
 types:
   WhitespaceMinimizedString:
     name: WhitespaceMinimizedString
     typeof: string
-    description: 'A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).'
+    description: 'A string that has all whitespace trimmed off of beginning and end,
+      and all internal whitespace segments reduced to single spaces. Whitespace includes
+      x9 (tab), #xA (linefeed), and #xD (carriage return).'
     base: str
     uri: xsd:token
 settings:
@@ -332,8 +164,10 @@ settings:
   EmailAddress: ^[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+
   URL: ^https?\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,}$
   PhoneNumber: ^\+?\(?\d{2,4}\)?[\d\s-]{3,}$
-  Latitude: ^[NS]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
-  Longitude: ^[WE]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
+  Latitude: "^[NS]-?(?:[0-8]?\\d|90)\xB0(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\"\
+    )?$"
+  Longitude: "^[WE]-?(?:[0-8]?\\d|90)\xB0(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\"\
+    )?$"
   ISO_YYYY-MM-DD: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$
   ISO_YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
   ISO_YYYY-MM: ^(\d{4})-(0[1-9]|1[0-2])$

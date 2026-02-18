@@ -23,6 +23,8 @@ parent: GG4GHG
 
 [Download Semantic Engine Schema](Soil_OCA_package.json)
 
+[Download LinkML Schema](Soil_LinkML/schema.json) ([yaml](Soil_LinkML/schema.yaml); table view: [fields](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/GG4GHG/Soil_LinkML/schema_slots.tsv), [picklists](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/GG4GHG/Soil_LinkML/schema_enums.tsv))
+
 ## Schema quick view
 
 | Attribute | Label | Description |
