@@ -23,6 +23,8 @@ parent: Just Transitions
 
 [Download Semantic Engine schema](GENOME_OCA_package_20260417.json)
 
+[Download LinkML Schema](GENOME_LinkML/schema.json) ([yaml](GENOME_LinkML/schema.yaml); table view: [fields](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/JT/GENOME_LinkML/schema_slots.tsv), [picklists](https://github.com/ClimateSmartAgCollab/HUB-Harmonization/blob/main/library/schemas/JT/GENOME_LinkML/schema_enums.tsv))
+
 ## Schema quick view
 
 | Attribute | Label | Description |

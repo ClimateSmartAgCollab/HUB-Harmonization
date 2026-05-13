@@ -604,213 +604,222 @@ peACE	PeaCE	Peace	General		survey_response	Survey Response	WhitespaceMinimizedSt
 peACE	PeaCE	Peace	General		variant_calls	Variant Calls	WhitespaceMinimizedString													Variant calls generated from sequencing data			
 peACE	PeaCE	Peace	General		weather_conditions	Weather Conditions	WhitespaceMinimizedString													Weather conditions during the field trial			
 peACE	PeaCE	Peace	General		yield	Yield	decimal		kg/ha											Yield measurement for the breeding population			
-JT	GENOME	AgriGenomicsOptionSurvey	General		access_training		WhitespaceMinimizedString	access_training															
-JT	GENOME	AgriGenomicsOptionSurvey	General		act_on_climate		WhitespaceMinimizedString	act_on_climate															
-JT	GENOME	AgriGenomicsOptionSurvey	General		age		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		attention_check		WhitespaceMinimizedString	attention_check															
-JT	GENOME	AgriGenomicsOptionSurvey	General		birth_year		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		break_up_big_tech		WhitespaceMinimizedString	break_up_big_tech															
-JT	GENOME	AgriGenomicsOptionSurvey	General		buy_if_cheaper_icecream		WhitespaceMinimizedString	buy_if_cheaper_icecream															
-JT	GENOME	AgriGenomicsOptionSurvey	General		buy_if_cheaper_nuggets		WhitespaceMinimizedString	buy_if_cheaper_nuggets															
-JT	GENOME	AgriGenomicsOptionSurvey	General		buy_if_cheaper_salmon		WhitespaceMinimizedString	buy_if_cheaper_salmon															
-JT	GENOME	AgriGenomicsOptionSurvey	General		buy_if_healthier_icecream		WhitespaceMinimizedString	buy_if_healthier_icecream															
-JT	GENOME	AgriGenomicsOptionSurvey	General		buy_if_healthier_nuggets		WhitespaceMinimizedString	buy_if_healthier_nuggets															
-JT	GENOME	AgriGenomicsOptionSurvey	General		buy_if_healthier_salmon		WhitespaceMinimizedString	buy_if_healthier_salmon															
-JT	GENOME	AgriGenomicsOptionSurvey	General		buy_instead_icecream		WhitespaceMinimizedString	buy_instead_icecream															
-JT	GENOME	AgriGenomicsOptionSurvey	General		buy_instead_nuggets		WhitespaceMinimizedString	buy_instead_nuggets															
-JT	GENOME	AgriGenomicsOptionSurvey	General		buy_instead_salmon		WhitespaceMinimizedString	buy_instead_salmon															
-JT	GENOME	AgriGenomicsOptionSurvey	General		buy_regular_cell_icecream		WhitespaceMinimizedString	buy_regular_cell_icecream															
-JT	GENOME	AgriGenomicsOptionSurvey	General		buy_regular_cell_nuggets		WhitespaceMinimizedString	buy_regular_cell_nuggets															
-JT	GENOME	AgriGenomicsOptionSurvey	General		buy_regular_cell_salmon		WhitespaceMinimizedString	buy_regular_cell_salmon															
-JT	GENOME	AgriGenomicsOptionSurvey	General		city		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		city_only_access		WhitespaceMinimizedString	city_only_access															
-JT	GENOME	AgriGenomicsOptionSurvey	General		city_only_jobs		WhitespaceMinimizedString	city_only_jobs															
-JT	GENOME	AgriGenomicsOptionSurvey	General		climate_biodiversity_loss		WhitespaceMinimizedString	climate_biodiversity_loss															
-JT	GENOME	AgriGenomicsOptionSurvey	General		climate_ecosystem		WhitespaceMinimizedString	climate_ecosystem															
-JT	GENOME	AgriGenomicsOptionSurvey	General		climate_not_urgent		WhitespaceMinimizedString	climate_not_urgent															
-JT	GENOME	AgriGenomicsOptionSurvey	General		comm		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		comment_cell_agri_fut		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		community_owned_model		WhitespaceMinimizedString	community_owned_model															
-JT	GENOME	AgriGenomicsOptionSurvey	General		consent_given		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		cont_id		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		conventional_farmers_opportunity		WhitespaceMinimizedString	conventional_farmers_opportunity															
-JT	GENOME	AgriGenomicsOptionSurvey	General		corp_patents_limit_knowledge		WhitespaceMinimizedString	corp_patents_limit_knowledge															
-JT	GENOME	AgriGenomicsOptionSurvey	General		country		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		date_sub		DateTime		date														
-JT	GENOME	AgriGenomicsOptionSurvey	General		diet_avoid_red_meat		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		diet_buying_organic		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		diet_flexitarian		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		diet_halal		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		diet_keto		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		diet_kosher		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		diet_none_of_the_above		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		diet_other_specified		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		diet_paleo		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		diet_pescatarian		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		diet_plant_based		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		diet_vegan		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		diet_vegetarian		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		education_level		WhitespaceMinimizedString	education_level															
-JT	GENOME	AgriGenomicsOptionSurvey	General		env_impact_beef		WhitespaceMinimizedString	env_impact_beef															
-JT	GENOME	AgriGenomicsOptionSurvey	General		env_impact_chicken		WhitespaceMinimizedString	env_impact_chicken															
-JT	GENOME	AgriGenomicsOptionSurvey	General		env_impact_fish		WhitespaceMinimizedString	env_impact_fish															
-JT	GENOME	AgriGenomicsOptionSurvey	General		env_impact_pork		WhitespaceMinimizedString	env_impact_pork															
-JT	GENOME	AgriGenomicsOptionSurvey	General		eth_african		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		eth_caribbean		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		eth_east_asian		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		eth_european		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		eth_indigenous		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		eth_latin_american		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		eth_middle_eastern		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		eth_oceania		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		eth_other		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		eth_prefer_not_say		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		eth_south_asian		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		eth_southeast_asian		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		ext_affordable_protein		WhitespaceMinimizedString	ext_affordable_protein															
-JT	GENOME	AgriGenomicsOptionSurvey	General		ext_disrespectful_nature		WhitespaceMinimizedString	ext_disrespectful_nature															
-JT	GENOME	AgriGenomicsOptionSurvey	General		ext_env_sustainability		WhitespaceMinimizedString	ext_env_sustainability															
-JT	GENOME	AgriGenomicsOptionSurvey	General		ext_healthy_products		WhitespaceMinimizedString	ext_healthy_products															
-JT	GENOME	AgriGenomicsOptionSurvey	General		ext_improve_welfare		WhitespaceMinimizedString	ext_improve_welfare															
-JT	GENOME	AgriGenomicsOptionSurvey	General		ext_solve_hunger		WhitespaceMinimizedString	ext_solve_hunger															
-JT	GENOME	AgriGenomicsOptionSurvey	General		ext_tasty_products		WhitespaceMinimizedString	ext_tasty_products															
-JT	GENOME	AgriGenomicsOptionSurvey	General		ext_unnatural		WhitespaceMinimizedString	ext_unnatural															
-JT	GENOME	AgriGenomicsOptionSurvey	General		ext_viable_alternative		WhitespaceMinimizedString	ext_viable_alternative															
-JT	GENOME	AgriGenomicsOptionSurvey	General		farmers_lose_jobs		WhitespaceMinimizedString	farmers_lose_jobs															
-JT	GENOME	AgriGenomicsOptionSurvey	General		farmers_transition		WhitespaceMinimizedString	farmers_transition															
-JT	GENOME	AgriGenomicsOptionSurvey	General		food_banks_benefit		WhitespaceMinimizedString	food_banks_benefit															
-JT	GENOME	AgriGenomicsOptionSurvey	General		freq_dairy		WhitespaceMinimizedString	freq_dairy															
-JT	GENOME	AgriGenomicsOptionSurvey	General		freq_eggs		WhitespaceMinimizedString	freq_eggs															
-JT	GENOME	AgriGenomicsOptionSurvey	General		freq_fish		WhitespaceMinimizedString	freq_fish															
-JT	GENOME	AgriGenomicsOptionSurvey	General		freq_other		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		freq_pork		WhitespaceMinimizedString	freq_pork															
-JT	GENOME	AgriGenomicsOptionSurvey	General		freq_poultry		WhitespaceMinimizedString	freq_poultry															
-JT	GENOME	AgriGenomicsOptionSurvey	General		freq_red_meat		WhitespaceMinimizedString	freq_red_meat															
-JT	GENOME	AgriGenomicsOptionSurvey	General		gatekeep_methods		WhitespaceMinimizedString	gatekeep_methods															
-JT	GENOME	AgriGenomicsOptionSurvey	General		gender		WhitespaceMinimizedString	gender															
-JT	GENOME	AgriGenomicsOptionSurvey	General		gender_other		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		glob_benefits		WhitespaceMinimizedString	glob_benefits															
-JT	GENOME	AgriGenomicsOptionSurvey	General		gm_beef		WhitespaceMinimizedString	gm_beef															
-JT	GENOME	AgriGenomicsOptionSurvey	General		gm_rice		WhitespaceMinimizedString	gm_rice															
-JT	GENOME	AgriGenomicsOptionSurvey	General		grocery_availability		WhitespaceMinimizedString	grocery_availability															
-JT	GENOME	AgriGenomicsOptionSurvey	General		heard_cellular_agriculture		WhitespaceMinimizedString	heard_cellular_agriculture															
-JT	GENOME	AgriGenomicsOptionSurvey	General		home_production_possible		WhitespaceMinimizedString	home_production_possible															
-JT	GENOME	AgriGenomicsOptionSurvey	General		hope_tech		WhitespaceMinimizedString	hope_tech															
-JT	GENOME	AgriGenomicsOptionSurvey	General		household_composition		WhitespaceMinimizedString	household_composition															
-JT	GENOME	AgriGenomicsOptionSurvey	General		household_composition_other		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		household_income		WhitespaceMinimizedString	household_income															
-JT	GENOME	AgriGenomicsOptionSurvey	General		human_caused_climate		WhitespaceMinimizedString	human_caused_climate															
-JT	GENOME	AgriGenomicsOptionSurvey	General		human_impacts		WhitespaceMinimizedString	human_impacts															
-JT	GENOME	AgriGenomicsOptionSurvey	General		imp_animal_welfare		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		imp_antibiotic_free		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		imp_cost		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		imp_cultural_practices		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		imp_dairy		WhitespaceMinimizedString	imp_dairy															
-JT	GENOME	AgriGenomicsOptionSurvey	General		imp_eggs		WhitespaceMinimizedString	imp_eggs															
-JT	GENOME	AgriGenomicsOptionSurvey	General		imp_fish		WhitespaceMinimizedString	imp_fish															
-JT	GENOME	AgriGenomicsOptionSurvey	General		imp_freshness		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		imp_organic		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		imp_other_foods_specified		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		imp_other_specified		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		imp_pork		WhitespaceMinimizedString	imp_pork															
-JT	GENOME	AgriGenomicsOptionSurvey	General		imp_poultry		WhitespaceMinimizedString	imp_poultry															
-JT	GENOME	AgriGenomicsOptionSurvey	General		imp_production		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		imp_red_meat		WhitespaceMinimizedString	imp_red_meat															
-JT	GENOME	AgriGenomicsOptionSurvey	General		imp_self_hunted		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		imp_sustainability		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		inaccessible_education		WhitespaceMinimizedString	inaccessible_education															
-JT	GENOME	AgriGenomicsOptionSurvey	General		industry_dominated		WhitespaceMinimizedString	industry_dominated															
-JT	GENOME	AgriGenomicsOptionSurvey	General		innovation_comfort		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		ip_address		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		lang		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		larg_corp_influence		WhitespaceMinimizedString	larg_corp_influence															
-JT	GENOME	AgriGenomicsOptionSurvey	General		lat		decimal																
-JT	GENOME	AgriGenomicsOptionSurvey	General		leg_comm		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		lives_in_can		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		local_food_security		WhitespaceMinimizedString	local_food_security															
-JT	GENOME	AgriGenomicsOptionSurvey	General		location_general		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		long		decimal																
-JT	GENOME	AgriGenomicsOptionSurvey	General		main_grocery_shopper		WhitespaceMinimizedString	main_grocery_shopper															
-JT	GENOME	AgriGenomicsOptionSurvey	General		min		decimal		minutes														
-JT	GENOME	AgriGenomicsOptionSurvey	General		newhiddenvalue		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		online_superstore_availability		WhitespaceMinimizedString	online_superstore_availability															
-JT	GENOME	AgriGenomicsOptionSurvey	General		only_wealthy_access		WhitespaceMinimizedString	only_wealthy_access															
-JT	GENOME	AgriGenomicsOptionSurvey	General		plant_burger_mushroom		WhitespaceMinimizedString	plant_burger_mushroom															
-JT	GENOME	AgriGenomicsOptionSurvey	General		plant_burger_soy		WhitespaceMinimizedString	plant_burger_soy															
-JT	GENOME	AgriGenomicsOptionSurvey	General		political_scale		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		political_scale_other		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		post		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		postal_prefix		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		priority_climate_resilience		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		priority_farm_animal_conditions		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		priority_food_tech		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		priority_ghg_reduction		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		priority_healthy_access		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		priority_indigenous_food_practices		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		priority_local_retail		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		priority_migrant_worker_rights		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		priority_none		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		priority_other_specified		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		priority_vegan_shift		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		priority_wildlife_habitat		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		progress_tech		WhitespaceMinimizedString	progress_tech															
-JT	GENOME	AgriGenomicsOptionSurvey	General		ref		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		reject_cell_icecream		WhitespaceMinimizedString	reject_cell_icecream															
-JT	GENOME	AgriGenomicsOptionSurvey	General		reject_cell_nuggets		WhitespaceMinimizedString	reject_cell_nuggets															
-JT	GENOME	AgriGenomicsOptionSurvey	General		reject_cell_salmon		WhitespaceMinimizedString	reject_cell_salmon															
-JT	GENOME	AgriGenomicsOptionSurvey	General		replaces_fresh_meat		WhitespaceMinimizedString	replaces_fresh_meat															
-JT	GENOME	AgriGenomicsOptionSurvey	General		res_id		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		see_agri_industry_icecream		WhitespaceMinimizedString	see_agri_industry_icecream															
-JT	GENOME	AgriGenomicsOptionSurvey	General		see_agri_industry_nuggets		WhitespaceMinimizedString	see_agri_industry_nuggets															
-JT	GENOME	AgriGenomicsOptionSurvey	General		see_agri_industry_salmon		WhitespaceMinimizedString	see_agri_industry_salmon															
-JT	GENOME	AgriGenomicsOptionSurvey	General		see_global_dev_icecream		WhitespaceMinimizedString	see_global_dev_icecream															
-JT	GENOME	AgriGenomicsOptionSurvey	General		see_global_dev_nuggets		WhitespaceMinimizedString	see_global_dev_nuggets															
-JT	GENOME	AgriGenomicsOptionSurvey	General		see_global_dev_salmon		WhitespaceMinimizedString	see_global_dev_salmon															
-JT	GENOME	AgriGenomicsOptionSurvey	General		see_in_store_icecream		WhitespaceMinimizedString	see_in_store_icecream															
-JT	GENOME	AgriGenomicsOptionSurvey	General		see_in_store_nuggets		WhitespaceMinimizedString	see_in_store_nuggets															
-JT	GENOME	AgriGenomicsOptionSurvey	General		see_in_store_salmon		WhitespaceMinimizedString	see_in_store_salmon															
-JT	GENOME	AgriGenomicsOptionSurvey	General		see_local_food_icecream		WhitespaceMinimizedString	see_local_food_icecream															
-JT	GENOME	AgriGenomicsOptionSurvey	General		see_local_food_nuggets		WhitespaceMinimizedString	see_local_food_nuggets															
-JT	GENOME	AgriGenomicsOptionSurvey	General		see_local_food_salmon		WhitespaceMinimizedString	see_local_food_salmon															
-JT	GENOME	AgriGenomicsOptionSurvey	General		self_grown_food_freq		WhitespaceMinimizedString	self_grown_food_freq															
-JT	GENOME	AgriGenomicsOptionSurvey	General		ses_id		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		source_backyard_animals		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		source_butcher_shop		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		source_direct_from_farms		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		source_farmers_market		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		source_food_bank		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		source_grocery_superstore		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		source_hunting_fishing		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		source_other_specified		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		source_own_farm		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		start_time		DateTime																
-JT	GENOME	AgriGenomicsOptionSurvey	General		state		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		status		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		support_cell_ag_sale		WhitespaceMinimizedString	support_cell_ag_sale															
-JT	GENOME	AgriGenomicsOptionSurvey	General		tag		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		tech_marginalized		WhitespaceMinimizedString	tech_marginalized															
-JT	GENOME	AgriGenomicsOptionSurvey	General		tech_negatives		WhitespaceMinimizedString	tech_negatives															
-JT	GENOME	AgriGenomicsOptionSurvey	General		tech_resources		WhitespaceMinimizedString	tech_resources															
-JT	GENOME	AgriGenomicsOptionSurvey	General		tech_society		WhitespaceMinimizedString	tech_society															
-JT	GENOME	AgriGenomicsOptionSurvey	General		trust_ag_companies		WhitespaceMinimizedString	trust_ag_companies															
-JT	GENOME	AgriGenomicsOptionSurvey	General		trust_celebrities		WhitespaceMinimizedString	trust_celebrities															
-JT	GENOME	AgriGenomicsOptionSurvey	General		trust_env_activists		WhitespaceMinimizedString	trust_env_activists															
-JT	GENOME	AgriGenomicsOptionSurvey	General		trust_family_friends		WhitespaceMinimizedString	trust_family_friends															
-JT	GENOME	AgriGenomicsOptionSurvey	General		trust_regulators		WhitespaceMinimizedString	trust_regulators															
-JT	GENOME	AgriGenomicsOptionSurvey	General		trust_scientists		WhitespaceMinimizedString	trust_scientists															
-JT	GENOME	AgriGenomicsOptionSurvey	General		try_cell_icecream		WhitespaceMinimizedString	try_cell_icecream															
-JT	GENOME	AgriGenomicsOptionSurvey	General		try_cell_nuggets		WhitespaceMinimizedString	try_cell_nuggets															
-JT	GENOME	AgriGenomicsOptionSurvey	General		try_cell_salmon		WhitespaceMinimizedString	try_cell_salmon															
-JT	GENOME	AgriGenomicsOptionSurvey	General		url		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		used_in_processed_foods		WhitespaceMinimizedString	used_in_processed_foods															
-JT	GENOME	AgriGenomicsOptionSurvey	General		user_agent		WhitespaceMinimizedString																
-JT	GENOME	AgriGenomicsOptionSurvey	General		vertical_agriculture		WhitespaceMinimizedString	vertical_agriculture															
-JT	GENOME	AgriGenomicsOptionSurvey	General		work_farming_employee		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		work_farming_owner		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		work_food_access		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		work_food_distribution		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		work_food_education		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		work_food_processing		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		work_food_retail		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		work_none		Boolean																
-JT	GENOME	AgriGenomicsOptionSurvey	General		work_prefer_not_say		Boolean																
+peACE	PeaMAGIC	Peamagic	General		Environment_ID	Environment Identifier	WhitespaceMinimizedString													Identifier for a unique year\-location combination			
+peACE	PeaMAGIC	Peamagic	General		Line_ID	Line identifier	WhitespaceMinimizedString													Unique identifier for each inbred MAGIC line			
+peACE	PeaMAGIC	Peamagic	General		Location	Location	WhitespaceMinimizedString													Name of the field trial location			
+peACE	PeaMAGIC	Peamagic	General		Rep	Replication	decimal													Replication number within the experimental design			
+peACE	PeaMAGIC	Peamagic	General		Study_ID	Study Identifier	WhitespaceMinimizedString													Unique identifier for the study dataset			
+peACE	PeaMAGIC	Peamagic	General		Trait_ID	Trait identifier	WhitespaceMinimizedString	Trait_ID												Identifier for the measured trait (e.g., DTF, DTM)			
+peACE	PeaMAGIC	Peamagic	General		Unit	Measurement unit	WhitespaceMinimizedString													Unit of measurement corresponding to the trait value (e.g., days, cm, kg/ha)			
+peACE	PeaMAGIC	Peamagic	General		Value	Trait value	decimal													Observed or measured value for the specified trait			
+peACE	PeaMAGIC	Peamagic	General		Year	Year	decimal													Calendar year in which the field experiment was conducted			
+JT	GENOME	Genome	General		access_training		WhitespaceMinimizedString	access_training												Anyone will be able to access information and training to produce cellular agriculture foods			
+JT	GENOME	Genome	General		act_on_climate		WhitespaceMinimizedString	act_on_climate												Human causes of climate change should be addressed immediately			
+JT	GENOME	Genome	General		age		Boolean													Are you 19 years old or older?			
+JT	GENOME	Genome	General		attention_check		WhitespaceMinimizedString	attention_check												Attention check			
+JT	GENOME	Genome	General		birth_year		WhitespaceMinimizedString													Year of birth			
+JT	GENOME	Genome	General		break_up_big_tech		WhitespaceMinimizedString	break_up_big_tech												Big global tech companies should be broken up			
+JT	GENOME	Genome	General		buy_if_cheaper_icecream		WhitespaceMinimizedString	buy_if_cheaper_icecream												I would buy cellular agriculture ice cream instead of conventional products if it were cheaper			
+JT	GENOME	Genome	General		buy_if_cheaper_nuggets		WhitespaceMinimizedString	buy_if_cheaper_nuggets												I would buy cellular agriculture chicken nuggets instead of conventional products if it were cheaper			
+JT	GENOME	Genome	General		buy_if_cheaper_salmon		WhitespaceMinimizedString	buy_if_cheaper_salmon												I would buy cellular agriculture salmon instead of conventional products if it were cheaper			
+JT	GENOME	Genome	General		buy_if_healthier_icecream		WhitespaceMinimizedString	buy_if_healthier_icecream												I would buy cellular agriculture ice cream instead of conventional products if it were healthier			
+JT	GENOME	Genome	General		buy_if_healthier_nuggets		WhitespaceMinimizedString	buy_if_healthier_nuggets												I would buy cellular agriculture chicken nuggets instead of conventional products if it were healthier			
+JT	GENOME	Genome	General		buy_if_healthier_salmon		WhitespaceMinimizedString	buy_if_healthier_salmon												I would buy cellular agriculture salmon instead of conventional products if it were healthier			
+JT	GENOME	Genome	General		buy_instead_icecream		WhitespaceMinimizedString	buy_instead_icecream												I would buy cellular agriculture ice cream instead of conventional products			
+JT	GENOME	Genome	General		buy_instead_nuggets		WhitespaceMinimizedString	buy_instead_nuggets												I would buy cellular agriculture chicken nuggets instead of conventional products			
+JT	GENOME	Genome	General		buy_instead_salmon		WhitespaceMinimizedString	buy_instead_salmon												I would buy cellular agriculture salmon instead of conventional products			
+JT	GENOME	Genome	General		buy_regular_cell_icecream		WhitespaceMinimizedString	buy_regular_cell_icecream												I would like to buy cellular agriculture ice cream regularly			
+JT	GENOME	Genome	General		buy_regular_cell_nuggets		WhitespaceMinimizedString	buy_regular_cell_nuggets												I would like to buy cellular agriculture chicken nuggets regularly			
+JT	GENOME	Genome	General		buy_regular_cell_salmon		WhitespaceMinimizedString	buy_regular_cell_salmon												I would like to buy cellular agriculture salmon regularly			
+JT	GENOME	Genome	General		city		WhitespaceMinimizedString													City			
+JT	GENOME	Genome	General		city_only_access		WhitespaceMinimizedString	city_only_access												Cellular agriculture products will mainly be available in urban areas rather than rural areas			
+JT	GENOME	Genome	General		city_only_jobs		WhitespaceMinimizedString	city_only_jobs												Cellular agriculture jobs will mostly be located in urban areas			
+JT	GENOME	Genome	General		climate_biodiversity_loss		WhitespaceMinimizedString	climate_biodiversity_loss												Climate change will lead to major biodiversity loss			
+JT	GENOME	Genome	General		climate_ecosystem		WhitespaceMinimizedString	climate_ecosystem												Climate change impacts on ecosystems are exaggerated			
+JT	GENOME	Genome	General		climate_not_urgent		WhitespaceMinimizedString	climate_not_urgent												Climate change is not among the most urgent global problems			
+JT	GENOME	Genome	General		comm		WhitespaceMinimizedString													Communication/Panel ID			
+JT	GENOME	Genome	General		comment_cell_agri_fut		WhitespaceMinimizedString													Do you have any additional comments about the future scenarios for cellular agriculture?			
+JT	GENOME	Genome	General		community_owned_model		WhitespaceMinimizedString	community_owned_model												Cellular agriculture will be produced by small, community\-owned businesses.			
+JT	GENOME	Genome	General		consent_given		Boolean													Do you consent to participating in this survey study?			
+JT	GENOME	Genome	General		cont_id		WhitespaceMinimizedString													Cont ID			
+JT	GENOME	Genome	General		conventional_farmers_opportunity		WhitespaceMinimizedString	conventional_farmers_opportunity												Cellular agriculture will create new opportunities for conventional farmers			
+JT	GENOME	Genome	General		corp_patents_limit_knowledge		WhitespaceMinimizedString	corp_patents_limit_knowledge												Corporations should not limit access to knowledge through patents			
+JT	GENOME	Genome	General		country		WhitespaceMinimizedString													Country			
+JT	GENOME	Genome	General		date_sub		DateTime		date											Submission date			
+JT	GENOME	Genome	General		diet_avoid_red_meat		Boolean													Avoids red meat but eats other meat			
+JT	GENOME	Genome	General		diet_buying_organic		Boolean													Buy organic foods			
+JT	GENOME	Genome	General		diet_flexitarian		Boolean													Identifies as flexitarian			
+JT	GENOME	Genome	General		diet_halal		Boolean													Follows a halal diet			
+JT	GENOME	Genome	General		diet_keto		Boolean													Identifies as a ketogenic diet			
+JT	GENOME	Genome	General		diet_kosher		Boolean													Follows a kosher diet			
+JT	GENOME	Genome	General		diet_none_of_the_above		Boolean													Does not identify with listed diet types			
+JT	GENOME	Genome	General		diet_other_specified		WhitespaceMinimizedString													Others (specify)			
+JT	GENOME	Genome	General		diet_paleo		Boolean													Identifies as paleolithic diet			
+JT	GENOME	Genome	General		diet_pescatarian		Boolean													Identifies as pescatarian			
+JT	GENOME	Genome	General		diet_plant_based		Boolean													Identifies as plant\-based			
+JT	GENOME	Genome	General		diet_vegan		Boolean													Identifies as vegan			
+JT	GENOME	Genome	General		diet_vegetarian		Boolean													Identifies as vegetarian			
+JT	GENOME	Genome	General		education_level		WhitespaceMinimizedString	education_level												Highest level of education completed			
+JT	GENOME	Genome	General		env_impact_beef		WhitespaceMinimizedString	env_impact_beef												Producing beef is harmful to the environment			
+JT	GENOME	Genome	General		env_impact_chicken		WhitespaceMinimizedString	env_impact_chicken												Producing chicken is harmful to the environment			
+JT	GENOME	Genome	General		env_impact_fish		WhitespaceMinimizedString	env_impact_fish												Producing fish is harmful to the environment			
+JT	GENOME	Genome	General		env_impact_pork		WhitespaceMinimizedString	env_impact_pork												Producing pork is harmful to the environment			
+JT	GENOME	Genome	General		eth_african		Boolean													Identifies as African			
+JT	GENOME	Genome	General		eth_caribbean		Boolean													Identifies as Caribbean			
+JT	GENOME	Genome	General		eth_east_asian		Boolean													Identifies as East Asian			
+JT	GENOME	Genome	General		eth_european		Boolean													Identifies as European			
+JT	GENOME	Genome	General		eth_indigenous		Boolean													Identifies as Indigenous (e.g., First Nations, Inuit, Métis)			
+JT	GENOME	Genome	General		eth_latin_american		Boolean													Identifies as Latin, Central, or South American			
+JT	GENOME	Genome	General		eth_middle_eastern		Boolean													Identifies as Middle Eastern, Arab, or North African			
+JT	GENOME	Genome	General		eth_oceania		Boolean													Identifies as Oceanian			
+JT	GENOME	Genome	General		eth_other		WhitespaceMinimizedString													Other ethnicity or ancestry			
+JT	GENOME	Genome	General		eth_prefer_not_say		Boolean													Prefer not to say			
+JT	GENOME	Genome	General		eth_south_asian		Boolean													Identifies as South Asian			
+JT	GENOME	Genome	General		eth_southeast_asian		Boolean													Identifies as Southeast Asian			
+JT	GENOME	Genome	General		ext_affordable_protein		WhitespaceMinimizedString	ext_affordable_protein												Cellular agriculture will make protein products more affordable			
+JT	GENOME	Genome	General		ext_disrespectful_nature		WhitespaceMinimizedString	ext_disrespectful_nature												Cellular agriculture is disrespectful to nature			
+JT	GENOME	Genome	General		ext_env_sustainability		WhitespaceMinimizedString	ext_env_sustainability												Cellular agriculture will make food production more environmentally sustainable			
+JT	GENOME	Genome	General		ext_healthy_products		WhitespaceMinimizedString	ext_healthy_products												Cellular agriculture will produce healthy food products			
+JT	GENOME	Genome	General		ext_improve_welfare		WhitespaceMinimizedString	ext_improve_welfare												Cellular agriculture will improve animal welfare			
+JT	GENOME	Genome	General		ext_solve_hunger		WhitespaceMinimizedString	ext_solve_hunger												Cellular agriculture will help resolve world hunger and food insecurity			
+JT	GENOME	Genome	General		ext_tasty_products		WhitespaceMinimizedString	ext_tasty_products												Cellular agriculture will produce tasty food products			
+JT	GENOME	Genome	General		ext_unnatural		WhitespaceMinimizedString	ext_unnatural												Cellular agriculture is unnatural			
+JT	GENOME	Genome	General		ext_viable_alternative		WhitespaceMinimizedString	ext_viable_alternative												Cellular agriculture will be a viable alternative to conventional animal\-sourced foods			
+JT	GENOME	Genome	General		farmers_lose_jobs		WhitespaceMinimizedString	farmers_lose_jobs												Conventional farmers will lose jobs as cellular agriculture grows			
+JT	GENOME	Genome	General		farmers_transition		WhitespaceMinimizedString	farmers_transition												Farmers will transition to producing cellular agriculture products			
+JT	GENOME	Genome	General		food_banks_benefit		WhitespaceMinimizedString	food_banks_benefit												Food banks and community centres will benefit from local cellular agriculture production			
+JT	GENOME	Genome	General		freq_dairy		WhitespaceMinimizedString	freq_dairy												How often do you eat dairy products?			
+JT	GENOME	Genome	General		freq_eggs		WhitespaceMinimizedString	freq_eggs												How often do you eat eggs?			
+JT	GENOME	Genome	General		freq_fish		WhitespaceMinimizedString	freq_fish												How often do you eat fish and seafood?			
+JT	GENOME	Genome	General		freq_other		WhitespaceMinimizedString													How often do you eat other animal\-sourced foods?			
+JT	GENOME	Genome	General		freq_pork		WhitespaceMinimizedString	freq_pork												How often do you eat pork?			
+JT	GENOME	Genome	General		freq_poultry		WhitespaceMinimizedString	freq_poultry												How often do you eat poultry?			
+JT	GENOME	Genome	General		freq_red_meat		WhitespaceMinimizedString	freq_red_meat												How often do you eat red meat (e.g., beef)?			
+JT	GENOME	Genome	General		gatekeep_methods		WhitespaceMinimizedString	gatekeep_methods												Production methods for cellular agriculture will be kept out of public understanding (e.g., patents, trade secrets)			
+JT	GENOME	Genome	General		gender		WhitespaceMinimizedString	gender												Gender identity			
+JT	GENOME	Genome	General		gender_other		WhitespaceMinimizedString													Other gender identity (please specify)			
+JT	GENOME	Genome	General		glob_benefits		WhitespaceMinimizedString	glob_benefits												Globalization has positive impacts for most people			
+JT	GENOME	Genome	General		gm_beef		WhitespaceMinimizedString	gm_beef												Compared to cellular agriculture, how comfortable are you with beef from genetically modified cows designed to reduce greenhouse gas emissions?			
+JT	GENOME	Genome	General		gm_rice		WhitespaceMinimizedString	gm_rice												Compared to cellular agriculture, how comfortable are you with rice developed using genetically modified seeds for drought tolerance?			
+JT	GENOME	Genome	General		grocery_availability		WhitespaceMinimizedString	grocery_availability												Cellular agriculture products will be widely available in most grocery stores			
+JT	GENOME	Genome	General		heard_cellular_agriculture		WhitespaceMinimizedString	heard_cellular_agriculture												Have you heard of cellular agriculture before?			
+JT	GENOME	Genome	General		home_production_possible		WhitespaceMinimizedString	home_production_possible												People will be able to produce cellular agriculture food at home			
+JT	GENOME	Genome	General		hope_tech		WhitespaceMinimizedString	hope_tech												Hope for the future lies more in people’s actions than in technology			
+JT	GENOME	Genome	General		household_composition		WhitespaceMinimizedString	household_composition												Household composition			
+JT	GENOME	Genome	General		household_composition_other		WhitespaceMinimizedString													Other household composition (please specify)			
+JT	GENOME	Genome	General		household_income		WhitespaceMinimizedString	household_income												Total household income before tax			
+JT	GENOME	Genome	General		human_caused_climate		WhitespaceMinimizedString	human_caused_climate												Evidence for human\-caused climate change is incomplete			
+JT	GENOME	Genome	General		human_impacts		WhitespaceMinimizedString	human_impacts												Human activities are destabilizing Earth’s systems			
+JT	GENOME	Genome	General		imp_animal_welfare		Boolean													Animal welfare conditions are an important factor			
+JT	GENOME	Genome	General		imp_antibiotic_free		Boolean													Absence of antibiotics or growth hormones is an important factor			
+JT	GENOME	Genome	General		imp_cost		Boolean													Cost is an important factor when purchasing animal\-sourced foods			
+JT	GENOME	Genome	General		imp_cultural_practices		Boolean													Cultural practices (e.g., Halal, Kosher) are an important factor			
+JT	GENOME	Genome	General		imp_dairy		WhitespaceMinimizedString	imp_dairy												Dairy is important to my diet			
+JT	GENOME	Genome	General		imp_eggs		WhitespaceMinimizedString	imp_eggs												Eggs are important to my diet			
+JT	GENOME	Genome	General		imp_fish		WhitespaceMinimizedString	imp_fish												Fish and seafood are important to my diet			
+JT	GENOME	Genome	General		imp_freshness		Boolean													Freshness (e.g., never frozen) is an important factor			
+JT	GENOME	Genome	General		imp_organic		Boolean													Organic certification is an important factor			
+JT	GENOME	Genome	General		imp_other_foods_specified		WhitespaceMinimizedString													Others (specify)			
+JT	GENOME	Genome	General		imp_other_specified		WhitespaceMinimizedString													Others (specify)			
+JT	GENOME	Genome	General		imp_pork		WhitespaceMinimizedString	imp_pork												Pork is important to my diet			
+JT	GENOME	Genome	General		imp_poultry		WhitespaceMinimizedString	imp_poultry												Poultry is important to my diet			
+JT	GENOME	Genome	General		imp_production		Boolean													Food being produced locally is an important factor			
+JT	GENOME	Genome	General		imp_red_meat		WhitespaceMinimizedString	imp_red_meat												Red meat is important to my diet			
+JT	GENOME	Genome	General		imp_self_hunted		Boolean													Personally sourced (hunted/fished) food is an important factor			
+JT	GENOME	Genome	General		imp_sustainability		Boolean													Sustainability (environmental practices) is an important factor			
+JT	GENOME	Genome	General		inaccessible_education		WhitespaceMinimizedString	inaccessible_education												Becoming a cellular agriculture professional will require advanced education that most people cannot access			
+JT	GENOME	Genome	General		industry_dominated		WhitespaceMinimizedString	industry_dominated												Cellular agriculture will mainly be run by large food production companies			
+JT	GENOME	Genome	General		innovation_comfort		WhitespaceMinimizedString													Please explain your level of comfort or discomfort with these food innovations			
+JT	GENOME	Genome	General		ip_address		WhitespaceMinimizedString													IP address			
+JT	GENOME	Genome	General		lang		WhitespaceMinimizedString													Language			
+JT	GENOME	Genome	General		larg_corp_influence		WhitespaceMinimizedString	larg_corp_influence												The increasing influence of large corporations is a problem			
+JT	GENOME	Genome	General		lat		decimal													Latitude			
+JT	GENOME	Genome	General		leg_comm		WhitespaceMinimizedString													Legacy communication			
+JT	GENOME	Genome	General		lives_in_can		Boolean													Do you live in Canada?			
+JT	GENOME	Genome	General		local_food_security		WhitespaceMinimizedString	local_food_security												Cellular agriculture will contribute to greater food security in my city or town			
+JT	GENOME	Genome	General		location_general		WhitespaceMinimizedString													General geographic location of the respondent derived from the first three characters of their postal code			
+JT	GENOME	Genome	General		long		decimal													Longitude			
+JT	GENOME	Genome	General		main_grocery_shopper		WhitespaceMinimizedString	main_grocery_shopper												Primary grocery shopper in household			
+JT	GENOME	Genome	General		min		decimal		minutes											Duration			
+JT	GENOME	Genome	General		newhiddenvalue		WhitespaceMinimizedString													New hidden value			
+JT	GENOME	Genome	General		online_superstore_availability		WhitespaceMinimizedString	online_superstore_availability												Cellular agriculture products will be widely available online and in superstores			
+JT	GENOME	Genome	General		only_wealthy_access		WhitespaceMinimizedString	only_wealthy_access												Only wealthier people will be able to afford cellular agriculture products			
+JT	GENOME	Genome	General		plant_burger_mushroom		WhitespaceMinimizedString	plant_burger_mushroom												Compared to cellular agriculture, how comfortable are you with plant\-based burgers made from mushroom protein?			
+JT	GENOME	Genome	General		plant_burger_soy		WhitespaceMinimizedString	plant_burger_soy												Compared to cellular agriculture, how comfortable are you with plant\-based burgers made from soy protein?			
+JT	GENOME	Genome	General		political_scale		Boolean													Political orientation on a conservative–liberal scale.			
+JT	GENOME	Genome	General		political_scale_other		WhitespaceMinimizedString													Other political orientation (please specify)			
+JT	GENOME	Genome	General		post		WhitespaceMinimizedString													Post			
+JT	GENOME	Genome	General		postal_prefix		WhitespaceMinimizedString													First three characters of postal code			
+JT	GENOME	Genome	General		priority_climate_resilience		Boolean													Prioritize strengthening climate resilience in food systems			
+JT	GENOME	Genome	General		priority_farm_animal_conditions		Boolean													Prioritize improving farm animal welfare conditions			
+JT	GENOME	Genome	General		priority_food_tech		Boolean													Prioritize developing new food production technologies			
+JT	GENOME	Genome	General		priority_ghg_reduction		Boolean													Prioritize reducing greenhouse gas emissions from food production			
+JT	GENOME	Genome	General		priority_healthy_access		Boolean													Prioritize increasing access to healthy foods			
+JT	GENOME	Genome	General		priority_indigenous_food_practices		Boolean													Prioritize supporting Indigenous food practices			
+JT	GENOME	Genome	General		priority_local_retail		Boolean													Prioritize encouraging stores to sell more local food			
+JT	GENOME	Genome	General		priority_migrant_worker_rights		Boolean													Prioritize ensuring migrant worker rights and protections			
+JT	GENOME	Genome	General		priority_none		Boolean													No priorities			
+JT	GENOME	Genome	General		priority_other_specified		WhitespaceMinimizedString													Other (specify)			
+JT	GENOME	Genome	General		priority_vegan_shift		Boolean													Prioritize encouraging a shift toward vegan or vegetarian diets			
+JT	GENOME	Genome	General		priority_wildlife_habitat		Boolean													Prioritize protecting wildlife habitat from agricultural impacts			
+JT	GENOME	Genome	General		progress_tech		WhitespaceMinimizedString	progress_tech												A country’s progress can be measured by its technological development.			
+JT	GENOME	Genome	General		ref		WhitespaceMinimizedString													Reference source			
+JT	GENOME	Genome	General		reject_cell_icecream		WhitespaceMinimizedString	reject_cell_icecream												Cellular agriculture ice cream should not exist or be adopted			
+JT	GENOME	Genome	General		reject_cell_nuggets		WhitespaceMinimizedString	reject_cell_nuggets												Cellular agriculture chicken nuggets should not exist or be adopted			
+JT	GENOME	Genome	General		reject_cell_salmon		WhitespaceMinimizedString	reject_cell_salmon												Cellular agriculture salmon should not exist or be adopted			
+JT	GENOME	Genome	General		replaces_fresh_meat		WhitespaceMinimizedString	replaces_fresh_meat												Cellular agriculture will replace most fresh meat products in stores			
+JT	GENOME	Genome	General		res_id		WhitespaceMinimizedString													Identification			
+JT	GENOME	Genome	General		see_agri_industry_icecream		WhitespaceMinimizedString	see_agri_industry_icecream												I would like to see cellular agriculture ice cream be part of the Canadian agri\-food industry			
+JT	GENOME	Genome	General		see_agri_industry_nuggets		WhitespaceMinimizedString	see_agri_industry_nuggets												I would like to see cellular agriculture chicken nuggets be part of the Canadian agri\-food industry			
+JT	GENOME	Genome	General		see_agri_industry_salmon		WhitespaceMinimizedString	see_agri_industry_salmon												I would like to see cellular agriculture salmon be part of the Canadian agri\-food industry			
+JT	GENOME	Genome	General		see_global_dev_icecream		WhitespaceMinimizedString	see_global_dev_icecream												I would like to see cellular agriculture ice cream developed in places across the world			
+JT	GENOME	Genome	General		see_global_dev_nuggets		WhitespaceMinimizedString	see_global_dev_nuggets												I would like to see cellular agriculture chicken nuggets developed in places across the world			
+JT	GENOME	Genome	General		see_global_dev_salmon		WhitespaceMinimizedString	see_global_dev_salmon												I would like to see cellular agriculture salmon developed in places across the world			
+JT	GENOME	Genome	General		see_in_store_icecream		WhitespaceMinimizedString	see_in_store_icecream												I would like to see cellular agriculture ice cream sold in grocery stores			
+JT	GENOME	Genome	General		see_in_store_nuggets		WhitespaceMinimizedString	see_in_store_nuggets												I would like to see cellular agriculture chicken nuggets sold in grocery stores			
+JT	GENOME	Genome	General		see_in_store_salmon		WhitespaceMinimizedString	see_in_store_salmon												I would like to see cellular agriculture salmon sold in grocery stores			
+JT	GENOME	Genome	General		see_local_food_icecream		WhitespaceMinimizedString	see_local_food_icecream												I would like to see cellular agriculture ice cream be part of the local food economy where I live			
+JT	GENOME	Genome	General		see_local_food_nuggets		WhitespaceMinimizedString	see_local_food_nuggets												I would like to see cellular agriculture chicken nuggets be part of the local food economy where I live			
+JT	GENOME	Genome	General		see_local_food_salmon		WhitespaceMinimizedString	see_local_food_salmon												I would like to see cellular agriculture salmon be part of the local food economy where I live			
+JT	GENOME	Genome	General		self_grown_food_freq		WhitespaceMinimizedString	self_grown_food_freq												How often do you eat food that you grew or harvested yourself?			
+JT	GENOME	Genome	General		ses_id		WhitespaceMinimizedString													Session ID			
+JT	GENOME	Genome	General		source_backyard_animals		Boolean													Raise animals on own property			
+JT	GENOME	Genome	General		source_butcher_shop		Boolean													Obtain animal\-sourced foods from butcher shops			
+JT	GENOME	Genome	General		source_direct_from_farms		Boolean													Obtain animal\-sourced foods directly from farms			
+JT	GENOME	Genome	General		source_farmers_market		Boolean													Obtain animal\-sourced foods from farmers’ markets or farm stands			
+JT	GENOME	Genome	General		source_food_bank		Boolean													Obtain animal\-sourced foods from food banks			
+JT	GENOME	Genome	General		source_grocery_superstore		Boolean													Obtain animal\-sourced foods from grocery stores or superstores			
+JT	GENOME	Genome	General		source_hunting_fishing		Boolean													Obtain animal\-sourced foods through hunting or fishing			
+JT	GENOME	Genome	General		source_other_specified		WhitespaceMinimizedString													Others (specify)			
+JT	GENOME	Genome	General		source_own_farm		Boolean													Produce animal\-sourced foods on own farm			
+JT	GENOME	Genome	General		start_time		DateTime													Survey start time			
+JT	GENOME	Genome	General		state		WhitespaceMinimizedString													State			
+JT	GENOME	Genome	General		status		WhitespaceMinimizedString													Status			
+JT	GENOME	Genome	General		support_cell_ag_sale		WhitespaceMinimizedString	support_cell_ag_sale												Support the sale of cellular agriculture products in Canada			
+JT	GENOME	Genome	General		tag		WhitespaceMinimizedString													Tag			
+JT	GENOME	Genome	General		tech_marginalized		WhitespaceMinimizedString	tech_marginalized												Technology disproportionately affects marginalized communities			
+JT	GENOME	Genome	General		tech_negatives		WhitespaceMinimizedString	tech_negatives												The negative effects of technology outweigh its advantages			
+JT	GENOME	Genome	General		tech_resources		WhitespaceMinimizedString	tech_resources												Future resource shortages will be solved by technology			
+JT	GENOME	Genome	General		tech_society		WhitespaceMinimizedString	tech_society												Society is worse off because of new technologies			
+JT	GENOME	Genome	General		trust_ag_companies		WhitespaceMinimizedString	trust_ag_companies												I trust agricultural companies to manage risks of food technologies			
+JT	GENOME	Genome	General		trust_celebrities		WhitespaceMinimizedString	trust_celebrities												I trust celebrities or influencers to inform me about risks			
+JT	GENOME	Genome	General		trust_env_activists		WhitespaceMinimizedString	trust_env_activists												I trust environmental activists to inform me about risks			
+JT	GENOME	Genome	General		trust_family_friends		WhitespaceMinimizedString	trust_family_friends												I trust family and friends to inform me about risks			
+JT	GENOME	Genome	General		trust_regulators		WhitespaceMinimizedString	trust_regulators												I trust government regulators to manage risks of food technologies			
+JT	GENOME	Genome	General		trust_scientists		WhitespaceMinimizedString	trust_scientists												I trust scientists to manage risks of food technologies			
+JT	GENOME	Genome	General		try_cell_icecream		WhitespaceMinimizedString	try_cell_icecream												I would like to try cellular agriculture ice cream at least once			
+JT	GENOME	Genome	General		try_cell_nuggets		WhitespaceMinimizedString	try_cell_nuggets												I would like to try cellular agriculture chicken nuggets at least once			
+JT	GENOME	Genome	General		try_cell_salmon		WhitespaceMinimizedString	try_cell_salmon												I would like to try cellular agriculture salmon at least once			
+JT	GENOME	Genome	General		url		WhitespaceMinimizedString													Link			
+JT	GENOME	Genome	General		used_in_processed_foods		WhitespaceMinimizedString	used_in_processed_foods												Cellular agriculture will be used as ingredients in processed foods			
+JT	GENOME	Genome	General		user_agent		WhitespaceMinimizedString													User agent			
+JT	GENOME	Genome	General		vertical_agriculture		WhitespaceMinimizedString	vertical_agriculture												Compared to cellular agriculture, how comfortable are you with vegetables grown indoors using artificial lighting and nutrients (vertical agriculture)?			
+JT	GENOME	Genome	General		work_farming_employee		Boolean													Involved in farm work as an employee or volunteer on a farm that you do not own			
+JT	GENOME	Genome	General		work_farming_owner		Boolean													Involved in farming as a farm owner or manager			
+JT	GENOME	Genome	General		work_food_access		Boolean													Involved in food access services (e.g., food banks) as part of your job or volunteer work			
+JT	GENOME	Genome	General		work_food_distribution		Boolean													Involved in food distribution activities as part of your job or volunteer work			
+JT	GENOME	Genome	General		work_food_education		Boolean													Involved in food\-related education as part of your job or volunteer work			
+JT	GENOME	Genome	General		work_food_processing		Boolean													Involved in food processing activities as part of your job or volunteer work			
+JT	GENOME	Genome	General		work_food_retail		Boolean													Involved in food retail (e.g., grocery stores) as part of your job or volunteer work			
+JT	GENOME	Genome	General		work_none		Boolean													Selected ‘none of the above’ for involvement in food\-related activities			
+JT	GENOME	Genome	General		work_prefer_not_say		Boolean													Selected ‘prefer not to say’ for involvement in food\-related activities			

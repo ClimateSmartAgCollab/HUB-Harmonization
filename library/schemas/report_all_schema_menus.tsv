@@ -343,6 +343,14 @@ NDGP	Pedigree		PROJECT	1111		EDGP & RDGP & NDGP & NAEX
 NDGP	Pedigree	TRANSACTION_TYPE	TRANSACTION_TYPE								
 NDGP	Pedigree		TRANSACTION_TYPE	D		Delete					
 NDGP	Pedigree		TRANSACTION_TYPE	U		Update					
+peACE	PeaMAGIC	Trait_ID	Trait_ID								
+peACE	PeaMAGIC		Trait_ID	DTF		Days to flowering					
+peACE	PeaMAGIC		Trait_ID	DTM		Days to maturity					
+peACE	PeaMAGIC		Trait_ID	LDG		Lodging					
+peACE	PeaMAGIC		Trait_ID	PH		Plant height					
+peACE	PeaMAGIC		Trait_ID	PROT		Seed protein concentration					
+peACE	PeaMAGIC		Trait_ID	STARCH		Seed starch concentration					
+peACE	PeaMAGIC		Trait_ID	YLD		Grain yield					
 JT	GENOME	access_training	access_training								
 JT	GENOME		access_training	Agree		AG					
 JT	GENOME		access_training	Disagree		DA					

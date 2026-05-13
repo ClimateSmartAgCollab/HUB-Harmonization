@@ -1,0 +1,9 @@
+title	name	text	meaning	menu_1	menu_2	menu_3	menu_4	menu_5	description
+Trait_ID	Trait_ID								
+		DTF		Days to flowering					
+		DTM		Days to maturity					
+		LDG		Lodging					
+		PH		Plant height					
+		PROT		Seed protein concentration					
+		STARCH		Seed starch concentration					
+		YLD		Grain yield					
