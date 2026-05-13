@@ -1,0 +1,10 @@
+class_name	slot_group	slot_uri	name	title	range	range_2	unit	identifier	multivalued	minimum_cardinality	maximum_cardinality	required	recommended	minimum_value	maximum_value	pattern	structured_pattern	description	comments	examples	annotations
+Peamagic	General		Environment_ID	Environment Identifier	WhitespaceMinimizedString													Identifier for a unique year\-location combination			
+Peamagic	General		Line_ID	Line identifier	WhitespaceMinimizedString													Unique identifier for each inbred MAGIC line			
+Peamagic	General		Location	Location	WhitespaceMinimizedString													Name of the field trial location			
+Peamagic	General		Rep	Replication	decimal													Replication number within the experimental design			
+Peamagic	General		Study_ID	Study Identifier	WhitespaceMinimizedString													Unique identifier for the study dataset			
+Peamagic	General		Trait_ID	Trait identifier	WhitespaceMinimizedString	Trait_ID												Identifier for the measured trait (e.g., DTF, DTM)			
+Peamagic	General		Unit	Measurement unit	WhitespaceMinimizedString													Unit of measurement corresponding to the trait value (e.g., days, cm, kg/ha)			
+Peamagic	General		Value	Trait value	decimal													Observed or measured value for the specified trait			
+Peamagic	General		Year	Year	decimal													Calendar year in which the field experiment was conducted			

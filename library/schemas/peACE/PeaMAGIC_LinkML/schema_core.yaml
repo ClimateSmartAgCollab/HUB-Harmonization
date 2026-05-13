@@ -1,7 +1,16 @@
-id: https://example.com/Genome
-name: Genome
-title: GENOME
-description: Unknown
+id: https://example.com/Peamagic
+name: Peamagic
+title: PeaMAGIC
+description: This schema describes a multi\-environment phenotypic and genotypic dataset
+  for a pea (Pisum sativum) MAGIC population comprising 848 inbred lines derived from
+  an 8\-founder crossing scheme. The population was genotyped using skim sequencing
+  (Skim\-seq) to capture genome\-wide variation. Field phenotyping was conducted across
+  multiple environments, including one location with three replicates in 2024 and
+  three locations with two replicates each in 2025. Traits measured include days to
+  flowering, days to maturity, lodging, plant height, seed protein concentration,
+  seed starch concentration, and grain yield (kg/ha). The schema captures structured
+  observations across genotypes, environments, and replicates, along with standardized
+  trait definitions and measurement units.
 version: 0.0.0
 in_language: en
 imports:
@@ -9,18 +18,27 @@ imports:
 prefixes:
   linkml: https://w3id.org/linkml/
 classes:
-  Genome:
-    name: Genome
-    title: GENOME
-    description: Unknown
+  Peamagic:
+    name: Peamagic
+    title: PeaMAGIC
+    description: This schema describes a multi\-environment phenotypic and genotypic
+      dataset for a pea (Pisum sativum) MAGIC population comprising 848 inbred lines
+      derived from an 8\-founder crossing scheme. The population was genotyped using
+      skim sequencing (Skim\-seq) to capture genome\-wide variation. Field phenotyping
+      was conducted across multiple environments, including one location with three
+      replicates in 2024 and three locations with two replicates each in 2025. Traits
+      measured include days to flowering, days to maturity, lodging, plant height,
+      seed protein concentration, seed starch concentration, and grain yield (kg/ha).
+      The schema captures structured observations across genotypes, environments,
+      and replicates, along with standardized trait definitions and measurement units.
     keywords: RDF401
   Container:
     name: Container
     tree_root: true
     attributes:
-      name: GenomeData
+      name: PeamagicData
       multivalued: true
-      range: Genome
+      range: Peamagic
       inlined_as_list: true
 slots: {}
 enums:

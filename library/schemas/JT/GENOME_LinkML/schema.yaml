@@ -1,7 +1,7 @@
-id: https://example.com/AgriGenomicsOptionSurvey
-name: AgriGenomicsOptionSurvey
-title: Agri-genomics_Option_Survey
-description: Agri\-genomics Option Survey
+id: https://example.com/Genome
+name: Genome
+title: GENOME
+description: Unknown
 version: 0.0.0
 in_language: en
 imports:
@@ -9,10 +9,10 @@ imports:
 prefixes:
   linkml: https://w3id.org/linkml/
 classes:
-  AgriGenomicsOptionSurvey:
-    name: AgriGenomicsOptionSurvey
-    title: Agri-genomics_Option_Survey
-    description: Agri\-genomics Option Survey
+  Genome:
+    name: Genome
+    title: GENOME
+    description: Unknown
     keywords: RDF401
     slots:
       - access_training
@@ -1070,9 +1070,9 @@ classes:
     name: Container
     tree_root: true
     attributes:
-      name: AgriGenomicsOptionSurveyData
+      name: GenomeData
       multivalued: true
-      range: AgriGenomicsOptionSurvey
+      range: Genome
       inlined_as_list: true
 slots:
   access_training:
@@ -1080,853 +1080,1063 @@ slots:
     any_of:
       - range: WhitespaceMinimizedString
       - range: access_training
+    description: Anyone will be able to access information and training to produce cellular agriculture foods
   act_on_climate:
     name: act_on_climate
     any_of:
       - range: WhitespaceMinimizedString
       - range: act_on_climate
+    description: Human causes of climate change should be addressed immediately
   age:
     name: age
     range: Boolean
+    description: Are you 19 years old or older?
   attention_check:
     name: attention_check
     any_of:
       - range: WhitespaceMinimizedString
       - range: attention_check
+    description: Attention check
   birth_year:
     name: birth_year
     range: WhitespaceMinimizedString
+    description: Year of birth
   break_up_big_tech:
     name: break_up_big_tech
     any_of:
       - range: WhitespaceMinimizedString
       - range: break_up_big_tech
+    description: Big global tech companies should be broken up
   buy_if_cheaper_icecream:
     name: buy_if_cheaper_icecream
     any_of:
       - range: WhitespaceMinimizedString
       - range: buy_if_cheaper_icecream
+    description: I would buy cellular agriculture ice cream instead of conventional products if it were cheaper
   buy_if_cheaper_nuggets:
     name: buy_if_cheaper_nuggets
     any_of:
       - range: WhitespaceMinimizedString
       - range: buy_if_cheaper_nuggets
+    description: I would buy cellular agriculture chicken nuggets instead of conventional products if it were cheaper
   buy_if_cheaper_salmon:
     name: buy_if_cheaper_salmon
     any_of:
       - range: WhitespaceMinimizedString
       - range: buy_if_cheaper_salmon
+    description: I would buy cellular agriculture salmon instead of conventional products if it were cheaper
   buy_if_healthier_icecream:
     name: buy_if_healthier_icecream
     any_of:
       - range: WhitespaceMinimizedString
       - range: buy_if_healthier_icecream
+    description: I would buy cellular agriculture ice cream instead of conventional products if it were healthier
   buy_if_healthier_nuggets:
     name: buy_if_healthier_nuggets
     any_of:
       - range: WhitespaceMinimizedString
       - range: buy_if_healthier_nuggets
+    description: I would buy cellular agriculture chicken nuggets instead of conventional products if it were healthier
   buy_if_healthier_salmon:
     name: buy_if_healthier_salmon
     any_of:
       - range: WhitespaceMinimizedString
       - range: buy_if_healthier_salmon
+    description: I would buy cellular agriculture salmon instead of conventional products if it were healthier
   buy_instead_icecream:
     name: buy_instead_icecream
     any_of:
       - range: WhitespaceMinimizedString
       - range: buy_instead_icecream
+    description: I would buy cellular agriculture ice cream instead of conventional products
   buy_instead_nuggets:
     name: buy_instead_nuggets
     any_of:
       - range: WhitespaceMinimizedString
       - range: buy_instead_nuggets
+    description: I would buy cellular agriculture chicken nuggets instead of conventional products
   buy_instead_salmon:
     name: buy_instead_salmon
     any_of:
       - range: WhitespaceMinimizedString
       - range: buy_instead_salmon
+    description: I would buy cellular agriculture salmon instead of conventional products
   buy_regular_cell_icecream:
     name: buy_regular_cell_icecream
     any_of:
       - range: WhitespaceMinimizedString
       - range: buy_regular_cell_icecream
+    description: I would like to buy cellular agriculture ice cream regularly
   buy_regular_cell_nuggets:
     name: buy_regular_cell_nuggets
     any_of:
       - range: WhitespaceMinimizedString
       - range: buy_regular_cell_nuggets
+    description: I would like to buy cellular agriculture chicken nuggets regularly
   buy_regular_cell_salmon:
     name: buy_regular_cell_salmon
     any_of:
       - range: WhitespaceMinimizedString
       - range: buy_regular_cell_salmon
+    description: I would like to buy cellular agriculture salmon regularly
   city:
     name: city
     range: WhitespaceMinimizedString
+    description: City
   city_only_access:
     name: city_only_access
     any_of:
       - range: WhitespaceMinimizedString
       - range: city_only_access
+    description: Cellular agriculture products will mainly be available in urban areas rather than rural areas
   city_only_jobs:
     name: city_only_jobs
     any_of:
       - range: WhitespaceMinimizedString
       - range: city_only_jobs
+    description: Cellular agriculture jobs will mostly be located in urban areas
   climate_biodiversity_loss:
     name: climate_biodiversity_loss
     any_of:
       - range: WhitespaceMinimizedString
       - range: climate_biodiversity_loss
+    description: Climate change will lead to major biodiversity loss
   climate_ecosystem:
     name: climate_ecosystem
     any_of:
       - range: WhitespaceMinimizedString
       - range: climate_ecosystem
+    description: Climate change impacts on ecosystems are exaggerated
   climate_not_urgent:
     name: climate_not_urgent
     any_of:
       - range: WhitespaceMinimizedString
       - range: climate_not_urgent
+    description: Climate change is not among the most urgent global problems
   comm:
     name: comm
     range: WhitespaceMinimizedString
+    description: Communication/Panel ID
   comment_cell_agri_fut:
     name: comment_cell_agri_fut
     range: WhitespaceMinimizedString
+    description: Do you have any additional comments about the future scenarios for cellular agriculture?
   community_owned_model:
     name: community_owned_model
     any_of:
       - range: WhitespaceMinimizedString
       - range: community_owned_model
+    description: Cellular agriculture will be produced by small, community\-owned businesses.
   consent_given:
     name: consent_given
     range: Boolean
+    description: Do you consent to participating in this survey study?
   cont_id:
     name: cont_id
     range: WhitespaceMinimizedString
+    description: Cont ID
   conventional_farmers_opportunity:
     name: conventional_farmers_opportunity
     any_of:
       - range: WhitespaceMinimizedString
       - range: conventional_farmers_opportunity
+    description: Cellular agriculture will create new opportunities for conventional farmers
   corp_patents_limit_knowledge:
     name: corp_patents_limit_knowledge
     any_of:
       - range: WhitespaceMinimizedString
       - range: corp_patents_limit_knowledge
+    description: Corporations should not limit access to knowledge through patents
   country:
     name: country
     range: WhitespaceMinimizedString
+    description: Country
   date_sub:
     name: date_sub
     range: DateTime
     unit:
       ucum_code: date
+    description: Submission date
   diet_avoid_red_meat:
     name: diet_avoid_red_meat
     range: Boolean
+    description: Avoids red meat but eats other meat
   diet_buying_organic:
     name: diet_buying_organic
     range: Boolean
+    description: Buy organic foods
   diet_flexitarian:
     name: diet_flexitarian
     range: Boolean
+    description: Identifies as flexitarian
   diet_halal:
     name: diet_halal
     range: Boolean
+    description: Follows a halal diet
   diet_keto:
     name: diet_keto
     range: Boolean
+    description: Identifies as a ketogenic diet
   diet_kosher:
     name: diet_kosher
     range: Boolean
+    description: Follows a kosher diet
   diet_none_of_the_above:
     name: diet_none_of_the_above
     range: Boolean
+    description: Does not identify with listed diet types
   diet_other_specified:
     name: diet_other_specified
     range: WhitespaceMinimizedString
+    description: Others (specify)
   diet_paleo:
     name: diet_paleo
     range: Boolean
+    description: Identifies as paleolithic diet
   diet_pescatarian:
     name: diet_pescatarian
     range: Boolean
+    description: Identifies as pescatarian
   diet_plant_based:
     name: diet_plant_based
     range: Boolean
+    description: Identifies as plant\-based
   diet_vegan:
     name: diet_vegan
     range: Boolean
+    description: Identifies as vegan
   diet_vegetarian:
     name: diet_vegetarian
     range: Boolean
+    description: Identifies as vegetarian
   education_level:
     name: education_level
     any_of:
       - range: WhitespaceMinimizedString
       - range: education_level
+    description: Highest level of education completed
   env_impact_beef:
     name: env_impact_beef
     any_of:
       - range: WhitespaceMinimizedString
       - range: env_impact_beef
+    description: Producing beef is harmful to the environment
   env_impact_chicken:
     name: env_impact_chicken
     any_of:
       - range: WhitespaceMinimizedString
       - range: env_impact_chicken
+    description: Producing chicken is harmful to the environment
   env_impact_fish:
     name: env_impact_fish
     any_of:
       - range: WhitespaceMinimizedString
       - range: env_impact_fish
+    description: Producing fish is harmful to the environment
   env_impact_pork:
     name: env_impact_pork
     any_of:
       - range: WhitespaceMinimizedString
       - range: env_impact_pork
+    description: Producing pork is harmful to the environment
   eth_african:
     name: eth_african
     range: Boolean
+    description: Identifies as African
   eth_caribbean:
     name: eth_caribbean
     range: Boolean
+    description: Identifies as Caribbean
   eth_east_asian:
     name: eth_east_asian
     range: Boolean
+    description: Identifies as East Asian
   eth_european:
     name: eth_european
     range: Boolean
+    description: Identifies as European
   eth_indigenous:
     name: eth_indigenous
     range: Boolean
+    description: Identifies as Indigenous (e.g., First Nations, Inuit, Métis)
   eth_latin_american:
     name: eth_latin_american
     range: Boolean
+    description: Identifies as Latin, Central, or South American
   eth_middle_eastern:
     name: eth_middle_eastern
     range: Boolean
+    description: Identifies as Middle Eastern, Arab, or North African
   eth_oceania:
     name: eth_oceania
     range: Boolean
+    description: Identifies as Oceanian
   eth_other:
     name: eth_other
     range: WhitespaceMinimizedString
+    description: Other ethnicity or ancestry
   eth_prefer_not_say:
     name: eth_prefer_not_say
     range: Boolean
+    description: Prefer not to say
   eth_south_asian:
     name: eth_south_asian
     range: Boolean
+    description: Identifies as South Asian
   eth_southeast_asian:
     name: eth_southeast_asian
     range: Boolean
+    description: Identifies as Southeast Asian
   ext_affordable_protein:
     name: ext_affordable_protein
     any_of:
       - range: WhitespaceMinimizedString
       - range: ext_affordable_protein
+    description: Cellular agriculture will make protein products more affordable
   ext_disrespectful_nature:
     name: ext_disrespectful_nature
     any_of:
       - range: WhitespaceMinimizedString
       - range: ext_disrespectful_nature
+    description: Cellular agriculture is disrespectful to nature
   ext_env_sustainability:
     name: ext_env_sustainability
     any_of:
       - range: WhitespaceMinimizedString
       - range: ext_env_sustainability
+    description: Cellular agriculture will make food production more environmentally sustainable
   ext_healthy_products:
     name: ext_healthy_products
     any_of:
       - range: WhitespaceMinimizedString
       - range: ext_healthy_products
+    description: Cellular agriculture will produce healthy food products
   ext_improve_welfare:
     name: ext_improve_welfare
     any_of:
       - range: WhitespaceMinimizedString
       - range: ext_improve_welfare
+    description: Cellular agriculture will improve animal welfare
   ext_solve_hunger:
     name: ext_solve_hunger
     any_of:
       - range: WhitespaceMinimizedString
       - range: ext_solve_hunger
+    description: Cellular agriculture will help resolve world hunger and food insecurity
   ext_tasty_products:
     name: ext_tasty_products
     any_of:
       - range: WhitespaceMinimizedString
       - range: ext_tasty_products
+    description: Cellular agriculture will produce tasty food products
   ext_unnatural:
     name: ext_unnatural
     any_of:
       - range: WhitespaceMinimizedString
       - range: ext_unnatural
+    description: Cellular agriculture is unnatural
   ext_viable_alternative:
     name: ext_viable_alternative
     any_of:
       - range: WhitespaceMinimizedString
       - range: ext_viable_alternative
+    description: Cellular agriculture will be a viable alternative to conventional animal\-sourced foods
   farmers_lose_jobs:
     name: farmers_lose_jobs
     any_of:
       - range: WhitespaceMinimizedString
       - range: farmers_lose_jobs
+    description: Conventional farmers will lose jobs as cellular agriculture grows
   farmers_transition:
     name: farmers_transition
     any_of:
       - range: WhitespaceMinimizedString
       - range: farmers_transition
+    description: Farmers will transition to producing cellular agriculture products
   food_banks_benefit:
     name: food_banks_benefit
     any_of:
       - range: WhitespaceMinimizedString
       - range: food_banks_benefit
+    description: Food banks and community centres will benefit from local cellular agriculture production
   freq_dairy:
     name: freq_dairy
     any_of:
       - range: WhitespaceMinimizedString
       - range: freq_dairy
+    description: How often do you eat dairy products?
   freq_eggs:
     name: freq_eggs
     any_of:
       - range: WhitespaceMinimizedString
       - range: freq_eggs
+    description: How often do you eat eggs?
   freq_fish:
     name: freq_fish
     any_of:
       - range: WhitespaceMinimizedString
       - range: freq_fish
+    description: How often do you eat fish and seafood?
   freq_other:
     name: freq_other
     range: WhitespaceMinimizedString
+    description: How often do you eat other animal\-sourced foods?
   freq_pork:
     name: freq_pork
     any_of:
       - range: WhitespaceMinimizedString
       - range: freq_pork
+    description: How often do you eat pork?
   freq_poultry:
     name: freq_poultry
     any_of:
       - range: WhitespaceMinimizedString
       - range: freq_poultry
+    description: How often do you eat poultry?
   freq_red_meat:
     name: freq_red_meat
     any_of:
       - range: WhitespaceMinimizedString
       - range: freq_red_meat
+    description: How often do you eat red meat (e.g., beef)?
   gatekeep_methods:
     name: gatekeep_methods
     any_of:
       - range: WhitespaceMinimizedString
       - range: gatekeep_methods
+    description: Production methods for cellular agriculture will be kept out of public understanding (e.g., patents, trade secrets)
   gender:
     name: gender
     any_of:
       - range: WhitespaceMinimizedString
       - range: gender
+    description: Gender identity
   gender_other:
     name: gender_other
     range: WhitespaceMinimizedString
+    description: Other gender identity (please specify)
   glob_benefits:
     name: glob_benefits
     any_of:
       - range: WhitespaceMinimizedString
       - range: glob_benefits
+    description: Globalization has positive impacts for most people
   gm_beef:
     name: gm_beef
     any_of:
       - range: WhitespaceMinimizedString
       - range: gm_beef
+    description: Compared to cellular agriculture, how comfortable are you with beef from genetically modified cows designed to reduce greenhouse gas emissions?
   gm_rice:
     name: gm_rice
     any_of:
       - range: WhitespaceMinimizedString
       - range: gm_rice
+    description: Compared to cellular agriculture, how comfortable are you with rice developed using genetically modified seeds for drought tolerance?
   grocery_availability:
     name: grocery_availability
     any_of:
       - range: WhitespaceMinimizedString
       - range: grocery_availability
+    description: Cellular agriculture products will be widely available in most grocery stores
   heard_cellular_agriculture:
     name: heard_cellular_agriculture
     any_of:
       - range: WhitespaceMinimizedString
       - range: heard_cellular_agriculture
+    description: Have you heard of cellular agriculture before?
   home_production_possible:
     name: home_production_possible
     any_of:
       - range: WhitespaceMinimizedString
       - range: home_production_possible
+    description: People will be able to produce cellular agriculture food at home
   hope_tech:
     name: hope_tech
     any_of:
       - range: WhitespaceMinimizedString
       - range: hope_tech
+    description: Hope for the future lies more in people’s actions than in technology
   household_composition:
     name: household_composition
     any_of:
       - range: WhitespaceMinimizedString
       - range: household_composition
+    description: Household composition
   household_composition_other:
     name: household_composition_other
     range: WhitespaceMinimizedString
+    description: Other household composition (please specify)
   household_income:
     name: household_income
     any_of:
       - range: WhitespaceMinimizedString
       - range: household_income
+    description: Total household income before tax
   human_caused_climate:
     name: human_caused_climate
     any_of:
       - range: WhitespaceMinimizedString
       - range: human_caused_climate
+    description: Evidence for human\-caused climate change is incomplete
   human_impacts:
     name: human_impacts
     any_of:
       - range: WhitespaceMinimizedString
       - range: human_impacts
+    description: Human activities are destabilizing Earth’s systems
   imp_animal_welfare:
     name: imp_animal_welfare
     range: Boolean
+    description: Animal welfare conditions are an important factor
   imp_antibiotic_free:
     name: imp_antibiotic_free
     range: Boolean
+    description: Absence of antibiotics or growth hormones is an important factor
   imp_cost:
     name: imp_cost
     range: Boolean
+    description: Cost is an important factor when purchasing animal\-sourced foods
   imp_cultural_practices:
     name: imp_cultural_practices
     range: Boolean
+    description: Cultural practices (e.g., Halal, Kosher) are an important factor
   imp_dairy:
     name: imp_dairy
     any_of:
       - range: WhitespaceMinimizedString
       - range: imp_dairy
+    description: Dairy is important to my diet
   imp_eggs:
     name: imp_eggs
     any_of:
       - range: WhitespaceMinimizedString
       - range: imp_eggs
+    description: Eggs are important to my diet
   imp_fish:
     name: imp_fish
     any_of:
       - range: WhitespaceMinimizedString
       - range: imp_fish
+    description: Fish and seafood are important to my diet
   imp_freshness:
     name: imp_freshness
     range: Boolean
+    description: Freshness (e.g., never frozen) is an important factor
   imp_organic:
     name: imp_organic
     range: Boolean
+    description: Organic certification is an important factor
   imp_other_foods_specified:
     name: imp_other_foods_specified
     range: WhitespaceMinimizedString
+    description: Others (specify)
   imp_other_specified:
     name: imp_other_specified
     range: WhitespaceMinimizedString
+    description: Others (specify)
   imp_pork:
     name: imp_pork
     any_of:
       - range: WhitespaceMinimizedString
       - range: imp_pork
+    description: Pork is important to my diet
   imp_poultry:
     name: imp_poultry
     any_of:
       - range: WhitespaceMinimizedString
       - range: imp_poultry
+    description: Poultry is important to my diet
   imp_production:
     name: imp_production
     range: Boolean
+    description: Food being produced locally is an important factor
   imp_red_meat:
     name: imp_red_meat
     any_of:
       - range: WhitespaceMinimizedString
       - range: imp_red_meat
+    description: Red meat is important to my diet
   imp_self_hunted:
     name: imp_self_hunted
     range: Boolean
+    description: Personally sourced (hunted/fished) food is an important factor
   imp_sustainability:
     name: imp_sustainability
     range: Boolean
+    description: Sustainability (environmental practices) is an important factor
   inaccessible_education:
     name: inaccessible_education
     any_of:
       - range: WhitespaceMinimizedString
       - range: inaccessible_education
+    description: Becoming a cellular agriculture professional will require advanced education that most people cannot access
   industry_dominated:
     name: industry_dominated
     any_of:
       - range: WhitespaceMinimizedString
       - range: industry_dominated
+    description: Cellular agriculture will mainly be run by large food production companies
   innovation_comfort:
     name: innovation_comfort
     range: WhitespaceMinimizedString
+    description: Please explain your level of comfort or discomfort with these food innovations
   ip_address:
     name: ip_address
     range: WhitespaceMinimizedString
+    description: IP address
   lang:
     name: lang
     range: WhitespaceMinimizedString
+    description: Language
   larg_corp_influence:
     name: larg_corp_influence
     any_of:
       - range: WhitespaceMinimizedString
       - range: larg_corp_influence
+    description: The increasing influence of large corporations is a problem
   lat:
     name: lat
     range: decimal
+    description: Latitude
   leg_comm:
     name: leg_comm
     range: WhitespaceMinimizedString
+    description: Legacy communication
   lives_in_can:
     name: lives_in_can
     range: Boolean
+    description: Do you live in Canada?
   local_food_security:
     name: local_food_security
     any_of:
       - range: WhitespaceMinimizedString
       - range: local_food_security
+    description: Cellular agriculture will contribute to greater food security in my city or town
   location_general:
     name: location_general
     range: WhitespaceMinimizedString
+    description: General geographic location of the respondent derived from the first three characters of their postal code
   long:
     name: long
     range: decimal
+    description: Longitude
   main_grocery_shopper:
     name: main_grocery_shopper
     any_of:
       - range: WhitespaceMinimizedString
       - range: main_grocery_shopper
+    description: Primary grocery shopper in household
   min:
     name: min
     range: decimal
     unit:
       ucum_code: minutes
+    description: Duration
   newhiddenvalue:
     name: newhiddenvalue
     range: WhitespaceMinimizedString
+    description: New hidden value
   online_superstore_availability:
     name: online_superstore_availability
     any_of:
       - range: WhitespaceMinimizedString
       - range: online_superstore_availability
+    description: Cellular agriculture products will be widely available online and in superstores
   only_wealthy_access:
     name: only_wealthy_access
     any_of:
       - range: WhitespaceMinimizedString
       - range: only_wealthy_access
+    description: Only wealthier people will be able to afford cellular agriculture products
   plant_burger_mushroom:
     name: plant_burger_mushroom
     any_of:
       - range: WhitespaceMinimizedString
       - range: plant_burger_mushroom
+    description: Compared to cellular agriculture, how comfortable are you with plant\-based burgers made from mushroom protein?
   plant_burger_soy:
     name: plant_burger_soy
     any_of:
       - range: WhitespaceMinimizedString
       - range: plant_burger_soy
+    description: Compared to cellular agriculture, how comfortable are you with plant\-based burgers made from soy protein?
   political_scale:
     name: political_scale
     range: Boolean
+    description: Political orientation on a conservative–liberal scale.
   political_scale_other:
     name: political_scale_other
     range: WhitespaceMinimizedString
+    description: Other political orientation (please specify)
   post:
     name: post
     range: WhitespaceMinimizedString
+    description: Post
   postal_prefix:
     name: postal_prefix
     range: WhitespaceMinimizedString
+    description: First three characters of postal code
   priority_climate_resilience:
     name: priority_climate_resilience
     range: Boolean
+    description: Prioritize strengthening climate resilience in food systems
   priority_farm_animal_conditions:
     name: priority_farm_animal_conditions
     range: Boolean
+    description: Prioritize improving farm animal welfare conditions
   priority_food_tech:
     name: priority_food_tech
     range: Boolean
+    description: Prioritize developing new food production technologies
   priority_ghg_reduction:
     name: priority_ghg_reduction
     range: Boolean
+    description: Prioritize reducing greenhouse gas emissions from food production
   priority_healthy_access:
     name: priority_healthy_access
     range: Boolean
+    description: Prioritize increasing access to healthy foods
   priority_indigenous_food_practices:
     name: priority_indigenous_food_practices
     range: Boolean
+    description: Prioritize supporting Indigenous food practices
   priority_local_retail:
     name: priority_local_retail
     range: Boolean
+    description: Prioritize encouraging stores to sell more local food
   priority_migrant_worker_rights:
     name: priority_migrant_worker_rights
     range: Boolean
+    description: Prioritize ensuring migrant worker rights and protections
   priority_none:
     name: priority_none
     range: Boolean
+    description: No priorities
   priority_other_specified:
     name: priority_other_specified
     range: WhitespaceMinimizedString
+    description: Other (specify)
   priority_vegan_shift:
     name: priority_vegan_shift
     range: Boolean
+    description: Prioritize encouraging a shift toward vegan or vegetarian diets
   priority_wildlife_habitat:
     name: priority_wildlife_habitat
     range: Boolean
+    description: Prioritize protecting wildlife habitat from agricultural impacts
   progress_tech:
     name: progress_tech
     any_of:
       - range: WhitespaceMinimizedString
       - range: progress_tech
+    description: A country’s progress can be measured by its technological development.
   ref:
     name: ref
     range: WhitespaceMinimizedString
+    description: Reference source
   reject_cell_icecream:
     name: reject_cell_icecream
     any_of:
       - range: WhitespaceMinimizedString
       - range: reject_cell_icecream
+    description: Cellular agriculture ice cream should not exist or be adopted
   reject_cell_nuggets:
     name: reject_cell_nuggets
     any_of:
       - range: WhitespaceMinimizedString
       - range: reject_cell_nuggets
+    description: Cellular agriculture chicken nuggets should not exist or be adopted
   reject_cell_salmon:
     name: reject_cell_salmon
     any_of:
       - range: WhitespaceMinimizedString
       - range: reject_cell_salmon
+    description: Cellular agriculture salmon should not exist or be adopted
   replaces_fresh_meat:
     name: replaces_fresh_meat
     any_of:
       - range: WhitespaceMinimizedString
       - range: replaces_fresh_meat
+    description: Cellular agriculture will replace most fresh meat products in stores
   res_id:
     name: res_id
     range: WhitespaceMinimizedString
+    description: Identification
   see_agri_industry_icecream:
     name: see_agri_industry_icecream
     any_of:
       - range: WhitespaceMinimizedString
       - range: see_agri_industry_icecream
+    description: I would like to see cellular agriculture ice cream be part of the Canadian agri\-food industry
   see_agri_industry_nuggets:
     name: see_agri_industry_nuggets
     any_of:
       - range: WhitespaceMinimizedString
       - range: see_agri_industry_nuggets
+    description: I would like to see cellular agriculture chicken nuggets be part of the Canadian agri\-food industry
   see_agri_industry_salmon:
     name: see_agri_industry_salmon
     any_of:
       - range: WhitespaceMinimizedString
       - range: see_agri_industry_salmon
+    description: I would like to see cellular agriculture salmon be part of the Canadian agri\-food industry
   see_global_dev_icecream:
     name: see_global_dev_icecream
     any_of:
       - range: WhitespaceMinimizedString
       - range: see_global_dev_icecream
+    description: I would like to see cellular agriculture ice cream developed in places across the world
   see_global_dev_nuggets:
     name: see_global_dev_nuggets
     any_of:
       - range: WhitespaceMinimizedString
       - range: see_global_dev_nuggets
+    description: I would like to see cellular agriculture chicken nuggets developed in places across the world
   see_global_dev_salmon:
     name: see_global_dev_salmon
     any_of:
       - range: WhitespaceMinimizedString
       - range: see_global_dev_salmon
+    description: I would like to see cellular agriculture salmon developed in places across the world
   see_in_store_icecream:
     name: see_in_store_icecream
     any_of:
       - range: WhitespaceMinimizedString
       - range: see_in_store_icecream
+    description: I would like to see cellular agriculture ice cream sold in grocery stores
   see_in_store_nuggets:
     name: see_in_store_nuggets
     any_of:
       - range: WhitespaceMinimizedString
       - range: see_in_store_nuggets
+    description: I would like to see cellular agriculture chicken nuggets sold in grocery stores
   see_in_store_salmon:
     name: see_in_store_salmon
     any_of:
       - range: WhitespaceMinimizedString
       - range: see_in_store_salmon
+    description: I would like to see cellular agriculture salmon sold in grocery stores
   see_local_food_icecream:
     name: see_local_food_icecream
     any_of:
       - range: WhitespaceMinimizedString
       - range: see_local_food_icecream
+    description: I would like to see cellular agriculture ice cream be part of the local food economy where I live
   see_local_food_nuggets:
     name: see_local_food_nuggets
     any_of:
       - range: WhitespaceMinimizedString
       - range: see_local_food_nuggets
+    description: I would like to see cellular agriculture chicken nuggets be part of the local food economy where I live
   see_local_food_salmon:
     name: see_local_food_salmon
     any_of:
       - range: WhitespaceMinimizedString
       - range: see_local_food_salmon
+    description: I would like to see cellular agriculture salmon be part of the local food economy where I live
   self_grown_food_freq:
     name: self_grown_food_freq
     any_of:
       - range: WhitespaceMinimizedString
       - range: self_grown_food_freq
+    description: How often do you eat food that you grew or harvested yourself?
   ses_id:
     name: ses_id
     range: WhitespaceMinimizedString
+    description: Session ID
   source_backyard_animals:
     name: source_backyard_animals
     range: Boolean
+    description: Raise animals on own property
   source_butcher_shop:
     name: source_butcher_shop
     range: Boolean
+    description: Obtain animal\-sourced foods from butcher shops
   source_direct_from_farms:
     name: source_direct_from_farms
     range: Boolean
+    description: Obtain animal\-sourced foods directly from farms
   source_farmers_market:
     name: source_farmers_market
     range: Boolean
+    description: Obtain animal\-sourced foods from farmers’ markets or farm stands
   source_food_bank:
     name: source_food_bank
     range: Boolean
+    description: Obtain animal\-sourced foods from food banks
   source_grocery_superstore:
     name: source_grocery_superstore
     range: Boolean
+    description: Obtain animal\-sourced foods from grocery stores or superstores
   source_hunting_fishing:
     name: source_hunting_fishing
     range: Boolean
+    description: Obtain animal\-sourced foods through hunting or fishing
   source_other_specified:
     name: source_other_specified
     range: WhitespaceMinimizedString
+    description: Others (specify)
   source_own_farm:
     name: source_own_farm
     range: Boolean
+    description: Produce animal\-sourced foods on own farm
   start_time:
     name: start_time
     range: DateTime
+    description: Survey start time
   state:
     name: state
     range: WhitespaceMinimizedString
+    description: State
   status:
     name: status
     range: WhitespaceMinimizedString
+    description: Status
   support_cell_ag_sale:
     name: support_cell_ag_sale
     any_of:
       - range: WhitespaceMinimizedString
       - range: support_cell_ag_sale
+    description: Support the sale of cellular agriculture products in Canada
   tag:
     name: tag
     range: WhitespaceMinimizedString
+    description: Tag
   tech_marginalized:
     name: tech_marginalized
     any_of:
       - range: WhitespaceMinimizedString
       - range: tech_marginalized
+    description: Technology disproportionately affects marginalized communities
   tech_negatives:
     name: tech_negatives
     any_of:
       - range: WhitespaceMinimizedString
       - range: tech_negatives
+    description: The negative effects of technology outweigh its advantages
   tech_resources:
     name: tech_resources
     any_of:
       - range: WhitespaceMinimizedString
       - range: tech_resources
+    description: Future resource shortages will be solved by technology
   tech_society:
     name: tech_society
     any_of:
       - range: WhitespaceMinimizedString
       - range: tech_society
+    description: Society is worse off because of new technologies
   trust_ag_companies:
     name: trust_ag_companies
     any_of:
       - range: WhitespaceMinimizedString
       - range: trust_ag_companies
+    description: I trust agricultural companies to manage risks of food technologies
   trust_celebrities:
     name: trust_celebrities
     any_of:
       - range: WhitespaceMinimizedString
       - range: trust_celebrities
+    description: I trust celebrities or influencers to inform me about risks
   trust_env_activists:
     name: trust_env_activists
     any_of:
       - range: WhitespaceMinimizedString
       - range: trust_env_activists
+    description: I trust environmental activists to inform me about risks
   trust_family_friends:
     name: trust_family_friends
     any_of:
       - range: WhitespaceMinimizedString
       - range: trust_family_friends
+    description: I trust family and friends to inform me about risks
   trust_regulators:
     name: trust_regulators
     any_of:
       - range: WhitespaceMinimizedString
       - range: trust_regulators
+    description: I trust government regulators to manage risks of food technologies
   trust_scientists:
     name: trust_scientists
     any_of:
       - range: WhitespaceMinimizedString
       - range: trust_scientists
+    description: I trust scientists to manage risks of food technologies
   try_cell_icecream:
     name: try_cell_icecream
     any_of:
       - range: WhitespaceMinimizedString
       - range: try_cell_icecream
+    description: I would like to try cellular agriculture ice cream at least once
   try_cell_nuggets:
     name: try_cell_nuggets
     any_of:
       - range: WhitespaceMinimizedString
       - range: try_cell_nuggets
+    description: I would like to try cellular agriculture chicken nuggets at least once
   try_cell_salmon:
     name: try_cell_salmon
     any_of:
       - range: WhitespaceMinimizedString
       - range: try_cell_salmon
+    description: I would like to try cellular agriculture salmon at least once
   url:
     name: url
     range: WhitespaceMinimizedString
+    description: Link
   used_in_processed_foods:
     name: used_in_processed_foods
     any_of:
       - range: WhitespaceMinimizedString
       - range: used_in_processed_foods
+    description: Cellular agriculture will be used as ingredients in processed foods
   user_agent:
     name: user_agent
     range: WhitespaceMinimizedString
+    description: User agent
   vertical_agriculture:
     name: vertical_agriculture
     any_of:
       - range: WhitespaceMinimizedString
       - range: vertical_agriculture
+    description: Compared to cellular agriculture, how comfortable are you with vegetables grown indoors using artificial lighting and nutrients (vertical agriculture)?
   work_farming_employee:
     name: work_farming_employee
     range: Boolean
+    description: Involved in farm work as an employee or volunteer on a farm that you do not own
   work_farming_owner:
     name: work_farming_owner
     range: Boolean
+    description: Involved in farming as a farm owner or manager
   work_food_access:
     name: work_food_access
     range: Boolean
+    description: Involved in food access services (e.g., food banks) as part of your job or volunteer work
   work_food_distribution:
     name: work_food_distribution
     range: Boolean
+    description: Involved in food distribution activities as part of your job or volunteer work
   work_food_education:
     name: work_food_education
     range: Boolean
+    description: Involved in food\-related education as part of your job or volunteer work
   work_food_processing:
     name: work_food_processing
     range: Boolean
+    description: Involved in food processing activities as part of your job or volunteer work
   work_food_retail:
     name: work_food_retail
     range: Boolean
+    description: Involved in food retail (e.g., grocery stores) as part of your job or volunteer work
   work_none:
     name: work_none
     range: Boolean
+    description: Selected ‘none of the above’ for involvement in food\-related activities
   work_prefer_not_say:
     name: work_prefer_not_say
     range: Boolean
+    description: Selected ‘prefer not to say’ for involvement in food\-related activities
 enums:
   SettingsMenu:
     name: SettingsMenu

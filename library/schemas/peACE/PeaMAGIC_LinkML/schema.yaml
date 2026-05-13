@@ -1,28 +1,122 @@
-id: https://example.com/Genome
-name: Genome
-title: GENOME
-description: Unknown
+id: https://example.com/Peamagic
+name: Peamagic
+title: PeaMAGIC
+description: This schema describes a multi\-environment phenotypic and genotypic dataset for a pea (Pisum sativum) MAGIC population comprising 848 inbred lines derived from an 8\-founder crossing scheme. The population was genotyped using skim sequencing (Skim\-seq) to capture genome\-wide variation. Field phenotyping was conducted across multiple environments, including one location with three replicates in 2024 and three locations with two replicates each in 2025. Traits measured include days to flowering, days to maturity, lodging, plant height, seed protein concentration, seed starch concentration, and grain yield (kg/ha). The schema captures structured observations across genotypes, environments, and replicates, along with standardized trait definitions and measurement units.
 version: 0.0.0
 in_language: en
 imports:
-- linkml:types
+  - linkml:types
 prefixes:
   linkml: https://w3id.org/linkml/
 classes:
-  Genome:
-    name: Genome
-    title: GENOME
-    description: Unknown
+  Peamagic:
+    name: Peamagic
+    title: PeaMAGIC
+    description: This schema describes a multi\-environment phenotypic and genotypic dataset for a pea (Pisum sativum) MAGIC population comprising 848 inbred lines derived from an 8\-founder crossing scheme. The population was genotyped using skim sequencing (Skim\-seq) to capture genome\-wide variation. Field phenotyping was conducted across multiple environments, including one location with three replicates in 2024 and three locations with two replicates each in 2025. Traits measured include days to flowering, days to maturity, lodging, plant height, seed protein concentration, seed starch concentration, and grain yield (kg/ha). The schema captures structured observations across genotypes, environments, and replicates, along with standardized trait definitions and measurement units.
     keywords: RDF401
+    slots:
+      - Environment_ID
+      - Line_ID
+      - Location
+      - Rep
+      - Study_ID
+      - Trait_ID
+      - Unit
+      - Value
+      - Year
+    slot_usage:
+      Environment_ID:
+        name: Environment_ID
+        rank: 1
+        slot_group: General
+      Line_ID:
+        name: Line_ID
+        rank: 2
+        slot_group: General
+      Location:
+        name: Location
+        rank: 3
+        slot_group: General
+      Rep:
+        name: Rep
+        rank: 4
+        slot_group: General
+      Study_ID:
+        name: Study_ID
+        rank: 5
+        slot_group: General
+      Trait_ID:
+        name: Trait_ID
+        rank: 6
+        slot_group: General
+      Unit:
+        name: Unit
+        rank: 7
+        slot_group: General
+      Value:
+        name: Value
+        rank: 8
+        slot_group: General
+      Year:
+        name: Year
+        rank: 9
+        slot_group: General
   Container:
     name: Container
     tree_root: true
     attributes:
-      name: GenomeData
+      name: PeamagicData
       multivalued: true
-      range: Genome
+      range: Peamagic
       inlined_as_list: true
-slots: {}
+slots:
+  Environment_ID:
+    name: Environment_ID
+    title: Environment Identifier
+    range: WhitespaceMinimizedString
+    description: Identifier for a unique year\-location combination
+  Line_ID:
+    name: Line_ID
+    title: Line identifier
+    range: WhitespaceMinimizedString
+    description: Unique identifier for each inbred MAGIC line
+  Location:
+    name: Location
+    title: Location
+    range: WhitespaceMinimizedString
+    description: Name of the field trial location
+  Rep:
+    name: Rep
+    title: Replication
+    range: decimal
+    description: Replication number within the experimental design
+  Study_ID:
+    name: Study_ID
+    title: Study Identifier
+    range: WhitespaceMinimizedString
+    description: Unique identifier for the study dataset
+  Trait_ID:
+    name: Trait_ID
+    title: Trait identifier
+    any_of:
+      - range: WhitespaceMinimizedString
+      - range: Trait_ID
+    description: Identifier for the measured trait (e.g., DTF, DTM)
+  Unit:
+    name: Unit
+    title: Measurement unit
+    range: WhitespaceMinimizedString
+    description: Unit of measurement corresponding to the trait value (e.g., days, cm, kg/ha)
+  Value:
+    name: Value
+    title: Trait value
+    range: decimal
+    description: Observed or measured value for the specified trait
+  Year:
+    name: Year
+    title: Year
+    range: decimal
+    description: Calendar year in which the field experiment was conducted
 enums:
   SettingsMenu:
     name: SettingsMenu
@@ -33,8 +127,7 @@ enums:
         description: Entries of any length with only capital letters
       AlphaText1-50:
         title: AlphaText1-50
-        description: Capital or lower case letters only, at least 1 character, and
-          50 characters max
+        description: Capital or lower case letters only, at least 1 character, and 50 characters max
       AlphaText0-50:
         title: AlphaText0-50
         description: Capital or lower case letters only, 50 characters max
@@ -67,10 +160,10 @@ enums:
         description: Phone number with international and area code component.
       Latitude:
         title: Latitude
-        description: "Latitude in formats S30\xB015'45.678\" or N12\xB030.999\""
+        description: Latitude in formats S30°15'45.678" or N12°30.999"
       Longitude:
         title: Longitude
-        description: "Longitude in formats E30\xB015'45.678\" or W90\xB000.000\""
+        description: Longitude in formats E30°15'45.678" or W90°00.000"
       ISO_YYYY-MM-DD:
         title: ISO_YYYY-MM-DD
         description: year month day
@@ -104,7 +197,7 @@ enums:
         title: ISO_YYYY-MM-DDTHH:MM:SSZ
         description: Date and Time Combined (UTC)
       ISO_YYYY-MM-DDTHH.MM.SS-hh.mm:
-        title: "ISO_YYYY-MM-DDTHH:MM:SS\xB1hh:mm"
+        title: ISO_YYYY-MM-DDTHH:MM:SS±hh:mm
         description: Date and Time Combined (with Timezone Offset)
       ISO_PnYnMnDTnHnMnS:
         title: ISO_PnYnMnDTnHnMnS
@@ -139,13 +232,36 @@ enums:
       H.MM_or_HH.MM:
         title: H:MM or HH:MM
         description: hour, minutes AM/PM
+  Trait_ID:
+    name: Trait_ID
+    title: Trait_ID
+    permissible_values:
+      DTF:
+        text: DTF
+        title: Days to flowering
+      DTM:
+        text: DTM
+        title: Days to maturity
+      LDG:
+        text: LDG
+        title: Lodging
+      PH:
+        text: PH
+        title: Plant height
+      PROT:
+        text: PROT
+        title: Seed protein concentration
+      STARCH:
+        text: STARCH
+        title: Seed starch concentration
+      YLD:
+        text: YLD
+        title: Grain yield
 types:
   WhitespaceMinimizedString:
     name: WhitespaceMinimizedString
     typeof: string
-    description: 'A string that has all whitespace trimmed off of beginning and end,
-      and all internal whitespace segments reduced to single spaces. Whitespace includes
-      x9 (tab), #xA (linefeed), and #xD (carriage return).'
+    description: 'A string that has all whitespace trimmed off of beginning and end, and all internal whitespace segments reduced to single spaces. Whitespace includes x9 (tab), #xA (linefeed), and #xD (carriage return).'
     base: str
     uri: xsd:token
 settings:
@@ -164,10 +280,8 @@ settings:
   EmailAddress: ^[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+
   URL: ^https?\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,}$
   PhoneNumber: ^\+?\(?\d{2,4}\)?[\d\s-]{3,}$
-  Latitude: "^[NS]-?(?:[0-8]?\\d|90)\xB0(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\"\
-    )?$"
-  Longitude: "^[WE]-?(?:[0-8]?\\d|90)\xB0(?:\\d+(?:\\.\\d+)?)(?:'(\\d+(?:\\.\\d+)?)\"\
-    )?$"
+  Latitude: ^[NS]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
+  Longitude: ^[WE]-?(?:[0-8]?\d|90)°(?:\d+(?:\.\d+)?)(?:'(\d+(?:\.\d+)?)")?$
   ISO_YYYY-MM-DD: ^(\d{4})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$
   ISO_YYYYMMDD: ^(\d{4})(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|3[0-1])$
   ISO_YYYY-MM: ^(\d{4})-(0[1-9]|1[0-2])$
